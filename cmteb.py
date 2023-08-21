@@ -1,11 +1,12 @@
 from disaster_scrapers import Scraper
 import requests
-# import json, re
+import json, re
 
 
 class cmteb(Scraper):
     owner = "gov2-ro"
-    repo = "gh-scraping-data"
+    repo = "github-scrapers"
+    # repo = "gh-scraping-data"
     # filepath = "misc/cmteb.json"
     filepath = "cmteb.json"
 
