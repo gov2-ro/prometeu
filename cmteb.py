@@ -1,6 +1,6 @@
 from disaster_scrapers import Scraper
 import requests
-import json, re
+# import json, re
 
 
 class cmteb(Scraper):
