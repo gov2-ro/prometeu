@@ -6,7 +6,8 @@ import json, re
 class cmteb(Scraper):
     owner = "gov2-ro"
     repo = "gh-scraping-data"
-    filepath = "misc/cmteb.json"
+    # filepath = "misc/cmteb.json"
+    filepath = "cmteb.json"
 
     url = 'https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php'
     
