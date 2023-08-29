@@ -4,8 +4,6 @@ import json, re, requests
 ziurl = 'https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php'
 data_root = 'data/cmteb/'
 
-# TODO: prepare for github scraping
-
 def fetch_and_save_html(url):
     # current_date_time = datetime.datetime.now().strftime('%y-%m-%d %H:%M')
 
@@ -16,10 +14,6 @@ def fetch_and_save_html(url):
     if response.status_code != 200:
         print(f"Failed to fetch data from the website. HTTP Error {response.status_code}")
         return None
-
-    # html_file = f'{data_root}/cached/{current_date_time}.html'
-    # with open(html_file, 'w', encoding='utf-8') as file:
-    #     file.write(response.text)
 
     return response.text
 
@@ -42,7 +36,7 @@ def save_json_to_file(data):
     
     json_file = f'{data_root}/latest.json'
     with open(json_file, 'w') as file:
-        json.dump(data, file)
+        json.dump(data, file, indent=4)
 
     return data
 
@@ -54,13 +48,5 @@ if __name__ == "__main__":
 
     data = extract_json_from_html(cached_html)
 
-    print(data)
-
+    print(json.dumps(data, indent=4))
     save_json_to_file(data)
-
-    
-
-    # moved_html_file = f'{data_root}/cached/parsed/{os.path.basename(cached_html_file)}'
-    # move_files(cached_html_file, moved_html_file)
-
-    # print(f"-- JSON data saved to '{json_file}' and HTML file moved to '{moved_html_file}' successfully.")
