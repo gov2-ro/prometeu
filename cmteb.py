@@ -1,6 +1,5 @@
-import os, json, re, requests, shutil, datetime
-import wget
-from bs4 import BeautifulSoup
+import json, re, requests
+# from bs4 import BeautifulSoup
 
 ziurl = 'https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php'
 data_root = 'data/cmteb/'
@@ -8,7 +7,7 @@ data_root = 'data/cmteb/'
 # TODO: prepare for github scraping
 
 def fetch_and_save_html(url):
-    current_date_time = datetime.datetime.now().strftime('%y-%m-%d %H:%M')
+    # current_date_time = datetime.datetime.now().strftime('%y-%m-%d %H:%M')
 
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 
