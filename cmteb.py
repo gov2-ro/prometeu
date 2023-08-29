@@ -1,4 +1,4 @@
-import os, json, re, requests,  shutil, datetime
+import os, json, re, requests, shutil, datetime
 import wget
 from bs4 import BeautifulSoup
 
