@@ -411,6 +411,14 @@
         {
             "stare": "Functionare normala",
             "culoare": "#008217",
+            "denumire": "1 Ro\u0219u",
+            "longitudine": 26.00627,
+            "latitudine": 44.43783,
+            "tip": "-"
+        },
+        {
+            "stare": "Functionare normala",
+            "culoare": "#008217",
             "denumire": "3 Crivina",
             "longitudine": 26.044981731707,
             "latitudine": 44.455289994279,
@@ -2699,6 +2707,14 @@
         {
             "stare": "Functionare normala",
             "culoare": "#008217",
+            "denumire": "MILITARI -  6 Placare",
+            "longitudine": 26.045785086266,
+            "latitudine": 44.432277319311,
+            "tip": "-"
+        },
+        {
+            "stare": "Functionare normala",
+            "culoare": "#008217",
             "denumire": "Ministerul de Finante",
             "longitudine": 26.112575,
             "latitudine": 44.419647,
@@ -4859,14 +4875,6 @@
         {
             "stare": "Functionare normala",
             "culoare": "#008217",
-            "denumire": "Floreasca",
-            "longitudine": 26.100444,
-            "latitudine": 44.460711,
-            "tip": "-"
-        },
-        {
-            "stare": "Functionare normala",
-            "culoare": "#008217",
             "denumire": "Posta",
             "longitudine": 26.114064589621,
             "latitudine": 44.383052351322,
@@ -5446,14 +5454,6 @@
             "denumire": "2 Teiul Doamnei ",
             "longitudine": 26.125906099465,
             "latitudine": 44.461141708789,
-            "tip": "-"
-        },
-        {
-            "stare": "Functionare normala",
-            "culoare": "#008217",
-            "denumire": "MODUL TERMIC A1",
-            "longitudine": 26.051083,
-            "latitudine": 44.479201,
             "tip": "-"
         },
         {
@@ -7678,22 +7678,13 @@
             "remediere": "05.09.2023 23:00"
         },
         {
-            "stare": "Remediere avarie re\u021bea secundar\u0103 pe circuitul de ap\u0103 cald\u0103 de consum ",
+            "stare": "Remediere avarie re\u021bea secundar\u0103 pe circuitul de ap\u0103 cald\u0103 de consum",
             "culoare": "#e0002b",
-            "denumire": "1 Ro\u0219u",
-            "longitudine": 26.00627,
-            "latitudine": 44.43783,
+            "denumire": "MODUL TERMIC A1",
+            "longitudine": 26.051083,
+            "latitudine": 44.479201,
             "tip": "Oprire ACC",
-            "remediere": "02.09.2023 18:00"
-        },
-        {
-            "stare": "Remediere avarie re\u021bea secundar\u0103 pe circuitul de ap\u0103 cald\u0103 de consum ",
-            "culoare": "#e0002b",
-            "denumire": "MILITARI -  6 Placare",
-            "longitudine": 26.045785086266,
-            "latitudine": 44.432277319311,
-            "tip": "Oprire ACC",
-            "remediere": "02.09.2023 16:00"
+            "remediere": "04.09.2023 15:30"
         },
         {
             "stare": "Revizie tehnic\u0103 re\u0163ea termic\u0103 primar\u0103 ",
@@ -7705,5 +7696,15 @@
             "remediere": "02.10.2023 23:30"
         }
     ],
-    "galben": []
+    "galben": [
+        {
+            "stare": "Lipsa parametri pentru livrare ap\u0103 cald\u0103 de consum ",
+            "culoare": "#ffe53e",
+            "denumire": "Floreasca",
+            "longitudine": 26.100444,
+            "latitudine": 44.460711,
+            "tip": "Deficienta ACC",
+            "remediere": "02.09.2023 21:00"
+        }
+    ]
 }
