@@ -22,13 +22,13 @@ jobs:
         pip install -r requirements.txt
     - name: Fetch latest CMTEB data
       run: |-
-        python cmteb.py
+        python scrapers/cmteb.py
     - name: Fetch latest ANDNET data
       run: |-
-        python andnet.py    
+        python scrapers/andnet.py    
     - name: Commit and push if it changed
       run: |-
-        git config user.name "Automated"
+        git config user.name "gov2-ro"
         git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
