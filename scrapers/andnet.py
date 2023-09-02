@@ -14,6 +14,7 @@ outputFile='situatia-drumurilor.json'
 - [x] decode json
 - [x] split paths, points
 - [x] extract data from 'Desc'
+- [ ] extract coords
 - [ ] compact coords
 
  """
@@ -62,25 +63,42 @@ def save_json_to_file(data, json_file):
 
 def extract_bold_text(input_string):
     # Define a regular expression pattern to match <b>bold:</b> text
+    # get name - TODO: refactor
+    
+    result = {}
+    
+    soup = BeautifulSoup(input_string, 'html.parser')
+    name = soup.find('b').text.strip()
+    result['name'] = name
+
+    name_tag = soup.find('b')
+    if name_tag:
+        name_tag.extract()
+    input_string = str(soup)
     pattern = r'<b>(.+?):</b>\s*(.*?)\s*<'
 
     # Find all matches in the input string
     matches = re.findall(pattern, input_string)
 
-    # Create a dictionary to store the extracted values
-    result = {}
+    
 
     for match in matches:
         key = match[0].strip()  # Remove leading and trailing whitespace
         value = match[1].strip()  # Remove leading and trailing whitespace
         result[key] = value
 
+
+    
     return result
 
 # Function to double the value of an item
 def decode_html(zitem):
         # item["Desc"] = extract_html_props(zitem["Desc"])
         zitem.update(extract_bold_text(zitem["Desc"]))
+        
+        if len(item['coords']) == 2:
+            zitem['lat'] = zitem['coords'][0]
+            zitem['long'] = zitem['coords'][1]
         del zitem["Desc"]
 
 if __name__ == "__main__":
@@ -88,12 +106,14 @@ if __name__ == "__main__":
     cached_html = fetch_data(url)
     data = extract_json(cached_html)
     
-    # - test w cached data 
+    # - test w locally cached data 
     # f = open(data_folder + 'latest.json')
     # data = json.load(f)    
 
     # Iterate through the "items" list and apply the function to matching elements
     for item in data["points"]:
+        decode_html(item)
+    for item in data["paths"]:
         decode_html(item)
 
     save_json_to_file(data['points'], data_folder + 'points.json')
