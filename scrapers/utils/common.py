@@ -1,6 +1,6 @@
 import json, re, requests
 
-data_root = '../data/'
+data_root = 'data/'
 # owner = "gov2-ro"
 # repo = "gh-scraping-data"
 
