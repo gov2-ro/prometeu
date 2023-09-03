@@ -63,5 +63,8 @@ def extract_json_from_html(html_content):
 if __name__ == "__main__":
     zidata = extract_json_from_html(fetch_data(ziurl))
     
-    save_json_to_file(zidata, data_folder+outputFile, 'pretty_ensure_ascii_false' )
-    print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFile )
+    ll = save_json_to_file(zidata, data_folder+outputFile, 'pretty_ensure_ascii_false' )
+    if ll:
+        print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFile )
+    else:
+        print('no changes in ' + outputFile)
