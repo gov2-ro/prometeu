@@ -5,10 +5,9 @@ from datetime import datetime
 import os, json, re
 from datetime import datetime
 from utils.common import fetch_data, save_json_to_file, data_root
- 
 import demjson
-import ast
-py
+# import ast
+ 
 # from tqdm import tqdm
 
 baseurl='https://dispecerat.andnet.ro/index.php'
@@ -137,7 +136,8 @@ def getSection(xroads):
             .replace(",]", "]")
         )
         strx = "{" + zzcript + "}"
-        json_data = ast.literal_eval(json.dumps(strx))
+        # json_data = ast.literal_eval(json.dumps(strx))
+        json_data = json.dumps(strx)
 
         match1 = (
             re.search(r"data=\[{.*data2=", json_data, re.DOTALL)
