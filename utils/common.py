@@ -35,6 +35,7 @@ def save_json_to_file(data, json_file, compact = 'compact', mode = ''):
 
      """
     
+    """     
     # check if file has changed
     if mode != 'overwrite':
         if os.path.getsize(json_file):
@@ -77,7 +78,7 @@ def save_json_to_file(data, json_file, compact = 'compact', mode = ''):
                 #     filep.write(xprev_json)
                 # with open('current.json', 'w') as filec:      
                 #     filec.write(zdata)
-
+    """
     with open(json_file, 'w') as file:      
         if compact   == 'compact':
             file.write(compact_json(data))
