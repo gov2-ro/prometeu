@@ -1,3 +1,10 @@
+
+""" 
+TODOs:
+- [x] export jsons
+- [ ] ecport csvs
+ """
+
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup as bs
 import pandas as pd
@@ -6,12 +13,11 @@ import os, json, re
 from datetime import datetime
 from utils.common import fetch_data, save_json_to_file, data_root
 import demjson3
-# import ast
- 
+
 # from tqdm import tqdm
 
 baseurl='https://dispecerat.andnet.ro/index.php'
-outputJsonRoot = data_root + 'andnet/tabel-'
+outputJsonRoot = data_root + 'andnet/'
 
 legend = {
  "1. Evenimente rutiere:": "evenimente rutiere",
@@ -22,6 +28,9 @@ legend = {
  "8. Conditii meteorologice:": "meteo",
  "9. Temperaturi:": "temperatura"
 }
+
+
+
 
 # - - - - - - - - - - - - - - - - - - - - -  
 #  Functions
@@ -301,6 +310,9 @@ for ix, dataset in niceJson.items():
         table_name = generate_slug(dataset['name'])
         # TODO: write json to file
     
-    save_json_to_file(dataset['data'],outputJsonRoot + table_name + '.json')
+    save_json_to_file(dataset['data'],outputJsonRoot + 'json/tabel-' + table_name + '.json')
+    df = pd.read_json(json.dumps(dataset['data']))
+    df.to_csv(outputJsonRoot + 'json/'+ table_name + '.csv', encoding='utf-8', index=False)
+
 
 # print(json.dumps(niceJson, ensure_ascii=False))

@@ -5,7 +5,7 @@ from utils.common import fetch_data, save_json_to_file, data_root
 
 ziurl = 'https://andnet.ro/dispecerat/api/java.php'
 data_folder = data_root +'andnet/'
-outputFileRoot='situatia-drumurilor-'
+outputFileRoot='situatia-drumurilor'
 
 """ 
 # ANDNET.ro: Starea drumurilor din România
@@ -110,11 +110,11 @@ if __name__ == "__main__":
     # print('- paths loaded')
 
     # save jsons
-    save_json_to_file(data['points'], data_folder + outputFileRoot + 'points.json', 'compact', 'overwrite')
-    save_json_to_file(data['paths'],  data_folder + outputFileRoot + 'paths.json',  'compact', 'overwrite')
+    save_json_to_file(data['points'], data_folder + 'json/' + outputFileRoot + '-points.json', 'compact', 'overwrite')
+    save_json_to_file(data['paths'],  data_folder + 'json/' + outputFileRoot + '-paths.json',  'compact', 'overwrite')
     print('-- saved ' + str(len(data['points'])) + ' points and ' + str(len(data['paths'])) + ' paths.' )
     # save csvs
     df_points = pd.read_json(json.dumps(data['points']))
-    df_points.to_csv(data_folder + outputFileRoot + 'points.csv', encoding='utf-8', index=False)
+    df_points.to_csv(data_folder + 'csv/' + outputFileRoot + '-points.csv', encoding='utf-8', index=False)
     df_paths = pd.read_json(json.dumps(data['paths']))
-    df_paths.to_csv(data_folder + outputFileRoot + 'paths.csv', encoding='utf-8', index=False)
+    df_paths.to_csv(data_folder + 'csv/' + outputFileRoot + '-paths.csv', encoding='utf-8', index=False)
