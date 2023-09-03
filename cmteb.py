@@ -22,7 +22,7 @@ sorted by lat/long
 
 import json, re
 # from bs4 import BeautifulSoup
-from utils.common import fetch_html, order_bylatlong, save_json_to_file,  data_root
+from utils.common import fetch_data, order_bylatlong, save_json_to_file,  data_root
 
 ziurl = 'https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php'
 data_folder = data_root +'cmteb/'
@@ -35,13 +35,18 @@ def extract_json_from_html(html_content):
     nicedata = stats = {}
     for color in ['verde', 'rosu', 'galben']:
         pattern = r'var passedFeatures_{} = (.+?);'.format(color)
-        data = re.search(pattern, fetch_html(ziurl))
+        data = re.search(pattern, fetch_data(ziurl))
         if data:
             data_str = data.group(1)
             # nicedata[color] = json.loads(data_str)
             nicedata = json.loads(data_str)
-            for d in nicedata:
-                d['status'] = legend[color]
+            for dx in nicedata:
+                dx['status'] = legend[color]
+                # strip spaces from strings
+                for key, val in dx.items():
+                    if type(val) is str:
+                        dx[key] = val.strip()
+
         # else:
             # TODO: log errors
             # print(f"Data for '{color}' not found in the HTML.")
@@ -52,14 +57,11 @@ def extract_json_from_html(html_content):
 
     print(stats)
  
-    # print(json.dumps(sorted_data, indent=4))  
-    # save_json_to_file(sorted_data, data_root+outputFile)
-    # print('saved ' + str(len(data)) + ' records to ' + data_root + data_folder +  outputFile )
-    # ll = json.dumps(sorted_data)
+
     return sorted_data
  
 if __name__ == "__main__":
-    zidata = extract_json_from_html(fetch_html(ziurl))
+    zidata = extract_json_from_html(fetch_data(ziurl))
     
-    save_json_to_file(zidata, data_folder+outputFile)
+    save_json_to_file(zidata, data_folder+outputFile, 'pretty_ensure_ascii_false' )
     print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFile )
