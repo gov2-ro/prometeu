@@ -4,18 +4,15 @@ import pandas as pd
 from datetime import datetime
 import os, json, re, time
 from datetime import datetime
-
-# import time, datetime, os, json, csv
-from icecream import ic
+from utils.common import fetch_data, save_json_to_file, data_root
  
 import demjson
 import ast
-# import numpy as np
-from tqdm import tqdm
 
+# from tqdm import tqdm
 
 baseurl='https://dispecerat.andnet.ro/index.php'
-outputJson = 'data/andnet/situatie-drumuri.json'
+outputJsonRoot = data_root + 'andnet/tabel-'
 
 legend = {
  "1. Evenimente rutiere:": "evenimente rutiere",
@@ -87,7 +84,7 @@ def getSection(xroads):
 
     rez = {"title": xroads["title"], "type": xroads["type"], "roads": []}
     rsize = len(xroads['data'])
-    pbar = tqdm(total=rsize)
+    # pbar = tqdm(total=rsize)
     ii = 0
     for p in xroads["data"]:
         ii += 1
@@ -117,7 +114,7 @@ def getSection(xroads):
             + "&acces=3614"
         )
         # zurl = "http://zx/gov2/dispecerat-cnadr/data/raw/sample-path.html"
-        tqdm.write('>> ' + str(ii) + ' / ' + str(rsize) + ' - ' + zurl)
+        # tqdm.write('>> ' + str(ii) + ' / ' + str(rsize) + ' - ' + zurl)
         req = Request(
             zurl, headers={"User-Agent": "Mozilla/5.0"}
         )  # approach url cere pagina html
@@ -166,7 +163,7 @@ def getSection(xroads):
         # not needed
         # match2 = re.search(r'data_polygon=\[{.*function addPointGeom_polygon', json_data, re.DOTALL).group(0).replace('data_polygon=','').replace(';function addPointGeom_polygon','')
         rez['roads'].append(item)
-        pbar.update(1)
+        # pbar.update(1)
         time.sleep(3)
     return rez 
 
@@ -297,11 +294,13 @@ for z,set in zijson['data'].items():
 
 for ix, dataset in niceJson.items():
     
-    print(dataset['name'])
+    # print(dataset['name'])
     if dataset['name'] in legend:
-        print(legend[dataset['name']])
+        table_name = legend[dataset['name']]
     else:
-        print(generate_slug(dataset['name']))
+        table_name = generate_slug(dataset['name'])
         # TODO: write json to file
+    
+    save_json_to_file(dataset['data'],outputJsonRoot + table_name + '.json')
 
 # print(json.dumps(niceJson, ensure_ascii=False))
