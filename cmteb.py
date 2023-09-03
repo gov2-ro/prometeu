@@ -22,13 +22,13 @@ sorted by lat/long
 
 import json, re
 # from bs4 import BeautifulSoup
+import pandas as pd
 from utils.common import fetch_data, order_bylatlong, save_json_to_file,  data_root
 
 ziurl = 'https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php'
 data_folder = data_root +'cmteb/'
 legend = {'verde': 'functionale', 'galben': 'deficiente', 'rosu': 'avarii'}
-outputFile = 'status-sistem-termoficare-bucuresti.json'
-inline_keys = ['longitudine', 'latitudine']
+outputFileRoot = 'status-sistem-termoficare-bucuresti'
 
 def extract_json_from_html(html_content):
     alldata = []
@@ -63,8 +63,13 @@ def extract_json_from_html(html_content):
 if __name__ == "__main__":
     zidata = extract_json_from_html(fetch_data(ziurl))
     
-    ll = save_json_to_file(zidata, data_folder+outputFile, 'pretty_ensure_ascii_false' )
+    ll = save_json_to_file(zidata, data_folder+outputFileRoot+'.json', 'pretty_ensure_ascii_false' )
+
     if ll:
-        print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFile )
+        print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFileRoot )
+        # save csvs
+        df = pd.read_json(json.dumps(zidata))
+        df.to_csv(data_folder + outputFileRoot + '.csv', encoding='utf-8', index=False)
     else:
-        print('no changes in ' + outputFile)
+        print('no changes in ' + outputFileRoot)
+
