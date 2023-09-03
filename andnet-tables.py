@@ -310,9 +310,9 @@ for ix, dataset in niceJson.items():
         table_name = generate_slug(dataset['name'])
         # TODO: write json to file
     
-    save_json_to_file(dataset['data'],outputJsonRoot + 'json/tabel-' + table_name + '.json')
+    save_json_to_file(dataset['data'],outputJsonRoot + 'json/' + table_name + '.json')
     df = pd.read_json(json.dumps(dataset['data']))
-    df.to_csv(outputJsonRoot + 'json/'+ table_name + '.csv', encoding='utf-8', index=False)
+    df.to_csv(outputJsonRoot + 'json/' + table_name + '.csv', encoding='utf-8', index=False)
 
 
 # print(json.dumps(niceJson, ensure_ascii=False))
