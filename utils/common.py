@@ -72,10 +72,11 @@ def save_json_to_file(data, json_file, compact = 'compact', mode = ''):
                 return ''
             else:
                 print (str(len(prev_json)) + ' / ' + str(len(xprev_json)) + ' -> ' + str(len(data)) + ' / ' + str(len(zdata)) )
-                with open('prev.json', 'w') as filep:      
-                    filep.write(xprev_json)
-                with open('current.json', 'w') as filec:      
-                    filec.write(zdata)
+                print(str(len(data)) + ' / ' +len(prev_json) )
+                # with open('prev.json', 'w') as filep:      
+                #     filep.write(xprev_json)
+                # with open('current.json', 'w') as filec:      
+                #     filec.write(zdata)
 
     with open(json_file, 'w') as file:      
         if compact   == 'compact':
