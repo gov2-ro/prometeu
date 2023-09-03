@@ -5,7 +5,7 @@ from datetime import datetime
 import os, json, re
 from datetime import datetime
 from utils.common import fetch_data, save_json_to_file, data_root
-import demjson
+import demjson3
 # import ast
  
 # from tqdm import tqdm
@@ -146,7 +146,7 @@ def getSection(xroads):
             .replace(";var data2", "")
         )
         m1 = match1[:-1]  # remove last char from string
-        obj1 = demjson.decode(m1)[0]
+        obj1 = demjson3.decode(m1)[0]
         item['Desc']=obj1['Desc']
         # FIXME: reverse coords
         krds = obj1['coords']
