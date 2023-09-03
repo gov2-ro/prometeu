@@ -16,7 +16,8 @@ sorted by lat/long
 - [x] refactor json
 - [x] order by lat long
 - [ ] save stats to file
-- [ ] save as csv
+- [x] save as csv
+- [x] check if changed
 - [ ] meaningful commit msg
  """
 

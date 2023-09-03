@@ -18,7 +18,8 @@ outputFileRoot='situatia-drumurilor-'
 - [x] extract coords
 - [x] compact coords
 - [x] extract ranges: perioada, km
-- [ ] save as csv
+- [x] save as csv
+- [ ] check if changed
 
  """
 
