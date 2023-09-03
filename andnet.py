@@ -88,13 +88,13 @@ def decode_html(zitem):
 
 if __name__ == "__main__":
     url = ziurl
-    # cached_html = fetch_data(url)
-    # print('-- data fetched from ' + url)
-    # data = extract_json(cached_html)
+    cached_html = fetch_data(url)
+    print('-- data fetched from ' + url)
+    data = extract_json(cached_html)
 
-    f = open(data_folder + '_obsolete/andnet-cached.html') 
-    xx = f.read()  
-    data = extract_json(xx)  
+    # f = open(data_folder + '_obsolete/andnet-cached.html') 
+    # xx = f.read()  
+    # data = extract_json(xx)  
     # print('- extracted json')
 
 
