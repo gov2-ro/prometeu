@@ -2,13 +2,13 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 from datetime import datetime
-import os, json, re, time
+import os, json, re
 from datetime import datetime
 from utils.common import fetch_data, save_json_to_file, data_root
  
 import demjson
 import ast
-
+py
 # from tqdm import tqdm
 
 baseurl='https://dispecerat.andnet.ro/index.php'
@@ -164,7 +164,7 @@ def getSection(xroads):
         # match2 = re.search(r'data_polygon=\[{.*function addPointGeom_polygon', json_data, re.DOTALL).group(0).replace('data_polygon=','').replace(';function addPointGeom_polygon','')
         rez['roads'].append(item)
         # pbar.update(1)
-        time.sleep(3)
+        # time.sleep(3)
     return rez 
 
 def generate_slug(input_string):
