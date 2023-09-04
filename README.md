@@ -2,7 +2,7 @@
 
 # _Grebla lu' Prometeu_
 
-vezi [git-scraping](https://simonwillison.net/tags/gitscraping/) - [Git scraping: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/) 
+vezi [*Git scraping*: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/) / [git-scraping](https://simonwillison.net/tags/gitscraping/) / [gh topics: git-scraping](https://github.com/topics/git-scraping)  /  [dev notes](dev-notes.md) 
 
 
 ## Scrapers 
@@ -17,5 +17,4 @@ vezi [git-scraping](https://simonwillison.net/tags/gitscraping/) - [Git scraping
     - temperatura
     - situatia-drumurilor-paths
     - situatia-drumurilor-points
-
 - CMTEB  - [Stare sistem termoficare oraș Bucuresti](data/cmteb/) 
