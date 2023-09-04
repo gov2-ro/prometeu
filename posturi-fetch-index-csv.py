@@ -44,14 +44,14 @@ def scrape_and_save_page(url, page_number, existing_data):
         job['title'] = box.select_one('div.title a').text
         job['link_url'] = box.select_one('div.title a')['href']
         job['angajator'] = box.select_one('div.angajator').text
-        job['n'] = ', '.join([n.text for n in box.select('div.n')])
+        job['tip'] = ', '.join([n.text for n in box.select('div.n')])
         
         data_div = box.select_one('li.data div.data')
         
         # Filter the elements by their text content
         data_items = [item.strip() for item in data_div.stripped_strings]
-        job['publicat'] = data_items[0]
-        job['expira'] = data_items[1]
+        job['publicat'] = data_items[0].replace('Publicat în: ', '').strip()
+        job['expira'] = data_items[1].replace('Expiră in ', '').strip()
         
         locatie_div = box.select_one('li.locatie div.locatie')
         job['locatie_name'] = locatie_div.text.strip()
@@ -71,7 +71,7 @@ def scrape_and_save_page(url, page_number, existing_data):
             new_jobs.append(job)
     
     # Append new data to the CSV file
-    fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
+    fieldnames = ['title', 'link_url', 'angajator', 'tip', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
     with open(csvFile, "a", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         for job in new_jobs:
