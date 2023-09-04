@@ -2,7 +2,7 @@
 """ 
 TODOs:
 - [x] export jsons
-- [ ] ecport csvs
+- [x] export csvs
  """
 
 from urllib.request import Request, urlopen
