@@ -1,23 +1,35 @@
-import requests
-import csv
-from bs4 import BeautifulSoup
 
 dataRoot = 'data/posturi/'
 csvFile = dataRoot + 'posturi.csv'
+import requests
+import csv
+from bs4 import BeautifulSoup
+import os
 
-# Function to load existing data from a CSV file
-def load_existing_data():
+# Function to create the CSV file if it doesn't exist
+def create_csv_file():
+    if not os.path.isfile(csvFile):
+        with open(csvFile, "w", newline="", encoding="utf-8") as csv_file:
+            fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+
+# Function to load the latest 30 rows from the CSV file
+def load_latest_data():
     try:
-        existing_data = []
+        latest_data = []
         with open(csvFile, "r", newline="", encoding="utf-8") as csv_file:
             reader = csv.DictReader(csv_file)
-            for row in reader:
-                existing_data.append(row)
+            rows = list(reader)
+            if len(rows) > 30:
+                latest_data = rows[-30:]  # Load the latest 30 rows
+            else:
+                latest_data = rows
     except FileNotFoundError:
-        existing_data = []
-    return existing_data
+        latest_data = []
+    return latest_data
 
-# Function to scrape data from a single page and append it to a CSV file
+# Function to scrape data from a single page and write new data to a CSV file
 def scrape_and_save_page(url, page_number, existing_data):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -47,42 +59,37 @@ def scrape_and_save_page(url, page_number, existing_data):
         
         job['dosar'] = box.select_one('div.dosar').text
         
-        # Check if the record with the same link_url and locatie_name already exists
-        if not any(item['link_url'] == job['link_url'] and item['locatie_name'] == job['locatie_name'] for item in existing_data):
-            job_list.append(job)
+        job_list.append(job)
     
     # Combine the new data with existing data
     all_jobs = existing_data + job_list
     
-    # Append all data to the same CSV file
+    # Check for new data by comparing with the latest 30 rows
+    new_jobs = []
+    for job in job_list:
+        if not any(job['link_url'] + job['locatie_name'] in row['link_url'] + row['locatie_name'] for row in existing_data):
+            new_jobs.append(job)
+    
+    # Append new data to the CSV file
     fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
     with open(csvFile, "a", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        
-        # Write headers only if the file is empty
-        if not existing_data:
-            writer.writeheader()
-        
-        for job in job_list:
+        for job in new_jobs:
             writer.writerow(job)
     
-    return job_list
+    return new_jobs
 
 # Function to scrape and paginate through all pages
 def scrape_all_pages(base_url, max_pages):
-    existing_data = load_existing_data()
+    create_csv_file()  # Create the CSV file if it doesn't exist
+    existing_data = load_latest_data()
     
     for page_number in range(1, max_pages + 1):
         url = f"{base_url}/page/{page_number}/"
         print(f"Scraping page {page_number}...")
-        jobs = scrape_and_save_page(url, page_number, existing_data)
-        
-        # If no new jobs were added on this page, stop scraping
-        if not jobs:
-            print("No new jobs found on this page. Stopping scraping.")
-            break
+        new_jobs = scrape_and_save_page(url, page_number, existing_data)
     
-    print("Scraping complete. Data appended incrementally to the same CSV file.")
+    print(f"Scraping complete. Saved {len(new_jobs)} new records.")
 
 if __name__ == "__main__":
     base_url = "http://posturi.gov.ro"
