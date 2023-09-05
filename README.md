@@ -6,20 +6,34 @@ uses [*Git scraping*: track changes over time by scraping to a Git repository](h
 
 [flatgithub.com/gov2-ro/prometeu](https://flatgithub.com/gov2-ro/prometeu) (Flat Data viewer)
 
+---
+
 ## Scrapers 
 
 ### [Situația drumurilor](data/andnet/) 
 
 circulatie ingreunata, circulatie intrerupta, evenimente rutiere, lucrari, meteo, starea generala, temperatura, situatia-drumurilor-paths, situatia-drumurilor-points | sursă: [dispecerat.andnet.ro](https://dispecerat.andnet.ro/)
 
-### [Timp așteptare vame](data/politia-de-frontiera)
+---
+
+### [Timp așteptare puncte frontieră](data/politia-de-frontiera)
 
 sursă: [politiadefrontiera.ro](https://www.politiadefrontiera.ro/ro/traficonline) 
+
+---
 
 ### [posturi.gov.ro](data/posturi/)
 
 Posturile vacante din cadrul autorităților și instituțiilor publice din România publicate | sursă: [posturi.gov.ro](http://posturi.gov.ro/)
 
+---
+
 ### [Stare sistem termoficare oraș Bucuresti](data/cmteb/)
 
 sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php)
+
+---
+
+### Curs valutar
+
+sursă: [bnr.ro](https://www.bnr.ro/nbrfxrates.xml) 
