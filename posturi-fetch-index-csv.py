@@ -1,4 +1,13 @@
 
+""" 
+## Roadmap
+- [x] fetch index
+- [x] save incrementally
+- [ ] check before saving - use https://github.com/simonw/csv-diff
+- [ ] fetch job details
+
+ """
+
 dataRoot = 'data/posturi/'
 csvFile = dataRoot + 'posturi.csv'
 from datetime import datetime
