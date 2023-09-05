@@ -24,7 +24,10 @@ combined_data = []
 
 for source in sources:
     url = base_url + source['url_vars']
-    response = requests.get(url, headers=headers)
+    try:
+        response = requests.get(url, headers=headers)
+    except requests.exceptions.ConnectionError:
+        response.status_code = "Connection refused"
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')

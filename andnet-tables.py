@@ -31,7 +31,6 @@ legend = {
 
 
 
-
 # - - - - - - - - - - - - - - - - - - - - -  
 #  Functions
 # - - - - - - - - - - - - - - - - - - - - -  
@@ -105,10 +104,6 @@ def getSection(xroads):
             "acces": 3614,
         }
         # ic(p)
-        # xx = xroads[p]
-        # print(type(xx))
-        # print(  'NR. CRT.:' + p['NR. CRT.']['text'] + 'Indicativ drum:' + p['Indicativ drum']['text'] + 'De la km:' + p['De la km']['text'] + 'Pana la km:' + p['Pana la km']['text'] + 'De la data:' + p['De la data']['text'] + 'Pana la data:' + p['Pana la data']['text'] + 'Intre localitatile:' + p['Intre localitatile']['text'] + 'Cauza:' + p['Cauza']['text'] + 'Masuri de remediere:' + p['Masuri de remediere']['text']  )
-        # breakpoint()
 
         # NOW PARSE GIS
         zurl = (
@@ -160,16 +155,11 @@ def getSection(xroads):
         # FIXME: reverse coords
         krds = obj1['coords']
         xkrds=[]
-        # breakpoint()
+
         for feature in krds:
-            # feature  = 
             xkrds.append(swapCoords(feature))
         # breakpoint()
         item['coords']=xkrds
-        # obj1['Desc']
-        # obj1['coords']
-        # breakpoint()
-        # not needed
         # match2 = re.search(r'data_polygon=\[{.*function addPointGeom_polygon', json_data, re.DOTALL).group(0).replace('data_polygon=','').replace(';function addPointGeom_polygon','')
         rez['roads'].append(item)
         # pbar.update(1)
@@ -177,24 +167,12 @@ def getSection(xroads):
     return rez 
 
 def generate_slug(input_string):
-    # Remove leading and trailing whitespaces
-    input_string = input_string.strip()
-    
-    # Replace special characters with hyphens
-    input_string = re.sub(r'[^\w\s-]', '', input_string)
-    
-    # Replace spaces with hyphens
-    input_string = re.sub(r'\s+', '-', input_string)
-    
-    # Convert to lowercase
-    input_string = input_string.lower()
-    
-    # Remove consecutive hyphens
-    input_string = re.sub(r'[-]+', '-', input_string)
-    
-    # Remove any remaining non-alphanumeric characters
-    input_string = re.sub(r'[^\w-]', '', input_string)
-    
+    input_string = input_string.strip() 
+    input_string = re.sub(r'[^\w\s-]', '', input_string) 
+    input_string = re.sub(r'\s+', '-', input_string) 
+    input_string = input_string.lower() 
+    input_string = re.sub(r'[-]+', '-', input_string) 
+    input_string = re.sub(r'[^\w-]', '', input_string) 
     return input_string
 
 # Download data
