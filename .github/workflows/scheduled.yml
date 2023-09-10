@@ -32,6 +32,15 @@ jobs:
     - name: Trafic Frontieră list
       run: |-
         python trafic-frontiere-list.py
+    - name: Trafic Frontieră map
+      run: |-
+        python trafic-frontiere-markers.py
+    - name: DEER incidente
+      run: |-
+        python deer-incidente.py
+    - name: întreruperi distribuție e-distributie Enel
+      run: |-
+        python enel-intreruperi.py
     # - name: posturi.gov.ro
     #   run: |-
     #     python posturi-fetch-index-csv.py

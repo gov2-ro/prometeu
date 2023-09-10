@@ -28,6 +28,12 @@ Posturile vacante din cadrul autorităților și instituțiilor publice din Rom�
 
 ---
 
+### [Întreruperi Distribuție Energie Electrică](data/distributie-energie)
+
+surse: [e-distributie.com / enel](https://www.e-distributie.com/ro/intreruperi-curent.html), [distributie-energie.ro](https://www.distributie-energie.ro/suport/intreruperi-deer/) 
+
+---
+
 ### [Stare sistem termoficare oraș Bucuresti](data/cmteb/)
 
 sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php)
