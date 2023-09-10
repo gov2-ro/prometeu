@@ -17,11 +17,9 @@ targets= {
 }
 
 cols_incidente = ['NUMAR LUCRARE', 'JUDEȚ', 'ADRESA', 'DATA ÎNCEPERE', 'DATA FINALIZARE', 'zona']
-cols_intreruperi = ['NUMAR LUCRARE', 'SUCURSALA', 'ADRESA', 'DATA ÎNCEPERE', 'DATA FINALIZARE', 'DURATA', 'zona', 'judet']
-
+ 
 file_root_incidente = 'data/distributie-energie/deer-incidente'
-file_root_intreruperi = 'data/distributie-energie/deer-intreruperi'
-
+ 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -50,7 +48,7 @@ headers = {
 
 def deer_incidente(zona):
     url = "https://intreruperi.edmn.ro/incidente.aspx?zona=" + zona
-    response = requests.get(url, verify=True)
+    response = requests.get(url, headers=headers)
 
     # Check if the request was successful
     if response.status_code == 200:
@@ -71,65 +69,10 @@ def deer_incidente(zona):
 
         print(f"Data has been extracted and saved to {csv_file}")
     else:
-        print(f"3 73 Failed to retrieve data from {url}")    
-
-def deer_intreruperi(zona, judet):
-    url = 'https://intreruperi.edmn.ro/intreruperi' + zona + '.aspx'
-    response = requests.get(url, verify=True)
-    if response.status_code == 200:
-        soup = BeautifulSoup(response.text, 'html.parser')
-        viewstate_input = soup.find('input', {'name': '__VIEWSTATE'})
-        viewstategenerator_input = soup.find('input', {'name': '__VIEWSTATEGENERATOR'})
-        eventvalidation_input = soup.find('input', {'name': '__EVENTVALIDATION'})
-        viewstate_value = viewstate_input['value'] if viewstate_input else None
-        viewstategenerator_value = viewstategenerator_input['value'] if viewstategenerator_input else None
-        eventvalidation_value = eventvalidation_input['value'] if eventvalidation_input else None
-
-        data = {
-            '__EVENTTARGET': '',
-            '__EVENTARGUMENT': '',
-            '__LASTFOCUS': '',
-            '__VIEWSTATE': viewstate_value,
-            '__VIEWSTATEGENERATOR': viewstategenerator_value,
-            '__EVENTVALIDATION': eventvalidation_value,
-            'ddlSucursale': judet,
-            'radioCriterii': 'radioAzi15',
-            'cmdIntreruperi': 'Afișează+întreruperi+...'
-        }
-
-        response = requests.post(url, headers=headers, data=data, verify=True)
-        if response.status_code == 200:
-            # print(response.text)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            table = soup.find('table', {'id': 'tabIntreruperi'})
-            datax = []
-
-            for row in table.find_all('tr'):
-                cols = row.find_all('td')
-                cols = [col.text.strip() for col in cols]
-                cols.append(zona)
-                cols.append(judet)
-                datax.append(cols)
-
-            datax = datax[1:]
-            df = pd.DataFrame(datax, columns= cols_intreruperi)
-                 
-            return df
-                
-            breakpoint()
-        else:
-            print(f"1 120 Request failed with status code: {response.status_code}")
-            print(viewstate_value)
-            print(viewstategenerator_value)
-            print(eventvalidation_value)
-            # exit()
-
-    else:
-        print("2 124 Failed to fetch the URL. Status code:", response.status_code)
+        print(f" E72 Failed to retrieve data from {url}")    
 
 
 incidente = pd.DataFrame(columns= cols_incidente)
-intreruperi = pd.DataFrame(columns= cols_intreruperi)
 
 for key, regiune in targets.items():
     urlincidente = 'https://intreruperi.edmn.ro/incidente.aspx?zona=' + key
