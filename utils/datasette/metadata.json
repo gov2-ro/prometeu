@@ -1,0 +1,9 @@
+{
+    "title": "tttitle",
+    "plugins": {
+        "datasette-cluster-map": {
+            "latitude_column": "latitudine",
+            "longitude_column": "longitudine"
+        }
+    }
+}

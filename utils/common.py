@@ -19,7 +19,11 @@ def fetch_data(url):
 
 def order_bylatlong(item):
     # TODO: add parameter to select, NW, SE , order?
-    return (item["longitudine"], item["latitudine"])
+    return (item["Long"], item["Lat"])
+ 
+def order_by_denumire(item):
+    # TODO: add parameter to select, NW, SE , order?
+    return (item['denumire'])
  
 
 def save_json_to_file(data, json_file, compact = 'compact', mode = ''):
@@ -34,51 +38,8 @@ def save_json_to_file(data, json_file, compact = 'compact', mode = ''):
         inline_ensure_ascii_false   :   one line + ensure_ascii=False 
 
      """
-    
-    """     
-    # check if file has changed
-    if mode != 'overwrite':
-        if os.path.getsize(json_file):
-            with open(json_file) as file:
-                prev_json = json.load(file)
-                data = remove_empty_elements(data)
-                prev_json = remove_empty_elements(prev_json)            
-
-            if compact   == 'compact':
-                zprev_json = compact_json(prev_json)
-                zdata = compact_json(data)
-            elif compact == 'compact-encoded':
-                zprev_json = compact_json(prev_json, 0)
-                zdata = compact_json(data, 0)
-            elif compact == 'pretty':
-                zprev_json = json.dumps(prev_json, indent=4)
-                zdata = json.dumps(data, indent=4)
-            elif compact == 'pretty_ensure_ascii_false':
-                zprev_json = json.dumps(prev_json, indent=4, ensure_ascii=False )
-                zdata = json.dumps(data, indent=4, ensure_ascii=False )
-            elif compact == 'inline':
-                zprev_json = json.dumps(prev_json)
-                zdata = json.dumps(data)
-            elif compact == 'inline_ensure_ascii_false':
-                zprev_json = json.dumps(prev_json, ensure_ascii=False)
-                zdata = json.dumps(data, ensure_ascii=False)
-            else:
-                zprev_json = json.dumps(prev_json)
-            uprev_json = json.loads(zprev_json)    
-            xprev_json, zdata = json.dumps(uprev_json, sort_keys=True), json.dumps(data, sort_keys=True)
-            uprev_json = convert_json_values_to_strings(xprev_json)
-            zdata = convert_json_values_to_strings(zdata)
-            if uprev_json == zdata:
-                # print('no changes in ' + json_file)
-                return ''
-            else:
-                print (str(len(prev_json)) + ' / ' + str(len(xprev_json)) + ' -> ' + str(len(data)) + ' / ' + str(len(zdata)) )
-                print(str(len(data)) + ' / ' +len(prev_json) )
-                # with open('prev.json', 'w') as filep:      
-                #     filep.write(xprev_json)
-                # with open('current.json', 'w') as filec:      
-                #     filec.write(zdata)
-    """
+  
+  
     with open(json_file, 'w') as file:      
         if compact   == 'compact':
             file.write(compact_json(data))

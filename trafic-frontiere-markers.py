@@ -5,13 +5,9 @@
 url = 'https://www.politiadefrontiera.ro/ro/traficonline/'
 filename = 'data/politia-de-frontiera/trafic-frontiere-map'
 
-import requests, csv, re, json5, json
+import requests, re, json5
 import pandas as pd
 from bs4 import BeautifulSoup
-
-# import json
-
-# from utils.common import fetch_data, save_json_to_file, data_root
 
 
 zicolumns = ['Denumire', 'Timp', 'Info', 'Latitude', 'Longitude', 'Status', 'Tip vehicul', 'Sens']
@@ -106,15 +102,10 @@ for source in sources:
         )
         # TODO: logging
 
-# with open(filename + '.csv', 'w', newline='', encoding='utf-8') as csv_file:
-#     writer = csv.writer(csv_file)
-#     writer.writerow(zicolumns)
-#     writer.writerows(combined_data)
 
 csv_obj = pd.DataFrame(combined_data, columns=zicolumns)
 sorted_df = csv_obj.sort_values(by=['Denumire', 'Tip vehicul', 'Sens'])
 
-# csv_obj.to_json(filename + '.json', orient = "records", date_format = "epoch", double_precision = 10, force_ascii = True, date_unit = "ms", default_handler = None)
 sorted_df.to_json(filename + '.json',
                 orient="records",
                 force_ascii=False,
