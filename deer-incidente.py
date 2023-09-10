@@ -48,7 +48,7 @@ headers = {
 
 def deer_incidente(zona):
     url = "https://intreruperi.edmn.ro/incidente.aspx?zona=" + zona
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers=headers, verify = False)
 
     # Check if the request was successful
     if response.status_code == 200:
