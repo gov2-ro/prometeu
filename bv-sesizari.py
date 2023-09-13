@@ -66,11 +66,7 @@ response = requests.post(url, headers=headers, data=data)
 
 if response.status_code == 200:
     response_json = response.json()
-
-    with open(targetFile + '.json', 'w', encoding='utf-8') as json_file:
-        json.dump(response_json['features'], json_file, ensure_ascii=False, indent=4)
-
-    # Flatten the JSON data
+     # Flatten the JSON data
     flattened_data = []
     transformer = pyproj.Transformer.from_crs(source_crs, target_crs, always_xy=True)
 
@@ -84,6 +80,11 @@ if response.status_code == 200:
         flat_entry['Lat'] = lat
         flat_entry['Long'] = lon
         flattened_data.append(flat_entry)
+
+    with open(targetFile + '.json', 'w', encoding='utf-8') as json_file:
+        json.dump(flattened_data, json_file, ensure_ascii=False, indent=4)
+
+   
 
     # Create a DataFrame
     df = pd.DataFrame(flattened_data)
