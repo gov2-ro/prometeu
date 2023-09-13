@@ -1,11 +1,26 @@
+""" 
+https://extranet.brasovcity.ro/MapServer2/harta.html
+
+- [x] get json
+- [x] csv
+- [x] proper coords csv
+- [ ] proper coords to json
+
+
+ """
 
 targetFile = 'data/local/BV/sesizari-BV'
 
-import requests, json
+import requests, json, pyproj
 import pandas as pd
 
 
 url = 'https://extranet.brasovcity.ro/MapServer2/WebGis2/wgd/proxy.aspx?MapGuid=18f3da47-53c3-4032-8687-4d9cc7106552&SiteGuid=9be9fc0e-9a41-414a-ae46-88cf067994e6&_layerGuid=cdd70e0d-4e75-44e9-b906-49f902147992'
+
+# Define the EPSG codes for the source (EPSG:3844) and target (EPSG:4326) coordinate systems
+source_crs = pyproj.CRS.from_epsg(3844)
+target_crs = pyproj.CRS.from_epsg(4326)
+
 headers = {
     'Accept': '*/*',
     'Accept-Language': 'en-GB,en;q=0.9',
@@ -54,8 +69,27 @@ if response.status_code == 200:
 
     with open(targetFile + '.json', 'w', encoding='utf-8') as json_file:
         json.dump(response_json['features'], json_file, ensure_ascii=False, indent=4)
-    # df = pd.read_json(response_json['features'])
-    # df.to_csv(targetFile + '.csv', encoding='utf-8', index=False)
+
+    # Flatten the JSON data
+    flattened_data = []
+    transformer = pyproj.Transformer.from_crs(source_crs, target_crs, always_xy=True)
+
+    for entry in response_json['features']:
+        flat_entry = {}
+        flat_entry.update(entry['properties'])
+        flat_entry['type'] = entry['type']
+        flat_entry['id'] = entry['id']
+        flat_entry['geometry_type'] = entry['geometry']['type']
+        lon, lat = transformer.transform(entry['geometry']['coordinates'][0], entry['geometry']['coordinates'][1])
+        flat_entry['Lat'] = lat
+        flat_entry['Long'] = lon
+        flattened_data.append(flat_entry)
+
+    # Create a DataFrame
+    df = pd.DataFrame(flattened_data)
+
+    # Save the DataFrame as a CSV file
+    df.to_csv(targetFile + '.csv', index=False)
 
     print(str(len(response_json['features'])) + " rows saved to " + targetFile)
 else:
