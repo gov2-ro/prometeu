@@ -38,4 +38,8 @@ surse: [e-distributie.com / enel](https://www.e-distributie.com/ro/intreruperi-c
 
 sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php)
 
+
+### Local
+
+Sesizări BV, B
  
