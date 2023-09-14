@@ -1,5 +1,5 @@
-import requests
-import json
+import requests, json
+import pandas as pd
 
 # Define the URL and headers
 url = 'https://opendata.oras.digital/api/proxy/'
@@ -41,7 +41,11 @@ if response.status_code == 200:
     # Save the JSON data to a file
     with open(targetRoot + '.json', 'w', encoding='utf-8') as json_file:
         json.dump(response_json, json_file, ensure_ascii=False, indent=4)
+    
+    df = pd.DataFrame(response_json)
+    df.to_csv(targetRoot + '.csv', index=False)
 
-    print("Data saved as 'output.json'")
+    print(str(len(response_json)) + " rows saved to " + targetRoot)
+ 
 else:
     print(f"Request failed with status code {response.status_code}")
