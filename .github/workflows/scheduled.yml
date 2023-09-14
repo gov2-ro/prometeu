@@ -34,7 +34,7 @@ jobs:
         python brasov-sesizari.py
     - name: avarii PMB
       run: |-
-        python pmb-avarii
+        python pmb-avarii.py
     - name: iasi calitate aer
       run: |-
         python iasi-calitate-aer.py
