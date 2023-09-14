@@ -38,9 +38,27 @@ jobs:
     - name: DEER incidente
       run: |-
         python deer-incidente.py
+    - name: DEER întreruperi
+      run: |-
+        python deer-intreruperi.py
     - name: întreruperi distribuție e-distributie Enel
       run: |-
         python enel-intreruperi.py
+    - name: sesizări BV
+      run: |-
+        python brasov-sesizari.py
+    - name: avarii PMB
+      run: |-
+        python pmb-avarii
+    - name: iasi calitate aer
+      run: |-
+        python iasi-calitate-aer.py
+    - name: aerlive bucuresti
+      run: |-
+        python aerlive-bucuresti.py
+    - name: aerlive cj
+      run: |-
+        python aerlive-cj.py
     # - name: posturi.gov.ro
     #   run: |-
     #     python posturi-fetch-index-csv.py
