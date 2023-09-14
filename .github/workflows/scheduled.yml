@@ -29,21 +29,6 @@ jobs:
     - name: ANDNET Situație Drumuri list
       run: |-
         python andnet-tables.py    
-    - name: Trafic Frontieră list
-      run: |-
-        python trafic-frontiere-list.py
-    - name: Trafic Frontieră map
-      run: |-
-        python trafic-frontiere-markers.py
-    - name: DEER incidente
-      run: |-
-        python deer-incidente.py
-    - name: DEER întreruperi
-      run: |-
-        python deer-intreruperi.py
-    - name: întreruperi distribuție e-distributie Enel
-      run: |-
-        python enel-intreruperi.py
     - name: sesizări BV
       run: |-
         python brasov-sesizari.py
@@ -59,7 +44,22 @@ jobs:
     - name: aerlive cj
       run: |-
         python aerlive-cj.py
-    # - name: posturi.gov.ro
+    - name: Trafic Frontieră map
+      run: |-
+        python trafic-frontiere-markers.py
+    - name: Trafic Frontieră list
+      run: |-
+        python trafic-frontiere-list.py
+    - name: DEER incidente
+      run: |-
+        python deer-incidente.py
+    - name: DEER întreruperi
+      run: |-
+        python deer-intreruperi.py
+    - name: întreruperi distribuție e-distributie Enel
+      run: |-
+        python enel-intreruperi.py
+        # - name: posturi.gov.ro
     #   run: |-
     #     python posturi-fetch-index-csv.py
     - name: Commit and push if it changed
