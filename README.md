@@ -41,5 +41,5 @@ sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti
 
 ### Local
 
-Sesizări BV, B
- 
+Sesizări BV, B; 
+Calitate aer: B, CJ, IS 

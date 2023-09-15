@@ -53,13 +53,13 @@ jobs:
     - name: DEER incidente
       run: |-
         python deer-incidente.py
-    - name: DEER întreruperi
-      run: |-
-        python deer-intreruperi.py
     - name: întreruperi distribuție e-distributie Enel
       run: |-
         python enel-intreruperi.py
-        # - name: posturi.gov.ro
+    - name: DEER întreruperi
+      run: |-
+        python deer-intreruperi.py
+  # - name: posturi.gov.ro
     #   run: |-
     #     python posturi-fetch-index-csv.py
     - name: Commit and push if it changed
