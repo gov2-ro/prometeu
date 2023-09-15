@@ -103,7 +103,8 @@ for source in sources:
             f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}'
         )
         allnice = 0
-        continue
+        # continue # continue the loop, advance to next item
+        break #exit the loop
         # TODO: logging
 
 

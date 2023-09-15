@@ -129,6 +129,7 @@ def deer_intreruperi(zona, judet):
 
 incidente = pd.DataFrame(columns= cols_incidente)
 intreruperi = pd.DataFrame(columns= cols_intreruperi)
+isnice = 1
 
 for key, regiune in targets.items():
     urlincidente = 'https://intreruperi.edmn.ro/incidente.aspx?zona=' + key
@@ -141,19 +142,21 @@ for key, regiune in targets.items():
             zz = deer_intreruperi(key, judet)
             intreruperi = pd.concat([intreruperi, zz], ignore_index=True)
         except:
+            isnice = 0
             continue
 
+if isnice:
 
+    incidente.to_csv(file_root_incidente + '.csv', encoding='utf-8', index=False)
+    incidente.to_json(file_root_incidente + '.json', orient='records', lines=True)
+    intreruperi.to_csv(file_root_intreruperi + '.csv', encoding='utf-8', index=False)
+    intreruperi.to_json(file_root_intreruperi + '.json', orient='records', lines=True)
 
-incidente.to_csv(file_root_incidente + '.csv', encoding='utf-8', index=False)
-incidente.to_json(file_root_incidente + '.json', orient='records', lines=True)
-intreruperi.to_csv(file_root_intreruperi + '.csv', encoding='utf-8', index=False)
-intreruperi.to_json(file_root_intreruperi + '.json', orient='records', lines=True)
-
-print('saved ' + str(len(incidente)) + ' incidents')
-print('saved ' + str(len(intreruperi)) + ' intreruperi')
- 
-
+    print('saved ' + str(len(incidente)) + ' incidents')
+    print('saved ' + str(len(intreruperi)) + ' intreruperi')
+    
+else:
+    print('meh, failed')
  
  
 
