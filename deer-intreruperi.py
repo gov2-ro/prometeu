@@ -137,8 +137,11 @@ for key, regiune in targets.items():
 
     for judet in regiune:
         print(key + ' - ' +judet)
-        zz = deer_intreruperi(key, judet)
-        intreruperi = pd.concat([intreruperi, zz], ignore_index=True)
+        try:
+            zz = deer_intreruperi(key, judet)
+            intreruperi = pd.concat([intreruperi, zz], ignore_index=True)
+        except:
+            continue
 
 
 
