@@ -78,28 +78,34 @@ def extract_fields(html):
         combined_data.append([denumire, timp, info, latitude, longitude, level, tip_vehicul, sens])
     return combined_data
 
+allnice = 1
 for source in sources:
     url = base_url + source['url_vars']
     try:
         response = requests.get(url, headers=headers)
     except requests.exceptions.ConnectionError:
-        response.status_code = "Connection refused"
+        allnice = 0
+        # response.status_code = "Connection refused"
         # TODO: logging
 
-    if response.status_code == 200:
+    if allnice and response.status_code == 200:
         combined_data = extract_fields(response.text)
     else:
         print(f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}')
         # TODO: logging
 
 
-with open(filename + '.csv', 'w', newline='', encoding='utf-8') as csv_file:
-    writer = csv.writer(csv_file)
-    writer.writerow(zicolumns)
-    writer.writerows(combined_data)
+if allnice:
+    with open(filename + '.csv', 'w', newline='', encoding='utf-8') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(zicolumns)
+        writer.writerows(combined_data)
 
-csv_obj = pd.DataFrame(combined_data, columns = zicolumns)
-# csv_obj.to_json(filename + '.json', orient = "records", date_format = "epoch", double_precision = 10, force_ascii = True, date_unit = "ms", default_handler = None)
-csv_obj.to_json(filename + '.json', orient = "records", force_ascii = False, indent=2 )
+    csv_obj = pd.DataFrame(combined_data, columns = zicolumns)
+    # csv_obj.to_json(filename + '.json', orient = "records", date_format = "epoch", double_precision = 10, force_ascii = True, date_unit = "ms", default_handler = None)
+    csv_obj.to_json(filename + '.json', orient = "records", force_ascii = False, indent=2 )
 
-print(f'Scraped & saved to {filename}.csv/json')
+    print(f'Scraped & saved to {filename}.csv/json')
+
+else:
+    print('meh buba')
