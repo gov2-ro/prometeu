@@ -91,7 +91,7 @@ for source in sources:
     if allnice and response.status_code == 200:
         combined_data = extract_fields(response.text)
     else:
-        print(f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}')
+        print(f'Failed to fetch the URL for source: {source}. Connection refused')
         # TODO: logging
 
 
