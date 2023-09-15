@@ -60,6 +60,8 @@ def extract_json(carne):
 
 combined_data = []
 
+allnice = 1
+
 for source in sources:
     url = base_url + source['url_vars']
     try:
@@ -100,17 +102,21 @@ for source in sources:
         print(
             f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}'
         )
-        exit('meh')
+        allnice = 0
+        continue
         # TODO: logging
 
 
-csv_obj = pd.DataFrame(combined_data, columns=zicolumns)
-sorted_df = csv_obj.sort_values(by=['Denumire', 'Tip vehicul', 'Sens'])
+if allnice:
+    csv_obj = pd.DataFrame(combined_data, columns=zicolumns)
+    sorted_df = csv_obj.sort_values(by=['Denumire', 'Tip vehicul', 'Sens'])
 
-sorted_df.to_json(filename + '.json',
-                orient="records",
-                force_ascii=False,
-                indent=2)
-sorted_df.to_csv(filename + '.csv', encoding='utf-8', index=False)
+    sorted_df.to_json(filename + '.json',
+                    orient="records",
+                    force_ascii=False,
+                    indent=2)
+    sorted_df.to_csv(filename + '.csv', encoding='utf-8', index=False)
 
-print(f'Scraped & saved to {filename}.csv/json')
+    print(f'Scraped & saved to {filename}.csv/json')
+else:
+    print('all not nice')
