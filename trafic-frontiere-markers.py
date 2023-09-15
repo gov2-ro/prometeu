@@ -100,6 +100,7 @@ for source in sources:
         print(
             f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}'
         )
+        exit('meh')
         # TODO: logging
 
 
