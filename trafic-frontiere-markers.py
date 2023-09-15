@@ -67,10 +67,11 @@ for source in sources:
     try:
         response = requests.get(url, headers=headers)
     except requests.exceptions.ConnectionError:
-        response.status_code = "Connection refused"
+        allnice = 0
+        # response.status_code = "Connection refused"
         # TODO: logging
 
-    if response.status_code == 200:
+    if allnice and response.status_code == 200:
         jlist = extract_json(response.text)
         # jjson is a list of json dicts
         # detect fields in description
