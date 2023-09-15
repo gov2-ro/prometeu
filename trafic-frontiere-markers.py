@@ -101,7 +101,7 @@ for source in sources:
          
     else:
         print(
-            f'Failed to fetch the URL for source: {source}. Status code: {response.status_code}'
+            f'Failed to fetch the URL for source: {source}. '
         )
         allnice = 0
         # continue # continue the loop, advance to next item
