@@ -133,17 +133,21 @@ isnice = 1
 
 for key, regiune in targets.items():
     urlincidente = 'https://intreruperi.edmn.ro/incidente.aspx?zona=' + key
-    kk = deer_incidente(key)
-    incidente = pd.concat([incidente, kk], ignore_index=True)
+    try:
+        kk = deer_incidente(key)
+        incidente = pd.concat([incidente, kk], ignore_index=True)
 
-    for judet in regiune:
-        print(key + ' - ' +judet)
-        try:
-            zz = deer_intreruperi(key, judet)
-            intreruperi = pd.concat([intreruperi, zz], ignore_index=True)
-        except:
-            isnice = 0
-            continue
+        for judet in regiune:
+            print(key + ' - ' +judet)
+            try:
+                zz = deer_intreruperi(key, judet)
+                intreruperi = pd.concat([intreruperi, zz], ignore_index=True)
+            except:
+                isnice = 0
+                continue
+    except:
+        print('faileddd')
+        isnice = 0
 
 if isnice:
 
