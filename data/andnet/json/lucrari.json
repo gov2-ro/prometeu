@@ -27,6 +27,19 @@
 {
 	"NR. CRT.": "6.3",
 	"Indicativ drum": "A2",
+	"De la km": "143+125",
+	"Pana la km": "148+315",
+	"De la data": "2023-09-19 13:00:00",
+	"Pana la data": "2023-12-31 23:59:00",
+	"Intre localitatile": "-",
+	"Tip lucrare": "Lucrari reabilitare pod peste Bratul Borcea.",
+	"Variante de ocolire": "Pe perioada lucrarilor, Calea II de circulatie, sensul Constanta- Bucuresti, intre km 143+125 si km 148+315, va fi inchisa traficului, circulatia fiind deviata pe Calea I (Bucuresti - Constanta), unde se va desfasura in ambele sensuri.",
+	"viz_name": "A2",
+	"map_zoom": "['143', '125', '148', '315']"
+},
+{
+	"NR. CRT.": "6.4",
+	"Indicativ drum": "A2",
 	"De la km": "156+715",
 	"Pana la km": "160+319",
 	"De la data": "2023-04-13 08:00:00",
@@ -36,19 +49,6 @@
 	"Variante de ocolire": "Circulatia autovehiculelor se desfasoara cu restrictie de viteza  la 100 km/h.",
 	"viz_name": "A2",
 	"map_zoom": "['156', '715', '160', '319']"
-},
-{
-	"NR. CRT.": "6.4",
-	"Indicativ drum": "A2",
-	"De la km": "142+885",
-	"Pana la km": "148+015",
-	"De la data": "2023-07-06 10:00:00",
-	"Pana la data": "2023-09-19 23:59:00",
-	"Intre localitatile": "-",
-	"Tip lucrare": "Lucrari reabilitare pod peste Bratul Borcea.",
-	"Variante de ocolire": "Se va circula cu restrictie de viteza de 100 km/h pe Calea 1, si de 60 km/h pe Calea 2.",
-	"viz_name": "A2",
-	"map_zoom": "['142', '885', '148', '15']"
 },
 {
 	"NR. CRT.": "6.5",
@@ -118,19 +118,6 @@
 {
 	"NR. CRT.": "6.10",
 	"Indicativ drum": "DN11A",
-	"De la km": "24+000",
-	"Pana la km": "33+520",
-	"De la data": "2023-09-14 07:00:00",
-	"Pana la data": "2023-10-15 19:00:00",
-	"Intre localitatile": "COTOFANESTI (BC) - ADJUD (VN)",
-	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
-	"Variante de ocolire": "Se circula ingreunat alternativ pe 1/2 din cale dirijat de piloti ai firmei constructoare/semaforizat in unele zone.",
-	"viz_name": "DN11A",
-	"map_zoom": "['24', '0', '33', '520']"
-},
-{
-	"NR. CRT.": "6.11",
-	"Indicativ drum": "DN11A",
 	"De la km": "6+700",
 	"Pana la km": "24+000",
 	"De la data": "2023-07-10 07:00:00",
@@ -140,6 +127,19 @@
 	"Variante de ocolire": "Circulatia rutiera se va desfasura alternativ dirijata de piloti ai firmei constructoare si semaforizat cand este cazul.",
 	"viz_name": "DN11A",
 	"map_zoom": "['6', '700', '24', '0']"
+},
+{
+	"NR. CRT.": "6.11",
+	"Indicativ drum": "DN11A",
+	"De la km": "24+000",
+	"Pana la km": "33+520",
+	"De la data": "2023-09-14 07:00:00",
+	"Pana la data": "2023-10-15 19:00:00",
+	"Intre localitatile": "COTOFANESTI (BC) - ADJUD (VN)",
+	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
+	"Variante de ocolire": "Se circula ingreunat alternativ pe 1/2 din cale dirijat de piloti ai firmei constructoare/semaforizat in unele zone.",
+	"viz_name": "DN11A",
+	"map_zoom": "['24', '0', '33', '520']"
 },
 {
 	"NR. CRT.": "6.12",
@@ -274,19 +274,6 @@
 {
 	"NR. CRT.": "6.22",
 	"Indicativ drum": "DN2",
-	"De la km": "57+500",
-	"Pana la km": "68+000",
-	"De la data": "2023-08-01 13:27:00",
-	"Pana la data": "2023-10-31 23:59:00",
-	"Intre localitatile": "CIOCARLIA (IL) - URZICENI (IL)",
-	"Tip lucrare": "Se lucreaza la asternere covor asfaltic.",
-	"Variante de ocolire": "Se va circula pe 1/2 din cale,  cu restrictie de viteza de 40 km/h",
-	"viz_name": "DN2",
-	"map_zoom": "['57', '500', '68', '0']"
-},
-{
-	"NR. CRT.": "6.23",
-	"Indicativ drum": "DN2",
 	"De la km": "476+000",
 	"Pana la km": "479+269",
 	"De la data": "2023-09-14 07:00:00",
@@ -298,7 +285,7 @@
 	"map_zoom": "['476', '0', '479', '269']"
 },
 {
-	"NR. CRT.": "6.24",
+	"NR. CRT.": "6.23",
 	"Indicativ drum": "DN2",
 	"De la km": "441+500",
 	"Pana la km": "458+800",
@@ -309,6 +296,19 @@
 	"Variante de ocolire": "Se circula ingreunat alternativ pe 1/2 din cale dirijat de piloti ai firmei constructoare/semaforizat in unele zone.",
 	"viz_name": "DN2",
 	"map_zoom": "['441', '500', '458', '800']"
+},
+{
+	"NR. CRT.": "6.24",
+	"Indicativ drum": "DN2",
+	"De la km": "57+500",
+	"Pana la km": "68+000",
+	"De la data": "2023-08-01 13:27:00",
+	"Pana la data": "2023-10-31 23:59:00",
+	"Intre localitatile": "CIOCARLIA (IL) - URZICENI (IL)",
+	"Tip lucrare": "Se lucreaza la asternere covor asfaltic.",
+	"Variante de ocolire": "Se va circula pe 1/2 din cale,  cu restrictie de viteza de 40 km/h",
+	"viz_name": "DN2",
+	"map_zoom": "['57', '500', '68', '0']"
 },
 {
 	"NR. CRT.": "6.25",
@@ -391,19 +391,6 @@
 {
 	"NR. CRT.": "6.31",
 	"Indicativ drum": "DN2A",
-	"De la km": "146+530",
-	"Pana la km": "149+500",
-	"De la data": "2023-05-10 08:00:00",
-	"Pana la data": "2023-11-15 23:59:00",
-	"Intre localitatile": "STUPINA (CT) - STUPINA (CT)",
-	"Tip lucrare": "Se executa lucrari de reparatii asfaltice.",
-	"Variante de ocolire": "Circulatia se desfasoara alternativ pe cate o banda.",
-	"viz_name": "DN2A",
-	"map_zoom": "['146', '530', '149', '500']"
-},
-{
-	"NR. CRT.": "6.32",
-	"Indicativ drum": "DN2A",
 	"De la km": "196+739",
 	"Pana la km": "196+739",
 	"De la data": "2023-09-18 09:00:00",
@@ -413,6 +400,19 @@
 	"Variante de ocolire": "Circulatia rutiera este restrictionata pe un sens de mers. Pe celalalt sens de mers, circulatia se desfasoara in ambele sensuri, pe cate o banda.",
 	"viz_name": "DN2A",
 	"map_zoom": "['196', '739', '196', '739']"
+},
+{
+	"NR. CRT.": "6.32",
+	"Indicativ drum": "DN2A",
+	"De la km": "146+530",
+	"Pana la km": "149+500",
+	"De la data": "2023-05-10 08:00:00",
+	"Pana la data": "2023-11-15 23:59:00",
+	"Intre localitatile": "STUPINA (CT) - STUPINA (CT)",
+	"Tip lucrare": "Se executa lucrari de reparatii asfaltice.",
+	"Variante de ocolire": "Circulatia se desfasoara alternativ pe cate o banda.",
+	"viz_name": "DN2A",
+	"map_zoom": "['146', '530', '149', '500']"
 },
 {
 	"NR. CRT.": "6.33",
@@ -494,32 +494,6 @@
 },
 {
 	"NR. CRT.": "6.39",
-	"Indicativ drum": "DN64",
-	"De la km": "18+000",
-	"Pana la km": "22+000",
-	"De la data": "2023-09-19 08:00:00",
-	"Pana la data": "2023-09-19 15:00:00",
-	"Intre localitatile": "DOBROSLOVENI (OT) - FALCOIU (OT)",
-	"Tip lucrare": "Se lucreaza la montat borne HM.",
-	"Variante de ocolire": "Circulatia ingreunata in zona unde se monteaza borne , se circula in ambele sensuri cu asigurarea unei latimi minime de 5,50 m.",
-	"viz_name": "DN64",
-	"map_zoom": "['18', '0', '22', '0']"
-},
-{
-	"NR. CRT.": "6.40",
-	"Indicativ drum": "DN64",
-	"De la km": "34+000",
-	"Pana la km": "40+000",
-	"De la data": "2023-09-19 08:00:00",
-	"Pana la data": "2023-09-19 15:00:00",
-	"Intre localitatile": "GANEASA (OT) - PLESOIU (OT)",
-	"Tip lucrare": "Se lucreaza la montat borne HM.",
-	"Variante de ocolire": "Circulatie ingreunata in zona unde se monteaza bornele , se circula in ambele sensuri cu asigurarea unei latimi minime de 5,50m.",
-	"viz_name": "DN64",
-	"map_zoom": "['34', '0', '40', '0']"
-},
-{
-	"NR. CRT.": "6.41",
 	"Indicativ drum": "DN65C",
 	"De la km": "85+000",
 	"Pana la km": "87+000",
@@ -532,7 +506,7 @@
 	"map_zoom": "['85', '0', '87', '0']"
 },
 {
-	"NR. CRT.": "6.42",
+	"NR. CRT.": "6.40",
 	"Indicativ drum": "DN66",
 	"De la km": "16+000",
 	"Pana la km": "17+000",
@@ -545,7 +519,7 @@
 	"map_zoom": "['16', '0', '17', '0']"
 },
 {
-	"NR. CRT.": "6.43",
+	"NR. CRT.": "6.41",
 	"Indicativ drum": "DN67",
 	"De la km": "70+000",
 	"Pana la km": "110+000",
@@ -558,7 +532,7 @@
 	"map_zoom": "['70', '0', '110', '0']"
 },
 {
-	"NR. CRT.": "6.44",
+	"NR. CRT.": "6.42",
 	"Indicativ drum": "DN67",
 	"De la km": "147+500",
 	"Pana la km": "167+500",
@@ -571,7 +545,7 @@
 	"map_zoom": "['147', '500', '167', '500']"
 },
 {
-	"NR. CRT.": "6.45",
+	"NR. CRT.": "6.43",
 	"Indicativ drum": "DN67",
 	"De la km": "154+600",
 	"Pana la km": "154+800",
@@ -584,20 +558,7 @@
 	"map_zoom": "['154', '600', '154', '800']"
 },
 {
-	"NR. CRT.": "6.46",
-	"Indicativ drum": "DN67B",
-	"De la km": "3+000",
-	"Pana la km": "13+000",
-	"De la data": "2023-09-19 08:00:00",
-	"Pana la data": "2023-09-19 16:00:00",
-	"Intre localitatile": "TARGU CARBUNESTI (GJ) -",
-	"Tip lucrare": "Se lucreaza la canalizare si alimentare cu apa .",
-	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 cale , dirijata cu piloti de circulatie si semaforizare.",
-	"viz_name": "DN67B",
-	"map_zoom": "['3', '0', '13', '0']"
-},
-{
-	"NR. CRT.": "6.47",
+	"NR. CRT.": "6.44",
 	"Indicativ drum": "DN67B",
 	"De la km": "27+000",
 	"Pana la km": "30+000",
@@ -610,7 +571,20 @@
 	"map_zoom": "['27', '0', '30', '0']"
 },
 {
-	"NR. CRT.": "6.48",
+	"NR. CRT.": "6.45",
+	"Indicativ drum": "DN67B",
+	"De la km": "3+000",
+	"Pana la km": "13+000",
+	"De la data": "2023-09-19 08:00:00",
+	"Pana la data": "2023-09-19 16:00:00",
+	"Intre localitatile": "TARGU CARBUNESTI (GJ) -",
+	"Tip lucrare": "Se lucreaza la canalizare si alimentare cu apa .",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 cale , dirijata cu piloti de circulatie si semaforizare.",
+	"viz_name": "DN67B",
+	"map_zoom": "['3', '0', '13', '0']"
+},
+{
+	"NR. CRT.": "6.46",
 	"Indicativ drum": "DN68A",
 	"De la km": "2+900",
 	"Pana la km": "53+000",
@@ -623,7 +597,7 @@
 	"map_zoom": "['2', '900', '53', '0']"
 },
 {
-	"NR. CRT.": "6.49",
+	"NR. CRT.": "6.47",
 	"Indicativ drum": "DN69",
 	"De la km": "10+053",
 	"Pana la km": "10+053",
@@ -636,7 +610,7 @@
 	"map_zoom": "['10', '53', '10', '53']"
 },
 {
-	"NR. CRT.": "6.50",
+	"NR. CRT.": "6.48",
 	"Indicativ drum": "DN7",
 	"De la km": "159+700",
 	"Pana la km": "174+870",
@@ -649,7 +623,7 @@
 	"map_zoom": "['159', '700', '174', '870']"
 },
 {
-	"NR. CRT.": "6.51",
+	"NR. CRT.": "6.49",
 	"Indicativ drum": "DN7",
 	"De la km": "117+850",
 	"Pana la km": "117+850",
@@ -662,7 +636,7 @@
 	"map_zoom": "['117', '850', '117', '850']"
 },
 {
-	"NR. CRT.": "6.52",
+	"NR. CRT.": "6.50",
 	"Indicativ drum": "DN79",
 	"De la km": "80+000",
 	"Pana la km": "108+445",
@@ -675,7 +649,7 @@
 	"map_zoom": "['80', '0', '108', '445']"
 },
 {
-	"NR. CRT.": "6.53",
+	"NR. CRT.": "6.51",
 	"Indicativ drum": "DN7A",
 	"De la km": "6+000",
 	"Pana la km": "10+000",
