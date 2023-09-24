@@ -341,8 +341,8 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":120,
-    "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport prezentate la control pe sensul de intrare in Romania - trafic intens.",
+    "Timp":150,
+    "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport prezentate la control pe sensul de intrare\/iesire in\/din Romania - trafic intens.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
     "Status":"red",
@@ -352,7 +352,7 @@
   {
     "Denumire":"Galați",
     "Timp":60,
-    "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport prezentate la control pe sensul de intrare in Romania - trafic intens.",
+    "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport prezentate la control pe sensul de intrare\/iesire in\/din Romania - trafic intens.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
     "Status":"red",
@@ -381,7 +381,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":30,
     "Info":"intrare 4 artere, iesire 5 artere - trafic intens",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -701,81 +701,81 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
-    "Info":"1 artera intrare; 2 artere iesire.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"orange",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Nădlac",
-    "Timp":20,
-    "Info":"1 artera intrare; 2 artere iesire.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Nădlac",
-    "Timp":100,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"red",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Nădlac",
-    "Timp":90,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"red",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 3 artere; Iesire: 6 artere. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire",
-    "Latitude":"46.21156090813615",
-    "Longitude":"20.765371272491393",
-    "Status":"red",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Nădlac II",
-    "Timp":50,
-    "Info":"Intrare: 3 artere; Iesire: 6 artere. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire",
-    "Latitude":"46.21156090813615",
-    "Longitude":"20.765371272491393",
-    "Status":"orange",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri . Coloana in asteptare pe sensul de iesire este aprox, 2 km",
-    "Latitude":"46.21156090813615",
-    "Longitude":"20.765371272491393",
+    "Info":"1 artera intrare; 2 artere iesire. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire din tara.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
+    "Status":"red",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Nădlac",
+    "Timp":20,
+    "Info":"1 artera intrare; 2 artere iesire. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire din tara.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Nădlac",
+    "Timp":100,
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
     "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
+    "Denumire":"Nădlac",
+    "Timp":90,
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
+    "Status":"red",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
     "Denumire":"Nădlac II",
-    "Timp":120,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri . Coloana in asteptare pe sensul de iesire este aprox, 2 km",
+    "Timp":90,
+    "Info":"Intrare: 3 artere; Iesire: 6 artere. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Nădlac II",
+    "Timp":30,
+    "Info":"Intrare: 3 artere; Iesire: 6 artere. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire",
+    "Latitude":"46.21156090813615",
+    "Longitude":"20.765371272491393",
+    "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Nădlac II",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera.",
+    "Latitude":"46.21156090813615",
+    "Longitude":"20.765371272491393",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Nădlac II",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera.",
+    "Latitude":"46.21156090813615",
+    "Longitude":"20.765371272491393",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -862,7 +862,7 @@
   {
     "Denumire":"Petea",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire 4 artere.",
+    "Info":"Intrare: 2 artere; Iesire 3 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
@@ -871,31 +871,31 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":40,
-    "Info":"Intrare: 3 artere; Iesire 4 artere.",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire 3 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. Trafic restrictionat.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. Trafic restrictionat.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -1051,7 +1051,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -1171,7 +1171,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
