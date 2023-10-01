@@ -42,7 +42,7 @@
   {
     "Denumire":"Calafat",
     "Timp":90,
-    "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
+    "Info":"intrare 4 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":400,
+    "Timp":600,
     "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport prezentate la control pe sensul de intrare\/iesire in\/din Romania - trafic intens.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,8 +71,8 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":100,
-    "Info":"intrare 5 artere, iesire 5 artere - trafic intens",
+    "Timp":80,
+    "Info":"intrare 5 artere, iesire 5 artere - trafic intens, număr mare de mijloace de transport prezente la control pe sensul de ieșire.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire:  4 artere.Trafic intens-numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana iesire 2,5 km",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire:  1 artera",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control pe sensul de  iesire.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. Trafic restrictionat.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":40,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezentate la controlul de frontiera pe sensul de intrare",
+    "Timp":20,
+    "Info":"intrare 1 artera, iesire 1 artera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
