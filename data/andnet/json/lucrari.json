@@ -1,6 +1,19 @@
 [{
 	"NR. CRT.": "6.1",
 	"Indicativ drum": "A1",
+	"De la km": "494+000",
+	"Pana la km": "506+000",
+	"De la data": "2023-10-06 12:30:00",
+	"Pana la data": "2023-10-06 16:00:00",
+	"Intre localitatile": "GIARMATA (TM) - GIARMATA (TM)",
+	"Tip lucrare": "Pe calea 1 a autostrazii A1, intre km 494+000 - 506+00, se executa lurari de intretinere curenta la poduri.",
+	"Variante de ocolire": "In zonele unde se executa lucrari, circulatia rutiera se desfasoara pe banda 2, banda de urgenta si banda 1 fiind inchise, pana in jurul orelor 16:00.",
+	"viz_name": "A1",
+	"map_zoom": "['494', '0', '506', '0']"
+},
+{
+	"NR. CRT.": "6.2",
+	"Indicativ drum": "A1",
 	"De la km": "270+000",
 	"Pana la km": "272+000",
 	"De la data": "2023-10-06 08:49:00",
@@ -12,7 +25,7 @@
 	"map_zoom": "['270', '0', '272', '0']"
 },
 {
-	"NR. CRT.": "6.2",
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A1",
 	"De la km": "396+600",
 	"Pana la km": "396+600",
@@ -25,7 +38,7 @@
 	"map_zoom": "['396', '600', '396', '600']"
 },
 {
-	"NR. CRT.": "6.3",
+	"NR. CRT.": "6.4",
 	"Indicativ drum": "A1",
 	"De la km": "408+950",
 	"Pana la km": "408+950",
@@ -36,19 +49,6 @@
 	"Variante de ocolire": "Banda de urgenta e inchisa. Se circula pe banda 1 si banda 2, pana in jurul orelor 16:00.",
 	"viz_name": "A1",
 	"map_zoom": "['408', '950', '408', '950']"
-},
-{
-	"NR. CRT.": "6.4",
-	"Indicativ drum": "A1",
-	"De la km": "272+000",
-	"Pana la km": "274+000",
-	"De la data": "2023-10-05 09:16:00",
-	"Pana la data": "2023-10-06 12:00:00",
-	"Intre localitatile": "APOLDU DE JOS (SB) - SALISTE (SB)",
-	"Tip lucrare": "Se executa lucrari de reparatii la partea carosabila. Banda 1 si Banda de urgenta de pe Calea 2 (sensul Sebes-Sibiu) sunt restrictionate.",
-	"Variante de ocolire": "Se circula ingreunat pe banda 2 a caii 2.",
-	"viz_name": "A1",
-	"map_zoom": "['272', '0', '274', '0']"
 },
 {
 	"NR. CRT.": "6.5",
@@ -121,10 +121,10 @@
 	"De la km": "160+300",
 	"Pana la km": "160+300",
 	"De la data": "2023-09-26 08:00:00",
-	"Pana la data": "2023-10-10 23:59:00",
+	"Pana la data": "2023-10-11 23:59:00",
 	"Intre localitatile": "-",
 	"Tip lucrare": "Inlocuirea rosturilor de dilatatie pe Pasajul Cernavoda",
-	"Variante de ocolire": "Se vor executa lucrari de inlocuire rosturi de dilatatie pe banda de urgenta si banda 1, calea 1, circulatia desfasurandu-se pe banda 2.",
+	"Variante de ocolire": "Se vor executa lucrari de inlocuire rosturi de dilatatie pe banda 2, calea 1, circulatia desfasurandu-se pe banda 1 si banda de urgenta.",
 	"viz_name": "A2",
 	"map_zoom": "['160', '300', '160', '300']"
 },
@@ -287,19 +287,6 @@
 {
 	"NR. CRT.": "6.23",
 	"Indicativ drum": "DN15",
-	"De la km": "223+411",
-	"Pana la km": "229+175",
-	"De la data": "2023-09-26 07:00:00",
-	"Pana la data": "2023-10-15 18:00:00",
-	"Intre localitatile": "BRADU (NT) - POIANA (BRUSTURI) (NT)",
-	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
-	"Variante de ocolire": "Se circula ingreunat pe 1/2 din carosabil dirijat de piloti ai firmei constructoare.",
-	"viz_name": "DN15",
-	"map_zoom": "['223', '411', '229', '175']"
-},
-{
-	"NR. CRT.": "6.24",
-	"Indicativ drum": "DN15",
 	"De la km": "243+610",
 	"Pana la km": "244+310",
 	"De la data": "2023-08-21 07:00:00",
@@ -309,6 +296,19 @@
 	"Variante de ocolire": "Se lucreaza etapizat iar cand se lucreaza, circulatia rutiera pe 1/2 din carosabil  va fi semaforizata si asigurata de firma constructoare.",
 	"viz_name": "DN15",
 	"map_zoom": "['243', '610', '244', '310']"
+},
+{
+	"NR. CRT.": "6.24",
+	"Indicativ drum": "DN15",
+	"De la km": "223+411",
+	"Pana la km": "229+175",
+	"De la data": "2023-09-26 07:00:00",
+	"Pana la data": "2023-10-15 18:00:00",
+	"Intre localitatile": "BRADU (NT) - POIANA (BRUSTURI) (NT)",
+	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
+	"Variante de ocolire": "Se circula ingreunat pe 1/2 din carosabil dirijat de piloti ai firmei constructoare.",
+	"viz_name": "DN15",
+	"map_zoom": "['223', '411', '229', '175']"
 },
 {
 	"NR. CRT.": "6.25",
@@ -430,19 +430,6 @@
 {
 	"NR. CRT.": "6.34",
 	"Indicativ drum": "DN2",
-	"De la km": "441+500",
-	"Pana la km": "458+800",
-	"De la data": "2023-09-14 07:00:00",
-	"Pana la data": "2023-10-15 19:00:00",
-	"Intre localitatile": "SUCEAVA (SV) - ROMANESTI (GRANICESTI) (SV)",
-	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
-	"Variante de ocolire": "Se circula ingreunat alternativ pe 1/2 din cale dirijat de piloti ai firmei constructoare/semaforizat in unele zone.",
-	"viz_name": "DN2",
-	"map_zoom": "['441', '500', '458', '800']"
-},
-{
-	"NR. CRT.": "6.35",
-	"Indicativ drum": "DN2",
 	"De la km": "476+000",
 	"Pana la km": "479+269",
 	"De la data": "2023-09-14 07:00:00",
@@ -454,7 +441,7 @@
 	"map_zoom": "['476', '0', '479', '269']"
 },
 {
-	"NR. CRT.": "6.36",
+	"NR. CRT.": "6.35",
 	"Indicativ drum": "DN2",
 	"De la km": "57+500",
 	"Pana la km": "68+000",
@@ -467,6 +454,19 @@
 	"map_zoom": "['57', '500', '68', '0']"
 },
 {
+	"NR. CRT.": "6.36",
+	"Indicativ drum": "DN2",
+	"De la km": "441+500",
+	"Pana la km": "458+800",
+	"De la data": "2023-09-14 07:00:00",
+	"Pana la data": "2023-10-15 19:00:00",
+	"Intre localitatile": "SUCEAVA (SV) - ROMANESTI (GRANICESTI) (SV)",
+	"Tip lucrare": "Lucrari de asternere covor asfaltic.",
+	"Variante de ocolire": "Se circula ingreunat alternativ pe 1/2 din cale dirijat de piloti ai firmei constructoare/semaforizat in unele zone.",
+	"viz_name": "DN2",
+	"map_zoom": "['441', '500', '458', '800']"
+},
+{
 	"NR. CRT.": "6.37",
 	"Indicativ drum": "DN21",
 	"De la km": "105+300",
@@ -475,25 +475,12 @@
 	"Pana la data": "2023-10-07 23:59:00",
 	"Intre localitatile": "SLOBOZIA (IL) - CALARASI (CL)",
 	"Tip lucrare": "Lucrari de remediere la dispozitivele de acoperire a rosturilor de dilatatie",
-	"Variante de ocolire": "Incepand cu ora 18:00, se vor institui restrictii de circulatie pe pasajul denivelat superior pe DN21 (km 105+500), Pasajul Drajna, astfel:Inchiderea sensului de deplasare Slobozia  Calarasi, pe sectorul cuprins intre km 105+300 si km 105+800, traficul desfasurandu-se deviat, in ambele directii, pe benzile destinate sensului Calarasi  Slobozia. Dupa finalizarea lucrarilor de remediere pe acest sens de circulatie se va trece la devierea traficului pe celalalt sens, in aceleasi conditii.",
+	"Variante de ocolire": "Circulatie restrictionata la 50 km/h pana la efectuarea marcajelor pe zona rosturilor.",
 	"viz_name": "DN21",
 	"map_zoom": "['105', '300', '105', '800']"
 },
 {
 	"NR. CRT.": "6.38",
-	"Indicativ drum": "DN22",
-	"De la km": "212+045",
-	"Pana la km": "212+495",
-	"De la data": "2023-07-08 16:30:00",
-	"Pana la data": "2023-11-24 08:00:00",
-	"Intre localitatile": "BABADAG (TL) -",
-	"Tip lucrare": "Apararea impotriva inundatiilor a localitatii Babadag, judetul Tulcea. Refacere 5 poduri pe DN 22 km 210+291, km 211+812, km 212+045, km 212+495, km 213+600",
-	"Variante de ocolire": "Masuri de restrictie a traficului  pentru toate categoriile de autovehicule, cu exceptia riveranilor ce detin autovehicule cu MTMA < de 3.5 t, traficul se va desfasura deviat astfel:  DN 22 km 213+600-Sensul de deplasare Tulcea- Constanta se va desfasura deviat pe DN22A, ( ruta Cataloi - Nalbant - Nicolae Balcescu) si pe DN22D, ruta Ciucurova - Slava Rusa - Caugagia - DN22, km 186+900Pana la finalizarea podurilor de la km 212+045 si km 212+495, circulatia riveranilor din orasul Babadag, cu autovehicule cu MTMA mai mic sau egal cu 3,5 tone, se va desfasura astfel:- pe sensul de deplasare dinspre Tulcea spre Constanta, traficul se deviaza din DN 22 (km 213+560) pe str. Dragos Voda - DN 22 (km 214+250) loc Babadag- pe sensul de deplasare dinspre Constanta spre Tulcea, circulatia se va desfasura pe ruta DN 22 (km 214+640) loc. Babadag - str. Fat Frumos - DN 22 (km 213+230) loc BabadagCirculatia autovehiculelor destinate transportului public de persoane cu MTMA > 3.5 t se va desfasura pe ruta urmatoare: DN 22 - Str Stejarului - Str. Garii - Str. Ciurcovei - drum agricol -DJ 223 A - DN 22 si retur.Circulatia pietonala pentru ocolirea podului aflat in executie, DN22, km 213+600, va fi permisa pe tronsonul DN22- Str. Republicii- Str. Fat Frumos- DN 22.",
-	"viz_name": "DN22",
-	"map_zoom": "['212', '45', '212', '495']"
-},
-{
-	"NR. CRT.": "6.39",
 	"Indicativ drum": "DN22",
 	"De la km": "107+560",
 	"Pana la km": "108+915",
@@ -504,6 +491,19 @@
 	"Variante de ocolire": "Circulatie alternanta dirijata cu semafoare la lucrari pe maxim 1/2 din cale.",
 	"viz_name": "DN22",
 	"map_zoom": "['107', '560', '108', '915']"
+},
+{
+	"NR. CRT.": "6.39",
+	"Indicativ drum": "DN22",
+	"De la km": "212+045",
+	"Pana la km": "212+495",
+	"De la data": "2023-07-08 16:30:00",
+	"Pana la data": "2023-11-24 08:00:00",
+	"Intre localitatile": "BABADAG (TL) -",
+	"Tip lucrare": "Apararea impotriva inundatiilor a localitatii Babadag, judetul Tulcea. Refacere 5 poduri pe DN 22 km 210+291, km 211+812, km 212+045, km 212+495, km 213+600",
+	"Variante de ocolire": "Masuri de restrictie a traficului  pentru toate categoriile de autovehicule, cu exceptia riveranilor ce detin autovehicule cu MTMA < de 3.5 t, traficul se va desfasura deviat astfel:  DN 22 km 213+600-Sensul de deplasare Tulcea- Constanta se va desfasura deviat pe DN22A, ( ruta Cataloi - Nalbant - Nicolae Balcescu) si pe DN22D, ruta Ciucurova - Slava Rusa - Caugagia - DN22, km 186+900Pana la finalizarea podurilor de la km 212+045 si km 212+495, circulatia riveranilor din orasul Babadag, cu autovehicule cu MTMA mai mic sau egal cu 3,5 tone, se va desfasura astfel:- pe sensul de deplasare dinspre Tulcea spre Constanta, traficul se deviaza din DN 22 (km 213+560) pe str. Dragos Voda - DN 22 (km 214+250) loc Babadag- pe sensul de deplasare dinspre Constanta spre Tulcea, circulatia se va desfasura pe ruta DN 22 (km 214+640) loc. Babadag - str. Fat Frumos - DN 22 (km 213+230) loc BabadagCirculatia autovehiculelor destinate transportului public de persoane cu MTMA > 3.5 t se va desfasura pe ruta urmatoare: DN 22 - Str Stejarului - Str. Garii - Str. Ciurcovei - drum agricol -DJ 223 A - DN 22 si retur.Circulatia pietonala pentru ocolirea podului aflat in executie, DN22, km 213+600, va fi permisa pe tronsonul DN22- Str. Republicii- Str. Fat Frumos- DN 22.",
+	"viz_name": "DN22",
+	"map_zoom": "['212', '45', '212', '495']"
 },
 {
 	"NR. CRT.": "6.40",
@@ -599,19 +599,6 @@
 {
 	"NR. CRT.": "6.47",
 	"Indicativ drum": "DN3B",
-	"De la km": "55+000",
-	"Pana la km": "57+000",
-	"De la data": "2023-10-02 08:00:00",
-	"Pana la data": "2023-10-06 23:59:00",
-	"Intre localitatile": "FETESTI (IL) -",
-	"Tip lucrare": "Lucrari de reparatii asfaltice.",
-	"Variante de ocolire": "Sector cu 4 benzi. Pe perioada lucrarilor se inchide cate o banda pe fiecare sens. Circulatia se desfasoara cu restrictie de viteza de 40 km/h.",
-	"viz_name": "DN3B",
-	"map_zoom": "['55', '0', '57', '0']"
-},
-{
-	"NR. CRT.": "6.48",
-	"Indicativ drum": "DN3B",
 	"De la km": "88+325",
 	"Pana la km": "96+732",
 	"De la data": "2023-03-03 14:00:00",
@@ -623,7 +610,7 @@
 	"map_zoom": "['88', '325', '96', '732']"
 },
 {
-	"NR. CRT.": "6.49",
+	"NR. CRT.": "6.48",
 	"Indicativ drum": "DN5",
 	"De la km": "52+346",
 	"Pana la km": "52+346",
@@ -636,7 +623,7 @@
 	"map_zoom": "['52', '346', '52', '346']"
 },
 {
-	"NR. CRT.": "6.50",
+	"NR. CRT.": "6.49",
 	"Indicativ drum": "DN54",
 	"De la km": "16+000",
 	"Pana la km": "20+000",
@@ -649,7 +636,7 @@
 	"map_zoom": "['16', '0', '20', '0']"
 },
 {
-	"NR. CRT.": "6.51",
+	"NR. CRT.": "6.50",
 	"Indicativ drum": "DN54",
 	"De la km": "10+000",
 	"Pana la km": "15+000",
@@ -662,7 +649,7 @@
 	"map_zoom": "['10', '0', '15', '0']"
 },
 {
-	"NR. CRT.": "6.52",
+	"NR. CRT.": "6.51",
 	"Indicativ drum": "DN57",
 	"De la km": "62+000",
 	"Pana la km": "65+800",
@@ -675,7 +662,7 @@
 	"map_zoom": "['62', '0', '65', '800']"
 },
 {
-	"NR. CRT.": "6.53",
+	"NR. CRT.": "6.52",
 	"Indicativ drum": "DN6",
 	"De la km": "268+000",
 	"Pana la km": "298+000",
@@ -688,20 +675,7 @@
 	"map_zoom": "['268', '0', '298', '0']"
 },
 {
-	"NR. CRT.": "6.54",
-	"Indicativ drum": "DN64",
-	"De la km": "56+000",
-	"Pana la km": "57+000",
-	"De la data": "2023-10-05 08:00:00",
-	"Pana la data": "2023-10-06 15:00:00",
-	"Intre localitatile": "GRADINARI (OT) -",
-	"Tip lucrare": "Se lucreaza la montat borne HM.",
-	"Variante de ocolire": "Circulatie ingreunata in zona unde se monteaza borne, se circula in ambele sensuri cu asigurarea unei latimi minime de 5,50 m.",
-	"viz_name": "DN64",
-	"map_zoom": "['56', '0', '57', '0']"
-},
-{
-	"NR. CRT.": "6.55",
+	"NR. CRT.": "6.53",
 	"Indicativ drum": "DN66",
 	"De la km": "16+000",
 	"Pana la km": "17+000",
@@ -714,7 +688,7 @@
 	"map_zoom": "['16', '0', '17', '0']"
 },
 {
-	"NR. CRT.": "6.56",
+	"NR. CRT.": "6.54",
 	"Indicativ drum": "DN67",
 	"De la km": "153+000",
 	"Pana la km": "175+000",
@@ -727,20 +701,7 @@
 	"map_zoom": "['153', '0', '175', '0']"
 },
 {
-	"NR. CRT.": "6.57",
-	"Indicativ drum": "DN67B",
-	"De la km": "0+000",
-	"Pana la km": "34+000",
-	"De la data": "2023-10-06 08:00:00",
-	"Pana la data": "2023-10-06 18:00:00",
-	"Intre localitatile": "SCOARTA (GJ) - COLTESTI (GJ)",
-	"Tip lucrare": "Se lucreaza la refacere marcaje rutiere.",
-	"Variante de ocolire": "Circulatie ingreunata in dreptul utilajului, dirijata de piloti de circulatie.",
-	"viz_name": "DN67B",
-	"map_zoom": "['0', '0', '34', '0']"
-},
-{
-	"NR. CRT.": "6.58",
+	"NR. CRT.": "6.55",
 	"Indicativ drum": "DN67B",
 	"De la km": "4+000",
 	"Pana la km": "11+000",
@@ -753,7 +714,20 @@
 	"map_zoom": "['4', '0', '11', '0']"
 },
 {
-	"NR. CRT.": "6.59",
+	"NR. CRT.": "6.56",
+	"Indicativ drum": "DN67B",
+	"De la km": "0+000",
+	"Pana la km": "34+000",
+	"De la data": "2023-10-06 08:00:00",
+	"Pana la data": "2023-10-06 18:00:00",
+	"Intre localitatile": "SCOARTA (GJ) - COLTESTI (GJ)",
+	"Tip lucrare": "Se lucreaza la refacere marcaje rutiere.",
+	"Variante de ocolire": "Circulatie ingreunata in dreptul utilajului, dirijata de piloti de circulatie.",
+	"viz_name": "DN67B",
+	"map_zoom": "['0', '0', '34', '0']"
+},
+{
+	"NR. CRT.": "6.57",
 	"Indicativ drum": "DN68A",
 	"De la km": "2+900",
 	"Pana la km": "53+000",
@@ -766,7 +740,7 @@
 	"map_zoom": "['2', '900', '53', '0']"
 },
 {
-	"NR. CRT.": "6.60",
+	"NR. CRT.": "6.58",
 	"Indicativ drum": "DN69",
 	"De la km": "10+053",
 	"Pana la km": "10+053",
@@ -779,20 +753,7 @@
 	"map_zoom": "['10', '53', '10', '53']"
 },
 {
-	"NR. CRT.": "6.61",
-	"Indicativ drum": "DN7",
-	"De la km": "159+759",
-	"Pana la km": "174+870",
-	"De la data": "2023-10-06 08:00:00",
-	"Pana la data": "2023-10-06 18:00:00",
-	"Intre localitatile": "MILCOIU (VL) - RAMNICU VALCEA (VL)",
-	"Tip lucrare": "Se lucreaza la aplicare marcaje rutiere .",
-	"Variante de ocolire": "Circulatia se desfasoara ingreunat pe ambele sensuri in zona utilajului care aplica marcajul rutier.",
-	"viz_name": "DN7",
-	"map_zoom": "['159', '759', '174', '870']"
-},
-{
-	"NR. CRT.": "6.62",
+	"NR. CRT.": "6.59",
 	"Indicativ drum": "DN7",
 	"De la km": "246+265",
 	"Pana la km": "247+130",
@@ -805,7 +766,20 @@
 	"map_zoom": "['246', '265', '247', '130']"
 },
 {
-	"NR. CRT.": "6.63",
+	"NR. CRT.": "6.60",
+	"Indicativ drum": "DN7",
+	"De la km": "159+759",
+	"Pana la km": "174+870",
+	"De la data": "2023-10-06 08:00:00",
+	"Pana la data": "2023-10-06 18:00:00",
+	"Intre localitatile": "MILCOIU (VL) - RAMNICU VALCEA (VL)",
+	"Tip lucrare": "Se lucreaza la aplicare marcaje rutiere .",
+	"Variante de ocolire": "Circulatia se desfasoara ingreunat pe ambele sensuri in zona utilajului care aplica marcajul rutier.",
+	"viz_name": "DN7",
+	"map_zoom": "['159', '759', '174', '870']"
+},
+{
+	"NR. CRT.": "6.61",
 	"Indicativ drum": "DN73C",
 	"De la km": "61+600",
 	"Pana la km": "62+900",
@@ -818,7 +792,7 @@
 	"map_zoom": "['61', '600', '62', '900']"
 },
 {
-	"NR. CRT.": "6.64",
+	"NR. CRT.": "6.62",
 	"Indicativ drum": "DN79",
 	"De la km": "80+000",
 	"Pana la km": "108+445",
@@ -831,7 +805,7 @@
 	"map_zoom": "['80', '0', '108', '445']"
 },
 {
-	"NR. CRT.": "6.65",
+	"NR. CRT.": "6.63",
 	"Indicativ drum": "VO_DROBETA(CDTS)",
 	"De la km": "4+200",
 	"Pana la km": "12+300",
@@ -844,7 +818,7 @@
 	"map_zoom": "[]"
 },
 {
-	"NR. CRT.": "6.66",
+	"NR. CRT.": "6.64",
 	"Indicativ drum": "VOB1",
 	"De la km": "2+500",
 	"Pana la km": "9+782",
