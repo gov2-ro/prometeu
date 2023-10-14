@@ -22,7 +22,7 @@
   {
     "Denumire":"Borș",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere",
+    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"green",
@@ -31,18 +31,18 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":20,
+    "Timp":30,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":150,
-    "Info":"intrare 5 artere, iesire 4 artere, trafic intens, multe mijloace de transport prezente la control",
+    "Timp":200,
+    "Info":"intrare 4 artere, iesire 3 artere, trafic intens, multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -51,11 +51,11 @@
   },
   {
     "Denumire":"Călăraşi-Chiciu",
-    "Timp":8,
+    "Timp":31,
     "Info":"Tranzitarea cu bacul se efectuează după orarul stabilit de către operatorul de transport",
     "Latitude":"44.131321",
     "Longitude":"27.26857700000005",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,8 +71,8 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":120,
-    "Info":"intrare 5  artere, ieșire 5 artere - trafic intens, multe mijloace de transport prezente la control",
+    "Timp":160,
+    "Info":"intrare 5  artere, ieșire 5 artere- trafic intens, pe sensul de ieșire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -121,21 +121,21 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar  mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara.",
+    "Timp":90,
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar  mare de automarfare prezente la verificarile de frontiera pe ambele sensuri,",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":50,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere . Trafic intens - Numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara.",
+    "Timp":90,
+    "Info":"Intrare: 4 artere; Iesire: 2 artere . Trafic intens - Numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -182,7 +182,7 @@
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Info":"Intrare: 1 arteră; Iesire 1 arteră.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":80,
+    "Timp":60,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -272,7 +272,7 @@
   {
     "Denumire":"Vama Veche",
     "Timp":40,
-    "Info":"Intrare 1 artera, iesire 1 artera- Trafic intens - Numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare in tara",
+    "Info":"Intrare 1 artera, iesire 1 artera- Trafic intens - Numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de iesire in tara",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
     "Status":"orange",
