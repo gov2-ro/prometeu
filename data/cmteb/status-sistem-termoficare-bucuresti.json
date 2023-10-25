@@ -211,7 +211,7 @@
         "culoare": "#e0002b",
         "denumire": "12 Maratonului",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.438169262693,
         "Long": 26.012156178621
@@ -239,7 +239,7 @@
         "culoare": "#e0002b",
         "denumire": "SC 14",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.4408224,
         "Long": 26.0138075
@@ -249,7 +249,7 @@
         "culoare": "#e0002b",
         "denumire": "Cămin RADET - ApaNova",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.44316,
         "Long": 26.014
@@ -286,7 +286,7 @@
         "culoare": "#e0002b",
         "denumire": "Bloc 50",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.43739,
         "Long": 26.0147
@@ -323,7 +323,7 @@
         "culoare": "#e0002b",
         "denumire": "2 Îndesirii",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.43496057023,
         "Long": 26.015090540469
@@ -333,7 +333,7 @@
         "culoare": "#e0002b",
         "denumire": "SC 8/9",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.4353905,
         "Long": 26.0160857
@@ -343,7 +343,7 @@
         "culoare": "#e0002b",
         "denumire": "15 Apusului",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.44021,
         "Long": 26.01624
@@ -362,7 +362,7 @@
         "culoare": "#e0002b",
         "denumire": "11 Mărgelelor",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.441397023426,
         "Long": 26.017131544625
@@ -390,7 +390,7 @@
         "culoare": "#e0002b",
         "denumire": "SC 11",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.4389186,
         "Long": 26.0183566
@@ -409,7 +409,7 @@
         "culoare": "#e0002b",
         "denumire": "10 Aragonitului",
         "tip": "Oprire ACC",
-        "remediere": "26.10.2023 23:30",
+        "remediere": "28.10.2023 23:30",
         "status": "avarii",
         "Lat": 44.440230831727,
         "Long": 26.018854271853
@@ -658,12 +658,11 @@
         "Long": 26.02692112
     },
     {
-        "stare": "Remediere avarie circuit primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4/7",
-        "tip": "Oprire ACC/INC",
-        "remediere": "25.10.2023 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42169835223,
         "Long": 26.027007401616
     },
@@ -1145,12 +1144,11 @@
         "Long": 26.04255
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Politehnicii",
-        "tip": "Oprire ACC/INC",
-        "remediere": "25.10.2023 19:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.435890415618,
         "Long": 26.042932802699
     },
@@ -2321,12 +2319,11 @@
         "Long": 26.057319
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum I.Mihalache nr.315 bl.H",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Locuinţe Steaua",
-        "tip": "Oprire ACC",
-        "remediere": "25.10.2023 17:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.466989,
         "Long": 26.057461
     },
@@ -3127,11 +3124,12 @@
         "Long": 26.070794
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+        "culoare": "#e0002b",
         "denumire": "6 Sebastian",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "25.10.2023 21:30",
+        "status": "avarii",
         "Lat": 44.414421595696,
         "Long": 26.07084059149
     },
@@ -4455,12 +4453,11 @@
         "Long": 26.100213069996
     },
     {
-        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic - (str./Bd.)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "CT Floreasca",
-        "tip": "Oprire ACC",
-        "remediere": "25.10.2023 17:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4628711,
         "Long": 26.1002561
     },
@@ -5483,12 +5480,11 @@
         "Long": 26.1175694
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Labirint",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.431054647361,
         "Long": 26.118135816644
     },
@@ -5700,12 +5696,11 @@
         "Long": 26.121549
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Labirint",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.430035348188,
         "Long": 26.121550365687
     },
@@ -5827,12 +5822,11 @@
         "Long": 26.12367664304
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Labirint",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4310235807,
         "Long": 26.12427751447
     },
@@ -6017,12 +6011,11 @@
         "Long": 26.126932
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Călăraşi",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.432951436049,
         "Long": 26.126944371314
     },
@@ -6189,12 +6182,11 @@
         "Long": 26.129055642038
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Călăraşi",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.431374163217,
         "Long": 26.129109287925
     },
@@ -6208,12 +6200,11 @@
         "Long": 26.12918
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Cornul Caprei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.423398013129,
         "Long": 26.129300577458
     },
@@ -6263,12 +6254,11 @@
         "Long": 26.130527
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "I3",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4255587,
         "Long": 26.1305385
     },
@@ -6309,12 +6299,11 @@
         "Long": 26.130737
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Călăraşi",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.430669191467,
         "Long": 26.130745005608
     },
@@ -6382,12 +6371,11 @@
         "Long": 26.131306
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Cornul Caprei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.423590318535,
         "Long": 26.132061748021
     },
@@ -6428,12 +6416,11 @@
         "Long": 26.13325
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Călăraşi",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.431944022885,
         "Long": 26.133332361636
     },
@@ -6483,12 +6470,11 @@
         "Long": 26.133589904404
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "S14",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.429671,
         "Long": 26.1335993
     },
@@ -6520,12 +6506,11 @@
         "Long": 26.1341763
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "S6",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4288294,
         "Long": 26.1341874
     },
@@ -6539,12 +6524,11 @@
         "Long": 26.134342495818
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Theodor Speranţia",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.427643772709,
         "Long": 26.134450464567
     },
@@ -6603,12 +6587,11 @@
         "Long": 26.135144
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Theodor Speranţia",
-        "tip": "Oprire ACC/INC",
-        "remediere": "26.10.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.430716,
         "Long": 26.135197
     },
@@ -7659,12 +7642,11 @@
         "Long": 26.15358188979
     },
     {
-        "stare": "Remediere racord primar PT",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "9 Placare-T",
-        "tip": "Oprire ACC",
-        "remediere": "25.10.2023 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.41344,
         "Long": 26.153604
     },
@@ -8301,11 +8283,12 @@
         "Long": 26.171201593318
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum str.Prevederii",
+        "culoare": "#e0002b",
         "denumire": "6Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "26.10.2023 15:30",
+        "status": "avarii",
         "Lat": 44.409617281794,
         "Long": 26.17147765595
     },
