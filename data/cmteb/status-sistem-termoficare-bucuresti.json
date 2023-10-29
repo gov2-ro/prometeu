@@ -166,7 +166,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Roșu",
         "tip": "Deficienta ACC",
-        "remediere": "28.10.2023 23:30",
+        "remediere": "29.10.2023 12:00",
         "status": "deficiente",
         "Lat": 44.43783,
         "Long": 26.00627
@@ -574,12 +574,11 @@
         "Long": 26.023833634794
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "MILITARI - 8 Placare",
-        "tip": "Deficienta ACC",
-        "remediere": "28.10.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.43172205503,
         "Long": 26.024172872103
     },
@@ -1482,7 +1481,7 @@
         "culoare": "#ffe53e",
         "denumire": "PLAVAT",
         "tip": "Deficienta ACC/INC",
-        "remediere": "29.10.2023 08:00",
+        "remediere": "29.10.2023 12:00",
         "status": "deficiente",
         "Lat": 44.44942855835,
         "Long": 26.049877
@@ -1497,11 +1496,12 @@
         "Long": 26.049942323151
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în modulul termic pe circuitul primar",
+        "culoare": "#e0002b",
         "denumire": "MODUL TERMIC A3",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "30.10.2023 15:30",
+        "status": "avarii",
         "Lat": 44.4788,
         "Long": 26.050096
     },
