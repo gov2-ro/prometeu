@@ -21,8 +21,8 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":110,
-    "Info":"Intrare: 2 artera; Iesire: 2 artere; trafic intens - numar mare de automarfare prezente la control pe sensul de iesire din tara.",
+    "Timp":80,
+    "Info":"Intrare: 2 artera; Iesire: 2 artere; trafic intens - numar foarte mare de automarfare prezente la control pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"red",
@@ -31,8 +31,8 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":100,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"red",
@@ -61,17 +61,17 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":70,
     "Info":"Intrare 2 artere, iesire 2 artere.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":340,
+    "Timp":280,
     "Info":"intrare 4 artere, ieșire 5 artere - trafic intens, multe mijloace de transport prezente la control pe ambele sensuri",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -121,8 +121,8 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":90,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
+    "Timp":110,
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"red",
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":120,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire automarfare 4 km.",
+    "Timp":90,
+    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":120,
-    "Info":"Intrare: 1 artera; Iesire 2 artere, trafic intens pe sensul de iesire, nr. foarte mare de camioane prezentate la control",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire 1 artera",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -221,7 +221,7 @@
   },
   {
     "Denumire":"Siret",
-    "Timp":300,
+    "Timp":200,
     "Info":"Intrare: 2 artere; Iesire 3 artere. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
@@ -281,11 +281,11 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":180,
+    "Timp":30,
     "Info":"intrare 2 artere, iesire 2 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
