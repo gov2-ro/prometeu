@@ -21,7 +21,7 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
+    "Timp":30,
     "Info":"Intrare: 2 artera; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":40,
     "Info":"Intrare: 1 artere; Iesire: 2 artere; numar  mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":150,
+    "Timp":120,
     "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 4 artere. Coloana in asteptare iesire 1 km.",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 1 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"green",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":70,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic  intens- numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
