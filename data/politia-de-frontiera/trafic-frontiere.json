@@ -21,21 +21,21 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":150,
+    "Timp":40,
     "Info":"Intrare: 2 artere; Iesire: 3 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":130,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -61,11 +61,11 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":60,
     "Info":"Intrare 2 artere, iesire 2 artere.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":240,
-    "Info":"Intrare: 2 artere; Iesire 1 arteră, TRAFIC INTENS, nr. foarte mare de camioane prezentate la control",
+    "Timp":30,
+    "Info":"Intrare: 1 arteră; Iesire 1 arteră, TRAFIC INTENS, nr. foarte mare de camioane prezentate la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -281,7 +281,7 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":50,
+    "Timp":30,
     "Info":"intrare 2 artere, iesire 2 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
