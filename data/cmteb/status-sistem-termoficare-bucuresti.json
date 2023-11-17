@@ -448,10 +448,10 @@
         "Long": 26.0202
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice. Dimensiunea conductei prin care se alimentează este mai mică decat necesarul impus de o funcționare / alimentare normală cu agent termic.",
         "culoare": "#ffe53e",
         "denumire": "8 Ghirlandei",
-        "tip": "Deficienta ACC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "17.11.2023 10:00",
         "status": "deficiente",
         "Lat": 44.438951839426,
@@ -468,10 +468,10 @@
         "Long": 26.021009052018
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire .",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
         "culoare": "#ffe53e",
         "denumire": "MILITARI - 3A Placare",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC",
         "remediere": "17.11.2023 10:00",
         "status": "deficiente",
         "Lat": 44.433265546856,
@@ -514,10 +514,10 @@
         "Long": 26.02238357016
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice. Dimensiunea conductei prin care se alimentează este mai mică decat necesarul impus de o funcționare / alimentare normală cu agent termic.",
         "culoare": "#ffe53e",
         "denumire": "7 Lavandei",
-        "tip": "Deficienta ACC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "17.11.2023 10:00",
         "status": "deficiente",
         "Lat": 44.440072467637,
@@ -598,10 +598,10 @@
         "Long": 26.025608
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza lucrarilor de pe str. Dezrobirii care afecteaza ruta de alimentare a punctelor termice. Dimensiunea conductei prin care se alimenteaza este mai mica decat necesarul impus de o functionare / alimentare normala cu agent termic.",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice. Dimensiunea conductei prin care se alimentează este mai mică decat necesarul impus de o funcționare / alimentare normală cu agent termic.",
         "culoare": "#ffe53e",
         "denumire": "4 Roșia Montană",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "17.11.2023 10:00",
         "status": "deficiente",
         "Lat": 44.43741,
@@ -835,12 +835,11 @@
         "Long": 26.03209
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire .",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "MILITARI - 5A Placare",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.43271,
         "Long": 26.03239
     },
@@ -872,12 +871,11 @@
         "Long": 26.033021468157
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire .",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "8 Virtuții",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
     },
@@ -963,10 +961,10 @@
         "Long": 26.03786
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire .",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
         "culoare": "#ffe53e",
         "denumire": "7 Virtuții",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC",
         "remediere": "17.11.2023 10:00",
         "status": "deficiente",
         "Lat": 44.44159,
@@ -2710,12 +2708,11 @@
         "Long": 26.064253
     },
     {
-        "stare": "Funcționare deficitară  a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Petre Ispirescu",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 05:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.417430763133,
         "Long": 26.064395581908
     },
@@ -3210,7 +3207,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Rahova",
         "tip": "Deficienta INC",
-        "remediere": "17.11.2023 05:00",
+        "remediere": "17.11.2023 12:00",
         "status": "deficiente",
         "Lat": 44.412972402048,
         "Long": 26.071761534219
@@ -3369,12 +3366,11 @@
         "Long": 26.074533
     },
     {
-        "stare": "Funcționare deficitară  a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Sălaj",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 05:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.403277768506,
         "Long": 26.074804817897
     },
@@ -3829,12 +3825,11 @@
         "Long": 26.082604
     },
     {
-        "stare": "Funcționare deficitară  a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Chirigiu",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 05:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.416499595498,
         "Long": 26.082742952836
     },
@@ -4300,11 +4295,12 @@
         "Long": 26.0972968
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "2 Dorobanti",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "17.11.2023 12:00",
+        "status": "deficiente",
         "Lat": 44.454707,
         "Long": 26.097312
     },
@@ -5760,12 +5756,11 @@
         "Long": 26.122111
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
     },
@@ -5952,20 +5947,19 @@
         "Long": 26.1257568
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "ALMO",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.449764,
         "Long": 26.125831
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "2 Teiul Doamnei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "17.11.2023 08:00",
         "status": "deficiente",
         "Lat": 44.461141708789,
@@ -6035,12 +6029,11 @@
         "Long": 26.126944371314
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P10 Foisor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "17.11.2023 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444023,
         "Long": 26.127223
     },
@@ -6064,12 +6057,11 @@
         "Long": 26.127704
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Teiul Doamnei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "17.11.2023 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4598865995,
         "Long": 26.127756636853
     },
@@ -6645,12 +6637,11 @@
         "Long": 26.135405519137
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Doamna Ghica",
-        "tip": "Deficienta INC",
-        "remediere": "17.11.2023 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459017658526,
         "Long": 26.135532415513
     },
@@ -7223,11 +7214,12 @@
         "Long": 26.14380775646
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsă parametrii pentru furnizarea apei calde si încălzirii din cauza lucrărilor de integrare in rețeaua de termoficare a tronsoanelor înlocuite prin șantierele POIM Reabilitarea sistemului de termoficare a Municipiului București LOT 1 Contract proiectare si execuție pentru reabilitarea rețelei primare de termoficare aferente Magistralei II SUD",
+        "culoare": "#ffe53e",
         "denumire": "23 Baicului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "17.11.2023 08:00",
+        "status": "deficiente",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
     },
