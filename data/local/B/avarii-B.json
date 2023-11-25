@@ -1,6 +1,474 @@
 [
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7414",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-774d",
+        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 4427,
+        "artera": "Bulevardul Aviatorilor",
+        "nr_postal": null,
+        "localizare": "intre Piața Victoriei si Șos. Nordului",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.45355273891719,
+        "Long": 26.08618789501144
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-774c",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Militari",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 2619,
+        "artera": "Strada Velei",
+        "nr_postal": "2",
+        "localizare": "spate PT",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.431522055378935,
+        "Long": 26.024368293222594
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-774b",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 4915,
+        "artera": "Strada Succesului",
+        "nr_postal": "33",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.42317568018059,
+        "Long": 26.1815156635414
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-774a",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 2595,
+        "artera": "Strada Focşani",
+        "nr_postal": "8",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.41007929857614,
+        "Long": 26.06700834065667
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7749",
+        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
+        "tip_retea": "Termoficare",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1550,
+        "artera": "Strada Sold. Ştefan Constantin",
+        "nr_postal": null,
+        "localizare": "x Vitioara ",
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.40882100392913,
+        "Long": 26.168580380490212
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7748",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 2553,
+        "artera": "Şoseaua Pandurilor",
+        "nr_postal": "94",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43132578788413,
+        "Long": 26.06026615758218
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7747",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1591,
+        "artera": "Aleea Compozitorilor",
+        "nr_postal": "7",
+        "localizare": "bl. G10",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.42007730041959,
+        "Long": 26.046057215288066
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7746",
+        "administrator": "C.M.T.E.B. SA - Sectia Distributie S2 -  ",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 3715,
+        "artera": "Aleea Măgura Vulturului",
+        "nr_postal": "2",
+        "localizare": "langa Automecanica",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.438601218029305,
+        "Long": 26.139037709044267
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7745",
+        "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
+        "tip_retea": "Gaze",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 3,
+        "id_v_ar_artere": 3987,
+        "artera": "Strada Gherghiţei",
+        "nr_postal": "27",
+        "localizare": null,
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.477830593832834,
+        "Long": 26.138659235907845
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7744",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 2176,
+        "artera": "Strada Nada Florilor",
+        "nr_postal": "46",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.46181536989509,
+        "Long": 26.127885655802014
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7743",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 3504,
+        "artera": "Strada Mihai Eminescu",
+        "nr_postal": "166",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4468063720275,
+        "Long": 26.112086028266834
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7742",
+        "administrator": "C.M.T.E.B. SA - Sectia Distributie S2 -  ",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 3715,
+        "artera": "Aleea Măgura Vulturului",
+        "nr_postal": "3",
+        "localizare": null,
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43880241210081,
+        "Long": 26.138673504495237
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7741",
+        "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 3890,
+        "artera": "Strada Washington",
+        "nr_postal": null,
+        "localizare": "x Roma",
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4556966142405,
+        "Long": 26.094247982000716
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7740",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Militari",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 2670,
+        "artera": "Strada Moineşti",
+        "nr_postal": "2",
+        "localizare": "bl.135 ( fata bloc )",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43311732069247,
+        "Long": 26.01991738505823
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773f",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Militari",
+        "tip_retea": "Termoficare",
+        "data_anunt": "24.11.2023",
+        "data_inceput": "24.11.2023",
+        "data_sfarsit": "26.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1825,
+        "artera": "Strada Cetatea De Baltă",
+        "nr_postal": "4",
+        "localizare": "bl.M23A ( lateral bloc )",
+        "data_anuntx": "2023-11-23T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43567390003902,
+        "Long": 26.02387460301916
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773e",
+        "administrator": "E-Distributie Muntenia S.A. -  ",
+        "tip_retea": "Electricitate-consumatori",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 7,
+        "id_v_ar_artere": 331,
+        "artera": "Strada Emil Racoviţă",
+        "nr_postal": "27",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.38796071572895,
+        "Long": 26.119525391799645
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773d",
+        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
+        "tip_retea": "Termoficare",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1819,
+        "artera": "Bulevardul Camil Ressu",
+        "nr_postal": "31",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.417060530902845,
+        "Long": 26.148972090892904
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773c",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 88,
+        "artera": "Bulevardul Pieptănari",
+        "nr_postal": "19-21",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4033541365741,
+        "Long": 26.09435204282212
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773b",
+        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 3920,
+        "artera": "Calea Călăraşi",
+        "nr_postal": "167",
+        "localizare": "spate bloc ",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.432862236373126,
+        "Long": 26.124948899316333
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-773a",
+        "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
+        "tip_retea": "Apă potabilă",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 1,
+        "id_v_ar_artere": 2974,
+        "artera": "Aleea Valea Florilor",
+        "nr_postal": "6",
+        "localizare": "lateral bloc bl Z9",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.425740986217065,
+        "Long": 26.036187423079248
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7739",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 1701,
+        "artera": "Şoseaua Pantelimon",
+        "nr_postal": "82-90",
+        "localizare": null,
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.44446260755318,
+        "Long": 26.139785825316928
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7738",
+        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 1746,
+        "artera": "Şoseaua Pavel Dimitrievici Kiseleff",
+        "nr_postal": null,
+        "localizare": "Piața Victoriei- Piața Presei Libere",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.45346316388779,
+        "Long": 26.085255195602446
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7737",
+        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 2604,
+        "artera": "Piaţa Ion I. C. Bratianu - Arcul de Triumf",
+        "nr_postal": null,
+        "localizare": "Piața Arcul de Triumf- piața presei libere  (actual Bd.Regele Mihai I)",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.467679894617696,
+        "Long": 26.077875176469647
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7736",
+        "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
+        "tip_retea": "Gaze",
+        "data_anunt": "23.11.2023",
+        "data_inceput": "23.11.2023",
+        "data_sfarsit": "25.11.2023",
+        "id_z_tip_retele": 3,
+        "id_v_ar_artere": 2516,
+        "artera": "Strada Sălătruc",
+        "nr_postal": "16",
+        "localizare": null,
+        "data_anuntx": "2023-11-22T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.489227974707795,
+        "Long": 26.04505792518301
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7735",
+        "administrator": "S.T.B. - Sectia R.E.S. -  ",
+        "tip_retea": "Electricitate S.T.B.",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 28,
+        "id_v_ar_artere": 3547,
+        "artera": "Şoseaua Colentina",
+        "nr_postal": null,
+        "localizare": "in fata Parcului Plumbuita",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4651866256894,
+        "Long": 26.13551170981551
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7734",
+        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
+        "tip_retea": "Termoficare",
+        "data_anunt": "22.11.2023",
+        "data_inceput": "22.11.2023",
+        "data_sfarsit": "24.11.2023",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 31,
+        "artera": "Calea Vitan",
+        "nr_postal": "220-222",
+        "localizare": "trape",
+        "data_anuntx": "2023-11-21T22:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4091755203749,
+        "Long": 26.137692192850306
+    },
+    {
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7733",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -18,7 +486,7 @@
         "Long": 26.124488844603
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7415",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7732",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -36,7 +504,7 @@
         "Long": 26.03280317020303
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7416",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7731",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "22.11.2023",
@@ -54,7 +522,7 @@
         "Long": 26.01859309982541
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7417",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7730",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -72,7 +540,7 @@
         "Long": 26.123651373523103
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7418",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772f",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -90,7 +558,7 @@
         "Long": 26.17959050370046
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7419",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772e",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S2 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "22.11.2023",
@@ -108,7 +576,7 @@
         "Long": 26.139066857043684
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741a",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772d",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "22.11.2023",
@@ -126,7 +594,7 @@
         "Long": 26.070606516401742
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741b",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772c",
         "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "22.11.2023",
@@ -144,7 +612,7 @@
         "Long": 26.08618789501144
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741c",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772b",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -162,7 +630,7 @@
         "Long": 26.085076622106605
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741d",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-772a",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -180,7 +648,7 @@
         "Long": 26.075761255673314
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741e",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7729",
         "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "22.11.2023",
@@ -198,7 +666,7 @@
         "Long": 26.079843885526305
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_741f",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7728",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "22.11.2023",
@@ -216,7 +684,7 @@
         "Long": 26.108918220121332
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7420",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7727",
         "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "22.11.2023",
@@ -234,7 +702,7 @@
         "Long": 26.08840061411733
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7421",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7726",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -252,7 +720,7 @@
         "Long": 26.074706212681154
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7422",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7725",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -270,7 +738,7 @@
         "Long": 26.138068511263295
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7423",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7724",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -288,7 +756,7 @@
         "Long": 26.046582210599947
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7424",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7723",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "22.11.2023",
@@ -306,7 +774,7 @@
         "Long": 26.122651882762533
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7425",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7722",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "22.11.2023",
@@ -324,7 +792,7 @@
         "Long": 26.083957863940952
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7426",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7721",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -342,7 +810,7 @@
         "Long": 26.038603328679
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7427",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7720",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -360,7 +828,7 @@
         "Long": 26.150654786924267
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7428",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771f",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -378,7 +846,7 @@
         "Long": 26.04757258862025
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7429",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771e",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -396,7 +864,7 @@
         "Long": 26.150644677133908
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742a",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771d",
         "administrator": "Distrigaz Sud- Sectoarele 3 şi 4 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "22.11.2023",
@@ -414,7 +882,7 @@
         "Long": 26.19760812627305
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742b",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771c",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -432,7 +900,7 @@
         "Long": 26.10085189680906
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742c",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771b",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -450,7 +918,7 @@
         "Long": 26.052093575176915
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742d",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-771a",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -468,7 +936,7 @@
         "Long": 26.04256057324412
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742e",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7719",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -486,7 +954,7 @@
         "Long": 26.109233033198226
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_742f",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7718",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -504,7 +972,7 @@
         "Long": 26.095991914076674
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7430",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7717",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -522,7 +990,7 @@
         "Long": 26.127219345885347
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7431",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7716",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -540,7 +1008,7 @@
         "Long": 26.03866072063476
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7432",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7715",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -558,7 +1026,7 @@
         "Long": 26.054809672706646
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7433",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7714",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "22.11.2023",
@@ -576,7 +1044,7 @@
         "Long": 26.128047419664778
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7434",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7713",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -594,7 +1062,7 @@
         "Long": 26.058265766637618
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7435",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7712",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -612,7 +1080,7 @@
         "Long": 26.016502304021945
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7436",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7711",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -630,7 +1098,7 @@
         "Long": 26.095099664144264
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7437",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7710",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -648,7 +1116,7 @@
         "Long": 26.06196905319184
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7438",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770f",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -666,7 +1134,7 @@
         "Long": 26.086418385327907
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7439",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770e",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -684,7 +1152,7 @@
         "Long": 26.074174276148796
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743a",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770d",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Titan",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -702,7 +1170,7 @@
         "Long": 26.165051734568127
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743b",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770c",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -720,7 +1188,7 @@
         "Long": 26.115063232964054
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743c",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770b",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S1 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -738,7 +1206,7 @@
         "Long": 26.05845428490341
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743d",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-770a",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -756,7 +1224,7 @@
         "Long": 26.14053764251727
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743e",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7709",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -774,7 +1242,7 @@
         "Long": 26.126343733284774
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_743f",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7708",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -792,7 +1260,7 @@
         "Long": 26.0423530593625
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7440",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7707",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -810,7 +1278,7 @@
         "Long": 26.041491640263835
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7441",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7706",
         "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -828,7 +1296,7 @@
         "Long": 26.024661638847732
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7442",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7705",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S1 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -846,7 +1314,7 @@
         "Long": 26.058285854114995
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7443",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7704",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -864,7 +1332,7 @@
         "Long": 26.065191858314385
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7444",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7703",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -882,7 +1350,7 @@
         "Long": 26.09538947464779
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7445",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7702",
         "administrator": "Distrigaz Sud- Sectoarele 5 si 6 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "22.11.2023",
@@ -900,7 +1368,7 @@
         "Long": 26.031511861742587
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7446",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7701",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -918,7 +1386,7 @@
         "Long": 26.08136407471017
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7447",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-7700",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -936,7 +1404,7 @@
         "Long": 26.049360727099717
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7448",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ff",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -954,7 +1422,7 @@
         "Long": 26.13245428474997
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7449",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76fe",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -972,7 +1440,7 @@
         "Long": 26.08396773553435
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744a",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76fd",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -990,7 +1458,7 @@
         "Long": 26.076936535975086
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744b",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76fc",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1008,7 +1476,7 @@
         "Long": 26.00666920092296
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744c",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76fb",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -1026,7 +1494,7 @@
         "Long": 26.073418284564042
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744d",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76fa",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "23.11.2023",
@@ -1044,7 +1512,7 @@
         "Long": 26.12277235323276
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744e",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f9",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -1062,7 +1530,7 @@
         "Long": 26.075505898199744
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_744f",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f8",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1080,7 +1548,7 @@
         "Long": 26.088998785324552
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7450",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f7",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "23.11.2023",
@@ -1098,7 +1566,7 @@
         "Long": 26.07354556900893
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7451",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f6",
         "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -1116,7 +1584,7 @@
         "Long": 26.05562657114178
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7452",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f5",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1134,7 +1602,7 @@
         "Long": 26.01216058375829
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7453",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f4",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1152,7 +1620,7 @@
         "Long": 26.13803478915072
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7454",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f3",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1170,7 +1638,7 @@
         "Long": 26.176150950513534
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7455",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f2",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
         "tip_retea": "Apă potabilă",
         "data_anunt": "22.11.2023",
@@ -1188,7 +1656,7 @@
         "Long": 26.062665570133895
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7456",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f1",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "23.11.2023",
@@ -1206,7 +1674,7 @@
         "Long": 26.152666838667304
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7457",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76f0",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "24.11.2023",
@@ -1224,7 +1692,7 @@
         "Long": 26.047934570679825
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7458",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ef",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "23.11.2023",
@@ -1242,7 +1710,7 @@
         "Long": 26.054978220034958
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7459",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ee",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "23.11.2023",
@@ -1260,7 +1728,7 @@
         "Long": 26.012814015582503
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745a",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ed",
         "administrator": "S.T.B.  - Sectia Linii -  ",
         "tip_retea": "Linie tramvai",
         "data_anunt": "24.11.2023",
@@ -1278,7 +1746,7 @@
         "Long": 26.172579482387828
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745b",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ec",
         "administrator": "Distrigaz Sud- Sectoarele 3 şi 4 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "23.11.2023",
@@ -1296,7 +1764,7 @@
         "Long": 26.098692587095115
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745c",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76eb",
         "administrator": "E-Distributie Muntenia S.A. -  ",
         "tip_retea": "Electricitate-consumatori",
         "data_anunt": "23.11.2023",
@@ -1314,7 +1782,7 @@
         "Long": 26.135518708314116
     },
     {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745d",
+        "id": "v_hip_avarii.fid--18adab81_18c06e01dd5_-76ea",
         "administrator": "Distrigaz Sud- Sectoarele 5 si 6 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "23.11.2023",
@@ -1330,473 +1798,5 @@
         "geometry_type": "Point",
         "Lat": 44.41257964429759,
         "Long": 26.06800212871719
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745e",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 4410,
-        "artera": "Strada Serghei Vasilievici Rahmaninov",
-        "nr_postal": "76",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.47055873623186,
-        "Long": 26.106273404067448
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_745f",
-        "administrator": "Distrigaz Sud- Sectoarele 3 şi 4 -  ",
-        "tip_retea": "Gaze",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 3,
-        "id_v_ar_artere": 479,
-        "artera": "Strada Vatra Dornei",
-        "nr_postal": "1",
-        "localizare": "bl. 18 B-C sc. 1",
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.38335169060334,
-        "Long": 26.113325067602016
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7460",
-        "administrator": "E-Distributie Muntenia S.A. -  ",
-        "tip_retea": "Electricitate-consumatori",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 7,
-        "id_v_ar_artere": 3306,
-        "artera": "Şoseaua Fundeni",
-        "nr_postal": "17 A",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.446762255522295,
-        "Long": 26.166168871540975
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7461",
-        "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
-        "tip_retea": "Apă potabilă",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 1,
-        "id_v_ar_artere": 4078,
-        "artera": "Strada Londra",
-        "nr_postal": "30",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.456332062700724,
-        "Long": 26.093093613454897
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7462",
-        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
-        "tip_retea": "Reţea stradală",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 8,
-        "id_v_ar_artere": 2604,
-        "artera": "Piaţa Ion I. C. Bratianu - Arcul de Triumf",
-        "nr_postal": null,
-        "localizare": "intre Piața Arcul de Triumf si Piața Presei Libere  - actual Bd.Regele Mihai I",
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.467679894617696,
-        "Long": 26.077875176469647
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7463",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 5085,
-        "artera": "Bulevardul Alexandru Nasta",
-        "nr_postal": "1",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.5167426763365,
-        "Long": 26.084167169749865
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7464",
-        "administrator": "Distrigaz Sud- Sectoarele 3 şi 4 -  ",
-        "tip_retea": "Gaze",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 3,
-        "id_v_ar_artere": 2103,
-        "artera": "Strada Brăiliţa",
-        "nr_postal": "32-34",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.41989922854772,
-        "Long": 26.129949813474635
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7465",
-        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Titan",
-        "tip_retea": "Termoficare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 5,
-        "artera": "Strada Prevederii",
-        "nr_postal": "7",
-        "localizare": "Bl. PM 11B",
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.409414874211286,
-        "Long": 26.167135271100044
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7466",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 232,
-        "artera": "Drumul Luptătorilor Antifascişti",
-        "nr_postal": "20",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.392432725885485,
-        "Long": 26.036767633253472
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7467",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 1825,
-        "artera": "Strada Cetatea De Baltă",
-        "nr_postal": "27",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.435834207809144,
-        "Long": 26.023468957661873
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7468",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 101,
-        "artera": "Drumul Găzarului",
-        "nr_postal": "42",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.38888091608308,
-        "Long": 26.102349005701363
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7469",
-        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
-        "tip_retea": "Termoficare",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 1065,
-        "artera": "Strada Stoian Militaru",
-        "nr_postal": "1-3",
-        "localizare": "spatiu verde",
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.39904513988872,
-        "Long": 26.105817700236617
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746a",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 4044,
-        "artera": "Strada Ion Bogdan",
-        "nr_postal": "2",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.45044641752736,
-        "Long": 26.099476570234984
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746b",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 1065,
-        "artera": "Strada Stoian Militaru",
-        "nr_postal": "105",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.393943351802356,
-        "Long": 26.09701068148669
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746c",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 308,
-        "artera": "Strada Fraţii Buzeşti",
-        "nr_postal": "52",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.4074035474711,
-        "Long": 26.054705946416647
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746d",
-        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
-        "tip_retea": "Reţea stradală",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 8,
-        "id_v_ar_artere": 1746,
-        "artera": "Şoseaua Pavel Dimitrievici Kiseleff",
-        "nr_postal": null,
-        "localizare": "intre Piața Victoriei si Piața Presei Libere",
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.45346316388779,
-        "Long": 26.085255195602446
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746e",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 1493,
-        "artera": "Strada Ciocârliei",
-        "nr_postal": "20",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.44450384758386,
-        "Long": 26.162671925062522
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_746f",
-        "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
-        "tip_retea": "Apă potabilă",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 1,
-        "id_v_ar_artere": 2849,
-        "artera": "Intrarea Sevastopol",
-        "nr_postal": "2",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.44883736573453,
-        "Long": 26.08346836859403
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7470",
-        "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
-        "tip_retea": "Apă potabilă",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 1,
-        "id_v_ar_artere": 2881,
-        "artera": "Strada Haltei",
-        "nr_postal": "23",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.4595515512022,
-        "Long": 26.04983922780195
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7471",
-        "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
-        "tip_retea": "Canalizare",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 2,
-        "id_v_ar_artere": 1245,
-        "artera": "Şoseaua Bucureşti - Măgurele",
-        "nr_postal": "6",
-        "localizare": null,
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.39913010854322,
-        "Long": 26.04876109716902
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7472",
-        "administrator": "E-Distributie Muntenia S.A. -  ",
-        "tip_retea": "Electricitate-consumatori",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 7,
-        "id_v_ar_artere": 1405,
-        "artera": "Strada Vredniciei",
-        "nr_postal": null,
-        "localizare": "x Salaj",
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.392987145337145,
-        "Long": 26.065711695409934
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7473",
-        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
-        "tip_retea": "Apă potabilă",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 1,
-        "id_v_ar_artere": 1458,
-        "artera": "Strada Zizin",
-        "nr_postal": "20",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.41698230699698,
-        "Long": 26.128433333291685
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7474",
-        "administrator": "Adm. Străzilor- Serv.Reglementarea Circulaţiei -  ",
-        "tip_retea": "Reţea stradală",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 8,
-        "id_v_ar_artere": 3571,
-        "artera": "Bulevardul Mihail Kogălniceanu",
-        "nr_postal": null,
-        "localizare": "intre Splaiul Independenței si Piața Mihail Kogălniceanu",
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.434402664696364,
-        "Long": 26.079883583345158
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7475",
-        "administrator": "E-Distributie Muntenia S.A. -  ",
-        "tip_retea": "Electricitate-consumatori",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 7,
-        "id_v_ar_artere": 264,
-        "artera": "Strada Aurel Perşu",
-        "nr_postal": "26",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.374273699927976,
-        "Long": 26.113587851267525
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7476",
-        "administrator": "Netcity -  ",
-        "tip_retea": "Telecomunicatii",
-        "data_anunt": "24.11.2023",
-        "data_inceput": "24.11.2023",
-        "data_sfarsit": "26.11.2023",
-        "id_z_tip_retele": 24,
-        "id_v_ar_artere": 194,
-        "artera": "Bulevardul Theodor Pallady",
-        "nr_postal": "64",
-        "localizare": "banda 1 artera pasaj",
-        "data_anuntx": "2023-11-23T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.40555684591007,
-        "Long": 26.205161709745354
-    },
-    {
-        "id": "v_hip_avarii.fid--18adab81_18bfb2ed4bd_7477",
-        "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
-        "tip_retea": "Apă potabilă",
-        "data_anunt": "23.11.2023",
-        "data_inceput": "23.11.2023",
-        "data_sfarsit": "25.11.2023",
-        "id_z_tip_retele": 1,
-        "id_v_ar_artere": 3920,
-        "artera": "Calea Călăraşi",
-        "nr_postal": "66",
-        "localizare": null,
-        "data_anuntx": "2023-11-22T22:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.43318093576922,
-        "Long": 26.11563318567182
     }
 ]
