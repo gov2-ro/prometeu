@@ -21,27 +21,27 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Timp":60,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":50,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":180,
+    "Timp":300,
     "Info":"intrare 4 artere, iesire 2 artere, trafic intens multe mijloace de transport prezente la control. trafic suspendat temporar pe sensul de iesire, din cauza conditiilor meteo nefavorabile, pe teritoriul Bulgariei",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -51,8 +51,8 @@
   },
   {
     "Denumire":"Călăraşi-Chiciu",
-    "Timp":10,
-    "Info":"",
+    "Timp":15,
+    "Info":"tranzitul se efectueaza cu ferry-boatul",
     "Latitude":"44.131321",
     "Longitude":"27.26857700000005",
     "Status":"green",
@@ -72,7 +72,7 @@
   {
     "Denumire":"Giurgiu",
     "Timp":300,
-    "Info":"trafic suspendat temporar-sens iesire-conditii meteo nefavorabile pe teritoriul BG",
+    "Info":"trafic suspendat -conditii meteo nefavorabile pe teritoriul BG",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -92,7 +92,7 @@
   {
     "Denumire":"Isaccea",
     "Timp":60,
-    "Info":"intrare 1 artera; iesire 1 artera. Trecerea se realizeaza cu bacul",
+    "Info":"intrare 1 artera; iesire 1 artera. Trecerea se realizeaza cu bacul.",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
     "Status":"red",
@@ -121,18 +121,18 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
+    "Timp":60,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare din tara.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
+    "Timp":70,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":40,
+    "Timp":100,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic  intens- numar foarte mare de mijloace de transport prezente pe sensul de intrare la controlul de frontiera. Trafic suspendat din cauza conditiilor meteo nefavorabile.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":150,
+    "Timp":120,
     "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":80,
+    "Timp":70,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
