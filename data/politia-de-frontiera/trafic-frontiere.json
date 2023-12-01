@@ -21,21 +21,21 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":30,
+    "Timp":60,
     "Info":"Intrare: 2 artere; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":40,
+    "Timp":20,
     "Info":"Intrare: 1 artera; Iesire: 1 artera;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":150,
+    "Timp":130,
     "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -121,7 +121,7 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":30,
+    "Timp":50,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara. Coloana in asteptare iesire 500 m.",
+    "Info":"Intrare: 4 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara. Coloana in asteptare iesire 500 m.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":90,
+    "Timp":180,
     "Info":"Intrare: 2 artere; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":90,
+    "Timp":50,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
