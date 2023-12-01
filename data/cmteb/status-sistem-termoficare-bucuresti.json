@@ -445,7 +445,7 @@
         "culoare": "#e0002b",
         "denumire": "8 Ghirlandei",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.438951839426,
         "Long": 26.02096827993
@@ -509,7 +509,7 @@
         "culoare": "#e0002b",
         "denumire": "7 Lavandei",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.440072467637,
         "Long": 26.022741731414
@@ -591,7 +591,7 @@
         "culoare": "#e0002b",
         "denumire": "4 Roșia Montană",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.43741,
         "Long": 26.02566
@@ -601,7 +601,7 @@
         "culoare": "#e0002b",
         "denumire": "6 Roșia Montană",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.438843977732,
         "Long": 26.025660298302
@@ -701,7 +701,7 @@
         "culoare": "#e0002b",
         "denumire": "3 Dreptății",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.4371,
         "Long": 26.02776
@@ -864,7 +864,7 @@
         "culoare": "#e0002b",
         "denumire": "8 Virtuții",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
@@ -955,7 +955,7 @@
         "culoare": "#e0002b",
         "denumire": "7 Virtuții",
         "tip": "Oprire ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "avarii",
         "Lat": 44.44159,
         "Long": 26.03789
@@ -2482,11 +2482,12 @@
         "Long": 26.059991180552
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie circuit primar",
+        "culoare": "#e0002b",
         "denumire": "REGIE 2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "01.12.2023 23:30",
+        "status": "avarii",
         "Lat": 44.445941925049,
         "Long": 26.060035
     },
@@ -2626,12 +2627,11 @@
         "Long": 26.062423
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Drumul Sării",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "30.11.2023 22:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.420991229538,
         "Long": 26.062554241834
     },
@@ -4242,7 +4242,7 @@
         "culoare": "#ffe53e",
         "denumire": "Livada Noua",
         "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 11:30",
         "status": "deficiente",
         "Lat": 44.391970416785,
         "Long": 26.096548571872
@@ -4950,12 +4950,11 @@
         "Long": 26.1103
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Aleea Circului",
-        "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4532304,
         "Long": 26.1103072
     },
@@ -4982,7 +4981,7 @@
         "culoare": "#ffe53e",
         "denumire": "Galvani Tei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "deficiente",
         "Lat": 44.459736244268,
         "Long": 26.11061765533
@@ -5055,7 +5054,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Brancoveanu",
         "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 11:30",
         "status": "deficiente",
         "Lat": 44.394643867895,
         "Long": 26.111738694051
@@ -5236,7 +5235,7 @@
         "culoare": "#ffe53e",
         "denumire": "Opanez",
         "tip": "Deficienta ACC/INC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "01.12.2023 10:00",
         "status": "deficiente",
         "Lat": 44.461534099323,
         "Long": 26.115513157822
@@ -5494,12 +5493,11 @@
         "Long": 26.118363463921
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "29 Stefan cel Mare",
-        "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4526916,
         "Long": 26.1183962
     },
@@ -5571,7 +5569,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Vacaresti",
         "tip": "Deficienta ACC",
-        "remediere": "30.11.2023 23:30",
+        "remediere": "04.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.406562899734,
         "Long": 26.120041334401
@@ -5910,12 +5908,11 @@
         "Long": 26.12550488294
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Colentina",
-        "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4521405,
         "Long": 26.1255967
     },
@@ -5929,12 +5926,11 @@
         "Long": 26.1257568
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "ALMO",
-        "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.449764,
         "Long": 26.125831
     },
@@ -6607,12 +6603,11 @@
         "Long": 26.135405519137
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Doamna Ghica",
-        "tip": "Deficienta INC",
-        "remediere": "30.11.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459017658526,
         "Long": 26.135532415513
     },
