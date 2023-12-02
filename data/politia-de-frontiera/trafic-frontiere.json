@@ -21,11 +21,11 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara.",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":150,
+    "Timp":120,
     "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control. trafic suspendat temporar pe sensul de iesire, din cauza conditiilor meteo nefavorabile, pe teritoriul Bulgariei",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -81,8 +81,8 @@
   },
   {
     "Denumire":"Halmeu",
-    "Timp":180,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
+    "Timp":240,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
     "Status":"red",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 4 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara. Coloana in asteptare iesire 500 m.",
+    "Timp":40,
+    "Info":"Intrare: 3 artere; Iesire: 2 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -151,21 +151,21 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":90,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
+    "Timp":30,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente pe sensul de intrare la controlul de frontiera.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Oancea",
-    "Timp":60,
+    "Timp":40,
     "Info":"Intrare 2 artere, iesire 2 artere.",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":180,
+    "Timp":120,
     "Info":"Intrare: 2 artere; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
