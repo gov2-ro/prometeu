@@ -41,8 +41,8 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":120,
-    "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control. trafic suspendat temporar pe sensul de iesire, din cauza conditiilor meteo nefavorabile, pe teritoriul Bulgariei",
+    "Timp":150,
+    "Info":"intrare 4 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":130,
+    "Timp":100,
     "Info":"Intrare 2 artere, iesire 2 artere. Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":240,
+    "Timp":60,
     "Info":"intrare 5 artere, ieșire 5 artere - trafic reluat, foarte multe mijloace de transport prezentate la control",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -81,8 +81,8 @@
   },
   {
     "Denumire":"Halmeu",
-    "Timp":240,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Timp":420,
+    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
     "Status":"red",
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":40,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere.",
+    "Timp":30,
+    "Info":"Intrare: 3 artere; Iesire: 3 artere",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -161,7 +161,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":40,
+    "Timp":30,
     "Info":"Intrare 2 artere, iesire 2 artere.",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":120,
-    "Info":"Intrare: 2 artere; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Timp":150,
+    "Info":"Intrare: 2 artere; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -221,8 +221,8 @@
   },
   {
     "Denumire":"Siret",
-    "Timp":200,
-    "Info":"Intrare: 1 artera; Iesire 3 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Timp":250,
+    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
     "Status":"red",
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
-    "Info":"intrare 1 artera, iesire 1 artera;",
+    "Timp":30,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare in tara.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
