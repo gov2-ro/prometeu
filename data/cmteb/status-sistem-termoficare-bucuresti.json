@@ -444,7 +444,7 @@
         "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "8 Ghirlandei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.438951839426,
@@ -508,7 +508,7 @@
         "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "7 Lavandei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.440072467637,
@@ -590,7 +590,7 @@
         "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "4 Roșia Montană",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.43741,
@@ -600,7 +600,7 @@
         "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "6 Roșia Montană",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.438843977732,
@@ -769,21 +769,21 @@
         "Long": 26.03119
     },
     {
-        "stare": "Lucrări de înlocuire  conductă pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 3/3",
-        "tip": "Oprire ACC/INC",
-        "remediere": "05.12.2023 10:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.425688835247,
         "Long": 26.031213842144
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "4 Virtuții",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "04.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.441178047714,
         "Long": 26.031357548666
     },
@@ -860,11 +860,12 @@
         "Long": 26.033021468157
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "8 Virtuții",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "04.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
     },
@@ -950,11 +951,12 @@
         "Long": 26.03786
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "7 Virtuții",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "04.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.44159,
         "Long": 26.03789
     },
@@ -1013,12 +1015,11 @@
         "Long": 26.039559592789
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Uverturii",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 18:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.437333766834,
         "Long": 26.039619252277
     },
@@ -2484,12 +2485,11 @@
         "Long": 26.059991180552
     },
     {
-        "stare": "Remediere avarie- apartine Complexului Studentesc",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "REGIE 2",
-        "tip": "Oprire INC",
-        "remediere": "04.12.2023 16:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.445941925049,
         "Long": 26.060035
     },
@@ -2503,12 +2503,11 @@
         "Long": 26.060203
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Intrarea Drumul Taberei",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424038,
         "Long": 26.061132
     },
@@ -3386,11 +3385,11 @@
         "Long": 26.075102595166
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul apei calde de consum si încălzire - Str Dunavăţ  bl. 57",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - Str Dunavăţ  bl. 57",
         "culoare": "#e0002b",
         "denumire": "1 Sălaj",
-        "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2023 16:00",
+        "tip": "Oprire INC",
+        "remediere": "04.12.2023 20:30",
         "status": "avarii",
         "Lat": 44.409725099236,
         "Long": 26.075109562074
@@ -3639,12 +3638,11 @@
         "Long": 26.078511
     },
     {
-        "stare": "Remediere avarie circuit primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Clucerului",
-        "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2023 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.458744,
         "Long": 26.07863
     },
@@ -3757,12 +3755,11 @@
         "Long": 26.0809988
     },
     {
-        "stare": "Lucrări de înlocuire de conductă pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 din 13 Septembrie",
-        "tip": "Oprire ACC/INC",
-        "remediere": "05.12.2023 09:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424305273891,
         "Long": 26.081255079824
     },
@@ -3776,12 +3773,11 @@
         "Long": 26.081339
     },
     {
-        "stare": "Lucrări de înlocuire de conductă pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Grădiniţa Nr.268 Scoala Nr.128",
-        "tip": "Oprire ACC/INC",
-        "remediere": "05.12.2023 09:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.423287,
         "Long": 26.081435
     },
@@ -4771,11 +4767,12 @@
         "Long": 26.105839910673
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "Barbu Vacarescu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4551644,
         "Long": 26.1059908
     },
@@ -5229,7 +5226,7 @@
         "culoare": "#e0002b",
         "denumire": "Metalurgiei",
         "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2023 23:30",
+        "remediere": "05.12.2023 13:00",
         "status": "avarii",
         "Lat": 44.386737457202,
         "Long": 26.114452759835
@@ -5273,11 +5270,12 @@
         "Long": 26.1157015
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie circuit primar - Bd.Alexandru Obregia",
+        "culoare": "#e0002b",
         "denumire": "Modul Termic - Colegiul National Octav Onicescu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "05.12.2023 13:00",
+        "status": "avarii",
         "Lat": 44.3862695,
         "Long": 26.1157798
     },
@@ -5354,12 +5352,11 @@
         "Long": 26.116503
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum- bl. 15",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Mosilor",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 14:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.441189280039,
         "Long": 26.116536292115
     },
@@ -5404,7 +5401,7 @@
         "culoare": "#e0002b",
         "denumire": "2 A Metalurgiei",
         "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2023 23:30",
+        "remediere": "05.12.2023 13:00",
         "status": "avarii",
         "Lat": 44.3883856,
         "Long": 26.1170617
@@ -5473,11 +5470,12 @@
         "Long": 26.117482
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "4 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4520234,
         "Long": 26.1175694
     },
@@ -5510,11 +5508,12 @@
         "Long": 26.118363463921
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "29 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4526916,
         "Long": 26.1183962
     },
@@ -5601,20 +5600,22 @@
         "Long": 26.1200934
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "Luncsoara",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.450912311984,
         "Long": 26.120118966523
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
     },
@@ -5682,12 +5683,11 @@
         "Long": 26.121324108352
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
     },
@@ -5710,11 +5710,12 @@
         "Long": 26.121550365687
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "30 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4517649,
         "Long": 26.1215781
     },
@@ -5728,12 +5729,11 @@
         "Long": 26.121893601914
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "ICB",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.462771,
         "Long": 26.121958
     },
@@ -5756,12 +5756,11 @@
         "Long": 26.122111
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
     },
@@ -5775,11 +5774,12 @@
         "Long": 26.122753704537
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "5 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.449580024163,
         "Long": 26.122853849226
     },
@@ -5820,11 +5820,12 @@
         "Long": 26.123675134747
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "1 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.452127590305,
         "Long": 26.12367664304
     },
@@ -5838,12 +5839,11 @@
         "Long": 26.12427751447
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.460380612534,
         "Long": 26.124608065815
     },
@@ -5857,12 +5857,11 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
@@ -6144,10 +6143,10 @@
         "Long": 26.128455383519
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
         "culoare": "#ffe53e",
         "denumire": "P16 Mihai Bravu",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "06.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.444994219219,
@@ -6172,10 +6171,10 @@
         "Long": 26.12887
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
         "culoare": "#ffe53e",
         "denumire": "3 Vaselor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "06.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.446328142942,
@@ -6487,12 +6486,11 @@
         "Long": 26.133503
     },
     {
-        "stare": "Remediere avarie  Apa - Nova, str. Laborator  - lipsa apa rece la punctul termic.",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Laborator",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 17:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.418128188483,
         "Long": 26.133589904404
     },
@@ -6524,11 +6522,12 @@
         "Long": 26.1340851
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "64 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4625036,
         "Long": 26.1341763
     },
@@ -6542,12 +6541,11 @@
         "Long": 26.1341874
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "D18 Mihai Bravu",
-        "tip": "Deficienta INC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.438360802765,
         "Long": 26.134342495818
     },
@@ -6606,11 +6604,12 @@
         "Long": 26.135111
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "2 Colentina 2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.462756,
         "Long": 26.135144
     },
@@ -6661,12 +6660,11 @@
         "Long": 26.135694
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "D11 Mihai Bravu",
-        "tip": "Deficienta ACC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4393926,
         "Long": 26.1357183
     },
@@ -6708,10 +6706,10 @@
         "Long": 26.136026253564
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
         "culoare": "#ffe53e",
         "denumire": "202 Mihai Bravu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "06.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.435393614885,
@@ -6745,21 +6743,21 @@
         "Long": 26.136792235983
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "7 Doamna Ghica",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.460784338422,
         "Long": 26.136793039178
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum din cauză- avarie rețea primară Magistrala I Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "201 Mihai Bravu",
-        "tip": "Deficienta ACC",
-        "remediere": "06.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.433067298938,
         "Long": 26.13699093943
     },
@@ -6828,12 +6826,11 @@
         "Long": 26.137736210591
     },
     {
-        "stare": "Remediere avarie  Apa - Nova, str. Laborator  - lipsa apa rece la punctul termic.",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "10 Laborator",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 17:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.418413007795,
         "Long": 26.137769859583
     },
@@ -6847,11 +6844,12 @@
         "Long": 26.1379183
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "8 Doamna Ghica",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.459524667349,
         "Long": 26.138342014877
     },
@@ -6865,11 +6863,12 @@
         "Long": 26.1383645
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "1 Colentina 3",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.467482042644,
         "Long": 26.138744484166
     },
@@ -6957,11 +6956,12 @@
         "Long": 26.139666312047
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "2 Colentina 3",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.466636859339,
         "Long": 26.139962385144
     },
@@ -7032,11 +7032,12 @@
         "Long": 26.140884591716
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "1 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.465215832776,
         "Long": 26.140920169489
     },
@@ -7144,11 +7145,12 @@
         "Long": 26.1421398
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "2 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.462891,
         "Long": 26.142306
     },
@@ -7190,11 +7192,12 @@
         "Long": 26.142898
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "Modul Bl.20",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4549888,
         "Long": 26.1432111
     },
@@ -7367,11 +7370,12 @@
         "Long": 26.146925
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauză- avarie rețea primară Magistrala I Sud",
+        "culoare": "#ffe53e",
         "denumire": "3 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.465167211704,
         "Long": 26.147026165983
     },
@@ -7386,12 +7390,12 @@
         "Long": 26.147095
     },
     {
-        "stare": "Lucrari apa calda de consum+incalzire bl.21A.",
-        "culoare": "#e0002b",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza avariei de pe Rețeaua Primară Mag. I - CET SUD.",
+        "culoare": "#ffe53e",
         "denumire": "SC.1Baba Novac",
-        "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2023 15:30",
-        "status": "avarii",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "06.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.424383,
         "Long": 26.147097
     },
@@ -7781,7 +7785,7 @@
         "culoare": "#e0002b",
         "denumire": "IOR",
         "tip": "Oprire INC",
-        "remediere": "04.12.2023 15:30",
+        "remediere": "04.12.2023 23:30",
         "status": "avarii",
         "Lat": 44.430177,
         "Long": 26.156194
@@ -8350,12 +8354,12 @@
         "Long": 26.170926536434
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii  din cauza avariei de pe Reteaua Primara  Mag 1 CET Sud",
-        "culoare": "#ffe53e",
+        "stare": "Avarie Apa Nova - lipsă apă rece la modulul termic",
+        "culoare": "#e0002b",
         "denumire": "SC.1Cornisa",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "06.12.2023 23:00",
-        "status": "deficiente",
+        "tip": "Oprire ACC",
+        "remediere": "04.12.2023 23:30",
+        "status": "avarii",
         "Lat": 44.431364890841,
         "Long": 26.170994379364
     },
@@ -8553,12 +8557,11 @@
         "Long": 26.175364827674
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "10 Pantelimon",
-        "tip": "Oprire ACC",
-        "remediere": "04.12.2023 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.439970758232,
         "Long": 26.175389836374
     },
