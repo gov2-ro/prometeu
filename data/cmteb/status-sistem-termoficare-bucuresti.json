@@ -775,11 +775,11 @@
         "Long": 26.031213842144
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "4 Virtuții",
         "tip": "Deficienta INC",
-        "remediere": "06.12.2023 08:00",
+        "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.441178047714,
         "Long": 26.031357548666
@@ -857,11 +857,11 @@
         "Long": 26.033021468157
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza lucrărilor de pe str. Dezrobirii care afectează ruta de alimentare a punctelor termice.",
         "culoare": "#ffe53e",
         "denumire": "8 Virtuții",
         "tip": "Deficienta INC",
-        "remediere": "06.12.2023 08:00",
+        "remediere": "15.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
@@ -1002,11 +1002,12 @@
         "Long": 26.039216416695
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie circuit primar - (str.Pravat)",
+        "culoare": "#e0002b",
         "denumire": "3/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "06.12.2023 18:30",
+        "status": "avarii",
         "Lat": 44.42399611775,
         "Long": 26.039559592789
     },
@@ -3621,11 +3622,12 @@
         "Long": 26.078203
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - canal distanta",
+        "culoare": "#e0002b",
         "denumire": "9 Titulescu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "06.12.2023 12:00",
+        "status": "avarii",
         "Lat": 44.452477,
         "Long": 26.078511
     },
@@ -4044,12 +4046,11 @@
         "Long": 26.09404
     },
     {
-        "stare": "Remediere avarie circuit primar Calea Serban-Voda",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Serban Voda",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.12.2023 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.407206059668,
         "Long": 26.09422245347
     },
@@ -4189,12 +4190,11 @@
         "Long": 26.0955769
     },
     {
-        "stare": "Remediere avarie circuit primar Calea Serban-Voda",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Pieptanari",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.12.2023 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4044139,
         "Long": 26.095686
     },
@@ -4338,7 +4338,7 @@
         "culoare": "#e0002b",
         "denumire": "1 Stoian Militaru",
         "tip": "Oprire ACC/INC",
-        "remediere": "06.12.2023 08:00",
+        "remediere": "06.12.2023 23:30",
         "status": "avarii",
         "Lat": 44.399987462908,
         "Long": 26.098421911171
@@ -4362,12 +4362,11 @@
         "Long": 26.098833
     },
     {
-        "stare": "Remediere avarie circuit primar Calea Serban-Voda",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Serban Voda",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.12.2023 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.411041346985,
         "Long": 26.098865614202
     },
@@ -4507,11 +4506,12 @@
         "Long": 26.101022962633
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "culoare": "#ffe53e",
         "denumire": "Modul Bl. 6 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "08.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.4532306,
         "Long": 26.1010691
     },
@@ -4759,10 +4759,10 @@
         "Long": 26.105839910673
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "Barbu Vacarescu",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4551644,
@@ -4928,22 +4928,21 @@
         "Long": 26.110004686011
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "3 Stefan cel Mare",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.452411949595,
         "Long": 26.110112645531
     },
     {
-        "stare": "Remediere avarie circuit primar Calea Serban-Voda",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Oltenita Placare",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.12.2023 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.400524,
         "Long": 26.110186
     },
@@ -4957,10 +4956,10 @@
         "Long": 26.1103
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "Aleea Circului",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4532304,
@@ -4985,10 +4984,10 @@
         "Long": 26.110353373161
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "Galvani Tei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.459736244268,
@@ -5190,10 +5189,10 @@
         "Long": 26.1136777289
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "Judetului",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4586959,
@@ -5487,10 +5486,10 @@
         "Long": 26.1175694
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "1 Labirint",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.431054647361,
@@ -5526,12 +5525,11 @@
         "Long": 26.1183962
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "E6",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4272873,
         "Long": 26.1186991
     },
@@ -5831,10 +5829,10 @@
         "Long": 26.123356994652
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "14 Foișor",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.421044311597,
@@ -5891,20 +5889,20 @@
         "Long": 26.124698985992
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "16 Foișor",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.421960932282,
         "Long": 26.12508802834
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "19 Foișor",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.414937449896,
@@ -5996,10 +5994,10 @@
         "Long": 26.125906099465
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "10 Vitan",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.417327288397,
@@ -6045,10 +6043,10 @@
         "Long": 26.126928389148
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "G3",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4262842,
@@ -6258,10 +6256,10 @@
         "Long": 26.12918
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "2 Cornul Caprei",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.423398013129,
@@ -6306,10 +6304,10 @@
         "Long": 26.130161607456
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "U1 Avrig",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4461498,
@@ -6384,12 +6382,11 @@
         "Long": 26.131025935733
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Vitan",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.416724543903,
         "Long": 26.131058120473
     },
@@ -6414,10 +6411,10 @@
         "Long": 26.13114
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "U2 Avrig",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4460697,
@@ -6545,10 +6542,10 @@
         "Long": 26.133589904404
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "S14",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.429671,
@@ -6593,10 +6590,10 @@
         "Long": 26.1341874
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "D18 Mihai Bravu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.438360802765,
@@ -6668,10 +6665,10 @@
         "Long": 26.135144
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "3 Theodor Speranţia",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.430716,
@@ -6744,21 +6741,22 @@
         "Long": 26.135933408101
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "3 Iancului",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4419354,
         "Long": 26.1360142
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
+        "culoare": "#ffe53e",
         "denumire": "3 Unităţii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "08.12.2023 23:30",
+        "status": "deficiente",
         "Lat": 44.424308266726,
         "Long": 26.136026253564
     },
@@ -7113,12 +7111,11 @@
         "Long": 26.1409217
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "9 Laborator",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.418458983432,
         "Long": 26.14118554273
     },
@@ -7160,10 +7157,10 @@
         "Long": 26.141831999525
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
+        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
         "culoare": "#ffe53e",
         "denumire": "12Tomis",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.415008656658,
@@ -7229,12 +7226,11 @@
         "Long": 26.142653568822
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe Rețeaua Primară - Magistrala III CTE - SUD.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Tomis",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.417572959814,
         "Long": 26.142784639426
     },
@@ -7315,12 +7311,11 @@
         "Long": 26.14434861549
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "33 Muncii",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4320571,
         "Long": 26.1445292
     },
@@ -7620,10 +7615,10 @@
         "Long": 26.148556
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "17 Pantelimon",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.4442947,
@@ -7668,12 +7663,11 @@
         "Long": 26.149599708702
     },
     {
-        "stare": "Funcționare deficitară a apei  calde  de consum si a încălzirii din cauza unei avarii aparute pe Rețeaua Primară - Magistrala III - CTE SUD.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Tomis",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.415582511383,
         "Long": 26.149921086738
     },
@@ -7688,12 +7682,11 @@
         "Long": 26.150138060181
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4' Pantelimon",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444054,
         "Long": 26.150148
     },
@@ -7914,10 +7907,10 @@
         "Long": 26.158395060836
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "4 Socului",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.436122139726,
@@ -7934,12 +7927,11 @@
         "Long": 26.158728
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Pantelimon",
-        "tip": "Deficienta INC",
-        "remediere": "08.12.2023 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4433155,
         "Long": 26.1588575
     },
@@ -7983,10 +7975,10 @@
         "Long": 26.160062280551
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
+        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza unei avarii apărute pe rețeaua primară Magistrala III CTE Sud",
         "culoare": "#ffe53e",
         "denumire": "1 Socului",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "08.12.2023 23:30",
         "status": "deficiente",
         "Lat": 44.438338311125,
