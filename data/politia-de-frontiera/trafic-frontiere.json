@@ -21,21 +21,21 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire:",
+    "Timp":40,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
+    "Timp":40,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -122,7 +122,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":180,
-    "Info":"2 artere intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri..",
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri..",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"red",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":120,
-    "Info":"Intrare: 4 artere; Iesire: 3 artere. Trafic intens-numar mare de automarfare prezente la verificarile de frontiera pe sensul de intare in tara.Coloana in asteptare 5 km.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Trafic intens-numar mare de automarfare prezente la verificarile de frontiera pe sensul de intare in tara.Coloana in asteptare 5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control.",
+    "Timp":60,
+    "Info":"Intrare: 1 arteră; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -281,7 +281,7 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":400,
+    "Timp":160,
     "Info":"intrare 2 artere, iesire 1 artera.Numar mare de camioane prezentate pe sensul de iesire din tara, trafic deviat pe sensul de iesire calatori, datorita lucrarilor de asfaltare in terminalul de marfa.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
