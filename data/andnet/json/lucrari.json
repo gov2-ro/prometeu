@@ -13,19 +13,6 @@
 },
 {
 	"NR. CRT.": "6.2",
-	"Indicativ drum": "A1",
-	"De la km": "356+207",
-	"Pana la km": "356+207",
-	"De la data": "2023-12-12 13:30:00",
-	"Pana la data": "2023-12-12 15:30:00",
-	"Intre localitatile": "SIMERIA (HD) - SIMERIA (HD)",
-	"Tip lucrare": "Pe Calea 1, culeea 2, se executa lucrari dee interventie la dispozitivele de acoperire a rosturilor",
-	"Variante de ocolire": "Pe calea 1 se circula pe Banda 2, Banda 1 si Banda de Urgenta fiind restrictionate pana la finalizarea lucrarilor",
-	"viz_name": "A1",
-	"map_zoom": "['356', '207', '356', '207']"
-},
-{
-	"NR. CRT.": "6.3",
 	"Indicativ drum": "A10",
 	"De la km": "16+200",
 	"Pana la km": "16+400",
@@ -38,7 +25,7 @@
 	"map_zoom": "['16', '200', '16', '400']"
 },
 {
-	"NR. CRT.": "6.4",
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -49,6 +36,19 @@
 	"Variante de ocolire": "Se inchide circulatia  pe Calea 1 (sensul Bucuresti -Constanta) cu devierea traficului pe Calea 2, banda 2, unde circulatia se va desfasura in ambele sensuri pe sectorul de autostrada cuprins intre km 144+235  147+015Pe sensul de mers Bucuresti  Constanta, pana in  punctul de taxare Fetesti la  km 144+100, semnalizarea rutiera temporara in ceea ce priveste reducerea graduala a vitezei, va fi suplimentata, inainte de punctul de taxare se va circula cu limita de viteza la 60 km/h, respectiv la 30 km/h. Dupa punctul de taxare , pe toata lungimea zonei unde se va circula in ambele sensuri, se va circula cu limitare de viteza la 80 km/h",
 	"viz_name": "A2",
 	"map_zoom": "['143', '125', '148', '315']"
+},
+{
+	"NR. CRT.": "6.4",
+	"Indicativ drum": "A2",
+	"De la km": "184+100",
+	"Pana la km": "186+400",
+	"De la data": "2023-12-13 08:00:00",
+	"Pana la data": "2023-12-16 23:59:00",
+	"Intre localitatile": "-",
+	"Tip lucrare": "Racordare LEA aerian",
+	"Variante de ocolire": "Calea 1+calea 2 In vederea executarii lucrarilor pentru traversarea conductorilor electrici peste Autostrada A2, se instituie restrictii de circulatie, dupa cum urmeaza: -Se restrictioneaza circulatia pe banda marginala pentru ambele cai ale Autostrazii A2 km 184+100-186+400, circulatia rutiera desfasurandu-se pe benzile alaturate zonei mediane Se inchide circulatia pentru un interval de maximum 10 minute, pentru ambele cai ale Autostrazii A2 km 184+100-186+400",
+	"viz_name": "A2",
+	"map_zoom": "['184', '100', '186', '400']"
 },
 {
 	"NR. CRT.": "6.5",
@@ -244,18 +244,5 @@
 	"Variante de ocolire": "Circulatia rutiera se desfasoara ingreunat, dirijata de piloti de circulatie si semnalizare rutiera specifica.",
 	"viz_name": "DN67B",
 	"map_zoom": "['6', '0', '9', '500']"
-},
-{
-	"NR. CRT.": "6.20",
-	"Indicativ drum": "DN7CC",
-	"De la km": "2+000",
-	"Pana la km": "7+000",
-	"De la data": "2023-12-12 08:00:00",
-	"Pana la data": "2023-12-12 16:00:00",
-	"Intre localitatile": "JIBLEA VECHE (VL) - PAUSA (VL)",
-	"Tip lucrare": "Se lucreaza la ranguire versanti , in functie de conditiile meteo .",
-	"Variante de ocolire": "Circulatia rutiera se inchide/deschide in reprize de max. 20 de minute dirijata de piloti de circulatie.Traficul rutier de pe sensul Sibiu - Rm.Valcea va fi deviat prin Calimanesti pe DN 7 km 197+950 - km 191+000.",
-	"viz_name": "DN7CC",
-	"map_zoom": "['2', '0', '7', '0']"
 }
 ]
