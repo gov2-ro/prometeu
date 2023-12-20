@@ -51,9 +51,11 @@
 	"name": "Circulatie intrerupta  DN67C",
 	"Judet": "GJ, VL, AB, SB;",
 	"UAT": "Novaci, Baia de Fier, Malaia, Voineasa, Șugag, Jina;",
+	"Localitati": "RANCA (GJ) - CURPAT (SB)",
 	"Km": "34+800 - 79+200",
-	"Cauza": "Circulatie inchisa pe timp de iarna (nivel IV de viabilitate).",
-	"date_start": "08-12-2023 13:15",
+	"Cauza": "Sector de drum inchis pe timp de iarna - nivel IV de viabilitate.",
+	"Masuri de remediere si variante de ocolire": "Semnalizarea rutiera specifica pe teren in conformitate cu prevederile reglementarilor tehnice in vigoare si a Normativalui privind circulatia rutiera pe drumurile montane - Drumul National DN 7C Transfagarasan si Drumul National DN 67C Transalpina - indicativ AND 615-2020.",
+	"date_start": "06-11-2023 08:00",
 	"date_end": "31-03-2024 23:59",
 	"km_start": "34+800",
 	"km_end": "79+200"
@@ -65,11 +67,9 @@
 	"name": "Circulatie intrerupta  DN67C",
 	"Judet": "GJ, VL, AB, SB;",
 	"UAT": "Novaci, Baia de Fier, Malaia, Voineasa, Șugag, Jina;",
-	"Localitati": "RANCA (GJ) - CURPAT (SB)",
 	"Km": "34+800 - 79+200",
-	"Cauza": "Sector de drum inchis pe timp de iarna - nivel IV de viabilitate.",
-	"Masuri de remediere si variante de ocolire": "Semnalizarea rutiera specifica pe teren in conformitate cu prevederile reglementarilor tehnice in vigoare si a Normativalui privind circulatia rutiera pe drumurile montane - Drumul National DN 7C Transfagarasan si Drumul National DN 67C Transalpina - indicativ AND 615-2020.",
-	"date_start": "06-11-2023 08:00",
+	"Cauza": "Circulatie inchisa pe timp de iarna (nivel IV de viabilitate).",
+	"date_start": "08-12-2023 13:15",
 	"date_end": "31-03-2024 23:59",
 	"km_start": "34+800",
 	"km_end": "79+200"
@@ -431,5 +431,21 @@
 	"date_end": "31-12-2023 23:59",
 	"km_start": "16+200",
 	"km_end": "16+400"
+},
+{
+	"coords": "[[24.20047486, 45.78490854], [24.20044558, 45.78499616], [24.20041629, 45.78508379], [24.200387, 45.78517141], [24.20035767, 45.78525903], [24.20032823, 45.78534663], [24.20029903, 45.78543427], [24.20027052, 45.78552202], [24.20024202, 45.78560978], [24.20021352, 45.78569753], [24.20018501, 45.78578528], [24.20015651, 45.78587303], [24.200128, 45.78596078], [24.2000995, 45.78604854], [24.20007099, 45.78613629], [24.20004249, 45.78622404], [24.20001399, 45.78631179], [24.19998548, 45.78639954], [24.19995698, 45.7864873], [24.19992847, 45.78657505], [24.19989997, 45.7866628]]",
+	"culoare": 2,
+	"raza": 7,
+	"name": "Lucrari  A1",
+	"Judet": "SB;",
+	"UAT": "Șelimbăr;",
+	"Localitati": "SIBIU (SB) - SIBIU (SB)",
+	"Km": "242+000 - 242+200",
+	"Tip Lucrari": "Se lucreaza la reparatii asfaltice, Banda 1 si Banda de Urgenta inchise, pe directia Sebes-Sibiu.",
+	"Variante de ocolire": "Se circula ingreunat pe Banda 2, a caii 2 (directia Sebes-Sibiu)",
+	"date_start": "20-12-2023 10:00",
+	"date_end": "20-12-2023 15:00",
+	"km_start": "242+000",
+	"km_end": "242+200"
 }
 ]
