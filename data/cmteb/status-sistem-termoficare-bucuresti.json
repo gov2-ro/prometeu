@@ -1491,7 +1491,7 @@
         "culoare": "#ffe53e",
         "denumire": "MODUL TERMIC A3",
         "tip": "Deficienta INC",
-        "remediere": "26.12.2023 10:00",
+        "remediere": "26.12.2023 21:00",
         "status": "deficiente",
         "Lat": 44.4788,
         "Long": 26.050096
@@ -1582,7 +1582,7 @@
         "culoare": "#ffe53e",
         "denumire": "MODUL TERMIC A2",
         "tip": "Deficienta INC",
-        "remediere": "26.12.2023 10:00",
+        "remediere": "26.12.2023 21:00",
         "status": "deficiente",
         "Lat": 44.478953,
         "Long": 26.050724
@@ -1601,7 +1601,7 @@
         "culoare": "#ffe53e",
         "denumire": "MODUL TERMIC A12",
         "tip": "Deficienta INC",
-        "remediere": "26.12.2023 10:00",
+        "remediere": "26.12.2023 21:00",
         "status": "deficiente",
         "Lat": 44.479724,
         "Long": 26.050934
@@ -4398,12 +4398,11 @@
         "Long": 26.099794
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Radu Beller",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "26.12.2023 15:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.462775003786,
         "Long": 26.099819753058
     },
@@ -4912,11 +4911,12 @@
         "Long": 26.110004686011
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "3 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "26.12.2023 16:00",
+        "status": "deficiente",
         "Lat": 44.452411949595,
         "Long": 26.110112645531
     },
@@ -5020,11 +5020,12 @@
         "Long": 26.111328898883
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic - (str. Al Covasna nr 6 Bis)",
+        "culoare": "#e0002b",
         "denumire": "3 Zona II",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "26.12.2023 17:00",
+        "status": "avarii",
         "Lat": 44.380826993008,
         "Long": 26.111366449804
     },
@@ -5569,11 +5570,12 @@
         "Long": 26.1200934
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "Luncsoara",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "26.12.2023 16:00",
+        "status": "deficiente",
         "Lat": 44.450912311984,
         "Long": 26.120118966523
     },
