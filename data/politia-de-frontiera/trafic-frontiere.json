@@ -21,11 +21,11 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":60,
-    "Info":"Intrare: 1 artere; Iesire: 1 artera; Numar mare de automarfare prezentate la control pe sensul de iesire din tara. Lipsa personal din partea autoritatilor de frontiera maghiare.",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":20,
+    "Timp":40,
     "Info":"intrare 5 artere, ieșire 5 artere",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire: 3 artere.",
+    "Info":"Intrare: 1 artera; Iesire: 2 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
