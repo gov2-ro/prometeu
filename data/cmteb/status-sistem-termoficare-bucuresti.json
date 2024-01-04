@@ -441,10 +441,10 @@
         "Long": 26.0202
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire. Str. Estacadei",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum si incalzire",
         "culoare": "#e0002b",
         "denumire": "8 Ghirlandei",
-        "tip": "Oprire INC",
+        "tip": "Oprire ACC/INC",
         "remediere": "04.01.2024 15:30",
         "status": "avarii",
         "Lat": 44.438951839426,
@@ -5284,7 +5284,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Mărăşeşti",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.421413449341,
         "Long": 26.115808161431
@@ -5366,7 +5366,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Mărășești",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.420289903111,
         "Long": 26.116844472496
@@ -5482,12 +5482,11 @@
         "Long": 26.1175694
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Labirint",
-        "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.431054647361,
         "Long": 26.118135816644
     },
@@ -5525,7 +5524,7 @@
         "culoare": "#ffe53e",
         "denumire": "E6",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.4272873,
         "Long": 26.1186991
@@ -5594,11 +5593,11 @@
         "Long": 26.120041334401
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum si a incalzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
         "culoare": "#ffe53e",
         "denumire": "M107",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.4249848,
         "Long": 26.1200934
@@ -5627,7 +5626,7 @@
         "culoare": "#ffe53e",
         "denumire": "F6",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.427067,
         "Long": 26.1205503
@@ -5664,7 +5663,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Mărăşeşti",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.423412919384,
         "Long": 26.121202279845
@@ -5802,7 +5801,7 @@
         "culoare": "#ffe53e",
         "denumire": "14 Foișor",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.421044311597,
         "Long": 26.123675134747
@@ -5971,11 +5970,11 @@
         "Long": 26.126628591469
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum si a incalzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
         "culoare": "#ffe53e",
         "denumire": "J2 Unirii",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.4250933,
         "Long": 26.1267818
@@ -5994,7 +5993,7 @@
         "culoare": "#ffe53e",
         "denumire": "G3",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.4262842,
         "Long": 26.126932
@@ -6112,7 +6111,7 @@
         "culoare": "#ffe53e",
         "denumire": "7 Vitan",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.419379323276,
         "Long": 26.128455383519
@@ -6127,11 +6126,12 @@
         "Long": 26.128648841835
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+        "culoare": "#ffe53e",
         "denumire": "9 Vitan",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "04.01.2024 06:00",
+        "status": "deficiente",
         "Lat": 44.41682203405,
         "Long": 26.128856573161
     },
@@ -6194,7 +6194,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Cornul Caprei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.423398013129,
         "Long": 26.129300577458
@@ -6231,7 +6231,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Dudești",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.421506874975,
         "Long": 26.130161607456
@@ -6250,7 +6250,7 @@
         "culoare": "#ffe53e",
         "denumire": "I3",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.4255587,
         "Long": 26.1305385
@@ -6296,7 +6296,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Călăraşi",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.430669191467,
         "Long": 26.130745005608
@@ -6315,7 +6315,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Vitan",
         "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.416724543903,
         "Long": 26.131058120473
@@ -6370,7 +6370,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Cornul Caprei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.423590318535,
         "Long": 26.132061748021
@@ -6524,7 +6524,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Theodor Speranţia",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.427643772709,
         "Long": 26.134450464567
@@ -6579,7 +6579,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Theodor Speranţia",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.01.2024 23:30",
+        "remediere": "04.01.2024 06:00",
         "status": "deficiente",
         "Lat": 44.430716,
         "Long": 26.135197
@@ -7044,12 +7044,11 @@
         "Long": 26.14187566521
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Papiu Ilarian",
-        "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4219468,
         "Long": 26.1419627
     },
@@ -7090,12 +7089,11 @@
         "Long": 26.142306
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Papiu Ilarian",
-        "tip": "Deficienta INC",
-        "remediere": "03.01.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.419880634197,
         "Long": 26.142653568822
     },
