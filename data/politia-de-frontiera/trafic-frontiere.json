@@ -21,31 +21,31 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
+    "Timp":20,
     "Info":"Intrare: 2 artera; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":20,
+    "Timp":90,
     "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":40,
     "Info":"intrare 5 artere, ieșire 5 artere - lucrari de asfaltare pe partea bulgara, se circula alternativ",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -81,11 +81,11 @@
   },
   {
     "Denumire":"Halmeu",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.  TRAFIC RESTRICȚIONAT - protest transportatori \/ agricultori",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire 1 artera.  TRAFIC RESTRICTIONAT - protest transportatori \/ agricultori",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":50,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 1 km",
+    "Timp":80,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 2 km",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 arteră.",
+    "Timp":120,
+    "Info":"Intrare: 1 artera; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -222,7 +222,7 @@
   {
     "Denumire":"Siret",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire 2 artere. TRAFIC RESTRICȚIONAT - protest transportatori \/ agricultori",
+    "Info":"Intrare: 3 artere; Iesire 2 artere. TRAFIC RESTRICȚIONAT- protest transportatori \/ agricultori",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
     "Status":"green",
@@ -231,11 +231,11 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":60,
-    "Info":"Trafic ingreunat de protestul transportatori \/ agricultor. Se recomanda folosi rutelor alternative.",
+    "Timp":10,
+    "Info":"Protestul transportatorilor - se recomanda rute alternative pentru a evita atitudini ostile fata de transportatorii de cereale si transportatorii din Ucraina.",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
