@@ -1,4 +1,4 @@
-data_root = 'data/stare-partii/'
+data_root = 'data/local/BV/stare-partii/'
 
 import requests
 from bs4 import BeautifulSoup
