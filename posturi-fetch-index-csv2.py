@@ -1,3 +1,6 @@
+output_csv = "data/posturi/posturi_gov_ro.csv"
+
+
 import requests
 import csv
 from bs4 import BeautifulSoup
@@ -5,7 +8,7 @@ from bs4 import BeautifulSoup
 def load_existing_data():
     try:
         existing_data = []
-        with open("posturi_gov_ro.csv", "r", newline="", encoding="utf-8") as csv_file:
+        with open(output_csv, "r", newline="", encoding="utf-8") as csv_file:
             reader = csv.DictReader(csv_file)
             existing_data = list(reader)
         return existing_data
@@ -16,7 +19,7 @@ def load_existing_data():
 def load_latest_jobs():
     try:
         latest_jobs = []
-        with open("posturi_gov_ro.csv", "r", newline="", encoding="utf-8") as csv_file:
+        with open(output_csv, "r", newline="", encoding="utf-8") as csv_file:
             reader = csv.DictReader(csv_file)
             for row in reader:
                 if 'link_url' in row and 'publicat' in row:
@@ -70,7 +73,7 @@ def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
     
     # Append all data to the same CSV file
     fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
-    with open("posturi_gov_ro.csv", "a", newline="", encoding="utf-8") as csv_file:
+    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
         for job in job_list:
             writer.writerow(job)

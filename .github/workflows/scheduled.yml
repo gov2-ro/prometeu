@@ -32,6 +32,9 @@ jobs:
     - name: sesizări BV
       run: |-
         python brasov-sesizari.py
+    - name: pârtii BV
+      run: |-
+        python stare-partii-bv.py
     - name: avarii PMB
       run: |-
         python pmb-avarii.py
