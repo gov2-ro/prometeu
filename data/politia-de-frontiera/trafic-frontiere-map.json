@@ -881,8 +881,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":150,
-    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
+    "Timp":120,
+    "Info":"Intrare: 2 artere; Iesire 2 artere. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -891,11 +891,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
+    "Timp":60,
+    "Info":"Intrare: 2 artere; Iesire 2 artere. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -1041,27 +1041,27 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":30,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
     "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":30,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
