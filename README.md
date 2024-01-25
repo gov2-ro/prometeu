@@ -39,6 +39,10 @@ surse: [e-distributie.com / enel](https://www.e-distributie.com/ro/intreruperi-c
 sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php)
 
 
+### [Stare pârtii Poiana Brașov](https://github.com/gov2-ro/prometeu/tree/main/data/local/BV/stare-partii) 
+
+surse: [starepartii.brasovcity.ro](https://starepartii.brasovcity.ro/), [discoverpoiana.ro](https://www.discoverpoiana.ro/ro/instalatii)  
+
 ### Local
 
 Sesizări BV, B; 
