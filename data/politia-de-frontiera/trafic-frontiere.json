@@ -21,18 +21,18 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; numar mare de automarfare pe sensul de iesire din tara",
+    "Timp":90,
+    "Info":"Intrare: 2 artera; Iesire: 2 artere; trafic intens- numar foarte mare de automarfare pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":140,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"red",
@@ -41,11 +41,11 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":50,
+    "Timp":20,
     "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
+    "Timp":90,
     "Info":"intrare 5 artere, ieșire 5 artere - lucrari de asfaltare pe partea bulgara, se circula alternativ",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
-    "Info":"Intrare: 2 artera; Iesire: 3 artere.",
+    "Timp":90,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":240,
+    "Timp":180,
     "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -272,7 +272,7 @@
   {
     "Denumire":"Vama Veche",
     "Timp":20,
-    "Info":"Intrare 1 artera, iesire 1 artera",
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
     "Status":"green",

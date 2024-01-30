@@ -101,8 +101,8 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; numar mare de automarfare pe sensul de iesire din tara",
+    "Timp":90,
+    "Info":"Intrare: 2 artera; Iesire: 2 artere; trafic intens- numar foarte mare de automarfare pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"red",
@@ -112,7 +112,7 @@
   {
     "Denumire":"Borș",
     "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere; numar mare de automarfare pe sensul de iesire din tara",
+    "Info":"Intrare: 2 artera; Iesire: 2 artere; trafic intens- numar foarte mare de automarfare pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"green",
@@ -141,18 +141,18 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":140,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
     "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"green",
@@ -161,21 +161,21 @@
   },
   {
     "Denumire":"Bumbăta",
-    "Timp":60,
-    "Info":"Se efectueaza lucrari de mentenanta la structura podului din pontoane. Se recomanda folosirea unor rute alternative.",
+    "Timp":30,
+    "Info":"",
     "Latitude":"46.48343071528536",
     "Longitude":"28.230584720334427",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Bumbăta",
-    "Timp":60,
-    "Info":"Se efectueaza lucrari de mentenanta la structura podului din pontoane. Se recomanda folosirea unor rute alternative.",
+    "Timp":30,
+    "Info":"",
     "Latitude":"46.48343071528536",
     "Longitude":"28.230584720334427",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -702,7 +702,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artera intrare; 2 artere iesire.",
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -712,7 +712,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artera intrare; 2 artere iesire.",
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -721,31 +721,31 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":40,
+    "Timp":20,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac",
+    "Timp":20,
+    "Info":"1 artera intrare; 1 artera iesire.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Nădlac II",
     "Timp":30,
-    "Info":"1 artera intrare; 1 artera iesire.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Nădlac II",
-    "Timp":20,
     "Info":"Intrare: 3 artere; Iesire: 3 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
@@ -761,8 +761,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 2 artera; Iesire: 3 artere.",
+    "Timp":90,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -771,11 +771,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":20,
-    "Info":"Intrare: 2 artera; Iesire: 3 artere.",
+    "Timp":50,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -858,31 +858,31 @@
     "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Petea",
-    "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Petea",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire: 3 artere",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Petea",
     "Timp":180,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -892,7 +892,7 @@
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
