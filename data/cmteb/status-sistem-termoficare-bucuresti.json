@@ -3082,7 +3082,7 @@
         "culoare": "#ffe53e",
         "denumire": "SC 1/2",
         "tip": "Deficienta INC",
-        "remediere": "02.02.2024 23:30",
+        "remediere": "03.02.2024 12:00",
         "status": "deficiente",
         "Lat": 44.443283081055,
         "Long": 26.070346
@@ -4962,12 +4962,11 @@
         "Long": 26.110353373161
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Galvani Tei",
-        "tip": "Deficienta INC",
-        "remediere": "03.02.2024 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459736244268,
         "Long": 26.11061765533
     },
@@ -5116,11 +5115,12 @@
         "Long": 26.112586271896
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în punctul termic pe circuitul primar",
+        "culoare": "#e0002b",
         "denumire": "4 Zona II",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "03.02.2024 13:00",
+        "status": "avarii",
         "Lat": 44.378035325242,
         "Long": 26.112948168355
     },
