@@ -1,119 +1,175 @@
 [{
 	"Unitate": "CNAIR Central",
-	"Indicativ drum": "A1 ; A11 ; A6 ; DN7G ; A7 ; DN11 ; DN11A ; DN12A ; DN12B ; DN12D ; DN15 ; DN2 ; DN2F ; DN2G ; DN2T ; DN1 ; DN14B ; DN12 ; DN13A ; DN12C ; DN15B ; DN17B ; DN13 ; DN13C ; DN14 ; DN14A ; DN15A ; DN15E ; DN16 ; DN17 ; DN17A ; DN24A ; DN24B ; DN54 ; DN54A ; DN64 ; DN65 ; DN67B ; VO6G ; DN55 ; DN55A ; DN56 ; DN56A ; DN56D ; DN6 ; DN65F ; DN65F_VOS ; DN57B ; DN58 ; DN67D ; DN7",
-	"Nr utilaje": "83",
-	"Antiderapant (tone)": "8.0",
+	"Indicativ drum": "A3 ; DN1 ; DN10 ; DN11 ; DN13 ; DN13E ; DN1A ; DN1E ; DN1S ; DN73 ; DN73A ; DN73B ; DN73F ; DN73G ; VOB1 ; VOB2 ; DN14 ; DN14A ; DN14B ; DN7 ; DN7C ; DN7H ; DN11B ; DN11C ; DN12 ; DN2D ; DN12A ; DN12C ; DN13A ; DN13B ; DN13C ; DN15 ; DN18 ; DN1R ; DN21 ; DN3 ; DN31 ; DN3A ; DN3B ; DN4 ; DN41 ; DN22 ; DN22C ; DN2A ; DN38 ; DN3C ; DN2G ; DN57 ; DN6 ; DN67D ; VO_DROBETA(CDTS) ; DN58 ; DN58A ; DN58B ; DN64 ; DN65 ; DN67B ; DN65C ; DN7A ; DN7CC ; DN65F_VOS ; DN66 ; DN67C",
+	"Nr utilaje": "105",
+	"Antiderapant (tone)": "16.0",
 	"Solutie Ecologica (litri)": "0.0",
 	"CaCl2 (TONE)": "0.0"
 },
 {
 	"Unitate": "DRDP Craiova",
-	"Indicativ drum": "DN54 ; DN54A ; DN64 ; DN65 ; DN67B ; VO6G ; DN55 ; DN55A ; DN56 ; DN56A ; DN56D ; DN6 ; DN65F ; DN65F_VOS",
-	"Nr utilaje": "16",
+	"Indicativ drum": "DN57 ; DN6 ; DN67D ; VO_DROBETA(CDTS) ; DN64 ; DN65 ; DN67B ; DN65C ; DN7 ; DN7A ; DN7CC ; DN65F_VOS ; DN66 ; DN67C",
+	"Nr utilaje": "19",
 	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
 	"Unitate": "SDN Craiova",
-	"Indicativ drum": "DN54A ; DN55 ; DN55A ; DN56 ; DN56A ; DN56D ; DN6 ; DN65 ; DN65F ; DN65F_VOS",
-	"Nr utilaje": "8",
+	"Indicativ drum": "DN65 ; DN65F_VOS",
+	"Nr utilaje": "1",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Targu Jiu",
+	"Indicativ drum": "DN66 ; DN67C",
+	"Nr utilaje": "2",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Ramnicu Valcea",
+	"Indicativ drum": "DN64 ; DN65C ; DN67B ; DN7 ; DN7A ; DN7CC",
+	"Nr utilaje": "9",
 	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
 	"Unitate": "SDN Slatina",
-	"Indicativ drum": "DN54 ; DN54A ; DN64 ; DN65 ; DN67B ; VO6G",
-	"Nr utilaje": "8",
-	"Antiderapant (tone)": "IN PATRULARE"
-},
-{
-	"Unitate": "DRDP Timisoara",
-	"Indicativ drum": "A1 ; A11 ; A6 ; DN7G ; DN57B ; DN58 ; DN6 ; DN67D ; DN7",
-	"Nr utilaje": "12",
-	"Antiderapant (tone)": "3.0",
-	"Solutie Ecologica (litri)": "0.0",
-	"CaCl2 (TONE)": "0.0"
-},
-{
-	"Unitate": "SDN Caransebes",
-	"Indicativ drum": "DN57B ; DN58 ; DN6 ; DN67D",
+	"Indicativ drum": "DN64 ; DN65 ; DN67B",
 	"Nr utilaje": "4",
 	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
-	"Unitate": "SDN Deva",
-	"Indicativ drum": "DN7",
-	"Nr utilaje": "1",
-	"Antiderapant (tone)": "3.0",
-	"Solutie Ecologica (litri)": "0.0",
-	"CaCl2 (TONE)": "0.0"
+	"Unitate": "SDN Orsova",
+	"Indicativ drum": "DN57 ; DN6 ; DN67D ; VO_DROBETA(CDTS)",
+	"Nr utilaje": "3",
+	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
-	"Unitate": "Sectia Autostrazi | DRDP Timisoara",
-	"Indicativ drum": "A1 ; A11 ; A6 ; DN7G",
+	"Unitate": "DRDP Timisoara",
+	"Indicativ drum": "DN58 ; DN58A ; DN58B ; DN6 ; DN67D",
 	"Nr utilaje": "7",
 	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
-	"Unitate": "DRDP Brasov",
-	"Indicativ drum": "DN1 ; DN14B ; DN12 ; DN13A ; DN13 ; DN13C ; DN14 ; DN14A ; DN15 ; DN15A ; DN15E ; DN16",
-	"Nr utilaje": "28",
-	"Antiderapant (tone)": "2.0",
-	"Solutie Ecologica (litri)": "0.0",
-	"CaCl2 (TONE)": "0.0"
-},
-{
-	"Unitate": "SDN Sibiu",
-	"Indicativ drum": "DN1 ; DN14B",
-	"Nr utilaje": "5",
+	"Unitate": "SDN Caransebes",
+	"Indicativ drum": "DN58 ; DN58A ; DN58B ; DN6 ; DN67D",
+	"Nr utilaje": "7",
 	"Antiderapant (tone)": "IN PATRULARE"
 },
 {
-	"Unitate": "SDN Targu Mures",
-	"Indicativ drum": "DN13 ; DN13A ; DN13C ; DN14 ; DN14A ; DN15 ; DN15A ; DN15E ; DN16",
-	"Nr utilaje": "20",
-	"Antiderapant (tone)": "IN PATRULARE"
-},
-{
-	"Unitate": "SDN Miercurea-Ciuc",
-	"Indicativ drum": "DN12 ; DN13A",
-	"Nr utilaje": "3",
-	"Antiderapant (tone)": "2.0",
-	"Solutie Ecologica (litri)": "0.0",
-	"CaCl2 (TONE)": "0.0"
-},
-{
-	"Unitate": "DRDP Iasi",
-	"Indicativ drum": "A7 ; DN11 ; DN11A ; DN12A ; DN12B ; DN12D ; DN15 ; DN2 ; DN2F ; DN2G ; DN2T ; DN12C ; DN15B ; DN17B ; DN17 ; DN17A ; DN24A ; DN24B",
-	"Nr utilaje": "27",
+	"Unitate": "DRDP Cluj",
+	"Indicativ drum": "DN18 ; DN1R",
+	"Nr utilaje": "2",
 	"Antiderapant (tone)": "3.0",
 	"Solutie Ecologica (litri)": "0.0",
 	"CaCl2 (TONE)": "0.0"
 },
 {
-	"Unitate": "SDN Bacau",
-	"Indicativ drum": "A7 ; DN11 ; DN11A ; DN12A ; DN12B ; DN12D ; DN15 ; DN2 ; DN2F ; DN2G ; DN2T",
-	"Nr utilaje": "16",
+	"Unitate": "SDN Baia Mare",
+	"Indicativ drum": "DN18",
+	"Nr utilaje": "1",
+	"Antiderapant (tone)": "2.0",
+	"Solutie Ecologica (litri)": "0.0",
+	"CaCl2 (TONE)": "0.0"
+},
+{
+	"Unitate": "SDN Alba",
+	"Indicativ drum": "DN1R",
+	"Nr utilaje": "1",
 	"Antiderapant (tone)": "1.0",
 	"Solutie Ecologica (litri)": "0.0",
 	"CaCl2 (TONE)": "0.0"
 },
 {
-	"Unitate": "SDN Barlad",
-	"Indicativ drum": "DN24A ; DN24B",
-	"Nr utilaje": "2",
-	"Antiderapant (tone)": "IN PATRULARE"
-},
-{
-	"Unitate": "SDN Camplulung Moldovenesc",
-	"Indicativ drum": "DN17 ; DN17A",
-	"Nr utilaje": "3",
-	"Antiderapant (tone)": "2.0",
+	"Unitate": "DRDP Brasov",
+	"Indicativ drum": "A3 ; DN1 ; DN10 ; DN11 ; DN13 ; DN13E ; DN1A ; DN1E ; DN1S ; DN73 ; DN73A ; DN73B ; DN73F ; DN73G ; VOB1 ; VOB2 ; DN14 ; DN14A ; DN14B ; DN7 ; DN7C ; DN7H ; DN11B ; DN11C ; DN12 ; DN2D ; DN12A ; DN12C ; DN13A ; DN13B ; DN13C ; DN15",
+	"Nr utilaje": "56",
+	"Antiderapant (tone)": "13.0",
 	"Solutie Ecologica (litri)": "0.0",
 	"CaCl2 (TONE)": "0.0"
 },
 {
-	"Unitate": "SDN Piatra Neamt",
-	"Indicativ drum": "DN12C ; DN15 ; DN15B ; DN17B",
-	"Nr utilaje": "6",
+	"Unitate": "SDN Brasov",
+	"Indicativ drum": "DN1 ; DN10 ; DN11 ; DN13 ; DN13E ; DN1A ; DN1E ; DN1S ; DN73 ; DN73A ; DN73B ; DN73F ; DN73G ; VOB1 ; VOB2",
+	"Nr utilaje": "17",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Sibiu",
+	"Indicativ drum": "DN1 ; DN14 ; DN14A ; DN14B ; DN7 ; DN7C ; DN7H",
+	"Nr utilaje": "7",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Targu Mures",
+	"Indicativ drum": "DN15",
+	"Nr utilaje": "2",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Miercurea-Ciuc",
+	"Indicativ drum": "DN11B ; DN12 ; DN12A ; DN12C ; DN13A ; DN13B ; DN13C ; DN15",
+	"Nr utilaje": "16",
+	"Antiderapant (tone)": "13.0",
+	"Solutie Ecologica (litri)": "0.0",
+	"CaCl2 (TONE)": "0.0"
+},
+{
+	"Unitate": "SDN Sfantu Gheorghe",
+	"Indicativ drum": "DN10 ; DN11 ; DN11B ; DN11C ; DN12 ; DN13E ; DN2D",
+	"Nr utilaje": "13",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "Sectia Autostrazi | DRDP Brasov",
+	"Indicativ drum": "A3",
+	"Nr utilaje": "1",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "DRDP Iasi",
+	"Indicativ drum": "DN2G",
+	"Nr utilaje": "2",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Bacau",
+	"Indicativ drum": "DN2G",
+	"Nr utilaje": "2",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "DRDP Constanta",
+	"Indicativ drum": "DN21 ; DN3 ; DN31 ; DN3A ; DN3B ; DN4 ; DN41 ; DN22 ; DN22C ; DN2A ; DN38 ; DN3C",
+	"Nr utilaje": "17",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Constanta",
+	"Indicativ drum": "DN22 ; DN22C ; DN2A ; DN3 ; DN38 ; DN3C",
+	"Nr utilaje": "7",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Calarasi",
+	"Indicativ drum": "DN21 ; DN3 ; DN31 ; DN3A ; DN3B ; DN4 ; DN41",
+	"Nr utilaje": "10",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "DRDP Buzau",
+	"Indicativ drum": "DN10 ; DN2D",
+	"Nr utilaje": "2",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Buzau",
+	"Indicativ drum": "DN10",
+	"Nr utilaje": "1",
+	"Antiderapant (tone)": "IN PATRULARE"
+},
+{
+	"Unitate": "SDN Focsani",
+	"Indicativ drum": "DN2D",
+	"Nr utilaje": "1",
 	"Antiderapant (tone)": "IN PATRULARE"
 }
 ]
