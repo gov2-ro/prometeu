@@ -31,9 +31,7 @@ def load_latest_jobs():
 def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
     job_list = [] # Initialize job_list as an empty list
     try:
-        print(f"Attempting to fetch page {page_number}...")
         response = requests.get(url, timeout=10) # Increase timeout to 10 seconds
-        print(f"Page {page_number} fetched successfully.")
         soup = BeautifulSoup(response.text, 'html.parser')
         # Assuming job postings are in a list with class 'job-list'
         job_posts = soup.find_all('div', class_='job-list')
@@ -61,13 +59,13 @@ def scrape_all_pages(base_url, max_pages):
                 jobs = scrape_and_save_page(url, page_number, existing_data, latest_jobs)
                 for job in jobs:
                     writer.writerow(job)
-            except requests.exceptions.ConnectionError:
-                print(f"Connection error on page {page_number}. Retrying after a delay.")
-                time.sleep(random.uniform(1, 5)) # Wait for a random time between 1 to 5 seconds
-                # Retry the request here if necessary
+                print(f"Page {page_number} scraped and data appended to CSV.")
+            except SystemExit as e:
+                print(f"Script terminated due to an error: {e}")
+                break
             except Exception as e:
-                print(f"An error occurred: {e}")
-                raise SystemExit("Script terminated due to an error.")
+                print(f"An unexpected error occurred: {e}")
+                break
 
     print("Scraping complete. Data appended incrementally to the same CSV file.")
 
