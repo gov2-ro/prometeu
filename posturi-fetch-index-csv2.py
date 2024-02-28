@@ -1,9 +1,10 @@
-output_csv = "data/posturi/posturi_gov_ro.csv"
-
-
 import requests
 import csv
 from bs4 import BeautifulSoup
+import time
+import random
+
+output_csv = "data/posturi/posturi_gov_ro.csv"
 
 def load_existing_data():
     try:
@@ -15,7 +16,6 @@ def load_existing_data():
     except FileNotFoundError:
         return []
 
-# Function to load the latest jobs from the CSV file
 def load_latest_jobs():
     try:
         latest_jobs = []
@@ -28,68 +28,47 @@ def load_latest_jobs():
     except FileNotFoundError:
         return []
 
-
-# Function to scrape data from a single page and append it to a CSV file
 def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    
-    job_list = []
-    
-    # Find all the article boxes
-    article_boxes = soup.select('article.box')
-    
-    for box in article_boxes:
-        job = {}
-        job['title'] = box.select_one('div.title a').text
-        job['link_url'] = box.select_one('div.title a')['href']
-        job['angajator'] = box.select_one('div.angajator').text
-        job['n'] = ', '.join([n.text for n in box.select('div.n')])
-        
-        data_div = box.select_one('li.data div.data')
-        
-        # Filter the elements by their text content
-        data_items = [item.strip() for item in data_div.stripped_strings]
-        job['publicat'] = data_items[0]
-        job['expira'] = data_items[1]
-        
-        locatie_div = box.select_one('li.locatie div.locatie')
-        job['locatie_name'] = locatie_div.text.strip()
-        job['locatie_url'] = locatie_div.a['href']
-        
-        job['dosar'] = box.select_one('div.dosar').text
-        
-        job_key = f"{job['link_url']}+{job['publicat']}"
-        
-        # Check if the job already exists in the latest_jobs list
-        if job_key in latest_jobs:
-            print(f"Job already exists: {job_key}. Stopping the script.")
-            return
-        
-        job_list.append(job)
-    
-    # Combine the new data with existing data
-    all_jobs = existing_data + job_list
-    
-    # Append all data to the same CSV file
-    fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
-    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        for job in job_list:
-            writer.writerow(job)
-    
+    job_list = [] # Initialize job_list as an empty list
+    try:
+        print(f"Attempting to fetch page {page_number}...")
+        response = requests.get(url, timeout=10) # Increase timeout to 10 seconds
+        print(f"Page {page_number} fetched successfully.")
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # Assuming job postings are in a list with class 'job-list'
+        job_posts = soup.find_all('div', class_='job-list')
+        for job in job_posts:
+            title = job.find('h2').text
+            link_url = job.find('a')['href']
+            job_list.append({'title': title, 'link_url': link_url})
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred while fetching page {page_number}: {e}")
+        raise SystemExit("Script terminated due to an error.")
     return job_list
 
-# Function to scrape and paginate through all pages
 def scrape_all_pages(base_url, max_pages):
     existing_data = load_existing_data()
     latest_jobs = load_latest_jobs()
     
-    for page_number in range(1, max_pages + 1):
-        url = f"{base_url}/page/{page_number}/"
-        print(f"Scraping page {page_number}...")
-        jobs = scrape_and_save_page(url, page_number, existing_data, latest_jobs)
-    
+    fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
+    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        
+        for page_number in range(1, max_pages + 1):
+            url = f"{base_url}/page/{page_number}/"
+            print(f"Scraping page {page_number}...")
+            try:
+                jobs = scrape_and_save_page(url, page_number, existing_data, latest_jobs)
+                for job in jobs:
+                    writer.writerow(job)
+            except requests.exceptions.ConnectionError:
+                print(f"Connection error on page {page_number}. Retrying after a delay.")
+                time.sleep(random.uniform(1, 5)) # Wait for a random time between 1 to 5 seconds
+                # Retry the request here if necessary
+            except Exception as e:
+                print(f"An error occurred: {e}")
+                raise SystemExit("Script terminated due to an error.")
+
     print("Scraping complete. Data appended incrementally to the same CSV file.")
 
 if __name__ == "__main__":
