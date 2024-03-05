@@ -21,8 +21,8 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":110,
-    "Info":"Intrare: 2 artera; Iesire: 2 artere; numar mare de automarfare pe sensul de iesire din tara.",
+    "Timp":180,
+    "Info":"Intrare: 2 artera; Iesire: 3 artere; numar mare de automarfare pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"red",
@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":110,
+    "Timp":180,
     "Info":"Intrare: 1 artera; Iesire: 3 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":50,
     "Info":"Intrare 2 artere, iesire 2 artere.Numar mare de mijloace de transport marfa prezentate in timp scurt la control pe sensul de iesire din Romania.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":60,
+    "Timp":90,
     "Info":"5 artere pe sensul de intrare si 4 artere pe sensul de iesire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":120,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare pe sensul de iesire: 3 km",
+    "Info":"Intrare: 1 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare pe sensul de iesire: 3 km",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":180,
-    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de automarfare prezente pe sensul de intrare. TRAFIC RESTRICTIONAT PE SENSUL DE IESIRE.",
+    "Timp":300,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de automarfare prezente pe sensul de intrare. TRAFIC RESTRICTIONAT PE SENSUL DE IESIRE.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -272,7 +272,7 @@
   {
     "Denumire":"Vama Veche",
     "Timp":20,
-    "Info":"Intrare 1 artera, iesire 1 artera -Trafic restrictionat pe sensul de intrare din tara - lucrari de reparatii ale partii carosabile",
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
     "Status":"green",
