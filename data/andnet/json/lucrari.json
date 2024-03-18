@@ -1,5 +1,18 @@
 [{
 	"NR. CRT.": "6.1",
+	"Indicativ drum": "A1",
+	"De la km": "313+000",
+	"Pana la km": "316+000",
+	"De la data": "2024-03-18 09:00:00",
+	"Pana la data": "2024-03-18 16:00:00",
+	"Intre localitatile": "SEBES (AB) - SEBES (AB)",
+	"Tip lucrare": "Lucrari- pe A1, calea 1 Sebes. Inlocuit parapet median, se circula pe banda unu si banda urgenta, banda doi este restrictionata, se estimeaza reluarea circulatiei in conditii normale in jurul orei 16:00.",
+	"Variante de ocolire": "",
+	"viz_name": "A1",
+	"map_zoom": "['313', '0', '316', '0']"
+},
+{
+	"NR. CRT.": "6.2",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -12,7 +25,7 @@
 	"map_zoom": "['143', '125', '148', '315']"
 },
 {
-	"NR. CRT.": "6.2",
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A2",
 	"De la km": "101+500",
 	"Pana la km": "102+200",
@@ -25,7 +38,7 @@
 	"map_zoom": "['101', '500', '102', '200']"
 },
 {
-	"NR. CRT.": "6.3",
+	"NR. CRT.": "6.4",
 	"Indicativ drum": "A3Ms",
 	"De la km": "36+400",
 	"Pana la km": "36+500",
@@ -38,7 +51,20 @@
 	"map_zoom": "['36', '400', '36', '500']"
 },
 {
-	"NR. CRT.": "6.4",
+	"NR. CRT.": "6.5",
+	"Indicativ drum": "DN1",
+	"De la km": "294+800",
+	"Pana la km": "295+100",
+	"De la data": "2024-03-18 09:00:00",
+	"Pana la data": "2024-03-19 17:59:00",
+	"Intre localitatile": "BRADU (SB) - VESTEM (SB)",
+	"Tip lucrare": "Lucrari de reparatii la dispozitivele de acoperire a rosturilor de dilatatie, pe partea dreapta a podului peste raul Cibiu",
+	"Variante de ocolire": "Traficul se va desfasura alterrnativ pe o banda, dirijat cu semafoare.",
+	"viz_name": "DN1",
+	"map_zoom": "['294', '800', '295', '100']"
+},
+{
+	"NR. CRT.": "6.6",
 	"Indicativ drum": "DN22",
 	"De la km": "107+560",
 	"Pana la km": "108+915",
@@ -51,7 +77,7 @@
 	"map_zoom": "['107', '560', '108', '915']"
 },
 {
-	"NR. CRT.": "6.5",
+	"NR. CRT.": "6.7",
 	"Indicativ drum": "DN25",
 	"De la km": "48+028",
 	"Pana la km": "48+028",
@@ -64,7 +90,7 @@
 	"map_zoom": "['48', '28', '48', '28']"
 },
 {
-	"NR. CRT.": "6.6",
+	"NR. CRT.": "6.8",
 	"Indicativ drum": "DN28B",
 	"De la km": "0+000",
 	"Pana la km": "76+758",
@@ -77,7 +103,7 @@
 	"map_zoom": "['0', '0', '76', '758']"
 },
 {
-	"NR. CRT.": "6.7",
+	"NR. CRT.": "6.9",
 	"Indicativ drum": "DN57",
 	"De la km": "62+000",
 	"Pana la km": "65+800",
@@ -90,7 +116,7 @@
 	"map_zoom": "['62', '0', '65', '800']"
 },
 {
-	"NR. CRT.": "6.8",
+	"NR. CRT.": "6.10",
 	"Indicativ drum": "DN7",
 	"De la km": "235+300",
 	"Pana la km": "236+000",
@@ -103,29 +129,16 @@
 	"map_zoom": "['235', '300', '236', '0']"
 },
 {
-	"NR. CRT.": "6.9",
-	"Indicativ drum": "DN7",
-	"De la km": "173+500",
-	"Pana la km": "174+000",
-	"De la data": "2024-03-18 08:00:00",
-	"Pana la data": "2024-03-18 13:00:00",
-	"Intre localitatile": "GORANU (VL) -",
-	"Tip lucrare": "Se lucreaza la demontare consola.",
-	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
-	"viz_name": "DN7",
-	"map_zoom": "['173', '500', '174', '0']"
-},
-{
-	"NR. CRT.": "6.10",
-	"Indicativ drum": "DN7",
-	"De la km": "161+600",
-	"Pana la km": "161+700",
-	"De la data": "2024-03-18 08:00:00",
-	"Pana la data": "2024-03-18 13:00:00",
-	"Intre localitatile": "MILCOIU (VL) -",
-	"Tip lucrare": "Se lucreaza la reparatii parapet.",
-	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijatadepiloti.",
-	"viz_name": "DN7",
-	"map_zoom": "['161', '600', '161', '700']"
+	"NR. CRT.": "6.11",
+	"Indicativ drum": "VO_TM(DNCT)",
+	"De la km": "3+910",
+	"Pana la km": "4+860",
+	"De la data": "2024-03-18 14:00:00",
+	"Pana la data": "2024-04-10 12:00:00",
+	"Intre localitatile": "TIMISOARA (TM) - TIMISOARA (TM)",
+	"Tip lucrare": "Evenimente rutiere Lucrari pe centura Timisoarei km 3+910 si 4+860 -Lucrari de reparatii si inlocuire a rosturilor de dilatatie,pe durata evenimentelor traficul se va desfasura alternativ,cu restrictii de viteza,fiind montat si semafor temporar,se estimeaza reluarea normala a circulatiei in data de 10.04.2024 ora 12:00",
+	"Variante de ocolire": "",
+	"viz_name": "VO_TM",
+	"map_zoom": "[]"
 }
 ]
