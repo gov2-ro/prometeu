@@ -1,5 +1,31 @@
 [{
 	"NR. CRT.": "6.1",
+	"Indicativ drum": "A1",
+	"De la km": "91+900",
+	"Pana la km": "92+000",
+	"De la data": "2024-03-26 09:00:00",
+	"Pana la data": "2024-03-26 16:00:00",
+	"Intre localitatile": "-",
+	"Tip lucrare": "Reparatii parapet median. Calea 1 (Bucuresti-Pitesti) banda 2 blocata.",
+	"Variante de ocolire": "",
+	"viz_name": "A1",
+	"map_zoom": "['91', '900', '92', '0']"
+},
+{
+	"NR. CRT.": "6.2",
+	"Indicativ drum": "A1",
+	"De la km": "326+000",
+	"Pana la km": "334+000",
+	"De la data": "2024-03-26 09:30:00",
+	"Pana la data": "2024-03-26 16:00:00",
+	"Intre localitatile": "SIBOT (AB) - SIBOT (AB)",
+	"Tip lucrare": "Eveniment rutier- Lucrari -pe A1 km 326-334 calea 1 Sibot - Inlocuit parapet median,se circula pe banda de urgenta si banda unu,banda doi este restrictionata,se estimeaza reluarea normala a circulatiei in jurul orei 16:00",
+	"Variante de ocolire": "",
+	"viz_name": "A1",
+	"map_zoom": "['326', '0', '334', '0']"
+},
+{
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -12,7 +38,7 @@
 	"map_zoom": "['143', '125', '148', '315']"
 },
 {
-	"NR. CRT.": "6.2",
+	"NR. CRT.": "6.4",
 	"Indicativ drum": "A2",
 	"De la km": "101+500",
 	"Pana la km": "102+200",
@@ -20,12 +46,64 @@
 	"Pana la data": "2024-03-29 23:59:00",
 	"Intre localitatile": "DRAGALINA (CL) - DRAGALINA (CL)",
 	"Tip lucrare": "Lucrari de reparatii la pasaj, peste calea ferata.",
-	"Variante de ocolire": "Pe sectorul de autostrada cuprins intre km. 101+500 - km 102+200, pe Calea 1, sensul de deplasare Bucuresti - Constanta, circulatia va fi inchisa, aceasta urmand sa se desfasoare deviat pe Calea 2, in ambele sensuri, pe sectorul cuprins intre km 102+200 - 101+500.",
+	"Variante de ocolire": "Pe sectorul de autostrada cuprins intre km. 101+500 - km 102+200, pe Calea 2, sensul de deplasare  Constanta- Bucuresti, circulatia va fi inchisa, aceasta urmand sa se desfasoare deviat pe Calea 1, in ambele sensuri, pe sectorul cuprins intre km 101+500 - 102+200.",
 	"viz_name": "A2",
 	"map_zoom": "['101', '500', '102', '200']"
 },
 {
-	"NR. CRT.": "6.3",
+	"NR. CRT.": "6.5",
+	"Indicativ drum": "A2",
+	"De la km": "125+000",
+	"Pana la km": "126+000",
+	"De la data": "2024-03-26 09:00:00",
+	"Pana la data": "2024-03-26 15:00:00",
+	"Intre localitatile": "STEFAN CEL MARE (CT) - STEFAN CEL MARE (CL)",
+	"Tip lucrare": "Montare panouri antiorbire",
+	"Variante de ocolire": "A2, calea 1, banda 2 este blocata, traficul rutier se desfasoara pe banda 1 cu limita de viteza la 60 km/h",
+	"viz_name": "A2",
+	"map_zoom": "['125', '0', '126', '0']"
+},
+{
+	"NR. CRT.": "6.6",
+	"Indicativ drum": "A3Ms",
+	"De la km": "36+000",
+	"Pana la km": "36+100",
+	"De la data": "2024-03-26 10:00:00",
+	"Pana la data": "2024-03-26 18:00:00",
+	"Intre localitatile": "CHETANI (MS) - CHETANI (MS)",
+	"Tip lucrare": "Montare bucle inductive in asfalt, se va restrictiona pe rand cate o banda de circulatie de pe calea 2(spre Tg-Mures).",
+	"Variante de ocolire": "Se circula ingreunat pe banda 1 si banda 2 a caii 2.",
+	"viz_name": "A3Ms",
+	"map_zoom": "['36', '0', '36', '100']"
+},
+{
+	"NR. CRT.": "6.7",
+	"Indicativ drum": "A4",
+	"De la km": "21+000",
+	"Pana la km": "21+000",
+	"De la data": "2024-03-26 09:00:00",
+	"Pana la data": "2024-03-26 15:00:00",
+	"Intre localitatile": "AGIGEA (CT) - AGIGEA (CT)",
+	"Tip lucrare": "Estetica rutiera zona mediana",
+	"Variante de ocolire": "A4, calea 2, banda 2 este blocata, traficul rutier se desfasoara pe banda 1 cu limita de viteza la 60 km/h",
+	"viz_name": "A4",
+	"map_zoom": "['21', '0', '21', '0']"
+},
+{
+	"NR. CRT.": "6.8",
+	"Indicativ drum": "A4",
+	"De la km": "16+680",
+	"Pana la km": "16+930",
+	"De la data": "2024-03-26 10:39:00",
+	"Pana la data": "2024-04-16 23:59:00",
+	"Intre localitatile": "CUMPANA (CT) - CUMPANA (CT)",
+	"Tip lucrare": "Montare panouri fonoabsorbante",
+	"Variante de ocolire": "A4, calea 1, banda de urgenta. Sunt instituite restrictii de circulatie in vederea executarii lucrarilor, traficul se desfasoara cu limita de viteza la 60 km/h.",
+	"viz_name": "A4",
+	"map_zoom": "['16', '680', '16', '930']"
+},
+{
+	"NR. CRT.": "6.9",
 	"Indicativ drum": "DN22",
 	"De la km": "107+560",
 	"Pana la km": "108+915",
@@ -38,7 +116,7 @@
 	"map_zoom": "['107', '560', '108', '915']"
 },
 {
-	"NR. CRT.": "6.4",
+	"NR. CRT.": "6.10",
 	"Indicativ drum": "DN25",
 	"De la km": "48+028",
 	"Pana la km": "48+028",
@@ -51,7 +129,7 @@
 	"map_zoom": "['48', '28', '48', '28']"
 },
 {
-	"NR. CRT.": "6.5",
+	"NR. CRT.": "6.11",
 	"Indicativ drum": "DN28B",
 	"De la km": "0+000",
 	"Pana la km": "76+758",
@@ -64,7 +142,7 @@
 	"map_zoom": "['0', '0', '76', '758']"
 },
 {
-	"NR. CRT.": "6.6",
+	"NR. CRT.": "6.12",
 	"Indicativ drum": "DN39",
 	"De la km": "54+100",
 	"Pana la km": "54+100",
@@ -77,7 +155,7 @@
 	"map_zoom": "['54', '100', '54', '100']"
 },
 {
-	"NR. CRT.": "6.7",
+	"NR. CRT.": "6.13",
 	"Indicativ drum": "DN57",
 	"De la km": "62+000",
 	"Pana la km": "65+800",
@@ -90,7 +168,7 @@
 	"map_zoom": "['62', '0', '65', '800']"
 },
 {
-	"NR. CRT.": "6.8",
+	"NR. CRT.": "6.14",
 	"Indicativ drum": "DN64",
 	"De la km": "108+500",
 	"Pana la km": "108+700",
@@ -103,7 +181,72 @@
 	"map_zoom": "['108', '500', '108', '700']"
 },
 {
-	"NR. CRT.": "6.9",
+	"NR. CRT.": "6.15",
+	"Indicativ drum": "DN64",
+	"De la km": "90+000",
+	"Pana la km": "94+000",
+	"De la data": "2024-03-26 09:00:00",
+	"Pana la data": "2024-03-26 16:00:00",
+	"Intre localitatile": "MARCEA (VL) - VALEA MARE (BABENI) (VL)",
+	"Tip lucrare": "Se lucreaza la recoronare plantatie rutiera.",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 cale, dirijata de piloti de circulatie.",
+	"viz_name": "DN64",
+	"map_zoom": "['90', '0', '94', '0']"
+},
+{
+	"NR. CRT.": "6.16",
+	"Indicativ drum": "DN67",
+	"De la km": "195+600",
+	"Pana la km": "196+100",
+	"De la data": "2024-03-26 08:00:00",
+	"Pana la data": "2024-03-26 16:00:00",
+	"Intre localitatile": "TROIAN (VL) - BUDESTI (BUDESTI) (VL)",
+	"Tip lucrare": "Se lucreaza la taiere acostamente.",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara pe 1/2 cale, dirijata de piloti de circulatie.",
+	"viz_name": "DN67",
+	"map_zoom": "['195', '600', '196', '100']"
+},
+{
+	"NR. CRT.": "6.17",
+	"Indicativ drum": "DN67B",
+	"De la km": "4+000",
+	"Pana la km": "7+000",
+	"De la data": "2024-03-26 08:00:00",
+	"Pana la data": "2024-03-31 16:00:00",
+	"Intre localitatile": "TARGU CARBUNESTI (GJ) -",
+	"Tip lucrare": "Se executa lucrari alimentatre cu apa.",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara ingreunat pe 1/2 cale, semnalizare rutiera specifica.",
+	"viz_name": "DN67B",
+	"map_zoom": "['4', '0', '7', '0']"
+},
+{
+	"NR. CRT.": "6.18",
+	"Indicativ drum": "DN67B",
+	"De la km": "23+000",
+	"Pana la km": "24+000",
+	"De la data": "2024-03-26 08:00:00",
+	"Pana la data": "2024-03-31 16:00:00",
+	"Intre localitatile": "LICURICI (GJ) - HUREZANI (GJ)",
+	"Tip lucrare": "Se executa lucrari de reparatii asfaltice.",
+	"Variante de ocolire": "Circulatia rutiera se defasoara ingreunat pe 1/2 cale, semnalizare rutiera specifica.",
+	"viz_name": "DN67B",
+	"map_zoom": "['23', '0', '24', '0']"
+},
+{
+	"NR. CRT.": "6.19",
+	"Indicativ drum": "DN6B",
+	"De la km": "43+000",
+	"Pana la km": "45+000",
+	"De la data": "2024-03-26 08:00:00",
+	"Pana la data": "2024-03-31 16:00:00",
+	"Intre localitatile": "STOINA (GJ) -",
+	"Tip lucrare": "Se executa lucrari alimentatre cu apa.",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara ingreunat pe 1/2 cale, smnalizare rutiera specifica.",
+	"viz_name": "DN6B",
+	"map_zoom": "['43', '0', '45', '0']"
+},
+{
+	"NR. CRT.": "6.20",
 	"Indicativ drum": "DN7",
 	"De la km": "221+500",
 	"Pana la km": "221+700",
@@ -116,7 +259,7 @@
 	"map_zoom": "['221', '500', '221', '700']"
 },
 {
-	"NR. CRT.": "6.10",
+	"NR. CRT.": "6.21",
 	"Indicativ drum": "VO_TM(DNCT)",
 	"De la km": "3+910",
 	"Pana la km": "4+860",
