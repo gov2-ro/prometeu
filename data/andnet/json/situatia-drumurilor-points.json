@@ -1,21 +1,4 @@
 [{
-	"coords": "[26.17340345, 44.52163554]",
-	"culoare": 1,
-	"raza": 10,
-	"name": "Eveniment rutier  A3",
-	"Judet": "IF;",
-	"UAT": "Voluntari;",
-	"Localitati": "VOLUNTARI (IF) -",
-	"Km": "12+800 - 13+800",
-	"Cauza": "Calea 1, sens Bucuresti-Ploiesti, banda 1 si 2 blocate pentru lucrari la parapetul lateral. Se circula pe banda 3.",
-	"lat": 26.17340345,
-	"long": 44.52163554,
-	"date_start": "06-04-2024 07:01",
-	"date_end": "06-04-2024 16:00",
-	"km_start": "12+800",
-	"km_end": "13+800"
-},
-{
 	"coords": "[24.45856695, 45.05192312]",
 	"culoare": 0,
 	"raza": 7,
@@ -140,20 +123,20 @@
 	"date_end": "31-12-2024 23:59"
 },
 {
-	"coords": "[24.30310059, 44.66260147]",
+	"coords": "[25.99580569, 47.14375187]",
 	"culoare": 0,
 	"raza": 7,
-	"name": "Circulatie ingreunata  DN67B",
-	"Judet": "OT;",
-	"UAT": "Verguleasa;",
-	"Localitati": "DRAGASANI (VL) - POGANU (OT)",
-	"Km": "119+236",
-	"Cauza": "Podul peste raul Olt nu prezinta siguranta pentru autovehiculele cu MTMA > 7,5 TO .",
-	"Masuri de remediere": "Circulati a rutiera se desfasoara pe1/2 cale , dirijata prin semafoare. Ruta ocolitoare pentru autovehiculele cu MTMA > 7,5 TO - DN 64 - DJ 678C - DJ 678 - DN 67B.",
-	"lat": 24.30310059,
-	"long": 44.66260147,
-	"date_start": "01-01-2024 00:00",
-	"date_end": "30-04-2024 17:00"
+	"name": "Circulatie ingreunata  DN15B",
+	"Judet": "NT;",
+	"UAT": "Poiana Teiului;",
+	"Localitati": "PETRU VODA (NT) - PETRU VODA (NT)",
+	"Km": "7+280",
+	"Cauza": "Placa carosabila de beton a cedat intre grinzile principale ale podului.",
+	"Masuri de remediere": "Circulatia este deschisa pe un fir alternativ si dirijat,pentru toate categoriile de autovehicule.",
+	"lat": 25.99580569,
+	"long": 47.14375187,
+	"date_start": "01-08-2023 18:20",
+	"date_end": "31-12-2024 23:00"
 },
 {
 	"coords": "[23.63229942, 44.87820053]",
@@ -300,22 +283,6 @@
 	"date_end": "17-04-2024 23:59"
 },
 {
-	"coords": "[25.99580569, 47.14375187]",
-	"culoare": 0,
-	"raza": 7,
-	"name": "Circulatie ingreunata  DN15B",
-	"Judet": "NT;",
-	"UAT": "Poiana Teiului;",
-	"Localitati": "PETRU VODA (NT) - PETRU VODA (NT)",
-	"Km": "7+280",
-	"Cauza": "Placa carosabila de beton a cedat intre grinzile principale ale podului.",
-	"Masuri de remediere": "Circulatia este deschisa pe un fir alternativ si dirijat,pentru toate categoriile de autovehicule.",
-	"lat": 25.99580569,
-	"long": 47.14375187,
-	"date_start": "01-08-2023 18:20",
-	"date_end": "31-12-2024 23:00"
-},
-{
 	"coords": "[21.296679, 46.01450983]",
 	"culoare": 1,
 	"raza": 10,
@@ -329,7 +296,7 @@
 	"lat": 21.296679,
 	"long": 46.01450983,
 	"date_start": "06-04-2024 07:15",
-	"date_end": "06-04-2024 14:00"
+	"date_end": "06-04-2024 21:00"
 },
 {
 	"coords": "[24.34175395, 45.2488953]",
@@ -345,5 +312,21 @@
 	"long": 45.2488953,
 	"date_start": "06-04-2024 00:00",
 	"date_end": "30-04-2024 12:00"
+},
+{
+	"coords": "[24.30310059, 44.66260147]",
+	"culoare": 0,
+	"raza": 7,
+	"name": "Circulatie ingreunata  DN67B",
+	"Judet": "OT;",
+	"UAT": "Verguleasa;",
+	"Localitati": "DRAGASANI (VL) - POGANU (OT)",
+	"Km": "119+236",
+	"Cauza": "Podul peste raul Olt nu prezinta siguranta pentru autovehiculele cu MTMA > 7,5 TO .",
+	"Masuri de remediere": "Circulati a rutiera se desfasoara pe1/2 cale , dirijata prin semafoare. Ruta ocolitoare pentru autovehiculele cu MTMA > 7,5 TO - DN 64 - DJ 678C - DJ 678 - DN 67B.",
+	"lat": 24.30310059,
+	"long": 44.66260147,
+	"date_start": "01-01-2024 00:00",
+	"date_end": "30-04-2024 17:00"
 }
 ]
