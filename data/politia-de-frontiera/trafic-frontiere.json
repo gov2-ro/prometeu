@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":50,
     "Info":"Intrare 2 artere, iesire 2 artere. Trafic intens- numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,8 +71,8 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":80,
-    "Info":"4 artere pe sensul de intrare si 4 artere pe sensul de iesire..",
+    "Timp":220,
+    "Info":"5 artere pe sensul de intrare si 5 artere pe sensul de iesire. Sistemul de cantarire bulgar nu functioneaza",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara.Coloana in asteptare iesire 2 km.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara.Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":210,
-    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Timp":120,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -271,21 +271,21 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
+    "Timp":150,
+    "Info":"Intrare 1 artera, iesire 1 artera, din cauza nefuncționalitatii sistemului de cântărire al autorităților bulgare de pe ambele sensuri traficul de camioane este întrerupt.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Vârșand",
-    "Timp":20,
+    "Timp":80,
     "Info":"intrare 2 artere, iesire 2 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
