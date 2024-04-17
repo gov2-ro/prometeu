@@ -1,19 +1,6 @@
 [{
 	"NR. CRT.": "6.1",
 	"Indicativ drum": "A1",
-	"De la km": "18+185",
-	"Pana la km": "18+615",
-	"De la data": "2024-04-11 20:00:00",
-	"Pana la data": "2024-04-26 20:00:00",
-	"Intre localitatile": "JOITA (GR) -",
-	"Tip lucrare": "Trafic deviat temporar pe A1, Bucuresti - Pitesti, pe aproximativ 1,5 km, pentru montarea grinzilor la pasajul care traverseaza autostrada la km 18+400",
-	"Variante de ocolire": "Mentionam ca in zona unde circulatia este deviata, vor exista variante de serviciu.  Variantele de serviciu vor avea cate doua benzi de deplasare fiecare, atat pentru Calea 1, Bucuresti - Pitesti, cat si pentru Calea 2, Pitesti - Bucuresti,",
-	"viz_name": "A1",
-	"map_zoom": "['18', '185', '18', '615']"
-},
-{
-	"NR. CRT.": "6.2",
-	"Indicativ drum": "A1",
 	"De la km": "351+000",
 	"Pana la km": "351+000",
 	"De la data": "2024-04-06 12:20:00",
@@ -23,6 +10,19 @@
 	"Variante de ocolire": "Pe Calea 2 se circula pe Banda 2. Banda 1 si Banda de Urgenta sunt restrictionate pana la finalizarea lucrarilor",
 	"viz_name": "A1",
 	"map_zoom": "['351', '0', '351', '0']"
+},
+{
+	"NR. CRT.": "6.2",
+	"Indicativ drum": "A1",
+	"De la km": "18+185",
+	"Pana la km": "18+615",
+	"De la data": "2024-04-11 20:00:00",
+	"Pana la data": "2024-04-26 20:00:00",
+	"Intre localitatile": "JOITA (GR) -",
+	"Tip lucrare": "Trafic deviat temporar pe A1, Bucuresti - Pitesti, pe aproximativ 1,5 km, pentru montarea grinzilor la pasajul care traverseaza autostrada la km 18+400",
+	"Variante de ocolire": "Mentionam ca in zona unde circulatia este deviata, vor exista variante de serviciu.  Variantele de serviciu vor avea cate doua benzi de deplasare fiecare, atat pentru Calea 1, Bucuresti - Pitesti, cat si pentru Calea 2, Pitesti - Bucuresti,",
+	"viz_name": "A1",
+	"map_zoom": "['18', '185', '18', '615']"
 },
 {
 	"NR. CRT.": "6.3",
@@ -52,16 +52,16 @@
 },
 {
 	"NR. CRT.": "6.5",
-	"Indicativ drum": "DN1",
-	"De la km": "145+000",
-	"Pana la km": "145+400",
-	"De la data": "2024-04-15 08:00:00",
+	"Indicativ drum": "DN13",
+	"De la km": "33+800",
+	"Pana la km": "34+100",
+	"De la data": "2024-04-17 08:00:00",
 	"Pana la data": "2024-04-19 16:00:00",
-	"Intre localitatile": "PREDEAL (BV) - TIMISU DE SUS (BV)",
+	"Intre localitatile": "MAIERUS (BV) - MAIERUS (BV)",
 	"Tip lucrare": "Se executa lucrari de montare parapete cu rulouri",
-	"Variante de ocolire": "Trafic dirijat cu piloti de dirijare",
-	"viz_name": "DN1",
-	"map_zoom": "['145', '0', '145', '400']"
+	"Variante de ocolire": "Trafic dirijat cu semafor/piloti de dirijare",
+	"viz_name": "DN13",
+	"map_zoom": "['33', '800', '34', '100']"
 },
 {
 	"NR. CRT.": "6.6",
@@ -374,31 +374,5 @@
 	"Variante de ocolire": "Trafic dirijat cu semafor/piloti de dirijare",
 	"viz_name": "DN73F",
 	"map_zoom": "['0', '0', '8', '450']"
-},
-{
-	"NR. CRT.": "6.30",
-	"Indicativ drum": "VO_SACELE",
-	"De la km": "3+500",
-	"Pana la km": "4+100",
-	"De la data": "2024-04-15 08:00:00",
-	"Pana la data": "2024-04-19 16:00:00",
-	"Intre localitatile": "SACELE (BV) - SACELE (BV)",
-	"Tip lucrare": "Lucrari de reparatii la partea carosabila.",
-	"Variante de ocolire": "Trafic dirijat cu semafor",
-	"viz_name": "VO_SACELE",
-	"map_zoom": "['3', '500', '4', '100']"
-},
-{
-	"NR. CRT.": "6.31",
-	"Indicativ drum": "VOB1",
-	"De la km": "2+500",
-	"Pana la km": "9+782",
-	"De la data": "2024-04-15 08:00:00",
-	"Pana la data": "2024-04-19 16:00:00",
-	"Intre localitatile": "BRASOV (BV) - BRASOV (BV)",
-	"Tip lucrare": "Se lucreaza la aplicare marcaje rutiere .",
-	"Variante de ocolire": "Traficul se desfasoara pe banda libera",
-	"viz_name": "VOB1",
-	"map_zoom": "['2', '500', '9', '782']"
 }
 ]
