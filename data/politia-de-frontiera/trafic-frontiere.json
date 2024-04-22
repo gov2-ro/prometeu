@@ -21,17 +21,17 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":50,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Timp":70,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":90,
+    "Timp":110,
     "Info":"Intrare: 1 artera; Iesire: 2 artere; Numar foarte mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":120,
-    "Info":"Intrare: 2 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 5 km.",
+    "Timp":60,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 2 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
