@@ -11,28 +11,10 @@
 	"Masuri de remediere": "Circulatie alternativa, semnalizare de pozitionare a lucrarilor (balize, conuri de dirijare + piloti de circulatie).",
 	"lat": 0,
 	"long": 0,
-	"date_start": "24-04-2024 07:00",
-	"date_end": "24-04-2024 16:00",
+	"date_start": "25-04-2024 07:00",
+	"date_end": "25-04-2024 16:00",
 	"km_start": "0+000",
 	"km_end": "4+200"
-},
-{
-	"coords": "[24.64199665, 45.78429618]",
-	"culoare": 2,
-	"raza": 7,
-	"name": "Lucrari  DN1",
-	"Judet": "BV;",
-	"UAT": "Ucea;",
-	"Localitati": "ARPASU DE JOS (SB) - UCEA DE JOS (BV)",
-	"Km": "261+130 - 261+200",
-	"Tip Lucrari": "Se executa lucrari la portalul de intrare/iesire din judet",
-	"Variante de ocolire": "Trafic dirijat cu semafor/piloti de dirijare",
-	"lat": 24.64199665,
-	"long": 45.78429618,
-	"date_start": "23-04-2024 08:00",
-	"date_end": "26-04-2024 16:00",
-	"km_start": "261+130",
-	"km_end": "261+200"
 },
 {
 	"coords": "[24.45856695, 45.05192312]",
@@ -51,6 +33,24 @@
 	"date_end": "30-04-2024 17:00",
 	"km_start": "162+390",
 	"km_end": "162+460"
+},
+{
+	"coords": "[24.64199665, 45.78429618]",
+	"culoare": 2,
+	"raza": 7,
+	"name": "Lucrari  DN1",
+	"Judet": "BV;",
+	"UAT": "Ucea;",
+	"Localitati": "ARPASU DE JOS (SB) - UCEA DE JOS (BV)",
+	"Km": "261+130 - 261+200",
+	"Tip Lucrari": "Se executa lucrari la portalul de intrare/iesire din judet",
+	"Variante de ocolire": "Trafic dirijat cu semafor/piloti de dirijare",
+	"lat": 24.64199665,
+	"long": 45.78429618,
+	"date_start": "23-04-2024 08:00",
+	"date_end": "26-04-2024 16:00",
+	"km_start": "261+130",
+	"km_end": "261+200"
 },
 {
 	"coords": "[24.29223421, 45.47571313]",
@@ -143,22 +143,6 @@
 	"km_end": "151+180"
 },
 {
-	"coords": "[23.07820477, 45.84242236]",
-	"culoare": 2,
-	"raza": 7,
-	"name": "Lucrari  A1",
-	"Judet": "HD;",
-	"UAT": "Turdaș;",
-	"Localitati": "SIMERIA (HD) -",
-	"Km": "351+000",
-	"Tip Lucrari": "Lucrari - inlocuire elemente elastice rosturi dilatatie - Calea 1.",
-	"Variante de ocolire": "Banda de urgenta si 1/2 din banda 1 sunt inchise (Calea 1).\nSe circula pe banda 2 si pe 1/2 din banda 1.\nSe estimeaza reluarea circulatiei normale si incheierea lucrarilor, la data de 01.05.2024.",
-	"lat": 23.07820477,
-	"long": 45.84242236,
-	"date_start": "18-04-2024 17:00",
-	"date_end": "01-05-2024 23:59"
-},
-{
 	"coords": "[23.84059906, 44.33530045]",
 	"culoare": 2,
 	"raza": 7,
@@ -207,20 +191,20 @@
 	"date_end": "30-04-2024 17:00"
 },
 {
-	"coords": "[21.73675427, 45.04825724]",
-	"culoare": 0,
+	"coords": "[23.07820477, 45.84242236]",
+	"culoare": 2,
 	"raza": 7,
-	"name": "Circulatie ingreunata  DN57B",
-	"Judet": "CS;",
-	"UAT": "Oravița;",
-	"Localitati": "ORAVITA (CS) - ORAVITA (CS)",
-	"Km": "4+950",
-	"Cauza": "In urma ploilor abundente, s-a produs o alunecare de teren.",
-	"Masuri de remediere": "Circulatia rutiera este ingreunata pe 1/2 cale",
-	"lat": 21.73675427,
-	"long": 45.04825724,
-	"date_start": "04-07-2023 21:00",
-	"date_end": "30-06-2024 12:00"
+	"name": "Lucrari  A1",
+	"Judet": "HD;",
+	"UAT": "Turdaș;",
+	"Localitati": "SIMERIA (HD) -",
+	"Km": "351+000",
+	"Tip Lucrari": "Lucrari - inlocuire elemente elastice rosturi dilatatie - Calea 1.",
+	"Variante de ocolire": "Banda de urgenta si 1/2 din banda 1 sunt inchise (Calea 1).\nSe circula pe banda 2 si pe 1/2 din banda 1.\nSe estimeaza reluarea circulatiei normale si incheierea lucrarilor, la data de 01.05.2024.",
+	"lat": 23.07820477,
+	"long": 45.84242236,
+	"date_start": "18-04-2024 17:00",
+	"date_end": "01-05-2024 23:59"
 },
 {
 	"coords": "[22.67130189, 45.02185744]",
@@ -270,6 +254,22 @@
 	"date_end": "31-12-2024 23:00"
 },
 {
+	"coords": "[21.73675427, 45.04825724]",
+	"culoare": 0,
+	"raza": 7,
+	"name": "Circulatie ingreunata  DN57B",
+	"Judet": "CS;",
+	"UAT": "Oravița;",
+	"Localitati": "ORAVITA (CS) - ORAVITA (CS)",
+	"Km": "4+950",
+	"Cauza": "In urma ploilor abundente, s-a produs o alunecare de teren.",
+	"Masuri de remediere": "Circulatia rutiera este ingreunata pe 1/2 cale",
+	"lat": 21.73675427,
+	"long": 45.04825724,
+	"date_start": "04-07-2023 21:00",
+	"date_end": "30-06-2024 12:00"
+},
+{
 	"coords": "[24.34175395, 45.2488953]",
 	"culoare": 0,
 	"raza": 7,
@@ -299,22 +299,6 @@
 	"long": 45.49997053,
 	"date_start": "16-02-2024 00:00",
 	"date_end": "31-12-2024 23:59"
-},
-{
-	"coords": "[24.48448266, 44.5141192]",
-	"culoare": 1,
-	"raza": 10,
-	"name": "Eveniment rutier  DEx12",
-	"Judet": "OT;",
-	"UAT": "Priseaca;",
-	"Localitati": "JITARU (OT) -",
-	"Km": "64+500",
-	"Cauza": "Se lucreaza la reparatii imbracaminte asfaltica , pe sensul Pitesti - Craiova .",
-	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1 banda din 2 , cu semnalizare corespunzatoare .",
-	"lat": 24.48448266,
-	"long": 44.5141192,
-	"date_start": "24-04-2024 06:00",
-	"date_end": "24-04-2024 16:00"
 },
 {
 	"coords": "[24.30310059, 44.66260147]",
@@ -381,19 +365,19 @@
 	"date_end": "30-04-2024 17:00"
 },
 {
-	"coords": "[23.56420773, 44.52302126]",
-	"culoare": 1,
-	"raza": 10,
-	"name": "Eveniment rutier  DN6",
-	"Judet": "DJ;",
-	"UAT": "Filiași;",
-	"Localitati": "RACARII DE JOS (DJ) - FILIASI (DJ)",
-	"Km": "258+000",
-	"Cauza": "Accident rutier, in urma unei coliziuni intre un autotren (TIR) si o autospeciala de la Drumuri. Partea carosabila, curata si uscata. In urma accidentului a rezultat doua victime. Cauza accidentului, eroare umana.",
-	"Masuri de remediere": "Circulatia rutiera este blocata pe ambele sensuri. La fata locului se afla Politia, Salvarea, Pompierii si o echipa de interventie de la Drumuri.",
-	"lat": 23.56420773,
-	"long": 44.52302126,
-	"date_start": "24-04-2024 15:10",
-	"date_end": "24-04-2024 19:00"
+	"coords": "[23.07820477, 45.84242236]",
+	"culoare": 0,
+	"raza": 7,
+	"name": "Circulatie ingreunata  A1",
+	"Judet": "HD;",
+	"UAT": "Turdaș;",
+	"Localitati": "SIMERIA (HD) - SIMERIA (HD)",
+	"Km": "351+000",
+	"Cauza": "Se executa lucrari de inlocuire elemente elastice la rosturile de dilatatie. Calea 1.",
+	"Masuri de remediere": "Circulatia se desfasoara ingreunat pe Banda 1 si Banda de Urgenta iar Banda 2 este retrictionata pana in data de 30.04.2024 ora 17:00.",
+	"lat": 23.07820477,
+	"long": 45.84242236,
+	"date_start": "24-04-2024 17:00",
+	"date_end": "30-04-2024 17:00"
 }
 ]
