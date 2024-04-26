@@ -21,18 +21,18 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":20,
+    "Timp":40,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
     "Timp":30,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Info":"Intrare: 1 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"orange",
@@ -101,11 +101,11 @@
   },
   {
     "Denumire":"Jimbolia",
-    "Timp":30,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.75220459046048",
     "Longitude":"20.70119261476202",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -121,18 +121,18 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
+    "Timp":40,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de intrare in Romania.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 2.5km.",
+    "Timp":60,
+    "Info":"Intrare: 4 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri. Coloana in asteptare iesire 1.5km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":90,
+    "Timp":150,
     "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS pe sensul de iesire, numar foarte mare de automarfare prezentate la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
