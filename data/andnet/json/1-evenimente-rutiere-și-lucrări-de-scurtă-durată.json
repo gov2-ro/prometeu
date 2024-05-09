@@ -1,28 +1,28 @@
 [{
 	"NR. CRT.": "1.1",
 	"Indicativ drum": "A1",
-	"De la km": "269+200",
-	"Pana la km": "271+400",
-	"De la data": "2024-05-09 08:01:00",
-	"Pana la data": "2024-05-09 14:00:00",
-	"Intre localitatile": "SALISTE (SB) - SALISTE (SB)",
-	"Cauza": "Se executa lucrari de reparatii la partea carosabila. Banda 1 si Banda de Urgenta restrictionate, calea 2(sens Sebes--Sibiu)",
-	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 2.",
+	"De la km": "503+700",
+	"Pana la km": "504+400",
+	"De la data": "2024-05-09 09:30:00",
+	"Pana la data": "2024-05-09 16:00:00",
+	"Intre localitatile": "GIARMATA (TM) - GIARMATA (TM)",
+	"Cauza": "Pe calea 1 se executa marcaje rutiere",
+	"Masuri de remediere": "Circulatia se desfasoara ingreunat pe Banda 2, respectiv Banda 1 si Banda de Urgenta sunt restrictionate pana la ora 16:00.",
 	"viz_name": "A1",
-	"map_zoom": "['269', '200', '271', '400']"
+	"map_zoom": "['503', '700', '504', '400']"
 },
 {
 	"NR. CRT.": "1.2",
-	"Indicativ drum": "A2",
-	"De la km": "197+400",
-	"Pana la km": "197+600",
-	"De la data": "2024-05-09 07:00:00",
-	"Pana la data": "2024-05-09 13:00:00",
-	"Intre localitatile": "-",
-	"Cauza": "Se lucreaza la executie covor asfaltic.",
-	"Masuri de remediere": "Restrictii circulatie 09.05.2024 A2 C2 B1+Banda urgenta - Km 197+600 - 197+400 interval 07:00 - 13:00",
-	"viz_name": "A2",
-	"map_zoom": "['197', '400', '197', '600']"
+	"Indicativ drum": "A1",
+	"De la km": "523+500",
+	"Pana la km": "523+700",
+	"De la data": "2024-05-09 09:25:00",
+	"Pana la data": "2024-05-09 16:00:00",
+	"Intre localitatile": "SAGU (AR) - SAGU (AR)",
+	"Cauza": "Se executa lucrari de inlocuire parapeti mediani, calea 1.",
+	"Masuri de remediere": "Circulatia se desfasoara ingreunat pe Banda de Urgenta si pe Banda 1, respectiv Banda 2 este restrictionata pana la ora 16:00.",
+	"viz_name": "A1",
+	"map_zoom": "['523', '500', '523', '700']"
 },
 {
 	"NR. CRT.": "1.3",
@@ -40,18 +40,44 @@
 {
 	"NR. CRT.": "1.4",
 	"Indicativ drum": "A2",
-	"De la km": "142+000",
-	"Pana la km": "143+000",
-	"De la data": "2024-05-09 09:00:00",
-	"Pana la data": "2024-05-09 15:00:00",
+	"De la km": "12+100",
+	"Pana la km": "12+500",
+	"De la data": "2024-05-09 11:47:00",
+	"Pana la data": "2024-05-09 23:59:00",
 	"Intre localitatile": "-",
-	"Cauza": "Se executa montare panouri antiorbire",
-	"Masuri de remediere": "CIC Fetesti, executa lucrari pe autostrada A2, se monteaza panouri antiorbire  la km 142 - km 143, calea 1 banda numarul doi este inchisa circulatiei rutiere, traficul se desfasoara pe banda numarul unu cu limita de viteza la 60 km/h.",
+	"Cauza": "Refacere sistem rutier si asternere covor asfaltic. Banda 1 si banda de urgenta calea 2 (Constanta-Bucuresti) blocate.",
+	"Masuri de remediere": "Circulatia se desfasoara pe banda 2",
 	"viz_name": "A2",
-	"map_zoom": "['142', '0', '143', '0']"
+	"map_zoom": "['12', '100', '12', '500']"
 },
 {
 	"NR. CRT.": "1.5",
+	"Indicativ drum": "A3",
+	"De la km": "41+800",
+	"Pana la km": "41+800",
+	"De la data": "2024-05-09 10:01:00",
+	"Pana la data": "2024-05-09 16:00:00",
+	"Intre localitatile": "-",
+	"Cauza": "Lucrari de reparatie partea carosabila. Banda 1 calea 2 (Ploiesti-Bucuresti) blocata.",
+	"Masuri de remediere": "",
+	"viz_name": "A3",
+	"map_zoom": "['41', '800', '41', '800']"
+},
+{
+	"NR. CRT.": "1.6",
+	"Indicativ drum": "DN2B",
+	"De la km": "118+400",
+	"Pana la km": "119+000",
+	"De la data": "2024-05-09 17:00:00",
+	"Pana la data": "2024-05-09 21:00:00",
+	"Intre localitatile": "BALDOVINESTI (BR) - VADENI (BR)",
+	"Cauza": "Lucrari de reparatie partea carosabila.",
+	"Masuri de remediere": "Se circula alternativ pe un sens.Dirijare cu piloti de trafic.",
+	"viz_name": "DN2B",
+	"map_zoom": "['118', '400', '119', '0']"
+},
+{
+	"NR. CRT.": "1.7",
 	"Indicativ drum": "DN2S",
 	"De la km": "4+500",
 	"Pana la km": "5+100",
@@ -64,7 +90,20 @@
 	"map_zoom": "['4', '500', '5', '100']"
 },
 {
-	"NR. CRT.": "1.6",
+	"NR. CRT.": "1.8",
+	"Indicativ drum": "DN58",
+	"De la km": "15+900",
+	"Pana la km": "15+900",
+	"De la data": "2024-05-09 14:30:00",
+	"Pana la data": "2024-05-09 17:00:00",
+	"Intre localitatile": "BREBU NOU (CS) - BREBU NOU (CS)",
+	"Cauza": "Din cauza nerespectarii distantei regulamentare, o furgoneta a intrat intr-un camion. In urma acestui impact a rezultat ranirea grava a unei persoane si ingreunarea circulatiei rutier pe 1/2 din cale, partea dreapta afectata.",
+	"Masuri de remediere": "Circulatia rutiera se ve relua in conditii normale de trafic in jurul orei 17:00.",
+	"viz_name": "DN58",
+	"map_zoom": "['15', '900', '15', '900']"
+},
+{
+	"NR. CRT.": "1.9",
 	"Indicativ drum": "DN6",
 	"De la km": "312+000",
 	"Pana la km": "313+000",
@@ -77,20 +116,7 @@
 	"map_zoom": "['312', '0', '313', '0']"
 },
 {
-	"NR. CRT.": "1.7",
-	"Indicativ drum": "DN6",
-	"De la km": "414+820",
-	"Pana la km": "414+820",
-	"De la data": "2024-05-09 08:30:00",
-	"Pana la data": "2024-05-09 10:00:00",
-	"Intre localitatile": "DOMASNEA (CS) - DOMASNEA (CS)",
-	"Cauza": "Un autoturism a acrosat o platforma. Partea dreapta afectata, eroara umana,  carosabil umed, ploaie usoara, fara victime.",
-	"Masuri de remediere": "Circulatia se desfasoara ingreunat pe 1/2 din cale si dirijata de echipajul de politie pana aproximativ in jurul orei 10:00.",
-	"viz_name": "DN6",
-	"map_zoom": "['414', '820', '414', '820']"
-},
-{
-	"NR. CRT.": "1.8",
+	"NR. CRT.": "1.10",
 	"Indicativ drum": "DN67",
 	"De la km": "135+500",
 	"Pana la km": "151+000",
@@ -103,7 +129,7 @@
 	"map_zoom": "['135', '500', '151', '0']"
 },
 {
-	"NR. CRT.": "1.9",
+	"NR. CRT.": "1.11",
 	"Indicativ drum": "DN74A",
 	"De la km": "8+000",
 	"Pana la km": "8+050",
@@ -116,7 +142,7 @@
 	"map_zoom": "['8', '0', '8', '50']"
 },
 {
-	"NR. CRT.": "1.10",
+	"NR. CRT.": "1.12",
 	"Indicativ drum": "DN7A",
 	"De la km": "16+000",
 	"Pana la km": "20+000",
