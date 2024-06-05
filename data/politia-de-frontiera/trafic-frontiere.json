@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":200,
+    "Timp":300,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -21,21 +21,21 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
+    "Timp":60,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":50,
+    "Timp":100,
     "Info":"Intrare: 2 artere; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de intrare si iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":60,
+    "Timp":120,
     "Info":"4 artere  pe sensul de intrare si 5 artere pe sensul de iesire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -91,11 +91,11 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":80,
+    "Timp":40,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -121,7 +121,7 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":60,
+    "Timp":90,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":120,
-    "Info":"Intrare: 3 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare pe sensul de iesire  4 km.",
+    "Timp":150,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere. Trafic intens - numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare pe sensul de iesire  6 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":30,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera",
+    "Timp":160,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":30,
+    "Timp":70,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,18 +271,18 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":100,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Vârșand",
-    "Timp":150,
-    "Info":"intrare 2 artere, iesire 3 artere. Numar foarte mare de automarfare prezentate la iesirea din tara intr-un timp scurt.",
+    "Timp":60,
+    "Info":"intrare 2 artere, iesire 2 artere. Numar foarte mare de automarfare prezentate la iesirea din tara intr-un timp scurt.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
     "Status":"red",
