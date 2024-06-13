@@ -52,6 +52,19 @@
 },
 {
 	"NR. CRT.": "1.5",
+	"Indicativ drum": "A1",
+	"De la km": "254+000",
+	"Pana la km": "270+000",
+	"De la data": "2024-06-13 11:26:00",
+	"Pana la data": "2024-06-13 17:00:00",
+	"Intre localitatile": "SIBIU (SB) - SALISTE (SB)",
+	"Cauza": "Restrictie mobila pentru aplicare marcaje rutiere, calea 1 (sens Sibiu-Deva), banda de urgenta si banda 1 restrictionate.",
+	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 1.",
+	"viz_name": "A1",
+	"map_zoom": "['254', '0', '270', '0']"
+},
+{
+	"NR. CRT.": "1.6",
 	"Indicativ drum": "A2",
 	"De la km": "25+300",
 	"Pana la km": "25+300",
@@ -62,19 +75,6 @@
 	"Masuri de remediere": "",
 	"viz_name": "A2",
 	"map_zoom": "['25', '300', '25', '300']"
-},
-{
-	"NR. CRT.": "1.6",
-	"Indicativ drum": "A3Ms",
-	"De la km": "1+000",
-	"Pana la km": "1+100",
-	"De la data": "2024-06-13 08:30:00",
-	"Pana la data": "2024-06-13 12:00:00",
-	"Intre localitatile": "UNGHENI (MS) - TARGU MURES (MS)",
-	"Cauza": "Marcaje rutiere, calea 1 (sens Targu Mures-Ungheni), banda de urgenta si banda 1 restrictionate.",
-	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 1.",
-	"viz_name": "A3Ms",
-	"map_zoom": "['1', '0', '1', '100']"
 },
 {
 	"NR. CRT.": "1.7",
@@ -146,11 +146,11 @@
 	"Indicativ drum": "DN2S",
 	"De la km": "4+800",
 	"Pana la km": "5+200",
-	"De la data": "2024-06-12 07:00:00",
+	"De la data": "2024-06-13 09:50:00",
 	"Pana la data": "2024-06-14 19:00:00",
 	"Intre localitatile": "VADENI (BR) - VADENI (BR)",
 	"Cauza": "Frezare si asternere imbracaminte bituminoasa.",
-	"Masuri de remediere": "Trafic restrictionat, Calea 2, Banda 1, se circula pe banda 2.Semnalizare cu balize directionale + lampi de culoare galbena pe timpul noptii.",
+	"Masuri de remediere": "Trafic restrictionat, Calea 2, Banda 2, se circula pe banda 1.Semnalizare cu balize directionale + lampi de culoare galbena pe timpul noptii.",
 	"viz_name": "DN2S",
 	"map_zoom": "['4', '800', '5', '200']"
 },
