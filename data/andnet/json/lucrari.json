@@ -1,6 +1,19 @@
 [{
 	"NR. CRT.": "6.1",
 	"Indicativ drum": "A1",
+	"De la km": "425+915",
+	"Pana la km": "425+915",
+	"De la data": "2024-06-14 08:10:00",
+	"Pana la data": "2024-06-24 16:00:00",
+	"Intre localitatile": "MARGINA (TM) -",
+	"Tip lucrare": "Pe calea 2 se executa lucrari de reparatii rosturi de dilatatie.",
+	"Variante de ocolire": "Pe calea 2 se circula pe Banda 2. Banda 1 si Banda de Urgenta sunt restrictionate pana la finalizarea lucrarilor",
+	"viz_name": "A1",
+	"map_zoom": "['425', '915', '425', '915']"
+},
+{
+	"NR. CRT.": "6.2",
+	"Indicativ drum": "A1",
 	"De la km": "255+900",
 	"Pana la km": "256+000",
 	"De la data": "2024-06-13 09:38:00",
@@ -12,7 +25,7 @@
 	"map_zoom": "['255', '900', '256', '0']"
 },
 {
-	"NR. CRT.": "6.2",
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A1",
 	"De la km": "254+550",
 	"Pana la km": "254+650",
@@ -25,7 +38,7 @@
 	"map_zoom": "['254', '550', '254', '650']"
 },
 {
-	"NR. CRT.": "6.3",
+	"NR. CRT.": "6.4",
 	"Indicativ drum": "A1",
 	"De la km": "340+800",
 	"Pana la km": "340+800",
@@ -38,7 +51,7 @@
 	"map_zoom": "['340', '800', '340', '800']"
 },
 {
-	"NR. CRT.": "6.4",
+	"NR. CRT.": "6.5",
 	"Indicativ drum": "A1",
 	"De la km": "340+800",
 	"Pana la km": "340+800",
@@ -51,7 +64,7 @@
 	"map_zoom": "['340', '800', '340', '800']"
 },
 {
-	"NR. CRT.": "6.5",
+	"NR. CRT.": "6.6",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -64,7 +77,7 @@
 	"map_zoom": "['143', '125', '148', '315']"
 },
 {
-	"NR. CRT.": "6.6",
+	"NR. CRT.": "6.7",
 	"Indicativ drum": "DN10",
 	"De la km": "102+000",
 	"Pana la km": "120+760",
@@ -77,7 +90,7 @@
 	"map_zoom": "['102', '0', '120', '760']"
 },
 {
-	"NR. CRT.": "6.7",
+	"NR. CRT.": "6.8",
 	"Indicativ drum": "DN11C",
 	"De la km": "26+000",
 	"Pana la km": "35+435",
@@ -90,7 +103,20 @@
 	"map_zoom": "['26', '0', '35', '435']"
 },
 {
-	"NR. CRT.": "6.8",
+	"NR. CRT.": "6.9",
+	"Indicativ drum": "DN1A",
+	"De la km": "12+252",
+	"Pana la km": "64+400",
+	"De la data": "2024-06-15 08:00:00",
+	"Pana la data": "2024-12-31 23:59:00",
+	"Intre localitatile": "BUCURESTI (B) - PLOIESTI (PH)",
+	"Tip lucrare": "Realizarea lucrarilor de largire la 4 benzi.Restrictionarea traficului pe DN 1A , pe sectorul cuprims intre km 12+252 (Centura Bucuresti) - km 64+400 (Centura Ploiesti Vest), pentru autovehiculele cu MTMA mai mare de 7,5 tone. Lucrarea este semnalizata conform normelor metodologice in vigoare.",
+	"Variante de ocolire": "Rutele alternative, pentru relatia de deplasare Bucuresti - Ploiesti si retur:Traficul rutier va fi deviat pe DN CB (Centura Bucuresti)  - Autostrada A3 (Bucuresti - Ploiesti) - DN CPV (Centura Ploiesti Vest).",
+	"viz_name": "DN1A",
+	"map_zoom": "['12', '252', '64', '400']"
+},
+{
+	"NR. CRT.": "6.10",
 	"Indicativ drum": "DN22",
 	"De la km": "186+500",
 	"Pana la km": "227+500",
@@ -103,7 +129,7 @@
 	"map_zoom": "['186', '500', '227', '500']"
 },
 {
-	"NR. CRT.": "6.9",
+	"NR. CRT.": "6.11",
 	"Indicativ drum": "DN22B",
 	"De la km": "11+645",
 	"Pana la km": "13+460",
@@ -116,20 +142,7 @@
 	"map_zoom": "['11', '645', '13', '460']"
 },
 {
-	"NR. CRT.": "6.10",
-	"Indicativ drum": "DN24",
-	"De la km": "23+450",
-	"Pana la km": "51+000",
-	"De la data": "2024-05-17 14:59:00",
-	"Pana la data": "2024-12-31 23:59:00",
-	"Intre localitatile": "TECUCI (GL) - PRIPONESTI (GL)",
-	"Tip lucrare": "Intretinere poduri, pasaje, podete, tuneluri intretinere ziduri de sprijin si prevenirea efectelor inundatiilor.",
-	"Variante de ocolire": "Ciculatia se va desfasura 1/2 cale, alternativ. Dirijarea se va realiza cu piloti de circulatie dotati cu palete de semnalizare cu fete duble rosu-verde, statii de emisie-receptie si echipament de protectie de culoare portocalie.",
-	"viz_name": "DN24",
-	"map_zoom": "['23', '450', '51', '0']"
-},
-{
-	"NR. CRT.": "6.11",
+	"NR. CRT.": "6.12",
 	"Indicativ drum": "DN24",
 	"De la km": "6+700",
 	"Pana la km": "17+000",
@@ -142,7 +155,20 @@
 	"map_zoom": "['6', '700', '17', '0']"
 },
 {
-	"NR. CRT.": "6.12",
+	"NR. CRT.": "6.13",
+	"Indicativ drum": "DN24",
+	"De la km": "23+450",
+	"Pana la km": "51+000",
+	"De la data": "2024-05-17 14:59:00",
+	"Pana la data": "2024-12-31 23:59:00",
+	"Intre localitatile": "TECUCI (GL) - PRIPONESTI (GL)",
+	"Tip lucrare": "Intretinere poduri, pasaje, podete, tuneluri intretinere ziduri de sprijin si prevenirea efectelor inundatiilor.",
+	"Variante de ocolire": "Ciculatia se va desfasura 1/2 cale, alternativ. Dirijarea se va realiza cu piloti de circulatie dotati cu palete de semnalizare cu fete duble rosu-verde, statii de emisie-receptie si echipament de protectie de culoare portocalie.",
+	"viz_name": "DN24",
+	"map_zoom": "['23', '450', '51', '0']"
+},
+{
+	"NR. CRT.": "6.14",
 	"Indicativ drum": "DN24D",
 	"De la km": "9+140",
 	"Pana la km": "84+911",
@@ -155,7 +181,7 @@
 	"map_zoom": "['9', '140', '84', '911']"
 },
 {
-	"NR. CRT.": "6.13",
+	"NR. CRT.": "6.15",
 	"Indicativ drum": "DN25",
 	"De la km": "48+028",
 	"Pana la km": "48+028",
@@ -168,7 +194,7 @@
 	"map_zoom": "['48', '28', '48', '28']"
 },
 {
-	"NR. CRT.": "6.14",
+	"NR. CRT.": "6.16",
 	"Indicativ drum": "DN25",
 	"De la km": "3+920",
 	"Pana la km": "68+197",
@@ -181,7 +207,7 @@
 	"map_zoom": "['3', '920', '68', '197']"
 },
 {
-	"NR. CRT.": "6.15",
+	"NR. CRT.": "6.17",
 	"Indicativ drum": "DN25A",
 	"De la km": "0+000",
 	"Pana la km": "7+340",
@@ -194,7 +220,7 @@
 	"map_zoom": "['0', '0', '7', '340']"
 },
 {
-	"NR. CRT.": "6.16",
+	"NR. CRT.": "6.18",
 	"Indicativ drum": "DN26",
 	"De la km": "4+910",
 	"Pana la km": "81+138",
@@ -207,7 +233,7 @@
 	"map_zoom": "['4', '910', '81', '138']"
 },
 {
-	"NR. CRT.": "6.17",
+	"NR. CRT.": "6.19",
 	"Indicativ drum": "DN26A",
 	"De la km": "0+000",
 	"Pana la km": "0+575",
@@ -220,7 +246,7 @@
 	"map_zoom": "['0', '0', '0', '575']"
 },
 {
-	"NR. CRT.": "6.18",
+	"NR. CRT.": "6.20",
 	"Indicativ drum": "DN28B",
 	"De la km": "0+000",
 	"Pana la km": "76+758",
@@ -233,7 +259,7 @@
 	"map_zoom": "['0', '0', '76', '758']"
 },
 {
-	"NR. CRT.": "6.19",
+	"NR. CRT.": "6.21",
 	"Indicativ drum": "DN2A",
 	"De la km": "113+754",
 	"Pana la km": "113+754",
@@ -246,20 +272,7 @@
 	"map_zoom": "['113', '754', '113', '754']"
 },
 {
-	"NR. CRT.": "6.20",
-	"Indicativ drum": "DN2B",
-	"De la km": "125+571",
-	"Pana la km": "127+101",
-	"De la data": "2024-05-17 14:53:00",
-	"Pana la data": "2024-12-31 23:59:00",
-	"Intre localitatile": "SENDRENI (GL) - SENDRENI (GL)",
-	"Tip lucrare": "Intretinere poduri, pasaje, podete, tuneluri intretinere ziduri de sprijin si prevenirea efectelor inundatiilor.",
-	"Variante de ocolire": "Ciculatia se va desfasura 1/2 cale, alternativ. Dirijarea se va realiza cu piloti de circulatie dotati cu palete de semnalizare cu fete duble rosu-verde, statii de emisie-receptie si echipament de protectie de culoare portocalie.",
-	"viz_name": "DN2B",
-	"map_zoom": "['125', '571', '127', '101']"
-},
-{
-	"NR. CRT.": "6.21",
+	"NR. CRT.": "6.22",
 	"Indicativ drum": "DN2B",
 	"De la km": "141+700",
 	"Pana la km": "149+966",
@@ -272,7 +285,20 @@
 	"map_zoom": "['141', '700', '149', '966']"
 },
 {
-	"NR. CRT.": "6.22",
+	"NR. CRT.": "6.23",
+	"Indicativ drum": "DN2B",
+	"De la km": "125+571",
+	"Pana la km": "127+101",
+	"De la data": "2024-05-17 14:53:00",
+	"Pana la data": "2024-12-31 23:59:00",
+	"Intre localitatile": "SENDRENI (GL) - SENDRENI (GL)",
+	"Tip lucrare": "Intretinere poduri, pasaje, podete, tuneluri intretinere ziduri de sprijin si prevenirea efectelor inundatiilor.",
+	"Variante de ocolire": "Ciculatia se va desfasura 1/2 cale, alternativ. Dirijarea se va realiza cu piloti de circulatie dotati cu palete de semnalizare cu fete duble rosu-verde, statii de emisie-receptie si echipament de protectie de culoare portocalie.",
+	"viz_name": "DN2B",
+	"map_zoom": "['125', '571', '127', '101']"
+},
+{
+	"NR. CRT.": "6.24",
 	"Indicativ drum": "DN39",
 	"De la km": "26+793",
 	"Pana la km": "27+116",
@@ -285,7 +311,7 @@
 	"map_zoom": "['26', '793', '27', '116']"
 },
 {
-	"NR. CRT.": "6.23",
+	"NR. CRT.": "6.25",
 	"Indicativ drum": "DN3A",
 	"De la km": "0+000",
 	"Pana la km": "1+000",
@@ -298,7 +324,7 @@
 	"map_zoom": "['0', '0', '1', '0']"
 },
 {
-	"NR. CRT.": "6.24",
+	"NR. CRT.": "6.26",
 	"Indicativ drum": "DN52",
 	"De la km": "1+350",
 	"Pana la km": "52+650",
@@ -311,7 +337,7 @@
 	"map_zoom": "['1', '350', '52', '650']"
 },
 {
-	"NR. CRT.": "6.25",
+	"NR. CRT.": "6.27",
 	"Indicativ drum": "DN57",
 	"De la km": "62+000",
 	"Pana la km": "65+800",
@@ -324,7 +350,7 @@
 	"map_zoom": "['62', '0', '65', '800']"
 },
 {
-	"NR. CRT.": "6.26",
+	"NR. CRT.": "6.28",
 	"Indicativ drum": "DN65F",
 	"De la km": "4+000",
 	"Pana la km": "4+000",
@@ -337,7 +363,7 @@
 	"map_zoom": "['4', '0', '4', '0']"
 },
 {
-	"NR. CRT.": "6.27",
+	"NR. CRT.": "6.29",
 	"Indicativ drum": "DN67",
 	"De la km": "39+200",
 	"Pana la km": "52+850",
@@ -350,7 +376,7 @@
 	"map_zoom": "['39', '200', '52', '850']"
 },
 {
-	"NR. CRT.": "6.28",
+	"NR. CRT.": "6.30",
 	"Indicativ drum": "DN67B",
 	"De la km": "4+000",
 	"Pana la km": "13+000",
@@ -363,7 +389,7 @@
 	"map_zoom": "['4', '0', '13', '0']"
 },
 {
-	"NR. CRT.": "6.29",
+	"NR. CRT.": "6.31",
 	"Indicativ drum": "DN67B",
 	"De la km": "8+680",
 	"Pana la km": "9+140",
@@ -376,7 +402,7 @@
 	"map_zoom": "['8', '680', '9', '140']"
 },
 {
-	"NR. CRT.": "6.30",
+	"NR. CRT.": "6.32",
 	"Indicativ drum": "DN6B",
 	"De la km": "43+000",
 	"Pana la km": "45+000",
@@ -389,7 +415,7 @@
 	"map_zoom": "['43', '0', '45', '0']"
 },
 {
-	"NR. CRT.": "6.31",
+	"NR. CRT.": "6.33",
 	"Indicativ drum": "DN73",
 	"De la km": "92+500",
 	"Pana la km": "93+000",
@@ -402,7 +428,7 @@
 	"map_zoom": "['92', '500', '93', '0']"
 },
 {
-	"NR. CRT.": "6.32",
+	"NR. CRT.": "6.34",
 	"Indicativ drum": "DN73",
 	"De la km": "94+900",
 	"Pana la km": "95+400",
@@ -415,7 +441,7 @@
 	"map_zoom": "['94', '900', '95', '400']"
 },
 {
-	"NR. CRT.": "6.33",
+	"NR. CRT.": "6.35",
 	"Indicativ drum": "DN73",
 	"De la km": "98+000",
 	"Pana la km": "98+500",
@@ -428,7 +454,7 @@
 	"map_zoom": "['98', '0', '98', '500']"
 },
 {
-	"NR. CRT.": "6.34",
+	"NR. CRT.": "6.36",
 	"Indicativ drum": "VO_TEC",
 	"De la km": "0+000",
 	"Pana la km": "5+020",
