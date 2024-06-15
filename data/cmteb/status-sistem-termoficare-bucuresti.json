@@ -769,7 +769,7 @@
         "culoare": "#ffe53e",
         "denumire": "SC 3/3",
         "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
+        "remediere": "15.06.2024 08:00",
         "status": "deficiente",
         "Lat": 44.425688835247,
         "Long": 26.031213842144
@@ -905,7 +905,7 @@
         "culoare": "#ffe53e",
         "denumire": "SC 6/2",
         "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
+        "remediere": "15.06.2024 08:00",
         "status": "deficiente",
         "Lat": 44.42692565918,
         "Long": 26.036109
@@ -1095,7 +1095,7 @@
         "culoare": "#ffe53e",
         "denumire": "SC 7/2",
         "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
+        "remediere": "15.06.2024 08:00",
         "status": "deficiente",
         "Lat": 44.427387237549,
         "Long": 26.041791
@@ -1474,7 +1474,7 @@
         "culoare": "#ffe53e",
         "denumire": "PLAVAT",
         "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
+        "remediere": "15.06.2024 08:00",
         "status": "deficiente",
         "Lat": 44.44942855835,
         "Long": 26.049877
@@ -3077,7 +3077,7 @@
         "culoare": "#ffe53e",
         "denumire": "SC 1/2",
         "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
+        "remediere": "15.06.2024 08:00",
         "status": "deficiente",
         "Lat": 44.443283081055,
         "Long": 26.070346
@@ -3624,11 +3624,12 @@
         "Long": 26.078203
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+        "culoare": "#e0002b",
         "denumire": "9 Titulescu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "15.06.2024 07:00",
+        "status": "avarii",
         "Lat": 44.452477,
         "Long": 26.078511
     },
@@ -3922,32 +3923,29 @@
         "Long": 26.089796
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "9 Farado",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.385945117558,
         "Long": 26.089946635982
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Farado",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.38686381063,
         "Long": 26.090820702892
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Giurgiu Farado",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.385540131115,
         "Long": 26.091000978619
     },
@@ -4006,12 +4004,11 @@
         "Long": 26.092184
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Giurgiu",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3925916653,
         "Long": 26.092301441168
     },
@@ -4169,12 +4166,11 @@
         "Long": 26.0953565
     },
     {
-        "stare": "Lipsa parametrii pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Almașul Mare",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.383011080574,
         "Long": 26.095455589788
     },
@@ -4188,12 +4184,11 @@
         "Long": 26.095541252097
     },
     {
-        "stare": "Lipsa parametrii pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Spinis",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3848738,
         "Long": 26.0955769
     },
@@ -4225,12 +4220,11 @@
         "Long": 26.096243
     },
     {
-        "stare": "Lipsa parametrii pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Giurgiu",
-        "tip": "Deficienta ACC",
-        "remediere": "14.06.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.39508619812,
         "Long": 26.096327333861
     },
@@ -6648,12 +6642,11 @@
         "Long": 26.136336299463
     },
     {
-        "stare": "Oprit retea primara pentru lucrari de modernizare  POIM LOT 1 Obiectiv 1",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "16 Răcari",
-        "tip": "Oprire ACC",
-        "remediere": "14.06.2024 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.413274470197,
         "Long": 26.136792235983
     },
@@ -6712,12 +6705,11 @@
         "Long": 26.137619798786
     },
     {
-        "stare": "Oprit retea primara pentru lucrari de modernizare  POIM LOT 1 Obiectiv 1",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "17 Răcari",
-        "tip": "Oprire ACC",
-        "remediere": "14.06.2024 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.414470607495,
         "Long": 26.137660175601
     },
