@@ -29,8 +29,8 @@
 	"Indicativ drum": "DN2S",
 	"De la km": "3+100",
 	"Pana la km": "3+300",
-	"De la data": "2024-06-17 19:00:00",
-	"Pana la data": "2024-06-25 19:00:00",
+	"De la data": "2024-06-25 19:00:00",
+	"Pana la data": "2024-06-28 19:00:00",
 	"Intre localitatile": "VADENI (BR) - VADENI (BR)",
 	"Cauza": "Lucrari de frezare si asternere imbracaminte bituminoasa.",
 	"Masuri de remediere": "Trafic restrictionat,calea 1, banda 2, se circula pe banda 1.Semnalizare cu balize directionale + lampi de culoare galbena intermitenta pe timpul noptii.",
@@ -55,29 +55,16 @@
 	"Indicativ drum": "DN2S",
 	"De la km": "3+100",
 	"Pana la km": "3+300",
-	"De la data": "2024-06-21 19:00:00",
-	"Pana la data": "2024-06-25 19:00:00",
+	"De la data": "2024-06-25 08:30:00",
+	"Pana la data": "2024-06-28 19:00:00",
 	"Intre localitatile": "VADENI (BR) - VADENI (BR)",
 	"Cauza": "Frezare si asternere imbracaminte bituminoasa.",
-	"Masuri de remediere": "Trafic restrictionat,calea 2, banda 1,se circula pe banda 2.Semnalizare cu balize directionale + lampi de culoare galbena intermitenta pe timpul noptii.",
+	"Masuri de remediere": "Trafic restrictionat,calea 2, banda 2,se circula pe banda 1.Semnalizare cu balize directionale + lampi de culoare galbena intermitenta pe timpul noptii.",
 	"viz_name": "DN2S",
 	"map_zoom": "['3', '100', '3', '300']"
 },
 {
 	"NR. CRT.": "1.6",
-	"Indicativ drum": "DN7",
-	"De la km": "208+000",
-	"Pana la km": "214+000",
-	"De la data": "2024-06-25 08:00:00",
-	"Pana la data": "2024-06-25 18:00:00",
-	"Intre localitatile": "BREZOI (VL) - CALINESTI (VL)",
-	"Cauza": "Se lucreaza la aplicare marcaje rutiere.",
-	"Masuri de remediere": "Circulatia rutiera se desfasoara ingreunat pe ambele sensuri de mers in zona utilajului de aplicat marcaje.",
-	"viz_name": "DN7",
-	"map_zoom": "['208', '0', '214', '0']"
-},
-{
-	"NR. CRT.": "1.7",
 	"Indicativ drum": "DN7",
 	"De la km": "208+000",
 	"Pana la km": "208+200",
@@ -90,7 +77,7 @@
 	"map_zoom": "['208', '0', '208', '200']"
 },
 {
-	"NR. CRT.": "1.8",
+	"NR. CRT.": "1.7",
 	"Indicativ drum": "DN7",
 	"De la km": "214+000",
 	"Pana la km": "225+000",
@@ -101,5 +88,44 @@
 	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de pilotidecirculatie.",
 	"viz_name": "DN7",
 	"map_zoom": "['214', '0', '225', '0']"
+},
+{
+	"NR. CRT.": "1.8",
+	"Indicativ drum": "DN7",
+	"De la km": "158+455",
+	"Pana la km": "158+495",
+	"De la data": "2024-06-26 07:30:00",
+	"Pana la data": "2024-06-28 12:00:00",
+	"Intre localitatile": "MILCOIU (VL) -",
+	"Cauza": "Se lucreaza la reparatii podet pentru asigurare scurgere ape si refacere sistem rutier .",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale , dirijata prin semafoare si piloti de circulatie , intre orele 07:30 - 20:00 .",
+	"viz_name": "DN7",
+	"map_zoom": "['158', '455', '158', '495']"
+},
+{
+	"NR. CRT.": "1.9",
+	"Indicativ drum": "DN7A",
+	"De la km": "25+000",
+	"Pana la km": "30+700",
+	"De la data": "2024-06-26 08:00:00",
+	"Pana la data": "2024-06-26 16:00:00",
+	"Intre localitatile": "MALAIA (VL) -",
+	"Cauza": "Se lucreaza la taiere vegetatie pentru asigurare vizibilitate .",
+	"Masuri de remediere": "Circulatia rutiera se inchide/deschide in reprize de max. 20 minute , dirijata de piloti de circulatie .",
+	"viz_name": "DN7A",
+	"map_zoom": "['25', '0', '30', '700']"
+},
+{
+	"NR. CRT.": "1.10",
+	"Indicativ drum": "DN7A",
+	"De la km": "65+000",
+	"Pana la km": "69+000",
+	"De la data": "2024-06-26 08:00:00",
+	"Pana la data": "2024-06-26 18:00:00",
+	"Intre localitatile": "VOINEASA (VL) - VIDRA (VL)",
+	"Cauza": "Se lucreaza la taierea arborilor periculosi pentru siguranta circulatiei .",
+	"Masuri de remediere": "Circulatia rutiera se inchide/deschide in reprize de max. 20 minute , dirijata de piloti de circulatie .",
+	"viz_name": "DN7A",
+	"map_zoom": "['65', '0', '69', '0']"
 }
 ]
