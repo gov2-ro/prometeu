@@ -1,4 +1,22 @@
 [{
+	"coords": "[0, 0]",
+	"culoare": 4,
+	"raza": 7,
+	"categorie": 2.0,
+	"name": "Circulatie restrictionata sau intrerupta din cauza conditiilor meteo  22J",
+	"Judet": ";",
+	"UAT": ";",
+	"Km": "0+000 - 4+365",
+	"Cauza": "Temperaturi extreme cu maxime cuprinse intre 37 - 41 grade Celsius. ( cod ROSU pentru Moldova conform Avertizarii Meteorologice emise de ANM).\nIn scopul prevenirii aparitiei degradarilor provocate de circulatia traficului greu, se vor impune restrictii de tonaj pentru M.T.M.A > 7.5 tone.",
+	"Masuri de remediere si variante de ocolire": "Se vor institui restrictii de tonaj pentru M.T.M.A > 7.5 tone, cu exceptia :\n\ntransporturilor de persoane\ntransporturilor de animale vii si de produse perisabile de origine animala si vegetala:\nvehicule care participi la interventii in caz de forta majora\ntransporturi funerare\ntran...\n<cite>*Pentru descrierea completa consultati sectiunea drumuri.</cite>",
+	"lat": 0,
+	"long": 0,
+	"date_start": "13-07-2024 10:00",
+	"date_end": "13-07-2024 20:00",
+	"km_start": "0+000",
+	"km_end": "4+365"
+},
+{
 	"coords": "[24.45856695, 45.05192312]",
 	"culoare": 0,
 	"raza": 7,
@@ -434,39 +452,6 @@
 	"date_end": "25-07-2024 17:00"
 },
 {
-	"coords": "[24.64177017, 45.36638201]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 1.1,
-	"name": "Lucrari de scurta durata  DN7C",
-	"Judet": "AG;",
-	"UAT": "Arefu;",
-	"Localitati": "AREFU (AG) -",
-	"Km": "63+050",
-	"Cauza": "Se executa lucrari de largire a drumului si consolidare a versantului. Circulatia este afectata.",
-	"lat": 24.64177017,
-	"long": 45.36638201,
-	"date_start": "09-07-2024 13:35",
-	"date_end": "12-07-2024 16:00"
-},
-{
-	"coords": "[25.37605754, 45.76465702]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 6.0,
-	"name": "Lucrari  DN1",
-	"Judet": "BV;",
-	"UAT": "Dumbrăvița;",
-	"Localitati": "VLADENI (BV) - VLADENI (BV)",
-	"Km": "194+573",
-	"Tip Lucrari": "Lucrari de reparatii la pajajul cf",
-	"Variante de ocolire": "Trafic dirijat cu semafor",
-	"lat": 25.37605754,
-	"long": 45.76465702,
-	"date_start": "08-07-2024 08:00",
-	"date_end": "12-07-2024 16:00"
-},
-{
 	"coords": "[21.31783116, 46.07428753]",
 	"culoare": 2,
 	"raza": 7,
@@ -500,18 +485,20 @@
 	"date_end": "14-07-2024 20:00"
 },
 {
-	"coords": "[25.29777889, 44.67129694]",
+	"coords": "[27.9106134, 45.3221558]",
 	"culoare": 1,
 	"raza": 10,
 	"categorie": 1.0,
-	"name": "Eveniment rutier  A1",
-	"Judet": "DB;",
-	"UAT": "Petrești;",
-	"Km": "74+000",
-	"Cauza": "Va informam ca a avut loc un eveniment rutier in care un TIR a intrat intr-o dubita stationata pe banda de urgenta. In urma evenimentului 3 prsoane au decedat si 3 persoane au fost ranite. Circulatia pe calea 1 se desfasoara pe banda 2.",
-	"lat": 25.29777889,
-	"long": 44.67129694,
-	"date_start": "12-07-2024 14:53",
-	"date_end": "12-07-2024 17:00"
+	"name": "Eveniment rutier  DN2B",
+	"Judet": "BR;",
+	"UAT": "Vădeni;",
+	"Localitati": "BALDOVINESTI (BR) - BALDOVINESTI (BR)",
+	"Km": "113+300",
+	"Cauza": "Accident rutier in care au fost implicate un Tir si o autocisterna. In urma impactului au rezultat doua victime evaluate medical la acest moment. Cisterna este incarcata cu propan. Circulatia este blocata. Eroare umana. Carosabil uscat si curat.",
+	"Masuri de remediere": "La fata locului echipaje ale Politiei, Ambulanta si Sdn Braila. Se intervine cu 5 autospeciale.\nRuta ocolitoare prin Loc. Vadeni",
+	"lat": 27.9106134,
+	"long": 45.3221558,
+	"date_start": "12-07-2024 17:23",
+	"date_end": "12-07-2024 21:30"
 }
 ]
