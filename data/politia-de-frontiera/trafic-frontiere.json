@@ -41,11 +41,11 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":20,
+    "Timp":40,
     "Info":"intrare 4 artere, iesire 3 artere - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":90,
     "Info":"3 artere pe sensul de intrare si 5 artere pe sensul de iesire.Lucrari de reparatie a podului pe partea BG.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat. Recomandam utilizarea tuturor Pct. de Trecere a Frontierei cu B",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -121,18 +121,18 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":70,
+    "Timp":40,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":120,
-    "Info":"Intrare:2 artere; Iesire: 3 artere. Numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de iesire. Coloana in asteptare iesire 3 km.",
+    "Timp":90,
+    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 2 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -151,7 +151,7 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":70,
+    "Timp":100,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
@@ -172,7 +172,7 @@
   {
     "Denumire":"Ostrov",
     "Timp":10,
-    "Info":"Intrare 1 artera, iesire 1 artera",
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"44.117674235583145",
     "Longitude":"27.276005741787117",
     "Status":"green",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,7 +271,7 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":30,
+    "Timp":40,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
