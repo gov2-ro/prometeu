@@ -21,31 +21,31 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":30,
+    "Timp":60,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; disfunctionalitati ale sistemului informatic al autoritatilor maghiare",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":40,
+    "Timp":20,
     "Info":"intrare 4 artere, iesire 3 artere - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":50,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":40,
     "Info":"4 artere pe sensul de intrare si 5 artere pe sensul de iesire.Lucrari de reparatie a podului pe partea BG.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat. Recomandam utilizarea tuturor Pct. de Trecere a Frontierei cu Bu",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare 4 km pe sensul de iesire .",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare 2 km pe sensul de iesire .",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":120,
-    "Info":"Intrare: 1 arteră; Iesire: 1 arteră.TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control pe sensul de iesire",
+    "Timp":30,
+    "Info":"Intrare: 1 arteră; Iesire: 1 arteră.TRAFIC INTRERUPT -  baza de date a autoritatilor maghiare nu functioneaza.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
