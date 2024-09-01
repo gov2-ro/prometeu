@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":300,
+    "Timp":250,
     "Info":"Numar mare de mijloace de transport prezentate la control - trafic intens.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":140,
+    "Timp":60,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":50,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
+    "Timp":10,
+    "Info":"Intrare: 1 artere; Iesire: 1 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":80,
+    "Timp":40,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
