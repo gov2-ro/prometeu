@@ -142,7 +142,7 @@
   {
     "Denumire":"Borș II",
     "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere,numar foarte mare de automarfare prezentate pe sensul de iesire din tara",
+    "Info":"Intrare: 1 artera; Iesire: 3 artere,numar foarte mare de automarfare prezentate pe sensul de iesire din tara",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"red",
@@ -152,7 +152,7 @@
   {
     "Denumire":"Borș II",
     "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere,numar foarte mare de automarfare prezentate pe sensul de iesire din tara",
+    "Info":"Intrare: 1 artera; Iesire: 3 artere,numar foarte mare de automarfare prezentate pe sensul de iesire din tara",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"orange",
@@ -191,17 +191,17 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":30,
+    "Timp":20,
     "Info":"intrare 2 artere, iesire 1 artera; trafic intens de mijloace auto si persoane",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Calafat",
-    "Timp":150,
+    "Timp":90,
     "Info":"intrare 4 artere, iesire 4 artere - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -771,11 +771,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 2 artera; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -881,8 +881,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":150,
-    "Info":"Intrare: 1 arteră; Iesire: 2 artere. Trafic intens, număr foarte mare de camioane prezente la control.",
+    "Timp":120,
+    "Info":"Intrare: 1 arteră; Iesire: 1 artera. Trafic intens, număr foarte mare de camioane prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -892,7 +892,7 @@
   {
     "Denumire":"Petea",
     "Timp":10,
-    "Info":"Intrare: 1 arteră; Iesire: 2 artere. Trafic intens, număr foarte mare de camioane prezente la control.",
+    "Info":"Intrare: 1 arteră; Iesire: 1 artera. Trafic intens, număr foarte mare de camioane prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
@@ -1281,18 +1281,18 @@
   },
   {
     "Denumire":"Urziceni",
-    "Timp":30,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
     "Latitude":"47.743226632105745",
     "Longitude":"22.394771580926204",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Urziceni",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
     "Latitude":"47.743226632105745",
     "Longitude":"22.394771580926204",
     "Status":"green",
@@ -1441,7 +1441,7 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":110,
+    "Timp":120,
     "Info":"intrare 2 artere, iesire 3 artere. Numar mare de automarfare care se prezinta la iesirea din tara intr-un timp scurt.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
