@@ -21,7 +21,7 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
+    "Timp":50,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
@@ -31,11 +31,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere,numar foarte mare de automarfare prezentate pe sensul de iesire din tara",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":260,
+    "Timp":180,
     "Info":"3 artere pe sensul de intrare si 5 artere pe sensul de iesire.Lucrari de reparatie a podului pe partea BG.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -121,8 +121,8 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de iesire.",
+    "Timp":30,
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"orange",
@@ -151,7 +151,7 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":100,
+    "Timp":180,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
+    "Timp":120,
     "Info":"Intrare: 1 arteră; Iesire: 1 arteră. Trafic intens, număr foarte mare de camioane prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -231,11 +231,11 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
-    "Info":"",
+    "Timp":50,
+    "Info":"Lucrari de mentenanta la barajul Stanca-Costesti.",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,18 +271,18 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
+    "Timp":40,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Vârșand",
-    "Timp":120,
-    "Info":"intrare 2 artere, iesire 2 artere. Numar mare de automarfare care se prezinta la iesirea din tara intr-un timp scurt.",
+    "Timp":150,
+    "Info":"intrare 2 artere, iesire 3 artere. Numar foarte mare de automarfare care se prezinta la iesirea din tara intr-un timp scurt.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
     "Status":"red",
