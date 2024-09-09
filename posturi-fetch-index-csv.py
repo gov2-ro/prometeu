@@ -1,8 +1,8 @@
 output_csv = "data/posturi/posturi_gov_ro.csv"
+fieldnames = ['angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip']
 
 
-import requests
-import csv
+import requests, csv, random, time
 from bs4 import BeautifulSoup
 
 def load_existing_data():
@@ -15,7 +15,11 @@ def load_existing_data():
     except FileNotFoundError:
         return []
 
-# Function to load the latest jobs from the CSV file
+def write_header():
+    with open(output_csv, "w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+
 def load_latest_jobs():
     try:
         latest_jobs = []
@@ -28,10 +32,49 @@ def load_latest_jobs():
     except FileNotFoundError:
         return []
 
+def get_total_pages(base_url):
+    url = base_url + "/page/1/"
+    response = requests.get(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Referer': base_url,
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Cache-Control': 'max-age=0',
+        'TE': 'Trailers'
+    })
+    soup = BeautifulSoup(response.content, 'html.parser')
 
-# Function to scrape data from a single page and append it to a CSV file
+    pagination_div = soup.select_one('div.ast-pagination')
+    if pagination_div:
+        next_link = pagination_div.find('a', class_='next page-numbers')
+        if next_link:
+            last_page_link = next_link.find_previous_sibling('a')
+            if last_page_link and last_page_link.text.strip().isdigit():
+                max_pages = int(last_page_link.text.strip())
+            else:
+                max_pages = 1  # Fallback if we can't find a valid last page link
+        else:
+            max_pages = 1  # Fallback if we can't find the next link
+    else:
+        max_pages = 1  # Fallback if we can't find the pagination div
+
+    return max_pages
+
 def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
-    response = requests.get(url)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+        'Referer': 'http://posturi.gov.ro',  # Set the referrer to the base URL
+        'Connection': 'keep-alive',
+        'Upgrade-Insecure-Requests': '1',
+        'Cache-Control': 'max-age=0',
+        'TE': 'Trailers'
+    }
+    response = requests.get(url, headers=headers)
+
     soup = BeautifulSoup(response.content, 'html.parser')
     
     job_list = []
@@ -80,7 +123,6 @@ def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
     
     return job_list
 
-# Function to scrape and paginate through all pages
 def scrape_all_pages(base_url, max_pages):
     existing_data = load_existing_data()
     latest_jobs = load_latest_jobs()
@@ -89,11 +131,16 @@ def scrape_all_pages(base_url, max_pages):
         url = f"{base_url}/page/{page_number}/"
         print(f"Scraping page {page_number}...")
         jobs = scrape_and_save_page(url, page_number, existing_data, latest_jobs)
+        sleep_time = random.uniform(0.5, 1.1)  # Random sleep time between 2 and 5 seconds
+        time.sleep(sleep_time)
+
     
-    print("Scraping complete. Data appended incrementally to the same CSV file.")
+    print("Scraping complete. Data appended incrementally to " + output_csv)
 
 if __name__ == "__main__":
     base_url = "http://posturi.gov.ro"
-    max_pages = 47
+    max_pages = get_total_pages (base_url)
+    # write_header()
+
     
     scrape_all_pages(base_url, max_pages)
