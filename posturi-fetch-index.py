@@ -1,36 +1,32 @@
-output_csv = "data/posturi/posturi_gov_ro.csv"
-fieldnames = ['pozitie', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip']
-
-
-import requests, csv, random, time, os
+import requests
+import csv
+import random
+import time
+import os
 from bs4 import BeautifulSoup
+from datetime import datetime
+
+output_csv = "data/posturi/posturi_gov_ro.csv"
+fieldnames = ['pozitie', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip', 'updates']
 
 def load_existing_data():
     try:
-        existing_data = []
-        with open(output_csv, "r", newline="", encoding="utf-8") as csv_file:
-            reader = csv.DictReader(csv_file)
-            existing_data = list(reader)
-        return existing_data
-    except FileNotFoundError:
-        return []
-
-def save_data(jobs):
-    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writerows(jobs)
-
-def load_latest_jobs():
-    try:
-        latest_jobs = []
+        existing_data = {}
         with open(output_csv, "r", newline="", encoding="utf-8") as csv_file:
             reader = csv.DictReader(csv_file)
             for row in reader:
-                if 'link_url' in row and 'publicat' in row:
-                    latest_jobs.append(f"{row['link_url']}+{row['publicat']}")
-        return latest_jobs
+                existing_data[row['url']] = row
+        return existing_data
     except FileNotFoundError:
-        return []
+        return {}
+
+def save_data(jobs):
+    with open(output_csv, "w", newline="", encoding="utf-8") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer.writeheader()
+        for job in jobs.values():
+            writer.writerow(job)
+    print(f"Data saved to {output_csv}")
 
 def write_header():
     if not os.path.exists(output_csv) or os.stat(output_csv).st_size == 0:
@@ -68,84 +64,96 @@ def get_total_pages(base_url):
 
     return max_pages
 
-def scrape_and_save_page(url, page_number, existing_data, latest_jobs):
+
+def compare_and_update(existing_job, new_job):
+    updates = []
+    for key in new_job:
+        if key != 'updates' and key in existing_job and existing_job[key] != new_job[key]:
+            updates.append(key)
+    
+    if updates:
+        update_info = f"{datetime.now().strftime('%Y-%m-%d')}: {', '.join(updates)}"
+        if existing_job.get('updates'):
+            existing_job['updates'] += f"; {update_info}"
+        else:
+            existing_job['updates'] = update_info
+        
+        for key in updates:
+            existing_job[key] = new_job[key]
+        return existing_job, True
+    else:
+        return existing_job, False
+
+def scrape_and_save_page(url, page_number, existing_data):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Language': 'en-US,en;q=0.5',
-        'Referer': 'http://posturi.gov.ro',  # Set the referrer to the base URL
+        'Referer': 'http://posturi.gov.ro',
         'Connection': 'keep-alive',
         'Upgrade-Insecure-Requests': '1',
         'Cache-Control': 'max-age=0',
         'TE': 'Trailers'
     }
     response = requests.get(url, headers=headers)
-
     soup = BeautifulSoup(response.content, 'html.parser')
     
-    job_list = []
+    new_entries = 0
+    updated_entries = 0
     
-    # Find all the article boxes
     article_boxes = soup.select('article.box')
     
     for box in article_boxes:
         job = {}
-        job['title'] = box.select_one('div.title a').text
-        job['link_url'] = box.select_one('div.title a')['href']
+        job['pozitie'] = box.select_one('div.title a').text
+        job['url'] = box.select_one('div.title a')['href']
         job['angajator'] = box.select_one('div.angajator').text
-        job['n'] = ', '.join([n.text for n in box.select('div.n')])
+        job['detalii'] = ', '.join([n.text for n in box.select('div.n')])
         
         data_div = box.select_one('li.data div.data')
-        
-        # Filter the elements by their text content
         data_items = [item.strip() for item in data_div.stripped_strings]
-        job['publicat'] = data_items[0]
-        job['expira'] = data_items[1]
+        job['publicat_in'] = data_items[0]
+        job['expira_in'] = data_items[1]
         
         locatie_div = box.select_one('li.locatie div.locatie')
-        job['locatie_name'] = locatie_div.text.strip()
-        job['locatie_url'] = locatie_div.a['href']
+        job['judet'] = locatie_div.text.strip()
+        job['url_judet'] = locatie_div.a['href']
         
-        job['dosar'] = box.select_one('div.dosar').text
+        job['tip'] = box.select_one('div.dosar').text
         
-        job_key = f"{job['link_url']}+{job['publicat']}"
-        
-        # Check if the job already exists in the latest_jobs list
-        if job_key in latest_jobs:
-            print(f"Job already exists: {job_key}. Stopping the script.")
-            return
-        
-        job_list.append(job)
+        if job['url'] in existing_data:
+            existing_job = existing_data[job['url']]
+            updated_job, was_updated = compare_and_update(existing_job, job)
+            existing_data[job['url']] = updated_job
+            if was_updated:
+                updated_entries += 1
+        else:
+            job['updates'] = f"{datetime.now().strftime('%Y-%m-%d')}: New entry"
+            existing_data[job['url']] = job
+            new_entries += 1
     
-    # Combine the new data with existing data
-    all_jobs = existing_data + job_list
-    
-    # Append all data to the same CSV file
-    fieldnames = ['title', 'link_url', 'angajator', 'n', 'publicat', 'expira', 'locatie_name', 'locatie_url', 'dosar']
-    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        for job in job_list:
-            writer.writerow(job)
-    
-    return job_list
+    print(f"Page {page_number}: {new_entries} new entries, {updated_entries} updated entries, {len(article_boxes) - new_entries - updated_entries} unchanged entries.")
+    return new_entries, updated_entries
 
 def scrape_all_pages(base_url, max_pages):
     existing_data = load_existing_data()
-    latest_jobs = load_latest_jobs()
+    total_new_entries = 0
+    total_updated_entries = 0
     
     for page_number in range(1, max_pages + 1):
         url = f"{base_url}/page/{page_number}/"
         print(f"Scraping page {page_number}...")
-        jobs = scrape_and_save_page(url, page_number, existing_data, latest_jobs)
-        sleep_time = random.uniform(0.5, 1.1)  # Random sleep time between 2 and 5 seconds
+        new_entries, updated_entries = scrape_and_save_page(url, page_number, existing_data)
+        total_new_entries += new_entries
+        total_updated_entries += updated_entries
+        sleep_time = random.uniform(0.5, 1.1)
         time.sleep(sleep_time)
-
     
-    print("Scraping complete. Data appended incrementally to " + output_csv)
+    save_data(existing_data)
+    print(f"Scraping complete. Total new entries: {total_new_entries}, Total updated entries: {total_updated_entries}")
 
 if __name__ == "__main__":
     base_url = "http://posturi.gov.ro"
-    max_pages = get_total_pages (base_url)
+    max_pages = get_total_pages(base_url)
     write_header()
-
     scrape_all_pages(base_url, max_pages)
