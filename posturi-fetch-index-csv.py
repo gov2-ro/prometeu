@@ -1,8 +1,8 @@
 output_csv = "data/posturi/posturi_gov_ro.csv"
-fieldnames = ['angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip']
+fieldnames = ['pozitie', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip']
 
 
-import requests, csv, random, time
+import requests, csv, random, time, os
 from bs4 import BeautifulSoup
 
 def load_existing_data():
@@ -15,10 +15,10 @@ def load_existing_data():
     except FileNotFoundError:
         return []
 
-def write_header():
-    with open(output_csv, "w", newline="", encoding="utf-8") as csv_file:
+def save_data(jobs):
+    with open(output_csv, "a", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
+        writer.writerows(jobs)
 
 def load_latest_jobs():
     try:
@@ -31,6 +31,12 @@ def load_latest_jobs():
         return latest_jobs
     except FileNotFoundError:
         return []
+
+def write_header():
+    if not os.path.exists(output_csv) or os.stat(output_csv).st_size == 0:
+        with open(output_csv, "w", newline="", encoding="utf-8") as csv_file:
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
 
 def get_total_pages(base_url):
     url = base_url + "/page/1/"
@@ -140,7 +146,6 @@ def scrape_all_pages(base_url, max_pages):
 if __name__ == "__main__":
     base_url = "http://posturi.gov.ro"
     max_pages = get_total_pages (base_url)
-    # write_header()
+    write_header()
 
-    
     scrape_all_pages(base_url, max_pages)
