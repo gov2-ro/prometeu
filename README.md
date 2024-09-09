@@ -26,6 +26,11 @@ sursă: [politiadefrontiera.ro](https://www.politiadefrontiera.ro/ro/traficonlin
 
 Posturile vacante din cadrul autorităților și instituțiilor publice din România publicate | sursă: [posturi.gov.ro](http://posturi.gov.ro/)
 
+TODO:
+- [x] check for duplicates
+- [ ] gh actions, only check for updates once a day or so
+- [ ] fetch details, somewhere else?
+ 
 ---
 
 ### [Întreruperi Distribuție Energie Electrică](data/distributie-energie)

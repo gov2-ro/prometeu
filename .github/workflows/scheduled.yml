@@ -80,10 +80,10 @@ jobs:
       run: |-
         python deer-intreruperi.py
       continue-on-error: true
-    # - name: posturi.gov.ro
-      #   run: |-
-      #     python posturi-fetch-index-csv.py
-      #   continue-on-error: true
+    - name: posturi.gov.ro
+      run: |-
+        python posturi-fetch-index.py
+      continue-on-error: true
     - name: Commit and push if it changed
       run: |-
         git config user.name "gov2-ro"

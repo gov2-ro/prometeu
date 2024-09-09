@@ -1,10 +1,9 @@
-output_csv = "data/posturi/posturi_gov_ro.csv"
-fieldnames = ['poziție', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip', 'updates']
-base_url = "http://posturi.gov.ro"
-
-import requests, csv, random, time, os, sys
+import requests, csv, random, time, os
 from bs4 import BeautifulSoup
 from datetime import datetime
+
+output_csv = "data/posturi/posturi_gov_ro.csv"
+fieldnames = ['poziție', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip', 'updates']
 
 def load_existing_data():
     try:
@@ -61,6 +60,7 @@ def get_total_pages(base_url):
 
     return max_pages
 
+
 def compare_and_update(existing_job, new_job):
     updates = []
     for key in new_job:
@@ -80,7 +80,7 @@ def compare_and_update(existing_job, new_job):
     else:
         return existing_job, False
 
-def scrape_and_save_page(url, page_number, existing_data):
+def scrape_and_save_page(url, page_number, existing_data, checkback=2):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -94,8 +94,8 @@ def scrape_and_save_page(url, page_number, existing_data):
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.content, 'html.parser')
     
-    updated = False
     new_entries = 0
+    updated_entries = 0
     
     article_boxes = soup.select('article.box')
     
@@ -121,49 +121,35 @@ def scrape_and_save_page(url, page_number, existing_data):
             existing_job = existing_data[job['url']]
             updated_job, was_updated = compare_and_update(existing_job, job)
             existing_data[job['url']] = updated_job
-            updated = updated or was_updated
+            if was_updated:
+                updated_entries += 1
         else:
             job['updates'] = f"{datetime.now().strftime('%Y-%m-%d')}: New entry"
             existing_data[job['url']] = job
             new_entries += 1
-            updated = True
     
-    print(f"Page {page_number}: {new_entries} new entries, {len(article_boxes) - new_entries} existing entries checked.")
-    return updated
+    print(f"Page {page_number}: {new_entries} new entries, {updated_entries} updated entries, {len(article_boxes) - new_entries - updated_entries} unchanged entries.")
+    return new_entries, updated_entries
 
 def scrape_all_pages(base_url, max_pages):
     existing_data = load_existing_data()
+    total_new_entries = 0
+    total_updated_entries = 0
     
     for page_number in range(1, max_pages + 1):
         url = f"{base_url}/page/{page_number}/"
         print(f"Scraping page {page_number}...")
-        updated = scrape_and_save_page(url, page_number, existing_data)
-        if not updated:
-            print(f"No new or updated entries found on page {page_number}. Stopping the script.")
-            break
+        new_entries, updated_entries = scrape_and_save_page(url, page_number, existing_data)
+        total_new_entries += new_entries
+        total_updated_entries += updated_entries
         sleep_time = random.uniform(0.5, 1.1)
         time.sleep(sleep_time)
     
     save_data(existing_data)
-    print("Scraping complete.")
-
-def main():
-    try:
-        max_pages = get_total_pages(base_url)
-        write_header()
-        scrape_all_pages(base_url, max_pages)
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
-        # Log the full traceback
-        import traceback
-        traceback.print_exc(file=sys.stderr)
-        sys.exit(1)
+    print(f"Scraping complete. Total new entries: {total_new_entries}, Total updated entries: {total_updated_entries}")
 
 if __name__ == "__main__":
-    main()
-
-
- 
-    
-    
-
+    base_url = "http://posturi.gov.ro"
+    max_pages = get_total_pages(base_url)
+    write_header()
+    scrape_all_pages(base_url, max_pages)
