@@ -1,5 +1,5 @@
 output_csv = "data/posturi/posturi_gov_ro.csv"
-fieldnames = ['poziție', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip', 'updates']
+fieldnames = ['pozitie', 'url', 'angajator', 'detalii', 'publicat_in', 'expira_in', 'judet', 'url_judet', 'tip', 'updates']
 base_url = "http://posturi.gov.ro"
 
 import requests, csv, random, time, os, sys
@@ -18,11 +18,22 @@ def load_existing_data():
         return {}
 
 def save_data(jobs):
+    with open(output_csv, "r", newline="", encoding="utf-8") as csv_file:
+        reader = csv.DictReader(csv_file)
+        existing_fieldnames = reader.fieldnames
+    
     with open(output_csv, "w", newline="", encoding="utf-8") as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        writer = csv.DictWriter(csv_file, fieldnames=existing_fieldnames)
         writer.writeheader()
+        
         for job in jobs.values():
+            # Ensure all required fields are present
+            for field in existing_fieldnames:
+                if field not in job:
+                    job[field] = ""
+            
             writer.writerow(job)
+    
     print(f"Data saved to {output_csv}")
 
 def write_header():
@@ -79,7 +90,6 @@ def compare_and_update(existing_job, new_job):
         return existing_job, True
     else:
         return existing_job, False
-
 def scrape_and_save_page(url, page_number, existing_data):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
@@ -150,6 +160,7 @@ def scrape_all_pages(base_url, max_pages):
 def main():
     try:
         max_pages = get_total_pages(base_url)
+        print(f"Total pages to scrape: {max_pages}")
         write_header()
         scrape_all_pages(base_url, max_pages)
     except Exception as e:
