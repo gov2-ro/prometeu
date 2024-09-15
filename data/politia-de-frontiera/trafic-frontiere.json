@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":150,
+    "Timp":100,
     "Info":"Numar mare de mijloace de transport prezentate la control - trafic intens.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -42,7 +42,7 @@
   {
     "Denumire":"Calafat",
     "Timp":120,
-    "Info":"intrare 4 artere, iesire 4 artere - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
+    "Info":"intrare 5 artere, iesire 4 artere - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":50,
+    "Timp":40,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -161,11 +161,11 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. trafic restricționat.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
