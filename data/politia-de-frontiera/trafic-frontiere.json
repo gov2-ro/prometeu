@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":150,
+    "Timp":200,
     "Info":"Numar mare de mijloace de transport prezentate la control - trafic intens.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -31,11 +31,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -182,7 +182,7 @@
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 1 arteră; Iesire 1 arteră.",
+    "Info":"Intrare: 2 artere; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
