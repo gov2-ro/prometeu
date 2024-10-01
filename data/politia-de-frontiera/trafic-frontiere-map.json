@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":40,
+    "Timp":20,
     "Info":"Intrare: 1 artera; Iesire: 2 artere;Intrare: 1 artera; Iesire: 2 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -182,7 +182,7 @@
   {
     "Denumire":"Calafat",
     "Timp":20,
-    "Info":"intrare 2 artere, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
+    "Info":"intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"green",
@@ -191,18 +191,18 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":30,
-    "Info":"intrare 2 artere, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
+    "Timp":20,
+    "Info":"intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Calafat",
-    "Timp":90,
-    "Info":"intrare 4 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
+    "Timp":60,
+    "Info":"intrare 5 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -212,7 +212,7 @@
   {
     "Denumire":"Calafat",
     "Timp":60,
-    "Info":"intrare 4 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
+    "Info":"intrare 5 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -371,17 +371,17 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
+    "Timp":20,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":80,
+    "Timp":120,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -391,11 +391,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":40,
+    "Timp":20,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -741,8 +741,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":50,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Timp":30,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -751,8 +751,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":40,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Timp":30,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -781,41 +781,41 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -862,7 +862,7 @@
   {
     "Denumire":"Petea",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
@@ -872,7 +872,7 @@
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
@@ -881,8 +881,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":240,
-    "Info":"Intrare: 1 arteră; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Timp":60,
+    "Info":"Intrare: 1 arteră; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -892,7 +892,7 @@
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 1 arteră; Iesire 2 artere. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
+    "Info":"Intrare: 1 arteră; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
@@ -961,7 +961,7 @@
   },
   {
     "Denumire":"Racovăț",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"48.099012",
     "Longitude":"26.281062",
@@ -971,7 +971,7 @@
   },
   {
     "Denumire":"Racovăț",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"48.099012",
     "Longitude":"26.281062",
@@ -1041,31 +1041,31 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
     "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
     "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
+    "Sens":"Ieșire"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":50,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -1141,7 +1141,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
@@ -1151,7 +1151,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
@@ -1161,7 +1161,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
@@ -1171,7 +1171,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
@@ -1391,11 +1391,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":40,
+    "Timp":90,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -1441,18 +1441,18 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":40,
-    "Info":"intrare 2 artere, iesire 2 artere.",
+    "Timp":160,
+    "Info":"intrare 2 artere, iesire 3 artere. Trafic intens, numar mare de automarfare prezentate la controlul de frontiera, pe sensul de iesire din tara",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Vârșand",
     "Timp":20,
-    "Info":"intrare 2 artere, iesire 2 artere.",
+    "Info":"intrare 2 artere, iesire 3 artere. Trafic intens, numar mare de automarfare prezentate la controlul de frontiera, pe sensul de iesire din tara",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
     "Status":"green",
