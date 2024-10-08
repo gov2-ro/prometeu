@@ -1,6 +1,6 @@
 [
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-519c",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c6",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "07.10.2024",
@@ -18,7 +18,7 @@
         "Long": 26.01847529790253
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-519b",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c5",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "07.10.2024",
@@ -36,7 +36,7 @@
         "Long": 26.019052733388943
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-519a",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c4",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "07.10.2024",
@@ -54,7 +54,7 @@
         "Long": 26.133215712355838
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5199",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c3",
         "administrator": "Administraţia Străzilor -  ",
         "tip_retea": "Reţea stradală",
         "data_anunt": "07.10.2024",
@@ -72,7 +72,97 @@
         "Long": 26.133729032595134
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5198",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c2",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 98,
+        "artera": "Calea Dorobanţilor",
+        "nr_postal": null,
+        "localizare": "x str. Hatmanul Arbore statie STB",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.45376950068361,
+        "Long": 26.09836772143183
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c1",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 98,
+        "artera": "Calea Dorobanţilor",
+        "nr_postal": "105 statie STB",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.45394016697196,
+        "Long": 26.098071541955274
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50c0",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 2287,
+        "artera": "Şoseaua Chitilei",
+        "nr_postal": null,
+        "localizare": "x str. Ariei",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.48590126558607,
+        "Long": 26.020825015701167
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50bf",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 1701,
+        "artera": "Şoseaua Pantelimon",
+        "nr_postal": "23-27",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.44683785128236,
+        "Long": 26.13405378280358
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50be",
+        "administrator": "Administraţia Străzilor -  ",
+        "tip_retea": "Reţea stradală",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 8,
+        "id_v_ar_artere": 2287,
+        "artera": "Şoseaua Chitilei",
+        "nr_postal": null,
+        "localizare": "x bd. Laminorului",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.48545472425257,
+        "Long": 26.02294070564871
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50bd",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "06.10.2024",
@@ -90,7 +180,7 @@
         "Long": 26.067415470528175
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5197",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50bc",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "05.10.2024",
@@ -108,7 +198,7 @@
         "Long": 26.13918650192768
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5196",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50bb",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "06.10.2024",
@@ -126,7 +216,7 @@
         "Long": 26.020154607567207
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5195",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50ba",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -144,7 +234,7 @@
         "Long": 26.048211888105577
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5194",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b9",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -162,7 +252,7 @@
         "Long": 26.048422939707375
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5193",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b8",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -180,7 +270,7 @@
         "Long": 26.025339653004934
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5192",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b7",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "06.10.2024",
@@ -198,7 +288,7 @@
         "Long": 26.051520150118773
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5191",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b6",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "06.10.2024",
@@ -216,7 +306,7 @@
         "Long": 26.056714699151737
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5190",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b5",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -234,7 +324,7 @@
         "Long": 26.05158444477335
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518f",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b4",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -252,7 +342,7 @@
         "Long": 26.15214413100634
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518e",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b3",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -270,7 +360,7 @@
         "Long": 26.048591405686615
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518d",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b2",
         "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -288,7 +378,61 @@
         "Long": 26.023587039245665
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518c",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b1",
+        "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
+        "tip_retea": "Gaze",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 3,
+        "id_v_ar_artere": 4609,
+        "artera": "Aleea Capidava",
+        "nr_postal": "13-15",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.461033406350275,
+        "Long": 26.156639358113683
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50b0",
+        "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
+        "tip_retea": "Gaze",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 3,
+        "id_v_ar_artere": 2555,
+        "artera": "Strada Macedonia",
+        "nr_postal": "21",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.4414014527404,
+        "Long": 26.079446940130357
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50af",
+        "administrator": "Distrigaz Sud - Sectoarele 1 si 2 -  ",
+        "tip_retea": "Gaze",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 3,
+        "id_v_ar_artere": 2012,
+        "artera": "Strada Dârza",
+        "nr_postal": "17",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.494285858801724,
+        "Long": 26.022461142823385
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50ae",
         "administrator": "Distrigaz Sud- Sectoarele 5 si 6 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -306,7 +450,7 @@
         "Long": 26.065045546020166
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518b",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50ad",
         "administrator": "Distrigaz Sud- Sectoarele 5 si 6 -  ",
         "tip_retea": "Gaze",
         "data_anunt": "07.10.2024",
@@ -324,7 +468,7 @@
         "Long": 26.069310511828977
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-518a",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50ac",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "05.10.2024",
@@ -342,7 +486,7 @@
         "Long": 26.068453186831032
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5189",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50ab",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "06.10.2024",
@@ -360,7 +504,7 @@
         "Long": 26.044321028187785
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5188",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50aa",
         "administrator": "Apa Nova  - Directia Retele Apa - Zona 1",
         "tip_retea": "Apă potabilă",
         "data_anunt": "05.10.2024",
@@ -378,7 +522,43 @@
         "Long": 26.067978636154244
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5187",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a9",
+        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
+        "tip_retea": "Canalizare",
+        "data_anunt": "07.10.2024",
+        "data_inceput": "07.10.2024",
+        "data_sfarsit": "09.10.2024",
+        "id_z_tip_retele": 2,
+        "id_v_ar_artere": 1970,
+        "artera": "Strada Col. Ştefan Stoika",
+        "nr_postal": "20",
+        "localizare": null,
+        "data_anuntx": "2024-10-06T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.457234116188616,
+        "Long": 26.06336310714527
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a8",
+        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
+        "tip_retea": "Canalizare",
+        "data_anunt": "07.10.2024",
+        "data_inceput": "07.10.2024",
+        "data_sfarsit": "09.10.2024",
+        "id_z_tip_retele": 2,
+        "id_v_ar_artere": 4093,
+        "artera": "Strada Lt. Av. Şerban Petrescu",
+        "nr_postal": "2",
+        "localizare": null,
+        "data_anuntx": "2024-10-06T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.46166467483618,
+        "Long": 26.09418645243405
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a7",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -396,7 +576,7 @@
         "Long": 26.01992653110714
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5186",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a6",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -414,7 +594,7 @@
         "Long": 26.048383489799114
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5185",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a5",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -432,7 +612,43 @@
         "Long": 26.046348189260716
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5184",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a4",
+        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
+        "tip_retea": "Canalizare",
+        "data_anunt": "07.10.2024",
+        "data_inceput": "07.10.2024",
+        "data_sfarsit": "09.10.2024",
+        "id_z_tip_retele": 2,
+        "id_v_ar_artere": 3332,
+        "artera": "Strada George Enescu",
+        "nr_postal": null,
+        "localizare": "x Georges Clemenceau",
+        "data_anuntx": "2024-10-06T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.44274792163142,
+        "Long": 26.096446627312485
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a3",
+        "administrator": "Apa Nova - Directia Retele Canal - Zona 1",
+        "tip_retea": "Canalizare",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 2,
+        "id_v_ar_artere": 4422,
+        "artera": "Strada Ştefan Protopopescu",
+        "nr_postal": "11",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.46364320508325,
+        "Long": 26.09994176824614
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a2",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "05.10.2024",
@@ -450,7 +666,7 @@
         "Long": 26.165583486363353
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5183",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a1",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "05.10.2024",
@@ -468,7 +684,7 @@
         "Long": 26.114891200190712
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5182",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-50a0",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "06.10.2024",
@@ -486,7 +702,7 @@
         "Long": 26.162767495259253
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5181",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509f",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 2",
         "tip_retea": "Apă potabilă",
         "data_anunt": "06.10.2024",
@@ -504,7 +720,7 @@
         "Long": 26.127720548328607
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5180",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509e",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -522,7 +738,7 @@
         "Long": 26.147273236359467
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517f",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509d",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -540,7 +756,7 @@
         "Long": 26.166676803569107
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517e",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509c",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -558,7 +774,7 @@
         "Long": 26.115681638849335
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517d",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509b",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -576,7 +792,25 @@
         "Long": 26.14289887593814
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517c",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-509a",
+        "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
+        "tip_retea": "Canalizare",
+        "data_anunt": "07.10.2024",
+        "data_inceput": "07.10.2024",
+        "data_sfarsit": "09.10.2024",
+        "id_z_tip_retele": 2,
+        "id_v_ar_artere": 2142,
+        "artera": "Strada Arh. Hârjeu",
+        "nr_postal": "15",
+        "localizare": null,
+        "data_anuntx": "2024-10-06T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43423060754086,
+        "Long": 26.13886824120097
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5099",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -594,7 +828,7 @@
         "Long": 26.126199257100538
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517b",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5098",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -612,7 +846,7 @@
         "Long": 26.127376999900378
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-517a",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5097",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 2",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -630,7 +864,7 @@
         "Long": 26.167782408296592
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5179",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5096",
         "administrator": "Apa Nova - Directia Retele Apa - Zona 3",
         "tip_retea": "Apă potabilă",
         "data_anunt": "05.10.2024",
@@ -648,7 +882,7 @@
         "Long": 26.122025996432892
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5178",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5095",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -666,7 +900,7 @@
         "Long": 26.078191057401014
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5177",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5094",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -684,7 +918,7 @@
         "Long": 26.079444385199096
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5176",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5093",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -702,7 +936,7 @@
         "Long": 26.114791289247172
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5175",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5092",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -720,7 +954,7 @@
         "Long": 26.097568244478975
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5174",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5091",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -738,7 +972,7 @@
         "Long": 26.084093493621776
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5173",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5090",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -756,7 +990,7 @@
         "Long": 26.094164072939936
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5172",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508f",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -774,7 +1008,7 @@
         "Long": 26.079798874270736
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5171",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508e",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -792,7 +1026,7 @@
         "Long": 26.074157403350195
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5170",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508d",
         "administrator": "Apa Nova - Directia Retele Canal - Zona 3",
         "tip_retea": "Canalizare",
         "data_anunt": "07.10.2024",
@@ -810,7 +1044,7 @@
         "Long": 26.081407398902517
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516f",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508c",
         "administrator": "S.T.B.  - Sectia Linii -  ",
         "tip_retea": "Linie tramvai",
         "data_anunt": "07.10.2024",
@@ -828,7 +1062,7 @@
         "Long": 26.03138579492823
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516e",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508b",
         "administrator": "S.T.B.  - Sectia Linii -  ",
         "tip_retea": "Linie tramvai",
         "data_anunt": "07.10.2024",
@@ -846,7 +1080,61 @@
         "Long": 26.164009824848947
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516d",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-508a",
+        "administrator": "S.T.B.  - Sectia Linii -  ",
+        "tip_retea": "Linie tramvai",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 20,
+        "id_v_ar_artere": 3349,
+        "artera": "Strada Progresului",
+        "nr_postal": null,
+        "localizare": "x Bd. Timisoara",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.42908623410664,
+        "Long": 26.06124292241907
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5089",
+        "administrator": "S.T.B.  - Sectia Linii -  ",
+        "tip_retea": "Linie tramvai",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 20,
+        "id_v_ar_artere": 3920,
+        "artera": "Calea Călăraşi",
+        "nr_postal": null,
+        "localizare": "x Bd. Basarabia",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.43210669149568,
+        "Long": 26.138432057291535
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5088",
+        "administrator": "S.T.B.  - Sectia Linii -  ",
+        "tip_retea": "Linie tramvai",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 20,
+        "id_v_ar_artere": 1586,
+        "artera": "Strada Lujerului",
+        "nr_postal": null,
+        "localizare": "Pasaj Lujerului",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.432200727520225,
+        "Long": 26.03440619156936
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5087",
         "administrator": "S.T.B. - Sectia R.E.S. -  ",
         "tip_retea": "Electricitate S.T.B.",
         "data_anunt": "07.10.2024",
@@ -864,7 +1152,7 @@
         "Long": 26.016504970898495
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516c",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5086",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S1 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -882,7 +1170,7 @@
         "Long": 26.05792595827305
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516b",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5085",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S1 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -900,7 +1188,7 @@
         "Long": 26.057835226627073
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-516a",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5084",
         "administrator": "C.M.T.E.B. SA - Sectia Distributie S2 -  ",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -918,7 +1206,7 @@
         "Long": 26.114988809698648
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5169",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5083",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "05.10.2024",
@@ -936,7 +1224,7 @@
         "Long": 26.12030865538694
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5168",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5082",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "06.10.2024",
@@ -954,7 +1242,7 @@
         "Long": 26.13419654292014
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5167",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5081",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "05.10.2024",
@@ -972,7 +1260,7 @@
         "Long": 26.113113645220185
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5166",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5080",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "06.10.2024",
@@ -990,7 +1278,7 @@
         "Long": 26.122127414571537
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5165",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507f",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "06.10.2024",
@@ -1008,7 +1296,7 @@
         "Long": 26.147294537232202
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5164",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507e",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "06.10.2024",
@@ -1026,7 +1314,7 @@
         "Long": 26.141842486405114
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5163",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507d",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1044,7 +1332,7 @@
         "Long": 26.119996937841822
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5162",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507c",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1062,7 +1350,79 @@
         "Long": 26.113106761134013
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5161",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507b",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
+        "tip_retea": "Termoficare",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1393,
+        "artera": "Strada Căluşarilor",
+        "nr_postal": "3",
+        "localizare": "bl 24 sc 1",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.41411694766397,
+        "Long": 26.13381399439974
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-507a",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
+        "tip_retea": "Termoficare",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 754,
+        "artera": "Strada Foişorului",
+        "nr_postal": "9",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.42020644179974,
+        "Long": 26.122100223127827
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5079",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
+        "tip_retea": "Termoficare",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1377,
+        "artera": "Aleea Suraia",
+        "nr_postal": "1",
+        "localizare": null,
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.41201664302614,
+        "Long": 26.147406547240507
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5078",
+        "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 3 - Vitan",
+        "tip_retea": "Termoficare",
+        "data_anunt": "08.10.2024",
+        "data_inceput": "08.10.2024",
+        "data_sfarsit": "10.10.2024",
+        "id_z_tip_retele": 4,
+        "id_v_ar_artere": 1569,
+        "artera": "Strada Complexului",
+        "nr_postal": "5",
+        "localizare": "fata bl 60 sc 1",
+        "data_anuntx": "2024-10-07T21:00:00Z",
+        "type": "Feature",
+        "geometry_type": "Point",
+        "Lat": 44.420981601797585,
+        "Long": 26.141538725891884
+    },
+    {
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5077",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1080,7 +1440,7 @@
         "Long": 26.017322597371486
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5160",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5076",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
         "tip_retea": "Termoficare",
         "data_anunt": "05.10.2024",
@@ -1098,7 +1458,7 @@
         "Long": 26.021222934882786
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515f",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5075",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
         "tip_retea": "Termoficare",
         "data_anunt": "05.10.2024",
@@ -1116,7 +1476,7 @@
         "Long": 26.01994902582956
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515e",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5074",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Drumul Taberei",
         "tip_retea": "Termoficare",
         "data_anunt": "06.10.2024",
@@ -1134,7 +1494,7 @@
         "Long": 26.021668230483392
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515d",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5073",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Militari",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1152,7 +1512,7 @@
         "Long": 26.011448645575122
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515c",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5072",
         "administrator": "C.M.T.E.B SA - Sectia Distributie Sector 6 - Militari",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1170,7 +1530,7 @@
         "Long": 26.021004659505397
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515b",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5071",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1188,7 +1548,7 @@
         "Long": 26.146372944003083
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-515a",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5070",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1206,7 +1566,7 @@
         "Long": 26.138825515410335
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5159",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506f",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1224,7 +1584,7 @@
         "Long": 26.125816447390957
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5158",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506e",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1242,7 +1602,7 @@
         "Long": 26.169200801918247
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5157",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506d",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1260,7 +1620,7 @@
         "Long": 26.177199652332767
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5156",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506c",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1278,7 +1638,7 @@
         "Long": 26.159559894117006
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5155",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506b",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1296,7 +1656,7 @@
         "Long": 26.166001981688506
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5154",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-506a",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1314,7 +1674,7 @@
         "Long": 26.162575436123653
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5153",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5069",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1332,7 +1692,7 @@
         "Long": 26.14449163514233
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5152",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5068",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1350,7 +1710,7 @@
         "Long": 26.132357517279576
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5151",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5067",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1368,7 +1728,7 @@
         "Long": 26.14229919804698
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5150",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5066",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1386,7 +1746,7 @@
         "Long": 26.172384661287904
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514f",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5065",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Sud Sect 2+3",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1404,7 +1764,7 @@
         "Long": 26.17966604315607
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514e",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5064",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1422,7 +1782,7 @@
         "Long": 26.067116540553915
     },
     {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514d",
+        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5063",
         "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
         "tip_retea": "Termoficare",
         "data_anunt": "07.10.2024",
@@ -1438,365 +1798,5 @@
         "geometry_type": "Point",
         "Lat": 44.41526330542001,
         "Long": 26.063436617446182
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514c",
-        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 1601,
-        "artera": "Strada Buzoeni",
-        "nr_postal": "2",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.40670313777976,
-        "Long": 26.063587579747647
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514b",
-        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 343,
-        "artera": "Bulevardul Prof.dr. Gheorghe Marinescu",
-        "nr_postal": "4",
-        "localizare": "X str. Ana Davila",
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.4330419238106,
-        "Long": 26.066897057140466
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-514a",
-        "administrator": "C.M.T.E.B SA - Sectia Retea Primara Progresu Sect 4+5",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 3192,
-        "artera": "Strada Ana Davila",
-        "nr_postal": "27",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.43284421715927,
-        "Long": 26.066137671141533
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5149",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 187,
-        "artera": "Bulevardul Timişoara",
-        "nr_postal": "60B",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.42501409191607,
-        "Long": 26.013187141566892
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5148",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 187,
-        "artera": "Bulevardul Timişoara",
-        "nr_postal": "60C",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.424868768718035,
-        "Long": 26.01249469617612
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5147",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 128,
-        "artera": "Bulevardul Iuliu Maniu",
-        "nr_postal": "224 B",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.43424397048665,
-        "Long": 26.00295091477409
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5146",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 1825,
-        "artera": "Strada Cetatea De Baltă",
-        "nr_postal": "27",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.435787010602404,
-        "Long": 26.023611674046496
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5145",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2670,
-        "artera": "Strada Moineşti",
-        "nr_postal": "60",
-        "localizare": "-trape",
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.42728454694066,
-        "Long": 26.01499703976572
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5144",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2670,
-        "artera": "Strada Moineşti",
-        "nr_postal": "68",
-        "localizare": "-trape",
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.42593773165658,
-        "Long": 26.01490556667289
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5143",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 187,
-        "artera": "Bulevardul Timişoara",
-        "nr_postal": "85",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.424727196171524,
-        "Long": 26.012523023978087
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5142",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 128,
-        "artera": "Bulevardul Iuliu Maniu",
-        "nr_postal": "220",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.43423654925548,
-        "Long": 26.00294731868212
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5141",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 1608,
-        "artera": "Bulevardul 1 Mai",
-        "nr_postal": "19",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.41934595627302,
-        "Long": 26.047495663511665
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5140",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 20,
-        "artera": "Drumul Timonierului",
-        "nr_postal": "3-5",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.433099883605784,
-        "Long": 26.02976352881881
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513f",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 314,
-        "artera": "Strada Lavandei",
-        "nr_postal": "8 ",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.438887103037914,
-        "Long": 26.021988576398265
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513e",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2821,
-        "artera": "Strada Gen. Vasile Milea",
-        "nr_postal": "13",
-        "localizare": "actual Bd. Paul Teodorescu",
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.426331397201615,
-        "Long": 26.055307263959893
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513d",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Vest - Sect. 6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2332,
-        "artera": "Strada Tolbei",
-        "nr_postal": null,
-        "localizare": "x Gheorghe Latea - trape",
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.41739636029108,
-        "Long": 26.048338500662062
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513c",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2265,
-        "artera": "Calea Griviţei",
-        "nr_postal": "471",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.47498981685017,
-        "Long": 26.04661907665316
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513b",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2265,
-        "artera": "Calea Griviţei",
-        "nr_postal": "212",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.46133289484637,
-        "Long": 26.05768999671318
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-513a",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2511,
-        "artera": "Strada Portăreşti",
-        "nr_postal": "9",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.45204033002216,
-        "Long": 26.05317048713637
-    },
-    {
-        "id": "v_hip_avarii.fid--36a69b30_192673f9569_-5139",
-        "administrator": "C.M.T.E.B. SA - Sectia Retea Primara Grozavesti - Sect. 1+6 -  ",
-        "tip_retea": "Termoficare",
-        "data_anunt": "07.10.2024",
-        "data_inceput": "07.10.2024",
-        "data_sfarsit": "09.10.2024",
-        "id_z_tip_retele": 4,
-        "id_v_ar_artere": 2727,
-        "artera": "Bulevardul Gheorghe Duca",
-        "nr_postal": "10 - 22",
-        "localizare": null,
-        "data_anuntx": "2024-10-06T21:00:00Z",
-        "type": "Feature",
-        "geometry_type": "Point",
-        "Lat": 44.448674657686674,
-        "Long": 26.077246261680994
     }
 ]
