@@ -42,7 +42,7 @@
   {
     "Denumire":"Calafat",
     "Timp":50,
-    "Info":"intrare 5 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
+    "Info":"intrare 4 artere, iesire 4 artere - Trafic intens, multe mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"orange",
@@ -61,11 +61,11 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":50,
+    "Timp":60,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 1.5 km.",
+    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 1 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -161,11 +161,11 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":30,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,7 +271,7 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
+    "Timp":10,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera, pe sensul de intrare",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
