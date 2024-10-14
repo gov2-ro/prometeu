@@ -21,17 +21,17 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":100,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere; trafic intens-  numar mare de automarfare prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":70,
+    "Timp":100,
     "Info":"Intrare: 1 artera; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":50,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":40,
+    "Timp":30,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.Pe sensul de intrare 4 artere, pe sensul de iesire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":10,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera. Trafic restrictionat pe teritoriul statului maghiar.",
+    "Timp":110,
+    "Info":"Intrare: 1 artera; Iesire: 4 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":10,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC RESTRICTIONAT de autoritatile maghiare",
+    "Timp":120,
+    "Info":"Intrare: 1 artera; Iesire 1 artere. TRAFIC INTENS, numar foarte mare de autotcamioane prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":70,
     "Info":"Numar mare de mijloace de transport prezentate la control pe sensul de iesire din Romania",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
