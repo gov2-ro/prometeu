@@ -1,22 +1,22 @@
 [
   {
     "Denumire":"Albița",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"46.78513359",
+    "Longitude":"28.138904570000022",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Albița",
     "Timp":30,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
     "Status":"orange",
     "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Albița",
-    "Timp":20,
-    "Info":"",
-    "Latitude":"46.78513359",
-    "Longitude":"28.138904570000022",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
@@ -101,11 +101,11 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -321,7 +321,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -341,11 +341,11 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":50,
+    "Timp":60,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -361,11 +361,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
+    "Timp":20,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
@@ -381,7 +381,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":40,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.Pe sensul de intrare 4 artere, pe sensul de iesire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -391,7 +391,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":40,
+    "Timp":30,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.Pe sensul de intrare 4 artere, pe sensul de iesire",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -701,8 +701,8 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":30,
-    "Info":"1 artera intrare; 2 artere iesire.",
+    "Timp":40,
+    "Info":"1 artera intrare; 2 artere iesire. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de intrare.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"orange",
@@ -711,17 +711,17 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
-    "Info":"1 artera intrare; 2 artere iesire.",
+    "Timp":30,
+    "Info":"1 artera intrare; 2 artere iesire. Trafic intens-numar mare de mijloace de transport prezente la verificarile de frontiera pe sensul de intrare.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
+    "Timp":40,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
@@ -742,7 +742,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 3 artere; Iesire: 6 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 5 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -751,8 +751,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
-    "Info":"Intrare: 3 artere; Iesire: 6 artere.",
+    "Timp":40,
+    "Info":"Intrare: 3 artere; Iesire: 5 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -762,7 +762,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":90,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -772,7 +772,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":90,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -881,11 +881,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
+    "Timp":30,
     "Info":"Intrare: 1 arteră; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de automarfare prezente pe sensul de intrare și ieșire din țară.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -1041,11 +1041,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":40,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
@@ -1151,7 +1151,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
@@ -1171,7 +1171,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
