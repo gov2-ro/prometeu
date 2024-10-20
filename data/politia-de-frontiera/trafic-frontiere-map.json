@@ -11,11 +11,11 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -142,7 +142,7 @@
   {
     "Denumire":"Borș II",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 1 artera;",
+    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"green",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":40,
-    "Info":"Intrare: 2 artere; Iesire: 1 artera;",
+    "Timp":20,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -701,21 +701,21 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":60,
-    "Info":"1 artera intrare; 3 artere iesire.",
-    "Latitude":"46.167876466346264",
-    "Longitude":"20.71958183862307",
-    "Status":"red",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Nădlac",
     "Timp":30,
-    "Info":"1 artera intrare; 3 artere iesire.",
+    "Info":"1 artera intrare; 2 artere iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Nădlac",
+    "Timp":20,
+    "Info":"1 artera intrare; 2 artere iesire.",
+    "Latitude":"46.167876466346264",
+    "Longitude":"20.71958183862307",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -741,18 +741,18 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":40,
-    "Info":"Intrare: 4 artere; Iesire: 5 artere.",
+    "Timp":20,
+    "Info":"Intrare: 3 artere; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
     "Timp":40,
-    "Info":"Intrare: 4 artere; Iesire: 5 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -761,21 +761,21 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 1 km.",
+    "Timp":10,
+    "Info":"Intrare: 1 artere; Iesire: 1 artera.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 1 km.",
+    "Timp":10,
+    "Info":"Intrare: 1 artere; Iesire: 1 artera.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -871,7 +871,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":50,
+    "Timp":40,
     "Info":"Intrare: 3 artere; Iesire: 3 artere",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -881,21 +881,21 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 arteră; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de automarfare prezente pe sensul de intrare și ieșire din țară.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC RESTRICTIONAT de autoritatile maghiare",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 arteră; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de automarfare prezente pe sensul de intrare și ieșire din țară.",
+    "Timp":10,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC RESTRICTIONAT de autoritatile maghiare",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -1041,17 +1041,17 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":40,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -1141,7 +1141,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
