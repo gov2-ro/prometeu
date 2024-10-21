@@ -18,7 +18,7 @@ RATB-ETA - Autobaza Militari,functionale,Functionare normala,-,,#008217,44.43303
 PT ALCAZ,functionale,Functionare normala,-,,#008217,44.42945406203,26.004468982079
 14 Păcii,functionale,Functionare normala,-,,#008217,44.433220051511,26.005008634444
 1 Roșu,functionale,Functionare normala,-,,#008217,44.43783,26.00627
-10 Liniei,functionale,Functionare normala,-,,#008217,44.429674878808,26.009597261515
+10 Liniei,deficiente,Lipsa parametri pentru livrare apă caldă de consum,Deficienta ACC,21.10.2024 20:30,#ffe53e,44.429674878808,26.009597261515
 1 Îndesirii,avarii,Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str. Apele Vii),Oprire ACC,21.10.2024 15:30,#e0002b,44.435356266626,26.009650745456
 MILITARI - 1 Placare,functionale,Functionare normala,-,,#008217,44.43312,26.00987
 Depoul STB Bujoreni,functionale,Functionare normala,-,,#008217,44.426732,26.011662
@@ -89,9 +89,9 @@ SC 3/3 -MODULE TERMICE,functionale,Functionare normala,-,,#008217,44.42568883524
 2 Virtuții,functionale,Functionare normala,-,,#008217,44.439116515733,26.031849327137
 4/7',functionale,Functionare normala,-,,#008217,44.417213439941,26.03202
 Ct Desisului,functionale,Functionare normala,-,,#008217,44.444515228271,26.032051086426
-13 Liniei,functionale,Functionare normala,-,,#008217,44.43204,26.03209
-MILITARI - 5A Placare,functionale,Functionare normala,-,,#008217,44.43271,26.03239
-MILITARI - 5 Placare,functionale,Functionare normala,-,,#008217,44.43271428651,26.032447066554
+13 Liniei,deficiente,Lipsa parametri pentru livrare apă caldă de consum,Deficienta ACC,21.10.2024 20:30,#ffe53e,44.43204,26.03209
+MILITARI - 5A Placare,avarii,"Remediere avarie în punctul termic pe circuitul primar, str. Lujerului",Oprire ACC,21.10.2024 17:00,#e0002b,44.43271,26.03239
+MILITARI - 5 Placare,avarii,"Remediere avarie în punctul termic pe circuitul primar, str. Lujerului",Oprire ACC,21.10.2024 17:00,#e0002b,44.43271428651,26.032447066554
 1 Veteranilor,functionale,Functionare normala,-,,#008217,44.43627373843,26.03262811854
 1 Virtuții,functionale,Functionare normala,-,,#008217,44.437685374078,26.033021468157
 8 Virtuții,functionale,Functionare normala,-,,#008217,44.443182283719,26.033371920951
@@ -105,7 +105,7 @@ SC 6/2 - MODULE TERMICE,functionale,Functionare normala,-,,#008217,44.4269256591
 6/8,functionale,Functionare normala,-,,#008217,44.418546818548,26.036987910245
 TELEKOM (SC Romtelecom SA),functionale,Functionare normala,-,,#008217,44.421919,26.037826
 Depou Metrou Ciurel,functionale,Functionare normala,-,,#008217,44.440743,26.03786
-7 Virtuții,functionale,Functionare normala,-,,#008217,44.44159,26.03789
+7 Virtuții,deficiente,Lipsa parametri pentru livrare apă caldă de consum,Deficienta ACC,21.10.2024 20:30,#ffe53e,44.44159,26.03789
 2 Bucurestii Noi,functionale,Functionare normala,-,,#008217,44.485253685485,26.037961082459
 1 Bucurestii Noi,functionale,Functionare normala,-,,#008217,44.487646,26.038117
 1/8,functionale,Functionare normala,-,,#008217,44.422069819518,26.038736567864
@@ -164,7 +164,7 @@ MINISTERUL ECONOMIEI (CPPIB),functionale,Functionare normala,-,,#008217,44.42864
 Hala TCM,functionale,Functionare normala,-,,#008217,44.4409,26.049607
 Facultatea de Mecanică,functionale,Functionare normala,-,,#008217,44.4409,26.049607
 Liceul Mircea Eliade,functionale,Functionare normala,-,,#008217,44.443393,26.04977
-PLAVAT,deficiente,Lipsa parametri pentru livrare apă caldă de consum,Deficienta ACC,21.10.2024 10:00,#ffe53e,44.44942855835,26.049877
+PLAVAT,functionale,Functionare normala,-,,#008217,44.44942855835,26.049877
 MAN,functionale,Functionare normala,-,,#008217,44.423341128595,26.049942323151
 MODUL TERMIC A3,functionale,Functionare normala,-,,#008217,44.4788,26.050096
 MODUL TERMIC A5,functionale,Functionare normala,-,,#008217,44.481968,26.050382
@@ -349,7 +349,7 @@ Av. Sanatescu,functionale,Functionare normala,-,,#008217,44.46557,26.070469
 DTM,functionale,Functionare normala,-,,#008217,44.463692,26.071292
 2-1 Mai,functionale,Functionare normala,-,,#008217,44.461927683738,26.071466776364
 150 Grivita,functionale,Functionare normala,-,,#008217,44.449723,26.071521
-1 Panduri,functionale,Functionare normala,-,,#008217,44.423743263416,26.071555777041
+1 Panduri,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.423743263416,26.071555777041
 156 Grivita,functionale,Functionare normala,-,,#008217,44.449731,26.071612
 MODUL TERMIC Witting,functionale,Functionare normala,-,,#008217,44.442853,26.071616
 6 Rahova,functionale,Functionare normala,-,,#008217,44.409858176973,26.071649205607
@@ -360,7 +360,7 @@ Depozit Medicamente,functionale,Functionare normala,-,,#008217,44.46588,26.07236
 UNIFARM,functionale,Functionare normala,-,,#008217,44.46588,26.072363
 Garnizoana,functionale,Functionare normala,-,,#008217,44.445508,26.072436
 Unitatea Militara 02122 Bucuresti,functionale,Functionare normala,-,,#008217,44.445202,26.072578
-Tudor Vladimirescu,functionale,Functionare normala,-,,#008217,44.422236390803,26.07291749147
+Tudor Vladimirescu,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.422236390803,26.07291749147
 Spitalul Militar Central,functionale,Functionare normala,-,,#008217,44.442386,26.073176
 3 Dinicu Golescu,functionale,Functionare normala,-,,#008217,44.445855,26.073419
 Miciurin,functionale,Functionare normala,-,,#008217,44.46349,26.073685
@@ -373,20 +373,20 @@ Club Steaua,functionale,Functionare normala,-,,#008217,44.440007,26.074465
 Spitalul Elias,functionale,Functionare normala,-,,#008217,44.465167,26.074533
 3 Sălaj,functionale,Functionare normala,-,,#008217,44.403277768506,26.074804817897
 2 Ferentari,functionale,Functionare normala,-,,#008217,44.412463447087,26.075045077416
-1 din 13 Septembrie,functionale,Functionare normala,-,,#008217,44.424901860922,26.075102595166
+1 din 13 Septembrie,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.424901860922,26.075102595166
 1 Sălaj,functionale,Functionare normala,-,,#008217,44.409725099236,26.075109562074
 3 Titulescu,functionale,Functionare normala,-,,#008217,44.45218,26.075444
 6-1 Mai,functionale,Functionare normala,-,,#008217,44.463146908263,26.075447858526
 Nicolae Racotă,functionale,Functionare normala,-,,#008217,44.463146908263,26.075447858526
 MODUL TERMIC Vila 45,functionale,Functionare normala,-,,#008217,44.450728,26.07551
 Iacob Negruzzi,functionale,Functionare normala,-,,#008217,44.450728,26.07551
-B Dinicu Golescu,deficiente,Lipsa parametri pentru livrare apă caldă de consum,Deficienta ACC,21.10.2024 21:00,#ffe53e,44.444327,26.075622
+B Dinicu Golescu,avarii,Remediere avarie în punctul termic pe circuitul primar,Oprire ACC,21.10.2024 18:30,#e0002b,44.444327,26.075622
 1 Banu Manta,functionale,Functionare normala,-,,#008217,44.455159022004,26.0756306878
 9-1 Mai,functionale,Functionare normala,-,,#008217,44.458875,26.075837
 5-1 Mai,functionale,Functionare normala,-,,#008217,44.460045,26.076042
 Sora,functionale,Functionare normala,-,,#008217,44.44814,26.076057
 3-11 Duca,functionale,Functionare normala,-,,#008217,44.44814,26.076057
-2 din 13 Septembrie,functionale,Functionare normala,-,,#008217,44.423782682013,26.076210362054
+2 din 13 Septembrie,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.423782682013,26.076210362054
 2 Banu Manta,functionale,Functionare normala,-,,#008217,44.454132576451,26.076361108355
 Hotel Dunarea,functionale,Functionare normala,-,,#008217,44.447669,26.076376
 Muzeul Militar,functionale,Functionare normala,-,,#008217,44.441557,26.076406
@@ -409,20 +409,20 @@ Ministerul de Chimie (Inst.Politehnic Polizu),functionale,Functionare normala,-,
 4 Chirigiu,functionale,Functionare normala,-,,#008217,44.414500986252,26.078861197097
 6 Chirigiu,functionale,Functionare normala,-,,#008217,44.416788864916,26.079139902556
 Ct Stirbei Voda,functionale,Functionare normala,-,,#008217,44.439713,26.079397
-12-1 Mai,functionale,Functionare normala,-,,#008217,44.454305,26.079518
+12-1 Mai,avarii,"Lucrări de  modernizare POIN retea termica primara, lucrare efectuata de catre firma - ELSACO",Oprire ACC,22.10.2024 19:00,#e0002b,44.454305,26.079518
 Ct Aleea Trandafirilor,functionale,Functionare normala,-,,#008217,44.4665406,26.0796532
 Veronica Micle,functionale,Functionare normala,-,,#008217,44.450703301752,26.079921424412
 Ct Scoala Ferentari,functionale,Functionare normala,-,,#008217,44.3924765,26.0802475
 8-1 Mai,functionale,Functionare normala,-,,#008217,44.456249,26.080646
 Univ. Stiinte Agronom. si Med. Veterinara Buc.- Facultatea de Biotehnologii (CIOS),functionale,Functionare normala,-,,#008217,44.433442,26.080721
 Ct Baneasa 1,functionale,Functionare normala,-,,#008217,44.4921402,26.0809988
-3 din 13 Septembrie,functionale,Functionare normala,-,,#008217,44.424305273891,26.081255079824
+3 din 13 Septembrie,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.424305273891,26.081255079824
 Doina,functionale,Functionare normala,-,,#008217,44.408684,26.081339
-Grădiniţa Nr.268 Scoala Nr.128,functionale,Functionare normala,-,,#008217,44.423287,26.081435
+Grădiniţa Nr.268 Scoala Nr.128,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.423287,26.081435
 Hotel CONTINENTAL,functionale,Functionare normala,-,,#008217,44.429852,26.08192
 Atelier Vicarb,functionale,Functionare normala,-,,#008217,44.449766,26.082168
 2 P-ta Victoriei,functionale,Functionare normala,-,,#008217,44.451489269822,26.082532012598
-MApN,functionale,Functionare normala,-,,#008217,44.429295,26.082604
+MApN,avarii,Remediere avarie circuit primar - (Calea 13 Septembrie),Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.429295,26.082604
 5 Chirigiu,functionale,Functionare normala,-,,#008217,44.416499595498,26.082742952836
 Ct Baneasa 2,functionale,Functionare normala,-,,#008217,44.4917551,26.0828596
 Ct Pavel Constantin,functionale,Functionare normala,-,,#008217,44.3900175,26.0830356
@@ -527,7 +527,7 @@ Uioara,functionale,Functionare normala,-,,#008217,44.378447,26.105435
 Ct Republicii,functionale,Functionare normala,-,,#008217,44.4361953,26.1055177
 1 Zona V,functionale,Functionare normala,-,,#008217,44.3866762,26.1056431
 Prasilei,functionale,Functionare normala,-,,#008217,44.391916643434,26.105839910673
-Barbu Vacarescu,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.4551644,26.1059908
+Barbu Vacarescu,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4551644,26.1059908
 C3 Căuzaşi,functionale,Functionare normala,-,,#008217,44.4276679,26.1060651
 Sincai,functionale,Functionare normala,-,,#008217,44.414173206729,26.10609475495
 B 3 Cauzasi,functionale,Functionare normala,-,,#008217,44.4253034,26.1062371
@@ -545,13 +545,13 @@ Norilor,functionale,Functionare normala,-,,#008217,44.415164746249,26.1077898670
 Ct Caporal Balan,functionale,Functionare normala,-,,#008217,44.4223084,26.1089162
 5 Brancoveanu,functionale,Functionare normala,-,,#008217,44.391537074242,26.109063779842
 1 Tineretului,functionale,Functionare normala,-,,#008217,44.412415871448,26.110004686011
-3 Stefan cel Mare,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.452411949595,26.110112645531
+3 Stefan cel Mare,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.452411949595,26.110112645531
 3 Oltenita Placare,functionale,Functionare normala,-,,#008217,44.400524,26.110186
 Observator Astronomic,functionale,Functionare normala,-,,#008217,44.40622,26.1103
-Aleea Circului,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.4532304,26.1103072
+Aleea Circului,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4532304,26.1103072
 Sala Polivalenta,functionale,Functionare normala,-,,#008217,44.405366,26.110325
 2 Tineretului,functionale,Functionare normala,-,,#008217,44.412216611444,26.110353373161
-Galvani Tei,functionale,Functionare normala,-,,#008217,44.459736244268,26.11061765533
+Galvani Tei,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.459736244268,26.11061765533
 Biblioteca Nationala,functionale,Functionare normala,-,,#008217,44.427333,26.110639
 Tribunalul Bucuresti,functionale,Functionare normala,-,,#008217,44.427333,26.110639
 6 Zona II,functionale,Functionare normala,-,,#008217,44.385173824756,26.110954182958
@@ -573,14 +573,14 @@ SIAC-TIMB,functionale,Functionare normala,-,,#008217,44.462546,26.113097
 5 Mărăşeşti,functionale,Functionare normala,-,,#008217,44.420436778383,26.113213832351
 5 Zona II,functionale,Functionare normala,-,,#008217,44.38387078867,26.113497720948
 3 Tineretului,functionale,Functionare normala,-,,#008217,44.41071864561,26.1136777289
-Judetului,functionale,Functionare normala,-,,#008217,44.4586959,26.1139841
+Judetului,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4586959,26.1139841
 Posta,functionale,Functionare normala,-,,#008217,44.383052351322,26.114064589621
 8 Brancoveanu,functionale,Functionare normala,-,,#008217,44.39361699317,26.114225199794
 Institutul Boli Infectioase Matei Bals,functionale,Functionare normala,-,,#008217,44.454604,26.114279
 Metalurgiei,functionale,Functionare normala,-,,#008217,44.386737457202,26.114452759835
 Complex Comercial,functionale,Functionare normala,-,,#008217,44.39693,26.11472
 Opanez,functionale,Functionare normala,-,,#008217,44.461534099323,26.115513157822
-Modul Bl. 23,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.453015,26.115555
+Modul Bl. 23,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.453015,26.115555
 Ramuri Tei,functionale,Functionare normala,-,,#008217,44.4635268,26.1157015
 Modul Termic - Colegiul National Octav Onicescu,functionale,Functionare normala,-,,#008217,44.3862695,26.1157798
 3 Mărăşeşti,functionale,Functionare normala,-,,#008217,44.421413449341,26.115808161431
@@ -601,24 +601,24 @@ AUTOCENTER,functionale,Functionare normala,-,,#008217,44.441444,26.116503
 7 Mosilor,functionale,Functionare normala,-,,#008217,44.440074174092,26.117097664565
 Complex Comercial,functionale,Functionare normala,-,,#008217,44.39183,26.11729
 3 Mosilor,functionale,Functionare normala,-,,#008217,44.44339141713,26.11731680423
-RATB-URAC,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.453661,26.117374
+RATB-URAC,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.453661,26.117374
 9 Brâncoveanu,functionale,Functionare normala,-,,#008217,44.392684134422,26.117443501343
 17 Dolhasca,functionale,Functionare normala,-,,#008217,44.394042,26.117482
-4 Stefan cel Mare,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.4520234,26.1175694
+4 Stefan cel Mare,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4520234,26.1175694
 1 Labirint,functionale,Functionare normala,-,,#008217,44.431054647361,26.118135816644
 13 Lacul Tei,functionale,Functionare normala,-,,#008217,44.4618986,26.1182756
 5 Metalurgiei,functionale,Functionare normala,-,,#008217,44.378065295718,26.118363463921
-29 Stefan cel Mare,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.4526916,26.1183962
+29 Stefan cel Mare,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4526916,26.1183962
 E6,functionale,Functionare normala,-,,#008217,44.4272873,26.1186991
 7 Zona I,functionale,Functionare normala,-,,#008217,44.379233,26.11894
 5 Oltenita,functionale,Functionare normala,-,,#008217,44.395952170373,26.11902307807
-21 Foișor,functionale,Functionare normala,-,,#008217,44.420805164492,26.119679692198
+21 Foișor,avarii,Remediere avarie racord primar - (str.Vlaicu Voda),Oprire ACC/INC,24.10.2024 23:00,#e0002b,44.420805164492,26.119679692198
 1 Zona I,functionale,Functionare normala,-,,#008217,44.386471,26.119855
 Scoala Gimnaziala Nr.189,functionale,Functionare normala,-,,#008217,44.38152,26.11986
 2 Vacaresti,functionale,Functionare normala,-,,#008217,44.402289503388,26.120006484811
 1 Vacaresti,functionale,Functionare normala,-,,#008217,44.406562899734,26.120041334401
 M107,functionale,Functionare normala,-,,#008217,44.4249848,26.1200934
-Luncsoara,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.450912311984,26.120118966523
+Luncsoara,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.450912311984,26.120118966523
 5 Lacul Tei,functionale,Functionare normala,-,,#008217,44.4628725,26.1204375
 F6,functionale,Functionare normala,-,,#008217,44.427067,26.1205503
 1 Bis Zona I,functionale,Functionare normala,-,,#008217,44.386231715331,26.120579547003
@@ -629,18 +629,18 @@ F6,functionale,Functionare normala,-,,#008217,44.427067,26.1205503
 12 Foișor,functionale,Functionare normala,-,,#008217,44.417799604922,26.121324108352
 4 Cheile Zanoagei,functionale,Functionare normala,-,,#008217,44.458492884321,26.121422246091
 4 Labirint,functionale,Functionare normala,-,,#008217,44.430035348188,26.121550365687
-30 Stefan cel Mare,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.4517649,26.1215781
+30 Stefan cel Mare,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.4517649,26.1215781
 4 Mosilor,functionale,Functionare normala,-,,#008217,44.447126919499,26.121893601914
 ICB,functionale,Functionare normala,-,,#008217,44.462771,26.121958
 Sala de Sport UTCB,functionale,Functionare normala,-,,#008217,44.464046,26.121958
 6 Zona I,functionale,Functionare normala,-,,#008217,44.378799,26.122111
 3 Cheile Zanoagei,functionale,Functionare normala,-,,#008217,44.461582573308,26.122357997099
 11 Foișor,functionale,Functionare normala,-,,#008217,44.418630166332,26.122753704537
-5 Mosilor,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.449580024163,26.122853849226
+5 Mosilor,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.449580024163,26.122853849226
 Asociatia Diaconia,functionale,Functionare normala,-,,#008217,44.414968,26.123107
 13 Foișor,functionale,Functionare normala,-,,#008217,44.42005700227,26.123356994652
 14 Foișor,functionale,Functionare normala,-,,#008217,44.421044311597,26.123675134747
-1 Colentina,avarii,Lucrari modernizare retea termoficare,Oprire ACC/INC,24.10.2024 07:00,#e0002b,44.452127590305,26.12367664304
+1 Colentina,avarii,"Lucrari de reabilitare retea primara-POIM aferente LOT 5,in zona Stefan Cel Mare-Mosilor-Masina de Paine-Luncsoara-Aleea Circului-Barbu Vacarescu",Oprire ACC/INC,25.10.2024 23:30,#e0002b,44.452127590305,26.12367664304
 3 Labirint,functionale,Functionare normala,-,,#008217,44.4310235807,26.12427751447
 2 Cheile Zanoagei,functionale,Functionare normala,-,,#008217,44.460380612534,26.124608065815
 2 Mosilor,functionale,Functionare normala,-,,#008217,44.448063221244,26.124641248663
@@ -717,7 +717,7 @@ S14,functionale,Functionare normala,-,,#008217,44.429671,26.1335993
 Propriu 1,functionale,Functionare normala,-,,#008217,44.3885859,26.1340851
 64 Colentina,functionale,Functionare normala,-,,#008217,44.4625036,26.1341763
 S6,functionale,Functionare normala,-,,#008217,44.4288294,26.1341874
-D18 Mihai Bravu,avarii,Lucrari PT,Oprire ACC,21.10.2024 12:00,#e0002b,44.438360802765,26.134342495818
+D18 Mihai Bravu,functionale,Functionare normala,-,,#008217,44.438360802765,26.134342495818
 4 Theodor Speranţia,functionale,Functionare normala,-,,#008217,44.427643772709,26.134450464567
 2 Vitan,functionale,Functionare normala,-,,#008217,44.413759804623,26.13449706238
 4 Iancului,functionale,Functionare normala,-,,#008217,44.441143,26.134771
@@ -731,7 +731,7 @@ Imobil Nicolau,functionale,Functionare normala,-,,#008217,44.460493,26.135336
 SC APA NOVA- sediu COGRM,functionale,Functionare normala,-,,#008217,44.407111,26.135694
 D11 Mihai Bravu,functionale,Functionare normala,-,,#008217,44.4393926,26.1357183
 V.M.,functionale,Functionare normala,-,,#008217,44.405862,26.13574
-22 Pantelimon,avarii,Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum,Oprire ACC,21.10.2024 14:00,#e0002b,44.444295112246,26.135933408101
+22 Pantelimon,functionale,Functionare normala,-,,#008217,44.444295112246,26.135933408101
 3 Iancului,functionale,Functionare normala,-,,#008217,44.4419354,26.1360142
 3 Unităţii,functionale,Functionare normala,-,,#008217,44.424308266726,26.136026253564
 202 Mihai Bravu,functionale,Functionare normala,-,,#008217,44.435393614885,26.136074665796
@@ -815,9 +815,9 @@ H.B-E.,functionale,Functionare normala,-,,#008217,44.402975,26.147546
 S.M.,functionale,Functionare normala,-,,#008217,44.403087,26.147665
 2 Nicolae Pascu,functionale,Functionare normala,-,,#008217,44.409458837818,26.147745319745
 24A,functionale,Functionare normala,-,,#008217,44.425405898109,26.147888822752
-2 Colentina Socului,functionale,Functionare normala,-,,#008217,44.453086246008,26.147966500234
+2 Colentina Socului,avarii,Remediere avarie retea primara,Oprire ACC/INC,22.10.2024 10:00,#e0002b,44.453086246008,26.147966500234
 SC STARCONFEX,functionale,Functionare normala,-,,#008217,44.407479,26.14803
-3 Colentina Socului,functionale,Functionare normala,-,,#008217,44.4522064,26.1480302
+3 Colentina Socului,avarii,Remediere avarie retea primara,Oprire ACC/INC,22.10.2024 10:00,#e0002b,44.4522064,26.1480302
 5 Iancului,functionale,Functionare normala,-,,#008217,44.4425794,26.1481048
 6Catelu,functionale,Functionare normala,-,,#008217,44.429262907936,26.148194990025
 Filiala ICEMENERG,functionale,Functionare normala,-,,#008217,44.405056,26.148556
@@ -829,7 +829,7 @@ SC.4Catelu,functionale,Functionare normala,-,,#008217,44.42891036297,26.14869501
 2 Tomis,functionale,Functionare normala,-,,#008217,44.415582511383,26.149921086738
 9 Catelu,functionale,Functionare normala,-,,#008217,44.429737048126,26.150138060181
 4' Pantelimon,functionale,Functionare normala,-,,#008217,44.444054,26.150148
-4 Colentina Socului,functionale,Functionare normala,-,,#008217,44.451935552735,26.150178060912
+4 Colentina Socului,avarii,Remediere avarie retea primara,Oprire ACC/INC,22.10.2024 10:00,#e0002b,44.451935552735,26.150178060912
 SC.2Catelu-module,functionale,Functionare normala,-,,#008217,44.427158,26.150445
 2Catelu,functionale,Functionare normala,-,,#008217,44.427161203459,26.150486465649
 A2 Basarabia,functionale,Functionare normala,-,,#008217,44.4329235,26.1509421
