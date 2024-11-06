@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":40,
+    "Timp":50,
     "Info":"intrare 5 artere, iesire 4 artere",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -72,7 +72,7 @@
   {
     "Denumire":"Giurgiu",
     "Timp":90,
-    "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
+    "Info":"Pe sensul de intrare 3 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ, in sistem semaforizat.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -122,7 +122,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":120,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de iesire. Coloana in asteptare 3 km.",
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"red",
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":180,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere. Trafic intens-numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare iesire 7 km.",
+    "Timp":240,
+    "Info":"Intrare: 2 artere; Iesire: 3 artere. Trafic intens-numar mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara. Coloana in asteptare iesire 10 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":60,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera",
+    "Timp":30,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
