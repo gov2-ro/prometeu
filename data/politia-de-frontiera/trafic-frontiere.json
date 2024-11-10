@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":90,
+    "Timp":150,
     "Info":"intrare 4 artere, iesire 4 artere",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -121,21 +121,21 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":80,
-    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar mare de automarfare prezente la verificarile de frontiera.",
+    "Timp":50,
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire: 2 artera.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":40,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
