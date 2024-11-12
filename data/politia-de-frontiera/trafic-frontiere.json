@@ -31,8 +31,8 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
+    "Timp":120,
+    "Info":"Intrare: 1 artera; Iesire: 4 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"red",
@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":150,
+    "Timp":90,
     "Info":"intrare 5 artere, iesire 4 artere",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -121,7 +121,7 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":80,
+    "Timp":110,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de iesire din tara.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
@@ -131,7 +131,7 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":110,
+    "Timp":100,
     "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":210,
+    "Timp":120,
     "Info":"Intrare: 1 arteră; Iesire 1 arteră. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":60,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -251,11 +251,11 @@
   },
   {
     "Denumire":"Turnu Măgurele",
-    "Timp":10,
+    "Timp":100,
     "Info":"",
     "Latitude":"43.71179",
     "Longitude":"24.885608",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -281,8 +281,8 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":80,
-    "Info":"intrare 2 artere, iesire 3 artere.",
+    "Timp":160,
+    "Info":"intrare 2 artere, iesire 3 artere.Numar foarte mare de aurtomarfare care se prezinta la iesirea din tara.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
     "Status":"red",
