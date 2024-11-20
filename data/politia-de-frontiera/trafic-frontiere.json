@@ -21,7 +21,7 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":90,
+    "Timp":110,
     "Info":"Intrare: 2 artere; Iesire: 2 artere; numar mare de automarfare prezentate la control pe sensul de iesire din tara",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
@@ -31,8 +31,8 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
+    "Timp":130,
+    "Info":"Intrare: 2 artere; Iesire: 3 artere; Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din tara.",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"red",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":200,
+    "Timp":240,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -101,7 +101,7 @@
   },
   {
     "Denumire":"Jimbolia",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.75220459046048",
     "Longitude":"20.70119261476202",
@@ -181,7 +181,7 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":150,
+    "Timp":210,
     "Info":"Intrare: 1 artera; Iesire 1 artera.Trafic intens, numar mare de automarfare prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,11 +271,11 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":30,
+    "Timp":10,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
