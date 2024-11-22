@@ -15,7 +15,7 @@ SC AUTOCENTER SA,functionale,Functionare normala,-,,#008217,44.432907,26.000205
 DACIA SERVICE SA,functionale,Functionare normala,-,,#008217,44.431919,26.000323
 2 Roșu,functionale,Functionare normala,-,,#008217,44.439517085409,26.003813932712
 RATB-ETA - Autobaza Militari,functionale,Functionare normala,-,,#008217,44.433033,26.003878
-PT ALCAZ,avarii,"Remediere avarie în punctul termic pe circuitul primar,str. Valea Cascadelor nr.3-5",Oprire ACC/INC,22.11.2024 15:30,#e0002b,44.42945406203,26.004468982079
+PT ALCAZ,functionale,Functionare normala,-,,#008217,44.42945406203,26.004468982079
 14 Păcii,functionale,Functionare normala,-,,#008217,44.433220051511,26.005008634444
 1 Roșu,functionale,Functionare normala,-,,#008217,44.43783,26.00627
 10 Liniei,functionale,Functionare normala,-,,#008217,44.429674878808,26.009597261515
@@ -79,13 +79,13 @@ MILITARI - 4 Placare,functionale,Functionare normala,-,,#008217,44.432847663079,
 3 Dreptății,functionale,Functionare normala,-,,#008217,44.4371,26.02776
 3/7',functionale,Functionare normala,-,,#008217,44.413681030273,26.027856
 MILITARI - 7 Placare,functionale,Functionare normala,-,,#008217,44.431643490056,26.028715673841
-Grădinița nr. 250,avarii,Izolare racord primar pentru înlocuit conductă Dn 100 mm - (str.Dealul Țugulea nr.35),Oprire ACC/INC,22.11.2024 22:30,#e0002b,44.43813,26.02987
+Grădinița nr. 250,functionale,Functionare normala,-,,#008217,44.43813,26.02987
 2 Veteranilor,functionale,Functionare normala,-,,#008217,44.436340959676,26.030493178573
 3 Virtuții,functionale,Functionare normala,-,,#008217,44.436352149169,26.030516679265
 SC 4/3 -MODULE TERMICE,functionale,Functionare normala,-,,#008217,44.42381426852,26.031043593722
 2/7',functionale,Functionare normala,-,,#008217,44.416145324707,26.03119
 SC 3/3 -MODULE TERMICE,functionale,Functionare normala,-,,#008217,44.425688835247,26.031213842144
-4 Virtuții,avarii,Remediere avarie rețea secundară pe circuitul de încălzire - (str.Orșova),Oprire INC,22.11.2024 15:30,#e0002b,44.441178047714,26.031357548666
+4 Virtuții,deficiente,"Lipsa parametri pentru livrare încălzire din cauza echilibrarii hidraulice a circuitului secundar de încălzire, str. Dreptății nr.22",Deficienta INC,22.11.2024 22:30,#ffe53e,44.441178047714,26.031357548666
 2 Virtuții,functionale,Functionare normala,-,,#008217,44.439116515733,26.031849327137
 4/7',functionale,Functionare normala,-,,#008217,44.417213439941,26.03202
 Ct Desisului,functionale,Functionare normala,-,,#008217,44.444515228271,26.032051086426
@@ -319,7 +319,7 @@ ROMEXPO S.A. - ITIB 1,functionale,Functionare normala,-,,#008217,44.474805,26.06
 SOFTCHIM,functionale,Functionare normala,-,,#008217,44.442283630371,26.06697
 Marinescu,functionale,Functionare normala,-,,#008217,44.434689,26.066986
 MINISTERUL CHIMIEI,functionale,Functionare normala,-,,#008217,44.440914154053,26.06721
-MFA Panduri,avarii,Remediere avarie racord primar - Soseaua Panduri,Oprire ACC/INC,22.11.2024 20:00,#e0002b,44.427446,26.067354
+MFA Panduri,functionale,Functionare normala,-,,#008217,44.427446,26.067354
 "bloc 1, bloc 2 (cod PT: 50039)",functionale,Functionare normala,-,,#008217,44.420016,26.06743
 Ct Eroilor 2,functionale,Functionare normala,-,,#008217,44.4317365,26.0675335
 Soldat Croitoru,functionale,Functionare normala,-,,#008217,44.405528758357,26.067639004519
@@ -349,7 +349,7 @@ Av. Sanatescu,functionale,Functionare normala,-,,#008217,44.46557,26.070469
 DTM,functionale,Functionare normala,-,,#008217,44.463692,26.071292
 2-1 Mai,functionale,Functionare normala,-,,#008217,44.461927683738,26.071466776364
 150 Grivita,functionale,Functionare normala,-,,#008217,44.449723,26.071521
-1 Panduri,functionale,Functionare normala,-,,#008217,44.423743263416,26.071555777041
+1 Panduri,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 23:30,#ffe53e,44.423743263416,26.071555777041
 156 Grivita,functionale,Functionare normala,-,,#008217,44.449731,26.071612
 MODUL TERMIC Witting,functionale,Functionare normala,-,,#008217,44.442853,26.071616
 6 Rahova,functionale,Functionare normala,-,,#008217,44.409858176973,26.071649205607
@@ -418,12 +418,12 @@ Univ. Stiinte Agronom. si Med. Veterinara Buc.- Facultatea de Biotehnologii (CIO
 Ct Baneasa 1,functionale,Functionare normala,-,,#008217,44.4921402,26.0809988
 3 din 13 Septembrie,functionale,Functionare normala,-,,#008217,44.424305273891,26.081255079824
 Doina,functionale,Functionare normala,-,,#008217,44.408684,26.081339
-Grădiniţa Nr.268 Scoala Nr.128,avarii,Manevre sectorizare racord primar,Oprire ACC/INC,22.11.2024 20:00,#e0002b,44.423287,26.081435
+Grădiniţa Nr.268 Scoala Nr.128,functionale,Functionare normala,-,,#008217,44.423287,26.081435
 Hotel CONTINENTAL,functionale,Functionare normala,-,,#008217,44.429852,26.08192
 Atelier Vicarb,functionale,Functionare normala,-,,#008217,44.449766,26.082168
 2 P-ta Victoriei,functionale,Functionare normala,-,,#008217,44.451489269822,26.082532012598
 MApN,functionale,Functionare normala,-,,#008217,44.429295,26.082604
-5 Chirigiu,functionale,Functionare normala,-,,#008217,44.416499595498,26.082742952836
+5 Chirigiu,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 23:30,#ffe53e,44.416499595498,26.082742952836
 Ct Baneasa 2,functionale,Functionare normala,-,,#008217,44.4917551,26.0828596
 Ct Pavel Constantin,functionale,Functionare normala,-,,#008217,44.3900175,26.0830356
 Ct Ferentari Depou,functionale,Functionare normala,-,,#008217,44.3881308,26.0841628
@@ -437,14 +437,14 @@ Aviatorilor & Office Building S.R.L,functionale,Functionare normala,-,,#008217,4
 2 Ilie Pintilie,functionale,Functionare normala,-,,#008217,44.451554,26.089796
 9 Farado,functionale,Functionare normala,-,,#008217,44.385945117558,26.089946635982
 6 Farado,functionale,Functionare normala,-,,#008217,44.38686381063,26.090820702892
-Giurgiu Farado,functionale,Functionare normala,-,,#008217,44.385540131115,26.091000978619
+Giurgiu Farado,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 23:30,#ffe53e,44.385540131115,26.091000978619
 Izvorul Cosbuc,functionale,Functionare normala,-,,#008217,44.422754,26.0911198
-1 Ilie Pintilie,avarii,Remediere avarie în punctul termic pe circuitul primar,Oprire ACC/INC,22.11.2024 16:00,#e0002b,44.452955,26.091503
+1 Ilie Pintilie,functionale,Functionare normala,-,,#008217,44.452955,26.091503
 Ct Doctor Sion,functionale,Functionare normala,-,,#008217,44.439425,26.0917943
 12 Giurgiu,functionale,Functionare normala,-,,#008217,44.3904048,26.0918888
 103A,functionale,Functionare normala,-,,#008217,44.430967,26.091934
 11 Giurgiu,functionale,Functionare normala,-,,#008217,44.3909303,26.092184
-1 Giurgiu,functionale,Functionare normala,-,,#008217,44.3925916653,26.092301441168
+1 Giurgiu,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 23:30,#ffe53e,44.3925916653,26.092301441168
 Ct Victoriei,functionale,Functionare normala,-,,#008217,44.4426509,26.0926711
 Ct Luterana,functionale,Functionare normala,-,,#008217,44.4388049,26.0932006
 Ct Viilor,functionale,Functionare normala,-,,#008217,44.4079566,26.0933466
@@ -486,15 +486,15 @@ Tribunal,functionale,Functionare normala,-,,#008217,44.428549,26.098555
 61-63 Dorobanti,functionale,Functionare normala,-,,#008217,44.450254,26.098833
 1 Serban Voda,functionale,Functionare normala,-,,#008217,44.411041346985,26.098865614202
 2 Aviatiei,functionale,Functionare normala,-,,#008217,44.480132787097,26.098884270277
-11 Dorobanti,avarii,Remediere avarie în punctul termic pe circuitul primar,Oprire ACC/INC,22.11.2024 16:00,#e0002b,44.448236,26.099704
+11 Dorobanti,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 21:00,#ffe53e,44.448236,26.099704
 Perla,functionale,Functionare normala,-,,#008217,44.453627,26.099794
 Radu Beller,functionale,Functionare normala,-,,#008217,44.462775003786,26.099819753058
 CT Stoian Militaru,functionale,Functionare normala,-,,#008217,44.3950411,26.0998712
 Cosmonautilor,functionale,Functionare normala,-,,#008217,44.444995,26.099916
 Luica,functionale,Functionare normala,-,,#008217,44.379829215217,26.100213069996
-CT Floreasca,avarii,Remediere avarie canal distanta,Oprire INC,22.11.2024 18:00,#e0002b,44.4628711,26.1002561
+CT Floreasca,functionale,Functionare normala,-,,#008217,44.4628711,26.1002561
 2 Vifornita,functionale,Functionare normala,-,,#008217,44.385130342076,26.100341665398
-3 Aviatiei,deficiente,Lipsa parametri pentru livrare încălzire,Deficienta INC,22.11.2024 16:00,#ffe53e,44.483988987903,26.100412519401
+3 Aviatiei,functionale,Functionare normala,-,,#008217,44.483988987903,26.100412519401
 Floreasca,functionale,Functionare normala,-,,#008217,44.460711,26.100444
 Garajul Parlamentului,functionale,Functionare normala,-,,#008217,44.4181169,26.1004637
 Ct Scala,functionale,Functionare normala,-,,#008217,44.4404041,26.1006095
@@ -509,7 +509,7 @@ Modul Termic - Scoala 110,functionale,Functionare normala,-,,#008217,44.38755,26
 Modul Termic - Spitalul Alexandru Obregia ( Creșa 25 ) / Stationar de zi,functionale,Functionare normala,-,,#008217,44.3868396,26.1019417
 1 Zona IV,functionale,Functionare normala,-,,#008217,44.381342962667,26.102071038049
 Huedin,functionale,Functionare normala,-,,#008217,44.383094497956,26.102480601346
-2 Stefan cel Mare,avarii,Lucrari în punctul termic pe circuitul primar,Oprire ACC/INC,22.11.2024 15:00,#e0002b,44.452473887142,26.102797744243
+2 Stefan cel Mare,deficiente,Funcționare deficitară pentru furnizarea  încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice,Deficienta INC,22.11.2024 23:30,#ffe53e,44.452473887142,26.102797744243
 P 5 A,functionale,Functionare normala,-,,#008217,44.425361,26.10306
 Ct Marasesti 3,functionale,Functionare normala,-,,#008217,44.4168825,26.1035795
 Ct Marasesti 9-10,functionale,Functionare normala,-,,#008217,44.4168825,26.1035795
@@ -568,7 +568,7 @@ E1,functionale,Functionare normala,-,,#008217,44.427417,26.1124128
 Ministerul de Finante,functionale,Functionare normala,-,,#008217,44.419647,26.112575
 BCR Unirea,functionale,Functionare normala,-,,#008217,44.42675,26.112583
 4 Mărăşeşti,functionale,Functionare normala,-,,#008217,44.423072403401,26.112586271896
-4 Zona II,avarii,Înlocuire conducta incalzire pe canal distanta,Oprire INC,22.11.2024 15:00,#e0002b,44.378035325242,26.112948168355
+4 Zona II,avarii,Înlocuire conducta incalzire pe canal distanta,Oprire INC,22.11.2024 20:30,#e0002b,44.378035325242,26.112948168355
 SIAC-TIMB,functionale,Functionare normala,-,,#008217,44.462546,26.113097
 5 Mărăşeşti,functionale,Functionare normala,-,,#008217,44.420436778383,26.113213832351
 5 Zona II,functionale,Functionare normala,-,,#008217,44.38387078867,26.113497720948
@@ -579,11 +579,11 @@ Posta,functionale,Functionare normala,-,,#008217,44.383052351322,26.114064589621
 Institutul Boli Infectioase Matei Bals,functionale,Functionare normala,-,,#008217,44.454604,26.114279
 Metalurgiei,functionale,Functionare normala,-,,#008217,44.386737457202,26.114452759835
 Complex Comercial,functionale,Functionare normala,-,,#008217,44.39693,26.11472
-Opanez,functionale,Functionare normala,-,,#008217,44.461534099323,26.115513157822
+Opanez,deficiente,Funcționare deficitară pentru furnizarea  încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice,Deficienta INC,22.11.2024 23:30,#ffe53e,44.461534099323,26.115513157822
 Modul Bl. 23,functionale,Functionare normala,-,,#008217,44.453015,26.115555
-Ramuri Tei,deficiente,Funcționare deficitară pentru furnizarea încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice,Deficienta INC,22.11.2024 23:30,#ffe53e,44.4635268,26.1157015
+Ramuri Tei,deficiente,Funcționare deficitară a apei calde de consum si a încălzirii la ore de consum,Deficienta ACC/INC,29.11.2024 23:30,#ffe53e,44.4635268,26.1157015
 Modul Termic - Colegiul National Octav Onicescu,functionale,Functionare normala,-,,#008217,44.3862695,26.1157798
-3 Mărăşeşti,avarii,Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl M49,Oprire ACC,22.11.2024 15:30,#e0002b,44.421413449341,26.115808161431
+3 Mărăşeşti,functionale,Functionare normala,-,,#008217,44.421413449341,26.115808161431
 Plugarilor,functionale,Functionare normala,-,,#008217,44.412190063559,26.115848218678
 D.C.,functionale,Functionare normala,-,,#008217,44.415619,26.115967
 T.S.,functionale,Functionare normala,-,,#008217,44.415619,26.115967
@@ -707,7 +707,7 @@ C16 Mihai Bravu,functionale,Functionare normala,-,,#008217,44.4421889,26.1328203
 Ilarie Chendi,functionale,Functionare normala,-,,#008217,44.440041276184,26.133233349226
 4 Berceni Oltenita,functionale,Functionare normala,-,,#008217,44.38692,26.13325
 1 Călăraşi,functionale,Functionare normala,-,,#008217,44.431944022885,26.133332361636
-6 Colentina,deficiente,Funcționare deficitară pentru furnizarea încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice,Deficienta INC,22.11.2024 23:30,#ffe53e,44.4605019,26.1334184
+6 Colentina,functionale,Functionare normala,-,,#008217,44.4605019,26.1334184
 IN CITY,functionale,Functionare normala,-,,#008217,44.420154,26.133433
 INTERMACEDONIA,functionale,Functionare normala,-,,#008217,44.441924,26.133466
 Mecanica Fina,functionale,Functionare normala,-,,#008217,44.446273,26.133503
@@ -743,7 +743,7 @@ Sectia 8 Politie,functionale,Functionare normala,-,,#008217,44.438772,26.136102
 Clinica Sfanta Lucia,functionale,Functionare normala,-,,#008217,44.40575,26.137278
 D5 Mihai Bravu,functionale,Functionare normala,-,,#008217,44.4367743,26.1373873
 6 Berceni Oltenita,functionale,Functionare normala,-,,#008217,44.384965068941,26.137433754027
-21 Pantelimon,avarii,Remediere avarie rețea secundară pe circuitul de apă caldă de consum,Oprire ACC,22.11.2024 15:30,#e0002b,44.444396965841,26.137619798786
+21 Pantelimon,functionale,Functionare normala,-,,#008217,44.444396965841,26.137619798786
 17 Răcari,functionale,Functionare normala,-,,#008217,44.414470607495,26.137660175601
 1 Anexa,functionale,Functionare normala,-,,#008217,44.4298755,26.1376994
 Dristor Insulă,functionale,Functionare normala,-,,#008217,44.422659710699,26.137736210591
@@ -752,7 +752,7 @@ Mihai Bravu Vest,functionale,Functionare normala,-,,#008217,44.4296585,26.137918
 8 Doamna Ghica,functionale,Functionare normala,-,,#008217,44.459524667349,26.138342014877
 U1,functionale,Functionare normala,-,,#008217,44.4238669,26.1383645
 1 Colentina 3,functionale,Functionare normala,-,,#008217,44.467482042644,26.138744484166
-Ct. A1 Dimitrov,avarii,Avarie Apa Nova. Lipsa apa rece la centrala termica,Oprire ACC,22.11.2024 16:00,#e0002b,44.4488864,26.1387796
+Ct. A1 Dimitrov,functionale,Functionare normala,-,,#008217,44.4488864,26.1387796
 2 Iancului,functionale,Functionare normala,-,,#008217,44.442193,26.139021
 15 Răcari,functionale,Functionare normala,-,,#008217,44.414149569828,26.139050487211
 1 Vitan,functionale,Functionare normala,-,,#008217,44.410246153624,26.139067951241
@@ -865,7 +865,7 @@ INCERC,functionale,Functionare normala,-,,#008217,44.440664,26.160846
 7 C4/2,functionale,Functionare normala,-,,#008217,44.422510319579,26.161838957175
 C4,functionale,Functionare normala,-,,#008217,44.43248485554,26.162094813778
 7 Placare-T,functionale,Functionare normala,-,,#008217,44.412199439161,26.162141939986
-5 C4/2,functionale,Functionare normala,-,,#008217,44.414426037014,26.162280048278
+5 C4/2,avarii,Avarie Apa Nova - lipsa apă rece la punctul termic - Bd. Camil Ressu,Oprire ACC,22.11.2024 23:30,#e0002b,44.414426037014,26.162280048278
 24 Delfinului,functionale,Functionare normala,-,,#008217,44.444122161601,26.162282683397
 6C4/2,functionale,Functionare normala,-,,#008217,44.419406578109,26.162431708624
 7 Muncii,functionale,Functionare normala,-,,#008217,44.436606873327,26.16290386386
@@ -944,7 +944,7 @@ Spitalul Malaxa,functionale,Functionare normala,-,,#008217,44.438545,26.178922
 10 C5/2,functionale,Functionare normala,-,,#008217,44.413851847201,26.179507746862
 24 C5/2,functionale,Functionare normala,-,,#008217,44.410460896109,26.180190150428
 15 ABC,functionale,Functionare normala,-,,#008217,44.4398103,26.1816397
-SC IOR SA,avarii,"Izolare tronson CG5-CGS-CS15Placare-CS15Anexa, pentru depistare si remediere avarii",Oprire ACC/INC,22.11.2024 23:00,#e0002b,44.410972,26.181806
+SC IOR SA,functionale,Functionare normala,-,,#008217,44.410972,26.181806
 Cosmos Vechi,functionale,Functionare normala,-,,#008217,44.4415445,26.1821383
 Cosmos Extindere,functionale,Functionare normala,-,,#008217,44.441399551104,26.182280633416
 16 C5/2,functionale,Functionare normala,-,,#008217,44.413559535412,26.18399300413
