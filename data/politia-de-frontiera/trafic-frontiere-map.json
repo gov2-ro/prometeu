@@ -82,7 +82,7 @@
   {
     "Denumire":"Borș",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere",
+    "Info":"Intrare: 3 artere; Iesire: 4 artere",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"green",
@@ -92,7 +92,7 @@
   {
     "Denumire":"Borș",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere",
+    "Info":"Intrare: 3 artere; Iesire: 4 artere",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
     "Status":"green",
@@ -101,11 +101,11 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,21 +181,21 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":40,
+    "Timp":20,
     "Info":"intrare 1 artera, iesire 1 artera",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":30,
+    "Timp":20,
     "Info":"intrare 1 artera, iesire 1 artera",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -381,7 +381,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":100,
+    "Timp":120,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -391,7 +391,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":40,
+    "Timp":50,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -681,7 +681,7 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":50,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
@@ -701,41 +701,41 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":30,
+    "Timp":20,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac",
-    "Timp":30,
+    "Timp":20,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
+    "Timp":30,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
+    "Timp":30,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -762,7 +762,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 1 km.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 1.5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -771,8 +771,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":70,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 1 km.",
+    "Timp":60,
+    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 1.5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -801,11 +801,11 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -871,201 +871,201 @@
   },
   {
     "Denumire":"Petea",
+    "Timp":30,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Petea",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Petea",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Salonta",
+    "Timp":10,
+    "Info":"intrare 2 artere ; iesire 2 artere.",
+    "Latitude":"46.765809023770025",
+    "Longitude":"21.488850120000052",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Salonta",
+    "Timp":10,
+    "Info":"intrare 2 artere ; iesire 2 artere.",
+    "Latitude":"46.765809023770025",
+    "Longitude":"21.488850120000052",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Salonta",
+    "Timp":10,
+    "Info":"intrare 1 artera ; iesire 1 artera",
+    "Latitude":"46.765809023770025",
+    "Longitude":"21.488850120000052",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Salonta",
+    "Timp":10,
+    "Info":"intrare 1 artera ; iesire 1 artera",
+    "Latitude":"46.765809023770025",
+    "Longitude":"21.488850120000052",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
     "Timp":40,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"orange",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Salonta",
-    "Timp":10,
-    "Info":"intrare 2 artere ; iesire 2 artere.",
-    "Latitude":"46.765809023770025",
-    "Longitude":"21.488850120000052",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Salonta",
-    "Timp":10,
-    "Info":"intrare 2 artere ; iesire 2 artere.",
-    "Latitude":"46.765809023770025",
-    "Longitude":"21.488850120000052",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Salonta",
-    "Timp":10,
-    "Info":"intrare 1 artera ; iesire 1 artera",
-    "Latitude":"46.765809023770025",
-    "Longitude":"21.488850120000052",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Salonta",
-    "Timp":10,
-    "Info":"intrare 1 artera ; iesire 1 artera",
-    "Latitude":"46.765809023770025",
-    "Longitude":"21.488850120000052",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":60,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -1391,111 +1391,111 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":60,
+    "Timp":40,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Vicovu de Sus",
+    "Timp":10,
+    "Info":"Intrare: 2 artere; Iesire 1 artera",
+    "Latitude":"47.946829",
+    "Longitude":"25.62072",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Vicovu de Sus",
+    "Timp":10,
+    "Info":"Intrare: 2 artere; Iesire 1 artera",
+    "Latitude":"47.946829",
+    "Longitude":"25.62072",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Vârșand",
+    "Timp":10,
+    "Info":"intrare 2 artere ; iesire 2 artere",
+    "Latitude":"46.628854660346704",
+    "Longitude":"21.332949395557307",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Vârșand",
+    "Timp":10,
+    "Info":"intrare 2 artere ; iesire 2 artere",
+    "Latitude":"46.628854660346704",
+    "Longitude":"21.332949395557307",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Vârșand",
+    "Timp":20,
+    "Info":"intrare 3 artere, iesire 2 artere.",
+    "Latitude":"46.628854660346704",
+    "Longitude":"21.332949395557307",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Vârșand",
+    "Timp":20,
+    "Info":"intrare 3 artere, iesire 2 artere.",
+    "Latitude":"46.628854660346704",
+    "Longitude":"21.332949395557307",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Zimnicea",
+    "Timp":100,
+    "Info":"platforma ferry-boat care face legătura între P.T.F Bechet și P.T.F Oryahovo, își suspendă temporar activitatea din cauza condițiilor meteo nefavorabile",
+    "Latitude":"43.6258",
+    "Longitude":"25.376208",
+    "Status":"red",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Zimnicea",
+    "Timp":100,
+    "Info":"platforma ferry-boat care face legătura între P.T.F Bechet și P.T.F Oryahovo, își suspendă temporar activitatea din cauza condițiilor meteo nefavorabile",
+    "Latitude":"43.6258",
+    "Longitude":"25.376208",
+    "Status":"red",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Zimnicea",
+    "Timp":100,
+    "Info":"platforma ferry-boat care face legătura între P.T.F Bechet și P.T.F Oryahovo, își suspendă temporar activitatea din cauza condițiilor meteo nefavorabile",
+    "Latitude":"43.6258",
+    "Longitude":"25.376208",
     "Status":"red",
     "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Vicovu de Sus",
-    "Timp":10,
-    "Info":"Intrare: 2 artere; Iesire 1 artera",
-    "Latitude":"47.946829",
-    "Longitude":"25.62072",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Vicovu de Sus",
-    "Timp":10,
-    "Info":"Intrare: 2 artere; Iesire 1 artera",
-    "Latitude":"47.946829",
-    "Longitude":"25.62072",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Vârșand",
-    "Timp":10,
-    "Info":"intrare 2 artere ; iesire 2 artere",
-    "Latitude":"46.628854660346704",
-    "Longitude":"21.332949395557307",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Vârșand",
-    "Timp":10,
-    "Info":"intrare 2 artere ; iesire 2 artere",
-    "Latitude":"46.628854660346704",
-    "Longitude":"21.332949395557307",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Vârșand",
-    "Timp":20,
-    "Info":"intrare 3 artere, iesire 2 artere.",
-    "Latitude":"46.628854660346704",
-    "Longitude":"21.332949395557307",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Vârșand",
-    "Timp":20,
-    "Info":"intrare 3 artere, iesire 2 artere.",
-    "Latitude":"46.628854660346704",
-    "Longitude":"21.332949395557307",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Zimnicea",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"43.6258",
-    "Longitude":"25.376208",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Zimnicea",
-    "Timp":10,
-    "Info":"",
+    "Timp":100,
+    "Info":"platforma ferry-boat care face legătura între P.T.F Bechet și P.T.F Oryahovo, își suspendă temporar activitatea din cauza condițiilor meteo nefavorabile",
     "Latitude":"43.6258",
     "Longitude":"25.376208",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Zimnicea",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"43.6258",
-    "Longitude":"25.376208",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Zimnicea",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"43.6258",
-    "Longitude":"25.376208",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   }
