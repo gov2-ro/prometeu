@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":250,
+    "Timp":150,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -21,27 +21,27 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":20,
+    "Timp":40,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Borș II",
-    "Timp":20,
+    "Timp":50,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":120,
+    "Timp":180,
     "Info":"intrare 5 artere, iesire 4 artere, trafic intens multe mijloace de transport prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":30,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":40,
+    "Timp":90,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -131,8 +131,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":60,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 1 km.",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire: 3 artere. Coloana in asteptare iesire 2 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -222,7 +222,7 @@
   {
     "Denumire":"Siret",
     "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire 2 artere.",
+    "Info":"Intrare: 1 artera; Iesire 3 artere.",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
     "Status":"orange",
@@ -272,7 +272,7 @@
   {
     "Denumire":"Vama Veche",
     "Timp":20,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
+    "Info":"Intrare 1 artera, iesire 1 artera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
     "Status":"green",
