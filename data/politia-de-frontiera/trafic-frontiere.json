@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":50,
+    "Timp":30,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":30,
+    "Timp":40,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":90,
+    "Timp":50,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -121,18 +121,18 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":50,
+    "Timp":80,
     "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe ambele sensuri.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire: 3 artere. Coloana in asteptare iesire 2 km.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 3 artere. Coloana in asteptare iesire 1.5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":30,
+    "Timp":60,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -221,11 +221,11 @@
   },
   {
     "Denumire":"Siret",
-    "Timp":40,
-    "Info":"Intrare: 1 artera; Iesire 3 artere.",
+    "Timp":20,
+    "Info":"Intrare: 1 artera; Iesire 2 artere.",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -271,7 +271,7 @@
   },
   {
     "Denumire":"Vama Veche",
-    "Timp":20,
+    "Timp":10,
     "Info":"Intrare 1 artera, iesire 1 artera",
     "Latitude":"43.739220302193964",
     "Longitude":"28.56089651677064",
@@ -281,11 +281,11 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":20,
-    "Info":"intrare 3 artere, iesire 2 artere.",
+    "Timp":50,
+    "Info":"intrare 3 artere, iesire 3 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
