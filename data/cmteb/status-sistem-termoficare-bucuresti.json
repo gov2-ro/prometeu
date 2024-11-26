@@ -274,7 +274,7 @@
         "culoare": "#ffe53e",
         "denumire": "MILITARI - 9 Placare",
         "tip": "Deficienta INC",
-        "remediere": "26.11.2024 08:00",
+        "remediere": "26.11.2024 14:00",
         "status": "deficiente",
         "Lat": 44.43117824529,
         "Long": 26.014246680552
@@ -311,7 +311,7 @@
         "culoare": "#ffe53e",
         "denumire": "MILITARI - 2 Placare",
         "tip": "Deficienta INC",
-        "remediere": "26.11.2024 08:00",
+        "remediere": "26.11.2024 14:00",
         "status": "deficiente",
         "Lat": 44.433288752736,
         "Long": 26.015007712397
@@ -398,12 +398,11 @@
         "Long": 26.018762433606
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "10 Aragonitului",
-        "tip": "Deficienta INC",
-        "remediere": "26.11.2024 08:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.440230831727,
         "Long": 26.018854271853
     },
@@ -435,11 +434,12 @@
         "Long": 26.0192828
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - (Ale.Istru)",
+        "culoare": "#e0002b",
         "denumire": "3/6",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "26.11.2024 22:30",
+        "status": "avarii",
         "Lat": 44.413673400879,
         "Long": 26.0202
     },
@@ -558,11 +558,12 @@
         "Long": 26.023468217542
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "5 Desișului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "26.11.2024 14:00",
+        "status": "deficiente",
         "Lat": 44.43489925829,
         "Long": 26.023706494037
     },
@@ -690,7 +691,7 @@
         "culoare": "#ffe53e",
         "denumire": "MILITARI - 4 Placare",
         "tip": "Deficienta INC",
-        "remediere": "26.11.2024 08:00",
+        "remediere": "26.11.2024 14:00",
         "status": "deficiente",
         "Lat": 44.432847663079,
         "Long": 26.027489847615
@@ -1105,11 +1106,12 @@
         "Long": 26.04128
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în modul termic (Timisoara)",
+        "culoare": "#e0002b",
         "denumire": "SC 7/2 - MODULE TERMICE",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "26.11.2024 14:30",
+        "status": "avarii",
         "Lat": 44.427324,
         "Long": 26.041287
     },
@@ -2464,11 +2466,12 @@
         "Long": 26.058723219777
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediat avarie retea primara-  zona pod Basarab",
+        "culoare": "#e0002b",
         "denumire": "Liceul 11 CFR",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "27.11.2024 11:00",
+        "status": "avarii",
         "Lat": 44.453352,
         "Long": 26.058751
     },
@@ -2501,11 +2504,12 @@
         "Long": 26.059298
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediat avarie retea primara-  zona pod Basarab",
+        "culoare": "#e0002b",
         "denumire": "S.C. Gersim Dinamic Real Estate S.R.L.",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "27.11.2024 11:00",
+        "status": "avarii",
         "Lat": 44.45424,
         "Long": 26.059706
     },
@@ -5737,12 +5741,11 @@
         "Long": 26.121550365687
     },
     {
-        "stare": "Funcționare deficitară pentru furnizarea apei calde de consum si a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "30 Stefan cel Mare",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "26.11.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4517649,
         "Long": 26.1215781
     },
@@ -6193,10 +6196,10 @@
         "Long": 26.128912256533
     },
     {
-        "stare": "Funcționare deficitară pentru furnizarea  încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+        "stare": "Funcționare deficitară pentru furnizarea apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
         "culoare": "#ffe53e",
         "denumire": "7 IRTA",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "26.11.2024 23:30",
         "status": "deficiente",
         "Lat": 44.4568374,
@@ -6239,12 +6242,11 @@
         "Long": 26.129300577458
     },
     {
-        "stare": "Funcționare deficitară pentru furnizarea  încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Nada Florilor",
-        "tip": "Deficienta INC",
-        "remediere": "26.11.2024 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461432789918,
         "Long": 26.129386038847
     },
