@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":120,
+    "Timp":90,
     "Info":"intrare 5 artere, iesire 4 artere - Trafic intens - multe mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":60,
+    "Timp":70,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":100,
+    "Timp":90,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -121,17 +121,17 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
+    "Timp":30,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":50,
+    "Timp":30,
     "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare iesire 1 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
@@ -291,11 +291,11 @@
   },
   {
     "Denumire":"Zimnicea",
-    "Timp":10,
-    "Info":"",
+    "Timp":100,
+    "Info":"trafic suspendat temporar-conditii meteo nefavorabile",
     "Latitude":"43.6258",
     "Longitude":"25.376208",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   }
