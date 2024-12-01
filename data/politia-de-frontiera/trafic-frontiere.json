@@ -61,11 +61,11 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":60,
+    "Timp":40,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -132,7 +132,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare pe sensul de iesire: 1km",
+    "Info":"Intrare: 1 artera; Iesire: 2 artere. Coloana in asteptare pe sensul de iesire: 1km",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":60,
+    "Timp":30,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire 1 artera.TRAFIC INTENS, număr foarte mare de camioane prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -251,11 +251,11 @@
   },
   {
     "Denumire":"Turnu Măgurele",
-    "Timp":100,
-    "Info":"trafic suspendat temporar-conditii meteo nefavorabile",
+    "Timp":10,
+    "Info":"",
     "Latitude":"43.71179",
     "Longitude":"24.885608",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
