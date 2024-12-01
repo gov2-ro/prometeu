@@ -31,11 +31,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Timp":20,
+    "Info":"Intrare: 1 artera; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":70,
+    "Timp":60,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -91,7 +91,7 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":340,
+    "Timp":300,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare iesire 1 km.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare pe sensul de iesire: 1km",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -251,11 +251,11 @@
   },
   {
     "Denumire":"Turnu Măgurele",
-    "Timp":10,
-    "Info":"",
+    "Timp":100,
+    "Info":"trafic suspendat temporar-conditii meteo nefavorabile",
     "Latitude":"43.71179",
     "Longitude":"24.885608",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -291,11 +291,11 @@
   },
   {
     "Denumire":"Zimnicea",
-    "Timp":100,
-    "Info":"trafic suspendat temporar-conditii meteo nefavorabile",
+    "Timp":10,
+    "Info":"",
     "Latitude":"43.6258",
     "Longitude":"25.376208",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   }
