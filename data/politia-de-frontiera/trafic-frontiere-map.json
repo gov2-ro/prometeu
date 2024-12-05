@@ -141,7 +141,7 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":40,
     "Info":"Intrare: 1 artera; Iesire: 3 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -341,18 +341,18 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":50,
-    "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
+    "Timp":60,
+    "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Galați",
     "Timp":60,
-    "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de intrare in tara.",
+    "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
     "Status":"red",
@@ -361,28 +361,28 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
+    "Timp":20,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
+    "Timp":20,
     "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":100,
-    "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
+    "Timp":120,
+    "Info":"Pe sensul de intrare 5 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"red",
@@ -391,8 +391,8 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":30,
-    "Info":"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
+    "Timp":50,
+    "Info":"Pe sensul de intrare 5 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
     "Status":"orange",
@@ -702,7 +702,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artere intrare; 1 artera iesire.",
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -712,7 +712,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artere intrare; 1 artera iesire.",
+    "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -721,11 +721,11 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":20,
+    "Timp":30,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -742,7 +742,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"green",
@@ -752,7 +752,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":20,
-    "Info":"Intrare: 2 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"green",
@@ -762,7 +762,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare iesire 1 km.",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 1 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -772,7 +772,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera. Coloana in asteptare iesire 1 km.",
+    "Info":"Intrare: 2 artere; Iesire: 3 artere. Coloana in asteptare iesire 1 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -1051,17 +1051,17 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
