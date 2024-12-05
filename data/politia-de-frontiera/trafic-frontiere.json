@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":40,
+    "Timp":30,
     "Info":"Intrare: 1 artera; Iesire: 3 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":60,
+    "Timp":120,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":180,
+    "Timp":150,
     "Info":"Pe sensul de intrare 5 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -101,7 +101,7 @@
   },
   {
     "Denumire":"Jimbolia",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.75220459046048",
     "Longitude":"20.70119261476202",
@@ -151,11 +151,11 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":30,
+    "Timp":60,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -182,7 +182,7 @@
   {
     "Denumire":"Petea",
     "Timp":150,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTRERUPT pe sensul de iesire, nu functioneaza baza de date a autoritatilor maghiare",
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":80,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
