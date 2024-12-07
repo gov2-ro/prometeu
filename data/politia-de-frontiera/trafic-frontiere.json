@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":150,
+    "Timp":100,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -31,18 +31,18 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
     "Timp":90,
-    "Info":"intrare 5 artere, iesire 4 artere",
+    "Info":"intrare 4 artere, iesire 4 artere",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
     "Status":"red",
@@ -71,7 +71,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":70,
+    "Timp":360,
     "Info":"Pe sensul de intrare 6 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -121,11 +121,11 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":30,
+    "Timp":60,
     "Info":"1 artera intrare; 1 artera iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -152,7 +152,7 @@
   {
     "Denumire":"Negru Vodă",
     "Timp":30,
-    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera",
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
     "Status":"orange",
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
+    "Timp":60,
     "Info":"Intrare: 1 artera; Iesire 1 artera",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
