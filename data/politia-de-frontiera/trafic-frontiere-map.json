@@ -2,7 +2,7 @@
   {
     "Denumire":"Albița",
     "Timp":30,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
     "Status":"orange",
@@ -12,7 +12,7 @@
   {
     "Denumire":"Albița",
     "Timp":30,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
     "Status":"orange",
@@ -22,7 +22,7 @@
   {
     "Denumire":"Albița",
     "Timp":150,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
     "Status":"red",
@@ -32,7 +32,7 @@
   {
     "Denumire":"Albița",
     "Timp":200,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
     "Status":"red",
@@ -101,11 +101,11 @@
   },
   {
     "Denumire":"Borș",
-    "Timp":40,
+    "Timp":20,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.11787645",
     "Longitude":"21.794600489999993",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -391,7 +391,7 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":50,
+    "Timp":30,
     "Info":"Pe sensul de intrare 6 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
@@ -681,7 +681,7 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":30,
+    "Timp":50,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
@@ -691,7 +691,7 @@
   },
   {
     "Denumire":"Negru Vodă",
-    "Timp":240,
+    "Timp":360,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera pe sensul de intrare.",
     "Latitude":"43.78720622837657",
     "Longitude":"28.149193521926918",
@@ -702,7 +702,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artera intrare; 1 artera iesire.",
+    "Info":"1 artera intrare; 2 artere iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -712,7 +712,7 @@
   {
     "Denumire":"Nădlac",
     "Timp":20,
-    "Info":"1 artera intrare; 1 artera iesire.",
+    "Info":"1 artera intrare; 2 artere iesire.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
     "Status":"green",
@@ -741,11 +741,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":20,
+    "Timp":30,
     "Info":"Intrare: 3 artere; Iesire: 4 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
@@ -761,8 +761,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
+    "Timp":120,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 4 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -771,8 +771,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
+    "Timp":40,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Coloana in asteptare iesire 4 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -861,18 +861,18 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":30,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere.",
+    "Timp":20,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 2 artere.",
+    "Info":"Intrare: 2 artere; Iesire: 2 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
@@ -881,18 +881,18 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Iesire 1 artera.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
     "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
+    "Info":"Intrare: 1 artera; Iesire 1 artera.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
@@ -1042,7 +1042,7 @@
   {
     "Denumire":"Sculeni",
     "Timp":20,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"green",
@@ -1052,7 +1052,7 @@
   {
     "Denumire":"Sculeni",
     "Timp":10,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"green",
@@ -1062,7 +1062,7 @@
   {
     "Denumire":"Sculeni",
     "Timp":80,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"red",
@@ -1072,7 +1072,7 @@
   {
     "Denumire":"Sculeni",
     "Timp":30,
-    "Info":"Sistemul informatic din R. Moldova nu functioneaza.",
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
@@ -1142,7 +1142,7 @@
   {
     "Denumire":"Stînca",
     "Timp":10,
-    "Info":"Bazele de date ale autoritatilor R. Moldova sunt nefunctionale incepand cu ora 10.20. Este posibila cresterea timpilor de asteptare pe sensul de iesire din Romania.",
+    "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
     "Status":"green",
@@ -1152,7 +1152,7 @@
   {
     "Denumire":"Stînca",
     "Timp":10,
-    "Info":"Bazele de date ale autoritatilor R. Moldova sunt nefunctionale incepand cu ora 10.20. Este posibila cresterea timpilor de asteptare pe sensul de iesire din Romania.",
+    "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
     "Status":"green",
@@ -1441,18 +1441,18 @@
   },
   {
     "Denumire":"Vârșand",
-    "Timp":100,
-    "Info":"intrare 2 artere, iesire 2 artere. Numar mare de automarfare prezentate la iesirea din tara intr-un timp scurt.",
+    "Timp":50,
+    "Info":"intrare 2 artere, iesire 2 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Vârșand",
     "Timp":20,
-    "Info":"intrare 2 artere, iesire 2 artere. Numar mare de automarfare prezentate la iesirea din tara intr-un timp scurt.",
+    "Info":"intrare 2 artere, iesire 2 artere.",
     "Latitude":"46.628854660346704",
     "Longitude":"21.332949395557307",
     "Status":"green",
