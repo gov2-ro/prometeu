@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":200,
+    "Timp":230,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -31,17 +31,17 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":30,
+    "Timp":20,
     "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Calafat",
-    "Timp":30,
+    "Timp":50,
     "Info":"intrare 5 artere, iesire 4 artere trfic intens, numar mare de mijloace de transport marfa prezente la control",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 2 km.",
+    "Timp":50,
+    "Info":"Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -211,11 +211,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },

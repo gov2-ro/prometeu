@@ -1,7 +1,7 @@
 Denumire,Timp,Info,Latitude,Longitude,Status,Tip vehicul,Sens
 Albița,20,,46.78513359,28.138904570000022,green,Autoturisme,Ieșire
 Albița,20,,46.78513359,28.138904570000022,green,Autoturisme,Intrare
-Albița,200,Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.,46.78513359,28.138904570000022,red,Camioane,Ieșire
+Albița,230,Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.,46.78513359,28.138904570000022,red,Camioane,Ieșire
 Albița,150,Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.,46.78513359,28.138904570000022,red,Camioane,Intrare
 Bechet,10,,43.74931968,23.955382699999973,green,Autoturisme,Ieșire
 Bechet,10,,43.74931968,23.955382699999973,green,Autoturisme,Intrare
@@ -13,13 +13,13 @@ Borș,20,Intrare: 2 artere; Iesire: 2 artere;,47.11787645,21.794600489999993,gre
 Borș,20,Intrare: 2 artere; Iesire: 2 artere;,47.11787645,21.794600489999993,green,Camioane,Intrare
 Borș II,20,Intrare: 2 artere; Iesire: 2 artere;,47.197195,21.858713,green,Autoturisme,Ieșire
 Borș II,20,Intrare: 2 artere; Iesire: 2 artere;,47.197195,21.858713,green,Autoturisme,Intrare
-Borș II,30,Intrare: 2 artere; Iesire: 2 artere;,47.197195,21.858713,orange,Camioane,Ieșire
+Borș II,20,Intrare: 2 artere; Iesire: 2 artere;,47.197195,21.858713,green,Camioane,Ieșire
 Borș II,20,Intrare: 2 artere; Iesire: 2 artere;,47.197195,21.858713,green,Camioane,Intrare
 Bumbăta,10,,46.48343071528536,28.230584720334427,green,Autoturisme,Ieșire
 Bumbăta,10,,46.48343071528536,28.230584720334427,green,Autoturisme,Intrare
-Calafat,10,"intrare 1 artera, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Ieșire
-Calafat,10,"intrare 1 artera, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Intrare
-Calafat,30,"intrare 5 artere, iesire 4 artere trfic intens, numar mare de mijloace de transport marfa prezente la control",43.99797802,22.932071680000035,orange,Camioane,Ieșire
+Calafat,20,"intrare 1 artera, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Ieșire
+Calafat,20,"intrare 1 artera, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Intrare
+Calafat,50,"intrare 5 artere, iesire 4 artere trfic intens, numar mare de mijloace de transport marfa prezente la control",43.99797802,22.932071680000035,orange,Camioane,Ieșire
 Calafat,60,"intrare 5 artere, iesire 4 artere trfic intens, numar mare de mijloace de transport marfa prezente la control",43.99797802,22.932071680000035,red,Camioane,Intrare
 Cenad,10,,46.15070252,20.475790500000016,green,Autoturisme,Ieșire
 Cenad,10,,46.15070252,20.475790500000016,green,Autoturisme,Intrare
@@ -38,7 +38,7 @@ Galați,60,,45.46825360262536,28.188611261901883,red,Camioane,Intrare
 Giurgiu,20,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",43.90372897534073,25.990058179372568,green,Autoturisme,Ieșire
 Giurgiu,20,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",43.90372897534073,25.990058179372568,green,Autoturisme,Intrare
 Giurgiu,60,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",43.90372897534073,25.990058179372568,red,Camioane,Ieșire
-Giurgiu,40,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",43.90372897534073,25.990058179372568,orange,Camioane,Intrare
+Giurgiu,30,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",43.90372897534073,25.990058179372568,orange,Camioane,Intrare
 Halmeu,20,Intrare: 1 artera; Iesire: 1 artera.,47.99218343807866,23.003118041472135,green,Autoturisme,Ieșire
 Halmeu,20,Intrare: 1 artera; Iesire: 1 artera.,47.99218343807866,23.003118041472135,green,Autoturisme,Intrare
 Halmeu,30,Intrare: 1 artera; Iesire 1 artera.,47.99218343807866,23.003118041472135,orange,Camioane,Ieșire
@@ -58,7 +58,7 @@ Lunga,10,,45.87915570599967,20.5779074132906,green,Autoturisme,Intrare
 Moldova Nouă,10,,44.708744246737496,21.647974408926814,green,Autoturisme,Ieșire
 Moldova Nouă,10,,44.708744246737496,21.647974408926814,green,Autoturisme,Intrare
 Moravița,10,,45.23273831114173,21.271795037033144,green,Autoturisme,Ieșire
-Moravița,10,,45.23273831114173,21.271795037033144,green,Autoturisme,Intrare
+Moravița,45,,45.23273831114173,21.271795037033144,orange,Autoturisme,Intrare
 Moravița,10,,45.23273831114173,21.271795037033144,green,Camioane,Ieșire
 Moravița,10,,45.23273831114173,21.271795037033144,green,Camioane,Intrare
 Naidăș,10,,44.90138869420463,21.562149521188644,green,Autoturisme,Ieșire
@@ -73,26 +73,26 @@ Nădlac,30,1 artera intrare; 1 artera iesire.,46.167876466346264,20.719581838623
 Nădlac,30,1 artera intrare; 1 artera iesire.,46.167876466346264,20.71958183862307,orange,Autoturisme,Intrare
 Nădlac,40,1 artera intrare; 1 artera iesire. Numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare.,46.167876466346264,20.71958183862307,orange,Camioane,Ieșire
 Nădlac,90,1 artera intrare; 1 artera iesire. Numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare.,46.167876466346264,20.71958183862307,red,Camioane,Intrare
-Nădlac II,40,Intrare: 4 artere; Iesire: 4  artere. Trafic intens - numar mare de autoturisme prezente la verificarile de frontiera pe ambele sensuri.,46.21156090813615,20.765371272491393,orange,Autoturisme,Ieșire
+Nădlac II,30,Intrare: 4 artere; Iesire: 4  artere. Trafic intens - numar mare de autoturisme prezente la verificarile de frontiera pe ambele sensuri.,46.21156090813615,20.765371272491393,orange,Autoturisme,Ieșire
 Nădlac II,40,Intrare: 4 artere; Iesire: 4  artere. Trafic intens - numar mare de autoturisme prezente la verificarile de frontiera pe ambele sensuri.,46.21156090813615,20.765371272491393,orange,Autoturisme,Intrare
-Nădlac II,90,Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 2 km.,46.21156090813615,20.765371272491393,red,Camioane,Ieșire
-Nădlac II,40,Intrare: 3 artere; Iesire: 3 artere. Coloana in asteptare iesire 2 km.,46.21156090813615,20.765371272491393,orange,Camioane,Intrare
-Oancea,20,,45.91761677,28.11879872999998,green,Autoturisme,Ieșire
-Oancea,20,,45.91761677,28.11879872999998,green,Autoturisme,Intrare
+Nădlac II,50,Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.,46.21156090813615,20.765371272491393,orange,Camioane,Ieșire
+Nădlac II,40,Intrare: 3 artere; Iesire: 2 artere. Coloana in asteptare iesire 2 km.,46.21156090813615,20.765371272491393,orange,Camioane,Intrare
+Oancea,10,,45.91761677,28.11879872999998,green,Autoturisme,Ieșire
+Oancea,10,,45.91761677,28.11879872999998,green,Autoturisme,Intrare
 Oancea,20,,45.91761677,28.11879872999998,green,Camioane,Ieșire
 Oancea,20,,45.91761677,28.11879872999998,green,Camioane,Intrare
 Ostrov,10,Intrare:1 artera; Iesire: 1 artera,44.117674235583145,27.276005741787117,green,Autoturisme,Ieșire
 Ostrov,10,Intrare:1 artera; Iesire: 1 artera,44.117674235583145,27.276005741787117,green,Autoturisme,Intrare
 Ostrov,10,"Intrare 1 artera, iesire 1 artera",44.117674235583145,27.276005741787117,green,Camioane,Ieșire
 Ostrov,10,"Intrare 1 artera, iesire 1 artera",44.117674235583145,27.276005741787117,green,Camioane,Intrare
-Petea,20,Intrare: 4 artere; Iesire: 2 artere.,47.85263706,22.77903557000002,green,Autoturisme,Ieșire
-Petea,40,Intrare: 4 artere; Iesire: 2 artere.,47.85263706,22.77903557000002,orange,Autoturisme,Intrare
+Petea,20,Intrare: 5 artere; Iesire: 2 artere.,47.85263706,22.77903557000002,green,Autoturisme,Ieșire
+Petea,40,Intrare: 5 artere; Iesire: 2 artere.,47.85263706,22.77903557000002,orange,Autoturisme,Intrare
 Petea,30,Intrare: 1 artera; Iesire 1 artera.,47.85263706,22.77903557000002,orange,Camioane,Ieșire
 Petea,30,Intrare: 1 artera; Iesire 1 artera.,47.85263706,22.77903557000002,orange,Camioane,Intrare
 Porțile de Fier I,10,,44.67547766480826,22.53279268346705,green,Autoturisme,Ieșire
 Porțile de Fier I,10,,44.67547766480826,22.53279268346705,green,Autoturisme,Intrare
 Porțile de Fier I,10,Timpi de asteptare din cauza lucrarilor de mentenanta la infrastructura,44.67547766480826,22.53279268346705,green,Camioane,Ieșire
-Porțile de Fier I,45,Timpi de asteptare din cauza lucrarilor de mentenanta la infrastructura,44.67547766480826,22.53279268346705,orange,Camioane,Intrare
+Porțile de Fier I,10,Timpi de asteptare din cauza lucrarilor de mentenanta la infrastructura,44.67547766480826,22.53279268346705,green,Camioane,Intrare
 Porțile de Fier II,10,,44.309086364909426,22.569930550429717,green,Autoturisme,Ieșire
 Porțile de Fier II,10,,44.309086364909426,22.569930550429717,green,Autoturisme,Intrare
 Racovăț,10,,48.099012,26.281062,green,Autoturisme,Ieșire
@@ -104,9 +104,9 @@ Salonta,10,intrare 2 artere ; iesire 2 artere.,46.765809023770025,21.48885012000
 Salonta,10,intrare 1 artera ; iesire 1 artera,46.765809023770025,21.488850120000052,green,Camioane,Ieșire
 Salonta,10,intrare 1 artera ; iesire 1 artera,46.765809023770025,21.488850120000052,green,Camioane,Intrare
 Sculeni,10,,47.31616400549972,27.610375267906193,green,Autoturisme,Ieșire
-Sculeni,10,,47.31616400549972,27.610375267906193,green,Autoturisme,Intrare
-Sculeni,50,,47.31616400549972,27.610375267906193,orange,Camioane,Ieșire
-Sculeni,30,,47.31616400549972,27.610375267906193,orange,Camioane,Intrare
+Sculeni,30,,47.31616400549972,27.610375267906193,orange,Autoturisme,Intrare
+Sculeni,10,,47.31616400549972,27.610375267906193,green,Camioane,Ieșire
+Sculeni,20,,47.31616400549972,27.610375267906193,green,Camioane,Intrare
 Sighetu Marmației,10,"Intrare: 2 artere; Iesire: 2 artere. Trafic restrictionat pentru autoturisme, in perioada 22.11-26.12.2024, de luni pana vineri, intre orele 09:00-15:30.",47.938771834787026,23.87753517983174,green,Autoturisme,Ieșire
 Sighetu Marmației,10,"Intrare: 2 artere; Iesire: 2 artere. Trafic restrictionat pentru autoturisme, in perioada 22.11-26.12.2024, de luni pana vineri, intre orele 09:00-15:30.",47.938771834787026,23.87753517983174,green,Autoturisme,Intrare
 Siret,20,Intrare: 3 artere; Iesire 3 artere.,47.98636006999999,26.062595845606666,green,Autoturisme,Ieșire
