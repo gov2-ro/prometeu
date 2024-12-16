@@ -1,11 +1,11 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":50,
+    "Timp":20,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
@@ -21,7 +21,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":180,
+    "Timp":200,
     "Info":"Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -141,8 +141,8 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":50,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Timp":30,
+    "Info":"Intrare: 1 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"orange",
@@ -151,8 +151,8 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":50,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
+    "Timp":30,
+    "Info":"Intrare: 1 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
     "Status":"orange",
@@ -742,7 +742,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.numar mare de autoturisme prezente la verificarile de frontiera pe ambele sensuri . RECOMANDARE: pentru evitarea aglomerarilor, puteti folosi si alte puncte de trecere a frontierei!",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"green",
@@ -751,8 +751,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":30,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Timp":40,
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.numar mare de autoturisme prezente la verificarile de frontiera pe ambele sensuri . RECOMANDARE: pentru evitarea aglomerarilor, puteti folosi si alte puncte de trecere a frontierei!",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -761,8 +761,8 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":80,
-    "Info":"Intrare: 2 artera; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
+    "Timp":90,
+    "Info":"Intrare: 2 artera; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"red",
@@ -772,7 +772,7 @@
   {
     "Denumire":"Nădlac II",
     "Timp":40,
-    "Info":"Intrare: 2 artera; Iesire: 2 artere. Coloana in asteptare iesire 2 km.",
+    "Info":"Intrare: 2 artera; Iesire: 2 artere. Coloana in asteptare iesire 3 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -862,40 +862,40 @@
   {
     "Denumire":"Petea",
     "Timp":20,
-    "Info":"Intrare: 4 artere; Iesire: 2 artere.",
+    "Info":"Intrare: 4 artere; Iesire: 3 artere.",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"green",
     "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Petea",
+    "Timp":20,
+    "Info":"Intrare: 4 artere; Iesire: 3 artere.",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Petea",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS - numă foarte mare de camioane prezente la control",
+    "Latitude":"47.85263706",
+    "Longitude":"22.77903557000002",
+    "Status":"red",
+    "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Petea",
     "Timp":30,
-    "Info":"Intrare: 4 artere; Iesire: 2 artere.",
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS - numă foarte mare de camioane prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"orange",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Petea",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Petea",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar mare de mijloace de transport prezente la control",
-    "Latitude":"47.85263706",
-    "Longitude":"22.77903557000002",
-    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -1041,7 +1041,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -1071,7 +1071,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
