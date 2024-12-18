@@ -31,11 +31,11 @@
   },
   {
     "Denumire":"Borș II",
-    "Timp":20,
-    "Info":"Intrare: 1 artere; Iesire: 2 artere;",
+    "Timp":40,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere;",
     "Latitude":"47.197195",
     "Longitude":"21.858713",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Giurgiu",
-    "Timp":80,
+    "Timp":40,
     "Info":"Pe sensul de intrare 5 artere, pe sensul de iesire 4 artere. Lucrari de reparatie a podului pe partea BG si pe partea RO.Circulatia se desfasoara pe o singura banda, alternativ.",
     "Latitude":"43.90372897534073",
     "Longitude":"25.990058179372568",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -91,7 +91,7 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":110,
+    "Timp":80,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontiera.",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
@@ -131,11 +131,11 @@
   },
   {
     "Denumire":"Nădlac II",
-    "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire: 2 artere. Coloana in asteptare iesire 1.5 km.",
+    "Timp":40,
+    "Info":"Intrare: 3 artera; Iesire: 2 artere. Coloana in asteptare iesire 1.5 km.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
-    "Status":"red",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -181,8 +181,8 @@
   },
   {
     "Denumire":"Petea",
-    "Timp":60,
-    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS - număr foarte mare de camioane prezente la control.",
+    "Timp":90,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. TRAFIC INTENS, numar foarte mare de mijloace de transport prezente la control",
     "Latitude":"47.85263706",
     "Longitude":"22.77903557000002",
     "Status":"red",
@@ -211,18 +211,18 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Siret",
-    "Timp":90,
-    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS - număr foarte mare de camioane prezente la control.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire 2 artere. TRAFIC INTENS - număr mare de camioane prezente la control.",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
     "Status":"red",
