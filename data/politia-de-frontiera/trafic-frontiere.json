@@ -41,7 +41,7 @@
   },
   {
     "Denumire":"Calafat",
-    "Timp":90,
+    "Timp":120,
     "Info":"intrare 4 artere, iesire 3 artere - trafic intens, numar mare de mijloace de transport marfa prezente la controlul de frotiera",
     "Latitude":"43.99797802",
     "Longitude":"22.932071680000035",
@@ -61,7 +61,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":60,
+    "Timp":150,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -121,18 +121,18 @@
   },
   {
     "Denumire":"Nădlac",
-    "Timp":40,
-    "Info":"2 artere intrare; 1 artera iesire. Trafic intens, numar foarte mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara.",
+    "Timp":20,
+    "Info":"1 artera intrare; 1 artera iesire. Trafic intens, numar mare de automarfare prezente la verificarile de frontiera pe sensul de intrare in tara.",
     "Latitude":"46.167876466346264",
     "Longitude":"20.71958183862307",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Nădlac II",
     "Timp":30,
-    "Info":"Intrare: 3 artere; Iesire: 1 artere.",
+    "Info":"Intrare: 3 artere; Iesire: 2 artere.",
     "Latitude":"46.21156090813615",
     "Longitude":"20.765371272491393",
     "Status":"orange",
@@ -161,7 +161,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":40,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -211,7 +211,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":80,
+    "Timp":100,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -251,11 +251,11 @@
   },
   {
     "Denumire":"Turnu Măgurele",
-    "Timp":100,
+    "Timp":10,
     "Info":"",
     "Latitude":"43.71179",
     "Longitude":"24.885608",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
