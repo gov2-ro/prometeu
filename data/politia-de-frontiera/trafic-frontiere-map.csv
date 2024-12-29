@@ -1,6 +1,6 @@
 Denumire,Timp,Info,Latitude,Longitude,Status,Tip vehicul,Sens
-Albița,20,,46.78513359,28.138904570000022,green,Autoturisme,Ieșire
-Albița,30,,46.78513359,28.138904570000022,orange,Autoturisme,Intrare
+Albița,50,,46.78513359,28.138904570000022,orange,Autoturisme,Ieșire
+Albița,20,,46.78513359,28.138904570000022,green,Autoturisme,Intrare
 Albița,100,Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.,46.78513359,28.138904570000022,red,Camioane,Ieșire
 Albița,100,Numar mare de mijloace de transport marfa prezentate la control pe sensul de iesire din Romania.,46.78513359,28.138904570000022,red,Camioane,Intrare
 Bechet,10,,43.74931968,23.955382699999973,green,Autoturisme,Ieșire
@@ -17,7 +17,7 @@ Borș II,20,Intrare: 1 artera; Iesire: 1 artera;,47.197195,21.858713,green,Camio
 Borș II,20,Intrare: 1 artera; Iesire: 1 artera;,47.197195,21.858713,green,Camioane,Intrare
 Bumbăta,10,Program functionare PTF 08.00-20.00,46.48343071528536,28.230584720334427,green,Autoturisme,Ieșire
 Bumbăta,10,Program functionare PTF 08.00-20.00,46.48343071528536,28.230584720334427,green,Autoturisme,Intrare
-Calafat,30,"intrare 2 artere, iesire 1 artera",43.99797802,22.932071680000035,orange,Autoturisme,Ieșire
+Calafat,20,"intrare 2 artere, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Ieșire
 Calafat,20,"intrare 2 artere, iesire 1 artera",43.99797802,22.932071680000035,green,Autoturisme,Intrare
 Calafat,10,"intrare 4 artere, iesire 4 artere",43.99797802,22.932071680000035,green,Camioane,Ieșire
 Calafat,10,"intrare 4 artere, iesire 4 artere",43.99797802,22.932071680000035,green,Camioane,Intrare
@@ -31,11 +31,11 @@ Dobromir,10,"Intrare:1 artera; Iesire: 1 artera. Orar 08.00-20.00, zilnic - Tona
 Dobromir,10,"Intrare:1 artera; Iesire: 1 artera. Orar 08.00-20.00, zilnic - Tonaj maxim admis 3,5 tone.",43.961172,27.786518,green,Autoturisme,Intrare
 Foeni,10,,45.474014530182124,20.851687687642386,green,Autoturisme,Ieșire
 Foeni,10,,45.474014530182124,20.851687687642386,green,Autoturisme,Intrare
-Galați,30,,45.46825360262536,28.188611261901883,orange,Autoturisme,Ieșire
+Galați,20,,45.46825360262536,28.188611261901883,green,Autoturisme,Ieșire
 Galați,10,,45.46825360262536,28.188611261901883,green,Autoturisme,Intrare
-Galați,30,,45.46825360262536,28.188611261901883,orange,Camioane,Ieșire
+Galați,20,,45.46825360262536,28.188611261901883,green,Camioane,Ieșire
 Galați,20,,45.46825360262536,28.188611261901883,green,Camioane,Intrare
-Giurgiu,20,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere.",43.90372897534073,25.990058179372568,green,Autoturisme,Ieșire
+Giurgiu,30,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere.",43.90372897534073,25.990058179372568,orange,Autoturisme,Ieșire
 Giurgiu,20,"Pe sensul de intrare 4 artere, pe sensul de iesire 4 artere.",43.90372897534073,25.990058179372568,green,Autoturisme,Intrare
 Giurgiu,20,"Pe sensul de intrare 3 artere, pe sensul de iesire 5 artere.",43.90372897534073,25.990058179372568,green,Camioane,Ieșire
 Giurgiu,20,"Pe sensul de intrare 3 artere, pe sensul de iesire 5 artere.",43.90372897534073,25.990058179372568,green,Camioane,Intrare
@@ -57,7 +57,7 @@ Lunga,10,,45.87915570599967,20.5779074132906,green,Autoturisme,Ieșire
 Lunga,10,,45.87915570599967,20.5779074132906,green,Autoturisme,Intrare
 Moldova Nouă,10,,44.708744246737496,21.647974408926814,green,Autoturisme,Ieșire
 Moldova Nouă,10,,44.708744246737496,21.647974408926814,green,Autoturisme,Intrare
-Moravița,10,,45.23273831114173,21.271795037033144,green,Autoturisme,Ieșire
+Moravița,30,,45.23273831114173,21.271795037033144,orange,Autoturisme,Ieșire
 Moravița,10,,45.23273831114173,21.271795037033144,green,Autoturisme,Intrare
 Moravița,10,,45.23273831114173,21.271795037033144,green,Camioane,Ieșire
 Moravița,10,,45.23273831114173,21.271795037033144,green,Camioane,Intrare
@@ -85,8 +85,8 @@ Ostrov,10,Intrare:1 artera; Iesire: 1 artera,44.117674235583145,27.2760057417871
 Ostrov,10,Intrare:1 artera; Iesire: 1 artera,44.117674235583145,27.276005741787117,green,Autoturisme,Intrare
 Ostrov,10,"Intrare 1 artera, iesire 1 artera",44.117674235583145,27.276005741787117,green,Camioane,Ieșire
 Ostrov,10,"Intrare 1 artera, iesire 1 artera",44.117674235583145,27.276005741787117,green,Camioane,Intrare
-Petea,30,Intrare: 2 artere; Iesire: 3 artere.,47.85263706,22.77903557000002,orange,Autoturisme,Ieșire
-Petea,20,Intrare: 2 artere; Iesire: 3 artere.,47.85263706,22.77903557000002,green,Autoturisme,Intrare
+Petea,20,Intrare: 3 artere; Iesire: 3 artere.,47.85263706,22.77903557000002,green,Autoturisme,Ieșire
+Petea,20,Intrare: 3 artere; Iesire: 3 artere.,47.85263706,22.77903557000002,green,Autoturisme,Intrare
 Petea,10,Intrare: 1 artera; Iesire 1 artera.,47.85263706,22.77903557000002,green,Camioane,Ieșire
 Petea,10,Intrare: 1 artera; Iesire 1 artera.,47.85263706,22.77903557000002,green,Camioane,Intrare
 Porțile de Fier I,10,,44.67547766480826,22.53279268346705,green,Autoturisme,Ieșire
@@ -103,8 +103,8 @@ Salonta,10,intrare 1 artera ; iesire 2 artere.,46.765809023770025,21.48885012000
 Salonta,10,intrare 1 artera ; iesire 2 artere.,46.765809023770025,21.488850120000052,green,Autoturisme,Intrare
 Salonta,10,intrare 1 artera ; iesire 1 artera,46.765809023770025,21.488850120000052,green,Camioane,Ieșire
 Salonta,10,intrare 1 artera ; iesire 1 artera,46.765809023770025,21.488850120000052,green,Camioane,Intrare
-Sculeni,20,,47.31616400549972,27.610375267906193,green,Autoturisme,Ieșire
-Sculeni,30,,47.31616400549972,27.610375267906193,orange,Autoturisme,Intrare
+Sculeni,30,,47.31616400549972,27.610375267906193,orange,Autoturisme,Ieșire
+Sculeni,10,,47.31616400549972,27.610375267906193,green,Autoturisme,Intrare
 Sculeni,10,,47.31616400549972,27.610375267906193,green,Camioane,Ieșire
 Sculeni,10,,47.31616400549972,27.610375267906193,green,Camioane,Intrare
 Sighetu Marmației,10,Intrare: 2 artere; Iesire: 2 artere.,47.938771834787026,23.87753517983174,green,Autoturisme,Ieșire
@@ -135,10 +135,10 @@ Valea lui Mihai,20,intrare 1 artera; iesire 1 artera,47.5255147320459,22.0337837
 Valea lui Mihai,20,intrare 1 artera; iesire 1 artera,47.5255147320459,22.033783796894227,green,Autoturisme,Intrare
 Valea lui Mihai,10,intrare 1 artera ; iesire 1 artera,47.5255147320459,22.033783796894227,green,Camioane,Ieșire
 Valea lui Mihai,10,intrare 1 artera ; iesire 1 artera,47.5255147320459,22.033783796894227,green,Camioane,Intrare
-Vama Veche,20,Intrare:1 artera; Iesire: 1 artera,43.739220302193964,28.56089651677064,green,Autoturisme,Ieșire
-Vama Veche,20,Intrare:1 artera; Iesire: 1 artera,43.739220302193964,28.56089651677064,green,Autoturisme,Intrare
+Vama Veche,10,Intrare:1 artera; Iesire: 1 artera,43.739220302193964,28.56089651677064,green,Autoturisme,Ieșire
+Vama Veche,10,Intrare:1 artera; Iesire: 1 artera,43.739220302193964,28.56089651677064,green,Autoturisme,Intrare
 Vama Veche,20,"Intrare 1 artera, iesire 1 artera",43.739220302193964,28.56089651677064,green,Camioane,Ieșire
-Vama Veche,20,"Intrare 1 artera, iesire 1 artera",43.739220302193964,28.56089651677064,green,Camioane,Intrare
+Vama Veche,40,"Intrare 1 artera, iesire 1 artera",43.739220302193964,28.56089651677064,orange,Camioane,Intrare
 Vicovu de Sus,10,Intrare: 2 artere; Iesire 1 artera.,47.946829,25.62072,green,Autoturisme,Ieșire
 Vicovu de Sus,10,Intrare: 2 artere; Iesire 1 artera.,47.946829,25.62072,green,Autoturisme,Intrare
 Vârșand,10,intrare 2 artere ; iesire 2 artere,46.628854660346704,21.332949395557307,green,Autoturisme,Ieșire
