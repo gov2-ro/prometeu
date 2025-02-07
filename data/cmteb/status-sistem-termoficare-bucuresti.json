@@ -720,12 +720,11 @@
         "Long": 26.028715673841
     },
     {
-        "stare": "Remediere avarie racord primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Grădinița nr. 250",
-        "tip": "Oprire INC",
-        "remediere": "07.02.2025 18:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.43813,
         "Long": 26.02987
     },
@@ -2557,11 +2556,11 @@
         "Long": 26.061609
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
         "culoare": "#e0002b",
         "denumire": "Garoafei",
-        "tip": "Oprire INC",
-        "remediere": "07.02.2025 20:00",
+        "tip": "Oprire ACC",
+        "remediere": "07.02.2025 21:30",
         "status": "avarii",
         "Lat": 44.403021,
         "Long": 26.061654
@@ -2639,11 +2638,12 @@
         "Long": 26.062423
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Functionare deficitara apa calda de consum si incalzire din cauza manevrelor de echilibrare hidraulică a rețelei primare",
+        "culoare": "#ffe53e",
         "denumire": "3 Drumul Sării",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "07.02.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.420991229538,
         "Long": 26.062554241834
     },
@@ -2693,11 +2693,11 @@
         "Long": 26.063941035003
     },
     {
-        "stare": "Functionare deficitara la incalzire din cauza manevrelor de echilibrare hidraulică a rețelei primare",
+        "stare": "Functionare deficitara apa calda de consum si incalzire din cauza manevrelor de echilibrare hidraulică a rețelei primare",
         "culoare": "#ffe53e",
         "denumire": "9 Margeanului",
-        "tip": "Deficienta INC",
-        "remediere": "07.02.2025 20:00",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "07.02.2025 23:30",
         "status": "deficiente",
         "Lat": 44.411109,
         "Long": 26.064209
@@ -2739,11 +2739,12 @@
         "Long": 26.065070157523
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Functionare deficitara apa calda de consum si incalzire din cauza manevrelor de echilibrare hidraulică a rețelei primare",
+        "culoare": "#ffe53e",
         "denumire": "5 Lira",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "07.02.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.422491348652,
         "Long": 26.065089121033
     },
@@ -2811,12 +2812,12 @@
         "Long": 26.065843
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare deficitara pe incalzire din cauza manevrelor de echilibrare hidraulică a rețelei primare",
+        "culoare": "#ffe53e",
         "denumire": "2 Petre Ispirescu",
-        "tip": "Oprire ACC/INC",
-        "remediere": "07.02.2025 18:30",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "07.02.2025 21:30",
+        "status": "deficiente",
         "Lat": 44.416784243165,
         "Long": 26.066134922797
     },
@@ -3820,12 +3821,11 @@
         "Long": 26.082604
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Chirigiu",
-        "tip": "Oprire INC",
-        "remediere": "07.02.2025 15:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.416499595498,
         "Long": 26.082742952836
     },
@@ -4208,12 +4208,11 @@
         "Long": 26.095686
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "VSNord",
-        "tip": "Oprire ACC/INC",
-        "remediere": "07.02.2025 15:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.427534,
         "Long": 26.096176
     },
@@ -4623,12 +4622,11 @@
         "Long": 26.1035795
     },
     {
-        "stare": "Lipsa parametrii pentru livrare apa calda de consum si incalzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ct Marasesti 9-10",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "07.02.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4168825,
         "Long": 26.1035795
     },
@@ -5727,12 +5725,12 @@
         "Long": 26.122111
     },
     {
-        "stare": "Mentenanță schimbătoare de căldură în centrala termică pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "07.02.2025 15:30",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "07.02.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
     },
@@ -5881,12 +5879,11 @@
         "Long": 26.12550488294
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Colentina",
-        "tip": "Oprire ACC",
-        "remediere": "07.02.2025 15:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4521405,
         "Long": 26.1255967
     },
@@ -6845,12 +6842,11 @@
         "Long": 26.139532
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "20 Pantelimon",
-        "tip": "Oprire INC",
-        "remediere": "07.02.2025 19:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.445179,
         "Long": 26.139575
     },
@@ -6927,11 +6923,12 @@
         "Long": 26.1407758
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametrii de furnizare incalzire",
+        "culoare": "#ffe53e",
         "denumire": "SC.3Dudesti",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "07.02.2025 23:00",
+        "status": "deficiente",
         "Lat": 44.420650655167,
         "Long": 26.140884591716
     },
@@ -7413,12 +7410,11 @@
         "Long": 26.148556
     },
     {
-        "stare": "Remediere avarie retea primara Dn  200",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "17 Pantelimon",
-        "tip": "Oprire ACC/INC",
-        "remediere": "07.02.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4442947,
         "Long": 26.1486281
     },
@@ -7477,12 +7473,11 @@
         "Long": 26.150138060181
     },
     {
-        "stare": "Remediere avarie retea primara Dn  200",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4' Pantelimon",
-        "tip": "Oprire ACC/INC",
-        "remediere": "07.02.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444054,
         "Long": 26.150148
     },
