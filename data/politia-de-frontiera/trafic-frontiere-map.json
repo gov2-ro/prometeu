@@ -361,7 +361,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -381,11 +381,11 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":40,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -507,26 +507,6 @@
     "Longitude":"27.610375267906193",
     "Status":"green",
     "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":50,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
@@ -536,6 +516,26 @@
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
