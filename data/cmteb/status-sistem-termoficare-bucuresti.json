@@ -2299,7 +2299,7 @@
         "culoare": "#ffe53e",
         "denumire": "Teiuş",
         "tip": "Deficienta INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.402295,
         "Long": 26.057297
@@ -2444,7 +2444,7 @@
         "culoare": "#ffe53e",
         "denumire": "8 Margeanului",
         "tip": "Deficienta INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.405762527794,
         "Long": 26.059230247293
@@ -2531,12 +2531,11 @@
         "Long": 26.061306
     },
     {
-        "stare": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - (str./Bd.)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Drumul Sarii",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.02.2025 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.418494402451,
         "Long": 26.061323116694
     },
@@ -2545,7 +2544,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Alexandria",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.405420487109,
         "Long": 26.061514776772
@@ -2600,7 +2599,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Margeanului",
         "tip": "Deficienta INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.408995,
         "Long": 26.062098
@@ -2718,7 +2717,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Petre Ispirescu",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.417430763133,
         "Long": 26.064395581908
@@ -2737,18 +2736,17 @@
         "culoare": "#ffe53e",
         "denumire": "5 Petre Ispirescu",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.418626206401,
         "Long": 26.065070157523
     },
     {
-        "stare": "Parametri insuficienţi pentru preparare apa calda de consum si  incalzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Lira",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.422491348652,
         "Long": 26.065089121033
     },
@@ -2946,7 +2944,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Sebastian",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.419285,
         "Long": 26.06804
@@ -2956,7 +2954,7 @@
         "culoare": "#ffe53e",
         "denumire": "7 Sebastian",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.417223,
         "Long": 26.068054
@@ -3119,7 +3117,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Sebastian",
         "tip": "Deficienta INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.414421595696,
         "Long": 26.07084059149
@@ -3165,7 +3163,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Panduri",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.423743263416,
         "Long": 26.071555777041
@@ -3216,11 +3214,12 @@
         "Long": 26.071948
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienţi pentru preparare apa calda de consum si  incalzire",
+        "culoare": "#ffe53e",
         "denumire": "Vicina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "22.02.2025 12:00",
+        "status": "deficiente",
         "Lat": 44.406575891751,
         "Long": 26.072021090262
     },
@@ -3265,7 +3264,7 @@
         "culoare": "#ffe53e",
         "denumire": "Tudor Vladimirescu",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.422236390803,
         "Long": 26.07291749147
@@ -3365,17 +3364,18 @@
         "culoare": "#ffe53e",
         "denumire": "3 Sălaj",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.403277768506,
         "Long": 26.074804817897
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri  insuficiențienți pentru preparare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "2 Ferentari",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "22.02.2025 12:00",
+        "status": "deficiente",
         "Lat": 44.412463447087,
         "Long": 26.075045077416
     },
@@ -3690,7 +3690,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Chirigiu",
         "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.416788864916,
         "Long": 26.079139902556
@@ -3772,7 +3772,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 din 13 Septembrie",
         "tip": "Deficienta INC",
-        "remediere": "21.02.2025 23:00",
+        "remediere": "22.02.2025 12:00",
         "status": "deficiente",
         "Lat": 44.424305273891,
         "Long": 26.081255079824
@@ -3967,12 +3967,11 @@
         "Long": 26.091000978619
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Izvorul Cosbuc",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.02.2025 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.422754,
         "Long": 26.0911198
     },
