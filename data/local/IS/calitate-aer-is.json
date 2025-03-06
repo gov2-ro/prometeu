@@ -2,8 +2,8 @@
     {
         "id": "82000263",
         "timefirst": 1591646750,
-        "timelast": 1741242475,
-        "timelocal": 14700,
+        "timelast": 1741264974,
+        "timelocal": 37200,
         "latitude": 47.165456,
         "longitude": 27.590467,
         "altitude": 40,
@@ -19,43 +19,43 @@
         "factor": 0.01,
         "note": "\\0Bd.Independentei-Str.Sarariei",
         "picture": "",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "4.69",
-        "last_temperature": "6.79",
+        "avg_temperature": "24.39",
+        "last_temperature": "25.37",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 101872,
-        "last_pressure": 101900,
+        "avg_pressure": 101762,
+        "last_pressure": 101701,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "63.94",
-        "last_humidity": "58.60",
+        "avg_humidity": "35.86",
+        "last_humidity": "34.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 561040,
-        "last_voc": 631392,
+        "avg_voc": 4030159,
+        "last_voc": 4501675,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.90",
-        "last_noise": "96.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 429,
+        "avg_co2": 400,
         "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
@@ -73,26 +73,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 25,
-        "last_pm1": 17,
+        "avg_pm1": 4,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 30,
-        "last_pm25": 21,
+        "avg_pm25": 6,
+        "last_pm25": 5,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 33,
-        "last_pm10": 23
+        "avg_pm10": 6,
+        "last_pm10": 5
     },
     {
         "id": "82000264",
         "timefirst": 1591647881,
-        "timelast": 1741242594,
-        "timelocal": 19800,
+        "timelast": 1741265143,
+        "timelocal": 600,
         "latitude": 47.134354,
         "longitude": 27.572893,
         "altitude": 40,
@@ -108,132 +108,43 @@
         "factor": 0.01,
         "note": "Sos.Nicolina-Bd.Poitiers(Selgros)",
         "picture": "https://www.uradmonitor.com/wp-content/uploads/2020/07/82000264.jpg",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "1.88",
-        "last_temperature": "4.20",
+        "avg_temperature": "20.15",
+        "last_temperature": "20.26",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102037,
-        "last_pressure": 102083,
+        "avg_pressure": 101898,
+        "last_pressure": 101897,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "71.86",
-        "last_humidity": "67.60",
+        "avg_humidity": "37.60",
+        "last_humidity": "37.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 504487,
-        "last_voc": 563019,
+        "avg_voc": 2322476,
+        "last_voc": 2354961,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.27",
-        "last_noise": "96.00",
+        "avg_noise": "98.00",
+        "last_noise": "98.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 405,
-        "last_co2": 401,
-        "param_ch2o": [
-            "Formaldehyde",
-            "ppb"
-        ],
-        "avg_ch2o": 0,
-        "last_ch2o": 0,
-        "param_o3": [
-            "Ozone",
-            "ppb"
-        ],
-        "avg_o3": 0,
-        "last_o3": 0,
-        "param_pm1": [
-            "PM1.0",
-            "µg/m³"
-        ],
-        "avg_pm1": 14,
-        "last_pm1": 26,
-        "param_pm25": [
-            "PM2.5",
-            "µg/m³"
-        ],
-        "avg_pm25": 20,
-        "last_pm25": 32,
-        "param_pm10": [
-            "PM10",
-            "µg/m³"
-        ],
-        "avg_pm10": 23,
-        "last_pm10": 36
-    },
-    {
-        "id": "82000265",
-        "timefirst": 1591645907,
-        "timelast": 1741242695,
-        "timelocal": 25500,
-        "latitude": 47.168439,
-        "longitude": 27.57696,
-        "altitude": 100,
-        "speed": 0,
-        "city": "Iasi",
-        "country": "RO",
-        "placement": 1,
-        "versionsw": 76,
-        "versionhw": 108,
-        "status": 1,
-        "mobile": null,
-        "detector": "SI29BG",
-        "factor": 0.01,
-        "note": "PiataM.Eminescu(vis-avisdeCoriolan)",
-        "picture": "",
-        "aqi": 3,
-        "owner": 6745,
-        "param_temperature": [
-            "Temperature",
-            "°C"
-        ],
-        "avg_temperature": "7.19",
-        "last_temperature": "7.73",
-        "param_pressure": [
-            "Pressure",
-            "Pa"
-        ],
-        "avg_pressure": 101870,
-        "last_pressure": 101883,
-        "param_humidity": [
-            "Humidity",
-            "%RH"
-        ],
-        "avg_humidity": "59.61",
-        "last_humidity": "58.60",
-        "param_voc": [
-            "VOC",
-            "Ohm"
-        ],
-        "avg_voc": 530736,
-        "last_voc": 545977,
-        "param_noise": [
-            "Noise",
-            "dB"
-        ],
-        "avg_noise": "96.00",
-        "last_noise": "96.00",
-        "param_co2": [
-            "CarbonDioxide",
-            "ppm"
-        ],
-        "avg_co2": 401,
+        "avg_co2": 400,
         "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
@@ -251,20 +162,109 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 27,
-        "last_pm1": 23,
+        "avg_pm1": 4,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 33,
-        "last_pm25": 29,
+        "avg_pm25": 6,
+        "last_pm25": 5,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 37,
-        "last_pm10": 33
+        "avg_pm10": 6,
+        "last_pm10": 5
+    },
+    {
+        "id": "82000265",
+        "timefirst": 1591645907,
+        "timelast": 1741264963,
+        "timelocal": 6000,
+        "latitude": 47.168439,
+        "longitude": 27.57696,
+        "altitude": 100,
+        "speed": 0,
+        "city": "Iasi",
+        "country": "RO",
+        "placement": 1,
+        "versionsw": 76,
+        "versionhw": 108,
+        "status": 1,
+        "mobile": null,
+        "detector": "SI29BG",
+        "factor": 0.01,
+        "note": "PiataM.Eminescu(vis-avisdeCoriolan)",
+        "picture": "",
+        "aqi": 1,
+        "owner": 6745,
+        "param_temperature": [
+            "Temperature",
+            "°C"
+        ],
+        "avg_temperature": "26.44",
+        "last_temperature": "27.09",
+        "param_pressure": [
+            "Pressure",
+            "Pa"
+        ],
+        "avg_pressure": 101724,
+        "last_pressure": 101704,
+        "param_humidity": [
+            "Humidity",
+            "%RH"
+        ],
+        "avg_humidity": "34.90",
+        "last_humidity": "34.60",
+        "param_voc": [
+            "VOC",
+            "Ohm"
+        ],
+        "avg_voc": 4258933,
+        "last_voc": 4548483,
+        "param_noise": [
+            "Noise",
+            "dB"
+        ],
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
+        "param_co2": [
+            "CarbonDioxide",
+            "ppm"
+        ],
+        "avg_co2": 400,
+        "last_co2": 400,
+        "param_ch2o": [
+            "Formaldehyde",
+            "ppb"
+        ],
+        "avg_ch2o": 0,
+        "last_ch2o": 0,
+        "param_o3": [
+            "Ozone",
+            "ppb"
+        ],
+        "avg_o3": 0,
+        "last_o3": 0,
+        "param_pm1": [
+            "PM1.0",
+            "µg/m³"
+        ],
+        "avg_pm1": 4,
+        "last_pm1": 3,
+        "param_pm25": [
+            "PM2.5",
+            "µg/m³"
+        ],
+        "avg_pm25": 5,
+        "last_pm25": 5,
+        "param_pm10": [
+            "PM10",
+            "µg/m³"
+        ],
+        "avg_pm10": 5,
+        "last_pm10": 5
     },
     {
         "id": "82000266",
@@ -358,8 +358,8 @@
     {
         "id": "82000267",
         "timefirst": 1591685575,
-        "timelast": 1741242083,
-        "timelocal": 39900,
+        "timelast": 1741264943,
+        "timelocal": 21000,
         "latitude": 47.155108,
         "longitude": 27.604368,
         "altitude": 40,
@@ -375,44 +375,44 @@
         "factor": 0.01,
         "note": "\\0IuliusMall",
         "picture": "",
-        "aqi": 3,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "3.79",
-        "last_temperature": "4.69",
+        "avg_temperature": "26.48",
+        "last_temperature": "26.68",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102327,
-        "last_pressure": 102353,
+        "avg_pressure": 102200,
+        "last_pressure": 102162,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "69.48",
-        "last_humidity": "67.60",
+        "avg_humidity": "33.05",
+        "last_humidity": "31.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 456746,
-        "last_voc": 477111,
+        "avg_voc": 4184187,
+        "last_voc": 4279585,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.74",
-        "last_noise": "96.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 545,
-        "last_co2": 503,
+        "avg_co2": 438,
+        "last_co2": 433,
         "param_ch2o": [
             "Formaldehyde",
             "ppb"
@@ -429,26 +429,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 26,
-        "last_pm1": 29,
+        "avg_pm1": 3,
+        "last_pm1": 2,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 33,
-        "last_pm25": 36,
+        "avg_pm25": 5,
+        "last_pm25": 3,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 37,
-        "last_pm10": 40
+        "avg_pm10": 5,
+        "last_pm10": 3
     },
     {
         "id": "82000268",
         "timefirst": 1591690167,
-        "timelast": 1741242622,
-        "timelocal": 39300,
+        "timelast": 1741265160,
+        "timelocal": 20100,
         "latitude": 47.16315,
         "longitude": 27.564541,
         "altitude": 40,
@@ -464,44 +464,44 @@
         "factor": 0.01,
         "note": "\\0Bd.AlexandruCelBun(PiataVoievozilor)",
         "picture": "",
-        "aqi": 3,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "5.91",
-        "last_temperature": "9.40",
+        "avg_temperature": "26.93",
+        "last_temperature": "27.96",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102355,
-        "last_pressure": 102360,
+        "avg_pressure": 102181,
+        "last_pressure": 102157,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "71.48",
-        "last_humidity": "63.60",
+        "avg_humidity": "34.80",
+        "last_humidity": "33.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 892371,
-        "last_voc": 1174569,
+        "avg_voc": 10089779,
+        "last_voc": 11189088,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "97.45",
-        "last_noise": "98.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 403,
-        "last_co2": 407,
+        "avg_co2": 400,
+        "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
             "ppb"
@@ -518,26 +518,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 31,
-        "last_pm1": 30,
+        "avg_pm1": 2,
+        "last_pm1": 2,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 39,
-        "last_pm25": 37,
+        "avg_pm25": 3,
+        "last_pm25": 3,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 44,
-        "last_pm10": 42
+        "avg_pm10": 3,
+        "last_pm10": 3
     },
     {
         "id": "82000269",
         "timefirst": 1591691122,
-        "timelast": 1741242501,
-        "timelocal": 7800,
+        "timelast": 1741264997,
+        "timelocal": 30300,
         "latitude": 47.175735,
         "longitude": 27.571464,
         "altitude": 120,
@@ -577,14 +577,14 @@
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 682732,
-        "last_voc": 758061,
+        "avg_voc": 2014985,
+        "last_voc": 3177028,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "97.00",
-        "last_noise": "97.00",
+        "avg_noise": "98.34",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
@@ -607,26 +607,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 11,
-        "last_pm1": 11,
+        "avg_pm1": 3,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 14,
-        "last_pm25": 14,
+        "avg_pm25": 5,
+        "last_pm25": 4,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 16,
-        "last_pm10": 15
+        "avg_pm10": 5,
+        "last_pm10": 4
     },
     {
         "id": "8200026A",
         "timefirst": 1591723499,
-        "timelast": 1741242518,
-        "timelocal": 32700,
+        "timelast": 1741265036,
+        "timelocal": 13500,
         "latitude": 47.123312,
         "longitude": 27.566868,
         "altitude": 40,
@@ -642,38 +642,38 @@
         "factor": 0.01,
         "note": "\\0Sos.Nicolina-AleeaT.Neculai(rondtramvai)",
         "picture": "https://www.uradmonitor.com/wp-content/uploads/2020/07/8200026A.jpg",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "1.89",
-        "last_temperature": "5.49",
+        "avg_temperature": "22.05",
+        "last_temperature": "22.84",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 101899,
-        "last_pressure": 101925,
+        "avg_pressure": 101779,
+        "last_pressure": 101715,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "73.01",
-        "last_humidity": "68.60",
+        "avg_humidity": "37.89",
+        "last_humidity": "36.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 447084,
-        "last_voc": 523046,
+        "avg_voc": 2634450,
+        "last_voc": 2940924,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.22",
-        "last_noise": "96.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
@@ -696,26 +696,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 12,
-        "last_pm1": 16,
+        "avg_pm1": 2,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 15,
-        "last_pm25": 20,
+        "avg_pm25": 3,
+        "last_pm25": 4,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 16,
-        "last_pm10": 22
+        "avg_pm10": 3,
+        "last_pm10": 4
     },
     {
         "id": "8200026B",
         "timefirst": 1591724424,
-        "timelast": 1741242738,
-        "timelocal": 37200,
+        "timelast": 1741265009,
+        "timelocal": 17700,
         "latitude": 47.150944,
         "longitude": 27.587123,
         "altitude": 40,
@@ -731,44 +731,44 @@
         "factor": 0.01,
         "note": "PoduRo?",
         "picture": "https://www.uradmonitor.com/wp-content/uploads/2020/07/8200026B.jpg",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "2.06",
-        "last_temperature": "5.15",
+        "avg_temperature": "23.85",
+        "last_temperature": "23.85",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102201,
-        "last_pressure": 102247,
+        "avg_pressure": 102048,
+        "last_pressure": 102048,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "72.26",
-        "last_humidity": "67.60",
+        "avg_humidity": "36.60",
+        "last_humidity": "36.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 443273,
-        "last_voc": 505589,
+        "avg_voc": 1974101,
+        "last_voc": 1974101,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "94.86",
-        "last_noise": "95.00",
+        "avg_noise": "98.00",
+        "last_noise": "98.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 401,
-        "last_co2": 402,
+        "avg_co2": 400,
+        "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
             "ppb"
@@ -785,20 +785,20 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 14,
-        "last_pm1": 19,
+        "avg_pm1": 2,
+        "last_pm1": 2,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 19,
-        "last_pm25": 24,
+        "avg_pm25": 3,
+        "last_pm25": 3,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 22,
-        "last_pm10": 27
+        "avg_pm10": 3,
+        "last_pm10": 3
     },
     {
         "id": "8200026C",
@@ -886,8 +886,8 @@
     {
         "id": "8200026D",
         "timefirst": 1591736287,
-        "timelast": 1741242755,
-        "timelocal": 12600,
+        "timelast": 1741264953,
+        "timelocal": 34800,
         "latitude": 47.174244,
         "longitude": 27.551708,
         "altitude": 40,
@@ -903,43 +903,43 @@
         "factor": 0.01,
         "note": "Sos.Pacurari-Str.Canta(langarestMoaradeFoc)",
         "picture": "",
-        "aqi": 2,
+        "aqi": 5,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "4.37",
-        "last_temperature": "6.37",
+        "avg_temperature": "23.81",
+        "last_temperature": "26.60",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102271,
-        "last_pressure": 102287,
+        "avg_pressure": 102149,
+        "last_pressure": 102103,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "67.27",
-        "last_humidity": "64.60",
+        "avg_humidity": "36.14",
+        "last_humidity": "33.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 535953,
-        "last_voc": 587768,
+        "avg_voc": 3201759,
+        "last_voc": 4407278,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.59",
-        "last_noise": "96.00",
+        "avg_noise": "98.93",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 406,
+        "avg_co2": 400,
         "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
@@ -957,26 +957,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 18,
-        "last_pm1": 16,
+        "avg_pm1": 822,
+        "last_pm1": 817,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 23,
-        "last_pm25": 20,
+        "avg_pm25": 1000,
+        "last_pm25": 1000,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 25,
-        "last_pm10": 22
+        "avg_pm10": 1000,
+        "last_pm10": 1000
     },
     {
         "id": "8200026E",
         "timefirst": 1591737077,
-        "timelast": 1741242737,
-        "timelocal": 17700,
+        "timelast": 1741264936,
+        "timelocal": 39900,
         "latitude": 47.14717,
         "longitude": 27.582169,
         "altitude": 44,
@@ -992,32 +992,121 @@
         "factor": 0.01,
         "note": "NicolaeIorga-SosNicolina",
         "picture": "https://www.uradmonitor.com/wp-content/uploads/2020/07/8200026E.jpg",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "5.08",
-        "last_temperature": "5.81",
+        "avg_temperature": "24.25",
+        "last_temperature": "25.41",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102276,
-        "last_pressure": 102279,
+        "avg_pressure": 102101,
+        "last_pressure": 102071,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "65.10",
-        "last_humidity": "64.60",
+        "avg_humidity": "36.30",
+        "last_humidity": "35.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 450446,
-        "last_voc": 321528,
+        "avg_voc": 1496895,
+        "last_voc": 1484262,
+        "param_noise": [
+            "Noise",
+            "dB"
+        ],
+        "avg_noise": "99.19",
+        "last_noise": "99.00",
+        "param_co2": [
+            "CarbonDioxide",
+            "ppm"
+        ],
+        "avg_co2": 400,
+        "last_co2": 400,
+        "param_ch2o": [
+            "Formaldehyde",
+            "ppb"
+        ],
+        "avg_ch2o": 0,
+        "last_ch2o": 0,
+        "param_o3": [
+            "Ozone",
+            "ppb"
+        ],
+        "avg_o3": 0,
+        "last_o3": 0,
+        "param_pm1": [
+            "PM1.0",
+            "µg/m³"
+        ],
+        "avg_pm1": 4,
+        "last_pm1": 4,
+        "param_pm25": [
+            "PM2.5",
+            "µg/m³"
+        ],
+        "avg_pm25": 6,
+        "last_pm25": 6,
+        "param_pm10": [
+            "PM10",
+            "µg/m³"
+        ],
+        "avg_pm10": 6,
+        "last_pm10": 6
+    },
+    {
+        "id": "8200026F",
+        "timefirst": 1591740898,
+        "timelast": 1741265085,
+        "timelocal": 14100,
+        "latitude": 47.166035,
+        "longitude": 27.571083,
+        "altitude": 40,
+        "speed": 0,
+        "city": "Iasi",
+        "country": "RO",
+        "placement": 1,
+        "versionsw": 76,
+        "versionhw": 108,
+        "status": 1,
+        "mobile": null,
+        "detector": "SI29BG",
+        "factor": 0.01,
+        "note": "\\0Str.Garii-Silvestru(vis-a-visdeMcDonalds)",
+        "picture": "",
+        "aqi": 1,
+        "owner": 6745,
+        "param_temperature": [
+            "Temperature",
+            "°C"
+        ],
+        "avg_temperature": "22.62",
+        "last_temperature": "22.80",
+        "param_pressure": [
+            "Pressure",
+            "Pa"
+        ],
+        "avg_pressure": 102055,
+        "last_pressure": 102048,
+        "param_humidity": [
+            "Humidity",
+            "%RH"
+        ],
+        "avg_humidity": "36.60",
+        "last_humidity": "36.60",
+        "param_voc": [
+            "VOC",
+            "Ohm"
+        ],
+        "avg_voc": 4447359,
+        "last_voc": 4515833,
         "param_noise": [
             "Noise",
             "dB"
@@ -1046,115 +1135,26 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 24,
-        "last_pm1": 25,
+        "avg_pm1": 3,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 30,
-        "last_pm25": 32,
+        "avg_pm25": 5,
+        "last_pm25": 4,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 34,
-        "last_pm10": 36
-    },
-    {
-        "id": "8200026F",
-        "timefirst": 1591740898,
-        "timelast": 1741242575,
-        "timelocal": 33300,
-        "latitude": 47.166035,
-        "longitude": 27.571083,
-        "altitude": 40,
-        "speed": 0,
-        "city": "Iasi",
-        "country": "RO",
-        "placement": 1,
-        "versionsw": 76,
-        "versionhw": 108,
-        "status": 1,
-        "mobile": null,
-        "detector": "SI29BG",
-        "factor": 0.01,
-        "note": "\\0Str.Garii-Silvestru(vis-a-visdeMcDonalds)",
-        "picture": "",
-        "aqi": 3,
-        "owner": 6745,
-        "param_temperature": [
-            "Temperature",
-            "°C"
-        ],
-        "avg_temperature": "4.09",
-        "last_temperature": "6.16",
-        "param_pressure": [
-            "Pressure",
-            "Pa"
-        ],
-        "avg_pressure": 102207,
-        "last_pressure": 102259,
-        "param_humidity": [
-            "Humidity",
-            "%RH"
-        ],
-        "avg_humidity": "69.16",
-        "last_humidity": "65.60",
-        "param_voc": [
-            "VOC",
-            "Ohm"
-        ],
-        "avg_voc": 634597,
-        "last_voc": 714385,
-        "param_noise": [
-            "Noise",
-            "dB"
-        ],
-        "avg_noise": "96.24",
-        "last_noise": "97.00",
-        "param_co2": [
-            "CarbonDioxide",
-            "ppm"
-        ],
-        "avg_co2": 464,
-        "last_co2": 494,
-        "param_ch2o": [
-            "Formaldehyde",
-            "ppb"
-        ],
-        "avg_ch2o": 0,
-        "last_ch2o": 0,
-        "param_o3": [
-            "Ozone",
-            "ppb"
-        ],
-        "avg_o3": 0,
-        "last_o3": 0,
-        "param_pm1": [
-            "PM1.0",
-            "µg/m³"
-        ],
-        "avg_pm1": 41,
-        "last_pm1": 42,
-        "param_pm25": [
-            "PM2.5",
-            "µg/m³"
-        ],
-        "avg_pm25": 51,
-        "last_pm25": 52,
-        "param_pm10": [
-            "PM10",
-            "µg/m³"
-        ],
-        "avg_pm10": 58,
-        "last_pm10": 59
+        "avg_pm10": 5,
+        "last_pm10": 4
     },
     {
         "id": "82000270",
         "timefirst": 1591817242,
-        "timelast": 1741242748,
-        "timelocal": 6600,
+        "timelast": 1741264948,
+        "timelocal": 28800,
         "latitude": 47.153612,
         "longitude": 27.570708,
         "altitude": 40,
@@ -1170,44 +1170,44 @@
         "factor": 0.01,
         "note": "\\0PantelionHalipa-Galata(vis-a-visdebiserica)",
         "picture": "https://www.uradmonitor.com/wp-content/uploads/2020/07/82000270.jpg",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "6.02",
-        "last_temperature": "13.92",
+        "avg_temperature": "24.95",
+        "last_temperature": "24.95",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102327,
-        "last_pressure": 102344,
+        "avg_pressure": 102139,
+        "last_pressure": 102139,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "66.06",
-        "last_humidity": "52.60",
+        "avg_humidity": "32.60",
+        "last_humidity": "32.60",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 967090,
-        "last_voc": 2004648,
+        "avg_voc": 6497181,
+        "last_voc": 6497181,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "97.23",
-        "last_noise": "98.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 465,
-        "last_co2": 451,
+        "avg_co2": 400,
+        "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
             "ppb"
@@ -1224,20 +1224,20 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 21,
-        "last_pm1": 16,
+        "avg_pm1": 1,
+        "last_pm1": 1,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 28,
-        "last_pm25": 21,
+        "avg_pm25": 2,
+        "last_pm25": 2,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 30,
-        "last_pm10": 23
+        "avg_pm10": 2,
+        "last_pm10": 2
     },
     {
         "id": "82000271",
@@ -1319,99 +1319,10 @@
     {
         "id": "82000272",
         "timefirst": 1591823984,
-        "timelast": 1741240781,
-        "timelocal": 39900,
+        "timelast": 1741264889,
+        "timelocal": 22200,
         "latitude": 47.158877,
         "longitude": 27.585787,
-        "altitude": 40,
-        "speed": 0,
-        "city": "Iasi",
-        "country": "RO",
-        "placement": 1,
-        "versionsw": 76,
-        "versionhw": 108,
-        "status": null,
-        "mobile": null,
-        "detector": "SI29BG",
-        "factor": 0.01,
-        "note": "\\0AnastasiePanu-StefanCelMare-Str.Palat",
-        "picture": "",
-        "aqi": 3,
-        "owner": 6745,
-        "param_temperature": [
-            "Temperature",
-            "°C"
-        ],
-        "avg_temperature": "3.44",
-        "last_temperature": "5.62",
-        "param_pressure": [
-            "Pressure",
-            "Pa"
-        ],
-        "avg_pressure": 102146,
-        "last_pressure": 102171,
-        "param_humidity": [
-            "Humidity",
-            "%RH"
-        ],
-        "avg_humidity": "72.00",
-        "last_humidity": "67.90",
-        "param_voc": [
-            "VOC",
-            "Ohm"
-        ],
-        "avg_voc": 626770,
-        "last_voc": 714328,
-        "param_noise": [
-            "Noise",
-            "dB"
-        ],
-        "avg_noise": "96.69",
-        "last_noise": "97.00",
-        "param_co2": [
-            "CarbonDioxide",
-            "ppm"
-        ],
-        "avg_co2": 400,
-        "last_co2": 400,
-        "param_ch2o": [
-            "Formaldehyde",
-            "ppb"
-        ],
-        "avg_ch2o": 0,
-        "last_ch2o": 0,
-        "param_o3": [
-            "Ozone",
-            "ppb"
-        ],
-        "avg_o3": 0,
-        "last_o3": 0,
-        "param_pm1": [
-            "PM1.0",
-            "µg/m³"
-        ],
-        "avg_pm1": 29,
-        "last_pm1": 24,
-        "param_pm25": [
-            "PM2.5",
-            "µg/m³"
-        ],
-        "avg_pm25": 36,
-        "last_pm25": 30,
-        "param_pm10": [
-            "PM10",
-            "µg/m³"
-        ],
-        "avg_pm10": 41,
-        "last_pm10": 34
-    },
-    {
-        "id": "82000273",
-        "timefirst": 1591830779,
-        "timelast": 1741242685,
-        "timelocal": 39000,
-        "latitude": 47.172837,
-        "longitude": 27.53304,
         "altitude": 40,
         "speed": 0,
         "city": "Iasi",
@@ -1423,39 +1334,39 @@
         "mobile": null,
         "detector": "SI29BG",
         "factor": 0.01,
-        "note": "Sos.Pacurari-Str.Rediu(rondgamalangamazazin)",
+        "note": "\\0AnastasiePanu-StefanCelMare-Str.Palat",
         "picture": "",
-        "aqi": 3,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "3.36",
-        "last_temperature": "6.94",
+        "avg_temperature": "23.50",
+        "last_temperature": "25.83",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102234,
-        "last_pressure": 102273,
+        "avg_pressure": 102052,
+        "last_pressure": 102014,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "70.79",
-        "last_humidity": "68.90",
+        "avg_humidity": "37.40",
+        "last_humidity": "35.90",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 1358590,
-        "last_voc": 774401,
+        "avg_voc": 5581526,
+        "last_voc": 7047122,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "99.06",
+        "avg_noise": "99.00",
         "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
@@ -1479,20 +1390,109 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 27,
-        "last_pm1": 26,
+        "avg_pm1": 3,
+        "last_pm1": 3,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 34,
-        "last_pm25": 32,
+        "avg_pm25": 4,
+        "last_pm25": 4,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 38,
-        "last_pm10": 36
+        "avg_pm10": 4,
+        "last_pm10": 4
+    },
+    {
+        "id": "82000273",
+        "timefirst": 1591830779,
+        "timelast": 1741265067,
+        "timelocal": 19500,
+        "latitude": 47.172837,
+        "longitude": 27.53304,
+        "altitude": 40,
+        "speed": 0,
+        "city": "Iasi",
+        "country": "RO",
+        "placement": 1,
+        "versionsw": 76,
+        "versionhw": 108,
+        "status": 1,
+        "mobile": null,
+        "detector": "SI29BG",
+        "factor": 0.01,
+        "note": "Sos.Pacurari-Str.Rediu(rondgamalangamazazin)",
+        "picture": "",
+        "aqi": 1,
+        "owner": 6745,
+        "param_temperature": [
+            "Temperature",
+            "°C"
+        ],
+        "avg_temperature": "24.23",
+        "last_temperature": "24.34",
+        "param_pressure": [
+            "Pressure",
+            "Pa"
+        ],
+        "avg_pressure": 102041,
+        "last_pressure": 102040,
+        "param_humidity": [
+            "Humidity",
+            "%RH"
+        ],
+        "avg_humidity": "35.90",
+        "last_humidity": "35.90",
+        "param_voc": [
+            "VOC",
+            "Ohm"
+        ],
+        "avg_voc": 1014634,
+        "last_voc": 988921,
+        "param_noise": [
+            "Noise",
+            "dB"
+        ],
+        "avg_noise": "99.50",
+        "last_noise": "99.00",
+        "param_co2": [
+            "CarbonDioxide",
+            "ppm"
+        ],
+        "avg_co2": 400,
+        "last_co2": 400,
+        "param_ch2o": [
+            "Formaldehyde",
+            "ppb"
+        ],
+        "avg_ch2o": 0,
+        "last_ch2o": 0,
+        "param_o3": [
+            "Ozone",
+            "ppb"
+        ],
+        "avg_o3": 0,
+        "last_o3": 0,
+        "param_pm1": [
+            "PM1.0",
+            "µg/m³"
+        ],
+        "avg_pm1": 4,
+        "last_pm1": 4,
+        "param_pm25": [
+            "PM2.5",
+            "µg/m³"
+        ],
+        "avg_pm25": 5,
+        "last_pm25": 5,
+        "param_pm10": [
+            "PM10",
+            "µg/m³"
+        ],
+        "avg_pm10": 5,
+        "last_pm10": 5
     },
     {
         "id": "82000274",
@@ -1580,8 +1580,8 @@
     {
         "id": "82000275",
         "timefirst": 1591830768,
-        "timelast": 1741242622,
-        "timelocal": 31800,
+        "timelast": 1741264936,
+        "timelocal": 12300,
         "latitude": 47.161738,
         "longitude": 27.594688,
         "altitude": 40,
@@ -1597,44 +1597,44 @@
         "factor": 0.01,
         "note": "\\0AnastasiePanu-ElenaDoamna(H.Europa)",
         "picture": "",
-        "aqi": 2,
+        "aqi": 1,
         "owner": 6745,
         "param_temperature": [
             "Temperature",
             "°C"
         ],
-        "avg_temperature": "4.52",
-        "last_temperature": "11.41",
+        "avg_temperature": "28.04",
+        "last_temperature": "28.06",
         "param_pressure": [
             "Pressure",
             "Pa"
         ],
-        "avg_pressure": 102025,
-        "last_pressure": 102053,
+        "avg_pressure": 101823,
+        "last_pressure": 101821,
         "param_humidity": [
             "Humidity",
             "%RH"
         ],
-        "avg_humidity": "69.79",
-        "last_humidity": "58.90",
+        "avg_humidity": "33.90",
+        "last_humidity": "33.90",
         "param_voc": [
             "VOC",
             "Ohm"
         ],
-        "avg_voc": 453630,
-        "last_voc": 678933,
+        "avg_voc": 6007473,
+        "last_voc": 6053889,
         "param_noise": [
             "Noise",
             "dB"
         ],
-        "avg_noise": "95.41",
-        "last_noise": "97.00",
+        "avg_noise": "99.00",
+        "last_noise": "99.00",
         "param_co2": [
             "CarbonDioxide",
             "ppm"
         ],
-        "avg_co2": 420,
-        "last_co2": 425,
+        "avg_co2": 400,
+        "last_co2": 400,
         "param_ch2o": [
             "Formaldehyde",
             "ppb"
@@ -1651,20 +1651,20 @@
             "PM1.0",
             "µg/m³"
         ],
-        "avg_pm1": 20,
-        "last_pm1": 19,
+        "avg_pm1": 2,
+        "last_pm1": 1,
         "param_pm25": [
             "PM2.5",
             "µg/m³"
         ],
-        "avg_pm25": 26,
-        "last_pm25": 23,
+        "avg_pm25": 3,
+        "last_pm25": 2,
         "param_pm10": [
             "PM10",
             "µg/m³"
         ],
-        "avg_pm10": 29,
-        "last_pm10": 26
+        "avg_pm10": 3,
+        "last_pm10": 2
     },
     {
         "id": "82000276",
