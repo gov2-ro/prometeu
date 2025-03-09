@@ -1,18 +1,5 @@
 [{
 	"NR. CRT.": "1.1",
-	"Indicativ drum": "A1",
-	"De la km": "516+000",
-	"Pana la km": "531+000",
-	"De la data": "2025-03-09 09:00:00",
-	"Pana la data": "2025-03-09 19:00:00",
-	"Intre localitatile": "SECEANI (TM) - CRUCENI (AR)",
-	"Cauza": "Pe Calea 2 se desfasoara lucrari - marcaj median si axial.",
-	"Masuri de remediere": "Se circula pe banda 1 si pe banda de urgenta.Banda 2 - inchisa.Se estimeaza reluarea circulatiei normale si incheierea lucrarilor, in jurul orei 19:00.",
-	"viz_name": "A1",
-	"map_zoom": "['516', '0', '531', '0']"
-},
-{
-	"NR. CRT.": "1.2",
 	"Indicativ drum": "A2",
 	"De la km": "40+200",
 	"Pana la km": "41+200",
@@ -25,7 +12,7 @@
 	"map_zoom": "['40', '200', '41', '200']"
 },
 {
-	"NR. CRT.": "1.3",
+	"NR. CRT.": "1.2",
 	"Indicativ drum": "A7",
 	"De la km": "0+600",
 	"Pana la km": "1+860",
@@ -38,7 +25,7 @@
 	"map_zoom": "['0', '600', '1', '860']"
 },
 {
-	"NR. CRT.": "1.4",
+	"NR. CRT.": "1.3",
 	"Indicativ drum": "A7",
 	"De la km": "7+400",
 	"Pana la km": "7+860",
@@ -51,7 +38,7 @@
 	"map_zoom": "['7', '400', '7', '860']"
 },
 {
-	"NR. CRT.": "1.5",
+	"NR. CRT.": "1.4",
 	"Indicativ drum": "A7",
 	"De la km": "0+020",
 	"Pana la km": "2+200",
@@ -64,7 +51,7 @@
 	"map_zoom": "['0', '20', '2', '200']"
 },
 {
-	"NR. CRT.": "1.6",
+	"NR. CRT.": "1.5",
 	"Indicativ drum": "A7",
 	"De la km": "0+200",
 	"Pana la km": "0+660",
@@ -77,7 +64,7 @@
 	"map_zoom": "['0', '200', '0', '660']"
 },
 {
-	"NR. CRT.": "1.7",
+	"NR. CRT.": "1.6",
 	"Indicativ drum": "DN10",
 	"De la km": "79+860",
 	"Pana la km": "80+105",
@@ -90,7 +77,7 @@
 	"map_zoom": "['79', '860', '80', '105']"
 },
 {
-	"NR. CRT.": "1.8",
+	"NR. CRT.": "1.7",
 	"Indicativ drum": "DN10",
 	"De la km": "87+000",
 	"Pana la km": "87+088",
@@ -103,7 +90,7 @@
 	"map_zoom": "['87', '0', '87', '88']"
 },
 {
-	"NR. CRT.": "1.9",
+	"NR. CRT.": "1.8",
 	"Indicativ drum": "DN10",
 	"De la km": "87+106",
 	"Pana la km": "87+172",
@@ -114,5 +101,31 @@
 	"Masuri de remediere": "Circulatie alternanta dirijata cu semafoare si piloti de lucrari pe maxim 1/2 din cale.In perioada 19.02.2025 - 30.05.2025, exceptie facand perioada Sarbatorilor Pascale 17.04.2025 - 23.04.2025, in intervalul orar 08:00 -18:00, de luni pana vineri, executantul lucrarilor este obligat sa asigure dirijarea circulatiei cu piloti de circulatie, ce vor fi dotati cu palete de semnalizare cu fete duble (rosu-verde), statii de emisie-receptie si cu echipamente de protectie de culoare portocalie.Pe timpul lucrarilor de ranguire se va inchide temporar circulatia in mai multe reprize, intervalele de inchidere totala a circulatiei, de 30 minute (maxim 60 minute in situatii exceptionale).",
 	"viz_name": "DN10",
 	"map_zoom": "['87', '106', '87', '172']"
+},
+{
+	"NR. CRT.": "1.9",
+	"Indicativ drum": "DN64",
+	"De la km": "2+200",
+	"Pana la km": "7+000",
+	"De la data": "2025-03-10 08:30:00",
+	"Pana la data": "2025-03-10 15:30:00",
+	"Intre localitatile": "CARACAL (OT) - CARACAL (OT)",
+	"Cauza": "Se lucreaza la taieri acostamente.",
+	"Masuri de remediere": "Se circula dirijat cu semnalizare rutiera si piloti de circulatie.",
+	"viz_name": "DN64",
+	"map_zoom": "['2', '200', '7', '0']"
+},
+{
+	"NR. CRT.": "1.10",
+	"Indicativ drum": "DN64",
+	"De la km": "99+600",
+	"Pana la km": "99+900",
+	"De la data": "2025-03-10 08:00:00",
+	"Pana la data": "2025-03-10 16:00:00",
+	"Intre localitatile": "BABENI (VL) -",
+	"Cauza": "Se lucreaza la montare parapet.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale dirijata de piloti de circulatie.",
+	"viz_name": "DN64",
+	"map_zoom": "['99', '600', '99', '900']"
 }
 ]
