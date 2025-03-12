@@ -44,14 +44,14 @@ jobs:
       run: |-
         python instalatii-partie-bv.py
       continue-on-error: true
-    - name: avarii PMB
-      run: |-
-        python pmb-avarii.py
-      continue-on-error: true
-    - name: iasi calitate aer
-      run: |-
-        python iasi-calitate-aer.py
-      continue-on-error: true
+    # - name: avarii PMB
+    #   run: |-
+    #     python pmb-avarii.py
+    #   continue-on-error: true
+    # - name: iasi calitate aer
+    #   run: |-
+    #     python iasi-calitate-aer.py
+    #   continue-on-error: true
     - name: aerlive bucuresti
       run: |-
         python aerlive-bucuresti.py
@@ -68,21 +68,21 @@ jobs:
       run: |-
         python trafic-frontiere-list.py
       continue-on-error: true
-    - name: DEER incidente
-      run: |-
-        python deer-incidente.py
-      continue-on-error: true
-    - name: întreruperi distribuție e-distributie Enel
-      run: |-
-        python enel-intreruperi.py
-      continue-on-error: true
-    - name: DEER întreruperi
-      run: |-
-        python deer-intreruperi.py
-      continue-on-error: true
-    - name: posturi.gov.ro
-      run: |-
-        python posturi-fetch-index.py
+    # - name: DEER incidente
+    #   run: |-
+    #     python deer-incidente.py
+    #   continue-on-error: true
+    # - name: întreruperi distribuție e-distributie Enel
+    #   run: |-
+    #     python enel-intreruperi.py
+    #   continue-on-error: true
+    # - name: DEER întreruperi
+    #   run: |-
+    #     python deer-intreruperi.py
+    #   continue-on-error: true
+    # - name: posturi.gov.ro
+    #   run: |-
+    #     python posturi-fetch-index.py
       continue-on-error: true
     - name: Commit and push if it changed
       run: |-
