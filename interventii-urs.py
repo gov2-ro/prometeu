@@ -38,8 +38,7 @@ def clean_text(text):
         return None
     try:
         return str(text).strip().replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
-    except Exception as e:
-        # print(f"Error cleaning text: {e}")  # Suppress error messages
+    except Exception:
         return None
 
 def parse_coordinates(coord_text):
@@ -92,7 +91,7 @@ def infer_county_from_uat(uat_name):
         'VOŞLĂBENI': 'Harghita', 'VOSLOBENI': 'Harghita', 'BĂLAN': 'Harghita', 'BALAN': 'Harghita',
         'BILBOR': 'Harghita', 'SÂNDOMINIC': 'Harghita', 'SANDOMINIC': 'Harghita', 'CORBU': 'Harghita',
         'BORSEC': 'Harghita', 'COZMENI': 'Harghita', 'ZETEA': 'Harghita', 'GHEORGHENI': 'Harghita',
-        'TOPLIŢA': 'Harghita', 'TOPLITA': 'Harghita', 'PRAID': 'Harghita',
+        'TOPLIŢA': 'Harghita', 'TOPLITA': 'Harghita', 'PRAID': 'Harghita', 'CÂRŢA': 'Harghita', 'CARTA': 'Harghita',
         
         # Prahova county  
         'COMARNIC': 'Prahova', 'CERAŞU': 'Prahova', 'CERASU': 'Prahova', 'DRAJNA': 'Prahova',
@@ -106,7 +105,8 @@ def infer_county_from_uat(uat_name):
         'CARBUNESTI': 'Prahova', 'SURANI': 'Prahova', 'ALUNIŞ': 'Prahova', 'ALUNIS': 'Prahova',
         'DUMBRĂVEŞTI': 'Prahova', 'DUMBRAVESTI': 'Prahova', 'TEIŞANI': 'Prahova', 'TEISANI': 'Prahova',
         'BĂNEŞTI': 'Prahova', 'BANESTI': 'Prahova', 'VÂLCĂNEŞTI': 'Prahova', 'VALCANESTI': 'Prahova',
-        'PLOIEŞTI': 'Prahova', 'PLOIESTI': 'Prahova',
+        'PLOIEŞTI': 'Prahova', 'PLOIESTI': 'Prahova', 'PLOPENI': 'Prahova', 'IORDĂCHEANU': 'Prahova',
+        'IORDACHEANU': 'Prahova', 'VALEA DOFTANEI': 'Prahova',
         
         # Brașov county
         'BRAŞOV': 'Brașov', 'BRASOV': 'Brașov', 'PREDEAL': 'Brașov', 'RÂŞNOV': 'Brașov', 'RASNOV': 'Brașov',
@@ -120,28 +120,50 @@ def infer_county_from_uat(uat_name):
         'IBĂNEŞTI': 'Mureș', 'IBANESTI': 'Mureș', 'STÂNCENI': 'Mureș', 'STANCENI': 'Mureș',
         'SÂNPAUL': 'Mureș', 'SANPAUL': 'Mureș', 'TÂRGU MUREŞ': 'Mureș', 'TARGU MURES': 'Mureș',
         'RĂSTOLIŢA': 'Mureș', 'RASTOLITA': 'Mureș', 'SIGHIŞOARA': 'Mureș', 'SIGHISOARA': 'Mureș',
+        'CEUAŞU DE CÂMPIE': 'Mureș', 'CEUASU DE CAMPIE': 'Mureș', 'MIERCUREA NIRAJULUI': 'Mureș',
+        'PĂSĂRENI': 'Mureș', 'PASARENI': 'Mureș', 'SÂNTANA': 'Mureș', 'SANTANA': 'Mureș',
+        
+        # Buzău county  
+        'BISOCA': 'Buzău', 'NEHOIU': 'Buzău', 'MEREI': 'Buzău', 'PĂTÂRLAGELE': 'Buzău', 
+        'PATARLAGELE': 'Buzău', 'BECENI': 'Buzău', 'TOPLICENI': 'Buzău', 'VINTILA VODA': 'Buzău',
         
         # Covasna county
         'BARCANI': 'Covasna', 'MICFALĂU': 'Covasna', 'MICFALAU': 'Covasna', 'ZĂBALA': 'Covasna', 'ZABALA': 'Covasna',
+        'BIXAD': 'Covasna',
         
         # Vrancea county
         'CÂMPURI': 'Vrancea', 'CAMPURI': 'Vrancea', 'REGHIU': 'Vrancea', 'NEREJU': 'Vrancea',
         'BORDEŞTI': 'Vrancea', 'BORDESTI': 'Vrancea', 'SOVEJA': 'Vrancea', 'JITIA': 'Vrancea',
         
-        # Other counties
-        'MOROENI': 'Dâmbovița', 'PIETROŞIŢA': 'Dâmbovița', 'PIETROSITA': 'Dâmbovița',
-        'BIXAD': 'Covasna', 'BROŞTENI': 'Suceava', 'BROSTENI': 'Suceava', 'VATRA DORNEI': 'Suceava',
+        # Argeș county
         'LEREŞTI': 'Argeș', 'LERESTI': 'Argeș', 'AREFU': 'Argeș', 'NUCŞOARA': 'Argeș', 'NUCSOARA': 'Argeș',
-        'CORBENI': 'Argeș', 'RUCĂR': 'Argeș', 'RUCAR': 'Argeș',
-        'PORUMBACU DE JOS': 'Sibiu', 'DUMBRĂVENI': 'Sibiu', 'DUMBRAVENI': 'Sibiu',
+        'CORBENI': 'Argeș', 'RUCĂR': 'Argeș', 'RUCAR': 'Argeș', 'DÂMBOVICIOARA': 'Argeș', 'DAMBOVICIOARA': 'Argeș',
+        'BUGHEA DE SUS': 'Argeș', 'BUGHEA DE JOS': 'Argeș',
+        
+        # Dâmbovița county
+        'MOROENI': 'Dâmbovița', 'PIETROŞIŢA': 'Dâmbovița', 'PIETROSITA': 'Dâmbovița',
+        
+        # Other counties
+        'BROŞTENI': 'Suceava', 'BROSTENI': 'Suceava', 'VATRA DORNEI': 'Suceava',
+        'PORUMBACU DE JOS': 'Sibiu',         'DUMBRĂVENI': 'Sibiu', 'DUMBRAVENI': 'Sibiu',
         'SEBEŞ': 'Alba', 'SEBES': 'Alba', 'CÂMPENI': 'Alba', 'CAMPENI': 'Alba', 'VALEA LUNGĂ': 'Alba', 'VALEA LUNGA': 'Alba',
-        'ŞIEU': 'Bistrița-Năsăud', 'SIEU': 'Bistrița-Năsăud',
-        'PUI': 'Hunedoara', 'BUMBEŞTI-JIU': 'Gorj', 'BUMBESTI-JIU': 'Gorj',
-        'PIETROASA': 'Bihor', 'PALANCA': 'Bacău', 'AGĂŞ': 'Bacău', 'AGAS': 'Bacău',
+        'VIDRA': 'Alba',
+        'ŞIEU': 'Bistrița-Năsăud', 'SIEU': 'Bistrița-Năsăud', 'RODNA': 'Bistrița-Năsăud',
+        'BISTRIŢA BÂRGĂULUI': 'Bistrița-Năsăud', 'BISTRITA BARGAULUI': 'Bistrița-Năsăud',
+        'BISTRIŢA': 'Bistrița-Năsăud', 'BISTRITA': 'Bistrița-Năsăud',
+        'PUI': 'Hunedoara', 'PETROŞANI': 'Hunedoara', 'PETROSANI': 'Hunedoara',
+        'BUMBEŞTI-JIU': 'Gorj', 'BUMBESTI-JIU': 'Gorj',
+        'LĂZAREA': 'Harghita', 'LAZAREA': 'Harghita',
+        'MIERCUREA-CIUC': 'Harghita', 'MIERCUREA CIUC': 'Harghita', 'CORUND': 'Harghita',
+        'PALANCA': 'Bacău', 'AGĂŞ': 'Bacău', 'AGAS': 'Bacău',
         'RĂCĂCIUNI': 'Bacău', 'RACACIUNI': 'Bacău', 'SLĂNIC-MOLDOVA': 'Bacău', 'SLANIC-MOLDOVA': 'Bacău',
         'CĂIUŢI': 'Bacău', 'CAIUTI': 'Bacău', 'ASĂU': 'Bacău', 'ASAU': 'Bacău', 'GURA VĂII': 'Bacău', 'GURA VAII': 'Bacău',
-        'MEREI': 'Buzău', 'PĂTÂRLAGELE': 'Buzău', 'PATARLAGELE': 'Buzău', 'NEHOIU': 'Buzău',
-        'BECENI': 'Buzău', 'TOPLICENI': 'Buzău',
+        'DĂRMĂNEŞTI': 'Bacău', 'DARMANESTI': 'Bacău', 'OITUZ': 'Bacău',
+        'BĂLILEŞTI': 'Vâlcea', 'BALILESTI': 'Vâlcea', 'SĂLĂTRUCEL': 'Vâlcea', 'SALATRUCEL': 'Vâlcea',
+        'RÂMNICU VÂLCEA': 'Vâlcea', 'RAMNICU VALCEA': 'Vâlcea',
+        'DUMITRIŢA': 'Vrancea', 'DUMITRIȚA': 'Vrancea', 'DUMITRITA': 'Vrancea',
+        'GURA TEGHII': 'Buzău', 'GURA TEGII': 'Buzău',
+        'CÂMPULUNG': 'Argeș', 'CAMPULUNG': 'Argeș',
     }
     
     return uat_county_map.get(uat)
@@ -222,25 +244,58 @@ def scrape_bear_interventions():
         
         print(f"Found headers: {table_headers[:5]}...")  # Print first 5 headers
         
-        # Extract data rows
+        # Extract data rows with proper rowspan handling
         data_rows = main_table.find_all('tr')[1:]  # Skip header row
         interventions = []
         
         print(f"Processing {len(data_rows)} data rows...")
         
+        # Track active rowspan values to handle missing cells
+        rowspan_tracker = {}
+        
         for i, row in enumerate(data_rows):
             cells = row.find_all(['td', 'th'])
-            
-            if len(cells) < len(table_headers):
-                continue  # Skip incomplete rows
-                
             row_data = {}
             
-            for j, cell in enumerate(cells[:len(table_headers)]):
+            # Reconstruct the full row accounting for rowspan
+            reconstructed_cells = []
+            cell_index = 0
+            
+            for col_index in range(len(table_headers)):
+                # Check if this column has an active rowspan from previous rows
+                if col_index in rowspan_tracker and rowspan_tracker[col_index]['remaining'] > 0:
+                    # Use the value from the rowspan
+                    reconstructed_cells.append(rowspan_tracker[col_index]['value'])
+                    rowspan_tracker[col_index]['remaining'] -= 1
+                    
+                    # Remove from tracker if expired
+                    if rowspan_tracker[col_index]['remaining'] == 0:
+                        del rowspan_tracker[col_index]
+                else:
+                    # Use current cell if available
+                    if cell_index < len(cells):
+                        cell = cells[cell_index]
+                        cell_text = clean_text(cell.get_text())
+                        reconstructed_cells.append(cell_text)
+                        
+                        # Check if this cell has a rowspan
+                        rowspan = cell.get('rowspan')
+                        if rowspan and int(rowspan) > 1:
+                            rowspan_tracker[col_index] = {
+                                'value': cell_text,
+                                'remaining': int(rowspan) - 1
+                            }
+                        
+                        cell_index += 1
+                    else:
+                        # No cell available, use empty value
+                        reconstructed_cells.append(None)
+            
+            # Create row data dictionary
+            for j, cell_value in enumerate(reconstructed_cells):
                 if j < len(table_headers):
-                    cell_text = clean_text(cell.get_text())
-                    header = table_headers[j] if j < len(table_headers) else f"col_{j}"
-                    row_data[header] = cell_text
+                    header = table_headers[j]
+                    row_data[header] = cell_value
             
             # Process and clean the data
             processed_row = process_intervention_row(row_data)
