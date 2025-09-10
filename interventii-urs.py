@@ -79,6 +79,73 @@ def parse_date(date_text):
     except:
         return date_text
 
+def infer_county_from_uat(uat_name):
+    """Infer county from UAT (locality) name using common mappings"""
+    if not uat_name:
+        return None
+        
+    uat = uat_name.upper().strip()
+    
+    # Common UAT to county mappings for bear intervention areas
+    uat_county_map = {
+        # Harghita county
+        'VOŞLĂBENI': 'Harghita', 'VOSLOBENI': 'Harghita', 'BĂLAN': 'Harghita', 'BALAN': 'Harghita',
+        'BILBOR': 'Harghita', 'SÂNDOMINIC': 'Harghita', 'SANDOMINIC': 'Harghita', 'CORBU': 'Harghita',
+        'BORSEC': 'Harghita', 'COZMENI': 'Harghita', 'ZETEA': 'Harghita', 'GHEORGHENI': 'Harghita',
+        'TOPLIŢA': 'Harghita', 'TOPLITA': 'Harghita', 'PRAID': 'Harghita',
+        
+        # Prahova county  
+        'COMARNIC': 'Prahova', 'CERAŞU': 'Prahova', 'CERASU': 'Prahova', 'DRAJNA': 'Prahova',
+        'POSEŞTI': 'Prahova', 'POSESTI': 'Prahova', 'SINAIA': 'Prahova', 'BUŞTENI': 'Prahova',
+        'BUSTENI': 'Prahova', 'BREAZA': 'Prahova', 'CÂMPINA': 'Prahova', 'CAMPINA': 'Prahova',
+        'MĂNECIU': 'Prahova', 'MANECIU': 'Prahova', 'ŞTEFEŞTI': 'Prahova', 'STEFESTI': 'Prahova',
+        'AZUGA': 'Prahova', 'IZVOARELE': 'Prahova', 'SLĂNIC': 'Prahova', 'SLANIC': 'Prahova',
+        'PĂULEŞTI': 'Prahova', 'PAULESTI': 'Prahova', 'BĂTRÂNI': 'Prahova', 'BATRANI': 'Prahova',
+        'VĂLENII DE MUNTE': 'Prahova', 'PROVIŢA DE SUS': 'Prahova', 'PROVITA DE SUS': 'Prahova',
+        'ARICEŞTII ZELETIN': 'Prahova', 'ARICESTII ZELETIN': 'Prahova', 'CĂRBUNEŞTI': 'Prahova',
+        'CARBUNESTI': 'Prahova', 'SURANI': 'Prahova', 'ALUNIŞ': 'Prahova', 'ALUNIS': 'Prahova',
+        'DUMBRĂVEŞTI': 'Prahova', 'DUMBRAVESTI': 'Prahova', 'TEIŞANI': 'Prahova', 'TEISANI': 'Prahova',
+        'BĂNEŞTI': 'Prahova', 'BANESTI': 'Prahova', 'VÂLCĂNEŞTI': 'Prahova', 'VALCANESTI': 'Prahova',
+        'PLOIEŞTI': 'Prahova', 'PLOIESTI': 'Prahova',
+        
+        # Brașov county
+        'BRAŞOV': 'Brașov', 'BRASOV': 'Brașov', 'PREDEAL': 'Brașov', 'RÂŞNOV': 'Brașov', 'RASNOV': 'Brașov',
+        'ZĂRNEŞTI': 'Brașov', 'ZARNESTI': 'Brașov', 'SĂCELE': 'Brașov', 'SACELE': 'Brașov',
+        'BRAN': 'Brașov', 'FUNDATA': 'Brașov',
+        
+        # Mureș county
+        'SOVATA': 'Mureș', 'BEICA DE JOS': 'Mureș', 'SOLOVĂSTRU': 'Mureș', 'SOLOVASTRU': 'Mureș',
+        'CORUNCA': 'Mureș', 'LIVEZENI': 'Mureș', 'ACĂŢARI': 'Mureș', 'ACATARI': 'Mureș',
+        'COROISÂNMĂRTIN': 'Mureș', 'COROISANMARTIN': 'Mureș', 'PETELEA': 'Mureș',
+        'IBĂNEŞTI': 'Mureș', 'IBANESTI': 'Mureș', 'STÂNCENI': 'Mureș', 'STANCENI': 'Mureș',
+        'SÂNPAUL': 'Mureș', 'SANPAUL': 'Mureș', 'TÂRGU MUREŞ': 'Mureș', 'TARGU MURES': 'Mureș',
+        'RĂSTOLIŢA': 'Mureș', 'RASTOLITA': 'Mureș', 'SIGHIŞOARA': 'Mureș', 'SIGHISOARA': 'Mureș',
+        
+        # Covasna county
+        'BARCANI': 'Covasna', 'MICFALĂU': 'Covasna', 'MICFALAU': 'Covasna', 'ZĂBALA': 'Covasna', 'ZABALA': 'Covasna',
+        
+        # Vrancea county
+        'CÂMPURI': 'Vrancea', 'CAMPURI': 'Vrancea', 'REGHIU': 'Vrancea', 'NEREJU': 'Vrancea',
+        'BORDEŞTI': 'Vrancea', 'BORDESTI': 'Vrancea', 'SOVEJA': 'Vrancea', 'JITIA': 'Vrancea',
+        
+        # Other counties
+        'MOROENI': 'Dâmbovița', 'PIETROŞIŢA': 'Dâmbovița', 'PIETROSITA': 'Dâmbovița',
+        'BIXAD': 'Covasna', 'BROŞTENI': 'Suceava', 'BROSTENI': 'Suceava', 'VATRA DORNEI': 'Suceava',
+        'LEREŞTI': 'Argeș', 'LERESTI': 'Argeș', 'AREFU': 'Argeș', 'NUCŞOARA': 'Argeș', 'NUCSOARA': 'Argeș',
+        'CORBENI': 'Argeș', 'RUCĂR': 'Argeș', 'RUCAR': 'Argeș',
+        'PORUMBACU DE JOS': 'Sibiu', 'DUMBRĂVENI': 'Sibiu', 'DUMBRAVENI': 'Sibiu',
+        'SEBEŞ': 'Alba', 'SEBES': 'Alba', 'CÂMPENI': 'Alba', 'CAMPENI': 'Alba', 'VALEA LUNGĂ': 'Alba', 'VALEA LUNGA': 'Alba',
+        'ŞIEU': 'Bistrița-Năsăud', 'SIEU': 'Bistrița-Năsăud',
+        'PUI': 'Hunedoara', 'BUMBEŞTI-JIU': 'Gorj', 'BUMBESTI-JIU': 'Gorj',
+        'PIETROASA': 'Bihor', 'PALANCA': 'Bacău', 'AGĂŞ': 'Bacău', 'AGAS': 'Bacău',
+        'RĂCĂCIUNI': 'Bacău', 'RACACIUNI': 'Bacău', 'SLĂNIC-MOLDOVA': 'Bacău', 'SLANIC-MOLDOVA': 'Bacău',
+        'CĂIUŢI': 'Bacău', 'CAIUTI': 'Bacău', 'ASĂU': 'Bacău', 'ASAU': 'Bacău', 'GURA VĂII': 'Bacău', 'GURA VAII': 'Bacău',
+        'MEREI': 'Buzău', 'PĂTÂRLAGELE': 'Buzău', 'PATARLAGELE': 'Buzău', 'NEHOIU': 'Buzău',
+        'BECENI': 'Buzău', 'TOPLICENI': 'Buzău',
+    }
+    
+    return uat_county_map.get(uat)
+
 def standardize_intervention_type(intervention_text):
     """Standardize intervention type categories"""
     if not intervention_text:
@@ -207,7 +274,7 @@ def process_intervention_row(row_data):
             key_lower = key.lower() if key else ''
             
             # Map common field names
-            if 'județ' in key_lower or 'judet' in key_lower:
+            if 'județ' in key_lower or 'judet' in key_lower or key_lower == 'judet':
                 cleaned_row['judet'] = clean_text(value)
             elif key == 'UAT':
                 cleaned_row['uat'] = clean_text(value)
@@ -266,6 +333,12 @@ def process_intervention_row(row_data):
         if not cleaned_row.get('judet') and not cleaned_row.get('uat'):
             return None
             
+        # Try to infer missing county from UAT if county is empty but UAT exists
+        if not cleaned_row.get('judet') and cleaned_row.get('uat'):
+            inferred_county = infer_county_from_uat(cleaned_row['uat'])
+            if inferred_county:
+                cleaned_row['judet'] = inferred_county
+                
         return cleaned_row
         
     except Exception as e:
