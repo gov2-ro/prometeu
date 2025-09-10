@@ -22,6 +22,13 @@ sursă: [politiadefrontiera.ro](https://www.politiadefrontiera.ro/ro/traficonlin
 
 ---
 
+### [Interventii urs](data/interventii-urs)
+
+sursă: [interventiiurs.mmap.ro](https://interventiiurs.mmap.ro/centralizator/) 
+
+
+---
+
 ### [posturi.gov.ro](data/posturi/)
 
 Posturile vacante din cadrul autorităților și instituțiilor publice din România publicate | sursă: [posturi.gov.ro](http://posturi.gov.ro/)
