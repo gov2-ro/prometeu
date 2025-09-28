@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":20,
+    "Timp":10,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -18,16 +18,6 @@
     "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Albița",
-    "Timp":30,
-    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
-    "Latitude":"46.78513359",
-    "Longitude":"28.138904570000022",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
@@ -37,11 +27,21 @@
     "Longitude":"28.138904570000022",
     "Status":"red",
     "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Albița",
+    "Timp":80,
+    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
+    "Latitude":"46.78513359",
+    "Longitude":"28.138904570000022",
+    "Status":"red",
+    "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Bumbăta",
-    "Timp":10,
+    "Timp":20,
     "Info":"Program functionare PTF 00.00-24.00.",
     "Latitude":"46.48343071528536",
     "Longitude":"28.230584720334427",
@@ -87,6 +87,26 @@
     "Longitude":"28.188611261901883",
     "Status":"green",
     "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Galați",
+    "Timp":10,
+    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
+    "Latitude":"45.46825360262536",
+    "Longitude":"28.188611261901883",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Galați",
+    "Timp":10,
+    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
+    "Latitude":"45.46825360262536",
+    "Longitude":"28.188611261901883",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
@@ -96,26 +116,6 @@
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
     "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Galați",
-    "Timp":30,
-    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
-    "Latitude":"45.46825360262536",
-    "Longitude":"28.188611261901883",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Galați",
-    "Timp":30,
-    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
-    "Latitude":"45.46825360262536",
-    "Longitude":"28.188611261901883",
-    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -521,18 +521,18 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
-    "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
+    "Timp":10,
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Sculeni",
     "Timp":30,
-    "Info":"Numar mare de mijloace de transport marfa prezentate la control.",
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
