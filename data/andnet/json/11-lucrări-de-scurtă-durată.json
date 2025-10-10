@@ -78,19 +78,6 @@
 },
 {
 	"NR. CRT.": "1.7",
-	"Indicativ drum": "A6",
-	"De la km": "3+320",
-	"Pana la km": "3+320",
-	"De la data": "2025-10-09 08:00:00",
-	"Pana la data": "2025-10-09 23:59:00",
-	"Intre localitatile": "TIPARI (TM) -",
-	"Cauza": "Pe calea 2 se executa lucrari de frezare si asfaltare.",
-	"Masuri de remediere": "Pe Calea 2 se circula pe Banda 1 si Banda de Urgenta. Banda 2 este restrictionata pana la finalizarea lucrarilor",
-	"viz_name": "A6",
-	"map_zoom": "['3', '320', '3', '320']"
-},
-{
-	"NR. CRT.": "1.8",
 	"Indicativ drum": "A7",
 	"De la km": "0+600",
 	"Pana la km": "1+260",
@@ -103,7 +90,7 @@
 	"map_zoom": "['0', '600', '1', '260']"
 },
 {
-	"NR. CRT.": "1.9",
+	"NR. CRT.": "1.8",
 	"Indicativ drum": "DN1",
 	"De la km": "14+185",
 	"Pana la km": "14+345",
@@ -116,7 +103,7 @@
 	"map_zoom": "['14', '185', '14', '345']"
 },
 {
-	"NR. CRT.": "1.10",
+	"NR. CRT.": "1.9",
 	"Indicativ drum": "DN1",
 	"De la km": "94+105",
 	"Pana la km": "94+585",
@@ -129,7 +116,7 @@
 	"map_zoom": "['94', '105', '94', '585']"
 },
 {
-	"NR. CRT.": "1.11",
+	"NR. CRT.": "1.10",
 	"Indicativ drum": "DN1B",
 	"De la km": "11+100",
 	"Pana la km": "11+500",
@@ -140,5 +127,57 @@
 	"Masuri de remediere": "Lucrarile se vor desfasura prin inchiderea alternanta a cate unei benzi de circulatie pe fiecare sens.",
 	"viz_name": "DN1B",
 	"map_zoom": "['11', '100', '11', '500']"
+},
+{
+	"NR. CRT.": "1.11",
+	"Indicativ drum": "DN6",
+	"De la km": "244+020",
+	"Pana la km": "370+500",
+	"De la data": "2025-10-10 08:00:00",
+	"Pana la data": "2025-10-10 16:00:00",
+	"Intre localitatile": "DROBETA TURNU SEVERIN (MH) - TOPLET (CS)",
+	"Cauza": "Se efectueaza lucrari de reparatii cu mixtura calda , in functie de conditiile meteo .",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale , dirijata de piloti de circulatie .",
+	"viz_name": "DN6",
+	"map_zoom": "['244', '20', '370', '500']"
+},
+{
+	"NR. CRT.": "1.12",
+	"Indicativ drum": "DN65C",
+	"De la km": "46+000",
+	"Pana la km": "49+000",
+	"De la data": "2025-10-10 08:00:00",
+	"Pana la data": "2025-10-10 18:00:00",
+	"Intre localitatile": "OTETELISU (VL) - GIULESTII DE SUS (VL)",
+	"Cauza": "Se lucreaza la reparatii asfaltice, in functie de conditiile meteo.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
+	"viz_name": "DN65C",
+	"map_zoom": "['46', '0', '49', '0']"
+},
+{
+	"NR. CRT.": "1.13",
+	"Indicativ drum": "DN7",
+	"De la km": "199+110",
+	"Pana la km": "199+410",
+	"De la data": "2025-10-10 07:00:00",
+	"Pana la data": "2025-10-10 18:00:00",
+	"Intre localitatile": "CALIMANESTI (VL) - CALIMANESTI (VL)",
+	"Cauza": "In extravilanul localitatii Calimanesti se executa lucrari de punere in siguranta versanti in functie de conditiile meteo .",
+	"Masuri de remediere": "In  intervalul orar 08:00 - 16:00 circulatia rutiera se inchide/deschide in reprize de max.15 minute, iar in rest circulatia rutiera se desfasoara pe 1/2 cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['199', '110', '199', '410']"
+},
+{
+	"NR. CRT.": "1.14",
+	"Indicativ drum": "DN7",
+	"De la km": "224+400",
+	"Pana la km": "224+600",
+	"De la data": "2025-10-10 07:00:00",
+	"Pana la data": "2025-10-10 18:00:00",
+	"Intre localitatile": "BALOTA (VL) - ROBESTI (VL)",
+	"Cauza": "Se executa lucrari de punere in siguranta versanti in functie de conditiile meteo .",
+	"Masuri de remediere": "In intervalul orar 08:00 - 16:00 circulatia rutiera se inchide/deschide in reprize de max.15 minute, iar in rest circulatia rutiera se desfasoara pe 1/2 cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['224', '400', '224', '600']"
 }
 ]
