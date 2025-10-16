@@ -2536,11 +2536,12 @@
         "Long": 26.061306
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum",
+        "culoare": "#e0002b",
         "denumire": "4 Drumul Sarii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "16.10.2025 15:30",
+        "status": "avarii",
         "Lat": 44.418494402451,
         "Long": 26.061323116694
     },
@@ -2774,7 +2775,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Petre Ispirescu",
         "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 08:00",
+        "remediere": "16.10.2025 12:00",
         "status": "deficiente",
         "Lat": 44.415103547395,
         "Long": 26.065666162075
@@ -2874,7 +2875,7 @@
         "culoare": "#ffe53e",
         "denumire": "Marinescu",
         "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 08:00",
+        "remediere": "16.10.2025 12:00",
         "status": "deficiente",
         "Lat": 44.434689,
         "Long": 26.066986
@@ -2938,7 +2939,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Rahova",
         "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 08:00",
+        "remediere": "16.10.2025 12:00",
         "status": "deficiente",
         "Lat": 44.409809133109,
         "Long": 26.067767241792
@@ -3324,11 +3325,11 @@
         "Long": 26.073971
     },
     {
-        "stare": "Remediere avarie circuit primar",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
         "culoare": "#e0002b",
         "denumire": "2 Sălaj",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 12:00",
+        "tip": "Oprire INC",
+        "remediere": "16.10.2025 15:00",
         "status": "avarii",
         "Lat": 44.406429200569,
         "Long": 26.07423868657
@@ -3398,11 +3399,12 @@
         "Long": 26.075109562074
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în punctul termic pe circuitul primar",
+        "culoare": "#e0002b",
         "denumire": "3 Titulescu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "16.10.2025 13:00",
+        "status": "avarii",
         "Lat": 44.45218,
         "Long": 26.075444
     },
@@ -3470,11 +3472,12 @@
         "Long": 26.075837
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în punctul termic pe circuitul de încălzire",
+        "culoare": "#e0002b",
         "denumire": "5-1 Mai",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "16.10.2025 14:00",
+        "status": "avarii",
         "Lat": 44.460045,
         "Long": 26.076042
     },
@@ -4002,12 +4005,12 @@
         "Long": 26.0918888
     },
     {
-        "stare": "Remediere avarie circuit primar",
-        "culoare": "#e0002b",
+        "stare": "Funcționare deficitară a apei calde de consum",
+        "culoare": "#ffe53e",
         "denumire": "103A",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 09:00",
-        "status": "avarii",
+        "tip": "Deficienta ACC",
+        "remediere": "16.10.2025 12:00",
+        "status": "deficiente",
         "Lat": 44.430967,
         "Long": 26.091934
     },
@@ -4184,12 +4187,11 @@
         "Long": 26.0953565
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Almașul Mare",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.383011080574,
         "Long": 26.095455589788
     },
@@ -4203,12 +4205,11 @@
         "Long": 26.095541252097
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Spinis",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3848738,
         "Long": 26.0955769
     },
@@ -4466,21 +4467,21 @@
         "Long": 26.1002561
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Vifornita",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.385130342076,
         "Long": 26.100341665398
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie în punctul termic pe circuitul primar",
+        "culoare": "#e0002b",
         "denumire": "3 Aviatiei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "16.10.2025 13:00",
+        "status": "avarii",
         "Lat": 44.483988987903,
         "Long": 26.100412519401
     },
@@ -4521,12 +4522,11 @@
         "Long": 26.1006883
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Vifornita",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.387629050495,
         "Long": 26.101022962633
     },
@@ -4594,22 +4594,20 @@
         "Long": 26.1019417
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Zona IV",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.381342962667,
         "Long": 26.102071038049
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Huedin",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.383094497956,
         "Long": 26.102480601346
     },
@@ -4668,12 +4666,11 @@
         "Long": 26.1047833
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Zona V",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.384658526292,
         "Long": 26.104838484162
     },
@@ -4742,12 +4739,11 @@
         "Long": 26.105414245634
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Uioara",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.378447,
         "Long": 26.105435
     },
@@ -4861,12 +4857,11 @@
         "Long": 26.1070864
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Curcani",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.380569,
         "Long": 26.107296
     },
@@ -4881,12 +4876,11 @@
         "Long": 26.107789867011
     },
     {
-        "stare": "Manevre pornire CET Progresu",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Zona V",
-        "tip": "Deficienta ACC",
-        "remediere": "16.10.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.384573375339,
         "Long": 26.107981119744
     },
@@ -5274,12 +5268,11 @@
         "Long": 26.115555
     },
     {
-        "stare": "Remediere avarie rețea primară,zona Aleea Circului- Barbu Văcărescu- Lacul Tei",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ramuri Tei",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4635268,
         "Long": 26.1157015
     },
@@ -5617,12 +5610,11 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Remediere avarie rețea primară,zona Aleea Circului- Barbu Văcărescu- Lacul Tei",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Lacul Tei",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4628725,
         "Long": 26.1204375
     },
@@ -5727,12 +5719,11 @@
         "Long": 26.121893601914
     },
     {
-        "stare": "Remediere avarie rețea primară,zona Aleea Circului- Barbu Văcărescu- Lacul Tei",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "ICB",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.462771,
         "Long": 26.121958
     },
@@ -6032,12 +6023,11 @@
         "Long": 26.127654
     },
     {
-        "stare": "Remediere avarie rețea primară,zona Aleea Circului- Barbu Văcărescu- Lacul Tei",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "17-18 Petricani",
-        "tip": "Oprire ACC",
-        "remediere": "16.10.2025 08:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4644793,
         "Long": 26.127704
     },
@@ -7279,11 +7269,12 @@
         "Long": 26.14675
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Mentenanță instalație interioară în punctul termic pentru circuit de apa calda de consum",
+        "culoare": "#e0002b",
         "denumire": "1 Iancului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "16.10.2025 14:00",
+        "status": "avarii",
         "Lat": 44.443045,
         "Long": 26.146751
     },
@@ -8104,11 +8095,12 @@
         "Long": 26.167490509867
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Înlocuire vană/robineți în punctul termic pe circuitul de apă caldă de consum",
+        "culoare": "#e0002b",
         "denumire": "2 C5/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "16.10.2025 14:00",
+        "status": "avarii",
         "Lat": 44.423883141331,
         "Long": 26.168492290267
     },
