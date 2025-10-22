@@ -131,32 +131,6 @@
 {
 	"NR. CRT.": "1.11",
 	"Indicativ drum": "A1",
-	"De la km": "242+600",
-	"Pana la km": "243+600",
-	"De la data": "2025-10-22 09:30:00",
-	"Pana la data": "2025-10-22 15:00:00",
-	"Intre localitatile": "SIBIU (SB) - SIBIU (SB)",
-	"Cauza": "Intretinere iluminat - inlocuit lampi defecte. Banda 2 a caii 2 (sens Orastie - Sibiu) inchisa. Se circula pe banda 1",
-	"Masuri de remediere": "",
-	"viz_name": "A1",
-	"map_zoom": "['242', '600', '243', '600']"
-},
-{
-	"NR. CRT.": "1.12",
-	"Indicativ drum": "A1",
-	"De la km": "243+800",
-	"Pana la km": "244+400",
-	"De la data": "2025-10-22 09:00:00",
-	"Pana la data": "2025-10-22 15:00:00",
-	"Intre localitatile": "SIBIU (SB) - SIBIU (SB)",
-	"Cauza": "Pe Calea 1 (sens Sibiu- Orastie) se desfasoara lucrari -  interventie dispozitive acoperire rosturi dilatatie. Banda 1 inchisa. Se circula pe banda 2",
-	"Masuri de remediere": "",
-	"viz_name": "A1",
-	"map_zoom": "['243', '800', '244', '400']"
-},
-{
-	"NR. CRT.": "1.13",
-	"Indicativ drum": "A1",
 	"De la km": "497+000",
 	"Pana la km": "498+000",
 	"De la data": "2025-10-22 10:00:00",
@@ -166,6 +140,32 @@
 	"Masuri de remediere": "Se circula pe Banda 2 si Banda 1.Banda de urgenta este restrictionata.",
 	"viz_name": "A1",
 	"map_zoom": "['497', '0', '498', '0']"
+},
+{
+	"NR. CRT.": "1.12",
+	"Indicativ drum": "A1",
+	"De la km": "543+500",
+	"Pana la km": "543+500",
+	"De la data": "2025-10-22 10:00:00",
+	"Pana la data": "2025-10-22 16:00:00",
+	"Intre localitatile": "ARAD (AR) - ARAD (AR)",
+	"Cauza": "Pe calea 2 se executa montare indicator de semnalizare rutiera.",
+	"Masuri de remediere": "Se circula pe Banda 1 si Banda 2.Banda de urgenta inchisa.",
+	"viz_name": "A1",
+	"map_zoom": "['543', '500', '543', '500']"
+},
+{
+	"NR. CRT.": "1.13",
+	"Indicativ drum": "A2",
+	"De la km": "17+500",
+	"Pana la km": "18+400",
+	"De la data": "2025-10-22 09:00:00",
+	"Pana la data": "2025-10-22 19:00:00",
+	"Intre localitatile": "PANTELIMON (IF) -",
+	"Cauza": "Se executa lucrari de reparatii asfaltice pe pe sensul Bucuresti-Constanta. Banda 1 este restrictionata intre km 17+500 si km. 18+400.",
+	"Masuri de remediere": "Circulatia se desfasoara pe banda 2.",
+	"viz_name": "A2",
+	"map_zoom": "['17', '500', '18', '400']"
 },
 {
 	"NR. CRT.": "1.14",
@@ -274,19 +274,6 @@
 {
 	"NR. CRT.": "1.22",
 	"Indicativ drum": "DN7",
-	"De la km": "234+200",
-	"Pana la km": "234+800",
-	"De la data": "2025-10-21 09:00:00",
-	"Pana la data": "2025-10-22 12:00:00",
-	"Intre localitatile": "CAINENII MARI (VL) - RAU VADULUI (VL)",
-	"Cauza": "Se lucreaza la aplicare marcaje rutiere.",
-	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
-	"viz_name": "DN7",
-	"map_zoom": "['234', '200', '234', '800']"
-},
-{
-	"NR. CRT.": "1.23",
-	"Indicativ drum": "DN7",
 	"De la km": "180+000",
 	"Pana la km": "187+000",
 	"De la data": "2025-10-21 09:00:00",
@@ -298,7 +285,7 @@
 	"map_zoom": "['180', '0', '187', '0']"
 },
 {
-	"NR. CRT.": "1.24",
+	"NR. CRT.": "1.23",
 	"Indicativ drum": "DN7A",
 	"De la km": "11+000",
 	"Pana la km": "13+000",
@@ -309,18 +296,5 @@
 	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de pilotidecirculatie.",
 	"viz_name": "DN7A",
 	"map_zoom": "['11', '0', '13', '0']"
-},
-{
-	"NR. CRT.": "1.25",
-	"Indicativ drum": "DN7CC",
-	"De la km": "1+500",
-	"Pana la km": "1+800",
-	"De la data": "2025-10-22 09:00:00",
-	"Pana la data": "2025-10-22 12:00:00",
-	"Intre localitatile": "CALIMANESTI (VL) -",
-	"Cauza": "Se lucreaza la reparatii asfaltice.",
-	"Masuri de remediere": "Circulatia rutiera pe sensul Sibiu - Rm.Valcea va fi deviata pe sectorul de drum DN 7 km 191+000 - km 197+800, iar pentru sensul Rm.Valcea - Sibiu se va desfasura pe DN 7CC pe 1/2 din cale dirijata de piloti de circulatie in zona lucrarii.-",
-	"viz_name": "DN7CC",
-	"map_zoom": "['1', '500', '1', '800']"
 }
 ]
