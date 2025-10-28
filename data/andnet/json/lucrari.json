@@ -1,15 +1,15 @@
 [{
 	"NR. CRT.": "6.1",
-	"Indicativ drum": "A1",
-	"De la km": "282+000",
-	"Pana la km": "284+000",
-	"De la data": "2025-10-24 16:23:00",
-	"Pana la data": "2025-10-28 18:00:00",
-	"Intre localitatile": "MIERCUREA SIBIULUI (SB) - APOLDU DE JOS (SB)",
-	"Tip lucrare": "Datorita gropilor aparute in carosabil in ultimul timp se inchide banda 1 si banda de urgenta de pe calea 2 (sens Sebes-Sibiu) pana la rezolvarea situatiei.",
-	"Variante de ocolire": "Se circula ingreunat pe banda 2 de pe calea 2 (sens Sebes-Sibiu).",
-	"viz_name": "A1",
-	"map_zoom": "['282', '0', '284', '0']"
+	"Indicativ drum": "A10",
+	"De la km": "47+500",
+	"Pana la km": "47+500",
+	"De la data": "2025-10-04 12:10:00",
+	"Pana la data": "2025-12-31 18:00:00",
+	"Intre localitatile": "TURDA (CJ) - AIUD (AB)",
+	"Tip lucrare": "Reparatie rost de dilatatie viaduc raul Mures .",
+	"Variante de ocolire": "Lucrarile se desfasoara pe Calea 2, banda 1 si banda de urgenta blocate, se circula pe banda 2 cu restrictie de viteza .",
+	"viz_name": "A10",
+	"map_zoom": "['47', '500', '47', '500']"
 },
 {
 	"NR. CRT.": "6.2",
@@ -27,6 +27,19 @@
 {
 	"NR. CRT.": "6.3",
 	"Indicativ drum": "A2",
+	"De la km": "143+125",
+	"Pana la km": "148+315",
+	"De la data": "2023-12-02 17:00:00",
+	"Pana la data": "2025-12-31 23:59:00",
+	"Intre localitatile": "FETESTI (IL) - CERNAVODA (CT)",
+	"Tip lucrare": "Lucrari de reparatii pod peste bratul Borcea. se va circula cu restrictie de tonaj  MTMA > 50 to. distanta intre autovegicule se va mentine de cel putin 50m , cu o restrictie de viteza de 60 km / h",
+	"Variante de ocolire": "",
+	"viz_name": "A2",
+	"map_zoom": "['143', '125', '148', '315']"
+},
+{
+	"NR. CRT.": "6.4",
+	"Indicativ drum": "A2",
 	"De la km": "64+500",
 	"Pana la km": "105+500",
 	"De la data": "2025-09-24 07:30:00",
@@ -38,7 +51,7 @@
 	"map_zoom": "['64', '500', '105', '500']"
 },
 {
-	"NR. CRT.": "6.4",
+	"NR. CRT.": "6.5",
 	"Indicativ drum": "A2",
 	"De la km": "58+045",
 	"Pana la km": "58+045",
@@ -49,19 +62,6 @@
 	"Variante de ocolire": "Pe ambele cai se va circula pe banda 2. Lucrarile vor fi semnalizate corespunzator.",
 	"viz_name": "A2",
 	"map_zoom": "['58', '45', '58', '45']"
-},
-{
-	"NR. CRT.": "6.5",
-	"Indicativ drum": "A2",
-	"De la km": "143+125",
-	"Pana la km": "148+315",
-	"De la data": "2023-12-02 17:00:00",
-	"Pana la data": "2025-12-31 23:59:00",
-	"Intre localitatile": "FETESTI (IL) - CERNAVODA (CT)",
-	"Tip lucrare": "Lucrari de reparatii pod peste bratul Borcea. se va circula cu restrictie de tonaj  MTMA > 50 to. distanta intre autovegicule se va mentine de cel putin 50m , cu o restrictie de viteza de 60 km / h",
-	"Variante de ocolire": "",
-	"viz_name": "A2",
-	"map_zoom": "['143', '125', '148', '315']"
 },
 {
 	"NR. CRT.": "6.6",
@@ -144,19 +144,6 @@
 {
 	"NR. CRT.": "6.12",
 	"Indicativ drum": "DN10",
-	"De la km": "88+808",
-	"Pana la km": "90+265",
-	"De la data": "2025-09-03 16:45:00",
-	"Pana la data": "2025-12-31 23:59:00",
-	"Intre localitatile": "GURA SIRIULUI (BZ) - GURA SIRIULUI (BZ)",
-	"Tip lucrare": "Reparatii curente Pod pe DN10, peste Valea Gramatic la Lunca Jaristei.",
-	"Variante de ocolire": "Circulatia se va desfasura prin devierea alternativa, semaforizata, pe cate o banda de circulatie (3,50 m - pe jumatate din latimea caii de pod). In mod exceptional, in situatia defectarii semafoarelor, dirijarea traficului se realizeaza cu piloti de circulatie.In situatia in care va fi necesara semnalizarea cu piloti, dirijarea alternativa se va realiza cu piloti de trafic instruiti si dotati conform normelor in vigoare cu palete de semnalizare cu fete duble reflectorizante verde/rosu, statii de emisie/receptie si echipament de protectie de culoare portocalie.",
-	"viz_name": "DN10",
-	"map_zoom": "['88', '808', '90', '265']"
-},
-{
-	"NR. CRT.": "6.13",
-	"Indicativ drum": "DN10",
 	"De la km": "67+190",
 	"Pana la km": "67+190",
 	"De la data": "2025-03-14 16:29:00",
@@ -168,7 +155,7 @@
 	"map_zoom": "['67', '190', '67', '190']"
 },
 {
-	"NR. CRT.": "6.14",
+	"NR. CRT.": "6.13",
 	"Indicativ drum": "DN10",
 	"De la km": "2+100",
 	"Pana la km": "13+890",
@@ -179,6 +166,19 @@
 	"Variante de ocolire": "Circulatia se va desfasura prin devierea alternativa, fara inchiderea traficului rutier.Se aplica scheme de semnalizare pentru:- Lucrari la care circulatia se desfasoara simultan in ambele sensuri.- Circulatia alternanta dirijata prin indicatoare la lucrari pe maxim 1/2 din cale.- Circulatia alternanta dirijata cu piloti la lucrari pe maxim 1/2 din cale.- Semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei.- Semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei.La km 5+498 exista un contor de trafic de tip ISAF iar lucrarile se vor executa manual pentru a evita distrugerea buclelor inductive",
 	"viz_name": "DN10",
 	"map_zoom": "['2', '100', '13', '890']"
+},
+{
+	"NR. CRT.": "6.14",
+	"Indicativ drum": "DN10",
+	"De la km": "88+808",
+	"Pana la km": "90+265",
+	"De la data": "2025-09-03 16:45:00",
+	"Pana la data": "2025-12-31 23:59:00",
+	"Intre localitatile": "GURA SIRIULUI (BZ) - GURA SIRIULUI (BZ)",
+	"Tip lucrare": "Reparatii curente Pod pe DN10, peste Valea Gramatic la Lunca Jaristei.",
+	"Variante de ocolire": "Circulatia se va desfasura prin devierea alternativa, semaforizata, pe cate o banda de circulatie (3,50 m - pe jumatate din latimea caii de pod). In mod exceptional, in situatia defectarii semafoarelor, dirijarea traficului se realizeaza cu piloti de circulatie.In situatia in care va fi necesara semnalizarea cu piloti, dirijarea alternativa se va realiza cu piloti de trafic instruiti si dotati conform normelor in vigoare cu palete de semnalizare cu fete duble reflectorizante verde/rosu, statii de emisie/receptie si echipament de protectie de culoare portocalie.",
+	"viz_name": "DN10",
+	"map_zoom": "['88', '808', '90', '265']"
 },
 {
 	"NR. CRT.": "6.15",
@@ -234,6 +234,19 @@
 },
 {
 	"NR. CRT.": "6.19",
+	"Indicativ drum": "DN1C",
+	"De la km": "61+451",
+	"Pana la km": "61+513",
+	"De la data": "2025-10-06 08:00:00",
+	"Pana la data": "2025-12-31 18:00:00",
+	"Intre localitatile": "DEJ (CJ) - DEJ (CJ)",
+	"Tip lucrare": "Lucrari de reabilitare pod.",
+	"Variante de ocolire": "Circulatia se desfasoara alternativ pe o singura banda.",
+	"viz_name": "DN1C",
+	"map_zoom": "['61', '451', '61', '513']"
+},
+{
+	"NR. CRT.": "6.20",
 	"Indicativ drum": "DN2",
 	"De la km": "54+400",
 	"Pana la km": "56+405",
@@ -246,7 +259,7 @@
 	"map_zoom": "['54', '400', '56', '405']"
 },
 {
-	"NR. CRT.": "6.20",
+	"NR. CRT.": "6.21",
 	"Indicativ drum": "DN2",
 	"De la km": "56+755",
 	"Pana la km": "57+000",
@@ -259,7 +272,7 @@
 	"map_zoom": "['56', '755', '57', '0']"
 },
 {
-	"NR. CRT.": "6.21",
+	"NR. CRT.": "6.22",
 	"Indicativ drum": "DN2",
 	"De la km": "101+400",
 	"Pana la km": "103+800",
@@ -272,7 +285,7 @@
 	"map_zoom": "['101', '400', '103', '800']"
 },
 {
-	"NR. CRT.": "6.22",
+	"NR. CRT.": "6.23",
 	"Indicativ drum": "DN2",
 	"De la km": "101+100",
 	"Pana la km": "104+230",
@@ -285,7 +298,7 @@
 	"map_zoom": "['101', '100', '104', '230']"
 },
 {
-	"NR. CRT.": "6.23",
+	"NR. CRT.": "6.24",
 	"Indicativ drum": "DN21",
 	"De la km": "6+080",
 	"Pana la km": "6+800",
@@ -298,7 +311,7 @@
 	"map_zoom": "['6', '80', '6', '800']"
 },
 {
-	"NR. CRT.": "6.24",
+	"NR. CRT.": "6.25",
 	"Indicativ drum": "DN22",
 	"De la km": "108+358",
 	"Pana la km": "123+100",
@@ -309,19 +322,6 @@
 	"Variante de ocolire": "Circulatia rutiera se desfasoara cu restrictie de viteza de 40 km/h.",
 	"viz_name": "DN22",
 	"map_zoom": "['108', '358', '123', '100']"
-},
-{
-	"NR. CRT.": "6.25",
-	"Indicativ drum": "DN22C",
-	"De la km": "37+502",
-	"Pana la km": "38+602",
-	"De la data": "2025-01-16 14:26:00",
-	"Pana la data": "2025-11-15 23:59:00",
-	"Intre localitatile": "MURFATLAR (CT) - MURFATLAR (CT)",
-	"Tip lucrare": "Reabilitare pod Poarta Alba",
-	"Variante de ocolire": "Reabilitare pod Poarta Alba, circulatia se desfasoara  pe partea stanga a drumului (sensul Murfatlar - Medgidia)in ambele sensuri,  cu restrictie de viteza la 60 km/h.",
-	"viz_name": "DN22C",
-	"map_zoom": "['37', '502', '38', '602']"
 },
 {
 	"NR. CRT.": "6.26",
@@ -338,6 +338,19 @@
 },
 {
 	"NR. CRT.": "6.27",
+	"Indicativ drum": "DN22C",
+	"De la km": "37+502",
+	"Pana la km": "38+602",
+	"De la data": "2025-01-16 14:26:00",
+	"Pana la data": "2025-11-15 23:59:00",
+	"Intre localitatile": "MURFATLAR (CT) - MURFATLAR (CT)",
+	"Tip lucrare": "Reabilitare pod Poarta Alba",
+	"Variante de ocolire": "Reabilitare pod Poarta Alba, circulatia se desfasoara  pe partea stanga a drumului (sensul Murfatlar - Medgidia)in ambele sensuri,  cu restrictie de viteza la 60 km/h.",
+	"viz_name": "DN22C",
+	"map_zoom": "['37', '502', '38', '602']"
+},
+{
+	"NR. CRT.": "6.28",
 	"Indicativ drum": "DN22D",
 	"De la km": "24+775",
 	"Pana la km": "29+365",
@@ -350,7 +363,7 @@
 	"map_zoom": "['24', '775', '29', '365']"
 },
 {
-	"NR. CRT.": "6.28",
+	"NR. CRT.": "6.29",
 	"Indicativ drum": "DN2A",
 	"De la km": "3+200",
 	"Pana la km": "16+720",
@@ -363,7 +376,7 @@
 	"map_zoom": "['3', '200', '16', '720']"
 },
 {
-	"NR. CRT.": "6.29",
+	"NR. CRT.": "6.30",
 	"Indicativ drum": "DN2B",
 	"De la km": "125+500",
 	"Pana la km": "125+920",
@@ -376,7 +389,7 @@
 	"map_zoom": "['125', '500', '125', '920']"
 },
 {
-	"NR. CRT.": "6.30",
+	"NR. CRT.": "6.31",
 	"Indicativ drum": "DN2B",
 	"De la km": "9+680",
 	"Pana la km": "10+770",
@@ -389,7 +402,7 @@
 	"map_zoom": "['9', '680', '10', '770']"
 },
 {
-	"NR. CRT.": "6.31",
+	"NR. CRT.": "6.32",
 	"Indicativ drum": "DN2B",
 	"De la km": "2+340",
 	"Pana la km": "3+750",
@@ -402,7 +415,7 @@
 	"map_zoom": "['2', '340', '3', '750']"
 },
 {
-	"NR. CRT.": "6.32",
+	"NR. CRT.": "6.33",
 	"Indicativ drum": "DN2B",
 	"De la km": "2+880",
 	"Pana la km": "3+234",
@@ -415,7 +428,7 @@
 	"map_zoom": "['2', '880', '3', '234']"
 },
 {
-	"NR. CRT.": "6.33",
+	"NR. CRT.": "6.34",
 	"Indicativ drum": "DN2C",
 	"De la km": "2+339",
 	"Pana la km": "16+283",
@@ -428,7 +441,7 @@
 	"map_zoom": "['2', '339', '16', '283']"
 },
 {
-	"NR. CRT.": "6.34",
+	"NR. CRT.": "6.35",
 	"Indicativ drum": "DN2C",
 	"De la km": "29+077",
 	"Pana la km": "42+801",
@@ -441,7 +454,7 @@
 	"map_zoom": "['29', '77', '42', '801']"
 },
 {
-	"NR. CRT.": "6.35",
+	"NR. CRT.": "6.36",
 	"Indicativ drum": "DN2S",
 	"De la km": "1+180",
 	"Pana la km": "8+000",
@@ -454,7 +467,7 @@
 	"map_zoom": "['1', '180', '8', '0']"
 },
 {
-	"NR. CRT.": "6.36",
+	"NR. CRT.": "6.37",
 	"Indicativ drum": "DN3",
 	"De la km": "241+986",
 	"Pana la km": "242+586",
@@ -467,7 +480,7 @@
 	"map_zoom": "['241', '986', '242', '586']"
 },
 {
-	"NR. CRT.": "6.37",
+	"NR. CRT.": "6.38",
 	"Indicativ drum": "DN3B",
 	"De la km": "0+200",
 	"Pana la km": "1+250",
@@ -480,7 +493,7 @@
 	"map_zoom": "['0', '200', '1', '250']"
 },
 {
-	"NR. CRT.": "6.38",
+	"NR. CRT.": "6.39",
 	"Indicativ drum": "DN3B",
 	"De la km": "10+800",
 	"Pana la km": "30+800",
@@ -493,7 +506,7 @@
 	"map_zoom": "['10', '800', '30', '800']"
 },
 {
-	"NR. CRT.": "6.39",
+	"NR. CRT.": "6.40",
 	"Indicativ drum": "DN67",
 	"De la km": "129+500",
 	"Pana la km": "133+500",
@@ -506,7 +519,7 @@
 	"map_zoom": "['129', '500', '133', '500']"
 },
 {
-	"NR. CRT.": "6.40",
+	"NR. CRT.": "6.41",
 	"Indicativ drum": "DN67D",
 	"De la km": "3+000",
 	"Pana la km": "30+000",
@@ -519,7 +532,7 @@
 	"map_zoom": "['3', '0', '30', '0']"
 },
 {
-	"NR. CRT.": "6.41",
+	"NR. CRT.": "6.42",
 	"Indicativ drum": "DN69",
 	"De la km": "38+850",
 	"Pana la km": "39+100",
@@ -532,7 +545,7 @@
 	"map_zoom": "['38', '850', '39', '100']"
 },
 {
-	"NR. CRT.": "6.42",
+	"NR. CRT.": "6.43",
 	"Indicativ drum": "DN7",
 	"De la km": "152+080",
 	"Pana la km": "152+200",
@@ -545,7 +558,7 @@
 	"map_zoom": "['152', '80', '152', '200']"
 },
 {
-	"NR. CRT.": "6.43",
+	"NR. CRT.": "6.44",
 	"Indicativ drum": "DN73",
 	"De la km": "57+000",
 	"Pana la km": "92+000",
@@ -558,7 +571,7 @@
 	"map_zoom": "['57', '0', '92', '0']"
 },
 {
-	"NR. CRT.": "6.44",
+	"NR. CRT.": "6.45",
 	"Indicativ drum": "DN73",
 	"De la km": "92+000",
 	"Pana la km": "128+250",
