@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":25,
+    "Timp":26,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -11,11 +11,11 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":27,
+    "Timp":34,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":80,
+    "Timp":120,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.20Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -361,7 +361,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":15,
+    "Timp":25,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -371,7 +371,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":15,
+    "Timp":25,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -381,7 +381,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -421,88 +421,88 @@
   },
   {
     "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":15,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":15,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
     "Timp":30,
     "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":15,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":15,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":43,
-    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"orange",
@@ -511,7 +511,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":19,
+    "Timp":13,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -521,7 +521,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":80,
+    "Timp":60,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
