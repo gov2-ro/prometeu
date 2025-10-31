@@ -1,15 +1,15 @@
 [{
 	"NR. CRT.": "1.1",
-	"Indicativ drum": "DN1",
-	"De la km": "7+260",
-	"Pana la km": "7+354",
-	"De la data": "2025-10-14 23:00:00",
-	"Pana la data": "2025-10-30 23:00:00",
-	"Intre localitatile": "BUCURESTI (B) -",
-	"Cauza": "Incepand de maine, 14.10.2025, ora 23:00, se vor institui restrictii de circulatie pe DN1, pe sectorul cuprins intre km 7+260 - km 7+354, sensul de deplasare Bucuresti - Ploiesti (inainte de intrarea in pasajul subteran Baneasa).Astfel, se va inchide banda 1 de pe acest sector, iar traficul rutier se va desfasura pe celelalte 2 benzi de circulatie.Restrictia este necesara pentru executia lucrarilor de relocare utilitati la magistrala M6 (1 Mai - Otopeni).",
-	"Masuri de remediere": "Trficul se desfasoara pe banda 2 si pe banda 3.",
-	"viz_name": "DN1",
-	"map_zoom": "['7', '260', '7', '354']"
+	"Indicativ drum": "A7",
+	"De la km": "0+600",
+	"Pana la km": "1+260",
+	"De la data": "2025-10-31 08:00:00",
+	"Pana la data": "2025-10-31 17:00:00",
+	"Intre localitatile": "DUMBRAVA (PH) - DUMBRAVA (PH)",
+	"Cauza": "Se executa lucrari la panourile fonoabsorbante.",
+	"Masuri de remediere": "Calea 1 (Ploiesti - Mizil) se inchide Banda 1 si se circula pe Banda 2.",
+	"viz_name": "A7",
+	"map_zoom": "['0', '600', '1', '260']"
 },
 {
 	"NR. CRT.": "1.2",
@@ -36,5 +36,44 @@
 	"Masuri de remediere": "Traficul este dirijat cu semafoare.",
 	"viz_name": "DN13",
 	"map_zoom": "['48', '512', '48', '612']"
+},
+{
+	"NR. CRT.": "1.4",
+	"Indicativ drum": "DN7",
+	"De la km": "199+110",
+	"Pana la km": "199+410",
+	"De la data": "2025-10-31 07:00:00",
+	"Pana la data": "2025-10-31 14:00:00",
+	"Intre localitatile": "CALIMANESTI (VL) -",
+	"Cauza": "Se executa lucrari de punere in siguranta versanti.",
+	"Masuri de remediere": "In  intervalul orar 08:00 - 14:00 circulatia rutiera se inchide/deschide in reprize de max.15 minute, iar in rest circulatia rutiera se desfasoara pe 1/2 cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['199', '110', '199', '410']"
+},
+{
+	"NR. CRT.": "1.5",
+	"Indicativ drum": "DN7",
+	"De la km": "216+450",
+	"Pana la km": "217+400",
+	"De la data": "2025-10-31 07:00:00",
+	"Pana la data": "2025-10-31 14:00:00",
+	"Intre localitatile": "CALINESTI (VL) -",
+	"Cauza": "Se executa lucrari la pila 1 de la Ecoductul Calinesti .",
+	"Masuri de remediere": "In intervalul orar 08:00 - 14:00 circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie, iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute .",
+	"viz_name": "DN7",
+	"map_zoom": "['216', '450', '217', '400']"
+},
+{
+	"NR. CRT.": "1.6",
+	"Indicativ drum": "DN7A",
+	"De la km": "12+300",
+	"Pana la km": "13+000",
+	"De la data": "2025-10-31 08:00:00",
+	"Pana la data": "2025-10-31 16:00:00",
+	"Intre localitatile": "SALISTEA (MALAIA) (VL) -",
+	"Cauza": "Se lucreaza la defrundare sant .",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale dirijata de piloti de circulatie .",
+	"viz_name": "DN7A",
+	"map_zoom": "['12', '300', '13', '0']"
 }
 ]
