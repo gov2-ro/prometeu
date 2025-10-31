@@ -1,4 +1,23 @@
 [{
+	"coords": "[25.63787759, 45.66750979]",
+	"culoare": 2,
+	"raza": 7,
+	"categorie": 6.0,
+	"name": "Lucrari  VOB1",
+	"Judet": "BV;",
+	"UAT": "Brașov;",
+	"Localitati": "BRASOV (BV) - BRASOV (BV)",
+	"Km": "7+229 - 7+350",
+	"Tip Lucrari": "Inlocuire dispozitive de acoperire a rosturilor de dilatatie pasaj C.F.Lucrare executata de SC IZOWEST SRL",
+	"Variante de ocolire": "O banda inchisa, circulatia se desfasoara pe banda ramasa libera",
+	"lat": 25.63787759,
+	"long": 45.66750979,
+	"date_start": "31-10-2025 09:14",
+	"date_end": "14-11-2025 23:59",
+	"km_start": "7+229",
+	"km_end": "7+350"
+},
+{
 	"coords": "[26.21853435, 45.51272922]",
 	"culoare": 2,
 	"raza": 7,
@@ -54,25 +73,6 @@
 	"date_end": "31-12-2025 23:59",
 	"km_start": "60+225",
 	"km_end": "60+305"
-},
-{
-	"coords": "[26.82217697, 46.5329543]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 6.0,
-	"name": "Lucrari  DN11",
-	"Judet": "BC;",
-	"UAT": "Luizi-Călugăra;",
-	"Localitati": "BARZULESTI (BC) - BARZULESTI (BC)",
-	"Km": "167+010 - 167+086",
-	"Tip Lucrari": "Consolidarea acostamentului in urma unor alunecari aparute pe fondul ploilor abundente.",
-	"Variante de ocolire": "Se circula semaforizat pe un singur sens.",
-	"lat": 26.82217697,
-	"long": 46.5329543,
-	"date_start": "29-05-2025 00:00",
-	"date_end": "31-10-2025 11:00",
-	"km_start": "167+010",
-	"km_end": "167+086"
 },
 {
 	"coords": "[24.45856695, 45.05192312]",
@@ -700,5 +700,22 @@
 	"long": 45.84698106,
 	"date_start": "31-10-2025 08:00",
 	"date_end": "31-10-2025 16:00"
+},
+{
+	"coords": "[20.98127075, 46.20853018]",
+	"culoare": 1,
+	"raza": 10,
+	"categorie": 1.0,
+	"name": "Eveniment rutier  A1",
+	"Judet": "AR;",
+	"UAT": "Pecica;",
+	"Localitati": "PECICA (AR) - PECICA (AR)",
+	"Km": "567+600",
+	"Cauza": "Accident rutier pe A1 km 567+600 calea 1 (Pecica - Arad). Un autocamion a acrosat un microbuz, ulterior autocamionul a intrat in sant, carosabil uscat.",
+	"Masuri de remediere": "Circulatia se desfasoara ingreunat, pana in jurul orei 19:00.",
+	"lat": 20.98127075,
+	"long": 46.20853018,
+	"date_start": "31-10-2025 07:45",
+	"date_end": "31-10-2025 19:00"
 }
 ]
