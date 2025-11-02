@@ -499,7 +499,7 @@
         "culoare": "#e0002b",
         "denumire": "2/7",
         "tip": "Oprire INC",
-        "remediere": "02.11.2025 15:30",
+        "remediere": "03.11.2025 19:30",
         "status": "avarii",
         "Lat": 44.418199484006,
         "Long": 26.02238357016
@@ -2126,11 +2126,12 @@
         "Long": 26.055639
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsă parametrii pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "2 Alexandria",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "02.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.403177937942,
         "Long": 26.055751309863
     },
@@ -2301,7 +2302,7 @@
         "culoare": "#ffe53e",
         "denumire": "Teiuş",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 12:00",
+        "remediere": "02.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.402295,
         "Long": 26.057297
@@ -2545,7 +2546,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Alexandria",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 12:00",
+        "remediere": "02.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.405420487109,
         "Long": 26.061514776772
@@ -2555,17 +2556,17 @@
         "culoare": "#ffe53e",
         "denumire": "7 Margeanului",
         "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 12:00",
+        "remediere": "02.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.407819,
         "Long": 26.061609
     },
     {
-        "stare": "Lipsă parametrii pentru livrare încălzire",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
         "culoare": "#ffe53e",
         "denumire": "Garoafei",
-        "tip": "Deficienta INC",
-        "remediere": "02.11.2025 12:00",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "02.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.403021,
         "Long": 26.061654
@@ -2917,7 +2918,7 @@
         "culoare": "#ffe53e",
         "denumire": "Soldat Croitoru",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 12:00",
+        "remediere": "02.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.405528758357,
         "Long": 26.067639004519
@@ -4004,12 +4005,11 @@
         "Long": 26.091934
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "11 Giurgiu",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3909303,
         "Long": 26.092184
     },
@@ -4235,7 +4235,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Giurgiu",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.39508619812,
         "Long": 26.096327333861
@@ -4254,7 +4254,7 @@
         "culoare": "#ffe53e",
         "denumire": "Livada Noua",
         "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.391970416785,
         "Long": 26.096548571872
@@ -5011,7 +5011,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Zona II",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.385173824756,
         "Long": 26.110954182958
@@ -5035,12 +5035,11 @@
         "Long": 26.111328898883
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Zona II",
-        "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.380826993008,
         "Long": 26.111366449804
     },
@@ -5058,7 +5057,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Brancoveanu",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.394643867895,
         "Long": 26.111738694051
@@ -5203,7 +5202,7 @@
         "culoare": "#ffe53e",
         "denumire": "8 Brancoveanu",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.39361699317,
         "Long": 26.114225199794
@@ -5259,7 +5258,7 @@
         "culoare": "#ffe53e",
         "denumire": "Ramuri Tei",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 18:00",
         "status": "deficiente",
         "Lat": 44.4635268,
         "Long": 26.1157015
@@ -5387,7 +5386,7 @@
         "culoare": "#ffe53e",
         "denumire": "19 Dolhasca",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.3922097,
         "Long": 26.116995
@@ -5461,7 +5460,7 @@
         "culoare": "#ffe53e",
         "denumire": "17 Dolhasca",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.394042,
         "Long": 26.117482
@@ -5530,12 +5529,11 @@
         "Long": 26.11894
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Oltenita",
-        "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.395952170373,
         "Long": 26.11902307807
     },
@@ -5607,7 +5605,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 18:00",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -5680,7 +5678,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 18:00",
         "status": "deficiente",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
@@ -5744,7 +5742,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 10:00",
+        "remediere": "02.11.2025 18:00",
         "status": "deficiente",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
@@ -5831,12 +5829,11 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "02.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
