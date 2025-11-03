@@ -171,11 +171,12 @@
         "Long": 26.00627
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+        "culoare": "#e0002b",
         "denumire": "10 Liniei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "04.11.2025 01:00",
+        "status": "avarii",
         "Lat": 44.429674878808,
         "Long": 26.009597261515
     },
@@ -500,7 +501,7 @@
         "culoare": "#e0002b",
         "denumire": "2/7",
         "tip": "Oprire INC",
-        "remediere": "03.11.2025 19:30",
+        "remediere": "04.11.2025 19:30",
         "status": "avarii",
         "Lat": 44.418199484006,
         "Long": 26.02238357016
@@ -690,7 +691,7 @@
         "culoare": "#e0002b",
         "denumire": "1/7'",
         "tip": "Oprire INC",
-        "remediere": "03.11.2025 20:00",
+        "remediere": "04.11.2025 23:30",
         "status": "avarii",
         "Lat": 44.41661256,
         "Long": 26.0277227
@@ -1245,12 +1246,11 @@
         "Long": 26.04442817093
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3/10",
-        "tip": "Oprire INC",
-        "remediere": "03.11.2025 19:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.416947282838,
         "Long": 26.044735876456
     },
@@ -2533,12 +2533,11 @@
         "Long": 26.061306
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Drumul Sarii",
-        "tip": "Oprire ACC",
-        "remediere": "03.11.2025 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.418494402451,
         "Long": 26.061323116694
     },
@@ -2552,10 +2551,10 @@
         "Long": 26.061514776772
     },
     {
-        "stare": "Lipsă parametrii pentru livrare încălzire",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
         "culoare": "#ffe53e",
         "denumire": "7 Margeanului",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "03.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.407819,
@@ -3468,12 +3467,11 @@
         "Long": 26.075837
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire bl.44A2",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5-1 Mai",
-        "tip": "Oprire INC",
-        "remediere": "03.11.2025 18:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.460045,
         "Long": 26.076042
     },
@@ -3694,12 +3692,11 @@
         "Long": 26.079139902556
     },
     {
-        "stare": "Remediere avarie în centrala termică pe circuitul de încălzire si apa calda de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ct Stirbei Voda",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.439713,
         "Long": 26.079397
     },
@@ -4209,12 +4206,11 @@
         "Long": 26.0955769
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - Calea Serban Voda",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Pieptanari",
-        "tip": "Oprire INC",
-        "remediere": "03.11.2025 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4044139,
         "Long": 26.095686
     },
@@ -4237,12 +4233,11 @@
         "Long": 26.096243
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Giurgiu",
-        "tip": "Deficienta INC",
-        "remediere": "03.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.39508619812,
         "Long": 26.096327333861
     },
@@ -4985,11 +4980,12 @@
         "Long": 26.110353373161
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "Galvani Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.459736244268,
         "Long": 26.11061765533
     },
@@ -5222,12 +5218,11 @@
         "Long": 26.114279
     },
     {
-        "stare": "La punerea in functiune s-a depistat o noua avarie",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Metalurgiei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.386737457202,
         "Long": 26.114452759835
     },
@@ -5269,12 +5264,11 @@
         "Long": 26.1157015
     },
     {
-        "stare": "La punerea in functiune s-a depistat o noua avarie",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Modul Termic - Colegiul National Octav Onicescu",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3862695,
         "Long": 26.1157798
     },
@@ -5399,12 +5393,11 @@
         "Long": 26.116995
     },
     {
-        "stare": "La punerea in functiune s-a depistat o noua avarie",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 A Metalurgiei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3883856,
         "Long": 26.1170617
     },
@@ -5685,7 +5678,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.11.2025 23:30",
+        "remediere": null,
         "status": "deficiente",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
@@ -5718,11 +5711,12 @@
         "Long": 26.121893601914
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "ICB",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.462771,
         "Long": 26.121958
     },
@@ -5745,12 +5739,12 @@
         "Long": 26.122111
     },
     {
-        "stare": "Montare vane aerisire pe rețea primară",
-        "culoare": "#e0002b",
+        "stare": "Parametrii de livrare pentru apă caldă de consum și încălzire nu pot fi asigurați din cauza provizoratelor aferente lucrărilor de continuare a proiectului POIM-LOT1,Obiectiv 6.",
+        "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 16:00",
-        "status": "avarii",
+        "tip": "Deficienta ACC/INC",
+        "remediere": null,
+        "status": "deficiente",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
     },
@@ -5791,11 +5785,12 @@
         "Long": 26.123356994652
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "14 Foișor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.421044311597,
         "Long": 26.123675134747
     },
@@ -5822,7 +5817,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.11.2025 23:30",
+        "remediere": null,
         "status": "deficiente",
         "Lat": 44.460380612534,
         "Long": 26.124608065815
@@ -5841,17 +5836,18 @@
         "culoare": "#ffe53e",
         "denumire": "1 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "03.11.2025 23:30",
+        "remediere": null,
         "status": "deficiente",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "16 Foișor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.421960932282,
         "Long": 26.12508802834
     },
@@ -5901,11 +5897,12 @@
         "Long": 26.12550488294
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "2 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.4521405,
         "Long": 26.1255967
     },
@@ -5946,11 +5943,12 @@
         "Long": 26.126259911503
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "P8 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.44595,
         "Long": 26.126542
     },
@@ -5973,11 +5971,12 @@
         "Long": 26.1267818
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "3 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.455070515839,
         "Long": 26.126928389148
     },
@@ -6000,11 +5999,12 @@
         "Long": 26.126944371314
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "P10 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.444023,
         "Long": 26.127223
     },
@@ -6027,20 +6027,22 @@
         "Long": 26.127704
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "1 Teiul Doamnei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.4598865995,
         "Long": 26.127756636853
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "Liceul Iulia Hasdeu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.443865,
         "Long": 26.127771
     },
@@ -6081,29 +6083,32 @@
         "Long": 26.127998
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "P7 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "P7A Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "7 Vitan",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.419379323276,
         "Long": 26.128455383519
     },
@@ -6139,17 +6144,18 @@
         "culoare": "#e0002b",
         "denumire": "3 Vaselor",
         "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 23:00",
+        "remediere": "04.11.2025 18:00",
         "status": "avarii",
         "Lat": 44.446328142942,
         "Long": 26.128912256533
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Manevre de echilibrare hidraulica in urma avariei de pe MAG II CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "7 IRTA",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.4568374,
         "Long": 26.1289913
     },
@@ -6217,11 +6223,12 @@
         "Long": 26.130102166329
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "4 Dudești",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.421506874975,
         "Long": 26.130161607456
     },
@@ -6230,7 +6237,7 @@
         "culoare": "#e0002b",
         "denumire": "U1 Avrig",
         "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 23:00",
+        "remediere": "04.11.2025 18:00",
         "status": "avarii",
         "Lat": 44.4461498,
         "Long": 26.130527
@@ -6299,11 +6306,12 @@
         "Long": 26.131025935733
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "6 Vitan",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.416724543903,
         "Long": 26.131058120473
     },
@@ -6330,7 +6338,7 @@
         "culoare": "#e0002b",
         "denumire": "U2 Avrig",
         "tip": "Oprire ACC/INC",
-        "remediere": "03.11.2025 23:00",
+        "remediere": "04.11.2025 18:00",
         "status": "avarii",
         "Lat": 44.4460697,
         "Long": 26.1312127
@@ -6417,11 +6425,12 @@
         "Long": 26.1334184
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "IN CITY",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.420154,
         "Long": 26.133433
     },
@@ -6444,11 +6453,12 @@
         "Long": 26.133503
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "1 Laborator",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.418128188483,
         "Long": 26.133589904404
     },
@@ -6516,11 +6526,12 @@
         "Long": 26.134450464567
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "2 Vitan",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.413759804623,
         "Long": 26.13449706238
     },
@@ -6543,11 +6554,12 @@
         "Long": 26.1348708
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "Colegiul Tehnic Mihai Bravu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.419472,
         "Long": 26.135111
     },
@@ -6642,11 +6654,12 @@
         "Long": 26.1360142
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB - 8 MB - 9MB - 11MB - 12MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "3 Unităţii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.424308266726,
         "Long": 26.136026253564
     },
@@ -6669,20 +6682,22 @@
         "Long": 26.136102
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB - 8 MB - 9MB - 11MB - 12MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "2 Unităţii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.423022157269,
         "Long": 26.136336299463
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "16 Răcari",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.413274470197,
         "Long": 26.136792235983
     },
@@ -6696,11 +6711,12 @@
         "Long": 26.136793039178
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB-8'MB-9MB-11MB-12MB pentru depistare si remediere avarii",
+        "culoare": "#e0002b",
         "denumire": "201 Mihai Bravu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.433067298938,
         "Long": 26.13699093943
     },
@@ -6741,47 +6757,52 @@
         "Long": 26.137619798786
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "17 Răcari",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.414470607495,
         "Long": 26.137660175601
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB - 8 MB - 9MB - 11MB - 12MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "1 Anexa",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.4298755,
         "Long": 26.1376994
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB - 8 MB - 9MB - 11MB - 12MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "Dristor Insulă",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.422659710699,
         "Long": 26.137736210591
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "10 Laborator",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.418413007795,
         "Long": 26.137769859583
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson 5MB - 8 MB - 9MB - 11MB - 12MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "Mihai Bravu Vest",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.4296585,
         "Long": 26.1379183
     },
@@ -6876,11 +6897,12 @@
         "Long": 26.139575
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Izolare tronson CI2 -1 MB - CS5 Bobocica-CV2-CMV1 DN7000- 4 MB-5MB, pentru depistare si remediere avarii.",
+        "culoare": "#e0002b",
         "denumire": "11 Laborator",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "07.11.2025 23:00",
+        "status": "avarii",
         "Lat": 44.417523116508,
         "Long": 26.139666312047
     },
@@ -8325,12 +8347,11 @@
         "Long": 26.174757171313
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum /Bd.1 Decembrie 1918",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 C5/2",
-        "tip": "Oprire ACC",
-        "remediere": "03.11.2025 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.422311731477,
         "Long": 26.17490546085
     },
