@@ -864,11 +864,11 @@
         "Long": 26.033371920951
     },
     {
-        "stare": "Remediere avarie racord primar",
+        "stare": "Remediere avarie circuit primar -",
         "culoare": "#e0002b",
         "denumire": "SC 5/2 - MODULE TERMICE",
         "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
+        "remediere": "22.11.2025 11:30",
         "status": "avarii",
         "Lat": 44.424091,
         "Long": 26.035404
@@ -911,11 +911,11 @@
         "Long": 26.03602
     },
     {
-        "stare": "Remediere avarie racord primar",
+        "stare": "Remediere avarie circuit primar -",
         "culoare": "#e0002b",
         "denumire": "SC 6/2 - MODULE TERMICE",
         "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
+        "remediere": "22.11.2025 11:30",
         "status": "avarii",
         "Lat": 44.42692565918,
         "Long": 26.036109
@@ -1047,12 +1047,11 @@
         "Long": 26.040015429137
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar. Str. Lt. Gheorghe Saidac.",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Crivina",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.453487612242,
         "Long": 26.040573269281
     },
@@ -1093,12 +1092,11 @@
         "Long": 26.04128
     },
     {
-        "stare": "Remediere avarie circuit primar - lucreaza firrma Energetica",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 7/2 - MODULE TERMICE",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.427324,
         "Long": 26.041287
     },
@@ -1184,12 +1182,11 @@
         "Long": 26.0433243
     },
     {
-        "stare": "Remediere avarie circuit primar - lucreaza firrma Energetica",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "UM 0411-BCRMTEA",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.429837,
         "Long": 26.043407
     },
@@ -1455,12 +1452,11 @@
         "Long": 26.049469
     },
     {
-        "stare": "Remediere avarie circuit primar - lucreaza firrma Energetica",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "MINISTERUL ECONOMIEI (CPPIB)",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.428642,
         "Long": 26.049566
     },
@@ -1537,12 +1533,11 @@
         "Long": 26.050519
     },
     {
-        "stare": "Remediere avarie circuit primar - lucreaza firrma Energetica",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Colegiul Tehnic Petru Maior",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.428785,
         "Long": 26.050588
     },
@@ -3160,12 +3155,12 @@
         "Long": 26.071521
     },
     {
-        "stare": "Lucrarii de modernizare POIM Lot 5  Obiectiv 14",
-        "culoare": "#e0002b",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Panduri",
-        "tip": "Oprire ACC/INC",
-        "remediere": "21.11.2025 15:00",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "21.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.423743263416,
         "Long": 26.071555777041
     },
@@ -4016,11 +4011,12 @@
         "Long": 26.092184
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Giurgiu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "21.11.2025 23:00",
+        "status": "deficiente",
         "Lat": 44.3925916653,
         "Long": 26.092301441168
     },
@@ -5593,10 +5589,10 @@
         "Long": 26.1200934
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
+        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "Luncsoara",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "21.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.450912311984,
@@ -5677,12 +5673,11 @@
         "Long": 26.121324108352
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
     },
@@ -5742,12 +5737,11 @@
         "Long": 26.122111
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
     },
@@ -5761,12 +5755,11 @@
         "Long": 26.122753704537
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Mosilor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.449580024163,
         "Long": 26.122853849226
     },
@@ -5816,12 +5809,11 @@
         "Long": 26.12427751447
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Cheile Zanoagei",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.460380612534,
         "Long": 26.124608065815
     },
@@ -5836,12 +5828,11 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
@@ -5901,12 +5892,11 @@
         "Long": 26.12550488294
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Colentina",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4521405,
         "Long": 26.1255967
     },
@@ -5920,12 +5910,11 @@
         "Long": 26.1257568
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "ALMO",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.449764,
         "Long": 26.125831
     },
@@ -5948,22 +5937,20 @@
         "Long": 26.126259911503
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P8 Foisor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44595,
         "Long": 26.126542
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Berceni Oltenita",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.390700779569,
         "Long": 26.126628591469
     },
@@ -5977,10 +5964,10 @@
         "Long": 26.1267818
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
+        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "3 Colentina",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "21.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.455070515839,
@@ -6005,12 +5992,11 @@
         "Long": 26.126944371314
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P10 Foisor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444023,
         "Long": 26.127223
     },
@@ -6042,12 +6028,11 @@
         "Long": 26.127756636853
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Liceul Iulia Hasdeu",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.443865,
         "Long": 26.127771
     },
@@ -6061,22 +6046,20 @@
         "Long": 26.1278384
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ziduri Mosi",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.452143,
         "Long": 26.127896
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Chiristigii",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.447326509041,
         "Long": 26.127924439428
     },
@@ -6090,22 +6073,20 @@
         "Long": 26.127998
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P7 Foisor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire  din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P7A Foisor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
     },
@@ -6119,12 +6100,11 @@
         "Long": 26.128455383519
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P16 Mihai Bravu",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444994219219,
         "Long": 26.128648841835
     },
@@ -6166,12 +6146,11 @@
         "Long": 26.1289913
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Oltenita Nord",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.392483164384,
         "Long": 26.129055642038
     },
@@ -6221,12 +6200,11 @@
         "Long": 26.129779720979
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Berceni Oltenita",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.389081067625,
         "Long": 26.130102166329
     },
@@ -6240,12 +6218,11 @@
         "Long": 26.130161607456
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "U1 Avrig",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4461498,
         "Long": 26.130527
     },
@@ -6259,22 +6236,20 @@
         "Long": 26.1305385
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Petricani",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4628221,
         "Long": 26.1306196
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Republicii",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.441710614965,
         "Long": 26.13070950374
     },
@@ -6333,32 +6308,29 @@
         "Long": 26.131095096539
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Dimitrov",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44352,
         "Long": 26.13114
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "U2 Avrig",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4460697,
         "Long": 26.1312127
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Berceni Oltenița",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.388391022016,
         "Long": 26.131241189752
     },
@@ -6390,32 +6362,29 @@
         "Long": 26.1328203
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Berceni Oltenița",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.384229441684,
         "Long": 26.133167315468
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ilarie Chendi",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.440041276184,
         "Long": 26.133233349226
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Berceni Oltenita",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.38692,
         "Long": 26.13325
     },
@@ -6484,22 +6453,20 @@
         "Long": 26.1335993
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Oltenita Nord",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.390241643096,
         "Long": 26.133600264974
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Propriu 1",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3885859,
         "Long": 26.1340851
     },
@@ -6522,12 +6489,11 @@
         "Long": 26.1341874
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "D18 Mihai Bravu",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.438360802765,
         "Long": 26.134342495818
     },
@@ -6559,12 +6525,11 @@
         "Long": 26.134771
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Propriu 2",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3880869,
         "Long": 26.1348708
     },
@@ -6605,12 +6570,11 @@
         "Long": 26.135336
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Berceni Oltenita",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.382201301417,
         "Long": 26.135405519137
     },
@@ -6660,12 +6624,11 @@
         "Long": 26.135933408101
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Iancului",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4419354,
         "Long": 26.1360142
     },
@@ -6742,22 +6705,20 @@
         "Long": 26.137278
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "D5 Mihai Bravu",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4367743,
         "Long": 26.1373873
     },
     {
-        "stare": "Funcționare deficitară a apei calde de consum și a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Berceni Oltenita",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 16:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.384965068941,
         "Long": 26.137433754027
     },
@@ -6852,12 +6813,11 @@
         "Long": 26.1387796
     },
     {
-        "stare": "LUCRARI IN PUNCTUL TERMIC",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Iancului",
-        "tip": "Oprire ACC",
-        "remediere": "21.11.2025 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.442193,
         "Long": 26.139021
     },
@@ -7159,12 +7119,11 @@
         "Long": 26.14380775646
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "23 Baicului",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
     },
@@ -7295,12 +7254,11 @@
         "Long": 26.146836
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Fundeni",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.465167211704,
         "Long": 26.147026165983
     },
@@ -7440,12 +7398,11 @@
         "Long": 26.1480302
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Iancului",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4425794,
         "Long": 26.1481048
     },
@@ -7612,12 +7569,11 @@
         "Long": 26.153604
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Pantelimon",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44388599676,
         "Long": 26.153896119747
     },
@@ -7892,12 +7848,11 @@
         "Long": 26.162431708624
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Muncii",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.436606873327,
         "Long": 26.16290386386
     },
@@ -8064,12 +8019,11 @@
         "Long": 26.16594
     },
     {
-        "stare": "Avarie canal distanta",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Nufarul",
-        "tip": "Oprire INC",
-        "remediere": "21.11.2025 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424850872174,
         "Long": 26.166077592891
     },
@@ -8596,12 +8550,11 @@
         "Long": 26.1821383
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire din cauza avariei de pe MAG ll CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Cosmos Extindere",
-        "tip": "Deficienta INC",
-        "remediere": "21.11.2025 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.441399551104,
         "Long": 26.182280633416
     },
