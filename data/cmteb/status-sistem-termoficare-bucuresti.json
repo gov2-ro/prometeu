@@ -868,7 +868,7 @@
         "culoare": "#e0002b",
         "denumire": "SC 5/2 - MODULE TERMICE",
         "tip": "Oprire ACC/INC",
-        "remediere": "22.11.2025 11:30",
+        "remediere": "22.11.2025 23:30",
         "status": "avarii",
         "Lat": 44.424091,
         "Long": 26.035404
@@ -914,7 +914,7 @@
         "culoare": "#e0002b",
         "denumire": "SC 6/2 - MODULE TERMICE",
         "tip": "Oprire ACC/INC",
-        "remediere": "22.11.2025 11:30",
+        "remediere": "22.11.2025 23:30",
         "status": "avarii",
         "Lat": 44.42692565918,
         "Long": 26.036109
@@ -4007,12 +4007,11 @@
         "Long": 26.092184
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Giurgiu",
-        "tip": "Deficienta INC",
-        "remediere": "22.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3925916653,
         "Long": 26.092301441168
     },
@@ -5241,12 +5240,11 @@
         "Long": 26.115555
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ramuri Tei",
-        "tip": "Deficienta INC",
-        "remediere": "22.11.2025 10:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4635268,
         "Long": 26.1157015
     },
@@ -5588,7 +5586,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "22.11.2025 10:00",
+        "remediere": "22.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -5810,11 +5808,12 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "22.11.2025 23:00",
+        "status": "deficiente",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
