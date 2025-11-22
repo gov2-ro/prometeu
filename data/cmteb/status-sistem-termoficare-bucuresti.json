@@ -864,12 +864,11 @@
         "Long": 26.033371920951
     },
     {
-        "stare": "Remediere avarie circuit primar- la punerea in functiune a fost depistata o alta avarie",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 5/2 - MODULE TERMICE",
-        "tip": "Oprire ACC/INC",
-        "remediere": "22.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424091,
         "Long": 26.035404
     },
@@ -910,12 +909,11 @@
         "Long": 26.03602
     },
     {
-        "stare": "Remediere avarie circuit primar- la punerea in functiune a fost depistata o alta avarie",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 6/2 - MODULE TERMICE",
-        "tip": "Oprire ACC/INC",
-        "remediere": "22.11.2025 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42692565918,
         "Long": 26.036109
     },
@@ -4007,11 +4005,12 @@
         "Long": 26.092184
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Giurgiu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "22.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.3925916653,
         "Long": 26.092301441168
     },
@@ -5808,12 +5807,11 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "22.11.2025 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
@@ -7051,11 +7049,12 @@
         "Long": 26.142653568822
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Bl.C3.)",
+        "culoare": "#e0002b",
         "denumire": "1 Tomis",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "23.11.2025 14:00",
+        "status": "avarii",
         "Lat": 44.417572959814,
         "Long": 26.142784639426
     },
