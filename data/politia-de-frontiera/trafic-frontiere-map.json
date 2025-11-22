@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":25,
+    "Timp":23,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -11,7 +11,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":26,
+    "Timp":18,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -361,7 +361,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":14,
+    "Timp":15,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -371,7 +371,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":14,
+    "Timp":15,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -501,7 +501,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":27,
+    "Timp":17,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -511,7 +511,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":16,
+    "Timp":15,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -521,112 +521,92 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":30,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sighetu Marmației",
-    "Timp":10,
-    "Info":"TRAFIC AUTO RESTRICȚIONAT ÎN PERIOADA 27.10.-28.11.2025., de luni-vineri între orele 09.00-15.30, în vederea executării unor reparații.",
-    "Latitude":"47.938771834787026",
-    "Longitude":"23.87753517983174",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sighetu Marmației",
-    "Timp":10,
-    "Info":"TRAFIC AUTO RESTRICȚIONAT ÎN PERIOADA 27.10.-28.11.2025., de luni-vineri între orele 09.00-15.30, în vederea executării unor reparații.",
-    "Latitude":"47.938771834787026",
-    "Longitude":"23.87753517983174",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Siret",
-    "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
-    "Latitude":"47.98636006999999",
-    "Longitude":"26.062595845606666",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Siret",
-    "Timp":20,
-    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
-    "Latitude":"47.98636006999999",
-    "Longitude":"26.062595845606666",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Siret",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Ieșire 2 artere",
-    "Latitude":"47.98636006999999",
-    "Longitude":"26.062595845606666",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Siret",
-    "Timp":30,
-    "Info":"Intrare: 1 artera; Ieșire 2 artere",
-    "Latitude":"47.98636006999999",
-    "Longitude":"26.062595845606666",
-    "Status":"orange",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Stînca",
-    "Timp":20,
-    "Info":"",
-    "Latitude":"47.833497321297024",
-    "Longitude":"27.22010850534423",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Stînca",
     "Timp":40,
     "Info":"",
-    "Latitude":"47.833497321297024",
-    "Longitude":"27.22010850534423",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
     "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":30,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sighetu Marmației",
+    "Timp":10,
+    "Info":"TRAFIC AUTO RESTRICȚIONAT ÎN PERIOADA 27.10.-28.11.2025., de luni-vineri între orele 09.00-15.30, în vederea executării unor reparații.",
+    "Latitude":"47.938771834787026",
+    "Longitude":"23.87753517983174",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sighetu Marmației",
+    "Timp":10,
+    "Info":"TRAFIC AUTO RESTRICȚIONAT ÎN PERIOADA 27.10.-28.11.2025., de luni-vineri între orele 09.00-15.30, în vederea executării unor reparații.",
+    "Latitude":"47.938771834787026",
+    "Longitude":"23.87753517983174",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
+    "Denumire":"Siret",
+    "Timp":20,
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Latitude":"47.98636006999999",
+    "Longitude":"26.062595845606666",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Siret",
+    "Timp":20,
+    "Info":"Intrare: 3 artere; Iesire: 3 artere.",
+    "Latitude":"47.98636006999999",
+    "Longitude":"26.062595845606666",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Siret",
+    "Timp":20,
+    "Info":"Intrare: 1 artera; Ieșire 2 artere",
+    "Latitude":"47.98636006999999",
+    "Longitude":"26.062595845606666",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Siret",
+    "Timp":30,
+    "Info":"Intrare: 1 artera; Ieșire 2 artere",
+    "Latitude":"47.98636006999999",
+    "Longitude":"26.062595845606666",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
     "Denumire":"Stînca",
-    "Timp":10,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
+    "Status":"orange",
+    "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
@@ -636,6 +616,26 @@
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
     "Status":"orange",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Stînca",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"47.833497321297024",
+    "Longitude":"27.22010850534423",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Stînca",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"47.833497321297024",
+    "Longitude":"27.22010850534423",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
