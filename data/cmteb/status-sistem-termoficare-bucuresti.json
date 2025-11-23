@@ -4009,7 +4009,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Giurgiu",
         "tip": "Deficienta INC",
-        "remediere": "23.11.2025 10:00",
+        "remediere": "23.11.2025 23:00",
         "status": "deficiente",
         "Lat": 44.3925916653,
         "Long": 26.092301441168
@@ -5239,11 +5239,12 @@
         "Long": 26.115555
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "Ramuri Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.11.2025 23:30",
+        "status": "deficiente",
         "Lat": 44.4635268,
         "Long": 26.1157015
     },
@@ -5585,7 +5586,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "23.11.2025 10:00",
+        "remediere": "23.11.2025 23:30",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -6959,11 +6960,12 @@
         "Long": 26.141194
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
+        "culoare": "#e0002b",
         "denumire": "19 Pantelimon",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "23.11.2025 15:30",
+        "status": "avarii",
         "Lat": 44.443873145797,
         "Long": 26.141506530189
     },
@@ -7049,12 +7051,11 @@
         "Long": 26.142653568822
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (Bl.C3.)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Tomis",
-        "tip": "Oprire ACC",
-        "remediere": "23.11.2025 14:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.417572959814,
         "Long": 26.142784639426
     },
