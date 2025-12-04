@@ -497,6 +497,15 @@
     {
         "stare": "Functionare normala",
         "culoare": "#008217",
+        "denumire": "2/7",
+        "tip": "-",
+        "status": "functionale",
+        "Lat": 44.418199484006,
+        "Long": 26.02238357016
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Lavandei",
         "tip": "-",
         "status": "functionale",
@@ -846,12 +855,11 @@
         "Long": 26.033021468157
     },
     {
-        "stare": "Remediere avarie racord primar - ( str.Virtutii. )",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "8 Virtuții",
-        "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2025 12:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
     },
@@ -946,12 +954,11 @@
         "Long": 26.03786
     },
     {
-        "stare": "Remediere avarie racord primar - ( str.Virtutii. )",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Virtuții",
-        "tip": "Oprire ACC/INC",
-        "remediere": "04.12.2025 12:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44159,
         "Long": 26.03789
     },
@@ -2954,12 +2961,11 @@
         "Long": 26.06842
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (bloc P12)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Petre Ispirescu",
-        "tip": "Oprire ACC",
-        "remediere": "03.12.2025 22:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.412716,
         "Long": 26.068455
     },
@@ -3792,12 +3798,11 @@
         "Long": 26.082168
     },
     {
-        "stare": "Remediere avarie circuit primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 P-ta Victoriei",
-        "tip": "Oprire ACC/INC",
-        "remediere": "03.12.2025 20:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.451489269822,
         "Long": 26.082532012598
     },
@@ -5215,11 +5220,12 @@
         "Long": 26.11472
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "Opanez",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "04.12.2025 10:00",
+        "status": "deficiente",
         "Lat": 44.461534099323,
         "Long": 26.115513157822
     },
@@ -5935,12 +5941,12 @@
         "Long": 26.1267818
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "3 Colentina",
-        "tip": "Oprire INC",
-        "remediere": "03.12.2025 21:00",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "04.12.2025 10:00",
+        "status": "deficiente",
         "Lat": 44.455070515839,
         "Long": 26.126928389148
     },
