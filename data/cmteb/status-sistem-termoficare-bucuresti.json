@@ -1216,12 +1216,11 @@
         "Long": 26.043583
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Crivina",
-        "tip": "Oprire INC",
-        "remediere": "03.01.2026 12:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.454824144279,
         "Long": 26.043615393435
     },
@@ -5582,11 +5581,12 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "04.01.2026 12:00",
+        "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
     },
@@ -6926,11 +6926,12 @@
         "Long": 26.140884591716
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum. bl 13",
+        "culoare": "#e0002b",
         "denumire": "1 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "03.01.2026 20:00",
+        "status": "avarii",
         "Lat": 44.465215832776,
         "Long": 26.140920169489
     },
