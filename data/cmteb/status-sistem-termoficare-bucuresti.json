@@ -585,11 +585,12 @@
         "Long": 26.025608
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lucrări în punctul termic pe circuitul primar",
+        "culoare": "#e0002b",
         "denumire": "4 Roșia Montană",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "05.01.2026 15:30",
+        "status": "avarii",
         "Lat": 44.43741,
         "Long": 26.02566
     },
@@ -4979,11 +4980,11 @@
         "Long": 26.110353373161
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
         "culoare": "#ffe53e",
         "denumire": "Galvani Tei",
-        "tip": "Deficienta INC",
-        "remediere": "05.01.2026 12:00",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "05.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.459736244268,
         "Long": 26.11061765533
@@ -5183,11 +5184,12 @@
         "Long": 26.1136777289
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "Judetului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "05.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4586959,
         "Long": 26.1139841
     },
@@ -5616,7 +5618,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "05.01.2026 12:00",
+        "remediere": "05.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -5733,7 +5735,7 @@
         "culoare": "#ffe53e",
         "denumire": "ICB",
         "tip": "Deficienta INC",
-        "remediere": "05.01.2026 12:00",
+        "remediere": "05.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.462771,
         "Long": 26.121958
@@ -6574,12 +6576,12 @@
         "Long": 26.134342495818
     },
     {
-        "stare": "Lipsa parametrii din cauza avariei din incinta CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
+        "culoare": "#e0002b",
         "denumire": "4 Theodor Speranţia",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "07.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "Oprire INC",
+        "remediere": "05.01.2026 15:30",
+        "status": "avarii",
         "Lat": 44.427643772709,
         "Long": 26.134450464567
     },
@@ -8298,12 +8300,12 @@
         "Long": 26.168910455302
     },
     {
-        "stare": "Lipsa parametrii din cauza avariei din incinta CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Avarie Apa Nova - lipsa apă rece la modulul termic",
+        "culoare": "#e0002b",
         "denumire": "SC.4C3/2 - Module Termice",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "07.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "Oprire ACC",
+        "remediere": "05.01.2026 16:00",
+        "status": "avarii",
         "Lat": 44.426114963011,
         "Long": 26.169474887703
     },
@@ -8357,12 +8359,12 @@
         "Long": 26.170043
     },
     {
-        "stare": "Lipsa parametrii din cauza avariei din incinta CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
+        "culoare": "#e0002b",
         "denumire": "3 C5/1",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "07.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "Oprire ACC",
+        "remediere": "05.01.2026 15:30",
+        "status": "avarii",
         "Lat": 44.417417626836,
         "Long": 26.170082315207
     },
