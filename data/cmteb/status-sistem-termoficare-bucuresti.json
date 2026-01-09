@@ -648,12 +648,11 @@
         "Long": 26.02692112
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum bl A6",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4/7",
-        "tip": "Oprire ACC",
-        "remediere": "09.01.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42169835223,
         "Long": 26.027007401616
     },
@@ -2593,12 +2592,11 @@
         "Long": 26.061828
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Margeanului",
-        "tip": "Oprire ACC",
-        "remediere": "09.01.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.408995,
         "Long": 26.062098
     },
@@ -5075,11 +5073,12 @@
         "Long": 26.111858
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Debit insuficient pentru livrare apa calda de consum si incalzire furnizat de catre CET Sud",
+        "culoare": "#ffe53e",
         "denumire": "BL U114 (UM 02544/B1)",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "12.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.431641,
         "Long": 26.111937
     },
@@ -5244,12 +5243,11 @@
         "Long": 26.11472
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Opanez",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "09.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461534099323,
         "Long": 26.115513157822
     },
@@ -5625,10 +5623,10 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru încălzire",
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "09.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4628725,
@@ -5746,7 +5744,7 @@
         "culoare": "#ffe53e",
         "denumire": "ICB",
         "tip": "Deficienta INC",
-        "remediere": "09.01.2026 12:00",
+        "remediere": "09.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.462771,
         "Long": 26.121958
