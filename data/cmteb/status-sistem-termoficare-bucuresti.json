@@ -189,12 +189,11 @@
         "Long": 26.009650745456
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "MILITARI - 1 Placare",
-        "tip": "Oprire ACC",
-        "remediere": "16.01.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.43312,
         "Long": 26.00987
     },
@@ -469,12 +468,11 @@
         "Long": 26.021196806637
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul de apă caldă de consum.  Str. Murguta.",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "12 Liniei",
-        "tip": "Oprire ACC",
-        "remediere": "16.01.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.430771176455,
         "Long": 26.021219441191
     },
@@ -506,12 +504,11 @@
         "Long": 26.02238357016
     },
     {
-        "stare": "Remediere avarie în centrala termică pe circuitul de apă caldă de consum. Str. Lavandei.",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Lavandei",
-        "tip": "Oprire ACC",
-        "remediere": "16.01.2026 18:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.440072467637,
         "Long": 26.022741731414
     },
@@ -4765,11 +4762,12 @@
         "Long": 26.1059908
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "C3 Căuzaşi",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4276679,
         "Long": 26.1060651
     },
@@ -5037,7 +5035,7 @@
         "Long": 26.111366449804
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "6 Mărășești",
         "tip": "Deficienta INC",
@@ -5119,7 +5117,7 @@
         "Long": 26.112583
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "4 Mărăşeşti",
         "tip": "Deficienta INC",
@@ -5246,11 +5244,12 @@
         "Long": 26.115555
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "Ramuri Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4635268,
         "Long": 26.1157015
     },
@@ -5264,7 +5263,7 @@
         "Long": 26.1157798
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3 Mărăşeşti",
         "tip": "Deficienta INC",
@@ -5347,7 +5346,7 @@
         "Long": 26.116536292115
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Mărășești",
         "tip": "Deficienta INC",
@@ -5456,16 +5455,17 @@
         "Long": 26.117482
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "4 Stefan cel Mare",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4520234,
         "Long": 26.1175694
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Labirint",
         "tip": "Deficienta INC",
@@ -5475,11 +5475,12 @@
         "Long": 26.118135816644
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "13 Lacul Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4618986,
         "Long": 26.1182756
     },
@@ -5529,7 +5530,7 @@
         "Long": 26.11902307807
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "21 Foișor",
         "tip": "Deficienta INC",
@@ -5575,7 +5576,7 @@
         "Long": 26.120041334401
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "M107",
         "tip": "Deficienta INC",
@@ -5594,7 +5595,7 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CET SUD",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
@@ -5658,7 +5659,7 @@
         "Long": 26.121203416571
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "12 Foișor",
         "tip": "Deficienta INC",
@@ -5671,7 +5672,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "4 Cheile Zanoagei",
-        "tip": "Deficienta ACC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.458492884321,
@@ -5736,7 +5737,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.461582573308,
@@ -5770,7 +5771,7 @@
         "Long": 26.123107
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "13 Foișor",
         "tip": "Deficienta INC",
@@ -5780,7 +5781,7 @@
         "Long": 26.123356994652
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "14 Foișor",
         "tip": "Deficienta INC",
@@ -5811,7 +5812,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "2 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.460380612534,
@@ -5827,12 +5828,11 @@
         "Long": 26.124641248663
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CET SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Cheile Zanoagei",
-        "tip": "Deficienta INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
     },
@@ -5846,7 +5846,7 @@
         "Long": 26.12508802834
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "19 Foișor",
         "tip": "Deficienta INC",
@@ -5921,16 +5921,17 @@
         "Long": 26.125831
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CET SUD",
+        "culoare": "#ffe53e",
         "denumire": "2 Teiul Doamnei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.461141708789,
         "Long": 26.125906099465
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "10 Vitan",
         "tip": "Deficienta INC",
@@ -5977,7 +5978,7 @@
         "Long": 26.126928389148
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "G3",
         "tip": "Deficienta INC",
@@ -5996,11 +5997,12 @@
         "Long": 26.126944371314
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CET SUD",
+        "culoare": "#ffe53e",
         "denumire": "P10 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.444023,
         "Long": 26.127223
     },
@@ -6026,7 +6028,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "1 Teiul Doamnei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4598865995,
@@ -6078,11 +6080,12 @@
         "Long": 26.127998
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CET SUD",
+        "culoare": "#ffe53e",
         "denumire": "P7 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
     },
@@ -6097,7 +6100,7 @@
         "Long": 26.12806364211
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "7 Vitan",
         "tip": "Deficienta INC",
@@ -6116,7 +6119,7 @@
         "Long": 26.128648841835
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "9 Vitan",
         "tip": "Deficienta INC",
@@ -6180,7 +6183,7 @@
         "Long": 26.12918
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Cornul Caprei",
         "tip": "Deficienta INC",
@@ -6227,12 +6230,11 @@
         "Long": 26.130161607456
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "U1 Avrig",
-        "tip": "Deficienta INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4461498,
         "Long": 26.130527
     },
@@ -6283,7 +6285,7 @@
         "Long": 26.130737
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Călăraşi",
         "tip": "Deficienta INC",
@@ -6296,7 +6298,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "7 Colentina",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.455835581978,
@@ -6358,7 +6360,7 @@
         "Long": 26.131306
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "5 Cornul Caprei",
         "tip": "Deficienta INC",
@@ -6404,7 +6406,7 @@
         "Long": 26.13325
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Călăraşi",
         "tip": "Deficienta INC",
@@ -6450,17 +6452,17 @@
         "Long": 26.133503
     },
     {
-        "stare": "Remediere avarie canal distanta pe circuitul de apa calda de cosum,Bl.V30A-V29",
-        "culoare": "#e0002b",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Laborator",
-        "tip": "Oprire ACC",
-        "remediere": "16.01.2026 16:30",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.418128188483,
         "Long": 26.133589904404
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "S14",
         "tip": "Deficienta INC",
@@ -6497,7 +6499,7 @@
         "Long": 26.1341763
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "S6",
         "tip": "Deficienta INC",
@@ -6516,7 +6518,7 @@
         "Long": 26.134342495818
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "4 Theodor Speranţia",
         "tip": "Deficienta INC",
@@ -6526,7 +6528,7 @@
         "Long": 26.134450464567
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Vitan",
         "tip": "Deficienta INC",
@@ -6599,12 +6601,11 @@
         "Long": 26.135405519137
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CET SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Doamna Ghica",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459017658526,
         "Long": 26.135532415513
     },
@@ -6636,25 +6637,27 @@
         "Long": 26.13574
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "22 Pantelimon",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.444295112246,
         "Long": 26.135933408101
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "3 Iancului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4419354,
         "Long": 26.1360142
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3 Unităţii",
         "tip": "Deficienta INC",
@@ -6682,7 +6685,7 @@
         "Long": 26.136102
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Unităţii",
         "tip": "Deficienta INC",
@@ -6692,7 +6695,7 @@
         "Long": 26.136336299463
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "16 Răcari",
         "tip": "Deficienta INC",
@@ -6757,7 +6760,7 @@
         "Long": 26.137619798786
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "17 Răcari",
         "tip": "Deficienta INC",
@@ -6776,7 +6779,7 @@
         "Long": 26.1376994
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "Dristor Insulă",
         "tip": "Deficienta INC",
@@ -6786,7 +6789,7 @@
         "Long": 26.137736210591
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "10 Laborator",
         "tip": "Deficienta INC",
@@ -6796,7 +6799,7 @@
         "Long": 26.137769859583
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "Mihai Bravu Vest",
         "tip": "Deficienta INC",
@@ -6809,7 +6812,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "8 Doamna Ghica",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.459524667349,
@@ -6819,7 +6822,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "U1",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.4238669,
@@ -6899,7 +6902,7 @@
         "Long": 26.139575
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "11 Laborator",
         "tip": "Deficienta INC",
@@ -6927,20 +6930,22 @@
         "Long": 26.139997434485
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "Fundatia Victor Babes",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.427775,
         "Long": 26.140155
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "Spital Victor Babes",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.426384,
         "Long": 26.140414
     },
@@ -6948,7 +6953,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "S1-S3",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.426368,
@@ -6973,7 +6978,7 @@
         "Long": 26.1407758
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.3Dudesti",
         "tip": "Deficienta ACC/INC",
@@ -6983,11 +6988,12 @@
         "Long": 26.140884591716
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CET SUD",
+        "culoare": "#ffe53e",
         "denumire": "1 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.465215832776,
         "Long": 26.140920169489
     },
@@ -7046,7 +7052,7 @@
         "Long": 26.141831999525
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "12Tomis",
         "tip": "Deficienta INC",
@@ -7056,7 +7062,7 @@
         "Long": 26.14187566521
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3 Papiu Ilarian",
         "tip": "Deficienta INC",
@@ -7066,11 +7072,12 @@
         "Long": 26.1419627
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "M1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.425114595678,
         "Long": 26.14208088292
     },
@@ -7122,7 +7129,7 @@
         "Long": 26.142784639426
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "14 Tomis",
         "tip": "Deficienta INC",
@@ -7141,11 +7148,12 @@
         "Long": 26.1432111
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "2Stejarului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.428173174742,
         "Long": 26.143249443414
     },
@@ -7159,12 +7167,11 @@
         "Long": 26.14380775646
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "23 Baicului",
-        "tip": "Deficienta INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
     },
@@ -7178,7 +7185,7 @@
         "Long": 26.144263828341
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "13 Tomis",
         "tip": "Deficienta INC",
@@ -7188,20 +7195,19 @@
         "Long": 26.14434861549
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "33 Muncii",
-        "tip": "Deficienta INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4320571,
         "Long": 26.1445292
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "1 Colentina Socului",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.454552129591,
@@ -7211,7 +7217,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1X",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.428259164275,
@@ -7221,7 +7227,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1Catelu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.431554,
@@ -7249,14 +7255,14 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3Catelu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.426510990976,
         "Long": 26.1466642732
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.1Dudesti",
         "tip": "Deficienta ACC/INC",
@@ -7284,11 +7290,12 @@
         "Long": 26.14675
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "1 Iancului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.443045,
         "Long": 26.146751
     },
@@ -7305,7 +7312,7 @@
         "stare": "Parametrii insuficienți furnizați de către CET SUD",
         "culoare": "#ffe53e",
         "denumire": "3 Fundeni",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.465167211704,
@@ -7315,14 +7322,14 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "5Catelu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.431598,
         "Long": 26.147095
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.1Baba Novac",
         "tip": "Deficienta ACC/INC",
@@ -7353,7 +7360,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1XA",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.42819712767,
@@ -7369,7 +7376,7 @@
         "Long": 26.147326
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Matei Ambrozie",
         "tip": "Deficienta INC",
@@ -7406,11 +7413,12 @@
         "Long": 26.147665
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie furnizor energie electrica-lipsa tensiune electrica in punctul termic",
+        "culoare": "#e0002b",
         "denumire": "2 Nicolae Pascu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "16.01.2026 22:00",
+        "status": "avarii",
         "Lat": 44.409458837818,
         "Long": 26.147745319745
     },
@@ -7418,7 +7426,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "24A",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.425405898109,
@@ -7461,11 +7469,12 @@
         "Long": 26.1481048
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "6Catelu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.429262907936,
         "Long": 26.148194990025
     },
@@ -7488,7 +7497,7 @@
         "Long": 26.1486281
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Șulea Nord",
         "tip": "Deficienta INC",
@@ -7507,7 +7516,7 @@
         "Long": 26.1486787
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.4Catelu",
         "tip": "Deficienta ACC/INC",
@@ -7517,16 +7526,17 @@
         "Long": 26.148695015439
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "7X",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.423535786933,
         "Long": 26.149599708702
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Tomis",
         "tip": "Deficienta INC",
@@ -7539,7 +7549,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "9 Catelu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.429737048126,
@@ -7564,7 +7574,7 @@
         "Long": 26.150178060912
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.2Catelu-module",
         "tip": "Deficienta ACC/INC",
@@ -7574,11 +7584,12 @@
         "Long": 26.150445
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "2Catelu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.427161203459,
         "Long": 26.150486465649
     },
@@ -7592,7 +7603,7 @@
         "Long": 26.1509421
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "2 Șulea",
         "tip": "Deficienta INC",
@@ -7611,7 +7622,7 @@
         "Long": 26.15149
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3 Șulea",
         "tip": "Deficienta INC",
@@ -7621,11 +7632,12 @@
         "Long": 26.15358188979
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "9 Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.41344,
         "Long": 26.153604
     },
@@ -7696,14 +7708,14 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "IOR",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.430177,
         "Long": 26.156194
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD pentru livrarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "9C4/2",
         "tip": "Deficienta INC",
@@ -7716,18 +7728,19 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1Muncii",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.433784127972,
         "Long": 26.157694326963
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
+        "culoare": "#ffe53e",
         "denumire": "2 Voiniceni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.437179303158,
         "Long": 26.158070439322
     },
@@ -7741,11 +7754,12 @@
         "Long": 26.158187259019
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "PT Scoala Ilioara",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.410453020198,
         "Long": 26.158395060836
     },
@@ -7782,18 +7796,19 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "8 C4/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.423698953008,
         "Long": 26.158940195893
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "3X",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.43337195163,
         "Long": 26.159412894087
     },
@@ -7807,11 +7822,12 @@
         "Long": 26.159944
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "8 Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.412379993968,
         "Long": 26.160062280551
     },
@@ -7826,11 +7842,12 @@
         "Long": 26.160771703201
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "D 16",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.429904793384,
         "Long": 26.160802166973
     },
@@ -7844,56 +7861,62 @@
         "Long": 26.160846
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
+        "culoare": "#ffe53e",
         "denumire": "1 Carei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.436316336103,
         "Long": 26.161319145551
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
+        "culoare": "#ffe53e",
         "denumire": "13 Pantelimon",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4423038,
         "Long": 26.1615087
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "7 C4/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.422510319579,
         "Long": 26.161838957175
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "C4",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.43248485554,
         "Long": 26.162094813778
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "7 Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.412199439161,
         "Long": 26.162141939986
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "5 C4/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.414426037014,
         "Long": 26.162280048278
     },
@@ -7952,17 +7975,16 @@
         "Long": 26.163056
     },
     {
-        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Pantelimon",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "16.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.443113,
         "Long": 26.163193
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.3C3/1 - Module Termice",
         "tip": "Deficienta INC",
@@ -7972,20 +7994,22 @@
         "Long": 26.163942
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "2 Baia de Arama",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.435041440153,
         "Long": 26.164063528901
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "1 C3/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.432576444788,
         "Long": 26.164120976753
     },
@@ -7993,54 +8017,59 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "4XA",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.425684399599,
         "Long": 26.164256898084
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "8X",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.428732862098,
         "Long": 26.164284757827
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "M14",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.430239950699,
         "Long": 26.164821616478
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "5Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.410525296612,
         "Long": 26.164878355582
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "1 C5/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.422963473235,
         "Long": 26.165034386053
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "14 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.414625074846,
         "Long": 26.165138400148
     },
@@ -8072,29 +8101,32 @@
         "Long": 26.165320448924
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "4Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.411901076775,
         "Long": 26.165768001352
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "SC.2Viisoara - Module Termice",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.42819,
         "Long": 26.16594
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "1 Nufarul",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.424850872174,
         "Long": 26.166077592891
     },
@@ -8102,14 +8134,14 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "4X",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.426610607656,
         "Long": 26.166479324092
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.G3 - Module Termice",
         "tip": "Deficienta INC",
@@ -8119,7 +8151,7 @@
         "Long": 26.166555258132
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.G2 - Module Termice",
         "tip": "Deficienta INC",
@@ -8129,20 +8161,22 @@
         "Long": 26.167490509867
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "2 C5/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.423883141331,
         "Long": 26.168492290267
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "15 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.414496649141,
         "Long": 26.168737515476
     },
@@ -8150,18 +8184,19 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1L. Patrascanu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.435290160568,
         "Long": 26.168910455302
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "SC.4C3/2 - Module Termice",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.426114963011,
         "Long": 26.169474887703
     },
@@ -8169,7 +8204,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "5X",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.429545954854,
@@ -8194,11 +8229,12 @@
         "Long": 26.1698271
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "4C5/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.41849837055,
         "Long": 26.170011235647
     },
@@ -8212,11 +8248,12 @@
         "Long": 26.170043
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "3 C5/1",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.417417626836,
         "Long": 26.170082315207
     },
@@ -8224,7 +8261,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "MY",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.435973989097,
@@ -8243,7 +8280,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "1CORNISA",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.431364890841,
@@ -8259,16 +8296,17 @@
         "Long": 26.171111
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "7C3/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.428428923439,
         "Long": 26.171201593318
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.1Cornisa - Module Termice",
         "tip": "Deficienta INC",
@@ -8278,29 +8316,32 @@
         "Long": 26.171295
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "6Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.409617281794,
         "Long": 26.17147765595
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "18 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.414433834924,
         "Long": 26.171497948518
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "5 C3/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.426315268956,
         "Long": 26.172041812449
     },
@@ -8341,11 +8382,12 @@
         "Long": 26.1728
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "13 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.412416425889,
         "Long": 26.172854420616
     },
@@ -8359,20 +8401,22 @@
         "Long": 26.17304
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "17 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.421162624555,
         "Long": 26.17370415348
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "1Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.408871946674,
         "Long": 26.174141581033
     },
@@ -8380,36 +8424,39 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "8C3/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.428819508804,
         "Long": 26.174224981189
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "2 Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.405837749762,
         "Long": 26.174757171313
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "5 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.422311731477,
         "Long": 26.17490546085
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "6 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.418225379862,
         "Long": 26.175192049848
     },
@@ -8423,11 +8470,12 @@
         "Long": 26.175272
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "12 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.412252237946,
         "Long": 26.175364827674
     },
@@ -8441,7 +8489,7 @@
         "Long": 26.175389836374
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "stare": "Parametrii insuficienti livrati de CET SUD pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "SC.6C3/2 - Module Termice",
         "tip": "Deficienta INC",
@@ -8451,20 +8499,22 @@
         "Long": 26.175493379008
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "6X",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.427268506204,
         "Long": 26.175814231755
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "8A",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.415002282063,
         "Long": 26.176025562158
     },
@@ -8514,20 +8564,22 @@
         "Long": 26.177146
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "11 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.413925793017,
         "Long": 26.177264921577
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "8 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.417845889585,
         "Long": 26.177313867111
     },
@@ -8535,7 +8587,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "3 Placare-T",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.4081905985,
@@ -8545,7 +8597,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "23 C5/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.422471034674,
@@ -8561,20 +8613,22 @@
         "Long": 26.178545035088
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "9 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.416582456464,
         "Long": 26.178722309387
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "10 Nefamilisti",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.423988948948,
         "Long": 26.17879244553
     },
@@ -8591,18 +8645,19 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "10 C5/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.413851847201,
         "Long": 26.179507746862
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
+        "culoare": "#ffe53e",
         "denumire": "24 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.410460896109,
         "Long": 26.180190150428
     },
@@ -8625,11 +8680,12 @@
         "Long": 26.181806
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD .",
+        "culoare": "#ffe53e",
         "denumire": "Cosmos Vechi",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "16.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4415445,
         "Long": 26.1821383
     },
@@ -8646,7 +8702,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "16 C5/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.413559535412,
@@ -8656,7 +8712,7 @@
         "stare": "Parametrii insuficienti livrati de catre CET SUD  pentru furnizarea apei calde de consum si incalzire",
         "culoare": "#ffe53e",
         "denumire": "21 C5/2",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "16.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.417138835453,
