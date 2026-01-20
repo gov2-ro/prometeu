@@ -1,18 +1,5 @@
 [{
 	"NR. CRT.": "1.1",
-	"Indicativ drum": "A1",
-	"De la km": "115+250",
-	"Pana la km": "115+250",
-	"De la data": "2026-01-20 10:00:00",
-	"Pana la data": "2026-01-20 16:00:00",
-	"Intre localitatile": "-",
-	"Cauza": "Lucrari de reparatii rosturi dilatatie. Calea 1 (Bucuresti-Pitesti) banda 1 restrictionata.",
-	"Masuri de remediere": "",
-	"viz_name": "A1",
-	"map_zoom": "['115', '250', '115', '250']"
-},
-{
-	"NR. CRT.": "1.2",
 	"Indicativ drum": "A7",
 	"De la km": "61+000",
 	"Pana la km": "62+260",
@@ -25,7 +12,7 @@
 	"map_zoom": "['61', '0', '62', '260']"
 },
 {
-	"NR. CRT.": "1.3",
+	"NR. CRT.": "1.2",
 	"Indicativ drum": "A7",
 	"De la km": "117+400",
 	"Pana la km": "117+400",
@@ -38,20 +25,20 @@
 	"map_zoom": "['117', '400', '117', '400']"
 },
 {
-	"NR. CRT.": "1.4",
+	"NR. CRT.": "1.3",
 	"Indicativ drum": "A7",
-	"De la km": "124+750",
-	"Pana la km": "124+750",
-	"De la data": "2026-01-20 13:00:00",
-	"Pana la data": "2026-01-20 17:00:00",
-	"Intre localitatile": "OREAVU (VN) - OREAVU (VN)",
+	"De la km": "99+100",
+	"Pana la km": "99+100",
+	"De la data": "2026-01-21 13:00:00",
+	"Pana la data": "2026-01-21 17:00:00",
+	"Intre localitatile": "RAMNICU SARAT (BZ) - RAMNICU SARAT (BZ)",
 	"Cauza": "Se intervine la sistemele cu mesaje variabile (VMS)",
-	"Masuri de remediere": "Se instituie restrictii de circulatie pe calea 1, banda 1 si banda 2 dar nu in acelasi timp, conform avizelor CNAIR 92/149059/11.12.2025 si IGPR 4823946/S4/RC/23.12.2025",
+	"Masuri de remediere": "Se instituie restrictii de circulatie pe calea 2, banda 1 si banda 2 dar nu in acelasi timp, conform avizelor CNAIR 92/149059/11.12.2025 si IGPR 4823946/S4/RC/23.12.2025",
 	"viz_name": "A7",
-	"map_zoom": "['124', '750', '124', '750']"
+	"map_zoom": "['99', '100', '99', '100']"
 },
 {
-	"NR. CRT.": "1.5",
+	"NR. CRT.": "1.4",
 	"Indicativ drum": "DN1",
 	"De la km": "99+050",
 	"Pana la km": "99+150",
@@ -62,5 +49,18 @@
 	"Masuri de remediere": "Intre km 99+150 si km 99+050 pe sensul Brasov - Ploiesti se circula doar pe banda 2 (traficul rutier a fost oprit pe banda 1 fiind semnalizat corespunzator). Pe sensul Ploiesti - Brasov circulatia rutiera este normala.",
 	"viz_name": "DN1",
 	"map_zoom": "['99', '50', '99', '150']"
+},
+{
+	"NR. CRT.": "1.5",
+	"Indicativ drum": "DN7",
+	"De la km": "216+450",
+	"Pana la km": "217+400",
+	"De la data": "2026-01-21 08:00:00",
+	"Pana la data": "2026-01-21 15:30:00",
+	"Intre localitatile": "CALINESTI (VL) -",
+	"Cauza": "Se executa lucrari la pila 1 de la Ecoductul Calinesti .",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale, dirijata de piloti de circulatie, iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute.",
+	"viz_name": "DN7",
+	"map_zoom": "['216', '450', '217', '400']"
 }
 ]
