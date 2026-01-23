@@ -1,23 +1,33 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":36,
+    "Timp":16,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
-    "Timp":41,
+    "Timp":26,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Albița",
+    "Timp":80,
+    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.20Moldova.",
+    "Latitude":"46.78513359",
+    "Longitude":"28.138904570000022",
+    "Status":"red",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
@@ -27,16 +37,6 @@
     "Longitude":"28.138904570000022",
     "Status":"red",
     "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Albița",
-    "Timp":120,
-    "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.20Moldova.",
-    "Latitude":"46.78513359",
-    "Longitude":"28.138904570000022",
-    "Status":"red",
-    "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
   {
@@ -101,11 +101,11 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":10,
+    "Timp":30,
     "Info":"Controlul de frontiera se desfasoara pe sensul de intrare in Romania in mod coordonat cu autoritatile de frontiera ale R.Moldova.",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -221,18 +221,18 @@
   },
   {
     "Denumire":"Jimbolia",
-    "Timp":30,
-    "Info":"Prezentarea unui numar mare de automarfare intr un timp timp foarte scurt",
+    "Timp":10,
+    "Info":"",
     "Latitude":"45.75220459046048",
     "Longitude":"20.70119261476202",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Jimbolia",
     "Timp":10,
-    "Info":"Prezentarea unui numar mare de automarfare intr un timp timp foarte scurt",
+    "Info":"",
     "Latitude":"45.75220459046048",
     "Longitude":"20.70119261476202",
     "Status":"green",
@@ -381,7 +381,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -391,7 +391,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -501,7 +501,7 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":25,
+    "Timp":15,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -531,11 +531,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":30,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },

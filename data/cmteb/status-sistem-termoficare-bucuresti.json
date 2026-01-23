@@ -540,12 +540,11 @@
         "Long": 26.023301
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "NEFAMILISTI",
-        "tip": "Oprire ACC/INC",
-        "remediere": "22.01.2026 19:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42721177917,
         "Long": 26.023468217542
     },
@@ -658,22 +657,20 @@
         "Long": 26.027007401616
     },
     {
-        "stare": "Lipsa parametri pentru livrare  încălzire din cauza avariei din str. Romancierilor.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 1/3 - MODULE TERMICE",
-        "tip": "Deficienta INC",
-        "remediere": "22.01.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.426407215699,
         "Long": 26.027352755069
     },
     {
-        "stare": "Remediere avarie racord primar - str. Romancierilor",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 2/3 - MODULE TERMICE",
-        "tip": "Oprire ACC/INC",
-        "remediere": "22.01.2026 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424825710129,
         "Long": 26.027459069307
     },
@@ -1038,11 +1035,12 @@
         "Long": 26.039708
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic - str.Compozitorilor",
+        "culoare": "#e0002b",
         "denumire": "4/8",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "23.01.2026 06:00",
+        "status": "avarii",
         "Lat": 44.419196639476,
         "Long": 26.040015429137
     },
@@ -1713,11 +1711,12 @@
         "Long": 26.051469
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie furnizor de energie electrică - lipsă alimentare cu energie electrică la punctul termic",
+        "culoare": "#ffe53e",
         "denumire": "MODUL TERMIC Vila 2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "23.01.2026 06:00",
+        "status": "deficiente",
         "Lat": 44.479996,
         "Long": 26.051531
     },
@@ -4179,11 +4178,12 @@
         "Long": 26.095455589788
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "5 Aviatiei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.485812427579,
         "Long": 26.095541252097
     },
@@ -5471,7 +5471,7 @@
         "culoare": "#ffe53e",
         "denumire": "13 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "22.01.2026 23:30",
+        "remediere": "23.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4618986,
         "Long": 26.1182756
@@ -5590,7 +5590,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "22.01.2026 23:30",
+        "remediere": "23.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -5650,11 +5650,12 @@
         "Long": 26.121203416571
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE-SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "12 Foișor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.417799604922,
         "Long": 26.121324108352
     },
@@ -5686,11 +5687,12 @@
         "Long": 26.1215781
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "4 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.447126919499,
         "Long": 26.121893601914
     },
@@ -5876,11 +5878,12 @@
         "Long": 26.12550488294
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "2 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4521405,
         "Long": 26.1255967
     },
@@ -5906,7 +5909,7 @@
         "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
         "culoare": "#ffe53e",
         "denumire": "2 Teiul Doamnei",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "23.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.461141708789,
@@ -6166,11 +6169,12 @@
         "Long": 26.129300577458
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "Nada Florilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.461432789918,
         "Long": 26.129386038847
     },
@@ -6223,7 +6227,7 @@
         "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
         "culoare": "#ffe53e",
         "denumire": "3 Petricani",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "23.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4628221,
@@ -6285,12 +6289,11 @@
         "Long": 26.131058120473
     },
     {
-        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Colentina",
-        "tip": "Deficienta INC",
-        "remediere": "23.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459811014592,
         "Long": 26.131095096539
     },
@@ -6386,11 +6389,12 @@
         "Long": 26.133332361636
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "6 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4605019,
         "Long": 26.1334184
     },
@@ -6566,11 +6570,12 @@
         "Long": 26.135405519137
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "6 Doamna Ghica",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.459017658526,
         "Long": 26.135532415513
     },
@@ -6649,11 +6654,12 @@
         "Long": 26.136102
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE-SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "2 Unităţii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.423022157269,
         "Long": 26.136336299463
     },
@@ -6759,20 +6765,22 @@
         "Long": 26.137769859583
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE-SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "Mihai Bravu Vest",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4296585,
         "Long": 26.1379183
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "8 Doamna Ghica",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.459524667349,
         "Long": 26.138342014877
     },
@@ -6878,12 +6886,12 @@
         "Long": 26.139962385144
     },
     {
-        "stare": "Remediere avarie racord primar",
-        "culoare": "#e0002b",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "5 Doamna Ghica",
-        "tip": "Oprire ACC/INC",
-        "remediere": "22.01.2026 23:00",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.456060349344,
         "Long": 26.139997434485
     },
@@ -7080,11 +7088,12 @@
         "Long": 26.142784639426
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE-SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "14 Tomis",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.411741713222,
         "Long": 26.142864060871
     },
@@ -7322,11 +7331,12 @@
         "Long": 26.147326
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE-SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "1 Matei Ambrozie",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.411839591958,
         "Long": 26.147422392758
     },
@@ -7484,11 +7494,12 @@
         "Long": 26.149921086738
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica.",
+        "culoare": "#ffe53e",
         "denumire": "9 Catelu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.429737048126,
         "Long": 26.150138060181
     },
@@ -7637,11 +7648,12 @@
         "Long": 26.156158
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica.",
+        "culoare": "#ffe53e",
         "denumire": "IOR",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.430177,
         "Long": 26.156194
     },
@@ -7664,11 +7676,12 @@
         "Long": 26.157694326963
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica",
+        "culoare": "#ffe53e",
         "denumire": "2 Voiniceni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.437179303158,
         "Long": 26.158070439322
     },
@@ -8036,11 +8049,12 @@
         "Long": 26.166077592891
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica.",
+        "culoare": "#ffe53e",
         "denumire": "4X",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.426610607656,
         "Long": 26.166479324092
     },
@@ -8083,11 +8097,12 @@
         "Long": 26.168737515476
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica.",
+        "culoare": "#ffe53e",
         "denumire": "1L. Patrascanu",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.435290160568,
         "Long": 26.168910455302
     },
@@ -8311,12 +8326,11 @@
         "Long": 26.174141581033
     },
     {
-        "stare": "Avarie Apa Nova - lipsă apă rece la punctul termic",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "8C3/2",
-        "tip": "Oprire ACC",
-        "remediere": "22.01.2026 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.428819508804,
         "Long": 26.174224981189
     },
@@ -8583,11 +8597,12 @@
         "Long": 26.18399300413
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "In urma cresterii debitului la CTE SUD se efectueaza manevre de echilibrare hidraulica.",
+        "culoare": "#ffe53e",
         "denumire": "21 C5/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "23.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.417138835453,
         "Long": 26.184205406883
     }
