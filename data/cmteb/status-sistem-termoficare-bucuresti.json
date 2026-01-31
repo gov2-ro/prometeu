@@ -72,11 +72,12 @@
         "Long": 25.991825
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic",
+        "culoare": "#e0002b",
         "denumire": "15 Păcii",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "31.01.2026 05:00",
+        "status": "avarii",
         "Lat": 44.433155153597,
         "Long": 25.997762590785
     },
@@ -4194,12 +4195,11 @@
         "Long": 26.0955769
     },
     {
-        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic - (str./Bd.)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Pieptanari",
-        "tip": "Oprire ACC/INC",
-        "remediere": "30.01.2026 22:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4044139,
         "Long": 26.095686
     },
@@ -5242,11 +5242,12 @@
         "Long": 26.115555
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
+        "culoare": "#ffe53e",
         "denumire": "Ramuri Tei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4635268,
         "Long": 26.1157015
     },
@@ -5591,12 +5592,11 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Lacul Tei",
-        "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4628725,
         "Long": 26.1204375
     },
@@ -5668,7 +5668,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Cheile Zanoagei",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
@@ -5732,8 +5732,8 @@
         "stare": "Parametrii insuficienți furnizați de către CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "30.01.2026 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
@@ -6126,11 +6126,12 @@
         "Long": 26.128912256533
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "7 IRTA",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4568374,
         "Long": 26.1289913
     },
@@ -6175,8 +6176,8 @@
         "stare": "Parametrii insuficienți furnizați de către CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "Nada Florilor",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "30.01.2026 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.461432789918,
         "Long": 26.129386038847
@@ -6227,11 +6228,12 @@
         "Long": 26.1305385
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "3 Petricani",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4628221,
         "Long": 26.1306196
     },
@@ -6249,7 +6251,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Colentina",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.459286465278,
         "Long": 26.130730316136
@@ -6277,8 +6279,8 @@
         "stare": "Parametrii insuficienți furnizați de către CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "7 Colentina",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "30.01.2026 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.455835581978,
         "Long": 26.131025935733
@@ -6338,12 +6340,11 @@
         "Long": 26.131306
     },
     {
-        "stare": "Parametrii insuficienti livrati de catre CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Cornul Caprei",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.423590318535,
         "Long": 26.132061748021
     },
@@ -6393,11 +6394,12 @@
         "Long": 26.133332361636
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "6 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4605019,
         "Long": 26.1334184
     },
@@ -6627,12 +6629,11 @@
         "Long": 26.1360142
     },
     {
-        "stare": "Parametrii insuficienti livrati de catre CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Unităţii",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424308266726,
         "Long": 26.136026253564
     },
@@ -6718,11 +6719,12 @@
         "Long": 26.137433754027
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "21 Pantelimon",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 12:00",
+        "status": "deficiente",
         "Lat": 44.444396965841,
         "Long": 26.137619798786
     },
@@ -6858,18 +6860,17 @@
         "culoare": "#ffe53e",
         "denumire": "20 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 12:00",
         "status": "deficiente",
         "Lat": 44.445179,
         "Long": 26.139575
     },
     {
-        "stare": "Parametrii insuficienti livrati de catre CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "11 Laborator",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.417523116508,
         "Long": 26.139666312047
     },
@@ -6987,7 +6988,7 @@
         "culoare": "#ffe53e",
         "denumire": "19 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 12:00",
         "status": "deficiente",
         "Lat": 44.443873145797,
         "Long": 26.141506530189
@@ -7021,12 +7022,11 @@
         "Long": 26.14187566521
     },
     {
-        "stare": "Parametrii insuficienti livrati de catre CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Papiu Ilarian",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4219468,
         "Long": 26.1419627
     },
@@ -7058,12 +7058,11 @@
         "Long": 26.1421398
     },
     {
-        "stare": "Avarie Apa Nova - lipsa apă rece la punctul termic",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Fundeni",
-        "tip": "Oprire ACC",
-        "remediere": "30.01.2026 20:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.462891,
         "Long": 26.142306
     },
@@ -7127,7 +7126,7 @@
         "culoare": "#ffe53e",
         "denumire": "23 Baicului",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 12:00",
         "status": "deficiente",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
@@ -7137,7 +7136,7 @@
         "culoare": "#ffe53e",
         "denumire": "18 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 12:00",
         "status": "deficiente",
         "Lat": 44.444625814743,
         "Long": 26.144263828341
@@ -7265,18 +7264,17 @@
         "culoare": "#ffe53e",
         "denumire": "3 Fundeni",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 23:00",
         "status": "deficiente",
         "Lat": 44.465167211704,
         "Long": 26.147026165983
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5Catelu",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.431598,
         "Long": 26.147095
     },
@@ -7491,10 +7489,10 @@
         "Long": 26.149921086738
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "9 Catelu",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "31.01.2026 23:30",
         "status": "deficiente",
         "Lat": 44.429737048126,
@@ -7538,11 +7536,12 @@
         "Long": 26.150486465649
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienți furnizați de către CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "A2 Basarabia",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 12:00",
+        "status": "deficiente",
         "Lat": 44.4329235,
         "Long": 26.1509421
     },
@@ -7646,12 +7645,11 @@
         "Long": 26.156158
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "IOR",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.430177,
         "Long": 26.156194
     },
@@ -7723,7 +7721,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "30.01.2026 23:30",
+        "remediere": "31.01.2026 12:00",
         "status": "deficiente",
         "Lat": 44.4433155,
         "Long": 26.1588575
@@ -7909,11 +7907,12 @@
         "Long": 26.163193
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti furnizati de CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "SC.3C3/1 - Module Termice",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.434949,
         "Long": 26.163942
     },
@@ -8045,12 +8044,11 @@
         "Long": 26.166077592891
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4X",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.426610607656,
         "Long": 26.166479324092
     },
@@ -8110,12 +8108,11 @@
         "Long": 26.169474887703
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5X",
-        "tip": "Deficienta INC",
-        "remediere": "31.01.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.429545954854,
         "Long": 26.169704528374
     },
@@ -8211,11 +8208,12 @@
         "Long": 26.171201593318
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti furnizati de CTE SUD",
+        "culoare": "#ffe53e",
         "denumire": "SC.1Cornisa - Module Termice",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "31.01.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.431425,
         "Long": 26.171295
     },
