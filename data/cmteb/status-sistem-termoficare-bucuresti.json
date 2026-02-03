@@ -968,7 +968,7 @@
         "culoare": "#e0002b",
         "denumire": "2 Bucurestii Noi",
         "tip": "Oprire ACC",
-        "remediere": "03.02.2026 15:30",
+        "remediere": "03.02.2026 12:00",
         "status": "avarii",
         "Lat": 44.485253685485,
         "Long": 26.037961082459
@@ -4178,11 +4178,12 @@
         "Long": 26.095455589788
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "culoare": "#ffe53e",
         "denumire": "5 Aviatiei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "03.02.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.485812427579,
         "Long": 26.095541252097
     },
@@ -4457,11 +4458,12 @@
         "Long": 26.100341665398
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "3 Aviatiei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "03.02.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.483988987903,
         "Long": 26.100412519401
     },
@@ -6163,12 +6165,11 @@
         "Long": 26.129300577458
     },
     {
-        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Nada Florilor",
-        "tip": "Deficienta INC",
-        "remediere": "03.02.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461432789918,
         "Long": 26.129386038847
     },
@@ -6264,10 +6265,10 @@
         "Long": 26.130745005608
     },
     {
-        "stare": "Parametrii insuficienti furnizati de CTE SUD",
+        "stare": "Parametrii insuficienti furnizati de catre CTE SUD",
         "culoare": "#ffe53e",
         "denumire": "7 Colentina",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "03.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.455835581978,
