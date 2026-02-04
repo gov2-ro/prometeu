@@ -1,44 +1,57 @@
 [{
 	"NR. CRT.": "1.1",
 	"Indicativ drum": "A1",
-	"De la km": "372+000",
-	"Pana la km": "373+000",
-	"De la data": "2026-02-03 09:00:00",
-	"Pana la data": "2026-02-03 16:00:00",
-	"Intre localitatile": "BEJAN (HD) -",
-	"Cauza": "Pe Calea 2 se executa lucrari de reparatii gropi",
-	"Masuri de remediere": "Pe Calea 2 se circula pe Banda 2. Banda 1 si Banda de Urgenta sunt restrictionate pana la finalizarea lucrarilor",
+	"De la km": "471+350",
+	"Pana la km": "473+700",
+	"De la data": "2026-02-04 10:00:00",
+	"Pana la data": "2026-02-04 16:00:00",
+	"Intre localitatile": "TOPOLOVATU MARE (TM) - IOSIFALAU (TM)",
+	"Cauza": "Pe A1, Calea 1, la km 471+350, km 473+700 si pe A1, km 472+000, Calea 2, se executa lucrari - demontare si montare parapet marginal.",
+	"Masuri de remediere": "Se circula pe banda 1 si pe banda 2.Banda de urgenta este inchisa.Se estimeaza reluarea circulatiei normale si incheierea lucrarilor, in jurul orei 16:00.",
 	"viz_name": "A1",
-	"map_zoom": "['372', '0', '373', '0']"
+	"map_zoom": "['471', '350', '473', '700']"
 },
 {
 	"NR. CRT.": "1.2",
 	"Indicativ drum": "A1",
-	"De la km": "289+000",
-	"Pana la km": "292+000",
-	"De la data": "2026-02-03 09:00:00",
-	"Pana la data": "2026-02-03 16:00:00",
+	"De la km": "284+000",
+	"Pana la km": "288+000",
+	"De la data": "2026-02-04 08:30:00",
+	"Pana la data": "2026-02-04 16:00:00",
 	"Intre localitatile": "CUNTA (AB) - MIERCUREA SIBIULUI (SB)",
 	"Cauza": "Restrictie mobila.Se executa foraje geotehnice, banda de urgenta restrictionata, Calea2(sens Orastie-Sibiu)",
-	"Masuri de remediere": "Se circula pe banda 1 si banda 2 a caii 2.",
+	"Masuri de remediere": "",
 	"viz_name": "A1",
-	"map_zoom": "['289', '0', '292', '0']"
+	"map_zoom": "['284', '0', '288', '0']"
 },
 {
 	"NR. CRT.": "1.3",
 	"Indicativ drum": "A1",
-	"De la km": "279+300",
-	"Pana la km": "279+900",
-	"De la data": "2026-02-03 09:00:00",
-	"Pana la data": "2026-02-03 15:00:00",
-	"Intre localitatile": "APOLDU DE JOS (SB) - SALISTE (SB)",
+	"De la km": "255+500",
+	"Pana la km": "256+200",
+	"De la data": "2026-02-04 09:00:00",
+	"Pana la data": "2026-02-04 15:00:00",
+	"Intre localitatile": "CRISTIAN (SB) - SURA MICA (SB)",
 	"Cauza": "Se executa lucrari de reparatii asfaltice, plombari gropi.Banda 1 si banda de urgenta restrictionate Calea 2 (Sens Orastie-Sibiu).",
-	"Masuri de remediere": "Se circula ingreunat pe banda 2 a cai 2",
+	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 2.",
 	"viz_name": "A1",
-	"map_zoom": "['279', '300', '279', '900']"
+	"map_zoom": "['255', '500', '256', '200']"
 },
 {
 	"NR. CRT.": "1.4",
+	"Indicativ drum": "A1",
+	"De la km": "224+000",
+	"Pana la km": "254+000",
+	"De la data": "2026-02-04 08:37:00",
+	"Pana la data": "2026-02-04 23:59:00",
+	"Intre localitatile": "BOITA (SB) - SURA MICA (SB)",
+	"Cauza": "Se executa lucrari de reparatii asfaltice, plombari gropi.Banda 1 si banda de urgenta restrictionate Calea1 si 2.",
+	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 1 si 2.",
+	"viz_name": "A1",
+	"map_zoom": "['224', '0', '254', '0']"
+},
+{
+	"NR. CRT.": "1.5",
 	"Indicativ drum": "DN1",
 	"De la km": "99+050",
 	"Pana la km": "99+150",
@@ -49,5 +62,18 @@
 	"Masuri de remediere": "Intre km 99+150 si km 99+050 pe sensul Brasov - Ploiesti se circula doar pe banda 2 (traficul rutier a fost oprit pe banda 1 fiind semnalizat corespunzator). Pe sensul Ploiesti - Brasov circulatia rutiera este normala.",
 	"viz_name": "DN1",
 	"map_zoom": "['99', '50', '99', '150']"
+},
+{
+	"NR. CRT.": "1.6",
+	"Indicativ drum": "DN7",
+	"De la km": "216+450",
+	"Pana la km": "217+400",
+	"De la data": "2026-02-04 08:00:00",
+	"Pana la data": "2026-02-04 15:30:00",
+	"Intre localitatile": "CALINESTI (VL) -",
+	"Cauza": "Se executa lucrari la pila 1 de la Ecoductul Calinesti .",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie, iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute.",
+	"viz_name": "DN7",
+	"map_zoom": "['216', '450', '217', '400']"
 }
 ]
