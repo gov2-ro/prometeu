@@ -1,5 +1,18 @@
 [{
 	"NR. CRT.": "1.1",
+	"Indicativ drum": "A1",
+	"De la km": "446+000",
+	"Pana la km": "446+000",
+	"De la data": "2026-02-09 08:00:00",
+	"Pana la data": "2026-02-09 16:00:00",
+	"Intre localitatile": "SUSANI (TM) - SUSANI (TM)",
+	"Cauza": "Pe calea 1 se executa Lucrari de montare/demontare parapet median.",
+	"Masuri de remediere": "Se circula pe Banda 1 si Banda de urgenta.Banda 2 este inchisa.",
+	"viz_name": "A1",
+	"map_zoom": "['446', '0', '446', '0']"
+},
+{
+	"NR. CRT.": "1.2",
 	"Indicativ drum": "DN1",
 	"De la km": "99+050",
 	"Pana la km": "99+150",
@@ -12,16 +25,29 @@
 	"map_zoom": "['99', '50', '99', '150']"
 },
 {
-	"NR. CRT.": "1.2",
+	"NR. CRT.": "1.3",
 	"Indicativ drum": "DN7",
 	"De la km": "216+450",
 	"Pana la km": "217+400",
-	"De la data": "2026-02-07 08:00:00",
-	"Pana la data": "2026-02-07 15:30:00",
+	"De la data": "2026-02-09 08:00:00",
+	"Pana la data": "2026-02-09 15:30:00",
 	"Intre localitatile": "CALINESTI (VL) -",
 	"Cauza": "Se executa lucrari la pila 1 de la Ecoductul Calinesti .",
-	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie, iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie , iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute .",
 	"viz_name": "DN7",
 	"map_zoom": "['216', '450', '217', '400']"
+},
+{
+	"NR. CRT.": "1.4",
+	"Indicativ drum": "DN7CC",
+	"De la km": "3+150",
+	"Pana la km": "3+350",
+	"De la data": "2026-02-09 08:00:00",
+	"Pana la data": "2026-02-09 13:00:00",
+	"Intre localitatile": "JIBLEA VECHE (VL) -",
+	"Cauza": "In extravilanul localitatii Jiblea se lucreaza la reteaua electrica intre orele 08:00 - 13:00.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7CC",
+	"map_zoom": "['3', '150', '3', '350']"
 }
 ]
