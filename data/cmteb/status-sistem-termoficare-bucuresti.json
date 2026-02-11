@@ -1008,12 +1008,11 @@
         "Long": 26.039216416695
     },
     {
-        "stare": "Remediere avarie racord primar  DN 200 - str.Pravat",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3/2",
-        "tip": "Oprire ACC/INC",
-        "remediere": "11.02.2026 11:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42399611775,
         "Long": 26.039559592789
     },
@@ -1417,12 +1416,11 @@
         "Long": 26.048799604653
     },
     {
-        "stare": "Remediere avarie racord primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "S.G.A. Ilfov-Bucureşti, Administratia Nationala Apele Romane)",
-        "tip": "Oprire ACC/INC",
-        "remediere": "10.02.2026 21:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.446459,
         "Long": 26.049077
     },
@@ -1491,12 +1489,11 @@
         "Long": 26.04977
     },
     {
-        "stare": "Remediere avarie racord primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "MT PLAVAT",
-        "tip": "Oprire ACC/INC",
-        "remediere": "10.02.2026 21:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44942855835,
         "Long": 26.049877
     },
@@ -2763,11 +2760,11 @@
         "Long": 26.065105
     },
     {
-        "stare": "Remediere avarie racord primar",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
         "culoare": "#e0002b",
         "denumire": "11 Margeanului",
-        "tip": "Oprire ACC/INC",
-        "remediere": "10.02.2026 23:00",
+        "tip": "Oprire INC",
+        "remediere": "11.02.2026 12:00",
         "status": "avarii",
         "Lat": 44.413174,
         "Long": 26.065173
@@ -3182,7 +3179,7 @@
         "culoare": "#e0002b",
         "denumire": "MODUL TERMIC Witting",
         "tip": "Oprire ACC/INC",
-        "remediere": "10.02.2026 23:30",
+        "remediere": "11.02.2026 06:00",
         "status": "avarii",
         "Lat": 44.442853,
         "Long": 26.071616
@@ -4188,11 +4185,12 @@
         "Long": 26.095455589788
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare încălzire",
+        "culoare": "#ffe53e",
         "denumire": "5 Aviatiei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.02.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.485812427579,
         "Long": 26.095541252097
     },
@@ -5487,7 +5485,7 @@
         "culoare": "#ffe53e",
         "denumire": "13 Lacul Tei",
         "tip": "Deficienta INC",
-        "remediere": "10.02.2026 23:30",
+        "remediere": "11.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.4618986,
         "Long": 26.1182756
@@ -5601,11 +5599,11 @@
         "Long": 26.120118966523
     },
     {
-        "stare": "Functionare deficitara a incalzirii si a apei calde de consum din cauza manevrelor de echilibrare hidraulica a retelei termice",
+        "stare": "Funcționare deficitară a încălzirii din cauza manevrelor de echilibrare hidraulică a rețelei termice",
         "culoare": "#ffe53e",
         "denumire": "5 Lacul Tei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "10.02.2026 23:30",
+        "tip": "Deficienta INC",
+        "remediere": "11.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.4628725,
         "Long": 26.1204375
@@ -6254,7 +6252,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Colentina",
         "tip": "Deficienta ACC/INC",
-        "remediere": "10.02.2026 23:30",
+        "remediere": "11.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.459286465278,
         "Long": 26.130730316136
@@ -6282,7 +6280,7 @@
         "culoare": "#ffe53e",
         "denumire": "7 Colentina",
         "tip": "Deficienta INC",
-        "remediere": "10.02.2026 23:30",
+        "remediere": "11.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.455835581978,
         "Long": 26.131025935733
