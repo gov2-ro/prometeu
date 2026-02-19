@@ -801,12 +801,11 @@
         "Long": 26.03202
     },
     {
-        "stare": "Avarie Apa Nova - lipsă apă rece la centrala termică",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Ct Desisului",
-        "tip": "Oprire ACC",
-        "remediere": "18.02.2026 22:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444515228271,
         "Long": 26.032051086426
     },
@@ -1171,11 +1170,12 @@
         "Long": 26.043186
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - (Cal.Giulesti)",
+        "culoare": "#e0002b",
         "denumire": "B Giulești",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire INC",
+        "remediere": "19.02.2026 15:30",
+        "status": "avarii",
         "Lat": 44.4619876,
         "Long": 26.0433243
     },
@@ -4060,11 +4060,11 @@
         "Long": 26.09422245347
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "6 Aviatiei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.485363,
         "Long": 26.094529
@@ -4178,11 +4178,11 @@
         "Long": 26.095455589788
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "5 Aviatiei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 10:00",
         "status": "deficiente",
         "Lat": 44.485812427579,
         "Long": 26.095541252097
@@ -4287,12 +4287,11 @@
         "Long": 26.0972968
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Dorobanti",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.454707,
         "Long": 26.097312
     },
@@ -4460,11 +4459,11 @@
     },
     {
         "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#e0002b",
+        "culoare": "#ffe53e",
         "denumire": "3 Aviatiei",
-        "tip": "Oprire INC",
-        "remediere": "18.02.2026 23:30",
-        "status": "avarii",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.483988987903,
         "Long": 26.100412519401
     },
@@ -4878,7 +4877,7 @@
         "culoare": "#ffe53e",
         "denumire": "7 Călăraşi",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4302894,
         "Long": 26.1084422
@@ -5041,7 +5040,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Mărășești",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.420779379125,
         "Long": 26.111569424001
@@ -5123,7 +5122,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Mărăşeşti",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.423072403401,
         "Long": 26.112586271896
@@ -5151,7 +5150,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Mărăşeşti",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.420436778383,
         "Long": 26.113213832351
@@ -5170,7 +5169,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Tineretului",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.41071864561,
         "Long": 26.1136777289
@@ -5270,7 +5269,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Mărăşeşti",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.421413449341,
         "Long": 26.115808161431
@@ -5316,7 +5315,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Tineretului",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.409295047197,
         "Long": 26.116260968821
@@ -5340,11 +5339,12 @@
         "Long": 26.116503
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "culoare": "#ffe53e",
         "denumire": "6 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "19.02.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.441189280039,
         "Long": 26.116536292115
     },
@@ -5353,7 +5353,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Mărășești",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.420289903111,
         "Long": 26.116844472496
@@ -5422,11 +5422,12 @@
         "Long": 26.11729
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "culoare": "#ffe53e",
         "denumire": "3 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "19.02.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.44339141713,
         "Long": 26.11731680423
     },
@@ -5476,11 +5477,11 @@
         "Long": 26.118135816644
     },
     {
-        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "13 Lacul Tei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4618986,
         "Long": 26.1182756
@@ -5535,7 +5536,7 @@
         "culoare": "#ffe53e",
         "denumire": "21 Foișor",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.420805164492,
         "Long": 26.119679692198
@@ -5581,7 +5582,7 @@
         "culoare": "#ffe53e",
         "denumire": "M107",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4249848,
         "Long": 26.1200934
@@ -5645,7 +5646,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Mărăşeşti",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.423412919384,
         "Long": 26.121202279845
@@ -5664,7 +5665,7 @@
         "culoare": "#ffe53e",
         "denumire": "12 Foișor",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.417799604922,
         "Long": 26.121324108352
@@ -5674,7 +5675,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.458492884321,
         "Long": 26.121422246091
@@ -5711,7 +5712,7 @@
         "culoare": "#ffe53e",
         "denumire": "ICB",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.462771,
         "Long": 26.121958
@@ -5739,7 +5740,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.461582573308,
         "Long": 26.122357997099
@@ -5749,7 +5750,7 @@
         "culoare": "#ffe53e",
         "denumire": "11 Foișor",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.418630166332,
         "Long": 26.122753704537
@@ -5777,7 +5778,7 @@
         "culoare": "#ffe53e",
         "denumire": "13 Foișor",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.42005700227,
         "Long": 26.123356994652
@@ -5787,7 +5788,7 @@
         "culoare": "#ffe53e",
         "denumire": "14 Foișor",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.421044311597,
         "Long": 26.123675134747
@@ -5815,7 +5816,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.460380612534,
         "Long": 26.124608065815
@@ -5834,7 +5835,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Cheile Zanoagei",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.459084933579,
         "Long": 26.124698985992
@@ -5934,7 +5935,7 @@
         "culoare": "#ffe53e",
         "denumire": "10 Vitan",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.417327288397,
         "Long": 26.126259911503
@@ -5944,7 +5945,7 @@
         "culoare": "#ffe53e",
         "denumire": "P8 Foisor",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.44595,
         "Long": 26.126542
@@ -5963,17 +5964,18 @@
         "culoare": "#ffe53e",
         "denumire": "J2 Unirii",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4250933,
         "Long": 26.1267818
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "culoare": "#ffe53e",
         "denumire": "3 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "19.02.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.455070515839,
         "Long": 26.126928389148
     },
@@ -5982,7 +5984,7 @@
         "culoare": "#ffe53e",
         "denumire": "G3",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4262842,
         "Long": 26.126932
@@ -5992,7 +5994,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Călăraşi",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.432951436049,
         "Long": 26.126944371314
@@ -6002,7 +6004,7 @@
         "culoare": "#ffe53e",
         "denumire": "P10 Foisor",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.444023,
         "Long": 26.127223
@@ -6094,7 +6096,7 @@
         "culoare": "#ffe53e",
         "denumire": "P7 Foisor",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.444173277368,
         "Long": 26.12806364211
@@ -6109,12 +6111,11 @@
         "Long": 26.128455383519
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "P16 Mihai Bravu",
-        "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444994219219,
         "Long": 26.128648841835
     },
@@ -6168,7 +6169,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Călăraşi",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.431374163217,
         "Long": 26.129109287925
@@ -6187,7 +6188,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Cornul Caprei",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.423398013129,
         "Long": 26.129300577458
@@ -6247,11 +6248,12 @@
         "Long": 26.1305385
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "culoare": "#ffe53e",
         "denumire": "3 Petricani",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "19.02.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.4628221,
         "Long": 26.1306196
     },
@@ -6287,7 +6289,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Călăraşi",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.430669191467,
         "Long": 26.130745005608
@@ -6333,7 +6335,7 @@
         "culoare": "#ffe53e",
         "denumire": "U2 Avrig",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4460697,
         "Long": 26.1312127
@@ -6361,7 +6363,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Cornul Caprei",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.423590318535,
         "Long": 26.132061748021
@@ -6452,7 +6454,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Laborator",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.418128188483,
         "Long": 26.133589904404
@@ -6462,7 +6464,7 @@
         "culoare": "#ffe53e",
         "denumire": "S14",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.429671,
         "Long": 26.1335993
@@ -6499,18 +6501,17 @@
         "culoare": "#ffe53e",
         "denumire": "S6",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4288294,
         "Long": 26.1341874
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "D18 Mihai Bravu",
-        "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.438360802765,
         "Long": 26.134342495818
     },
@@ -6519,7 +6520,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Theodor Speranţia",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.427643772709,
         "Long": 26.134450464567
@@ -6529,7 +6530,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Vitan",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.413759804623,
         "Long": 26.13449706238
@@ -6566,7 +6567,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Colentina 2",
         "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.462756,
         "Long": 26.135144
@@ -6636,12 +6637,11 @@
         "Long": 26.13574
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "22 Pantelimon",
-        "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444295112246,
         "Long": 26.135933408101
     },
@@ -6659,7 +6659,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Unităţii",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.424308266726,
         "Long": 26.136026253564
@@ -6687,7 +6687,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Unităţii",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.423022157269,
         "Long": 26.136336299463
@@ -6697,7 +6697,7 @@
         "culoare": "#ffe53e",
         "denumire": "16 Răcari",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.413274470197,
         "Long": 26.136792235983
@@ -6780,7 +6780,7 @@
         "culoare": "#ffe53e",
         "denumire": "Dristor Insulă",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.422659710699,
         "Long": 26.137736210591
@@ -6790,7 +6790,7 @@
         "culoare": "#ffe53e",
         "denumire": "10 Laborator",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.418413007795,
         "Long": 26.137769859583
@@ -6800,7 +6800,7 @@
         "culoare": "#ffe53e",
         "denumire": "Mihai Bravu Vest",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4296585,
         "Long": 26.1379183
@@ -6892,7 +6892,7 @@
         "culoare": "#ffe53e",
         "denumire": "20 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.445179,
         "Long": 26.139575
@@ -6902,7 +6902,7 @@
         "culoare": "#ffe53e",
         "denumire": "11 Laborator",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.417523116508,
         "Long": 26.139666312047
@@ -6957,7 +6957,7 @@
         "culoare": "#ffe53e",
         "denumire": "18 KLM",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.411125500011,
         "Long": 26.140755567054
@@ -7021,7 +7021,7 @@
         "culoare": "#ffe53e",
         "denumire": "19 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.443873145797,
         "Long": 26.141506530189
@@ -7049,7 +7049,7 @@
         "culoare": "#ffe53e",
         "denumire": "12Tomis",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.415008656658,
         "Long": 26.14187566521
@@ -7059,7 +7059,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Papiu Ilarian",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4219468,
         "Long": 26.1419627
@@ -7155,11 +7155,11 @@
         "Long": 26.14380775646
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "23 Baicului",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
@@ -7169,7 +7169,7 @@
         "culoare": "#ffe53e",
         "denumire": "18 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.444625814743,
         "Long": 26.144263828341
@@ -7179,17 +7179,17 @@
         "culoare": "#ffe53e",
         "denumire": "13 Tomis",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4147779026,
         "Long": 26.14434861549
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "33 Muncii",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4320571,
         "Long": 26.1445292
@@ -7295,11 +7295,12 @@
         "Long": 26.146836
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametri insuficienți pentru livrare a  apei calde de consum și a încălzirii",
+        "culoare": "#ffe53e",
         "denumire": "3 Fundeni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "19.02.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.465167211704,
         "Long": 26.147026165983
     },
@@ -7365,7 +7366,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Matei Ambrozie",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.411839591958,
         "Long": 26.147422392758
@@ -7484,7 +7485,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Șulea Nord",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.417574523119,
         "Long": 26.148635745529
@@ -7584,7 +7585,7 @@
         "culoare": "#ffe53e",
         "denumire": "2 Șulea",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.416985410842,
         "Long": 26.151153301352
@@ -7594,7 +7595,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Tomis",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.414735,
         "Long": 26.15149
@@ -7663,12 +7664,11 @@
         "Long": 26.155001
     },
     {
-        "stare": "Lipsa parametri pentru livrare acc",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Socului",
-        "tip": "Deficienta ACC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.439809,
         "Long": 26.156146
     },
@@ -7709,12 +7709,11 @@
         "Long": 26.157694326963
     },
     {
-        "stare": "Lipsa parametri pentru livrare acc",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Voiniceni",
-        "tip": "Deficienta ACC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.437179303158,
         "Long": 26.158070439322
     },
@@ -7746,22 +7745,20 @@
         "Long": 26.158679897014
     },
     {
-        "stare": "Lipsa parametri pentru livrare încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "5 Socului",
-        "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.439798,
         "Long": 26.158728
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Pantelimon",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "18.02.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4433155,
         "Long": 26.1588575
     },
@@ -7896,7 +7893,7 @@
         "culoare": "#ffe53e",
         "denumire": "6C4/2",
         "tip": "Deficienta INC",
-        "remediere": "18.02.2026 23:30",
+        "remediere": "19.02.2026 23:30",
         "status": "deficiente",
         "Lat": 44.419406578109,
         "Long": 26.162431708624
