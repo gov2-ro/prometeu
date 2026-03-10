@@ -855,12 +855,11 @@
         "Long": 26.033021468157
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "8 Virtuții",
-        "tip": "Oprire ACC/INC",
-        "remediere": "10.03.2026 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.443182283719,
         "Long": 26.033371920951
     },
@@ -955,12 +954,11 @@
         "Long": 26.03786
     },
     {
-        "stare": "Remediere avarie retea primara",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "7 Virtuții",
-        "tip": "Oprire ACC/INC",
-        "remediere": "10.03.2026 23:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.44159,
         "Long": 26.03789
     },
@@ -1437,7 +1435,7 @@
         "culoare": "#ffe53e",
         "denumire": "N Chibrit",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 06:00",
         "status": "deficiente",
         "Lat": 44.471235,
         "Long": 26.049255
@@ -4077,7 +4075,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Aviatiei",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 06:00",
         "status": "deficiente",
         "Lat": 44.485363,
         "Long": 26.094529
@@ -4195,7 +4193,7 @@
         "culoare": "#ffe53e",
         "denumire": "5 Aviatiei",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 06:00",
         "status": "deficiente",
         "Lat": 44.485812427579,
         "Long": 26.095541252097
@@ -4277,7 +4275,7 @@
         "culoare": "#ffe53e",
         "denumire": "4 Aviatiei",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 06:00",
         "status": "deficiente",
         "Lat": 44.483273237609,
         "Long": 26.096636334391
@@ -4476,7 +4474,7 @@
         "culoare": "#ffe53e",
         "denumire": "3 Aviatiei",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 06:00",
         "status": "deficiente",
         "Lat": 44.483988987903,
         "Long": 26.100412519401
@@ -4927,7 +4925,7 @@
         "culoare": "#ffe53e",
         "denumire": "1 Tineretului",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:00",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.412415871448,
         "Long": 26.110004686011
@@ -5018,7 +5016,7 @@
         "culoare": "#ffe53e",
         "denumire": "6 Zona II",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:00",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.385173824756,
         "Long": 26.110954182958
@@ -5942,11 +5940,12 @@
         "Long": 26.126259911503
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti pentru livrare apa calda de consum si incalzire din cauza lucrarilor de modernizare Mag 2 SUD",
+        "culoare": "#ffe53e",
         "denumire": "P8 Foisor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "13.03.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.44595,
         "Long": 26.126542
     },
@@ -6648,17 +6647,18 @@
         "culoare": "#ffe53e",
         "denumire": "22 Pantelimon",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.444295112246,
         "Long": 26.135933408101
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti pentru livrare apa calda de consum si a incalzirii  din cauza  lucrarilor  de modernizare Mag 2 Sud",
+        "culoare": "#ffe53e",
         "denumire": "3 Iancului",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "13.03.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.4419354,
         "Long": 26.1360142
     },
@@ -6969,11 +6969,11 @@
         "Long": 26.140755567054
     },
     {
-        "stare": "Parametrii insuficienti pentru livrare apa calda de consum si a incalzirii  din cauza  lucrarilor  de modernizare Mag 2 Sud",
+        "stare": "Parametrii insuficienti pentru livrare incalzire din cauza lucrarilor de modernizare Mag 2 Sud.",
         "culoare": "#ffe53e",
         "denumire": "E2 Vatra Luminoasa",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "13.03.2026 23:00",
+        "tip": "Deficienta INC",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.4377975,
         "Long": 26.1407758
@@ -7163,17 +7163,18 @@
         "culoare": "#ffe53e",
         "denumire": "23 Baicului",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.44574835098,
         "Long": 26.144183842109
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti pentru livrare incalzire din cauza lucrarilor de modernizare Mag 2 Sud.",
+        "culoare": "#ffe53e",
         "denumire": "18 Pantelimon",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "10.03.2026 08:00",
+        "status": "deficiente",
         "Lat": 44.444625814743,
         "Long": 26.144263828341
     },
@@ -7315,11 +7316,12 @@
         "Long": 26.147095
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti pentru livrare apa calda  si incalzire din cauza lucrarilor de modernizare Mag 2 SUD",
+        "culoare": "#ffe53e",
         "denumire": "SC.1Baba Novac",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "13.03.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.424383,
         "Long": 26.147097
     },
@@ -7629,7 +7631,7 @@
         "culoare": "#ffe53e",
         "denumire": "A4 Basarabia",
         "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
+        "remediere": "10.03.2026 08:00",
         "status": "deficiente",
         "Lat": 44.43308,
         "Long": 26.1548599
@@ -7707,11 +7709,12 @@
         "Long": 26.157694326963
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Parametrii insuficienti pentru livrare apa calda de consum si a incalzirii  din cauza  lucrarilor  de modernizare Mag 2 Sud",
+        "culoare": "#ffe53e",
         "denumire": "2 Voiniceni",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC/INC",
+        "remediere": "13.03.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.437179303158,
         "Long": 26.158070439322
     },
@@ -7752,12 +7755,11 @@
         "Long": 26.158728
     },
     {
-        "stare": "Parametrii insuficienti pentru livrare incalzire din cauza lucrarilor de modernizare Mag 2 Sud.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Pantelimon",
-        "tip": "Deficienta INC",
-        "remediere": "09.03.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4433155,
         "Long": 26.1588575
     },
