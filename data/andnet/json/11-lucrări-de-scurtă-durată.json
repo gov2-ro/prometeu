@@ -1,18 +1,44 @@
 [{
 	"NR. CRT.": "1.1",
 	"Indicativ drum": "A1",
-	"De la km": "272+900",
-	"Pana la km": "273+830",
-	"De la data": "2026-03-10 09:00:00",
-	"Pana la data": "2026-03-12 08:00:00",
-	"Intre localitatile": "SALISTE (SB) - ACILIU (SB)",
-	"Cauza": "Pe Calea 1 (Sens Sibiu - Sebes) se executa lucrari la dispozitivul de acoperire si dilatatie.Banda 1 si Banda de urgenta sunt restrictionate.",
-	"Masuri de remediere": "Se circula ingreunat pe Banda 2 de pe Calea 1 .",
+	"De la km": "323+000",
+	"Pana la km": "327+000",
+	"De la data": "2026-03-12 08:10:00",
+	"Pana la data": "2026-03-12 16:00:00",
+	"Intre localitatile": "TARTARIA (AB) - TARTARIA (AB)",
+	"Cauza": "Pe calea 1 se efectueaza Lucrari de transport  pamant de pe zona mediana.",
+	"Masuri de remediere": "Banda de urgenta si Banda 1 se circula.Banda 2 este restrictionata.",
 	"viz_name": "A1",
-	"map_zoom": "['272', '900', '273', '830']"
+	"map_zoom": "['323', '0', '327', '0']"
 },
 {
 	"NR. CRT.": "1.2",
+	"Indicativ drum": "A1",
+	"De la km": "271+900",
+	"Pana la km": "272+500",
+	"De la data": "2026-03-12 09:00:00",
+	"Pana la data": "2026-03-12 15:00:00",
+	"Intre localitatile": "SALISTE (SB) - SALISTE (SB)",
+	"Cauza": "Lucrari de decolmatare sant picior taluz. Banda 1 si banda de urgenta de pe calea 1(Sibiu- Deva) restrictionata.",
+	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 1.",
+	"viz_name": "A1",
+	"map_zoom": "['271', '900', '272', '500']"
+},
+{
+	"NR. CRT.": "1.3",
+	"Indicativ drum": "A3Ms",
+	"De la km": "25+000",
+	"Pana la km": "25+350",
+	"De la data": "2026-03-12 09:00:00",
+	"Pana la data": "2026-03-12 13:00:00",
+	"Intre localitatile": "IERNUT (MS) - IERNUT (MS)",
+	"Cauza": "Lucrari de inlocuire a parapetului median. Restrictionata Banda 2, calea 1 (sens Ungheni - Turda).",
+	"Masuri de remediere": "Se circula ingreunat pe banda 1 a caii 1.",
+	"viz_name": "A3Ms",
+	"map_zoom": "['25', '0', '25', '350']"
+},
+{
+	"NR. CRT.": "1.4",
 	"Indicativ drum": "DN5",
 	"De la km": "65+000",
 	"Pana la km": "65+000",
@@ -25,7 +51,46 @@
 	"map_zoom": "['65', '0', '65', '0']"
 },
 {
-	"NR. CRT.": "1.3",
+	"NR. CRT.": "1.5",
+	"Indicativ drum": "DN56A",
+	"De la km": "54+000",
+	"Pana la km": "64+000",
+	"De la data": "2026-03-12 08:00:00",
+	"Pana la data": "2026-03-12 18:00:00",
+	"Intre localitatile": "VANJU MARE (MH) - HINOVA (MH)",
+	"Cauza": "Se executa lucrari de reparatii asfaltice.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale, dirijata de piloti de circulatie .",
+	"viz_name": "DN56A",
+	"map_zoom": "['54', '0', '64', '0']"
+},
+{
+	"NR. CRT.": "1.6",
+	"Indicativ drum": "DN6",
+	"De la km": "332+000",
+	"Pana la km": "334+000",
+	"De la data": "2026-03-12 08:00:00",
+	"Pana la data": "2026-03-12 18:00:00",
+	"Intre localitatile": "SIMIAN (MH) - DROBETA TURNU SEVERIN (MH)",
+	"Cauza": "Se executa lucrari de reparatii asfaltice.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale, dirijata de piloti de circulatie.",
+	"viz_name": "DN6",
+	"map_zoom": "['332', '0', '334', '0']"
+},
+{
+	"NR. CRT.": "1.7",
+	"Indicativ drum": "DN6",
+	"De la km": "282+000",
+	"Pana la km": "286+000",
+	"De la data": "2026-03-12 08:00:00",
+	"Pana la data": "2026-03-12 18:00:00",
+	"Intre localitatile": "LUNCA BANULUI (MH) - STREHAIA (MH)",
+	"Cauza": "Se executa lucrari de reparatii asfaltice.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale, dirijata de piloti de circulatie.",
+	"viz_name": "DN6",
+	"map_zoom": "['282', '0', '286', '0']"
+},
+{
+	"NR. CRT.": "1.8",
 	"Indicativ drum": "DN6",
 	"De la km": "236+480",
 	"Pana la km": "236+941",
@@ -38,7 +103,7 @@
 	"map_zoom": "['236', '480', '236', '941']"
 },
 {
-	"NR. CRT.": "1.4",
+	"NR. CRT.": "1.9",
 	"Indicativ drum": "DN7",
 	"De la km": "216+450",
 	"Pana la km": "217+400",
@@ -51,7 +116,7 @@
 	"map_zoom": "['216', '450', '217', '400']"
 },
 {
-	"NR. CRT.": "1.5",
+	"NR. CRT.": "1.10",
 	"Indicativ drum": "DN7",
 	"De la km": "181+000",
 	"Pana la km": "182+000",
@@ -64,7 +129,7 @@
 	"map_zoom": "['181', '0', '182', '0']"
 },
 {
-	"NR. CRT.": "1.6",
+	"NR. CRT.": "1.11",
 	"Indicativ drum": "DN7A",
 	"De la km": "29+000",
 	"Pana la km": "30+000",
@@ -77,7 +142,7 @@
 	"map_zoom": "['29', '0', '30', '0']"
 },
 {
-	"NR. CRT.": "1.7",
+	"NR. CRT.": "1.12",
 	"Indicativ drum": "DN7C",
 	"De la km": "61+500",
 	"Pana la km": "61+750",
