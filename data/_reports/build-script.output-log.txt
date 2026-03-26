@@ -1,0 +1,397 @@
+Building data/prometeu.db from git history...
+
+  \u2192 trafic-frontiere.csv
+
+    \u2717 failed
+  \u2192 trafic-frontiere-map.csv
+
+
+Error in commit: ebfd6bca591016aad1402b834d980c12da9f7339
+    \u2717 failed
+  \u2192 status-sistem-termoficare-bucuresti.csv
+
+    \u2717 failed
+  \u2192 andnet/1-evenimente-rutiere-și-lucrări-de-scurtă-durată.csv (     810 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/11-lucrări-de-scurtă-durată.csv (     875 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/2-drumuri-naționale-și-autostrăzi-cu-circulația-întreruptă-din-cauza-condițiilor-meteo-nefavorabile.csv (      12 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/2-drumuri-naționale-și-autostrăzi-cu-circulația-restricționată-sau-întreruptă-din-cauza-condițiilor-meteo-nefavorabile.csv (     199 versions)
+
+    \u2713 done
+  \u2192 andnet/3-drumuri-naționale-și-autostrăzi-cu-circulația-îngreunată-din-cauza-condițiilor-meteo-nefavorabile.csv (      13 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/72-starea-părții-carosabile.csv (     592 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/73-măsuri.csv (    1125 versions)
+
+
+Error in commit: c9b6f73cd8cb6ae9ff718333e1a21c2a8173dcea
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 272, in file
+    items = list(convert_function(content))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 3, in fn
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10_1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/csv.py", line 194, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+    \u2717 skipped
+  \u2192 andnet/circulatie ingreunata.csv (     216 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/circulatie intrerupta.csv (      35 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/evenimente rutiere.csv (     589 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/lucrari.csv (     875 versions)
+
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 284, in file
+    **jsonify_all(fix_reserved_columns(item)),
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in fix_reserved_columns
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/utils.py", line 22, in <genexpr>
+    if not any(reserved_with_suffix_re.match(key) for key in item):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: expected string or bytes-like object, got 'NoneType'
+    \u2717 skipped
+  \u2192 andnet/meteo.csv (    2586 versions)
+
+    \u2713 done
+  \u2192 andnet/situatia-drumurilor-paths.csv (    1951 versions)
+
+
+Error in commit: b6c7ec6f6ce7838b3a0121ae97e9ed3805591666
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 272, in file
+    items = list(convert_function(content))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 3, in fn
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10_1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/csv.py", line 194, in sniff
+    raise Error("Could not determine delimiter")
+_csv.Error: Could not determine delimiter
+    \u2717 skipped
+  \u2192 andnet/situatia-drumurilor-points.csv (    2157 versions)
+
+    \u2713 done
+  \u2192 andnet/starea generala.csv (    2074 versions)
+
+    \u2713 done
+  \u2192 andnet/temperatura.csv (    2718 versions)
+
+    \u2713 done
+
+Done! Database: data/prometeu.db
+Tables:
+table                                                                                                                            count
+-----------------------------------------------------------------------------------------------------------------------------  -------
+namespaces                                                                                                                          19
+commits                                                                                                                           9636
+andnet_1_evenimente_rutiere_și_lucrări_de_scurtă_durată                                                                             12
+andnet_2_drumuri_naționale_și_autostrăzi_cu_circulația_restricționată_sau_întreruptă_din_cauza_condițiilor_meteo_nefavorabile     4950
+andnet_3_drumuri_naționale_și_autostrăzi_cu_circulația_îngreunată_din_cauza_condițiilor_meteo_nefavorabile                          25
+andnet_73_măsuri                                                                                                                   336
+andnet_circulatie ingreunata                                                                                                        88
+andnet_circulatie intrerupta                                                                                                         7
+andnet_meteo                                                                                                                     36421
+andnet_situatia_drumurilor_points                                                                                                58181
+andnet_starea generala                                                                                                           81386
+andnet_temperatura                                                                                                              301458
+
+Run with: datasette data/prometeu.db --metadata utils/datasette/metadata.json
