@@ -11,8 +11,11 @@ DB="${1:-data/prometeu.db}"
 SAFE_CSV_CONVERT='
 import csv, io
 text = content if isinstance(content, str) else content.decode("utf-8", errors="replace")
-reader = csv.DictReader(io.StringIO(text))
-return [row for row in reader if all(k is not None for k in row.keys())]
+try:
+    reader = csv.DictReader(io.StringIO(text))
+    return [{k: v for k, v in row.items() if k is not None} for row in reader]
+except csv.Error:
+    return []
 '
 
 # Helper function to run git-history with safe CSV parsing
@@ -59,12 +62,14 @@ run_git_history data/cmteb/status-sistem-termoficare-bucuresti.csv \
 # === Bear interventions ===
 run_git_history data/interventii-urs/interventii-urs.csv \
   interventii_urs \
-  --id "Nr. Crt." \
+  --id judet --id uat --id data_interventie \
   --ignore-duplicate-ids
 
 # === Air quality ===
 run_git_history data/local/B/aerlive-bucuresti.csv \
-  aerlive_bucuresti
+  aerlive_bucuresti \
+  --id id --id name \
+  --ignore-duplicate-ids
 
 run_git_history data/local/IS/calitate-aer-is.csv \
   calitate_aer_iasi
