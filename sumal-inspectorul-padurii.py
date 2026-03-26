@@ -151,29 +151,37 @@ def main():
     new_entries = []
     for loc in locations:
         cod = extract_permit_code(loc)
-        if not cod or cod in existing_ids:
+        if not cod or str(cod) in existing_ids:
             continue
 
+        # Build index entry from location data we already have
+        entry = {
+            "codAviz":         str(cod),
+            "tipAviz":         loc.get("tipAviz", "") if isinstance(loc, dict) else "",
+            "lat":             loc.get("lat", "") if isinstance(loc, dict) else "",
+            "lng":             loc.get("lng", "") if isinstance(loc, dict) else "",
+            "idDepozit":       loc.get("idDepozit", "") if isinstance(loc, dict) else "",
+            "nrInmatriculare": "",
+            "volumTotal":      "",
+            "dataEmiterii":    "",
+            "punctPlecare":    "",
+            "timestamp_scraped": datetime.now().isoformat(),
+        }
+
+        # Enrich with details if available
         print(f"  Fetching details: {cod}")
         details = fetch_aviz_details(cod)
-        if not details or not isinstance(details, dict):
-            continue
+        if details and isinstance(details, dict):
+            if not new_entries:
+                print(f"  Detail keys: {list(details.keys())}")
+            entry["nrInmatriculare"] = details.get("numarMijlocTransport", "")
+            entry["volumTotal"]      = details.get("volumTotal", "")
+            entry["dataEmiterii"]    = details.get("dataEmiterii", "")
+            entry["punctPlecare"]    = (details.get("punctPlecare") or {}).get("denumire", "")
+            with open(DETAILS_DIR / f"{cod}.json", "w", encoding="utf-8") as f:
+                json.dump(details, f, indent=2, ensure_ascii=False)
 
-        # Show detail keys once, to help map field names
-        if not new_entries:
-            print(f"  Detail keys: {list(details.keys())}")
-
-        with open(DETAILS_DIR / f"{cod}.json", "w", encoding="utf-8") as f:
-            json.dump(details, f, indent=2, ensure_ascii=False)
-
-        new_entries.append({
-            "codAviz":         cod,
-            "nrInmatriculare": details.get("numarMijlocTransport", ""),
-            "volumTotal":      details.get("volumTotal", ""),
-            "dataEmiterii":    details.get("dataEmiterii", ""),
-            "punctPlecare":    (details.get("punctPlecare") or {}).get("denumire", ""),
-            "timestamp_scraped": datetime.now().isoformat(),
-        })
+        new_entries.append(entry)
 
     if new_entries:
         file_exists = INDEX_FILE.exists()
