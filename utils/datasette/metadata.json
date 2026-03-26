@@ -6,6 +6,251 @@
         "datasette-cluster-map": {
             "latitude_column": "Latitude",
             "longitude_column": "Longitude"
+        },
+        "datasette-dashboards": {
+            "border-traffic": {
+                "title": "Trafic Frontieră - Border Crossing Wait Times",
+                "description": "Real-time and historical wait times at Romanian border crossings, tracked every 6 hours",
+                "layout": [
+                    ["wait-by-status", "wait-by-status"],
+                    ["wait-trend", "wait-trend"],
+                    ["top-congested", "border-map"],
+                    ["latest-by-crossing", "latest-by-crossing"]
+                ],
+                "charts": {
+                    "wait-by-status": {
+                        "title": "Current Status Distribution",
+                        "db": "prometeu",
+                        "query": "SELECT Status as status, count(*) as count FROM trafic_frontiere_version tv JOIN commits c ON tv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'trafic_frontiere')) GROUP BY Status ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {
+                                    "field": "status",
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": ["green", "orange", "red"],
+                                        "range": ["#2ecc71", "#f39c12", "#e74c3c"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "wait-trend": {
+                        "title": "Average Wait Time Over Time (Trucks Exiting)",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, CAST(tv.Timp AS REAL) as avg_wait, tv.Denumire as crossing FROM trafic_frontiere_version tv JOIN commits c ON tv._commit = c.id WHERE tv.[Tip vehicul] = 'Camioane' AND tv.Sens = 'Ieșire' AND tv.Status != 'green' ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "line", "tooltip": true, "point": true},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "avg_wait", "type": "quantitative", "title": "Wait (min)"},
+                                "color": {"field": "crossing", "type": "nominal", "title": "Border Crossing"}
+                            }
+                        }
+                    },
+                    "top-congested": {
+                        "title": "Most Congested Crossings (Red/Orange)",
+                        "db": "prometeu",
+                        "query": "SELECT Denumire as crossing, count(*) as times_congested, [Tip vehicul] as vehicle FROM trafic_frontiere_version WHERE Status IN ('red', 'orange') GROUP BY Denumire, [Tip vehicul] ORDER BY times_congested DESC LIMIT 15",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "y": {"field": "crossing", "type": "nominal", "sort": "-x", "title": "Crossing"},
+                                "x": {"field": "times_congested", "type": "quantitative", "title": "Times Congested"},
+                                "color": {"field": "vehicle", "type": "nominal"}
+                            }
+                        }
+                    },
+                    "border-map": {
+                        "title": "Border Crossings Map (latest snapshot)",
+                        "db": "prometeu",
+                        "query": "SELECT Denumire as label, CAST(Latitude AS REAL) as latitude, CAST(Longitude AS REAL) as longitude, Status, Timp as wait_min, [Tip vehicul] as vehicle, Sens as direction FROM trafic_frontiere_map_version tv JOIN commits c ON tv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'trafic_frontiere_map'))",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "circle", "tooltip": true},
+                            "encoding": {
+                                "longitude": {"field": "longitude", "type": "quantitative"},
+                                "latitude": {"field": "latitude", "type": "quantitative"},
+                                "size": {"field": "wait_min", "type": "quantitative", "title": "Wait (min)"},
+                                "color": {
+                                    "field": "Status",
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": ["green", "orange", "red"],
+                                        "range": ["#2ecc71", "#f39c12", "#e74c3c"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "latest-by-crossing": {
+                        "title": "Latest Wait Times by Crossing",
+                        "db": "prometeu",
+                        "query": "SELECT tv.Denumire as Crossing, tv.Timp as 'Wait (min)', tv.Status, tv.[Tip vehicul] as Vehicle, tv.Sens as Direction, tv.Info FROM trafic_frontiere_version tv JOIN commits c ON tv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'trafic_frontiere')) ORDER BY CAST(tv.Timp AS INTEGER) DESC",
+                        "library": "table"
+                    }
+                }
+            },
+            "heating-bucharest": {
+                "title": "CMTEB - Termoficare București",
+                "description": "Bucharest district heating system status - failures, deficiencies and repairs tracked over time",
+                "layout": [
+                    ["status-pie", "status-pie"],
+                    ["failures-list", "failures-list"]
+                ],
+                "charts": {
+                    "status-pie": {
+                        "title": "Heating System Status Distribution",
+                        "db": "prometeu",
+                        "query": "SELECT status, count(*) as count FROM cmteb_version cv JOIN commits c ON cv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'cmteb')) GROUP BY status",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {
+                                    "field": "status",
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": ["functionale", "deficiente", "avarii"],
+                                        "range": ["#2ecc71", "#f39c12", "#e74c3c"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "failures-list": {
+                        "title": "Current Failures & Repairs",
+                        "db": "prometeu",
+                        "query": "SELECT denumire as Zone, status as Status, stare as Details, tip as Type, remediere as 'Repair ETA' FROM cmteb_version cv JOIN commits c ON cv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'cmteb')) AND status != 'functionale' ORDER BY status",
+                        "library": "table"
+                    }
+                }
+            },
+            "brasov-reports": {
+                "title": "Sesizări Brașov - Citizen Reports",
+                "description": "Citizen reports and incidents in Brașov, tracked over time",
+                "layout": [
+                    ["by-category", "by-status"],
+                    ["recent-reports", "recent-reports"]
+                ],
+                "charts": {
+                    "by-category": {
+                        "title": "Reports by Category",
+                        "db": "prometeu",
+                        "query": "SELECT Categorie as category, count(*) as count FROM sesizari_bv WHERE Categorie IS NOT NULL AND Categorie != '' GROUP BY Categorie ORDER BY count DESC LIMIT 12",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "y": {"field": "category", "type": "nominal", "sort": "-x", "title": "Category"},
+                                "x": {"field": "count", "type": "quantitative", "title": "Reports"}
+                            }
+                        }
+                    },
+                    "by-status": {
+                        "title": "Reports by Status",
+                        "db": "prometeu",
+                        "query": "SELECT StateCodeName as status, count(*) as count FROM sesizari_bv WHERE StateCodeName IS NOT NULL AND StateCodeName != '' GROUP BY StateCodeName ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {"field": "status", "type": "nominal"}
+                            }
+                        }
+                    },
+                    "recent-reports": {
+                        "title": "Most Recent Reports",
+                        "db": "prometeu",
+                        "query": "SELECT Categorie as Category, Title, StateCodeName as Status, CreatedOn_F as 'Created' FROM sesizari_bv WHERE Title IS NOT NULL AND Title != '' ORDER BY CreatedOn DESC LIMIT 20",
+                        "library": "table"
+                    }
+                }
+            },
+            "air-quality": {
+                "title": "Calitate Aer - Air Quality",
+                "description": "Air quality monitoring stations in Bucharest and Iași",
+                "layout": [
+                    ["buc-stations", "buc-stations"],
+                    ["iasi-stations", "iasi-stations"]
+                ],
+                "charts": {
+                    "buc-stations": {
+                        "title": "Bucharest Air Quality Stations (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT name as Station, ica as 'Air Quality Index', pm25 as 'PM2.5', pm10 as 'PM10', no2 as 'NO₂', status as Status, lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS INTEGER) DESC",
+                        "library": "table"
+                    },
+                    "iasi-stations": {
+                        "title": "Iași Air Quality Stations (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT * FROM calitate_aer_iasi LIMIT 20",
+                        "library": "table"
+                    }
+                }
+            },
+            "overview": {
+                "title": "Prometeu - Overview",
+                "description": "Summary of all tracked Romanian open data feeds",
+                "layout": [
+                    ["total-snapshots", "data-feeds", "latest-update"],
+                    ["feed-sizes", "feed-sizes"]
+                ],
+                "charts": {
+                    "total-snapshots": {
+                        "title": "Total Snapshots",
+                        "db": "prometeu",
+                        "query": "SELECT count(*) as total_snapshots FROM commits",
+                        "library": "metric",
+                        "display": {
+                            "field": "total_snapshots",
+                            "prefix": "",
+                            "suffix": " commits tracked"
+                        }
+                    },
+                    "data-feeds": {
+                        "title": "Active Data Feeds",
+                        "db": "prometeu",
+                        "query": "SELECT count(*) as feeds FROM namespaces",
+                        "library": "metric",
+                        "display": {
+                            "field": "feeds",
+                            "prefix": "",
+                            "suffix": " data sources"
+                        }
+                    },
+                    "latest-update": {
+                        "title": "Latest Update",
+                        "db": "prometeu",
+                        "query": "SELECT max(commit_at) as latest FROM commits",
+                        "library": "metric",
+                        "display": {
+                            "field": "latest",
+                            "prefix": ""
+                        }
+                    },
+                    "feed-sizes": {
+                        "title": "Records per Data Feed",
+                        "db": "prometeu",
+                        "query": "SELECT n.name as feed, count(*) as records FROM commits c JOIN namespaces n ON c.namespace = n.id GROUP BY n.name ORDER BY records DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "y": {"field": "feed", "type": "nominal", "sort": "-x", "title": "Data Feed"},
+                                "x": {"field": "records", "type": "quantitative", "title": "Snapshots"}
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "databases": {
@@ -23,17 +268,25 @@
                     "title": "CMTEB - Termoficare București (history)",
                     "description": "Bucharest district heating system status by zone, tracked over time"
                 },
-                "trafic_frontiere": {
-                    "title": "Trafic Frontieră - Border Crossings (latest per item)",
-                    "description": "Current state of each border crossing item"
+                "sesizari_bv": {
+                    "title": "Sesizări Brașov - Citizen Reports",
+                    "description": "Citizen reports and incidents in Brașov"
                 },
-                "trafic_frontiere_map": {
-                    "title": "Trafic Frontieră Map (latest per item)",
-                    "description": "Current state of each border crossing map marker"
+                "sesizari_bv_version": {
+                    "title": "Sesizări Brașov (history)",
+                    "description": "Citizen reports tracked over time showing status changes"
                 },
-                "cmteb": {
-                    "title": "CMTEB - Termoficare București (latest per item)",
-                    "description": "Current state of each heating zone"
+                "aerlive_bucuresti": {
+                    "title": "Calitate Aer București",
+                    "description": "Air quality monitoring stations in Bucharest"
+                },
+                "calitate_aer_iasi": {
+                    "title": "Calitate Aer Iași",
+                    "description": "Air quality monitoring in Iași"
+                },
+                "curs_valutar": {
+                    "title": "Curs Valutar - Exchange Rates",
+                    "description": "Currency exchange rates"
                 }
             }
         }
