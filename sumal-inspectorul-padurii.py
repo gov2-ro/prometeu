@@ -10,8 +10,11 @@ DATA_DIR = Path("data/sumal")
 INDEX_FILE = DATA_DIR / "avize_index.csv"
 LOCATIONS_FILE = DATA_DIR / "locations.csv"
 DETAILS_DIR = DATA_DIR / "details"
+DETAILS_AP_DIR = DETAILS_DIR / "AP"
+DETAILS_DA_DIR = DETAILS_DIR / "DA"
 
-DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+for d in (DETAILS_AP_DIR, DETAILS_DA_DIR):
+    d.mkdir(parents=True, exist_ok=True)
 
 # Field names tried in order when looking for a permit code
 COD_AVIZ_FIELDS = ["codAviz", "cod_aviz", "avizCode", "code", "id"]
@@ -188,7 +191,14 @@ def main():
             entry["volumTotal"]      = details.get("volumTotal", "")
             entry["dataEmiterii"]    = details.get("dataEmiterii", "")
             entry["punctPlecare"]    = (details.get("punctPlecare") or {}).get("denumire", "")
-            with open(DETAILS_DIR / f"{cod}.json", "w", encoding="utf-8") as f:
+            cod_str = str(cod)
+            if cod_str.startswith("DA"):
+                out_dir = DETAILS_DA_DIR
+            elif cod_str.startswith("AP"):
+                out_dir = DETAILS_AP_DIR
+            else:
+                out_dir = DETAILS_DIR
+            with open(out_dir / f"{cod_str}.json", "w", encoding="utf-8") as f:
                 json.dump(details, f, indent=2, ensure_ascii=False)
 
         new_entries.append(entry)
