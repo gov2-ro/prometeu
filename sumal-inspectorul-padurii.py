@@ -36,7 +36,8 @@ def extract_permit_code(item):
 def normalise_locations(data):
     """
     Normalise whatever the /locations endpoint returns into a flat list.
-    Handles: plain list, GeoJSON FeatureCollection, or dict with data/items/results key.
+    Handles: plain list, GeoJSON FeatureCollection, dict with data/items/results key,
+    or a single location object (dict with codAviz/id key).
     """
     if isinstance(data, list):
         return data
@@ -48,6 +49,9 @@ def normalise_locations(data):
         for key in ("data", "items", "results", "avize", "locations"):
             if isinstance(data.get(key), list):
                 return data[key]
+        # Single location object — wrap in list if it has a permit code field
+        if any(data.get(f) for f in COD_AVIZ_FIELDS):
+            return [data]
     return []
 
 
@@ -86,9 +90,13 @@ def fetch_recent_locations():
             if isinstance(raw, list):
                 print(f", {len(raw)} items", end="")
                 if raw:
-                    print(f", first item keys: {list(raw[0].keys()) if isinstance(raw[0], dict) else type(raw[0]).__name__}", end="")
+                    first = raw[0]
+                    print(f", first item keys: {list(first.keys()) if isinstance(first, dict) else type(first).__name__}", end="")
+                    if isinstance(first, dict):
+                        print(f", first item values: {dict(list(first.items())[:4])}", end="")
             elif isinstance(raw, dict):
                 print(f", keys: {list(raw.keys())}", end="")
+                print(f", values: {dict(list(raw.items())[:4])}", end="")
             print()
 
             items = normalise_locations(raw)
