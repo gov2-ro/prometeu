@@ -1,0 +1,415 @@
+Building data/prometeu.db from git history...
+
+  -> data/politia-de-frontiera/trafic-frontiere.csv
+
+Error: Commit: f834c93189d0fc440129f1897689d1d8798ceaca - every item must have the --id keys. These items did not:
+[
+    {
+        "Denumire": "Albi\u021ba",
+        "Timp": "30",
+        "Info": "Artere 5 - intrare; Artere 5- iesire.",
+        "Latitude": "46.78513359",
+        "Longitude": "28.138904570000022",
+        "Level": "orange",
+        "tip_vehicol": "Autoturisme",
+        "sens": "Intrare"
+    },
+    {
+        "Denumire": "Bechet",
+        "Timp": "10",
+        "Info": "Trafic intens - numar mare de mijloace de transport prezente la control, trecerea cu bacul se efectueaz\u0103 \u00een functie de orarul stabilit de operator",
+        "Latitude": "43.74931968",
+        "Longitude": "23.955382699999973",
+        "Level": "green",
+        "tip_vehicol": "Autoturisme",
+        "sens": "Intrare"
+    },
+    {
+        "Denumire": "Bor\u0219",
+        "Timp": "20",
+        "Info": "Intrare: 3 artere; Iesire: 3 artere;",
+        "Latitude": "47.11787645",
+        "Longitude": "21.794600489999993",
+        "Level": "green",
+        "tip_vehicol": "Autoturisme",
+        "sens": "Intrare"
+    },
+    {
+        "Denumire": "Bor\u0219 II",
+        "Timp": "20",
+        "Info": "Intrare: 2 artere; Iesire: 3 artere;",
+        "Latitude": "47.197195",
+        "Longitude": "21.858713",
+        "Level": "green",
+        "tip_vehicol": "Autoturisme",
+        "sens": "Intrare"
+    },
+    {
+        "Denumire": "Bumb\u0103ta",
+        "Timp": "10",
+        "Info": "Intrare 1 artera. Iesire 1 artera. Programul de functionare al PTF este 08.00-20.00.",
+        "Latitude": "46.48343071528536",
+        "Longitude": "28.230584720334427",
+        "Level": "green",
+        "tip_vehicol": "Autoturisme",
+        "sens": "Intrare"
+    }
+]
+    FAILED
+  -> data/politia-de-frontiera/trafic-frontiere-map.csv
+
+    OK
+  -> data/cmteb/status-sistem-termoficare-bucuresti.csv
+
+Error: Commit: 69a718fce4c26fb7a827b884654c17e18b30f591 - every item must have the --id keys. These items did not:
+[
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
+        "denumire": "S.C.CETA S.A.(VALROM)",
+        "longitudine": "25.978547",
+        "latitudine": "44.426657",
+        "tip": "-",
+        "status": "functionale",
+        "remediere": ""
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
+        "denumire": "S.C. PROSILG SRL",
+        "longitudine": "25.978547",
+        "latitudine": "44.426657",
+        "tip": "-",
+        "status": "functionale",
+        "remediere": ""
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
+        "denumire": "ITALO-CONVEST",
+        "longitudine": "25.980809",
+        "latitudine": "44.427027",
+        "tip": "-",
+        "status": "functionale",
+        "remediere": ""
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
+        "denumire": "UNITRANS SA",
+        "longitudine": "25.983943",
+        "latitudine": "44.430456",
+        "tip": "-",
+        "status": "functionale",
+        "remediere": ""
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
+        "denumire": "Loc ICPB",
+        "longitudine": "25.989281709262",
+        "latitudine": "44.432153384246",
+        "tip": "-",
+        "status": "functionale",
+        "remediere": ""
+    }
+]
+    FAILED
+  -> data/interventii-urs/interventii-urs.csv
+
+Error: Commit: 0c3e72b6b67f4c26ace3d3e75b29c8a3cba315a6 - every item must have the --id keys. These items did not:
+[
+    {
+        "judet": "",
+        "uat": "VO\u015eL\u0102BENI",
+        "echipa_interventie": "Personal  AVPS Gheorgheni, Viceprimar Voslobeni,  Medic veterinar",
+        "fond_cinegetic_alungare": "VOSLOBENI 14",
+        "data_interventie": "",
+        "longitudine_alungare": "25.684",
+        "latitudine_alungare": "46.628",
+        "numar_raport_alungare": "90",
+        "identificare_relocare": "",
+        "fond_cinegetic_relocare": "",
+        "data_relocare": "",
+        "longitudine_relocare": "",
+        "latitudine_relocare": "",
+        "numar_raport_relocare": "",
+        "identificare_eutanasiere": "",
+        "fond_cinegetic_eutanasiere": "",
+        "longitudine_eutanasiere": "",
+        "latitudine_eutanasiere": "",
+        "nr._raport_interventie_eutanasiere": "",
+        "identificare_impuscare": "",
+        "fond_cinegetic_impuscare": "",
+        "longitudine_impuscare": "",
+        "latitudine_impuscare": "",
+        "nr._raport_interventie_impuscare": "",
+        "sex_urs": "Femela cu pui",
+        "descriere_eveniment": "Indepartarea unei femele de urs cu 2 pui din apropierea caselor",
+        "metoda_interventie": "Alungat",
+        "adaugat_de": "Szabo Szilard"
+    },
+    {
+        "judet": "",
+        "uat": "VO\u015eL\u0102BENI",
+        "echipa_interventie": "Personal  AVPS Gheorgheni, Viceprimar Voslobeni,  Medic veterinar",
+        "fond_cinegetic_alungare": "VOSLOBENI 14",
+        "data_interventie": "",
+        "longitudine_alungare": "25.691",
+        "latitudine_alungare": "46.624",
+        "numar_raport_alungare": "89",
+        "identificare_relocare": "",
+        "fond_cinegetic_relocare": "",
+        "data_relocare": "",
+        "longitudine_relocare": "",
+        "latitudine_relocare": "",
+        "numar_raport_relocare": "",
+        "identificare_eutanasiere": "",
+        "fond_cinegetic_eutanasiere": "",
+        "longitudine_eutanasiere": "",
+        "latitudine_eutanasiere": "",
+        "nr._raport_interventie_eutanasiere": "",
+        "identificare_impuscare": "",
+        "fond_cinegetic_impuscare": "",
+        "longitudine_impuscare": "",
+        "latitudine_impuscare": "",
+        "nr._raport_interventie_impuscare": "",
+        "sex_urs": "Femela cu pui",
+        "descriere_eveniment": "Alungarea unei femele de urs cu 3 pui din curtea din intravilan",
+        "metoda_interventie": "Alungat",
+        "adaugat_de": "Szabo Szilard"
+    },
+    {
+        "judet": "",
+        "uat": "C\u00c2R\u0162A",
+        "echipa_interventie": "Personal  AVPS Nimrod, Viceprimar Carta,  Personalul Jandarmeria Harghita",
+        "fond_cinegetic_alungare": "CARTA 16",
+        "data_interventie": "",
+        "longitudine_alungare": "25.76825",
+        "latitudine_alungare": "46.54014",
+        "numar_raport_alungare": "7883",
+        "identificare_relocare": "",
+        "fond_cinegetic_relocare": "",
+        "data_relocare": "",
+        "longitudine_relocare": "",
+        "latitudine_relocare": "",
+        "numar_raport_relocare": "",
+        "identificare_eutanasiere": "",
+        "fond_cinegetic_eutanasiere": "",
+        "longitudine_eutanasiere": "",
+        "latitudine_eutanasiere": "",
+        "nr._raport_interventie_eutanasiere": "",
+        "identificare_impuscare": "",
+        "fond_cinegetic_impuscare": "",
+        "longitudine_impuscare": "",
+        "latitudine_impuscare": "",
+        "nr._raport_interventie_impuscare": "",
+        "sex_urs": "Mascul",
+        "descriere_eveniment": "Ursula fos inchis accidental in sura in satul Ineu de catre proprietar. A fos eliberat si gonit din localitate prin inerventia Jandarmeriei si personalului de specialitate a gestionarului.",
+        "metoda_interventie": "Alungat",
+        "adaugat_de": "Szabo Szilard"
+    },
+    {
+        "judet": "Cara\u0219-Severin",
+        "uat": "BRA\u015eOV",
+        "echipa_interventie": "Viceprimar Mun.Brasov, reprezentant IJJ Brasov, reprezentant Garda Forestiera Brasov, Medic veterinar",
+        "fond_cinegetic_alungare": "TIMIS 18",
+        "data_interventie": "",
+        "longitudine_alungare": "25.576883",
+        "latitudine_alungare": "45.643093",
+        "numar_raport_alungare": "",
+        "identificare_relocare": "crotalii nespecifice, marcate de reprez comisiei cu nr :BV 001, BV 002,BV 003,BV 004",
+        "fond_cinegetic_relocare": "HIGEG 20",
+        "data_relocare": "05-10-2021",
+        "longitudine_relocare": "22.30378",
+        "latitudine_relocare": "45.12203",
+        "numar_raport_relocare": "107149",
+        "identificare_eutanasiere": "",
+        "fond_cinegetic_eutanasiere": "",
+        "longitudine_eutanasiere": "",
+        "latitudine_eutanasiere": "",
+        "nr._raport_interventie_eutanasiere": "",
+        "identificare_impuscare": "",
+        "fond_cinegetic_impuscare": "",
+        "longitudine_impuscare": "",
+        "latitudine_impuscare": "",
+        "nr._raport_interventie_impuscare": "",
+        "sex_urs": "Femela cu pui",
+        "descriere_eveniment": "In urma apelurilor repetate la 112, echipa de interventie a indepartat si alungat prin diverse mijloace exemplarul de urs femela cu pui, aceasta devenind agresiva si lansand atacuri false. Prin urmare, s-a procedat la capturarea, tranchilizarea si relocarea acesteia.",
+        "metoda_interventie": "Relocat",
+        "adaugat_de": "Mirela Moisa"
+    },
+    {
+        "judet": "",
+        "uat": "COMARNIC",
+        "echipa_interventie": "Primar, reprezentanti UM 0756, paznici vanat. AVPS Campina",
+        "fond_cinegetic_alungare": "COMARNIC 24",
+        "data_interventie": "",
+        "longitudine_alungare": "547800.0",
+        "latitudine_alungare": "416750.0",
+        "numar_raport_alungare": "11427/24.09.2021",
+        "identificare_relocare": "",
+        "fond_cinegetic_relocare": "",
+        "data_relocare": "",
+        "longitudine_relocare": "",
+        "latitudine_relocare": "",
+        "numar_raport_relocare": "",
+        "identificare_eutanasiere": "",
+        "fond_cinegetic_eutanasiere": "",
+        "longitudine_eutanasiere": "",
+        "latitudine_eutanasiere": "",
+        "nr._raport_interventie_eutanasiere": "",
+        "identificare_impuscare": "",
+        "fond_cinegetic_impuscare": "",
+        "longitudine_impuscare": "",
+        "latitudine_impuscare": "",
+        "nr._raport_interventie_impuscare": "",
+        "sex_urs": "",
+        "descriere_eveniment": "Interventie pe o strada unde anterior fusese ranita o persoana, evaluat nivel de risc mare, efectuat scotociri si alungare",
+        "metoda_interventie": "Alungat",
+        "adaugat_de": "Crina Popa"
+    }
+]
+    FAILED
+  -> data/local/B/aerlive-bucuresti.csv
+
+    OK
+  -> data/local/IS/calitate-aer-is.csv
+
+    OK
+  -> data/financiar/curs-valutar.csv
+
+    OK
+  -> data/local/BV/stare-partii/bv-instalatii_transport.csv
+
+    OK
+  -> data/local/BV/stare-partii/bv-zona_inferioara.csv
+
+    OK
+  -> data/local/BV/stare-partii/bv-zona_superioara.csv
+
+    OK
+  -> data/local/BV/stare-partii/poiana-bv-instalatii.csv
+
+    OK
+  -> data/distributie-energie/deer-incidente.csv
+
+    OK
+  -> data/distributie-energie/deer-intreruperi.csv
+
+    OK
+  -> data/distributie-energie/intreruperi-enel.csv
+
+    OK
+  -> data/andnet/csv/1-evenimente-rutiere-și-lucrări-de-scurtă-durată.csv
+
+    OK
+  -> data/andnet/csv/11-lucrări-de-scurtă-durată.csv
+
+    OK
+  -> data/andnet/csv/2-drumuri-naționale-și-autostrăzi-cu-circulația-întreruptă-din-cauza-condițiilor-meteo-nefavorabile.csv
+
+    OK
+  -> data/andnet/csv/2-drumuri-naționale-și-autostrăzi-cu-circulația-restricționată-sau-întreruptă-din-cauza-condițiilor-meteo-nefavorabile.csv
+
+    OK
+  -> data/andnet/csv/3-drumuri-naționale-și-autostrăzi-cu-circulația-îngreunată-din-cauza-condițiilor-meteo-nefavorabile.csv
+
+    OK
+  -> data/andnet/csv/72-starea-părții-carosabile.csv
+
+    OK
+  -> data/andnet/csv/73-măsuri.csv
+
+    OK
+  -> data/andnet/csv/circulatie ingreunata.csv
+
+    OK
+  -> data/andnet/csv/circulatie intrerupta.csv
+
+    OK
+  -> data/andnet/csv/evenimente rutiere.csv
+
+    OK
+  -> data/andnet/csv/lucrari.csv
+
+    OK
+  -> data/andnet/csv/meteo.csv
+
+    OK
+  -> data/andnet/csv/situatia-drumurilor-paths.csv
+
+
+Error in commit: b6c7ec6f6ce7838b3a0121ae97e9ed3805591666
+Traceback (most recent call last):
+  File "/Users/pax/devbox/envs/240826/bin/git-history", line 7, in <module>
+    sys.exit(cli())
+             ^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1442, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1363, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1830, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 1226, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/click/core.py", line 794, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pax/devbox/envs/240826/lib/python3.12/site-packages/git_history/cli.py", line 272, in file
+    items = list(convert_function(content))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in fn
+  File "/opt/homebrew/Cellar/python@3.12/3.12.10_1/Frameworks/Python.framework/Versions/3.12/lib/python3.12/csv.py", line 116, in __next__
+    row = next(self.reader)
+          ^^^^^^^^^^^^^^^^^
+_csv.Error: field larger than field limit (131072)
+    FAILED
+  -> data/andnet/csv/situatia-drumurilor-points.csv
+
+    OK
+  -> data/andnet/csv/starea generala.csv
+
+    OK
+  -> data/andnet/csv/temperatura.csv
+
+    OK
+
+Done! Database: data/prometeu.db
+Tables:
+table                                                                                                                            count
+-----------------------------------------------------------------------------------------------------------------------------  -------
+namespaces                                                                                                                          30
+commits                                                                                                                          21075
+trafic_frontiere_map                                                                                                               150
+trafic_frontiere_map_version                                                                                                     36459
+aerlive_bucuresti                                                                                                                14662
+calitate_aer_iasi                                                                                                                41620
+curs_valutar                                                                                                                        31
+partii_bv_bv_instalatii_transport                                                                                                  462
+partii_bv_bv_zona_inferioara                                                                                                       372
+partii_bv_bv_zona_superioara                                                                                                       264
+partii_bv_poiana_bv_instalatii                                                                                                     650
+energie_deer_incidente                                                                                                            8956
+energie_intreruperi_enel                                                                                                             8
+andnet_1_evenimente_rutiere_și_lucrări_de_scurtă_durată                                                                           3041
+andnet_11_lucrări_de_scurtă_durată                                                                                                7856
+andnet_2_drumuri_naționale_și_autostrăzi_cu_circulația_întreruptă_din_cauza_condițiilor_meteo_nefavorabile                         184
+andnet_2_drumuri_naționale_și_autostrăzi_cu_circulația_restricționată_sau_întreruptă_din_cauza_condițiilor_meteo_nefavorabile     4950
+andnet_3_drumuri_naționale_și_autostrăzi_cu_circulația_îngreunată_din_cauza_condițiilor_meteo_nefavorabile                          47
+andnet_72_starea_părții_carosabile                                                                                                3164
+andnet_73_măsuri                                                                                                                 29585
+andnet_circulatie ingreunata                                                                                                      5429
+andnet_circulatie intrerupta                                                                                                       130
+andnet_evenimente rutiere                                                                                                         2513
+andnet_lucrari                                                                                                                   26729
+andnet_meteo                                                                                                                     36421
+andnet_situatia_drumurilor_points                                                                                                58181
+andnet_starea generala                                                                                                           81386
+andnet_temperatura                                                                                                              301458
+
+Run with: datasette data/prometeu.db --metadata utils/datasette/metadata.json

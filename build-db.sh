@@ -74,10 +74,10 @@ run_git_history data/financiar/curs-valutar.csv \
   curs_valutar
 
 # === Brasov citizen reports ===
-run_git_history data/local/BV/sesizari-BV.csv \
-  sesizari_bv \
-  --id IncidentId \
-  --ignore-duplicate-ids
+# run_git_history data/local/BV/sesizari-BV.csv \
+#   sesizari_bv \
+#   --id IncidentId \
+#   --ignore-duplicate-ids
 
 # === Brasov ski slopes ===
 for f in data/local/BV/stare-partii/*.csv; do
