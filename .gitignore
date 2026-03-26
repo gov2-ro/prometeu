@@ -14,6 +14,9 @@ __pycache__/
 *$py.class
 *.code-workspace
 
+# Generated SQLite databases
+*.db
+
 # C extensions
 *.so
 
