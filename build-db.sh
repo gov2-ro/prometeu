@@ -6,65 +6,100 @@
 
 DB="${1:-data/prometeu.db}"
 
+# Custom CSV converter that filters out malformed rows with None keys
+# (common in scraped data with unescaped commas in free text fields)
+SAFE_CSV_CONVERT='
+import csv, io
+text = content if isinstance(content, str) else content.decode("utf-8", errors="replace")
+reader = csv.DictReader(io.StringIO(text))
+return [row for row in reader if all(k is not None for k in row.keys())]
+'
+
+# Helper function to run git-history with safe CSV parsing
+run_git_history() {
+  local file="$1"
+  local namespace="$2"
+  shift 2
+  # remaining args are extra flags like --id
+
+  echo "  -> $file"
+  if git-history file "$DB" "$file" \
+    --repo . \
+    --namespace "$namespace" \
+    --convert "$SAFE_CSV_CONVERT" \
+    --import csv --import io \
+    --full-versions \
+    "$@" 2>&1; then
+    echo "    OK"
+  else
+    echo "    FAILED"
+  fi
+}
+
 # Remove existing DB to rebuild from scratch
 rm -f "$DB"
 
 echo "Building $DB from git history..."
 echo ""
 
-# Border crossing wait times (composite key: crossing + vehicle type + direction)
-echo "  → trafic-frontiere.csv"
-if git-history file "$DB" data/politia-de-frontiera/trafic-frontiere.csv \
-  --repo . \
-  --id Denumire --id "Tip vehicul" --id Sens \
-  --namespace trafic_frontiere \
-  --csv --full-versions; then
-  echo "    ✓ done"
-else
-  echo "    ✗ failed"
-fi
+# === Border crossings (Politia de Frontiera) ===
+run_git_history data/politia-de-frontiera/trafic-frontiere.csv \
+  trafic_frontiere \
+  --id Denumire --id "Tip vehicul" --id Sens
 
-echo "  → trafic-frontiere-map.csv"
-if git-history file "$DB" data/politia-de-frontiera/trafic-frontiere-map.csv \
-  --repo . \
-  --id Denumire --id "Tip vehicul" --id Sens \
-  --namespace trafic_frontiere_map \
-  --csv --full-versions; then
-  echo "    ✓ done"
-else
-  echo "    ✗ failed"
-fi
+run_git_history data/politia-de-frontiera/trafic-frontiere-map.csv \
+  trafic_frontiere_map \
+  --id Denumire --id "Tip vehicul" --id Sens
 
-# Brașov citizen reports - skipped for now
-# The CSV has malformed rows (unescaped commas in free text fields)
-# that cause column shifting. Needs CSV cleanup before git-history can process it.
+# === CMTEB heating system (zone + coordinates as composite key) ===
+run_git_history data/cmteb/status-sistem-termoficare-bucuresti.csv \
+  cmteb \
+  --id denumire --id Lat --id Long
 
-# CMTEB heating system (zone + coordinates as composite key)
-echo "  → status-sistem-termoficare-bucuresti.csv"
-if git-history file "$DB" data/cmteb/status-sistem-termoficare-bucuresti.csv \
-  --repo . \
-  --id denumire --id Lat --id Long \
-  --namespace cmteb \
-  --csv --full-versions; then
-  echo "    ✓ done"
-else
-  echo "    ✗ failed"
-fi
+# === Bear interventions ===
+run_git_history data/interventii-urs/interventii-urs.csv \
+  interventii_urs \
+  --id "Nr. Crt." \
+  --ignore-duplicate-ids
 
-# ANDNET road conditions - process all CSV files that have history
-for f in data/andnet/csv/*.csv; do
-  count=$(git log --oneline --follow "$f" 2>/dev/null | wc -l)
-  if [ "$count" -gt 0 ]; then
+# === Air quality ===
+run_git_history data/local/B/aerlive-bucuresti.csv \
+  aerlive_bucuresti
+
+run_git_history data/local/IS/calitate-aer-is.csv \
+  calitate_aer_iasi
+
+# === Currency exchange rates ===
+run_git_history data/financiar/curs-valutar.csv \
+  curs_valutar
+
+# === Brasov citizen reports ===
+run_git_history data/local/BV/sesizari-BV.csv \
+  sesizari_bv \
+  --id IncidentId \
+  --ignore-duplicate-ids
+
+# === Brasov ski slopes ===
+for f in data/local/BV/stare-partii/*.csv; do
+  if [ -f "$f" ]; then
     name=$(basename "$f" .csv)
-    echo "  → andnet/$name.csv ($count versions)"
-    if git-history file "$DB" "$f" \
-      --repo . \
-      --namespace "andnet_${name//-/_}" \
-      --csv --full-versions 2>&1; then
-      echo "    ✓ done"
-    else
-      echo "    ✗ skipped"
-    fi
+    run_git_history "$f" "partii_bv_${name//-/_}"
+  fi
+done
+
+# === Energy distribution ===
+for f in data/distributie-energie/*.csv; do
+  if [ -f "$f" ]; then
+    name=$(basename "$f" .csv)
+    run_git_history "$f" "energie_${name//-/_}"
+  fi
+done
+
+# === ANDNET road conditions ===
+for f in data/andnet/csv/*.csv; do
+  if [ -f "$f" ]; then
+    name=$(basename "$f" .csv)
+    run_git_history "$f" "andnet_${name//-/_}"
   fi
 done
 

@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - uses: actions/setup-python@v5
@@ -96,4 +96,5 @@ jobs:
         git add data/
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
+        git pull --rebase
         git push
