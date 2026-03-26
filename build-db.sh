@@ -141,10 +141,11 @@ run_git_history data/financiar/curs-valutar.csv \
   curs_valutar "$BASE_CSV_CONVERT"
 
 # === Brasov citizen reports ===
-run_git_history data/local/BV/sesizari-BV.csv \
-  sesizari_bv "$BASE_CSV_CONVERT" \
-  --id IncidentId \
-  --ignore-duplicate-ids
+# Commented out — takes very long to build
+# run_git_history data/local/BV/sesizari-BV.csv \
+#   sesizari_bv "$BASE_CSV_CONVERT" \
+#   --id IncidentId \
+#   --ignore-duplicate-ids
 
 # === Brasov ski slopes ===
 for f in data/local/BV/stare-partii/*.csv; do

@@ -1,5 +1,7 @@
 import json
 import csv
+import re
+import sys
 import requests
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -10,14 +12,19 @@ DATA_DIR = Path("data/sumal")
 INDEX_FILE = DATA_DIR / "avize_index.csv"
 LOCATIONS_FILE = DATA_DIR / "locations.csv"
 DETAILS_DIR = DATA_DIR / "details"
-DETAILS_AP_DIR = DETAILS_DIR / "AP"
-DETAILS_DA_DIR = DETAILS_DIR / "DA"
 
-for d in (DETAILS_AP_DIR, DETAILS_DA_DIR):
-    d.mkdir(parents=True, exist_ok=True)
+DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+
+VERBOSE = "--verbose" in sys.argv or "-v" in sys.argv
 
 # Field names tried in order when looking for a permit code
 COD_AVIZ_FIELDS = ["codAviz", "cod_aviz", "avizCode", "code", "id"]
+
+
+def log(msg):
+    """Print only in verbose mode."""
+    if VERBOSE:
+        print(msg)
 
 
 def extract_permit_code(item):
@@ -25,11 +32,9 @@ def extract_permit_code(item):
     if isinstance(item, str):
         return item
     if isinstance(item, dict):
-        # Check direct keys
         for field in COD_AVIZ_FIELDS:
             if item.get(field):
                 return item[field]
-        # GeoJSON Feature: check inside properties
         props = item.get("properties") or {}
         for field in COD_AVIZ_FIELDS:
             if props.get(field):
@@ -37,19 +42,28 @@ def extract_permit_code(item):
     return None
 
 
+def get_detail_dir(cod_str):
+    """Return the subfolder for a permit code based on its prefix (AP, DA, DC, etc.)."""
+    m = re.match(r'^([A-Z]+)', str(cod_str))
+    if m:
+        prefix = m.group(1)
+        d = DETAILS_DIR / prefix
+        d.mkdir(parents=True, exist_ok=True)
+        return d
+    return DETAILS_DIR
+
+
 def normalise_locations(data):
     """
     Normalise whatever the /locations endpoint returns into a flat list.
     Handles: plain list, GeoJSON FeatureCollection, dict with data/items/results key,
-    or a single location object (dict with codAviz/id key).
+    columnar format, or a single location object.
     """
     if isinstance(data, list):
         return data
     if isinstance(data, dict):
-        # GeoJSON
         if data.get("features"):
             return data["features"]
-        # Wrapped list
         for key in ("data", "items", "results", "avize", "locations"):
             if isinstance(data.get(key), list):
                 return data[key]
@@ -63,7 +77,6 @@ def normalise_locations(data):
                  for k in keys}
                 for i in range(n)
             ]
-        # Single location object — wrap in list if it has a permit code field
         if any(data.get(f) for f in COD_AVIZ_FIELDS):
             return [data]
     return []
@@ -80,7 +93,7 @@ def fetch_recent_locations():
     windows = [
         ("48h",  timedelta(days=2)),
         ("7d",   timedelta(days=7)),
-        ("none", None),            # no date params — current active permits
+        ("none", None),
     ]
 
     for label, delta in windows:
@@ -91,7 +104,7 @@ def fetch_recent_locations():
                 "dtInitial": int((now - delta).timestamp() * 1000),
                 "dtFinal":   int(now.timestamp() * 1000),
             }
-        print(f"  Querying /locations [{label}] ...")
+        log(f"  Querying /locations [{label}] ...")
         try:
             resp = requests.get(
                 f"{BASE_URL}/locations", params=payload, headers=headers, timeout=30
@@ -99,24 +112,20 @@ def fetch_recent_locations():
             resp.raise_for_status()
             raw = resp.json()
 
-            # Always show the response shape to help diagnose field names
-            print(f"  Response type: {type(raw).__name__}", end="")
-            if isinstance(raw, list):
-                print(f", {len(raw)} items", end="")
-                if raw:
-                    first = raw[0]
-                    print(f", first item keys: {list(first.keys()) if isinstance(first, dict) else type(first).__name__}", end="")
-                    if isinstance(first, dict):
-                        print(f", first item values: {dict(list(first.items())[:4])}", end="")
-            elif isinstance(raw, dict):
-                print(f", keys: {list(raw.keys())}", end="")
-                print(f", values: {dict(list(raw.items())[:4])}", end="")
-            print()
+            if VERBOSE:
+                print(f"  Response type: {type(raw).__name__}", end="")
+                if isinstance(raw, list):
+                    print(f", {len(raw)} items", end="")
+                    if raw and isinstance(raw[0], dict):
+                        print(f", first item keys: {list(raw[0].keys())}", end="")
+                elif isinstance(raw, dict):
+                    print(f", keys: {list(raw.keys())}", end="")
+                print()
 
             items = normalise_locations(raw)
             if items:
                 return items
-            print(f"  0 results in {label} window, trying next ...")
+            log(f"  0 results in {label} window, trying next ...")
         except Exception as e:
             print(f"  Error [{label}]: {e}")
 
@@ -130,7 +139,7 @@ def fetch_aviz_details(cod_aviz):
         resp.raise_for_status()
         return resp.json()
     except Exception as e:
-        print(f"  Warning: could not fetch {cod_aviz}: {e}")
+        log(f"  Warning: could not fetch {cod_aviz}: {e}")
         return None
 
 
@@ -182,23 +191,16 @@ def main():
         }
 
         # Enrich with details if available
-        print(f"  Fetching details: {cod}")
+        log(f"  Fetching details: {cod}")
         details = fetch_aviz_details(cod)
         if details and isinstance(details, dict):
-            if not new_entries:
-                print(f"  Detail keys: {list(details.keys())}")
+            log(f"  Detail keys: {list(details.keys())}")
             entry["nrInmatriculare"] = details.get("numarMijlocTransport", "")
             entry["volumTotal"]      = details.get("volumTotal", "")
             entry["dataEmiterii"]    = details.get("dataEmiterii", "")
             entry["punctPlecare"]    = (details.get("punctPlecare") or {}).get("denumire", "")
-            cod_str = str(cod)
-            if cod_str.startswith("DA"):
-                out_dir = DETAILS_DA_DIR
-            elif cod_str.startswith("AP"):
-                out_dir = DETAILS_AP_DIR
-            else:
-                out_dir = DETAILS_DIR
-            with open(out_dir / f"{cod_str}.json", "w", encoding="utf-8") as f:
+            out_dir = get_detail_dir(cod)
+            with open(out_dir / f"{cod}.json", "w", encoding="utf-8") as f:
                 json.dump(details, f, indent=2, ensure_ascii=False)
 
         new_entries.append(entry)
