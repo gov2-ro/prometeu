@@ -49,6 +49,16 @@ def normalise_locations(data):
         for key in ("data", "items", "results", "avize", "locations"):
             if isinstance(data.get(key), list):
                 return data[key]
+        # Columnar format: {"codAviz": [...], "lat": [...], ...} — zip into row dicts
+        first_val = next(iter(data.values()), None)
+        if isinstance(first_val, list):
+            keys = list(data.keys())
+            n = max(len(v) for v in data.values() if isinstance(v, list))
+            return [
+                {k: data[k][i] if isinstance(data[k], list) and i < len(data[k]) else None
+                 for k in keys}
+                for i in range(n)
+            ]
         # Single location object — wrap in list if it has a permit code field
         if any(data.get(f) for f in COD_AVIZ_FIELDS):
             return [data]
