@@ -59,3 +59,10 @@ surse: [starepartii.brasovcity.ro](https://starepartii.brasovcity.ro/), [discove
 
 Sesizări BV, B; 
 Calitate aer: B, CJ, IS 
+
+----
+
+## Roadmap
+
+- [ ] use [git-history](https://github.com/simonw/git-history/) for visualisations
+- [ ] add more sources
