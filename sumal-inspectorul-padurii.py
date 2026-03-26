@@ -1,4 +1,3 @@
-import os
 import json
 import csv
 import requests
@@ -11,94 +10,164 @@ DATA_DIR = Path("data/sumal")
 INDEX_FILE = DATA_DIR / "avize_index.csv"
 DETAILS_DIR = DATA_DIR / "details"
 
-# Ensure directories exist
 DETAILS_DIR.mkdir(parents=True, exist_ok=True)
 
+# Field names tried in order when looking for a permit code
+COD_AVIZ_FIELDS = ["codAviz", "cod_aviz", "avizCode", "code", "id"]
+
+
+def extract_permit_code(item):
+    """Extract permit code from a location item (dict or plain string)."""
+    if isinstance(item, str):
+        return item
+    if isinstance(item, dict):
+        # Check direct keys
+        for field in COD_AVIZ_FIELDS:
+            if item.get(field):
+                return item[field]
+        # GeoJSON Feature: check inside properties
+        props = item.get("properties") or {}
+        for field in COD_AVIZ_FIELDS:
+            if props.get(field):
+                return props[field]
+    return None
+
+
+def normalise_locations(data):
+    """
+    Normalise whatever the /locations endpoint returns into a flat list.
+    Handles: plain list, GeoJSON FeatureCollection, or dict with data/items/results key.
+    """
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        # GeoJSON
+        if data.get("features"):
+            return data["features"]
+        # Wrapped list
+        for key in ("data", "items", "results", "avize", "locations"):
+            if isinstance(data.get(key), list):
+                return data[key]
+    return []
+
+
 def fetch_recent_locations():
-    """Fetches the list of active/recent transport permits."""
-    # Often these APIs require a date range. 
-    # Adjusting to fetch last 48 hours to ensure no overlaps are missed.
-    today = datetime.now()
-    yesterday = today - timedelta(days=1)
-    
-    # Payload structure typically expected by SUMAL 2.0 API
-    # Note: If GET doesn't work, this is usually a POST with JSON dates
-    payload = {
-        "dtInitial": int(yesterday.timestamp() * 1000),
-        "dtFinal": int(today.timestamp() * 1000)
+    """Fetch active/recent transport permit IDs with date-window fallback."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
+        "Referer": "https://inspectorulpadurii.ro/",
+        "Accept": "application/json",
     }
-    
-    try:
-        # Some STS-managed APIs require a standard User-Agent or Referer
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36",
-            "Referer": "https://inspectorulpadurii.ro/"
-        }
-        response = requests.get(f"{BASE_URL}/locations", params=payload, headers=headers, timeout=30)
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        print(f"Error fetching locations: {e}")
-        return []
+
+    windows = [
+        ("48h",  timedelta(days=2)),
+        ("7d",   timedelta(days=7)),
+        ("none", None),            # no date params — current active permits
+    ]
+
+    for label, delta in windows:
+        payload = {}
+        if delta:
+            now = datetime.now()
+            payload = {
+                "dtInitial": int((now - delta).timestamp() * 1000),
+                "dtFinal":   int(now.timestamp() * 1000),
+            }
+        print(f"  Querying /locations [{label}] ...")
+        try:
+            resp = requests.get(
+                f"{BASE_URL}/locations", params=payload, headers=headers, timeout=30
+            )
+            resp.raise_for_status()
+            raw = resp.json()
+
+            # Always show the response shape to help diagnose field names
+            print(f"  Response type: {type(raw).__name__}", end="")
+            if isinstance(raw, list):
+                print(f", {len(raw)} items", end="")
+                if raw:
+                    print(f", first item keys: {list(raw[0].keys()) if isinstance(raw[0], dict) else type(raw[0]).__name__}", end="")
+            elif isinstance(raw, dict):
+                print(f", keys: {list(raw.keys())}", end="")
+            print()
+
+            items = normalise_locations(raw)
+            if items:
+                return items
+            print(f"  0 results in {label} window, trying next ...")
+        except Exception as e:
+            print(f"  Error [{label}]: {e}")
+
+    return []
+
 
 def fetch_aviz_details(cod_aviz):
-    """Fetches full details for a specific transport permit."""
+    """Fetch full details for a specific transport permit."""
     try:
-        response = requests.get(f"{BASE_URL}/{cod_aviz}", timeout=20)
-        response.raise_for_status()
-        return response.json()
+        resp = requests.get(f"{BASE_URL}/{cod_aviz}", timeout=20)
+        resp.raise_for_status()
+        return resp.json()
     except Exception as e:
-        print(f"Error fetching details for {cod_aviz}: {e}")
+        print(f"  Warning: could not fetch {cod_aviz}: {e}")
         return None
 
-def main():
-    print("🚀 Starting Forest Inspector scrape...")
-    locations = fetch_recent_locations()
-    print(f"Found {len(locations)} recent permits.")
 
-    # Load existing IDs to avoid redundant API calls
+def main():
+    print("Starting SUMAL / Inspectorul Padurii scrape ...")
+
+    locations = fetch_recent_locations()
+    if not locations:
+        print("No permits returned from API (all windows empty or API unreachable).")
+        return
+
+    print(f"Found {len(locations)} permit locations.")
+
+    # Load already-seen permit codes
     existing_ids = set()
     if INDEX_FILE.exists():
-        with open(INDEX_FILE, mode='r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            existing_ids = {row['codAviz'] for row in reader}
+        with open(INDEX_FILE, encoding="utf-8") as f:
+            existing_ids = {
+                row["codAviz"] for row in csv.DictReader(f) if "codAviz" in row
+            }
 
     new_entries = []
-    
     for loc in locations:
-        cod = loc.get('codAviz')
+        cod = extract_permit_code(loc)
         if not cod or cod in existing_ids:
             continue
-            
-        print(f"📦 Fetching details for new aviz: {cod}")
-        details = fetch_aviz_details(cod)
-        
-        if details:
-            # Save raw JSON for history
-            with open(DETAILS_DIR / f"{cod}.json", "w", encoding='utf-8') as f:
-                json.dump(details, f, indent=2, ensure_ascii=False)
-            
-            # Prepare row for the CSV index
-            new_entries.append({
-                "codAviz": cod,
-                "nrInmatriculare": details.get("numarMijlocTransport"),
-                "volumTotal": details.get("volumTotal"),
-                "dataEmiterii": details.get("dataEmiterii"),
-                "punctPlecare": details.get("punctPlecare", {}).get("denumire"),
-                "timestamp_scraped": datetime.now().isoformat()
-            })
 
-    # Update the CSV Index
-    file_exists = INDEX_FILE.exists()
+        print(f"  Fetching details: {cod}")
+        details = fetch_aviz_details(cod)
+        if not details or not isinstance(details, dict):
+            continue
+
+        # Show detail keys once, to help map field names
+        if not new_entries:
+            print(f"  Detail keys: {list(details.keys())}")
+
+        with open(DETAILS_DIR / f"{cod}.json", "w", encoding="utf-8") as f:
+            json.dump(details, f, indent=2, ensure_ascii=False)
+
+        new_entries.append({
+            "codAviz":         cod,
+            "nrInmatriculare": details.get("numarMijlocTransport", ""),
+            "volumTotal":      details.get("volumTotal", ""),
+            "dataEmiterii":    details.get("dataEmiterii", ""),
+            "punctPlecare":    (details.get("punctPlecare") or {}).get("denumire", ""),
+            "timestamp_scraped": datetime.now().isoformat(),
+        })
+
     if new_entries:
-        with open(INDEX_FILE, mode='a', newline='', encoding='utf-8') as f:
+        file_exists = INDEX_FILE.exists()
+        with open(INDEX_FILE, "a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=new_entries[0].keys())
             if not file_exists:
                 writer.writeheader()
             writer.writerows(new_entries)
-        print(f"✅ Added {len(new_entries)} new permits to index.")
+        print(f"Added {len(new_entries)} new permits to {INDEX_FILE}.")
     else:
-        print("🙌 No new permits found.")
+        print("No new permits (all already indexed).")
+
 
 if __name__ == "__main__":
     main()
