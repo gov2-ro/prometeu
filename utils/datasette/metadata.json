@@ -1,9 +1,41 @@
 {
-    "title": "tttitle",
+    "title": "Prometeu - Romanian Open Data History",
+    "description": "Historical snapshots of Romanian public data, tracked via git-scraping",
+    "license": "Public Domain",
     "plugins": {
         "datasette-cluster-map": {
-            "latitude_column": "latitudine",
-            "longitude_column": "longitudine"
+            "latitude_column": "Latitude",
+            "longitude_column": "Longitude"
+        }
+    },
+    "databases": {
+        "prometeu": {
+            "tables": {
+                "trafic_frontiere_version": {
+                    "title": "Trafic Frontieră - Border Crossing Wait Times (history)",
+                    "description": "Wait times at Romanian border crossings by vehicle type and direction, tracked over time"
+                },
+                "trafic_frontiere_map_version": {
+                    "title": "Trafic Frontieră Map (history)",
+                    "description": "Border crossing map data with geographic coordinates, tracked over time"
+                },
+                "cmteb_version": {
+                    "title": "CMTEB - Termoficare București (history)",
+                    "description": "Bucharest district heating system status by zone, tracked over time"
+                },
+                "trafic_frontiere": {
+                    "title": "Trafic Frontieră - Border Crossings (latest per item)",
+                    "description": "Current state of each border crossing item"
+                },
+                "trafic_frontiere_map": {
+                    "title": "Trafic Frontieră Map (latest per item)",
+                    "description": "Current state of each border crossing map marker"
+                },
+                "cmteb": {
+                    "title": "CMTEB - Termoficare București (latest per item)",
+                    "description": "Current state of each heating zone"
+                }
+            }
         }
     }
 }
