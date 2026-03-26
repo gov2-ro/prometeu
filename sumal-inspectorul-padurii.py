@@ -8,6 +8,7 @@ from pathlib import Path
 BASE_URL = "https://inspectorulpadurii.ro/api/aviz"
 DATA_DIR = Path("data/sumal")
 INDEX_FILE = DATA_DIR / "avize_index.csv"
+LOCATIONS_FILE = DATA_DIR / "locations.csv"
 DETAILS_DIR = DATA_DIR / "details"
 
 DETAILS_DIR.mkdir(parents=True, exist_ok=True)
@@ -139,6 +140,15 @@ def main():
         return
 
     print(f"Found {len(locations)} permit locations.")
+
+    # Save locations snapshot to CSV (overwritten each run with latest data)
+    if locations and isinstance(locations[0], dict):
+        fieldnames = list(locations[0].keys())
+        with open(LOCATIONS_FILE, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(locations)
+        print(f"Saved {len(locations)} locations to {LOCATIONS_FILE}.")
 
     # Load already-seen permit codes
     existing_ids = set()
