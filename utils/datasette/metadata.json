@@ -100,17 +100,18 @@
                 "title": "CMTEB - Termoficare București",
                 "description": "Bucharest district heating system status - failures, deficiencies and repairs tracked over time",
                 "layout": [
-                    ["status-pie", "status-pie"],
+                    ["status-pie", "total-zones"],
+                    ["status-trend", "status-trend"],
                     ["failures-list", "failures-list"]
                 ],
                 "charts": {
                     "status-pie": {
-                        "title": "Heating System Status Distribution",
+                        "title": "Current Status Distribution",
                         "db": "prometeu",
                         "query": "SELECT status, count(*) as count FROM cmteb_version cv JOIN commits c ON cv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'cmteb')) GROUP BY status",
                         "library": "vega-lite",
                         "display": {
-                            "mark": {"type": "arc", "tooltip": true},
+                            "mark": {"type": "arc", "tooltip": true, "innerRadius": 40},
                             "encoding": {
                                 "theta": {"field": "count", "type": "quantitative"},
                                 "color": {
@@ -119,6 +120,38 @@
                                     "scale": {
                                         "domain": ["functionale", "deficiente", "avarii"],
                                         "range": ["#2ecc71", "#f39c12", "#e74c3c"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "total-zones": {
+                        "title": "Total Heating Zones Tracked",
+                        "db": "prometeu",
+                        "query": "SELECT count(*) as zones FROM cmteb_version cv JOIN commits c ON cv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'cmteb'))",
+                        "library": "metric",
+                        "display": {
+                            "field": "zones",
+                            "prefix": "",
+                            "suffix": " zones"
+                        }
+                    },
+                    "status-trend": {
+                        "title": "Failures & Deficiencies Over Time",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, cv.status, count(*) as count FROM cmteb_version cv JOIN commits c ON cv._commit = c.id WHERE cv.status IN ('avarii', 'deficiente') GROUP BY c.commit_at, cv.status ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "area", "tooltip": true, "opacity": 0.7},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "count", "type": "quantitative", "stack": true, "title": "Number of Zones"},
+                                "color": {
+                                    "field": "status",
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": ["deficiente", "avarii"],
+                                        "range": ["#f39c12", "#e74c3c"]
                                     }
                                 }
                             }
@@ -176,22 +209,196 @@
             },
             "air-quality": {
                 "title": "Calitate Aer - Air Quality",
-                "description": "Air quality monitoring stations in Bucharest and Iași",
+                "description": "Air quality monitoring in Bucharest — AQI index, PM2.5, PM10 levels tracked over time",
                 "layout": [
-                    ["buc-stations", "buc-stations"],
-                    ["iasi-stations", "iasi-stations"]
+                    ["aqi-bar", "aqi-bar"],
+                    ["pm25-bar", "pm10-bar"],
+                    ["aqi-trend", "aqi-trend"],
+                    ["pm-trend", "pm-trend"],
+                    ["station-map", "station-map"],
+                    ["buc-table", "buc-table"]
                 ],
                 "charts": {
-                    "buc-stations": {
-                        "title": "Bucharest Air Quality Stations (Latest)",
+                    "aqi-bar": {
+                        "title": "Air Quality Index by Station (Latest)",
                         "db": "prometeu",
-                        "query": "SELECT name as Station, ica as 'Air Quality Index', pm25 as 'PM2.5', pm10 as 'PM10', no2 as 'NO₂', status as Status, lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS INTEGER) DESC",
-                        "library": "table"
+                        "query": "SELECT name as station, CAST(ica AS REAL) as aqi FROM aerlive_bucuresti WHERE name IS NOT NULL AND ica IS NOT NULL AND CAST(ica AS REAL) > 0 ORDER BY CAST(ica AS REAL) DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "y": {"field": "station", "type": "nominal", "sort": "-x", "title": "Station"},
+                                "x": {"field": "aqi", "type": "quantitative", "title": "Air Quality Index (ICA)"},
+                                "color": {
+                                    "field": "aqi",
+                                    "type": "quantitative",
+                                    "scale": {"scheme": "redyellowgreen", "reverse": true},
+                                    "title": "AQI"
+                                }
+                            }
+                        }
                     },
-                    "iasi-stations": {
-                        "title": "Iași Air Quality Stations (Latest)",
+                    "pm25-bar": {
+                        "title": "PM2.5 Levels by Station",
                         "db": "prometeu",
-                        "query": "SELECT * FROM calitate_aer_iasi LIMIT 20",
+                        "query": "SELECT name as station, CAST(pm25 AS REAL) as pm25 FROM aerlive_bucuresti WHERE name IS NOT NULL AND pm25 IS NOT NULL AND CAST(pm25 AS REAL) > 0 ORDER BY CAST(pm25 AS REAL) DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true, "color": "#e67e22"},
+                            "encoding": {
+                                "y": {"field": "station", "type": "nominal", "sort": "-x", "title": "Station"},
+                                "x": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (µg/m³)"}
+                            }
+                        }
+                    },
+                    "pm10-bar": {
+                        "title": "PM10 Levels by Station",
+                        "db": "prometeu",
+                        "query": "SELECT name as station, CAST(pm10 AS REAL) as pm10 FROM aerlive_bucuresti WHERE name IS NOT NULL AND pm10 IS NOT NULL AND CAST(pm10 AS REAL) > 0 ORDER BY CAST(pm10 AS REAL) DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true, "color": "#8e44ad"},
+                            "encoding": {
+                                "y": {"field": "station", "type": "nominal", "sort": "-x", "title": "Station"},
+                                "x": {"field": "pm10", "type": "quantitative", "title": "PM10 (µg/m³)"}
+                            }
+                        }
+                    },
+                    "aqi-trend": {
+                        "title": "AQI Over Time (Historical)",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, av.name as station, CAST(av.ica AS REAL) as aqi FROM aerlive_bucuresti_version av JOIN commits c ON av._commit = c.id WHERE av.name IS NOT NULL AND av.ica IS NOT NULL AND CAST(av.ica AS REAL) > 0 ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "line", "tooltip": true, "point": false},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "aqi", "type": "quantitative", "title": "Air Quality Index"},
+                                "color": {"field": "station", "type": "nominal", "title": "Station"}
+                            }
+                        }
+                    },
+                    "pm-trend": {
+                        "title": "PM2.5 Over Time (Historical)",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, av.name as station, CAST(av.pm25 AS REAL) as pm25 FROM aerlive_bucuresti_version av JOIN commits c ON av._commit = c.id WHERE av.name IS NOT NULL AND av.pm25 IS NOT NULL AND CAST(av.pm25 AS REAL) > 0 ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "line", "tooltip": true, "point": false},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (µg/m³)"},
+                                "color": {"field": "station", "type": "nominal", "title": "Station"}
+                            }
+                        }
+                    },
+                    "station-map": {
+                        "title": "Station Locations (AQI colored)",
+                        "db": "prometeu",
+                        "query": "SELECT name as label, CAST(lat AS REAL) as latitude, CAST(long AS REAL) as longitude, CAST(ica AS REAL) as aqi, CAST(pm25 AS REAL) as pm25, CAST(pm10 AS REAL) as pm10 FROM aerlive_bucuresti WHERE name IS NOT NULL AND lat IS NOT NULL AND long IS NOT NULL",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "circle", "tooltip": true},
+                            "encoding": {
+                                "longitude": {"field": "longitude", "type": "quantitative"},
+                                "latitude": {"field": "latitude", "type": "quantitative"},
+                                "size": {"field": "aqi", "type": "quantitative", "title": "AQI", "scale": {"range": [50, 500]}},
+                                "color": {
+                                    "field": "aqi",
+                                    "type": "quantitative",
+                                    "scale": {"scheme": "redyellowgreen", "reverse": true},
+                                    "title": "AQI"
+                                }
+                            }
+                        }
+                    },
+                    "buc-table": {
+                        "title": "All Stations Detail",
+                        "db": "prometeu",
+                        "query": "SELECT name as Station, CAST(ica AS REAL) as 'AQI (ICA)', CAST(pm25 AS REAL) as 'PM2.5', CAST(pm10 AS REAL) as 'PM10', CAST(no2 AS REAL) as 'NO₂', lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS REAL) DESC",
+                        "library": "table"
+                    }
+                }
+            },
+            "bear-interventions": {
+                "title": "Intervenții Urs - Bear Interventions",
+                "description": "Bear intervention reports across Romania — captures, relocations, and incidents by county",
+                "layout": [
+                    ["by-county", "by-method"],
+                    ["by-sex", "total-interventions"],
+                    ["bear-map", "bear-map"],
+                    ["recent-list", "recent-list"]
+                ],
+                "charts": {
+                    "by-county": {
+                        "title": "Interventions by County",
+                        "db": "prometeu",
+                        "query": "SELECT judet as county, count(*) as count FROM interventii_urs_version WHERE judet IS NOT NULL AND judet != '' GROUP BY judet ORDER BY count DESC LIMIT 15",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true, "color": "#8B4513"},
+                            "encoding": {
+                                "y": {"field": "county", "type": "nominal", "sort": "-x", "title": "County"},
+                                "x": {"field": "count", "type": "quantitative", "title": "Interventions"}
+                            }
+                        }
+                    },
+                    "by-method": {
+                        "title": "Intervention Methods",
+                        "db": "prometeu",
+                        "query": "SELECT metoda_interventie as method, count(*) as count FROM interventii_urs_version WHERE metoda_interventie IS NOT NULL AND metoda_interventie != '' GROUP BY metoda_interventie ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true, "innerRadius": 40},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {"field": "method", "type": "nominal", "title": "Method"}
+                            }
+                        }
+                    },
+                    "by-sex": {
+                        "title": "Bears by Sex/Type",
+                        "db": "prometeu",
+                        "query": "SELECT sex_urs as bear_type, count(*) as count FROM interventii_urs_version WHERE sex_urs IS NOT NULL AND sex_urs != '' GROUP BY sex_urs ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {"field": "bear_type", "type": "nominal", "title": "Bear Type"}
+                            }
+                        }
+                    },
+                    "total-interventions": {
+                        "title": "Total Bear Interventions",
+                        "db": "prometeu",
+                        "query": "SELECT count(*) as total FROM interventii_urs_version",
+                        "library": "metric",
+                        "display": {
+                            "field": "total",
+                            "prefix": "",
+                            "suffix": " recorded"
+                        }
+                    },
+                    "bear-map": {
+                        "title": "Intervention Locations",
+                        "db": "prometeu",
+                        "query": "SELECT judet || ' - ' || uat as label, CAST(latitudine_alungare AS REAL) as latitude, CAST(longitudine_alungare AS REAL) as longitude, metoda_interventie as method, judet as county FROM interventii_urs_version WHERE latitudine_alungare IS NOT NULL AND longitudine_alungare IS NOT NULL AND CAST(latitudine_alungare AS REAL) > 0 AND CAST(longitudine_alungare AS REAL) > 0",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "circle", "tooltip": true, "opacity": 0.7},
+                            "encoding": {
+                                "longitude": {"field": "longitude", "type": "quantitative"},
+                                "latitude": {"field": "latitude", "type": "quantitative"},
+                                "color": {"field": "method", "type": "nominal", "title": "Method"},
+                                "size": {"value": 60}
+                            }
+                        }
+                    },
+                    "recent-list": {
+                        "title": "Recent Interventions",
+                        "db": "prometeu",
+                        "query": "SELECT judet as County, uat as Location, metoda_interventie as Method, sex_urs as 'Bear Type', descriere_eveniment as Description, data_interventie as Date FROM interventii_urs_version WHERE judet IS NOT NULL ORDER BY data_interventie DESC LIMIT 25",
                         "library": "table"
                     }
                 }
@@ -287,6 +494,10 @@
                 "curs_valutar": {
                     "title": "Curs Valutar - Exchange Rates",
                     "description": "Currency exchange rates"
+                },
+                "interventii_urs_version": {
+                    "title": "Intervenții Urs - Bear Interventions (history)",
+                    "description": "Bear intervention reports across Romania, tracked over time"
                 }
             }
         }
