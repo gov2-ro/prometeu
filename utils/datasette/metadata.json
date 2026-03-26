@@ -41,7 +41,7 @@
                     "wait-trend": {
                         "title": "Average Wait Time Over Time (Trucks Exiting)",
                         "db": "prometeu",
-                        "query": "SELECT c.commit_at as date, CAST(tv.Timp AS REAL) as avg_wait, tv.Denumire as crossing FROM trafic_frontiere_version tv JOIN commits c ON tv._commit = c.id WHERE tv.[Tip vehicul] = 'Camioane' AND tv.Sens = 'Ie\u0219ire' AND tv.Status != 'green' ORDER BY c.commit_at",
+                        "query": "SELECT c.commit_at as date, CAST(tv.Timp AS REAL) as avg_wait, tv.Denumire as crossing FROM trafic_frontiere_version tv JOIN commits c ON tv._commit = c.id WHERE tv.[Tip vehicul] = 'Camioane' AND tv.Sens = 'Ieșire' AND tv.Status != 'green' ORDER BY c.commit_at",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "line", "tooltip": true, "point": true},
@@ -97,7 +97,7 @@
                 }
             },
             "heating-bucharest": {
-                "title": "CMTEB - Termoficare Bucure\u0219ti",
+                "title": "CMTEB - Termoficare București",
                 "description": "Bucharest district heating system status - failures, deficiencies and repairs tracked over time",
                 "layout": [
                     ["status-pie", "total-zones"],
@@ -166,8 +166,8 @@
                 }
             },
             "brasov-reports": {
-                "title": "Sesiz\u0103ri Bra\u0219ov - Citizen Reports",
-                "description": "Citizen reports and incidents in Bra\u0219ov, tracked over time",
+                "title": "Sesizări Brașov - Citizen Reports",
+                "description": "Citizen reports and incidents in Brașov, tracked over time",
                 "layout": [
                     ["by-category", "by-status"],
                     ["recent-reports", "recent-reports"]
@@ -209,7 +209,7 @@
             },
             "air-quality": {
                 "title": "Calitate Aer - Air Quality",
-                "description": "Air quality monitoring in Bucharest \u2014 AQI index, PM2.5, PM10 levels tracked over time",
+                "description": "Air quality monitoring in Bucharest — AQI index, PM2.5, PM10 levels tracked over time",
                 "layout": [
                     ["aqi-bar", "aqi-bar"],
                     ["pm25-bar", "pm10-bar"],
@@ -247,7 +247,7 @@
                             "mark": {"type": "bar", "tooltip": true, "color": "#e67e22"},
                             "encoding": {
                                 "y": {"field": "station", "type": "nominal", "sort": "-x", "title": "Station"},
-                                "x": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (\u00b5g/m\u00b3)"}
+                                "x": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (µg/m³)"}
                             }
                         }
                     },
@@ -260,7 +260,7 @@
                             "mark": {"type": "bar", "tooltip": true, "color": "#8e44ad"},
                             "encoding": {
                                 "y": {"field": "station", "type": "nominal", "sort": "-x", "title": "Station"},
-                                "x": {"field": "pm10", "type": "quantitative", "title": "PM10 (\u00b5g/m\u00b3)"}
+                                "x": {"field": "pm10", "type": "quantitative", "title": "PM10 (µg/m³)"}
                             }
                         }
                     },
@@ -287,7 +287,7 @@
                             "mark": {"type": "line", "tooltip": true, "point": false},
                             "encoding": {
                                 "x": {"field": "date", "type": "temporal", "title": "Date"},
-                                "y": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (\u00b5g/m\u00b3)"},
+                                "y": {"field": "pm25", "type": "quantitative", "title": "PM2.5 (µg/m³)"},
                                 "color": {"field": "station", "type": "nominal", "title": "Station"}
                             }
                         }
@@ -315,14 +315,14 @@
                     "buc-table": {
                         "title": "All Stations Detail",
                         "db": "prometeu",
-                        "query": "SELECT name as Station, CAST(ica AS REAL) as 'AQI (ICA)', CAST(pm25 AS REAL) as 'PM2.5', CAST(pm10 AS REAL) as 'PM10', CAST(no2 AS REAL) as 'NO\u2082', lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS REAL) DESC",
+                        "query": "SELECT name as Station, CAST(ica AS REAL) as 'AQI (ICA)', CAST(pm25 AS REAL) as 'PM2.5', CAST(pm10 AS REAL) as 'PM10', CAST(no2 AS REAL) as 'NO₂', lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS REAL) DESC",
                         "library": "table"
                     }
                 }
             },
             "bear-interventions": {
-                "title": "Interven\u021bii Urs - Bear Interventions",
-                "description": "Bear intervention reports across Romania \u2014 captures, relocations, and incidents by county",
+                "title": "Intervenții Urs - Bear Interventions",
+                "description": "Bear intervention reports across Romania — captures, relocations, and incidents by county",
                 "layout": [
                     ["by-county", "by-method"],
                     ["by-sex", "total-interventions"],
@@ -464,39 +464,39 @@
         "prometeu": {
             "tables": {
                 "trafic_frontiere_version": {
-                    "title": "Trafic Frontier\u0103 - Border Crossing Wait Times (history)",
+                    "title": "Trafic Frontieră - Border Crossing Wait Times (history)",
                     "description": "Wait times at Romanian border crossings by vehicle type and direction, tracked over time"
                 },
                 "trafic_frontiere_map_version": {
-                    "title": "Trafic Frontier\u0103 Map (history)",
+                    "title": "Trafic Frontieră Map (history)",
                     "description": "Border crossing map data with geographic coordinates, tracked over time"
                 },
                 "cmteb_version": {
-                    "title": "CMTEB - Termoficare Bucure\u0219ti (history)",
+                    "title": "CMTEB - Termoficare București (history)",
                     "description": "Bucharest district heating system status by zone, tracked over time"
                 },
                 "sesizari_bv": {
-                    "title": "Sesiz\u0103ri Bra\u0219ov - Citizen Reports",
-                    "description": "Citizen reports and incidents in Bra\u0219ov"
+                    "title": "Sesizări Brașov - Citizen Reports",
+                    "description": "Citizen reports and incidents in Brașov"
                 },
                 "sesizari_bv_version": {
-                    "title": "Sesiz\u0103ri Bra\u0219ov (history)",
+                    "title": "Sesizări Brașov (history)",
                     "description": "Citizen reports tracked over time showing status changes"
                 },
                 "aerlive_bucuresti": {
-                    "title": "Calitate Aer Bucure\u0219ti",
+                    "title": "Calitate Aer București",
                     "description": "Air quality monitoring stations in Bucharest"
                 },
                 "calitate_aer_iasi": {
-                    "title": "Calitate Aer Ia\u0219i",
-                    "description": "Air quality monitoring in Ia\u0219i"
+                    "title": "Calitate Aer Iași",
+                    "description": "Air quality monitoring in Iași"
                 },
                 "curs_valutar": {
                     "title": "Curs Valutar - Exchange Rates",
                     "description": "Currency exchange rates"
                 },
                 "interventii_urs_version": {
-                    "title": "Interven\u021bii Urs - Bear Interventions (history)",
+                    "title": "Intervenții Urs - Bear Interventions (history)",
                     "description": "Bear intervention reports across Romania, tracked over time"
                 }
             }
