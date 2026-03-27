@@ -2,6 +2,7 @@ import json
 import csv
 import re
 import sys
+import base64
 import requests
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -11,14 +12,40 @@ BASE_URL = "https://inspectorulpadurii.ro/api/aviz"
 DATA_DIR = Path("data/sumal")
 INDEX_FILE = DATA_DIR / "avize_index.csv"
 LOCATIONS_FILE = DATA_DIR / "locations.csv"
-DETAILS_DIR = DATA_DIR / "details"
+POZE_DIR = DATA_DIR / "poze"
 
-DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR.mkdir(parents=True, exist_ok=True)
+POZE_DIR.mkdir(parents=True, exist_ok=True)
 
 VERBOSE = "--verbose" in sys.argv or "-v" in sys.argv
+FLUSH_EVERY = 10  # write to CSV every N new records
 
 # Field names tried in order when looking for a permit code
 COD_AVIZ_FIELDS = ["codAviz", "cod_aviz", "avizCode", "code", "id"]
+
+# Flat CSV columns — all detail fields flattened
+INDEX_FIELDS = [
+    "codAviz", "tipAviz", "numeTipAviz", "lat", "lng", "idDepozit",
+    "nrIdentificare", "nrApv", "provenienta", "hasFinishedTransport",
+    # emitent
+    "emitent_denumire", "emitent_cui",
+    # transportator
+    "transportator_denumire", "transportator_cui", "transportator_tip",
+    # beneficiar / destinatar
+    "beneficiar_tip", "destinatar_tip",
+    # valabilitate
+    "valabilitate_emitere", "valabilitate_finalizare",
+    # volum
+    "volum_total",
+    # marfa
+    "tipMarfa",
+    # vehicle
+    "angajat", "remorca", "identificatorContainer",
+    # images
+    "num_poze",
+    # meta
+    "timestamp_scraped",
+]
 
 
 def log(msg):
@@ -40,17 +67,6 @@ def extract_permit_code(item):
             if props.get(field):
                 return props[field]
     return None
-
-
-def get_detail_dir(cod_str):
-    """Return the subfolder for a permit code based on its prefix (AP, DA, DC, etc.)."""
-    m = re.match(r'^([A-Z]+)', str(cod_str))
-    if m:
-        prefix = m.group(1)
-        d = DETAILS_DIR / prefix
-        d.mkdir(parents=True, exist_ok=True)
-        return d
-    return DETAILS_DIR
 
 
 def normalise_locations(data):
@@ -143,6 +159,102 @@ def fetch_aviz_details(cod_aviz):
         return None
 
 
+def safe_get(d, *keys, default=""):
+    """Safely traverse nested dicts."""
+    for k in keys:
+        if isinstance(d, dict):
+            d = d.get(k)
+        else:
+            return default
+    return d if d is not None else default
+
+
+def flatten_details(details, cod, loc):
+    """Flatten a detail response into a flat dict for CSV."""
+    entry = {
+        "codAviz":          str(cod),
+        "tipAviz":          details.get("tipAviz", loc.get("tipAviz", "") if isinstance(loc, dict) else ""),
+        "numeTipAviz":      details.get("numeTipAviz", ""),
+        "lat":              loc.get("lat", "") if isinstance(loc, dict) else "",
+        "lng":              loc.get("lng", "") if isinstance(loc, dict) else "",
+        "idDepozit":        loc.get("idDepozit", "") if isinstance(loc, dict) else "",
+        "nrIdentificare":   details.get("nrIdentificare", ""),
+        "nrApv":            details.get("nrApv", ""),
+        "provenienta":      details.get("provenienta", ""),
+        "hasFinishedTransport": details.get("hasFinishedTransport", ""),
+        # emitent
+        "emitent_denumire":     safe_get(details, "emitent", "denumire"),
+        "emitent_cui":          safe_get(details, "emitent", "cui"),
+        # transportator
+        "transportator_denumire": safe_get(details, "transportator", "denumire"),
+        "transportator_cui":      safe_get(details, "transportator", "cui"),
+        "transportator_tip":      safe_get(details, "transportator", "tip"),
+        # beneficiar / destinatar
+        "beneficiar_tip":   safe_get(details, "beneficiar", "tip"),
+        "destinatar_tip":   safe_get(details, "destinatar", "tip"),
+        # valabilitate
+        "valabilitate_emitere":    safe_get(details, "valabilitate", "emitere"),
+        "valabilitate_finalizare": safe_get(details, "valabilitate", "finalizare"),
+        # volum
+        "volum_total":      safe_get(details, "volum", "total"),
+        # marfa
+        "tipMarfa":         details.get("tipMarfa", ""),
+        # vehicle
+        "angajat":                  details.get("angajat", ""),
+        "remorca":                  details.get("remorca", ""),
+        "identificatorContainer":   details.get("identificatorContainer", ""),
+        # images
+        "num_poze":         len(details.get("poze", []) or []),
+        # meta
+        "timestamp_scraped": datetime.now().isoformat(),
+    }
+    return entry
+
+
+def save_images(cod, poze_list):
+    """Decode and save base64 JPEG images to poze/ folder."""
+    if not poze_list:
+        return 0
+    saved = 0
+    for i, b64data in enumerate(poze_list):
+        if not b64data or not isinstance(b64data, str):
+            continue
+        try:
+            img_bytes = base64.b64decode(b64data)
+            img_path = POZE_DIR / f"{cod}_{i+1}.jpg"
+            img_path.write_bytes(img_bytes)
+            saved += 1
+        except Exception as e:
+            log(f"  Warning: failed to save image {i+1} for {cod}: {e}")
+    return saved
+
+
+def flush_entries(entries, first_flush):
+    """Append entries to the index CSV."""
+    if not entries:
+        return
+    mode = "a" if INDEX_FILE.exists() and not first_flush else "w"
+    write_header = (mode == "w") or not INDEX_FILE.exists()
+    with open(INDEX_FILE, mode, newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=INDEX_FIELDS, extrasaction="ignore")
+        if write_header:
+            writer.writeheader()
+        writer.writerows(entries)
+
+
+def make_location_entry(cod, loc):
+    """Build a basic entry from location data only (no details)."""
+    return {
+        "codAviz":          str(cod),
+        "tipAviz":          loc.get("tipAviz", "") if isinstance(loc, dict) else "",
+        "lat":              loc.get("lat", "") if isinstance(loc, dict) else "",
+        "lng":              loc.get("lng", "") if isinstance(loc, dict) else "",
+        "idDepozit":        loc.get("idDepozit", "") if isinstance(loc, dict) else "",
+        "num_poze":         0,
+        "timestamp_scraped": datetime.now().isoformat(),
+    }
+
+
 def main():
     print("Starting SUMAL / Inspectorul Padurii scrape ...")
 
@@ -170,49 +282,50 @@ def main():
                 row["codAviz"] for row in csv.DictReader(f) if "codAviz" in row
             }
 
-    new_entries = []
+    new_count = 0
+    img_count = 0
+    buffer = []
+    first_flush = True
+
     for loc in locations:
         cod = extract_permit_code(loc)
         if not cod or str(cod) in existing_ids:
             continue
 
-        # Build index entry from location data we already have
-        entry = {
-            "codAviz":         str(cod),
-            "tipAviz":         loc.get("tipAviz", "") if isinstance(loc, dict) else "",
-            "lat":             loc.get("lat", "") if isinstance(loc, dict) else "",
-            "lng":             loc.get("lng", "") if isinstance(loc, dict) else "",
-            "idDepozit":       loc.get("idDepozit", "") if isinstance(loc, dict) else "",
-            "nrInmatriculare": "",
-            "volumTotal":      "",
-            "dataEmiterii":    "",
-            "punctPlecare":    "",
-            "timestamp_scraped": datetime.now().isoformat(),
-        }
-
-        # Enrich with details if available
+        # Fetch details and flatten to CSV row
         log(f"  Fetching details: {cod}")
         details = fetch_aviz_details(cod)
+
         if details and isinstance(details, dict):
-            log(f"  Detail keys: {list(details.keys())}")
-            entry["nrInmatriculare"] = details.get("numarMijlocTransport", "")
-            entry["volumTotal"]      = details.get("volumTotal", "")
-            entry["dataEmiterii"]    = details.get("dataEmiterii", "")
-            entry["punctPlecare"]    = (details.get("punctPlecare") or {}).get("denumire", "")
-            out_dir = get_detail_dir(cod)
-            with open(out_dir / f"{cod}.json", "w", encoding="utf-8") as f:
-                json.dump(details, f, indent=2, ensure_ascii=False)
+            if new_count == 0:
+                log(f"  Detail keys: {list(details.keys())}")
+            entry = flatten_details(details, cod, loc)
 
-        new_entries.append(entry)
+            # Save images to poze/ folder
+            poze = details.get("poze") or []
+            if poze:
+                saved = save_images(cod, poze)
+                img_count += saved
+                log(f"  Saved {saved} images for {cod}")
+        else:
+            entry = make_location_entry(cod, loc)
 
-    if new_entries:
-        file_exists = INDEX_FILE.exists()
-        with open(INDEX_FILE, "a", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=new_entries[0].keys())
-            if not file_exists:
-                writer.writeheader()
-            writer.writerows(new_entries)
-        print(f"Added {len(new_entries)} new permits to {INDEX_FILE}.")
+        buffer.append(entry)
+        new_count += 1
+
+        # Flush every N records
+        if len(buffer) >= FLUSH_EVERY:
+            flush_entries(buffer, first_flush)
+            first_flush = False
+            print(f"  Flushed {new_count} permits so far...")
+            buffer = []
+
+    # Final flush
+    if buffer:
+        flush_entries(buffer, first_flush)
+
+    if new_count:
+        print(f"Added {new_count} new permits to {INDEX_FILE}. Saved {img_count} images.")
     else:
         print("No new permits (all already indexed).")
 

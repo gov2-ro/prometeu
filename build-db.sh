@@ -139,6 +139,13 @@ run_git_history data/local/B/aerlive-bucuresti.csv \
 run_git_history data/local/IS/calitate-aer-is.csv \
   calitate_aer_iasi "$BASE_CSV_CONVERT"
 
+if [ -f "data/local/B/infoaer-bucuresti.csv" ]; then
+  run_git_history data/local/B/infoaer-bucuresti.csv \
+    infoaer_bucuresti "$BASE_CSV_CONVERT" \
+    --id code \
+    --ignore-duplicate-ids
+fi
+
 # === Currency exchange rates ===
 run_git_history data/financiar/curs-valutar.csv \
   curs_valutar "$BASE_CSV_CONVERT"

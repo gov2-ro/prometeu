@@ -216,7 +216,7 @@
                     ["aqi-trend", "aqi-trend"],
                     ["pm-trend", "pm-trend"],
                     ["station-map", "station-map"],
-                    ["buc-table", "buc-table"]
+                    ["buc-table", "iasi-table"]
                 ],
                 "charts": {
                     "aqi-bar": {
@@ -313,9 +313,15 @@
                         }
                     },
                     "buc-table": {
-                        "title": "All Stations Detail",
+                        "title": "București Stations",
                         "db": "prometeu",
                         "query": "SELECT name as Station, CAST(ica AS REAL) as 'AQI (ICA)', CAST(pm25 AS REAL) as 'PM2.5', CAST(pm10 AS REAL) as 'PM10', CAST(no2 AS REAL) as 'NO₂', lastReadingTime as 'Last Reading' FROM aerlive_bucuresti WHERE name IS NOT NULL ORDER BY CAST(ica AS REAL) DESC",
+                        "library": "table"
+                    },
+                    "iasi-table": {
+                        "title": "Iași Stations",
+                        "db": "prometeu",
+                        "query": "SELECT placement as Station, city as City, CAST(avg_pm25 AS REAL) as 'PM2.5', CAST(avg_pm10 AS REAL) as 'PM10', CAST(avg_temperature AS REAL) as 'Temp (°C)', CAST(avg_humidity AS REAL) as 'Humidity (%)', CAST(avg_noise AS REAL) as 'Noise (dB)' FROM calitate_aer_iasi WHERE placement IS NOT NULL AND placement != '' ORDER BY CAST(avg_pm25 AS REAL) DESC",
                         "library": "table"
                     }
                 }
@@ -533,6 +539,97 @@
                         "title": "Current Permits (latest snapshot)",
                         "db": "prometeu",
                         "query": "SELECT codAviz as 'Permit Code', tipAviz as Type, CAST(lat AS REAL) as Lat, CAST(lng AS REAL) as Lng, idDepozit as 'Depot ID' FROM sumal_locations_version sv JOIN commits c ON sv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'sumal_locations')) ORDER BY codAviz LIMIT 50",
+                        "library": "table"
+                    }
+                }
+            },
+            "exchange-rates": {
+                "title": "Curs Valutar BNR - Exchange Rates",
+                "description": "BNR official exchange rates for RON, tracked over time",
+                "layout": [
+                    ["eur-rate", "usd-rate", "gbp-rate"],
+                    ["major-rates", "major-rates"],
+                    ["eur-trend", "eur-trend"],
+                    ["usd-trend", "usd-trend"],
+                    ["all-rates", "all-rates"]
+                ],
+                "charts": {
+                    "eur-rate": {
+                        "title": "EUR/RON (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT Rate as rate FROM curs_valutar WHERE Currency = 'EUR'",
+                        "library": "metric",
+                        "display": {
+                            "field": "rate",
+                            "prefix": "€ ",
+                            "suffix": " RON"
+                        }
+                    },
+                    "usd-rate": {
+                        "title": "USD/RON (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT Rate as rate FROM curs_valutar WHERE Currency = 'USD'",
+                        "library": "metric",
+                        "display": {
+                            "field": "rate",
+                            "prefix": "$ ",
+                            "suffix": " RON"
+                        }
+                    },
+                    "gbp-rate": {
+                        "title": "GBP/RON (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT Rate as rate FROM curs_valutar WHERE Currency = 'GBP'",
+                        "library": "metric",
+                        "display": {
+                            "field": "rate",
+                            "prefix": "£ ",
+                            "suffix": " RON"
+                        }
+                    },
+                    "major-rates": {
+                        "title": "All Rates (Latest)",
+                        "db": "prometeu",
+                        "query": "SELECT Currency as currency, CAST(Rate AS REAL) as rate FROM curs_valutar ORDER BY CAST(Rate AS REAL) DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true, "color": "#2c3e50"},
+                            "encoding": {
+                                "y": {"field": "currency", "type": "nominal", "sort": "-x", "title": "Currency"},
+                                "x": {"field": "rate", "type": "quantitative", "title": "Rate (RON)"}
+                            }
+                        }
+                    },
+                    "eur-trend": {
+                        "title": "EUR/RON Over Time",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, CAST(cv.Rate AS REAL) as rate FROM curs_valutar_version cv JOIN commits c ON cv._commit = c.id WHERE cv.Currency = 'EUR' ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "line", "tooltip": true, "point": true, "color": "#2980b9"},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "rate", "type": "quantitative", "title": "EUR/RON", "scale": {"zero": false}}
+                            }
+                        }
+                    },
+                    "usd-trend": {
+                        "title": "USD/RON Over Time",
+                        "db": "prometeu",
+                        "query": "SELECT c.commit_at as date, CAST(cv.Rate AS REAL) as rate FROM curs_valutar_version cv JOIN commits c ON cv._commit = c.id WHERE cv.Currency = 'USD' ORDER BY c.commit_at",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "line", "tooltip": true, "point": true, "color": "#27ae60"},
+                            "encoding": {
+                                "x": {"field": "date", "type": "temporal", "title": "Date"},
+                                "y": {"field": "rate", "type": "quantitative", "title": "USD/RON", "scale": {"zero": false}}
+                            }
+                        }
+                    },
+                    "all-rates": {
+                        "title": "All Exchange Rates",
+                        "db": "prometeu",
+                        "query": "SELECT Currency, CAST(Rate AS REAL) as 'Rate (RON)' FROM curs_valutar ORDER BY Currency",
                         "library": "table"
                     }
                 }
