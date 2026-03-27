@@ -1,0 +1,57 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26001233001501775503262008",
+  "nrIdentificare": "CS39ANT",
+  "nrApv": null,
+  "provenienta": "Sadova-Veche Ocolul Silvic Teregova",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45137659,
+    "volumSpecie": [
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 15.46776
+          }
+        ],
+        "volum": 15.46776
+      }
+    ],
+    "total": 15.46776
+  },
+  "emitent": {
+    "denumire": "OCOLUL SILVIC TEREGOVA",
+    "cui": "1590120"
+  },
+  "transportator": {
+    "identificator": "CS39ANT",
+    "denumire": "Antony Multifuncțional S.R.L.",
+    "cui": "34028804",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774548504388,
+    "finalizare": 1774562904388
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "FAG",
+    "specii": "FAG",
+    "sortimente": "Lemn de foc",
+    "total": 15.46776
+  }
+}

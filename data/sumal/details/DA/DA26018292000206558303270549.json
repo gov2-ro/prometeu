@@ -1,0 +1,67 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26018292000206558303270549",
+  "nrIdentificare": "NT12TVS",
+  "nrApv": null,
+  "provenienta": "Depozit Acasa",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140339,
+    "volumSpecie": [
+      {
+        "numeSpecie": "QVERCINEE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Resturi de lemn",
+            "volum": 0.45
+          }
+        ],
+        "volum": 0.45
+      },
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 1.93975
+          }
+        ],
+        "volum": 1.93975
+      }
+    ],
+    "total": 2.38975
+  },
+  "emitent": {
+    "denumire": "SC Unicdolnik S.R.L.",
+    "cui": "44731533"
+  },
+  "transportator": {
+    "identificator": "NT12TVS",
+    "denumire": "Anița Vasile Persoană Fizică Autorizată",
+    "cui": "41439225",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774583386891,
+    "finalizare": 1774619386891
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "QVERCINEE, FAG",
+    "specii": "GORUN (L), FAG",
+    "sortimente": "Resturi de lemn, Lemn de foc",
+    "total": 2.38975
+  }
+}

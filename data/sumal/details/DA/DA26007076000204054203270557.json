@@ -1,0 +1,77 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26007076000204054203270557",
+  "nrIdentificare": "VN32FAV",
+  "nrApv": null,
+  "provenienta": "Depozit-Roşioara-Mera-Vrancea ",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140398,
+    "volumSpecie": [
+      {
+        "numeSpecie": "DIVERSE TARI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.744
+          }
+        ],
+        "volum": 0.744
+      },
+      {
+        "numeSpecie": "DIVERSE MOI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.62
+          }
+        ],
+        "volum": 0.62
+      },
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.744
+          }
+        ],
+        "volum": 0.744
+      }
+    ],
+    "total": 2.108
+  },
+  "emitent": {
+    "denumire": "FLORIFANCOM SRL",
+    "cui": "38313498"
+  },
+  "transportator": {
+    "identificator": "VN32FAV",
+    "denumire": "FLORIFANCOM SRL",
+    "cui": "38313498",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774583867717,
+    "finalizare": 1774619867717
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "FAG, DIVERSE MOI, DIVERSE TARI",
+    "specii": "FAG, TEI PUCIOS, CARPEN",
+    "sortimente": "Lemn de foc",
+    "total": 2.108
+  }
+}
