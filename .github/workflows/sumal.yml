@@ -40,4 +40,5 @@ jobs:
         title: "SUMAL scraped data update"
         body: "Automated SUMAL / Inspectorul Pădurii data update."
         branch: auto/sumal-data
+        sign-commits: true
         delete-branch: true

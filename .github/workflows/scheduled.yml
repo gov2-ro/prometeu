@@ -122,4 +122,5 @@ jobs:
         title: "Latest scraped data"
         body: "Automated data scraping update from workflow run."
         branch: auto/scraped-data
+        sign-commits: true
         delete-branch: true
