@@ -1,0 +1,85 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "AP26000129000701010703261941",
+  "nrIdentificare": "SV02ULM",
+  "nrApv": 2500012902480,
+  "provenienta": "2500012902480 - 101 ULMA",
+  "tipAviz": 1,
+  "numeTipAviz": "Locul Recoltării",
+  "volum": {
+    "idAviz": 45137108,
+    "volumSpecie": [
+      {
+        "numeSpecie": "DIVERSE TARI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 0.0678
+          },
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.407321
+          }
+        ],
+        "volum": 0.475121
+      },
+      {
+        "numeSpecie": "RĂȘINOASE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 6.990252
+          }
+        ],
+        "volum": 6.990252
+      },
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.2714
+          },
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 0.099278
+          }
+        ],
+        "volum": 0.370678
+      }
+    ],
+    "total": 7.836051
+  },
+  "emitent": {
+    "denumire": "OCOLUL SILVIC FALCĂU",
+    "cui": "1590120"
+  },
+  "transportator": {
+    "identificator": "SV02ULM",
+    "denumire": "SC ULM-INDUSTRY SRL",
+    "cui": "18836697",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774546903815,
+    "finalizare": 1774568503815
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "FAG, DIVERSE TARI, RĂȘINOASE",
+    "specii": "FAG, PALTIN DE MUNTE, MOLID ",
+    "sortimente": "Lemn rotund, Lemn de foc",
+    "total": 7.836051
+  }
+}

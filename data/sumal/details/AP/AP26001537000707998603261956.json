@@ -1,0 +1,61 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "AP26001537000707998603261956",
+  "nrIdentificare": "GJ08KOL",
+  "nrApv": 2500153705270,
+  "provenienta": "2500153705270 - FILIPESCU ILEANA",
+  "tipAviz": 1,
+  "numeTipAviz": "Locul Recoltării",
+  "volum": {
+    "idAviz": 45137468,
+    "volumSpecie": [
+      {
+        "numeSpecie": "QVERCINEE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 5.9241
+          },
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 1.8228
+          }
+        ],
+        "volum": 7.7469
+      }
+    ],
+    "total": 7.7469
+  },
+  "emitent": {
+    "denumire": "OCOLUL SILVIC CĂRBUNEȘTI",
+    "cui": "1590120"
+  },
+  "transportator": {
+    "identificator": "GJ08KOL",
+    "denumire": "Ștefiasflor Trans S.R.L.",
+    "cui": "42486853",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774547802556,
+    "finalizare": 1774569402556
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "QVERCINEE",
+    "specii": "CER (L)",
+    "sortimente": "Lemn de foc, Lemn rotund",
+    "total": 7.7469
+  }
+}

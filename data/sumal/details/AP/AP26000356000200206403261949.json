@@ -1,0 +1,89 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "AP26000356000200206403261949",
+  "nrIdentificare": "DB45185",
+  "nrApv": 2500035601500,
+  "provenienta": "2500035601500 - 519 AC I BOLINTINEANCA",
+  "tipAviz": 1,
+  "numeTipAviz": "Locul Recoltării",
+  "volum": {
+    "idAviz": 45137318,
+    "volumSpecie": [
+      {
+        "numeSpecie": "DIVERSE TARI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.00753
+          },
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 0.0904
+          }
+        ],
+        "volum": 0.09793
+      },
+      {
+        "numeSpecie": "QVERCINEE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 0.6314
+          },
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.0157
+          }
+        ],
+        "volum": 0.6471
+      },
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 1.41589
+          },
+          {
+            "numeSortiment": "Lemn rotund",
+            "volum": 0.39441
+          }
+        ],
+        "volum": 1.8103
+      }
+    ],
+    "total": 2.55533
+  },
+  "emitent": {
+    "denumire": "OCOLUL SILVIC VALEA MARE -DB",
+    "cui": "1590120"
+  },
+  "transportator": {
+    "identificator": "1890310150469",
+    "denumire": "Paraschiv Alexandru Bogdan ",
+    "cui": null,
+    "tip": "NONSUMAL",
+    "nonSumal": true
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774547357509,
+    "finalizare": 1774554557509
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "QVERCINEE, DIVERSE TARI, FAG",
+    "specii": "GORUN (L), CARPEN, FAG",
+    "sortimente": "Lemn de foc, Lemn rotund",
+    "total": 2.55533
+  }
+}

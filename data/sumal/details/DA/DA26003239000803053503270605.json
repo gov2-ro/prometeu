@@ -1,0 +1,57 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26003239000803053503270605",
+  "nrIdentificare": "HR22FAB",
+  "nrApv": null,
+  "provenienta": "DEPOZIT",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140457,
+    "volumSpecie": [
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 8.91
+          }
+        ],
+        "volum": 8.91
+      }
+    ],
+    "total": 8.91
+  },
+  "emitent": {
+    "denumire": "SC FAB PROD COM SRL",
+    "cui": "15730399"
+  },
+  "transportator": {
+    "identificator": "HR22FAB",
+    "denumire": "SC FAB PROD COM SRL",
+    "cui": "15730399",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774584336795,
+    "finalizare": 1774620336795
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "FAG",
+    "specii": "FAG",
+    "sortimente": "Lemn de foc",
+    "total": 8.91
+  }
+}

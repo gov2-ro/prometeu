@@ -1,0 +1,57 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26003729002200072203270608",
+  "nrIdentificare": "CV25TYP",
+  "nrApv": null,
+  "provenienta": "Depozit Intorsura Buzaului",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140480,
+    "volumSpecie": [
+      {
+        "numeSpecie": "RĂȘINOASE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Resturi de lemn",
+            "volum": 22.0
+          }
+        ],
+        "volum": 22.0
+      }
+    ],
+    "total": 22.0
+  },
+  "emitent": {
+    "denumire": "FLORIFOREST SRL",
+    "cui": "RO17245013"
+  },
+  "transportator": {
+    "identificator": "CV25TYP",
+    "denumire": "FLORIFOREST SRL",
+    "cui": "RO17245013",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "JURIDICA"
+  },
+  "destinatar": {
+    "tip": "JURIDICA"
+  },
+  "valabilitate": {
+    "emitere": 1774584526760,
+    "finalizare": 1774620526760
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "RĂȘINOASE",
+    "specii": "BRAD ",
+    "sortimente": "Resturi de lemn",
+    "total": 22.0
+  }
+}

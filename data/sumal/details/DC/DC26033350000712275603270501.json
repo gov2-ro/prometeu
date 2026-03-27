@@ -1,0 +1,57 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DC26033350000712275603270501",
+  "nrIdentificare": "BC04ARY",
+  "nrApv": null,
+  "provenienta": "Forestierului nr8",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140112,
+    "volumSpecie": [
+      {
+        "numeSpecie": "RĂȘINOASE",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Cherestele",
+            "volum": 7.45
+          }
+        ],
+        "volum": 7.45
+      }
+    ],
+    "total": 7.45
+  },
+  "emitent": {
+    "denumire": "Lumber Produce S.R.L.",
+    "cui": "51487327"
+  },
+  "transportator": {
+    "identificator": "BC04ARY",
+    "denumire": "Lumber Produce S.R.L.",
+    "cui": "51487327",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774580464582,
+    "finalizare": 1774616464582
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "RĂȘINOASE",
+    "specii": "BRAD ",
+    "sortimente": "Cherestele",
+    "total": 7.45
+  }
+}

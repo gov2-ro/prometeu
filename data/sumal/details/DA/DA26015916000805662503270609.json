@@ -1,0 +1,67 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26015916000805662503270609",
+  "nrIdentificare": "TM86MUG",
+  "nrApv": null,
+  "provenienta": "Depozit Pesac",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140488,
+    "volumSpecie": [
+      {
+        "numeSpecie": "DIVERSE TARI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 0.1272
+          }
+        ],
+        "volum": 0.1272
+      },
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 7.9476
+          }
+        ],
+        "volum": 7.9476
+      }
+    ],
+    "total": 8.0748
+  },
+  "emitent": {
+    "denumire": "SC DISNEY MAZDAR SRL",
+    "cui": "RO - 8882483"
+  },
+  "transportator": {
+    "identificator": "TM86MUG",
+    "denumire": "SC DISNEY MAZDAR SRL",
+    "cui": "RO - 8882483",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "JURIDICA"
+  },
+  "destinatar": {
+    "tip": "JURIDICA"
+  },
+  "valabilitate": {
+    "emitere": 1774584568840,
+    "finalizare": 1774714168840
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "DIVERSE TARI, FAG",
+    "specii": "CARPEN, FAG",
+    "sortimente": "Lemn de foc",
+    "total": 8.0748
+  }
+}

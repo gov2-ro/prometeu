@@ -1,0 +1,61 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26002494000201955903270522",
+  "nrIdentificare": "IS62NED",
+  "nrApv": null,
+  "provenienta": "NICU TRANS",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140190,
+    "volumSpecie": [
+      {
+        "numeSpecie": "DIVERSE MOI",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Resturi de lemn",
+            "volum": 1.95
+          },
+          {
+            "numeSortiment": "Coajă",
+            "volum": 0.4
+          }
+        ],
+        "volum": 2.35
+      }
+    ],
+    "total": 2.35
+  },
+  "emitent": {
+    "denumire": "SC NICU TRANS SRL",
+    "cui": "11993007"
+  },
+  "transportator": {
+    "identificator": "IS62NED",
+    "denumire": "SC NICU TRANS SRL",
+    "cui": "11993007",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "FIZICA"
+  },
+  "destinatar": {
+    "tip": "FIZICA"
+  },
+  "valabilitate": {
+    "emitere": 1774581739195,
+    "finalizare": 1774617739195
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "DIVERSE MOI",
+    "specii": "TEI ARGINTIU",
+    "sortimente": "Coajă, Resturi de lemn",
+    "total": 2.35
+  }
+}

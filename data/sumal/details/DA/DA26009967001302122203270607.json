@@ -1,0 +1,57 @@
+{
+  "poze": [],
+  "hasFinishedTransport": false,
+  "codAviz": "DA26009967001302122203270607",
+  "nrIdentificare": "CS25STA",
+  "nrApv": null,
+  "provenienta": "Depozit Toranita",
+  "tipAviz": 2,
+  "numeTipAviz": "Depozit",
+  "volum": {
+    "idAviz": 45140465,
+    "volumSpecie": [
+      {
+        "numeSpecie": "FAG",
+        "volumSortiment": [
+          {
+            "numeSortiment": "Lemn de foc",
+            "volum": 13.86119
+          }
+        ],
+        "volum": 13.86119
+      }
+    ],
+    "total": 13.86119
+  },
+  "emitent": {
+    "denumire": "Forest Stancu Roșu S.R.L.",
+    "cui": "30792085"
+  },
+  "transportator": {
+    "identificator": "CS25STA",
+    "denumire": "Forest Stancu Roșu S.R.L.",
+    "cui": "30792085",
+    "tip": "SUMAL",
+    "nonSumal": false
+  },
+  "beneficiar": {
+    "tip": "JURIDICA"
+  },
+  "destinatar": {
+    "tip": "JURIDICA"
+  },
+  "valabilitate": {
+    "emitere": 1774584420314,
+    "finalizare": 1774606020314
+  },
+  "tipMarfa": null,
+  "angajat": null,
+  "remorca": null,
+  "identificatorContainer": "",
+  "marfa": {
+    "grupeSpecii": "FAG",
+    "specii": "FAG",
+    "sortimente": "Lemn de foc",
+    "total": 13.86119
+  }
+}
