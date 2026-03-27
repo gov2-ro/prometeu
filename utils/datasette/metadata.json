@@ -322,37 +322,80 @@
             },
             "bear-interventions": {
                 "title": "Intervenții Urs - Bear Interventions",
-                "description": "Bear intervention reports across Romania — captures, relocations, and incidents by county",
+                "description": "Bear intervention reports across Romania — chasing, relocations, euthanasia, and shootings by county, locality, and time",
                 "layout": [
-                    ["by-county", "by-method"],
-                    ["by-sex", "total-interventions"],
+                    ["total-interventions", "by-method"],
+                    ["by-county-stacked", "by-county-stacked"],
+                    ["top-localities", "by-sex"],
+                    ["monthly-trend", "monthly-trend"],
                     ["bear-map", "bear-map"],
                     ["recent-list", "recent-list"]
                 ],
                 "charts": {
-                    "by-county": {
-                        "title": "Interventions by County",
+                    "total-interventions": {
+                        "title": "Total Bear Interventions",
                         "db": "prometeu",
-                        "query": "SELECT judet as county, count(*) as count FROM interventii_urs_version WHERE judet IS NOT NULL AND judet != '' GROUP BY judet ORDER BY count DESC LIMIT 15",
-                        "library": "vega-lite",
+                        "query": "SELECT count(*) as total FROM interventii_urs_version",
+                        "library": "metric",
                         "display": {
-                            "mark": {"type": "bar", "tooltip": true, "color": "#8B4513"},
-                            "encoding": {
-                                "y": {"field": "county", "type": "nominal", "sort": "-x", "title": "County"},
-                                "x": {"field": "count", "type": "quantitative", "title": "Interventions"}
-                            }
+                            "field": "total",
+                            "prefix": "",
+                            "suffix": " recorded"
                         }
                     },
                     "by-method": {
                         "title": "Intervention Methods",
                         "db": "prometeu",
-                        "query": "SELECT metoda_interventie as method, count(*) as count FROM interventii_urs_version WHERE metoda_interventie IS NOT NULL AND metoda_interventie != '' GROUP BY metoda_interventie ORDER BY count DESC",
+                        "query": "SELECT CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE metoda_interventie IS NOT NULL AND metoda_interventie != '' GROUP BY method ORDER BY count DESC",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "arc", "tooltip": true, "innerRadius": 40},
                             "encoding": {
                                 "theta": {"field": "count", "type": "quantitative"},
-                                "color": {"field": "method", "type": "nominal", "title": "Method"}
+                                "color": {
+                                    "field": "method",
+                                    "type": "nominal",
+                                    "title": "Method",
+                                    "scale": {
+                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "by-county-stacked": {
+                        "title": "Interventions by County (stacked by method)",
+                        "db": "prometeu",
+                        "query": "SELECT judet as county, CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE judet IS NOT NULL AND judet != '' GROUP BY judet, method ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "y": {"field": "county", "type": "nominal", "sort": "-x", "title": "County"},
+                                "x": {"field": "count", "type": "quantitative", "stack": true, "title": "Interventions"},
+                                "color": {
+                                    "field": "method",
+                                    "type": "nominal",
+                                    "title": "Method",
+                                    "scale": {
+                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "top-localities": {
+                        "title": "Top 15 Localities",
+                        "db": "prometeu",
+                        "query": "SELECT uat as locality, judet as county, count(*) as count FROM interventii_urs_version WHERE uat IS NOT NULL AND uat != '' GROUP BY uat, judet ORDER BY count DESC LIMIT 15",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "bar", "tooltip": true, "color": "#8B4513"},
+                            "encoding": {
+                                "y": {"field": "locality", "type": "nominal", "sort": "-x", "title": "Locality"},
+                                "x": {"field": "count", "type": "quantitative", "title": "Interventions"}
                             }
                         }
                     },
@@ -369,28 +412,47 @@
                             }
                         }
                     },
-                    "total-interventions": {
-                        "title": "Total Bear Interventions",
+                    "monthly-trend": {
+                        "title": "Interventions Over Time (by month)",
                         "db": "prometeu",
-                        "query": "SELECT count(*) as total FROM interventii_urs_version",
-                        "library": "metric",
+                        "query": "SELECT CASE WHEN data_interventie LIKE '____-__-__' THEN substr(data_interventie, 1, 7) WHEN data_interventie LIKE '__-__-____' THEN substr(data_interventie, 7, 4) || '-' || substr(data_interventie, 4, 2) WHEN data_interventie LIKE '__/__/____' THEN substr(data_interventie, 7, 4) || '-' || substr(data_interventie, 4, 2) ELSE NULL END as month, CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE data_interventie IS NOT NULL AND data_interventie != '' GROUP BY month, method HAVING month IS NOT NULL ORDER BY month",
+                        "library": "vega-lite",
                         "display": {
-                            "field": "total",
-                            "prefix": "",
-                            "suffix": " recorded"
+                            "mark": {"type": "bar", "tooltip": true},
+                            "encoding": {
+                                "x": {"field": "month", "type": "ordinal", "title": "Month"},
+                                "y": {"field": "count", "type": "quantitative", "stack": true, "title": "Interventions"},
+                                "color": {
+                                    "field": "method",
+                                    "type": "nominal",
+                                    "title": "Method",
+                                    "scale": {
+                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
+                                    }
+                                }
+                            }
                         }
                     },
                     "bear-map": {
-                        "title": "Intervention Locations",
+                        "title": "All Intervention Locations (all event types)",
                         "db": "prometeu",
-                        "query": "SELECT judet || ' - ' || uat as label, CAST(latitudine_alungare AS REAL) as latitude, CAST(longitudine_alungare AS REAL) as longitude, metoda_interventie as method, judet as county FROM interventii_urs_version WHERE latitudine_alungare IS NOT NULL AND longitudine_alungare IS NOT NULL AND CAST(latitudine_alungare AS REAL) > 0 AND CAST(longitudine_alungare AS REAL) > 0",
+                        "query": "SELECT judet || ' — ' || uat as label, CAST(latitudine_alungare AS REAL) as latitude, CAST(longitudine_alungare AS REAL) as longitude, 'Alungare' as event_type, judet as county FROM interventii_urs_version WHERE latitudine_alungare IS NOT NULL AND CAST(latitudine_alungare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_alungare AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_relocare AS REAL), CAST(longitudine_relocare AS REAL), 'Relocare', judet FROM interventii_urs_version WHERE latitudine_relocare IS NOT NULL AND CAST(latitudine_relocare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_relocare AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_eutanasiere AS REAL), CAST(longitudine_eutanasiere AS REAL), 'Eutanasiere', judet FROM interventii_urs_version WHERE latitudine_eutanasiere IS NOT NULL AND CAST(latitudine_eutanasiere AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_eutanasiere AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_impuscare AS REAL), CAST(longitudine_impuscare AS REAL), 'Împușcare', judet FROM interventii_urs_version WHERE latitudine_impuscare IS NOT NULL AND CAST(latitudine_impuscare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_impuscare AS REAL) BETWEEN 20.0 AND 30.0",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "circle", "tooltip": true, "opacity": 0.7},
                             "encoding": {
                                 "longitude": {"field": "longitude", "type": "quantitative"},
                                 "latitude": {"field": "latitude", "type": "quantitative"},
-                                "color": {"field": "method", "type": "nominal", "title": "Method"},
+                                "color": {
+                                    "field": "event_type",
+                                    "type": "nominal",
+                                    "title": "Event Type",
+                                    "scale": {
+                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare"],
+                                        "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000"]
+                                    }
+                                },
                                 "size": {"value": 60}
                             }
                         }
@@ -399,6 +461,78 @@
                         "title": "Recent Interventions",
                         "db": "prometeu",
                         "query": "SELECT judet as County, uat as Location, metoda_interventie as Method, sex_urs as 'Bear Type', descriere_eveniment as Description, data_interventie as Date FROM interventii_urs_version WHERE judet IS NOT NULL ORDER BY data_interventie DESC LIMIT 25",
+                        "library": "table"
+                    }
+                }
+            },
+            "sumal-timber": {
+                "title": "SUMAL - Inspectorul Pădurii (Timber Transport)",
+                "description": "Timber transport permits tracked from inspectorulpadurii.ro — locations, permit types, and volumes",
+                "layout": [
+                    ["total-permits", "by-type"],
+                    ["permit-map", "permit-map"],
+                    ["permits-table", "permits-table"]
+                ],
+                "charts": {
+                    "total-permits": {
+                        "title": "Total Tracked Permits",
+                        "db": "prometeu",
+                        "query": "SELECT count(*) as total FROM sumal_locations_version",
+                        "library": "metric",
+                        "display": {
+                            "field": "total",
+                            "prefix": "",
+                            "suffix": " permits"
+                        }
+                    },
+                    "by-type": {
+                        "title": "Permits by Type",
+                        "db": "prometeu",
+                        "query": "SELECT tipAviz as permit_type, count(*) as count FROM sumal_locations_version sv JOIN commits c ON sv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'sumal_locations')) AND tipAviz IS NOT NULL GROUP BY tipAviz ORDER BY count DESC",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "arc", "tooltip": true, "innerRadius": 40},
+                            "encoding": {
+                                "theta": {"field": "count", "type": "quantitative"},
+                                "color": {
+                                    "field": "permit_type",
+                                    "type": "nominal",
+                                    "title": "Permit Type",
+                                    "scale": {
+                                        "domain": ["AP", "DA", "DC"],
+                                        "range": ["#27ae60", "#e67e22", "#2980b9"]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "permit-map": {
+                        "title": "Active Permit Locations",
+                        "db": "prometeu",
+                        "query": "SELECT codAviz as label, CAST(lat AS REAL) as latitude, CAST(lng AS REAL) as longitude, tipAviz as permit_type FROM sumal_locations_version sv JOIN commits c ON sv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'sumal_locations')) AND lat IS NOT NULL AND lng IS NOT NULL AND CAST(lat AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(lng AS REAL) BETWEEN 20.0 AND 30.0",
+                        "library": "vega-lite",
+                        "display": {
+                            "mark": {"type": "circle", "tooltip": true, "opacity": 0.6},
+                            "encoding": {
+                                "longitude": {"field": "longitude", "type": "quantitative"},
+                                "latitude": {"field": "latitude", "type": "quantitative"},
+                                "color": {
+                                    "field": "permit_type",
+                                    "type": "nominal",
+                                    "title": "Type",
+                                    "scale": {
+                                        "domain": ["AP", "DA", "DC"],
+                                        "range": ["#27ae60", "#e67e22", "#2980b9"]
+                                    }
+                                },
+                                "size": {"value": 40}
+                            }
+                        }
+                    },
+                    "permits-table": {
+                        "title": "Current Permits (latest snapshot)",
+                        "db": "prometeu",
+                        "query": "SELECT codAviz as 'Permit Code', tipAviz as Type, CAST(lat AS REAL) as Lat, CAST(lng AS REAL) as Lng, idDepozit as 'Depot ID' FROM sumal_locations_version sv JOIN commits c ON sv._commit = c.id WHERE c.id = (SELECT max(id) FROM commits WHERE namespace = (SELECT id FROM namespaces WHERE name = 'sumal_locations')) ORDER BY codAviz LIMIT 50",
                         "library": "table"
                     }
                 }

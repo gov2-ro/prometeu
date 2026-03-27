@@ -171,6 +171,14 @@ for f in data/andnet/csv/*.csv; do
   fi
 done
 
+# === SUMAL - Inspectorul Pădurii ===
+if [ -f "data/sumal/locations.csv" ]; then
+  run_git_history data/sumal/locations.csv \
+    sumal_locations "$BASE_CSV_CONVERT" \
+    --id codAviz \
+    --ignore-duplicate-ids
+fi
+
 echo ""
 echo "Done! Database: $DB"
 if command -v sqlite-utils &> /dev/null; then

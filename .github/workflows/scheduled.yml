@@ -6,6 +6,10 @@ on:
   schedule:
   - cron: '0 */6 * * *'
 
+concurrency:
+  group: scrape-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   scheduled:
     runs-on: ubuntu-latest
