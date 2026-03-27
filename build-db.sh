@@ -122,9 +122,12 @@ run_git_history data/cmteb/status-sistem-termoficare-bucuresti.csv \
   --id denumire --id Lat --id Long
 
 # === Bear interventions ===
-run_git_history data/interventii-urs/interventii-urs.csv \
-  interventii_urs "$INTERVENTII_URS_CONVERT" \
-  --id judet --id uat --id data_interventie \
+# Normalise wide CSV to long format (one row per event type)
+python3 utils/normalise-urs.py
+
+run_git_history data/interventii-urs/interventii-urs-normalised.csv \
+  interventii_urs "$BASE_CSV_CONVERT" \
+  --id _row_id \
   --ignore-duplicate-ids
 
 # === Air quality ===

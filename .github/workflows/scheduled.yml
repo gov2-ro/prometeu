@@ -77,6 +77,10 @@ jobs:
       run: |-
         python interventii-urs.py
       continue-on-error: true
+    - name: Normalise bear interventions CSV
+      run: |-
+        python utils/normalise-urs.py
+      continue-on-error: true
     # - name: DEER incidente
     #   run: |-
     #     python deer-incidente.py

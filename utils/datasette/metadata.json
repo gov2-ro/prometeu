@@ -324,7 +324,7 @@
                 "title": "Intervenții Urs - Bear Interventions",
                 "description": "Bear intervention reports across Romania — chasing, relocations, euthanasia, and shootings by county, locality, and time",
                 "layout": [
-                    ["total-interventions", "by-method"],
+                    ["total-interventions", "by-event-type"],
                     ["by-county-stacked", "by-county-stacked"],
                     ["top-localities", "by-sex"],
                     ["monthly-trend", "monthly-trend"],
@@ -343,21 +343,21 @@
                             "suffix": " recorded"
                         }
                     },
-                    "by-method": {
-                        "title": "Intervention Methods",
+                    "by-event-type": {
+                        "title": "By Event Type",
                         "db": "prometeu",
-                        "query": "SELECT CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE metoda_interventie IS NOT NULL AND metoda_interventie != '' GROUP BY method ORDER BY count DESC",
+                        "query": "SELECT event_type, count(*) as count FROM interventii_urs_version WHERE event_type IS NOT NULL AND event_type != '' GROUP BY event_type ORDER BY count DESC",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "arc", "tooltip": true, "innerRadius": 40},
                             "encoding": {
                                 "theta": {"field": "count", "type": "quantitative"},
                                 "color": {
-                                    "field": "method",
+                                    "field": "event_type",
                                     "type": "nominal",
-                                    "title": "Method",
+                                    "title": "Event Type",
                                     "scale": {
-                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "domain": ["alungare", "relocare", "eutanasiere", "impuscare", "altele"],
                                         "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
                                     }
                                 }
@@ -365,9 +365,9 @@
                         }
                     },
                     "by-county-stacked": {
-                        "title": "Interventions by County (stacked by method)",
+                        "title": "Interventions by County (stacked by event type)",
                         "db": "prometeu",
-                        "query": "SELECT judet as county, CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE judet IS NOT NULL AND judet != '' GROUP BY judet, method ORDER BY count DESC",
+                        "query": "SELECT judet as county, event_type, count(*) as count FROM interventii_urs_version WHERE judet IS NOT NULL AND judet != '' GROUP BY judet, event_type ORDER BY count DESC",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "bar", "tooltip": true},
@@ -415,7 +415,7 @@
                     "monthly-trend": {
                         "title": "Interventions Over Time (by month)",
                         "db": "prometeu",
-                        "query": "SELECT CASE WHEN data_interventie LIKE '____-__-__' THEN substr(data_interventie, 1, 7) WHEN data_interventie LIKE '__-__-____' THEN substr(data_interventie, 7, 4) || '-' || substr(data_interventie, 4, 2) WHEN data_interventie LIKE '__/__/____' THEN substr(data_interventie, 7, 4) || '-' || substr(data_interventie, 4, 2) ELSE NULL END as month, CASE WHEN lower(metoda_interventie) LIKE '%alunga%' THEN 'Alungare' WHEN lower(metoda_interventie) LIKE '%reloca%' THEN 'Relocare' WHEN lower(metoda_interventie) LIKE '%eutanas%' THEN 'Eutanasiere' WHEN lower(metoda_interventie) LIKE '%mpus%' OR lower(metoda_interventie) LIKE '%impus%' THEN 'Împușcare' ELSE 'Altele' END as method, count(*) as count FROM interventii_urs_version WHERE data_interventie IS NOT NULL AND data_interventie != '' GROUP BY month, method HAVING month IS NOT NULL ORDER BY month",
+                        "query": "SELECT substr(data, 1, 7) as month, event_type, count(*) as count FROM interventii_urs_version WHERE data IS NOT NULL AND data != '' AND length(data) >= 7 GROUP BY month, event_type ORDER BY month",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "bar", "tooltip": true},
@@ -423,11 +423,11 @@
                                 "x": {"field": "month", "type": "ordinal", "title": "Month"},
                                 "y": {"field": "count", "type": "quantitative", "stack": true, "title": "Interventions"},
                                 "color": {
-                                    "field": "method",
+                                    "field": "event_type",
                                     "type": "nominal",
-                                    "title": "Method",
+                                    "title": "Event Type",
                                     "scale": {
-                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "domain": ["alungare", "relocare", "eutanasiere", "impuscare", "altele"],
                                         "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
                                     }
                                 }
@@ -435,9 +435,9 @@
                         }
                     },
                     "bear-map": {
-                        "title": "All Intervention Locations (all event types)",
+                        "title": "All Intervention Locations",
                         "db": "prometeu",
-                        "query": "SELECT judet || ' — ' || uat as label, CAST(latitudine_alungare AS REAL) as latitude, CAST(longitudine_alungare AS REAL) as longitude, 'Alungare' as event_type, judet as county FROM interventii_urs_version WHERE latitudine_alungare IS NOT NULL AND CAST(latitudine_alungare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_alungare AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_relocare AS REAL), CAST(longitudine_relocare AS REAL), 'Relocare', judet FROM interventii_urs_version WHERE latitudine_relocare IS NOT NULL AND CAST(latitudine_relocare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_relocare AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_eutanasiere AS REAL), CAST(longitudine_eutanasiere AS REAL), 'Eutanasiere', judet FROM interventii_urs_version WHERE latitudine_eutanasiere IS NOT NULL AND CAST(latitudine_eutanasiere AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_eutanasiere AS REAL) BETWEEN 20.0 AND 30.0 UNION ALL SELECT judet || ' — ' || uat, CAST(latitudine_impuscare AS REAL), CAST(longitudine_impuscare AS REAL), 'Împușcare', judet FROM interventii_urs_version WHERE latitudine_impuscare IS NOT NULL AND CAST(latitudine_impuscare AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(longitudine_impuscare AS REAL) BETWEEN 20.0 AND 30.0",
+                        "query": "SELECT judet || ' — ' || uat as label, CAST(lat AS REAL) as latitude, CAST(long AS REAL) as longitude, event_type, judet as county FROM interventii_urs_version WHERE lat IS NOT NULL AND lat != '' AND CAST(lat AS REAL) BETWEEN 43.5 AND 48.5 AND CAST(long AS REAL) BETWEEN 20.0 AND 30.0",
                         "library": "vega-lite",
                         "display": {
                             "mark": {"type": "circle", "tooltip": true, "opacity": 0.7},
@@ -449,7 +449,7 @@
                                     "type": "nominal",
                                     "title": "Event Type",
                                     "scale": {
-                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare"],
+                                        "domain": ["alungare", "relocare", "eutanasiere", "impuscare"],
                                         "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000"]
                                     }
                                 },
@@ -460,7 +460,7 @@
                     "recent-list": {
                         "title": "Recent Interventions",
                         "db": "prometeu",
-                        "query": "SELECT judet as County, uat as Location, metoda_interventie as Method, sex_urs as 'Bear Type', descriere_eveniment as Description, data_interventie as Date FROM interventii_urs_version WHERE judet IS NOT NULL ORDER BY data_interventie DESC LIMIT 25",
+                        "query": "SELECT judet as County, uat as Location, event_type as 'Event Type', sex_urs as 'Bear Type', descriere_eveniment as Description, data as Date FROM interventii_urs_version WHERE judet IS NOT NULL ORDER BY data DESC LIMIT 25",
                         "library": "table"
                     }
                 }
