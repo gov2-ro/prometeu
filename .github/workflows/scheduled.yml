@@ -62,6 +62,10 @@ jobs:
       run: |-
         python iasi-calitate-aer.py
       continue-on-error: true
+    - name: infoaer PMB București
+      run: |-
+        python infoaer-bucuresti.py
+      continue-on-error: true
     - name: aerlive bucuresti
       run: |-
         python aerlive-bucuresti.py
