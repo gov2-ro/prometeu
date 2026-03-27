@@ -65,6 +65,10 @@ jobs:
       run: |-
         python aerlive-cj.py
       continue-on-error: true
+    - name: Curs valutar BNR
+      run: |-
+        python curs-valutar.py
+      continue-on-error: true
     - name: Trafic Frontieră map
       run: |-
         python trafic-frontiere-markers.py
