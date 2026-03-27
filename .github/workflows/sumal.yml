@@ -5,6 +5,10 @@ on:
   schedule:
   - cron: '0 6 * * 1'  # weekly, Monday 6am UTC
 
+permissions:
+  contents: write
+  pull-requests: write
+
 concurrency:
   group: sumal-scrape
   cancel-in-progress: true
