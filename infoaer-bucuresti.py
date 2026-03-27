@@ -53,24 +53,34 @@ def fetch_sensors(session):
 
 
 def flatten_item(item):
-    """Flatten one sensor item into a flat dict."""
-    desc = item.get("Desc", [{}])[0] if item.get("Desc") else {}
-    return {
-        "Lon":    item.get("Lon"),
-        "Lat":    item.get("Lat"),
-        "Icon":   item.get("Icon"),
-        "name":   desc.get("name"),
-        "link":   desc.get("link"),
-        "code":   desc.get("code"),
-        "indice": desc.get("indice"),
-        "hum":    desc.get("hum"),
-        "temp":   desc.get("temp"),
-        "no2":    desc.get("no2"),
-        "pm25":   desc.get("pm25"),
-        "pm10":   desc.get("pm10"),
-        "co":     desc.get("co"),
-        "o3":     desc.get("o3"),
-    }
+    """Flatten one sensor item into a flat dict.
+
+    Handles all observed API response shapes for Desc:
+    list-of-dicts, list-of-strings, plain string, dict, or absent.
+    """
+    entry = {}
+
+    # Copy all top-level scalar fields
+    for k, v in item.items():
+        if k == "Desc":
+            continue
+        if isinstance(v, (str, int, float, bool, type(None))):
+            entry[k] = v
+
+    # Unpack Desc
+    raw_desc = item.get("Desc")
+    if isinstance(raw_desc, list):
+        for elem in raw_desc:
+            if isinstance(elem, dict):
+                entry.update(elem)
+            elif isinstance(elem, str):
+                entry.setdefault("description", elem)
+    elif isinstance(raw_desc, dict):
+        entry.update(raw_desc)
+    elif isinstance(raw_desc, str):
+        entry["description"] = raw_desc
+
+    return entry
 
 
 def main():

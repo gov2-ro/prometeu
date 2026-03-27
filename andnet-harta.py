@@ -114,7 +114,7 @@ if __name__ == "__main__":
     save_json_to_file(data['paths'],  data_folder + 'json/' + outputFileRoot + '-paths.json',  'compact', 'overwrite')
     print('-- saved ' + str(len(data['points'])) + ' points and ' + str(len(data['paths'])) + ' paths.' )
     # save csvs
-    df_points = pd.read_json(json.dumps(data['points']))
+    df_points = pd.DataFrame(data['points'])
     df_points.to_csv(data_folder + 'csv/' + outputFileRoot + '-points.csv', encoding='utf-8', index=False)
-    df_paths = pd.read_json(json.dumps(data['paths']))
+    df_paths = pd.DataFrame(data['paths'])
     df_paths.to_csv(data_folder + 'csv/' + outputFileRoot + '-paths.csv', encoding='utf-8', index=False)

@@ -65,7 +65,7 @@ def extract_json_from_html(html_content):
 if __name__ == "__main__":
     zidata = extract_json_from_html(fetch_data(ziurl))
     save_json_to_file(zidata, data_folder+outputFileRoot+'.json', 'pretty_ensure_ascii_false' )
-    df = pd.read_json(json.dumps(zidata))
+    df = pd.DataFrame(zidata)
     df.to_csv(data_folder + outputFileRoot + '.csv', encoding='utf-8', index=False, columns = ['denumire','status','stare','tip','remediere','culoare','Lat','Long'])
     print('saved ' + str(len(zidata)) + ' records to ' + data_folder +  outputFileRoot + ' .csv/json' )
 
