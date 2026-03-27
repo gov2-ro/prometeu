@@ -375,11 +375,11 @@
                                 "y": {"field": "county", "type": "nominal", "sort": "-x", "title": "County"},
                                 "x": {"field": "count", "type": "quantitative", "stack": true, "title": "Interventions"},
                                 "color": {
-                                    "field": "method",
+                                    "field": "event_type",
                                     "type": "nominal",
-                                    "title": "Method",
+                                    "title": "Event Type",
                                     "scale": {
-                                        "domain": ["Alungare", "Relocare", "Eutanasiere", "Împușcare", "Altele"],
+                                        "domain": ["alungare", "relocare", "eutanasiere", "impuscare", "altele"],
                                         "range": ["#3498db", "#2ecc71", "#e74c3c", "#8b0000", "#f39c12"]
                                     }
                                 }
