@@ -14,6 +14,9 @@ __pycache__/
 *$py.class
 *.code-workspace
 
+# SUMAL decoded images (large binary files)
+data/sumal/poze/
+
 # Generated SQLite databases
 *.db
 *.db-journal

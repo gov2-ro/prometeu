@@ -1,0 +1,39 @@
+name: SUMAL - Inspectorul Pădurii
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 6 * * 1'  # weekly, Monday 6am UTC
+
+concurrency:
+  group: sumal-scrape
+  cancel-in-progress: true
+
+jobs:
+  sumal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    - name: Install Python dependencies
+      run: pip install -r requirements.txt
+    - name: SUMAL - Inspectorul Pădurii
+      run: python sumal-inspectorul-padurii.py
+      continue-on-error: true
+    - name: Create Pull Request with SUMAL data
+      uses: peter-evans/create-pull-request@v7
+      with:
+        add-paths: |
+          data/sumal/
+        commit-message: "SUMAL data update: ${{ github.run_id }}"
+        title: "SUMAL scraped data update"
+        body: "Automated SUMAL / Inspectorul Pădurii data update."
+        branch: auto/sumal-data
+        delete-branch: true

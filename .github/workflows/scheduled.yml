@@ -105,12 +105,12 @@ jobs:
     #   run: |-
     #     python sumal-inspectorul-padurii.py
     #   continue-on-error: true
-    - name: Commit and push if it changed
-      run: |-
-        git config user.name "gov2-ro"
-        git config user.email "actions@users.noreply.github.com"
-        git add data/
-        timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
-        git pull --rebase
-        git push
+    - name: Create Pull Request with latest data
+      uses: peter-evans/create-pull-request@v7
+      with:
+        add-paths: data/
+        commit-message: "Latest data: ${{ github.run_id }}"
+        title: "Latest scraped data"
+        body: "Automated data scraping update from workflow run."
+        branch: auto/scraped-data
+        delete-branch: true
