@@ -19,14 +19,16 @@ try:
             features = data['features']
             niceObj =[]
             for feature in data['features']:
-                feature = feature['attributes']
-                feature['Long'] = feature['longitudin']
-                feature['Lat'] = feature['latitudine']
-                feature['descrizion'] = feature['Descriere']
-                del feature['longitudin']
-                del feature['latitudine']
-                del feature['descrizion']
-                niceObj.append(feature)
+                attr = feature.get('attributes', {})
+                # Rename coordinate fields if present
+                if 'longitudin' in attr:
+                    attr['Long'] = attr.pop('longitudin')
+                if 'latitudine' in attr:
+                    attr['Lat'] = attr.pop('latitudine')
+                # Remove Descriere (Italian duplicate of description)
+                attr.pop('Descriere', None)
+                attr.pop('descrizion', None)
+                niceObj.append(attr)
  
             with open(data_folder + outputFileRoot + '.json', 'w') as outfile:
                 json.dump(niceObj, outfile, indent=4)

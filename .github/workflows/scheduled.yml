@@ -49,14 +49,14 @@ jobs:
       run: |-
         python instalatii-partie-bv.py
       continue-on-error: true
-    # - name: avarii PMB
-    #   run: |-
-    #     python pmb-avarii.py
-    #   continue-on-error: true
-    # - name: iasi calitate aer
-    #   run: |-
-    #     python iasi-calitate-aer.py
-    #   continue-on-error: true
+    - name: avarii PMB
+      run: |-
+        python pmb-avarii.py
+      continue-on-error: true
+    - name: iasi calitate aer
+      run: |-
+        python iasi-calitate-aer.py
+      continue-on-error: true
     - name: aerlive bucuresti
       run: |-
         python aerlive-bucuresti.py
