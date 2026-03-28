@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 from datetime import datetime
 import os, json, re
+from io import StringIO
 from datetime import datetime
 from utils.common import fetch_data, save_json_to_file, data_root
 import demjson3
@@ -289,7 +290,7 @@ for ix, dataset in niceJson.items():
         # TODO: write json to file
     
     save_json_to_file(dataset['data'],outputJsonRoot + 'json/' + table_name + '.json')
-    df = pd.read_json(json.dumps(dataset['data']))
+    df = pd.read_json(StringIO(json.dumps(dataset['data'])))
     df.to_csv(outputJsonRoot + 'csv/' + table_name + '.csv', encoding='utf-8', index=False)
 
 

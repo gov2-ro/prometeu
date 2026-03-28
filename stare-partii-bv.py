@@ -1,8 +1,12 @@
 data_root = 'data/local/BV/stare-partii/'
 
+import re
 import requests
+import urllib3
 from bs4 import BeautifulSoup
 import pandas as pd
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def extract_table_data(soup, section_id, update_date):
     section = soup.find('section', id=section_id)
@@ -29,10 +33,11 @@ def extract_table_data(soup, section_id, update_date):
     return pd.DataFrame(rows, columns=headers)
 
 def scrape_slopes_status(url):
-    response = requests.get(url)
+    response = requests.get(url, verify=False)
     soup = BeautifulSoup(response.content, 'html.parser')
 
-    update_date = soup.find(text='Data actualizării').find_next().get_text(strip=True) if soup.find(text='Data actualizării') else None
+    date_p = soup.find(lambda tag: tag.name == 'p' and 'Data actualizării' in tag.get_text())
+    update_date = re.search(r'\d{2}\.\d{2}\.\d{4}', date_p.get_text()).group(0) if date_p else None
 
     zona_superioara_df = extract_table_data(soup, 'zona-superioara', update_date)
     zona_inferioara_df = extract_table_data(soup, 'zona-inferioara', update_date)
