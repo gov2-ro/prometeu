@@ -19,7 +19,7 @@ run_scraper() {
     printf "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     printf "▶  %s\n" "$name"
     printf "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    output=$(python $script 2>&1)
+    output=$(/Users/pax/devbox/envs/240826/bin/python $script 2>&1)
     status=$?
     echo "$output"
     RESULT_NAMES+=("$name")
@@ -44,8 +44,8 @@ run_scraper() {
     run_scraper "Avarii PMB"                           pmb-avarii.py
     run_scraper "Iași calitate aer"                    iasi-calitate-aer.py
     run_scraper "Infoaer PMB București"                infoaer-bucuresti.py
-    run_scraper "Aerlive București"                    aerlive-bucuresti.py
-    run_scraper "Aerlive Cluj"                         aerlive-cj.py
+    # run_scraper "Aerlive București"                    aerlive-bucuresti.py
+    # run_scraper "Aerlive Cluj"                         aerlive-cj.py
     run_scraper "Curs valutar BNR"                     curs-valutar.py
     run_scraper "Trafic Frontieră map"                 trafic-frontiere-markers.py
     run_scraper "Trafic Frontieră list"                trafic-frontiere-list.py

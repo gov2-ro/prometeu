@@ -66,14 +66,14 @@ jobs:
       run: |-
         python infoaer-bucuresti.py
       continue-on-error: true
-    - name: aerlive bucuresti
-      run: |-
-        python aerlive-bucuresti.py
-      continue-on-error: true
-    - name: aerlive cj
-      run: |-
-        python aerlive-cj.py
-      continue-on-error: true
+    # - name: aerlive bucuresti
+    #   run: |-
+    #     python aerlive-bucuresti.py
+    #   continue-on-error: true
+    # - name: aerlive cj
+    #   run: |-
+    #     python aerlive-cj.py
+    #   continue-on-error: true
     - name: Curs valutar BNR
       run: |-
         python curs-valutar.py
