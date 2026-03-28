@@ -17,6 +17,9 @@ __pycache__/
 # SUMAL decoded images (large binary files)
 data/sumal/poze/
 
+# Local scraper run logs
+data/_reports/scraper-run*.log
+
 # Generated SQLite databases
 *.db
 *.db-journal
