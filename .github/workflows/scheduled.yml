@@ -1,18 +1,15 @@
 name: Scrape latest data
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
   schedule:
   - cron: '0 */6 * * *'
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
-  group: scrape-${{ github.ref }}
+  group: scrape-data
   cancel-in-progress: true
 
 jobs:
@@ -21,115 +18,113 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
     - uses: actions/setup-python@v5
       with:
         python-version: '3.11'
         cache: 'pip'
     - name: Install Python dependencies
-      run: |
-        pip install -r requirements.txt
+      run: pip install -r requirements.txt
+
     - name: CMTEB Termoficare București
-      run: |-
-        python cmteb.py
+      id: cmteb
+      run: python cmteb.py
       continue-on-error: true
     - name: ANDNET Situație Drumuri map
-      run: |-
-        python andnet-harta.py    
+      id: andnet_map
+      run: python andnet-harta.py
       continue-on-error: true
     - name: ANDNET Situație Drumuri list
-      run: |-
-        python andnet-tables.py    
+      id: andnet_list
+      run: python andnet-tables.py
       continue-on-error: true
     - name: sesizări BV
-      run: |-
-        python brasov-sesizari.py
+      id: sesizari_bv
+      run: python brasov-sesizari.py
       continue-on-error: true
     - name: pârtii BV
-      run: |-
-        python stare-partii-bv.py
+      id: partii_bv
+      run: python stare-partii-bv.py
       continue-on-error: true
     - name: instalații BV
-      run: |-
-        python instalatii-partie-bv.py
+      id: instalatii_bv
+      run: python instalatii-partie-bv.py
       continue-on-error: true
     - name: avarii PMB
-      run: |-
-        python pmb-avarii.py
+      id: avarii_pmb
+      run: python pmb-avarii.py
       continue-on-error: true
     - name: iasi calitate aer
-      run: |-
-        python iasi-calitate-aer.py
+      id: iasi_aer
+      run: python iasi-calitate-aer.py
       continue-on-error: true
     - name: infoaer PMB București
-      run: |-
-        python infoaer-bucuresti.py
+      id: infoaer
+      run: python infoaer-bucuresti.py
       continue-on-error: true
-    # - name: aerlive bucuresti
-    #   run: |-
-    #     python aerlive-bucuresti.py
-    #   continue-on-error: true
+    # - name: aerlive bucuresti  # SSL cert expired on server
+    #   run: python aerlive-bucuresti.py
     # - name: aerlive cj
-    #   run: |-
-    #     python aerlive-cj.py
-    #   continue-on-error: true
+    #   run: python aerlive-cj.py
     - name: Curs valutar BNR
-      run: |-
-        python curs-valutar.py
+      id: curs_valutar
+      run: python curs-valutar.py
       continue-on-error: true
     - name: Trafic Frontieră map
-      run: |-
-        python trafic-frontiere-markers.py
+      id: trafic_map
+      run: python trafic-frontiere-markers.py
       continue-on-error: true
     - name: Trafic Frontieră list
-      run: |-
-        python trafic-frontiere-list.py
+      id: trafic_list
+      run: python trafic-frontiere-list.py
       continue-on-error: true
     - name: Intervenții Urs (Bear Interventions)
-      run: |-
-        python interventii-urs.py
+      id: urs
+      run: python interventii-urs.py
       continue-on-error: true
     - name: Normalise bear interventions CSV
-      run: |-
-        python utils/normalise-urs.py
+      id: urs_norm
+      run: python utils/normalise-urs.py
       continue-on-error: true
-    # - name: DEER incidente
-    #   run: |-
-    #     python deer-incidente.py
-    #   continue-on-error: true
     - name: întreruperi distribuție e-distributie Enel
-      run: |-
-        python enel-intreruperi.py
+      id: enel
+      run: python enel-intreruperi.py
       continue-on-error: true
-    # - name: DEER întreruperi
-    #   run: |-
-    #     python deer-intreruperi.py
-    #   continue-on-error: true
-    # - name: posturi.gov.ro
-    #   run: |-
-    #     python posturi-fetch-index.py
-    # continue-on-error: true
-    # - name: SUMAL - Inspectorul Pădurii
-    #   run: |-
-    #     python sumal-inspectorul-padurii.py
-    #   continue-on-error: true
-    - name: Commit and create PR if data changed
-      env:
-        GH_TOKEN: ${{ github.token }}
+
+    - name: Scraper summary
+      if: always()
+      run: |-
+        echo "## Scraper Results" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "| Scraper | Status |" >> $GITHUB_STEP_SUMMARY
+        echo "|---------|--------|" >> $GITHUB_STEP_SUMMARY
+        echo "| CMTEB Termoficare | ${{ steps.cmteb.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| ANDNET map | ${{ steps.andnet_map.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| ANDNET list | ${{ steps.andnet_list.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Sesizări BV | ${{ steps.sesizari_bv.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Pârtii BV | ${{ steps.partii_bv.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Instalații BV | ${{ steps.instalatii_bv.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Avarii PMB | ${{ steps.avarii_pmb.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Iași calitate aer | ${{ steps.iasi_aer.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| InfoAer București | ${{ steps.infoaer.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Curs valutar BNR | ${{ steps.curs_valutar.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Trafic Frontieră map | ${{ steps.trafic_map.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Trafic Frontieră list | ${{ steps.trafic_list.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Intervenții Urs | ${{ steps.urs.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Normalise Urs CSV | ${{ steps.urs_norm.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Enel întreruperi | ${{ steps.enel.outcome }} |" >> $GITHUB_STEP_SUMMARY
+
+    - name: Commit and push if data changed
+      if: always()
       run: |-
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add data/
         if git diff --staged --quiet; then
-          echo "No changes to commit"
+          echo "No data changes to commit"
+          echo "### No data changes" >> $GITHUB_STEP_SUMMARY
           exit 0
         fi
-        git commit -m "Latest data: $(date -u)"
-        git push origin HEAD:auto/scraped-data --force
-        gh pr create \
-          --title "Latest scraped data" \
-          --body "Automated data scraping update from workflow run." \
-          --base main \
-          --head auto/scraped-data \
-        || echo "PR already exists or creation skipped"
+        CHANGED=$(git diff --staged --stat | tail -1)
+        git commit -m "Latest data: $(date -u '+%Y-%m-%d %H:%M')"
+        git push origin main
+        echo "### Committed: $CHANGED" >> $GITHUB_STEP_SUMMARY
