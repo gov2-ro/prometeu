@@ -1,83 +1,116 @@
 import requests
 import os
+import csv
 import logging
-from bs4 import BeautifulSoup
+import time
 from datetime import datetime
 import urllib3
-import time
-import random
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-url = "https://turism.gov.ro/web/autorizare-turism/"
-dataRoot = "data/turism/structuri-autorizate/"
-download_dir = dataRoot + 'downloads/'
-log_filename = dataRoot + 'download_log.csv'
-file_extensions = ['.xls', '.xlsx', '.doc', '.docx', '.pdf']
+BASE_URL = "https://se.situr.gov.ro/OpenData/ExportToExcel?type={type}"
+DATA_ROOT = "data/turism/structuri-autorizate/"
+DOWNLOAD_DIR = DATA_ROOT + "downloads/"
+LOG_FILE = DATA_ROOT + "download_log.csv"
+TYPES_CSV = "docs/situr structuri autorizate.csv"
+TIMEOUT = 60  # seconds per request
 
-headers = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Referer': 'https://turism.gov.ro/',
-    'DNT': '1',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'same-origin',
-    'Sec-Fetch-User': '?1',
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,*/*",
+    "Accept-Language": "ro-RO,ro;q=0.9,en;q=0.8",
+    "Referer": "https://se.situr.gov.ro/",
 }
 
-logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s - %(message)s')
+os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
-os.makedirs(download_dir, exist_ok=True)
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    handlers=[
+        logging.FileHandler(DATA_ROOT + "run.log"),
+        logging.StreamHandler(),
+    ],
+)
+log = logging.getLogger(__name__)
 
-session = requests.Session()
-session.headers.update(headers)
 
-response = session.get(url, verify=False)
-response.raise_for_status()
+def load_types(csv_path):
+    types = []
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            types.append({"slug": row["slug"], "name": row["nume"]})
+    return types
 
-soup = BeautifulSoup(response.text, 'html.parser')
-download_widgets = soup.find_all('div', class_='so-widget-sow-cta')
 
-os.makedirs(dataRoot, exist_ok=True)
+def filename_from_response(response, slug):
+    cd = response.headers.get("Content-Disposition", "")
+    # Try UTF-8 encoded filename* first
+    if "filename*=UTF-8''" in cd:
+        import urllib.parse
+        encoded = cd.split("filename*=UTF-8''")[-1].strip().split(";")[0]
+        return urllib.parse.unquote(encoded)
+    # Fall back to plain filename=
+    if "filename=" in cd:
+        name = cd.split("filename=")[-1].strip().strip('"').split(";")[0]
+        if name:
+            return name
+    return f"{slug}.xlsx"
 
-for widget in download_widgets:
-    title = widget.find('h4', class_='sow-cta-title')
-    subtitle = widget.find('h4', class_='sow-cta-subtitle')
-    download_link = widget.find('a', download=True)
-    
-    if download_link and title and subtitle:
-        file_url = download_link.get('href')
-        title_text = title.text.strip()
-        subtitle_text = subtitle.text.strip()
-        print(f"Title: {title_text}")
-        print(f"Subtitle: {subtitle_text}")
-        print(f"URL: {file_url}")
 
-        if any(file_url.endswith(ext) for ext in file_extensions):
-            file_name = os.path.basename(file_url)
+def download_all(types):
+    session = requests.Session()
+    session.headers.update(HEADERS)
 
-            try:
-                time.sleep(random.uniform(1, 3))
-                
-                file_response = session.get(file_url, verify=False)
-                file_response.raise_for_status()
-                
-                file_path = os.path.join(download_dir, file_name)
-                with open(file_path, 'wb') as file:
-                    file.write(file_response.content)
-                
-                file_size = os.path.getsize(file_path)
-                
-                logging.info(f"{file_name},{file_size},{file_url},{title_text.replace(',','_')},{subtitle_text.replace(',','_')},OK")
-                print(f"Downloaded: {file_name}")
+    results = []
+    for entry in types:
+        slug = entry["slug"]
+        name = entry["name"]
+        url = BASE_URL.format(type=slug)
 
-            except Exception as e:
-                logging.error(f"{file_name},,{file_url},{title_text.replace(',','_')},{subtitle_text.replace(',','_')},{str(e)}")
-                print(f"Failed to download: {file_name} - {str(e)}")
+        log.info(f"Downloading: {slug} — {name}")
+        t0 = time.time()
+        try:
+            response = session.get(url, verify=False, timeout=TIMEOUT)
+            response.raise_for_status()
+            elapsed = time.time() - t0
 
-print(f"All files have been processed. Check {log_filename} for details.")
+            fname = filename_from_response(response, slug)
+            fpath = os.path.join(DOWNLOAD_DIR, fname)
+            with open(fpath, "wb") as f:
+                f.write(response.content)
+
+            size = len(response.content)
+            log.info(f"  OK  {fname}  {size:,} bytes  {elapsed:.1f}s")
+            results.append({"slug": slug, "name": name, "file": fname, "size": size, "elapsed": f"{elapsed:.1f}", "status": "OK", "error": ""})
+
+        except Exception as e:
+            elapsed = time.time() - t0
+            log.error(f"  FAILED {slug}: {e}")
+            results.append({"slug": slug, "name": name, "file": "", "size": 0, "elapsed": f"{elapsed:.1f}", "status": "ERROR", "error": str(e)})
+
+    return results
+
+
+def save_log(results):
+    fieldnames = ["slug", "name", "file", "size", "elapsed", "status", "error"]
+    with open(LOG_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(results)
+    log.info(f"Log saved to {LOG_FILE}")
+
+
+if __name__ == "__main__":
+    log.info(f"=== situr download start {datetime.now().isoformat()} ===")
+    types = load_types(TYPES_CSV)
+    log.info(f"Found {len(types)} types to download")
+
+    results = download_all(types)
+
+    ok = sum(1 for r in results if r["status"] == "OK")
+    fail = len(results) - ok
+    log.info(f"Done: {ok} OK, {fail} failed")
+
+    save_log(results)
