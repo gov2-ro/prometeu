@@ -126,5 +126,6 @@ jobs:
         fi
         CHANGED=$(git diff --staged --stat | tail -1)
         git commit -m "Latest data: $(date -u '+%Y-%m-%d %H:%M')"
+        git pull --rebase origin main
         git push origin main
         echo "### Committed: $CHANGED" >> $GITHUB_STEP_SUMMARY
