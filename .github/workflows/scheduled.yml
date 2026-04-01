@@ -89,6 +89,10 @@ jobs:
       id: enel
       run: python enel-intreruperi.py
       continue-on-error: true
+    - name: Turism structuri autorizate SITUR
+      id: turism
+      run: python turism-structuri-autorizate.py
+      continue-on-error: true
 
     - name: Scraper summary
       if: always()
@@ -112,6 +116,7 @@ jobs:
         echo "| Intervenții Urs | ${{ steps.urs.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Normalise Urs CSV | ${{ steps.urs_norm.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Enel întreruperi | ${{ steps.enel.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Turism SITUR | ${{ steps.turism.outcome }} |" >> $GITHUB_STEP_SUMMARY
 
     - name: Commit and push if data changed
       if: always()

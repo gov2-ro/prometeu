@@ -19,7 +19,7 @@ run_scraper() {
     printf "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     printf "▶  %s\n" "$name"
     printf "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
-    output=$(/Users/pax/devbox/envs/240826/bin/python $script 2>&1)
+    output=$(python3 $script 2>&1)
     status=$?
     echo "$output"
     RESULT_NAMES+=("$name")
@@ -52,6 +52,7 @@ run_scraper() {
     run_scraper "Intervenții Urs (Bear Interventions)" interventii-urs.py
     run_scraper "Normalise bear interventions CSV"     utils/normalise-urs.py
     run_scraper "Enel întreruperi"                     enel-intreruperi.py
+    run_scraper "Turism structuri autorizate SITUR"    turism-structuri-autorizate.py
 
     printf "\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
     printf "SUMMARY\n"

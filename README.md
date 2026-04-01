@@ -26,13 +26,17 @@ Datele se colectează la fiecare 6 ore prin GitHub Actions și se commitează di
 | [Brașov Sesizări](https://sesizari.brasovcity.ro/) | Sesizări cetățeni Brașov | 6h |
 | [PMB Avarii](https://www.pmb.ro/) | Avarii apă/termoficare București | 6h |
 | [Inspectorul Pădurii](https://inspectorulpadurii.ro/) | SUMAL — avize transport material lemnos | săptămânal |
+| [SITUR / turism.gov.ro](https://se.situr.gov.ro/) | Structuri autorizate turism — hoteluri, pensiuni, agenții, ghizi | 6h |
 
 ### Inactive / probleme server
 
 - **aerlive-bucuresti.py**, **aerlive-cj.py** — certificat SSL expirat pe server
 - **deer-incidente.py**, **deer-intreruperi.py** — API modificat
-- **posturi.gov.ro** — dezactivat temporar
-- **turism-structuri-autorizate.py** — descarcă fișiere Excel/PDF de pe turism.gov.ro
+
+### WIP / neintegrate
+
+- **posturi-fetch-index.py**, **posturi-fetch-details.py**, **posturi-fetch-index-check-changes.py** — posturi.gov.ro, dezactivat temporar, dataset mare (~1MB)
+- **deer-incidente.py**, **deer-intreruperi.py** — de verificat dacă API-ul DEER s-a schimbat
 
 ---
 
