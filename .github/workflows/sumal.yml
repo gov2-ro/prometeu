@@ -27,7 +27,7 @@ jobs:
       run: pip install -r requirements.txt
     - name: SUMAL - Inspectorul Pădurii
       id: sumal
-      run: python sumal-inspectorul-padurii.py
+      run: python sumal-inspectorul-padurii.py --recent
       continue-on-error: true
     - name: Summary
       if: always()

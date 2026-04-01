@@ -15,9 +15,10 @@ LOCATIONS_FILE = DATA_DIR / "locations.csv"
 POZE_DIR = DATA_DIR / "poze"
 
 DATA_DIR.mkdir(parents=True, exist_ok=True)
-POZE_DIR.mkdir(parents=True, exist_ok=True)
 
 VERBOSE = "--verbose" in sys.argv or "-v" in sys.argv
+SAVE_IMAGES = "--save-images" in sys.argv
+RECENT_ONLY = "--recent" in sys.argv
 FLUSH_EVERY = 10  # write to CSV every N new records
 
 # Field names tried in order when looking for a permit code
@@ -106,11 +107,17 @@ def fetch_recent_locations():
         "Accept": "application/json",
     }
 
-    windows = [
-        ("48h",  timedelta(days=2)),
-        ("7d",   timedelta(days=7)),
-        ("none", None),
-    ]
+    if RECENT_ONLY:
+        windows = [
+            ("48h",  timedelta(days=2)),
+            ("7d",   timedelta(days=7)),
+        ]
+    else:
+        windows = [
+            ("48h",  timedelta(days=2)),
+            ("7d",   timedelta(days=7)),
+            ("none", None),
+        ]
 
     for label, delta in windows:
         payload = {}
@@ -215,6 +222,7 @@ def save_images(cod, poze_list):
     """Decode and save base64 JPEG images to poze/ folder."""
     if not poze_list:
         return 0
+    POZE_DIR.mkdir(parents=True, exist_ok=True)
     saved = 0
     for i, b64data in enumerate(poze_list):
         if not b64data or not isinstance(b64data, str):
@@ -301,12 +309,13 @@ def main():
                 log(f"  Detail keys: {list(details.keys())}")
             entry = flatten_details(details, cod, loc)
 
-            # Save images to poze/ folder
-            poze = details.get("poze") or []
-            if poze:
-                saved = save_images(cod, poze)
-                img_count += saved
-                log(f"  Saved {saved} images for {cod}")
+            # Save images to poze/ folder (only with --save-images)
+            if SAVE_IMAGES:
+                poze = details.get("poze") or []
+                if poze:
+                    saved = save_images(cod, poze)
+                    img_count += saved
+                    log(f"  Saved {saved} images for {cod}")
         else:
             entry = make_location_entry(cod, loc)
 
