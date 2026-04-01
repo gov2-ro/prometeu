@@ -2,67 +2,56 @@ gov.ro open data curator
 
 # _Grebla lu' Prometeu_
 
-uses [*Git scraping*: track changes over time by scraping to a Git repository](https://simonwillison.net/2020/Oct/9/git-scraping/) / [git-scraping](https://simonwillison.net/tags/gitscraping/) / [gh topics: git-scraping](https://github.com/topics/git-scraping)  /  [dev notes](dev-notes.md) 
+Arhivare automată de date publice din România, folosind [Git scraping](https://simonwillison.net/2020/Oct/9/git-scraping/).
+
+Datele se colectează la fiecare 6 ore prin GitHub Actions și se commitează direct pe `main`. Istoricul modificărilor e vizibil în git.
 
 [flatgithub.com/gov2-ro/prometeu](https://flatgithub.com/gov2-ro/prometeu) (Flat Data viewer)
 
 ---
 
-## Scrapers 
+## Surse de date
 
-### [Situația drumurilor](data/andnet/) 
+| Sursă | Date | Frecvență |
+|-------|------|-----------|
+| [ANDNET](https://dispecerat.andnet.ro/) | Situația drumurilor — meteo, temperatură, lucrări, circulație | 6h |
+| [Poliția de Frontieră](https://www.politiadefrontiera.ro/ro/traficonline) | Timp așteptare puncte trecere frontieră | 6h |
+| [MMAP](https://interventiiurs.mmap.ro/centralizator/) | Intervenții urs — alungare, relocare, eutanasiere, împușcare | 6h |
+| [BNR](https://www.bnr.ro) | Curs valutar | 6h |
+| [CMTEB](https://www.cmteb.ro/) | Stare sistem termoficare București | 6h |
+| [InfoAer PMB](https://infoaer.pmb.ro/) | Calitate aer București (senzori) | 6h |
+| [Iași Open Data](https://opendata.oras.digital/) | Calitate aer Iași | 6h |
+| [e-distribuție / Enel](https://www.e-distributie.com/ro/intreruperi-curent.html) | Întreruperi distribuție energie | 6h |
+| [Brașov City](https://starepartii.brasovcity.ro/) | Stare pârtii + instalații Poiana Brașov | 6h |
+| [Brașov Sesizări](https://sesizari.brasovcity.ro/) | Sesizări cetățeni Brașov | 6h |
+| [PMB Avarii](https://www.pmb.ro/) | Avarii apă/termoficare București | 6h |
+| [Inspectorul Pădurii](https://inspectorulpadurii.ro/) | SUMAL — avize transport material lemnos | săptămânal |
 
-circulatie ingreunata, circulatie intrerupta, evenimente rutiere, lucrari, meteo, starea generala, temperatura, situatia-drumurilor-paths, situatia-drumurilor-points | sursă: [dispecerat.andnet.ro](https://dispecerat.andnet.ro/)
+### Inactive / probleme server
 
----
-
-### [Timp așteptare puncte frontieră](data/politia-de-frontiera)
-
-sursă: [politiadefrontiera.ro](https://www.politiadefrontiera.ro/ro/traficonline) 
-
----
-
-### [Interventii urs](data/interventii-urs)
-
-sursă: [interventiiurs.mmap.ro](https://interventiiurs.mmap.ro/centralizator/) 
-
-
----
-
-### [posturi.gov.ro](data/posturi/)
-
-Posturile vacante din cadrul autorităților și instituțiilor publice din România publicate | sursă: [posturi.gov.ro](http://posturi.gov.ro/)
-
-TODO:
-- [x] check for duplicates
-- [ ] gh actions, only check for updates once a day or so
-- [ ] fetch details, somewhere else?
- 
----
-
-### [Întreruperi Distribuție Energie Electrică](data/distributie-energie)
-
-surse: [e-distributie.com / enel](https://www.e-distributie.com/ro/intreruperi-curent.html), [distributie-energie.ro](https://www.distributie-energie.ro/suport/intreruperi-deer/) 
+- **aerlive-bucuresti.py**, **aerlive-cj.py** — certificat SSL expirat pe server
+- **deer-incidente.py**, **deer-intreruperi.py** — API modificat
+- **posturi.gov.ro** — dezactivat temporar
+- **turism-structuri-autorizate.py** — descarcă fișiere Excel/PDF de pe turism.gov.ro
 
 ---
 
-### [Stare sistem termoficare oraș Bucuresti](data/cmteb/)
+## Vizualizare
 
-sursă: [cmteb.ro](https://www.cmteb.ro/harta_stare_sistem_termoficare_bucuresti.php)
+Datele se pot vizualiza cu [Datasette](https://datasette.io/) + [datasette-dashboards](https://github.com/rclement/datasette-dashboards):
 
+```bash
+./build-db.sh                # construiește baza SQLite din istoricul git
+datasette data/prometeu.db --metadata utils/datasette/metadata.json
+```
 
-### [Stare pârtii Poiana Brașov](https://github.com/gov2-ro/prometeu/tree/main/data/local/BV/stare-partii) 
+Dashboard-uri disponibile: trafic frontieră, termoficare, calitate aer, curs valutar, intervenții urs, SUMAL, sesizări Brașov.
 
-surse: [starepartii.brasovcity.ro](https://starepartii.brasovcity.ro/), [discoverpoiana.ro](https://www.discoverpoiana.ro/ro/instalatii)  
+---
 
-### Local
+## Rulare locală
 
-Sesizări BV, B; 
-Calitate aer: B, CJ, IS 
-
-----
-
-## Roadmap
-
-- [ ] use [git-history](https://github.com/simonw/git-history/) for visualisations
-- [ ] add more sources
+```bash
+pip install -r requirements.txt
+bash run-all-scrapers.sh      # rulează toate scraperele, log în data/_reports/
+```
