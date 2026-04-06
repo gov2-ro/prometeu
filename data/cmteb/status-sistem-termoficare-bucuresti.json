@@ -658,12 +658,11 @@
         "Long": 26.027007401616
     },
     {
-        "stare": "Remediere avarie în  modulul termic pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "SC 1/3 - MODULE TERMICE",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 13:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.426407215699,
         "Long": 26.027352755069
     },
@@ -686,12 +685,11 @@
         "Long": 26.027489847615
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1/7'",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.04.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.41661256,
         "Long": 26.0277227
     },
@@ -984,12 +982,11 @@
         "Long": 26.038117
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - (str.Tincani.)",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1/8",
-        "tip": "Oprire INC",
-        "remediere": "06.04.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.422069819518,
         "Long": 26.038736567864
     },
@@ -1318,12 +1315,11 @@
         "Long": 26.046556354265
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3/8",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.04.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.420101028481,
         "Long": 26.046797945084
     },
@@ -2183,12 +2179,11 @@
         "Long": 26.056185
     },
     {
-        "stare": "Remediere avarie în modulul termic pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Modul Termic D13",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 10:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.481894,
         "Long": 26.056263
     },
@@ -2815,12 +2810,11 @@
         "Long": 26.065843
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Petre Ispirescu",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.04.2026 14:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.416784243165,
         "Long": 26.066134922797
     },
@@ -3185,12 +3179,11 @@
         "Long": 26.071616
     },
     {
-        "stare": "Înlocuire vană/robineți în punctul termic pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Rahova",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 15:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.409858176973,
         "Long": 26.071649205607
     },
@@ -3476,6 +3469,15 @@
     {
         "stare": "Functionare normala",
         "culoare": "#008217",
+        "denumire": "Sora",
+        "tip": "-",
+        "status": "functionale",
+        "Lat": 44.44814,
+        "Long": 26.076057
+    },
+    {
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3-11 Duca",
         "tip": "-",
         "status": "functionale",
@@ -3483,22 +3485,11 @@
         "Long": 26.076057
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
-        "denumire": "Sora",
-        "tip": "Oprire ACC/INC",
-        "remediere": "06.04.2026 12:00",
-        "status": "avarii",
-        "Lat": 44.44814,
-        "Long": 26.076057
-    },
-    {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 din 13 Septembrie",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 12:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.423782682013,
         "Long": 26.076210362054
     },
@@ -4542,11 +4533,12 @@
         "Long": 26.1013311
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie circuit primar - (str. Padesu)",
+        "culoare": "#e0002b",
         "denumire": "2 Stoian Militaru",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "08.04.2026 22:00",
+        "status": "avarii",
         "Lat": 44.3994455,
         "Long": 26.1013311
     },
@@ -4822,12 +4814,11 @@
         "Long": 26.1062559
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Oltenita Placare",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 14:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.398713669306,
         "Long": 26.106476984162
     },
@@ -5225,12 +5216,11 @@
         "Long": 26.114279
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum (str./Bd.)Alexandru Obregia",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Metalurgiei",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 13:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.386737457202,
         "Long": 26.114452759835
     },
@@ -5280,11 +5270,12 @@
         "Long": 26.1157798
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Depistare si remediere avarie retea primara",
+        "culoare": "#e0002b",
         "denumire": "3 Mărăşeşti",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "08.04.2026 23:00",
+        "status": "avarii",
         "Lat": 44.421413449341,
         "Long": 26.115808161431
     },
@@ -5362,11 +5353,12 @@
         "Long": 26.116536292115
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Depistare si remediere avarie retea primara",
+        "culoare": "#e0002b",
         "denumire": "2 Mărășești",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "08.04.2026 23:00",
+        "status": "avarii",
         "Lat": 44.420289903111,
         "Long": 26.116844472496
     },
@@ -5588,11 +5580,12 @@
         "Long": 26.120041334401
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Depistare si remediere avarie retea primara",
+        "culoare": "#e0002b",
         "denumire": "M107",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "08.04.2026 23:00",
+        "status": "avarii",
         "Lat": 44.4249848,
         "Long": 26.1200934
     },
@@ -5651,11 +5644,12 @@
         "Long": 26.120884643721
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Depistare si remediere avarie retea primara",
+        "culoare": "#e0002b",
         "denumire": "1 Mărăşeşti",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC/INC",
+        "remediere": "08.04.2026 23:00",
+        "status": "avarii",
         "Lat": 44.423412919384,
         "Long": 26.121202279845
     },
@@ -5923,12 +5917,11 @@
         "Long": 26.125831
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Teiul Doamnei",
-        "tip": "Deficienta ACC",
-        "remediere": "06.04.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.461141708789,
         "Long": 26.125906099465
     },
@@ -6015,12 +6008,11 @@
         "Long": 26.127654
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "17-18 Petricani",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4644793,
         "Long": 26.127704
     },
@@ -6731,12 +6723,11 @@
         "Long": 26.137433754027
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "21 Pantelimon",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 15:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.444396965841,
         "Long": 26.137619798786
     },
@@ -7210,12 +7201,11 @@
         "Long": 26.146428
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire - str.Baba Novac",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3Catelu",
-        "tip": "Oprire INC",
-        "remediere": "06.04.2026 12:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.426510990976,
         "Long": 26.1466642732
     },
@@ -8320,11 +8310,12 @@
         "Long": 26.174224981189
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie rețea secundară pe circuitul de apă caldă de consum- str.Valea Buzăului",
+        "culoare": "#e0002b",
         "denumire": "2 Placare-T",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "06.04.2026 22:30",
+        "status": "avarii",
         "Lat": 44.405837749762,
         "Long": 26.174757171313
     },
@@ -8356,12 +8347,11 @@
         "Long": 26.175272
     },
     {
-        "stare": "Înlocuire conducta apă caldă de consum strJean-Alexandru Steriadi",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "12 C5/2",
-        "tip": "Oprire ACC",
-        "remediere": "06.04.2026 15:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.412252237946,
         "Long": 26.175364827674
     },
