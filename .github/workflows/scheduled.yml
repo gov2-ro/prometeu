@@ -85,6 +85,10 @@ jobs:
       id: urs_norm
       run: python utils/normalise-urs.py
       continue-on-error: true
+    - name: Enrich bear interventions CSV
+      id: urs_enrich
+      run: python tools/enrich_interventii_urs.py
+      continue-on-error: true
     - name: întreruperi distribuție e-distributie Enel
       id: enel
       run: python enel-intreruperi.py
@@ -115,6 +119,7 @@ jobs:
         echo "| Trafic Frontieră list | ${{ steps.trafic_list.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Intervenții Urs | ${{ steps.urs.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Normalise Urs CSV | ${{ steps.urs_norm.outcome }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Enrich Urs CSV | ${{ steps.urs_enrich.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Enel întreruperi | ${{ steps.enel.outcome }} |" >> $GITHUB_STEP_SUMMARY
         echo "| Turism SITUR | ${{ steps.turism.outcome }} |" >> $GITHUB_STEP_SUMMARY
 
