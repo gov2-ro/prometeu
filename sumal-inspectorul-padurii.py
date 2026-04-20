@@ -237,12 +237,12 @@ def save_images(cod, poze_list):
     return saved
 
 
-def flush_entries(entries, first_flush):
+def flush_entries(entries, _=None):
     """Append entries to the index CSV."""
     if not entries:
         return
-    mode = "a" if INDEX_FILE.exists() and not first_flush else "w"
-    write_header = (mode == "w") or not INDEX_FILE.exists()
+    mode = "a" if INDEX_FILE.exists() else "w"
+    write_header = not INDEX_FILE.exists()
     with open(INDEX_FILE, mode, newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=INDEX_FIELDS, extrasaction="ignore")
         if write_header:
@@ -293,7 +293,6 @@ def main():
     new_count = 0
     img_count = 0
     buffer = []
-    first_flush = True
 
     for loc in locations:
         cod = extract_permit_code(loc)
@@ -324,14 +323,13 @@ def main():
 
         # Flush every N records
         if len(buffer) >= FLUSH_EVERY:
-            flush_entries(buffer, first_flush)
-            first_flush = False
+            flush_entries(buffer, None)
             print(f"  Flushed {new_count} permits so far...")
             buffer = []
 
     # Final flush
     if buffer:
-        flush_entries(buffer, first_flush)
+        flush_entries(buffer, None)
 
     if new_count:
         print(f"Added {new_count} new permits to {INDEX_FILE}. Saved {img_count} images.")
