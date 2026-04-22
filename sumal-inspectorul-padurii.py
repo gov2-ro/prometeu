@@ -290,6 +290,12 @@ def main():
                 row["codAviz"] for row in csv.DictReader(f) if "codAviz" in row
             }
 
+    # Count how many of the fetched locations are already indexed
+    all_codes = [extract_permit_code(loc) for loc in locations]
+    already_indexed = sum(1 for c in all_codes if c and str(c) in existing_ids)
+    to_fetch = sum(1 for c in all_codes if c and str(c) not in existing_ids)
+    print(f"  {already_indexed} already indexed, {to_fetch} new permits to fetch.")
+
     new_count = 0
     img_count = 0
     buffer = []
