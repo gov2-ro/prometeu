@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/app.css">
+<title>Întreruperi energie · Prometeu</title>
+<meta name="description" content="Întreruperi active Enel și lucrări DEER — clienți afectați, cauze, hartă.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="/assets/charts.js" defer></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin></script>
+</head>
+<body>
+<a class="skip" href="#main">Sari la conținut</a>
+<header class="masthead">
+  <div class="masthead-row">
+    <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+    <div class="dateline">Arhivă de date publice <span class="dot">·</span> RO</div>
+  </div>
+  <nav class="nav" aria-label="Secțiuni"><a href="/">Prometeu</a>
+  <a href="/trafic-frontiere.html">Trafic</a>
+  <a href="/andnet.html">Drumuri</a>
+  <a href="/cmteb.html">Termoficare</a>
+  <a href="/intreruperi-energie.html" class="active">Energie</a>
+  <a href="/calitate-aer.html">Aer</a>
+  <a href="/interventii-urs.html">Urși</a>
+  <a href="/despre.html">Despre</a>
+  <a href="/date-deschise.html">Date</a></nav>
+</header>
+<main id="main" class="container container--wide">
+<section class="page-head">
+  <h1>Întreruperi energie</h1>
+  <p class="lead">Colectăm două surse: <strong>Enel</strong> (snapshot al întreruperilor active)
+  și <strong>DEER</strong> (lucrări planificate și incidente, cu arhivă de 90 de zile).</p>
+  <div class="meta-row"><span class="label">Surse</span>Enel — întreruperi active · DEER — lucrări și incidente</div>
+</section>
+
+<h2 class="section-title">Enel — snapshot curent</h2>
+<section class="stats">
+    <div class="stat"><div class="stat-value">8</div><div class="stat-label">Întreruperi active</div><div class="stat-sub">în rețeaua Enel</div></div>
+    <div class="stat"><div class="stat-value">422</div><div class="stat-label">Clienți afectați</div><div class="stat-sub">cumulat</div></div>
+    <div class="stat"><div class="stat-value">100%</div><div class="stat-label">Accidental</div><div class="stat-sub">8 evenimente</div></div>
+</section>
+<section class="chart-block">
+  <div class="title">Harta întreruperilor active Enel</div>
+  <div class="sub">Dimensiune după numărul de clienți afectați.</div>
+  <div class="map-box" id="energie_map"></div>
+</section>
+<script>
+(function(){
+  if (typeof L === 'undefined') return;
+  var pts = [{"lat": 44.44350373, "lng": 26.14538497, "desc": "OBOR - PANTELIMON", "cli": 64, "cauza": "Accidental", "inter": "10/09/2023 13:08"}, {"lat": 44.41368368, "lng": 26.07173039, "desc": "PETRE ISPIRESCU", "cli": 27, "cauza": "Accidental", "inter": "10/09/2023 12:27"}, {"lat": 44.45995335, "lng": 26.04554364, "desc": "CRANGASI", "cli": 50, "cauza": "Accidental", "inter": "10/09/2023 16:49"}, {"lat": 45.41131859, "lng": 23.3651791, "desc": "PETROSANI LIVEZENI", "cli": 10, "cauza": "Accidental", "inter": "09/09/2023 22:38"}, {"lat": 44.4381229, "lng": 27.05474481, "desc": "DOR MARUNT", "cli": 97, "cauza": "Accidental", "inter": "09/09/2023 21:17"}, {"lat": 44.19971058, "lng": 27.3206778, "desc": "CL.C- VODA SPRE SID.", "cli": 95, "cauza": "Accidental", "inter": "10/09/2023 08:45"}, {"lat": 45.17575199, "lng": 28.77477547, "desc": "TULCEA ZONA SUD VEST", "cli": 2, "cauza": "Accidental", "inter": "10/09/2023 00:45"}, {"lat": 44.95644022, "lng": 28.68228166, "desc": "MIHAI BRAVU", "cli": 77, "cauza": "Accidental", "inter": "10/09/2023 12:20"}];
+  var el = document.getElementById('energie_map');
+  if (!el) return;
+  var map = L.map(el, {scrollWheelZoom:false}).setView([45.9, 25.0], 7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:'© OpenStreetMap', maxZoom: 12
+  }).addTo(map);
+  var accent = getComputedStyle(document.documentElement).getPropertyValue('--bad').trim();
+  pts.forEach(function(p){
+    L.circleMarker([p.lat, p.lng], {
+      radius: 4 + Math.min(14, Math.sqrt(p.cli)),
+      color: accent, fillColor: accent, fillOpacity: 0.6, weight: 1
+    }).bindPopup('<b>'+p.desc+'</b><br>'+p.cli+' clienți · '+p.cauza+'<br>'+p.inter).addTo(map);
+  });
+})();
+</script>
+
+
+<div class="grid-2">
+  <section class="chart-block">
+  <div class="title">Clienți afectați — top județe</div>
+  <div class="sub">Sumă curentă a întreruperilor Enel active.</div>
+  <div class="chart-box"><canvas id="energie_prov"></canvas></div>
+
+</section>
+<script>
+(function(){
+  var cfg = {"type": "bar", "data": {"labels": ["Calarasi", "Bucuresti", "Tulcea", "Hunedoara"], "datasets": [{"label": "clienți", "data": [192, 141, 79, 10], "backgroundColor": "var(--accent)", "borderColor": "var(--accent)"}]}, "options": {"indexAxis": "y", "scales": {"x": {"beginAtZero": true, "stacked": false, "title": {"display": false, "text": ""}}, "y": {"stacked": false}}, "plugins": {"legend": {"display": false}}}};
+  var css = getComputedStyle(document.documentElement);
+  function resolve(v){
+    if (typeof v === 'string' && v.startsWith('var(--')){
+      var name = v.slice(4, -1);
+      return css.getPropertyValue(name).trim() || v;
+    }
+    return v;
+  }
+  function walk(o){
+    if (Array.isArray(o)){ return o.map(walk); }
+    if (o && typeof o === 'object'){
+      var out = {};
+      for (var k in o){ out[k] = walk(o[k]); }
+      return out;
+    }
+    return resolve(o);
+  }
+  cfg = walk(cfg);
+  var el = document.getElementById("energie_prov");
+  if (!el || typeof Chart === 'undefined') return;
+  new Chart(el.getContext('2d'), cfg);
+})();
+
+</script>
+
+  <section class="chart-block">
+  <div class="title">Cauză</div>
+
+  <div class="chart-box"><canvas id="energie_cause"></canvas></div>
+
+</section>
+<script>
+(function(){
+  var cfg = {"type": "doughnut", "data": {"labels": ["Accidental"], "datasets": [{"data": [8], "backgroundColor": ["var(--c-1)", "var(--c-2)", "var(--c-3)", "var(--c-4)", "var(--c-5)", "var(--c-6)"], "borderColor": "var(--paper)", "borderWidth": 2}]}, "options": {"cutout": "58%", "plugins": {"legend": {"position": "right"}}}};
+  var css = getComputedStyle(document.documentElement);
+  function resolve(v){
+    if (typeof v === 'string' && v.startsWith('var(--')){
+      var name = v.slice(4, -1);
+      return css.getPropertyValue(name).trim() || v;
+    }
+    return v;
+  }
+  function walk(o){
+    if (Array.isArray(o)){ return o.map(walk); }
+    if (o && typeof o === 'object'){
+      var out = {};
+      for (var k in o){ out[k] = walk(o[k]); }
+      return out;
+    }
+    return resolve(o);
+  }
+  cfg = walk(cfg);
+  var el = document.getElementById("energie_cause");
+  if (!el || typeof Chart === 'undefined') return;
+  new Chart(el.getContext('2d'), cfg);
+})();
+
+</script>
+
+</div>
+
+<h2 class="section-title">DEER — lucrări și incidente</h2>
+<div class="time-slider-wrap">
+  <button class="ts-btn" id="ts_deer_prev" aria-label="zi anterioară">‹</button>
+  <input type="range" class="ts-range" id="ts_deer_range" min="0" value="0">
+  <button class="ts-btn" id="ts_deer_next" aria-label="zi următoare">›</button>
+  <span class="ts-label" id="ts_deer_date"></span>
+  <button class="ts-btn" id="ts_deer_play" aria-label="redare automată">▶</button>
+</div>
+
+<script>
+(function(){
+  var SD = {"dates":["2024-09-09","2024-09-10","2024-09-11","2024-09-12","2024-09-13","2024-09-14","2024-09-15","2024-09-16","2024-09-17","2024-09-18","2024-09-19","2024-09-20","2024-09-21","2024-09-22","2024-09-23","2024-09-24","2024-09-25","2024-09-26","2024-09-27","2024-09-28","2024-09-29","2024-09-30","2024-10-01","2024-10-02","2024-10-03","2024-10-04","2024-10-05","2024-10-06","2024-10-07","2024-10-08","2024-10-09","2024-10-10","2024-10-11","2024-10-12","2024-10-13","2024-10-14","2024-10-15","2024-10-16","2024-10-17","2024-10-18","2024-10-19","2024-10-20","2024-10-21","2024-10-22","2024-10-23","2024-10-24","2024-10-25","2024-10-26","2024-10-27","2024-10-28","2024-10-29","2024-10-30","2024-10-31","2024-11-01","2024-11-02","2024-11-03","2024-11-04","2024-11-05","2024-11-06","2024-11-07","2024-11-08","2024-11-09","2024-11-10","2024-11-11","2024-11-12","2024-11-13","2024-11-14","2024-11-15","2024-11-16","2024-11-17","2024-11-18","2024-11-19","2024-11-20","2024-11-21","2024-11-22","2024-11-23","2024-11-24","2024-11-25","2024-11-26","2024-11-27","2024-11-28","2024-11-29","2024-11-30","2024-12-01","2024-12-02","2024-12-03","2024-12-05","2024-12-06","2024-12-07","2024-12-08"],"snaps":[[["DAMBOVITA","60563","09/09/2024 19:45","","MN"]],[["DAMBOVITA","60577","10/09/2024 10:00","10/09/2024 16:00","MN"]],[["BRAILA","60629","11/09/2024 21:01","","MN"],["BUZAU","60620","11/09/2024 15:25","","MN"],["BUZAU","60628","11/09/2024 17:45","","MN"],["DAMBOVITA","60600","11/09/2024 08:10","","MN"],["DAMBOVITA","60603","11/09/2024 09:26","","MN"],["DAMBOVITA","60608","11/09/2024 10:36","","MN"],["DAMBOVITA","60610","11/09/2024 11:32","","MN"],["DAMBOVITA","60611","11/09/2024 11:36","","MN"],["DAMBOVITA","60617","11/09/2024 14:42","","MN"],["DAMBOVITA","60618","11/09/2024 14:33","","MN"],["DAMBOVITA","60619","11/09/2024 14:27","","MN"],["DAMBOVITA","60622","11/09/2024 16:00","","MN"],["GALATI","60627","11/09/2024 19:25","","MN"],["GALATI","60630","11/09/2024 21:03","","MN"]],[["DAMBOVITA","60603","11/09/2024 09:26","","MN"],["DAMBOVITA","60638","11/09/2024 23:00","","MN"],["DAMBOVITA","60640","11/09/2024 23:00","","MN"],["DAMBOVITA","60642","11/09/2024 23:00","","MN"],["DAMBOVITA","60683","12/09/2024 20:54","","MN"]],[["BRAILA","60715","13/09/2024 19:00","","MN"],["BUZAU","60689","13/09/2024 06:50","","MN"],["BUZAU","60717","13/09/2024 20:50","","MN"],["BUZAU","60718","13/09/2024 20:55","","MN"],["BUZAU","60719","13/09/2024 21:11","","MN"],["GALATI","60714","13/09/2024 19:00","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["DAMBOVITA","60747","14/09/2024 09:23","","MN"],["GALATI","60724","13/09/2024 23:59","","MN"],["GALATI","60726","14/09/2024 00:00","","MN"],["GALATI","60727","14/09/2024 00:00","","MN"],["GALATI","60728","14/09/2024 00:00","","MN"],["GALATI","60731","14/09/2024 06:50","","MN"],["GALATI","60732","14/09/2024 06:20","","MN"],["GALATI","60733","14/09/2024 00:00","","MN"],["GALATI","60734","14/09/2024 03:20","","MN"],["GALATI","60735","14/09/2024 02:20","","MN"],["GALATI","60738","14/09/2024 07:30","","MN"],["GALATI","60740","14/09/2024 07:30","","MN"],["GALATI","60741","14/09/2024 07:30","","MN"],["GALATI","60745","14/09/2024 09:10","","MN"],["GALATI","60756","14/09/2024 12:25","","MN"],["GALATI","60758","14/09/2024 11:08","","MN"],["GALATI","60765","14/09/2024 17:00","","MN"],["GALATI","60766","14/09/2024 17:06","","MN"],["GALATI","60768","14/09/2024 18:34","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BRAILA","60788","15/09/2024 17:30","","MN"],["GALATI","60728","14/09/2024 00:00","","MN"],["GALATI","60732","14/09/2024 06:20","","MN"],["GALATI","60786","15/09/2024 17:55","","MN"],["GALATI","60792","15/09/2024 20:02","","MN"],["PRAHOVA","60791","15/09/2024 20:59","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["GALATI","60815","15/09/2024 11:00","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BRAILA","60833","17/09/2024 14:59","","MN"],["DAMBOVITA","60839","17/09/2024 19:00","","MN"],["GALATI","60830","17/09/2024 10:30","","MN"],["GALATI","60840","17/09/2024 17:55","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["DAMBOVITA","60869","18/09/2024 20:52","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["PRAHOVA","60898","19/09/2024 21:28","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BUZAU","60922","20/09/2024 15:50","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BRAILA","60947","21/09/2024 19:21","","MN"],["VRANCEA","60948","21/09/2024 20:35","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BRAILA","60956","22/09/2024 20:30","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"]],[["BRAILA","60749","14/09/2024 06:25","","MN"],["BRAILA","60994","24/09/2024 20:24","","MN"]],[["BRAILA","61003","25/09/2024 09:30","","MN"]],[["PRAHOVA","61038","26/09/2024 17:10","","MN"],["VRANCEA","61043","26/09/2024 19:39","","MN"]],[["DAMBOVITA","61050","27/09/2024 09:00","27/09/2024 16:00","MN"],["PRAHOVA","61059","27/09/2024 10:20","27/09/2024 17:00","MN"],["VRANCEA","61069","27/09/2024 14:20","","MN"]],[["PRAHOVA","61085","28/09/2024 19:34","","MN"],["PRAHOVA","61086","28/09/2024 20:02","","MN"]],[["BRAILA","61119","29/09/2024 20:46","","MN"],["BRAILA","61120","29/09/2024 20:48","","MN"],["BUZAU","61109","29/09/2024 18:34","","MN"],["BUZAU","61113","29/09/2024 19:15","","MN"],["BUZAU","61117","29/09/2024 20:31","","MN"],["GALATI","61121","29/09/2024 20:44","","MN"],["VRANCEA","61104","29/09/2024 17:04","","MN"],["VRANCEA","61118","29/09/2024 19:54","","MN"]],[["BUZAU","61158","29/09/2024 23:09","","MN"],["BUZAU","61183","30/09/2024 12:44","30/09/2024 22:03","MN"],["BUZAU","61202","29/09/2024 19:53","","MN"],["GALATI","61121","29/09/2024 20:44","","MN"],["GALATI","61138","30/09/2024 03:18","","MN"],["GALATI","61139","30/09/2024 03:18","","MN"],["GALATI","61140","30/09/2024 03:18","","MN"],["GALATI","61206","30/09/2024 20:54","","MN"],["VRANCEA","61118","29/09/2024 19:54","","MN"],["VRANCEA","61144","29/09/2024 04:00","","MN"],["VRANCEA","61147","30/09/2024 07:08","","MN"],["VRANCEA","61148","30/09/2024 07:17","","MN"],["VRANCEA","61149","30/09/2024 07:00","","MN"],["VRANCEA","61156","30/09/2024 07:30","","MN"],["VRANCEA","61179","30/09/2024 06:36","","MN"],["VRANCEA","61187","30/09/2024 08:30","","MN"],["VRANCEA","61188","30/09/2024 08:25","","MN"],["VRANCEA","61189","30/09/2024 08:25","","MN"],["VRANCEA","61190","30/09/2024 08:16","","MN"],["VRANCEA","61192","30/09/2024 07:30","","MN"],["VRANCEA","61193","30/09/2024 07:30","","MN"],["VRANCEA","61194","30/09/2024 09:28","","MN"],["VRANCEA","61195","30/09/2024 09:00","","MN"],["VRANCEA","61196","30/09/2024 10:00","","MN"],["VRANCEA","61197","30/09/2024 09:50","","MN"],["VRANCEA","61198","30/09/2024 09:30","","MN"],["VRANCEA","61199","30/09/2024 10:31","","MN"],["VRANCEA","61200","30/09/2024 09:32","","MN"]],[["BRAILA","61234","01/10/2024 11:21","","MN"],["BRAILA","61262","01/10/2024 20:35","","MN"],["BUZAU","61158","29/09/2024 23:09","","MN"],["BUZAU","61202","29/09/2024 19:53","","MN"],["BUZAU","61260","01/10/2024 14:50","","MN"],["GALATI","61121","29/09/2024 20:44","","MN"],["GALATI","61138","30/09/2024 03:18","","MN"],["GALATI","61139","30/09/2024 03:18","","MN"],["GALATI","61140","30/09/2024 03:18","","MN"],["GALATI","61259","01/10/2024 19:06","","MN"],["PRAHOVA","61247","01/10/2024 15:37","","MN"],["PRAHOVA","61256","01/10/2024 18:53","","MN"],["PRAHOVA","61261","01/10/2024 19:30","","MN"],["VRANCEA","61238","01/10/2024 13:51","","MN"],["VRANCEA","61253","01/10/2024 07:54","","MN"]],[["BRAILA","61234","01/10/2024 11:21","","MN"],["BRAILA","61262","01/10/2024 20:35","","MN"],["GALATI","61121","29/09/2024 20:44","","MN"],["GALATI","61138","30/09/2024 03:18","","MN"],["GALATI","61139","30/09/2024 03:18","","MN"],["GALATI","61140","30/09/2024 03:18","","MN"],["PRAHOVA","61273","02/10/2024 08:57","","MN"],["PRAHOVA","61297","02/10/2024 20:00","02/10/2024 23:30","MN"],["VRANCEA","61271","02/10/2024 08:00","","MN"]],[["BRAILA","61234","01/10/2024 11:21","","MN"],["BRAILA","61262","01/10/2024 20:35","","MN"],["DAMBOVITA","61304","03/10/2024 09:45","03/10/2024 16:00","MN"],["DAMBOVITA","61306","03/10/2024 08:00","03/10/2024 16:00","MN"],["GALATI","61318","03/10/2024 14:00","03/10/2024 16:00","MN"],["PRAHOVA","61311","03/10/2024 11:01","","MN"]],[["PRAHOVA","61350","04/10/2024 19:30","","MN"]],[["BRAILA","61371","05/10/2024 20:17","","MN"]],[["BUZAU","61400","06/10/2024 20:45","06/10/2024 21:30","MN"],["GALATI","61376","06/10/2024 01:38","","MN"],["PRAHOVA","61399","06/10/2024 18:00","","MN"]],[["BRAILA","61434","07/10/2024 19:20","","MN"],["BUZAU","61435","07/10/2024 20:06","","MN"]],[["PRAHOVA","61464","08/10/2024 20:58","","MN"],["VRANCEA","61463","08/10/2024 19:20","","MN"]],[["PRAHOVA","61488","09/10/2024 15:00","","MN"],["PRAHOVA","61494","09/10/2024 16:48","","MN"]],[["BRAILA","61499","10/10/2024 08:34","","MN"],["GALATI","61530","10/10/2024 20:09","","MN"],["PRAHOVA","61524","10/10/2024 15:57","","MN"]],[["BRAILA","61499","10/10/2024 08:34","","MN"]],[["BRAILA","61499","10/10/2024 08:34","","MN"],["BUZAU","61573","12/10/2024 17:58","","MN"],["DAMBOVITA","61563","12/10/2024 13:30","13/10/2024 09:30","MN"],["PRAHOVA","61572","12/10/2024 19:30","","MN"]],[["BRAILA","61499","10/10/2024 08:34","","MN"],["BUZAU","61573","12/10/2024 17:58","","MN"],["GALATI","61574","13/10/2024 08:33","","MN"]],[["BUZAU","61598","14/10/2024 16:11","","MN"]],[["BUZAU","61598","14/10/2024 16:11","","MN"],["PRAHOVA","61608","15/10/2024 09:00","15/10/2024 16:30","MN"],["PRAHOVA","61618","15/10/2024 09:00","15/10/2024 16:30","MN"],["VRANCEA","61620","15/10/2024 14:55","","MN"]],[["DAMBOVITA","61657","16/10/2024 20:50","","MN"],["GALATI","61646","16/10/2024 13:59","","MN"]],[["DAMBOVITA","61690","17/10/2024 18:40","","MN"],["GALATI","61692","17/10/2024 20:38","","MN"]],[["DAMBOVITA","61697","18/10/2024 09:00","18/10/2024 16:00","MN"],["PRAHOVA","61705","18/10/2024 14:40","","MN"]],[["BUZAU","61715","19/10/2024 17:05","","MN"],["DAMBOVITA","61717","19/10/2024 20:00","","MN"],["PRAHOVA","61718","19/10/2024 20:00","","MN"],["PRAHOVA","61720","19/10/2024 21:15","","MN"]],[["VRANCEA","61729","20/10/2024 18:12","","MN"]],[["GALATI","61751","21/10/2024 13:55","","MN"],["GALATI","61756","21/10/2024 14:26","","MN"],["GALATI","61758","21/10/2024 15:56","","MN"],["GALATI","61760","21/10/2024 17:25","","MN"]],[["GALATI","61758","21/10/2024 15:56","","MN"],["PRAHOVA","61782","22/10/2024 20:53","","MN"]],[["GALATI","61758","21/10/2024 15:56","","MN"]],[["GALATI","61758","21/10/2024 15:56","","MN"]],[["BUZAU","61853","25/10/2024 20:04","","MN"]],[["GALATI","61861","26/10/2024 19:08","","MN"]],[["GALATI","61866","27/10/2024 10:02","","MN"],["VRANCEA","61868","27/10/2024 14:21","","MN"]],[["BRAILA","61886","28/10/2024 16:45","","MN"]],[["PRAHOVA","61912","29/10/2024 19:21","","MN"]],[["BRAILA","61928","30/10/2024 11:26","","MN"],["BRAILA","61930","30/10/2024 09:30","","MN"],["GALATI","61921","30/10/2024 09:30","30/10/2024 15:30","MN"],["GALATI","61926","30/10/2024 10:30","30/10/2024 15:30","MN"],["PRAHOVA","61927","30/10/2024 11:00","30/10/2024 16:00","MN"]],[["BUZAU","61950","31/10/2024 11:00","31/10/2024 15:30","MN"],["DAMBOVITA","61952","31/10/2024 08:30","31/10/2024 16:00","MN"],["GALATI","61942","31/10/2024 09:30","","MN"],["GALATI","61956","31/10/2024 14:00","31/10/2024 16:30","MN"]],[["DAMBOVITA","61962","01/11/2024 09:06","01/11/2024 16:00","MN"],["PRAHOVA","61971","01/11/2024 10:17","","MN"]],[["BUZAU","61984","02/11/2024 16:30","","MN"],["GALATI","61988","02/11/2024 19:43","","MN"]],[["BUZAU","62012","03/11/2024 15:31","","MN"]],[["PRAHOVA","62025","04/11/2024 10:05","","MN"],["PRAHOVA","62047","04/11/2024 14:20","","MN"]],[["PRAHOVA","62070","05/11/2024 20:10","","MN"]],[["DAMBOVITA","62099","06/11/2024 17:17","","MN"],["GALATI","62102","06/11/2024 19:36","","MN"],["PRAHOVA","62098","06/11/2024 04:25","","MN"],["PRAHOVA","62100","06/11/2024 19:15","","MN"],["PRAHOVA","62101","06/11/2024 19:15","","MN"]],[["BRAILA","62121","07/11/2024 13:40","","MN"],["BRAILA","62122","07/11/2024 13:41","","MN"],["DAMBOVITA","62119","07/11/2024 09:30","07/11/2024 16:00","MN"],["VRANCEA","62123","07/11/2024 13:39","","MN"]],[["BRAILA","62139","08/11/2024 14:25","","MN"],["BUZAU","62131","08/11/2024 08:55","08/11/2024 14:55","MN"]],[["BUZAU","62149","09/11/2024 11:06","","MN"],["BUZAU","62153","09/11/2024 11:47","","MN"],["DAMBOVITA","62157","09/11/2024 10:15","","MN"]],[["BRAILA","62175","10/11/2024 17:23","","MN"],["DAMBOVITA","62157","09/11/2024 10:15","","MN"]],[["BUZAU","62208","11/11/2024 19:00","","MN"],["DAMBOVITA","62207","11/11/2024 18:18","","MN"],["DAMBOVITA","62209","11/11/2024 19:33","","MN"],["GALATI","62204","11/11/2024 16:23","","MN"]],[["BRAILA","62211","12/11/2024 05:56","","MN"],["DAMBOVITA","62238","12/11/2024 15:06","12/11/2024 20:45","MN"],["GALATI","62237","12/11/2024 15:08","","MN"]],[["BRAILA","62261","13/11/2024 18:26","","MN"],["DAMBOVITA","62260","13/11/2024 17:28","","MN"]],[["BRAILA","62289","14/11/2024 19:27","","MN"],["BUZAU","62286","14/11/2024 18:10","","MN"],["PRAHOVA","62284","14/11/2024 16:52","","MN"]],[["DAMBOVITA","62314","15/11/2024 17:51","","MN"],["GALATI","62317","15/11/2024 19:20","","MN"]],[["GALATI","62330","16/11/2024 19:07","","MN"],["VRANCEA","62332","16/11/2024 19:36","","MN"]],[["GALATI","62330","16/11/2024 19:07","","MN"]],[["DAMBOVITA","62357","18/11/2024 17:40","","MN"],["GALATI","62356","18/11/2024 18:00","","MN"],["GALATI","62358","18/11/2024 18:25","","MN"]],[["BRAILA","62375","19/11/2024 12:18","19/11/2024 16:00","MN"],["GALATI","62356","18/11/2024 18:00","","MN"]],[["GALATI","62398","20/11/2024 20:06","","MN"]],[["BRAILA","62404","21/11/2024 06:20","","MN"],["BUZAU","62423","21/11/2024 08:00","","MN"],["BUZAU","62424","21/11/2024 09:43","","MN"],["BUZAU","62425","21/11/2024 10:19","","MN"],["BUZAU","62430","21/11/2024 07:47","","MN"],["BUZAU","62432","21/11/2024 12:12","21/11/2024 15:37","MN"],["BUZAU","62433","21/11/2024 13:22","","MN"],["DAMBOVITA","62406","21/11/2024 06:32","","MN"],["DAMBOVITA","62434","21/11/2024 14:10","","MN"],["PRAHOVA","62428","21/11/2024 12:12","","MN"],["VRANCEA","62412","21/11/2024 08:35","","MN"],["VRANCEA","62426","21/11/2024 11:25","","MN"],["VRANCEA","62429","21/11/2024 12:30","","MN"]],[["BUZAU","62467","22/11/2024 15:31","","MN"],["PRAHOVA","62465","22/11/2024 14:40","","MN"]],[["BUZAU","62508","23/11/2024 16:40","","MN"],["DAMBOVITA","62510","23/11/2024 19:00","","MN"],["VRANCEA","62511","23/11/2024 20:08","","MN"]],[["BUZAU","62517","24/11/2024 07:29","","MN"],["PRAHOVA","62518","24/11/2024 07:28","","MN"]],[["PRAHOVA","62545","25/11/2024 17:56","","MN"]],[["PRAHOVA","62566","26/11/2024 13:30","","MN"]],[["BRAILA","62587","27/11/2024 12:28","","MN"],["PRAHOVA","62595","27/11/2024 20:19","","MN"]],[["GALATI","62615","28/11/2024 16:51","","MN"],["PRAHOVA","62617","28/11/2024 19:40","","MN"]],[["BUZAU","62627","29/11/2024 11:00","","MN"],["DAMBOVITA","62635","29/11/2024 16:43","","MN"]],[["VRANCEA","62648","30/11/2024 14:20","","MN"]],[["PRAHOVA","62660","01/12/2024 14:00","","MN"]],[["BUZAU","62686","02/12/2024 19:35","","MN"]],[["VRANCEA","62713","03/12/2024 19:15","","MN"]],[["BRAILA","62739","05/12/2024 20:10","","MN"],["PRAHOVA","62735","05/12/2024 17:30","","MN"]],[["PRAHOVA","62745","06/12/2024 17:47","","MN"],["PRAHOVA","62746","06/12/2024 17:48","","MN"]],[["BRAILA","62767","07/12/2024 17:48","","MN"],["DAMBOVITA","62753","07/12/2024 08:00","","MN"],["DAMBOVITA","62764","07/12/2024 13:14","","MN"],["DAMBOVITA","62768","07/12/2024 18:00","","MN"],["DAMBOVITA","62769","07/12/2024 18:05","","MN"],["VRANCEA","62773","07/12/2024 20:26","","MN"]],[["DAMBOVITA","62753","07/12/2024 08:00","","MN"],["DAMBOVITA","62764","07/12/2024 13:14","","MN"]]]};
+  var n = SD.dates.length;
+  if (!n) return;
+
+  var range   = document.getElementById('ts_deer_range');
+  var dateEl  = document.getElementById('ts_deer_date');
+  var playBtn = document.getElementById('ts_deer_play');
+  range.max   = n - 1;
+  range.value = n - 1;
+
+  function applySnap(idx){
+    var snap = SD.snaps[idx];
+    dateEl.textContent = SD.dates[idx];
+
+    var total   = snap.length;
+    var judete  = {};
+    var ongoing = 0;
+    snap.forEach(function(r){
+      judete[r[0]] = (judete[r[0]] || 0) + 1;
+      if (!r[3]) ongoing++;
+    });
+
+    function set(id, v){ var el = document.getElementById(id); if (el) el.textContent = v; }
+    set('deer_s_total',   total);
+    set('deer_s_judete',  Object.keys(judete).length);
+    set('deer_s_ongoing', ongoing);
+
+    var chart = (window._charts || {})['deer_judet'];
+    if (chart){
+      var sorted = Object.entries(judete).sort(function(a,b){return b[1]-a[1];}).slice(0,10);
+      chart.data.labels = sorted.map(function(e){
+        return e[0].charAt(0).toUpperCase() + e[0].slice(1).toLowerCase();
+      });
+      chart.data.datasets[0].data = sorted.map(function(e){return e[1];});
+      chart.update('none');
+    }
+  }
+
+  applySnap(n - 1);
+  range.addEventListener('input', function(){ applySnap(+this.value); });
+  document.getElementById('ts_deer_prev').addEventListener('click', function(){
+    if (+range.value > 0){ range.value = +range.value - 1; applySnap(+range.value); }
+  });
+  document.getElementById('ts_deer_next').addEventListener('click', function(){
+    if (+range.value < +range.max){ range.value = +range.value + 1; applySnap(+range.value); }
+  });
+  var _tmr = null;
+  playBtn.addEventListener('click', function(){
+    if (_tmr){ clearInterval(_tmr); _tmr = null; playBtn.textContent = '▶'; return; }
+    if (+range.value >= +range.max) range.value = 0;
+    playBtn.textContent = '■';
+    _tmr = setInterval(function(){
+      if (+range.value < +range.max){
+        range.value = +range.value + 1; applySnap(+range.value);
+      } else {
+        clearInterval(_tmr); _tmr = null; playBtn.textContent = '▶';
+      }
+    }, 400);
+  });
+})();
+</script>
+
+<section class="stats">
+  <div class="stat">
+    <div class="stat-value"><span id="deer_s_total">2</span></div>
+    <div class="stat-label">Lucrări / întreruperi</div>
+    <div class="stat-sub">raportate DEER</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value"><span id="deer_s_judete">1</span></div>
+    <div class="stat-label">Județe afectate</div>
+    <div class="stat-sub">în snapshot</div>
+  </div>
+  <div class="stat">
+    <div class="stat-value"><span id="deer_s_ongoing">2</span></div>
+    <div class="stat-label">Fără dată finalizare</div>
+    <div class="stat-sub">posibil în curs</div>
+  </div>
+</section>
+<section class="chart-block">
+  <div class="title">Lucrări DEER — top județe</div>
+  <div class="sub">Număr de înregistrări per județ în snapshot-ul selectat.</div>
+  <div class="chart-box"><canvas id="deer_judet"></canvas></div>
+
+</section>
+<script>
+(function(){
+  var cfg = {"type": "bar", "data": {"labels": ["Dambovita"], "datasets": [{"label": "lucrări", "data": [2], "backgroundColor": "var(--warn)", "borderColor": "var(--warn)"}]}, "options": {"indexAxis": "y", "scales": {"x": {"beginAtZero": true, "stacked": false, "title": {"display": false, "text": ""}}, "y": {"stacked": false}}, "plugins": {"legend": {"display": false}}}};
+  var css = getComputedStyle(document.documentElement);
+  function resolve(v){
+    if (typeof v === 'string' && v.startsWith('var(--')){
+      var name = v.slice(4, -1);
+      return css.getPropertyValue(name).trim() || v;
+    }
+    return v;
+  }
+  function walk(o){
+    if (Array.isArray(o)){ return o.map(walk); }
+    if (o && typeof o === 'object'){
+      var out = {};
+      for (var k in o){ out[k] = walk(o[k]); }
+      return out;
+    }
+    return resolve(o);
+  }
+  cfg = walk(cfg);
+  var el = document.getElementById("deer_judet");
+  if (!el || typeof Chart === 'undefined') return;
+  (window._charts = window._charts || {})["deer_judet"] = new Chart(el.getContext('2d'), cfg);
+})();
+
+</script>
+
+
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="about">
+      <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+      <p>Arhivă automată de date publice din România. Colectare la fiecare 6 ore, istoric versionat în git.
+      Proiect deschis, sursă publică.</p>
+    </div>
+    <div>
+      <h4>Surse</h4>
+      <ul>
+        <li><a href="/trafic-frontiere.html">Poliția de Frontieră</a></li>
+        <li><a href="/andnet.html">CNAIR / ANDNET</a></li>
+        <li><a href="/cmteb.html">CMTEB</a></li>
+        <li><a href="/intreruperi-energie.html">Enel / DEER</a></li>
+        <li><a href="/calitate-aer.html">InfoAer, uRADMonitor</a></li>
+        <li><a href="/interventii-urs.html">MMAP — intervenții urs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Proiect</h4>
+      <ul>
+        <li><a href="/despre.html">Despre &amp; metodologie</a></li>
+        <li><a href="/date-deschise.html">Date deschise</a></li>
+        <li><a href="https://github.com/gov2-ro/prometeu">Sursă (GitHub)</a></li>
+        <li><a href="https://flatgithub.com/gov2-ro/prometeu">Flat Data viewer</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sibling</h4>
+      <ul>
+        <li><a href="https://monitorulpreturilor.gov2.ro/">Monitorul Prețurilor</a></li>
+      </ul>
+    </div>
+    <div class="credit">
+      <span>Ultima actualizare: <span class="mono">2026-03-27T03:46:15+00:00</span></span>
+      <span>Licență: date publice · cod CC0</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

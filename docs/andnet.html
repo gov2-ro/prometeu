@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/app.css">
+<title>Drumuri naționale · Prometeu</title>
+<meta name="description" content="Evenimente rutiere, restricții și lucrări pe drumurile naționale din România.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="/assets/charts.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Sari la conținut</a>
+<header class="masthead">
+  <div class="masthead-row">
+    <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+    <div class="dateline">Arhivă de date publice <span class="dot">·</span> RO</div>
+  </div>
+  <nav class="nav" aria-label="Secțiuni"><a href="/">Prometeu</a>
+  <a href="/trafic-frontiere.html">Trafic</a>
+  <a href="/andnet.html" class="active">Drumuri</a>
+  <a href="/cmteb.html">Termoficare</a>
+  <a href="/intreruperi-energie.html">Energie</a>
+  <a href="/calitate-aer.html">Aer</a>
+  <a href="/interventii-urs.html">Urși</a>
+  <a href="/despre.html">Despre</a>
+  <a href="/date-deschise.html">Date</a></nav>
+</header>
+<main id="main" class="container container--wide">
+<section class="page-head">
+  <h1>Drumuri naționale</h1>
+  <p class="lead">CNAIR / ANDNET publică fiecare eveniment rutier, restricție, lucrare
+  și raport meteo de pe rețeaua națională. Arhivăm toate rapoartele — mai jos o
+  vedere de ansamblu asupra istoricului.</p>
+  <div class="meta-row"><span class="label">Sursă</span>CNAIR / ANDNET</div>
+</section>
+
+<section class="stats">
+    <div class="stat"><div class="stat-value">2 513</div><div class="stat-label">Evenimente rutiere</div><div class="stat-sub">în arhivă</div></div>
+    <div class="stat"><div class="stat-value">130</div><div class="stat-label">Circulație întreruptă</div><div class="stat-sub">raportări</div></div>
+    <div class="stat"><div class="stat-value">5 429</div><div class="stat-label">Circulație îngreunată</div><div class="stat-sub">raportări</div></div>
+    <div class="stat"><div class="stat-value">26 729</div><div class="stat-label">Lucrări</div><div class="stat-sub">intrări</div></div>
+</section>
+
+<h2 class="section-title">Unde și de ce</h2>
+<div class="grid-2">
+  <section class="chart-block">
+  <div class="title">Top drumuri cu cele mai multe evenimente</div>
+  <div class="sub">Numărul total de evenimente rutiere pe drum, din arhivă.</div>
+  <div class="chart-box"><canvas id="andnet_dn"></canvas></div>
+
+</section>
+<script>
+(function(){
+  var cfg = {"type": "bar", "data": {"labels": ["DN7CC", "DN67B", "A1", "DN1", "DN7", "A2", "A3Ms", "DN21", "DN2", "DN6", "A3", "DN5"], "datasets": [{"label": "evenimente", "data": [588, 567, 492, 162, 141, 56, 43, 28, 27, 25, 23, 16], "backgroundColor": "var(--accent)", "borderColor": "var(--accent)"}]}, "options": {"indexAxis": "y", "scales": {"x": {"beginAtZero": true, "stacked": false, "title": {"display": false, "text": ""}}, "y": {"stacked": false}}, "plugins": {"legend": {"display": false}}}};
+  var css = getComputedStyle(document.documentElement);
+  function resolve(v){
+    if (typeof v === 'string' && v.startsWith('var(--')){
+      var name = v.slice(4, -1);
+      return css.getPropertyValue(name).trim() || v;
+    }
+    return v;
+  }
+  function walk(o){
+    if (Array.isArray(o)){ return o.map(walk); }
+    if (o && typeof o === 'object'){
+      var out = {};
+      for (var k in o){ out[k] = walk(o[k]); }
+      return out;
+    }
+    return resolve(o);
+  }
+  cfg = walk(cfg);
+  var el = document.getElementById("andnet_dn");
+  if (!el || typeof Chart === 'undefined') return;
+  new Chart(el.getContext('2d'), cfg);
+})();
+
+</script>
+
+  <section class="chart-block">
+  <div class="title">Cele mai frecvente cauze</div>
+  <div class="sub">Primele 60 de caractere ale câmpului „Cauza”.</div>
+  <div class="chart-box"><canvas id="andnet_cauze"></canvas></div>
+
+</section>
+<script>
+(function(){
+  var cfg = {"type": "bar", "data": {"labels": ["Datorita precipitatiilor din ultima perioada, pe D", "Podul peste raul Olt nu prezinta siguranta pentru ", "Podul peste raul Olt nu prezinta siguranta pentru ", "Circulatia rutiera se desfasoara pe ambele sensuri", "Pasaj CF pe DN 1 la km 55+653. Lucrari de inlocuir", "Se executa lucrari de reparatii la partea carosabi", "Se executa lucrari de reparatii la partea carosabi", "Taiere arbori , curatat versanti in vederea montar"], "datasets": [{"label": "n", "data": [586, 445, 121, 74, 50, 42, 33, 26], "backgroundColor": "var(--c-2)", "borderColor": "var(--c-2)"}]}, "options": {"indexAxis": "y", "scales": {"x": {"beginAtZero": true, "stacked": false, "title": {"display": false, "text": ""}}, "y": {"stacked": false}}, "plugins": {"legend": {"display": false}}}};
+  var css = getComputedStyle(document.documentElement);
+  function resolve(v){
+    if (typeof v === 'string' && v.startsWith('var(--')){
+      var name = v.slice(4, -1);
+      return css.getPropertyValue(name).trim() || v;
+    }
+    return v;
+  }
+  function walk(o){
+    if (Array.isArray(o)){ return o.map(walk); }
+    if (o && typeof o === 'object'){
+      var out = {};
+      for (var k in o){ out[k] = walk(o[k]); }
+      return out;
+    }
+    return resolve(o);
+  }
+  cfg = walk(cfg);
+  var el = document.getElementById("andnet_cauze");
+  if (!el || typeof Chart === 'undefined') return;
+  new Chart(el.getContext('2d'), cfg);
+})();
+
+</script>
+
+</div>
+
+<h2 class="section-title">Evenimente recente</h2>
+<section class="chart-block">
+  <div class="title">Ultimele evenimente raportate</div>
+  <table class="tbl">
+    <thead><tr><th>Drum</th><th>De la</th><th>Până la</th><th>Între</th><th>Cauză</th></tr></thead>
+    <tbody><tr><td class="mono">A1</td><td class="mono">2024-04-03 09:00</td><td class="mono">2024-04-03 15:00</td><td> - </td><td>Se executa lucrari de strangere a nisipului din zona mediana.</td></tr>
+<tr><td class="mono">DN1A</td><td class="mono">2024-04-03 08:50</td><td class="mono">2024-04-03 11:00</td><td>LIPANESTI (PH) - </td><td>Va informam ca a avut loc un eveniment rutier in care au fost implicate un TIR si un autoturism. In urma evenimentului nu s-au raporatat victime.</td></tr>
+<tr><td class="mono">A2</td><td class="mono">2024-04-02 09:00</td><td class="mono">2024-04-02 19:00</td><td>BRANESTI (IF) - </td><td>Se executa lucrari de reparatii la partea carosabila, pe sensul Constanta-Bucuresti.Banda unu si banda de urgente sunt restrictionate.</td></tr>
+<tr><td class="mono">A3</td><td class="mono">2024-04-02 09:00</td><td class="mono">2024-04-02 16:00</td><td>VOLUNTARI (IF) - </td><td>Se executa lucrari de mentenanta sisteme de iluminat. Banda unu, pe ambele sensuri de mers, este restrictionata.</td></tr>
+<tr><td class="mono">A2</td><td class="mono">2024-04-02 09:00</td><td class="mono">2024-04-02 19:00</td><td>BRANESTI (IF) - </td><td>Se executa lucrari de reparatii la partea carosabila, pe sensul Constanta-Bucuresti.Banda unu si banda de urgente sunt restrictionate.</td></tr>
+<tr><td class="mono">A3</td><td class="mono">2024-04-02 09:00</td><td class="mono">2024-04-02 16:00</td><td>VOLUNTARI (IF) - </td><td>Se executa lucrari de mentenanta sisteme de iluminat. Banda unu, pe ambele sensuri de mers, este restrictionata.</td></tr>
+<tr><td class="mono">A2</td><td class="mono">2024-04-02 08:30</td><td class="mono">2024-04-02 15:30</td><td>BRANESTI (IF) - </td><td>Se executa lucrari de reparatii la partea carosabila, pe sensul Bucuresti - Constanta. Banda unu si banda de urgente sunt restrictionate.</td></tr>
+<tr><td class="mono">DN57</td><td class="mono">2024-04-02 07:40</td><td class="mono">2024-04-02 09:30</td><td>MOLDOVA NOUA (CS) - </td><td>Un autobuz a luat foc, din cauza unei defectiuni tehnice.Drum umed, ploua, temperatura + 8 grade C.</td></tr>
+<tr><td class="mono">A1</td><td class="mono">2024-04-01 11:00</td><td class="mono">2024-04-01 16:30</td><td>ARAD (AR) - ARAD (AR)</td><td>Pe Calea 1 se executa lucrari de demontare/montare parapet marginal</td></tr>
+<tr><td class="mono">A3Ms</td><td class="mono">2024-04-01 09:39</td><td class="mono">2024-04-01 17:00</td><td>CHETANI (MS) - CHETANI (MS)</td><td>Se va restrictiona alternativ circulatia in Nodul rutier Chetani in vederea aplicarii marcajelor rutiere.</td></tr>
+<tr><td class="mono">A3Ms</td><td class="mono">2024-04-01 09:32</td><td class="mono">2024-04-01 17:00</td><td>HADARENI (MS) - HADARENI (MS)</td><td>Lucrari de vopsirea soclurilor de beon la panourile fonoabsorbante. Banda de urgenta calea 1 restrictionata.</td></tr>
+<tr><td class="mono">A4</td><td class="mono">2024-04-01 04:17</td><td class="mono">2024-04-01 12:00</td><td>CONSTANTA (CT) - CONSTANTA (CT)</td><td>Eveniment rutier produs pe A4, calea 2, km15+100, banda 1 este blocata. Coliziune intre 2 Tir uri. La fata locului: personal CIC Valea Dacilor si Ambulanta.</td></tr>
+<tr><td class="mono">DN1</td><td class="mono">2024-03-29 23:00</td><td class="mono">2024-03-31 05:00</td><td>BUCURESTI (B) - </td><td>Restrictie de circulatie prin pasajul Baneasa, valabila in noptile de 29.03.2024, ora 23:00 - 30.03.2024, ora 05:00 si 30.03.2024, ora 23:00 - 31.03.2024, ora 0</td></tr>
+<tr><td class="mono">DN1</td><td class="mono">2024-03-29 23:00</td><td class="mono">2024-03-31 05:00</td><td>BUCURESTI (B) - </td><td>Restrictie de circulatie prin pasajul Baneasa, valabila in noptile de 29.03.2024, ora 23:00 - 30.03.2024, ora 05:00 si 30.03.2024, ora 23:00 - 31.03.2024, ora 0</td></tr>
+<tr><td class="mono">A3Ms</td><td class="mono">2024-03-29 17:00</td><td class="mono">2024-03-29 18:00</td><td>TURDA (CJ) - IERNUT (MS)</td><td>Se executa lucrari de mascare instalatii electrice, pe Pasajul peste Autostrada .Restrictionata banda 2 de pe calea 2. (sens Turda-Iernut).</td></tr></tbody>
+  </table>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="about">
+      <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+      <p>Arhivă automată de date publice din România. Colectare la fiecare 6 ore, istoric versionat în git.
+      Proiect deschis, sursă publică.</p>
+    </div>
+    <div>
+      <h4>Surse</h4>
+      <ul>
+        <li><a href="/trafic-frontiere.html">Poliția de Frontieră</a></li>
+        <li><a href="/andnet.html">CNAIR / ANDNET</a></li>
+        <li><a href="/cmteb.html">CMTEB</a></li>
+        <li><a href="/intreruperi-energie.html">Enel / DEER</a></li>
+        <li><a href="/calitate-aer.html">InfoAer, uRADMonitor</a></li>
+        <li><a href="/interventii-urs.html">MMAP — intervenții urs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Proiect</h4>
+      <ul>
+        <li><a href="/despre.html">Despre &amp; metodologie</a></li>
+        <li><a href="/date-deschise.html">Date deschise</a></li>
+        <li><a href="https://github.com/gov2-ro/prometeu">Sursă (GitHub)</a></li>
+        <li><a href="https://flatgithub.com/gov2-ro/prometeu">Flat Data viewer</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sibling</h4>
+      <ul>
+        <li><a href="https://monitorulpreturilor.gov2.ro/">Monitorul Prețurilor</a></li>
+      </ul>
+    </div>
+    <div class="credit">
+      <span>Ultima actualizare: <span class="mono">2026-03-27T03:46:15+00:00</span></span>
+      <span>Licență: date publice · cod CC0</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="/assets/app.css">
+<title>Date deschise · Prometeu</title>
+<meta name="description" content="Descărcări CSV și linkuri către sursele brute.">
+
+</head>
+<body>
+<a class="skip" href="#main">Sari la conținut</a>
+<header class="masthead">
+  <div class="masthead-row">
+    <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+    <div class="dateline">Arhivă de date publice <span class="dot">·</span> RO</div>
+  </div>
+  <nav class="nav" aria-label="Secțiuni"><a href="/">Prometeu</a>
+  <a href="/trafic-frontiere.html">Trafic</a>
+  <a href="/andnet.html">Drumuri</a>
+  <a href="/cmteb.html">Termoficare</a>
+  <a href="/intreruperi-energie.html">Energie</a>
+  <a href="/calitate-aer.html">Aer</a>
+  <a href="/interventii-urs.html">Urși</a>
+  <a href="/despre.html">Despre</a>
+  <a href="/date-deschise.html" class="active">Date</a></nav>
+</header>
+<main id="main" class="container">
+<section class="prose">
+  <h1>Date deschise</h1>
+  <p class="lead">Toate datele folosite pe acest site pot fi descărcate liber.
+  Sursa brută trăiește în depozitul git (cu istoric complet); extractele per-pagină
+  sunt disponibile ca CSV aici.</p>
+
+  <table class="tbl">
+    <thead><tr><th>Set</th><th>Sursă în repo</th><th>Extract</th></tr></thead>
+    <tbody>
+        <tr><td><a href="/trafic-frontiere.html">Trafic la frontieră</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/politia-de-frontiera/">data/politia-de-frontiera/</a></td><td><a href="/data/trafic-frontiere.csv">CSV</a></td></tr>
+        <tr><td><a href="/andnet.html">Drumuri naționale</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/andnet/">data/andnet/</a></td><td><a href="/data/andnet.csv">CSV</a></td></tr>
+        <tr><td><a href="/cmteb.html">Termoficare București</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/cmteb/">data/cmteb/</a></td><td><a href="/data/cmteb.csv">CSV</a></td></tr>
+        <tr><td><a href="/intreruperi-energie.html">Întreruperi energie</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/distributie-energie/">data/distributie-energie/</a></td><td><a href="/data/intreruperi-energie.csv">CSV</a></td></tr>
+        <tr><td><a href="/calitate-aer.html">Calitatea aerului</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/calitateaer.ro/">data/calitateaer.ro/</a></td><td><a href="/data/calitate-aer.csv">CSV</a></td></tr>
+        <tr><td><a href="/interventii-urs.html">Intervenții urs</a></td><td><a href="https://github.com/gov2-ro/prometeu/tree/main/data/interventii-urs/">data/interventii-urs/</a></td><td><a href="/data/interventii-urs.csv">CSV</a></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Baza SQLite</h2>
+  <p>Întregul istoric, reconstruit pe tabele cu commit FK, se află în
+  <a href="https://github.com/gov2-ro/prometeu/raw/main/data/prometeu.db">data/prometeu.db</a>
+  (reconstruit la fiecare rulare de <code>build-db.sh</code>).</p>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="about">
+      <a class="wordmark" href="/"><span class="mark"></span>Prometeu</a>
+      <p>Arhivă automată de date publice din România. Colectare la fiecare 6 ore, istoric versionat în git.
+      Proiect deschis, sursă publică.</p>
+    </div>
+    <div>
+      <h4>Surse</h4>
+      <ul>
+        <li><a href="/trafic-frontiere.html">Poliția de Frontieră</a></li>
+        <li><a href="/andnet.html">CNAIR / ANDNET</a></li>
+        <li><a href="/cmteb.html">CMTEB</a></li>
+        <li><a href="/intreruperi-energie.html">Enel / DEER</a></li>
+        <li><a href="/calitate-aer.html">InfoAer, uRADMonitor</a></li>
+        <li><a href="/interventii-urs.html">MMAP — intervenții urs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Proiect</h4>
+      <ul>
+        <li><a href="/despre.html">Despre &amp; metodologie</a></li>
+        <li><a href="/date-deschise.html">Date deschise</a></li>
+        <li><a href="https://github.com/gov2-ro/prometeu">Sursă (GitHub)</a></li>
+        <li><a href="https://flatgithub.com/gov2-ro/prometeu">Flat Data viewer</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sibling</h4>
+      <ul>
+        <li><a href="https://monitorulpreturilor.gov2.ro/">Monitorul Prețurilor</a></li>
+      </ul>
+    </div>
+    <div class="credit">
+      <span>Ultima actualizare: <span class="mono">2026-03-27T03:46:15+00:00</span></span>
+      <span>Licență: date publice · cod CC0</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
