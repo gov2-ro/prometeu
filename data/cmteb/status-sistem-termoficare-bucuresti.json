@@ -2136,7 +2136,7 @@
         "Long": 26.055639
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "2 Alexandria",
         "tip": "Oprire ACC",
@@ -2308,7 +2308,7 @@
         "Long": 26.057274
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "Teiuş",
         "tip": "Oprire ACC",
@@ -2427,7 +2427,7 @@
         "Long": 26.058443618095
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "8 Alexandria",
         "tip": "Oprire ACC",
@@ -2455,7 +2455,7 @@
         "Long": 26.058763
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "8 Margeanului",
         "tip": "Oprire ACC",
@@ -2530,12 +2530,11 @@
         "Long": 26.060203
     },
     {
-        "stare": "Lucrarii POIM",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Intrarea Drumul Taberei",
-        "tip": "Oprire ACC",
-        "remediere": "27.04.2026 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.424038,
         "Long": 26.061132
     },
@@ -2558,7 +2557,7 @@
         "Long": 26.061323116694
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "1 Alexandria",
         "tip": "Oprire ACC",
@@ -2577,7 +2576,7 @@
         "Long": 26.061609
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "Garoafei",
         "tip": "Oprire ACC",
@@ -2605,12 +2604,11 @@
         "Long": 26.061751
     },
     {
-        "stare": "Lucrarii POIM",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Nabucului",
-        "tip": "Oprire ACC",
-        "remediere": "27.04.2026 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42164,
         "Long": 26.061828
     },
@@ -2633,12 +2631,11 @@
         "Long": 26.062189931329
     },
     {
-        "stare": "Lucrarii POIM",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "2 Drumul Sarii",
-        "tip": "Oprire ACC",
-        "remediere": "27.04.2026 23:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.42270918352,
         "Long": 26.062222656868
     },
@@ -2886,12 +2883,11 @@
         "Long": 26.06697
     },
     {
-        "stare": "Remediere avarie în punctul termic pe circuitul primar",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Marinescu",
-        "tip": "Oprire ACC",
-        "remediere": "27.04.2026 17:30",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.434689,
         "Long": 26.066986
     },
@@ -2932,7 +2928,7 @@
         "Long": 26.0675335
     },
     {
-        "stare": "Depistare si remediere avarie pe Sos, Alexandriei",
+        "stare": "Depistare si remediere avarie circuit primar - Soseaua  Alexandriei",
         "culoare": "#e0002b",
         "denumire": "Soldat Croitoru",
         "tip": "Oprire ACC",
@@ -6015,11 +6011,12 @@
         "Long": 26.125831
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "2 Teiul Doamnei",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "27.04.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.461141708789,
         "Long": 26.125906099465
     },
@@ -6350,12 +6347,11 @@
         "Long": 26.13070950374
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "4 Colentina",
-        "tip": "Deficienta ACC",
-        "remediere": "27.04.2026 23:30",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.459286465278,
         "Long": 26.130730316136
     },
@@ -6641,11 +6637,12 @@
         "Long": 26.135111
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "2 Colentina 2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "27.04.2026 23:30",
+        "status": "deficiente",
         "Lat": 44.462756,
         "Long": 26.135144
     },
@@ -7789,7 +7786,7 @@
         "culoare": "#e0002b",
         "denumire": "PT Scoala Ilioara",
         "tip": "Oprire ACC",
-        "remediere": "27.04.2026 23:00",
+        "remediere": "28.04.2026 23:00",
         "status": "avarii",
         "Lat": 44.410453020198,
         "Long": 26.158395060836
@@ -7948,11 +7945,12 @@
         "Long": 26.162282683397
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Remediere avarie racord primar",
+        "culoare": "#e0002b",
         "denumire": "6C4/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Oprire ACC",
+        "remediere": "28.04.2026 23:00",
+        "status": "avarii",
         "Lat": 44.419406578109,
         "Long": 26.162431708624
     },
