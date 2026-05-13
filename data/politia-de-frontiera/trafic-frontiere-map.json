@@ -1,7 +1,7 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":16,
+    "Timp":10,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -11,7 +11,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":21,
+    "Timp":15,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -21,7 +21,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":80,
+    "Timp":60,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":80,
+    "Timp":60,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -121,41 +121,41 @@
   },
   {
     "Denumire":"Halmeu",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera. Traficul este blocat",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Halmeu",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire: 1 artera.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire: 1 artera. Traficul este blocat",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Halmeu",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. Traficul este blocat.",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Halmeu",
-    "Timp":20,
-    "Info":"Intrare: 1 artera; Iesire 1 artera.",
+    "Timp":60,
+    "Info":"Intrare: 1 artera; Iesire 1 artera. Traficul este blocat.",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -181,11 +181,11 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":40,
+    "Timp":20,
     "Info":"Intrare 1 artera, iesire 1 artera",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -501,27 +501,27 @@
   },
   {
     "Denumire":"Sculeni",
+    "Timp":25,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
     "Timp":15,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"green",
     "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":35,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"orange",
-    "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":30,
+    "Timp":50,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
@@ -541,21 +541,21 @@
   },
   {
     "Denumire":"Sighetu Marmației",
-    "Timp":10,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Trafic rutier restrictionat in perioada 15.04-15.05.2026, de luni pana vineri in intervalul orar 09:00-16:00. Traficul pietonal nu este afectat.",
+    "Timp":60,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Traficul rutier si pietonal este blocat.",
     "Latitude":"47.938771834787026",
     "Longitude":"23.87753517983174",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Sighetu Marmației",
-    "Timp":10,
-    "Info":"Intrare: 2 artere; Iesire: 2 artere. Trafic rutier restrictionat in perioada 15.04-15.05.2026, de luni pana vineri in intervalul orar 09:00-16:00. Traficul pietonal nu este afectat.",
+    "Timp":60,
+    "Info":"Intrare: 2 artere; Iesire: 2 artere. Traficul rutier si pietonal este blocat.",
     "Latitude":"47.938771834787026",
     "Longitude":"23.87753517983174",
-    "Status":"green",
+    "Status":"red",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -631,7 +631,7 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":20,
+    "Timp":10,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
