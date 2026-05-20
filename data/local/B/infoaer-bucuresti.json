@@ -396,7 +396,7 @@
     "Type": "CalitateAer",
     "Lon": 26.098297,
     "Lat": 44.435043,
-    "Icon": "/modules/infoaer/images/pins/CalitateAer-2.svg",
+    "Icon": "/modules/infoaer/images/pins/CalitateAer-1.svg",
     "Name": "B-6"
   },
   {
@@ -412,7 +412,7 @@
     "Type": "CalitateAer",
     "Lon": 26.144476,
     "Lat": 44.649033,
-    "Icon": "/modules/infoaer/images/pins/CalitateAer-1.svg",
+    "Icon": "/modules/infoaer/images/pins/CalitateAer-2.svg",
     "Name": "B-8"
   },
   {
@@ -428,7 +428,7 @@
     "Type": "CalitateAer",
     "Lon": 25.987375,
     "Lat": 44.46039,
-    "Icon": "/modules/infoaer/images/pins/CalitateAer-1.svg",
+    "Icon": "/modules/infoaer/images/pins/CalitateAer-2.svg",
     "Name": "B-10"
   },
   {
@@ -452,7 +452,7 @@
     "Type": "CalitateAer",
     "Lon": 26.130299,
     "Lat": 44.45076,
-    "Icon": "/modules/infoaer/images/pins/CalitateAer-1.svg",
+    "Icon": "/modules/infoaer/images/pins/CalitateAer-2.svg",
     "Name": "B-13"
   },
   {
@@ -594,25 +594,289 @@
   {
     "Id": 75,
     "Type": "Bettair",
-    "Lon": 26.09006,
-    "Lat": 44.43936,
+    "Lon": 26.09003,
+    "Lat": 44.440028,
     "Icon": "/modules/infoaer/images/pins/Bettair-1.svg",
     "Name": "Institutul de Științe ale Educației (IȘE)"
   },
   {
     "Id": 77,
     "Type": "Bettair",
-    "Lon": 26.09708,
-    "Lat": 44.4162,
+    "Lon": 26.09645,
+    "Lat": 44.41642,
     "Icon": "/modules/infoaer/images/pins/Bettair-1.svg",
     "Name": "Muzeul Tehnic Dimitrie Leonida"
   },
   {
     "Id": 81,
     "Type": "Bettair",
-    "Lon": 26.09351,
-    "Lat": 44.43502,
+    "Lon": 26.09346,
+    "Lat": 44.435008,
     "Icon": "/modules/infoaer/images/pins/Bettair-1.svg",
     "Name": "Cișmigiu"
+  },
+  {
+    "Id": 83,
+    "Type": "MQTT",
+    "Lon": 26.165784,
+    "Lat": 44.444806,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-1"
+  },
+  {
+    "Id": 84,
+    "Type": "MQTT",
+    "Lon": 26.165467,
+    "Lat": 44.442984,
+    "Icon": "/modules/infoaer/images/pins/MQTT-2.svg",
+    "Name": "Pantelimon-2"
+  },
+  {
+    "Id": 85,
+    "Type": "MQTT",
+    "Lon": 26.165076,
+    "Lat": 44.443319,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-3"
+  },
+  {
+    "Id": 86,
+    "Type": "MQTT",
+    "Lon": 26.163974,
+    "Lat": 44.4437,
+    "Icon": "/modules/infoaer/images/pins/MQTT-2.svg",
+    "Name": "Pantelimon-4"
+  },
+  {
+    "Id": 87,
+    "Type": "MQTT",
+    "Lon": 26.162803,
+    "Lat": 44.442754,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-5"
+  },
+  {
+    "Id": 88,
+    "Type": "MQTT",
+    "Lon": 26.161558,
+    "Lat": 44.443386,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-6"
+  },
+  {
+    "Id": 89,
+    "Type": "MQTT",
+    "Lon": 26.162129,
+    "Lat": 44.443606,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-7"
+  },
+  {
+    "Id": 90,
+    "Type": "MQTT",
+    "Lon": 26.161313,
+    "Lat": 44.443834,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-8"
+  },
+  {
+    "Id": 91,
+    "Type": "MQTT",
+    "Lon": 26.161801,
+    "Lat": 44.444745,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-9"
+  },
+  {
+    "Id": 92,
+    "Type": "MQTT",
+    "Lon": 26.163265,
+    "Lat": 44.444007,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-10"
+  },
+  {
+    "Id": 93,
+    "Type": "MQTT",
+    "Lon": 26.163671,
+    "Lat": 44.444922,
+    "Icon": "/modules/infoaer/images/pins/MQTT-2.svg",
+    "Name": "Pantelimon-11"
+  },
+  {
+    "Id": 94,
+    "Type": "MQTT",
+    "Lon": 26.163844,
+    "Lat": 44.442847,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-12"
+  },
+  {
+    "Id": 95,
+    "Type": "MQTT",
+    "Lon": 26.162318,
+    "Lat": 44.443864,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-13"
+  },
+  {
+    "Id": 96,
+    "Type": "MQTT",
+    "Lon": 26.163029,
+    "Lat": 44.44337,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-14"
+  },
+  {
+    "Id": 97,
+    "Type": "MQTT",
+    "Lon": 26.163917,
+    "Lat": 44.443256,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-15"
+  },
+  {
+    "Id": 98,
+    "Type": "MQTT",
+    "Lon": 26.165054,
+    "Lat": 44.444967,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-16"
+  },
+  {
+    "Id": 99,
+    "Type": "MQTT",
+    "Lon": 26.164261,
+    "Lat": 44.44399,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-17"
+  },
+  {
+    "Id": 100,
+    "Type": "MQTT",
+    "Lon": 26.164432,
+    "Lat": 44.44323,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-18"
+  },
+  {
+    "Id": 101,
+    "Type": "MQTT",
+    "Lon": 26.165519,
+    "Lat": 44.443999,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-19"
+  },
+  {
+    "Id": 102,
+    "Type": "MQTT",
+    "Lon": 26.164124,
+    "Lat": 44.444631,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "Pantelimon-20"
+  },
+  {
+    "Id": 103,
+    "Type": "MQTT",
+    "Lon": 26.118938,
+    "Lat": 44.462142,
+    "Icon": "/modules/infoaer/images/pins/MQTT-4.svg",
+    "Name": "UTCB-1"
+  },
+  {
+    "Id": 104,
+    "Type": "MQTT",
+    "Lon": 26.120162,
+    "Lat": 44.46147,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-2"
+  },
+  {
+    "Id": 105,
+    "Type": "MQTT",
+    "Lon": 26.120333,
+    "Lat": 44.461744,
+    "Icon": "/modules/infoaer/images/pins/MQTT-6.svg",
+    "Name": "UTCB-3"
+  },
+  {
+    "Id": 106,
+    "Type": "MQTT",
+    "Lon": 26.12224,
+    "Lat": 44.462967,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-4"
+  },
+  {
+    "Id": 107,
+    "Type": "MQTT",
+    "Lon": 26.121852,
+    "Lat": 44.461941,
+    "Icon": "/modules/infoaer/images/pins/MQTT-4.svg",
+    "Name": "UTCB-5"
+  },
+  {
+    "Id": 108,
+    "Type": "MQTT",
+    "Lon": 26.121325,
+    "Lat": 44.462238,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-6"
+  },
+  {
+    "Id": 109,
+    "Type": "MQTT",
+    "Lon": 26.121028,
+    "Lat": 44.462373,
+    "Icon": "/modules/infoaer/images/pins/MQTT-2.svg",
+    "Name": "UTCB-7"
+  },
+  {
+    "Id": 110,
+    "Type": "MQTT",
+    "Lon": 26.122623,
+    "Lat": 44.462267,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-8"
+  },
+  {
+    "Id": 111,
+    "Type": "MQTT",
+    "Lon": 26.123369,
+    "Lat": 44.461545,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-9"
+  },
+  {
+    "Id": 112,
+    "Type": "MQTT",
+    "Lon": 26.122328,
+    "Lat": 44.462675,
+    "Icon": "/modules/infoaer/images/pins/MQTT-1.svg",
+    "Name": "UTCB-10"
+  },
+  {
+    "Id": 113,
+    "Type": "MQTT",
+    "Lon": 26.120934,
+    "Lat": 44.460768,
+    "Icon": "/modules/infoaer/images/pins/MQTT-4.svg",
+    "Name": "UTCB-11"
+  },
+  {
+    "Id": 114,
+    "Type": "MQTT",
+    "Lon": 26.120212,
+    "Lat": 44.46034,
+    "Icon": "/modules/infoaer/images/pins/MQTT-2.svg",
+    "Name": "UTCB-12"
+  },
+  {
+    "Id": 115,
+    "Type": "MQTT",
+    "Lon": 26.119815,
+    "Lat": 44.46021,
+    "Icon": "/modules/infoaer/images/pins/MQTT-4.svg",
+    "Name": "UTCB-13"
   }
 ]
