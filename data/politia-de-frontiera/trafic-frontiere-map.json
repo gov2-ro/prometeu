@@ -1,17 +1,17 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":11,
+    "Timp":32,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
-    "Timp":12,
+    "Timp":28,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -21,28 +21,28 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":50,
+    "Timp":90,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
-    "Timp":50,
+    "Timp":90,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
   {
     "Denumire":"Bumbăta",
     "Timp":15,
-    "Info":"",
+    "Info":"Mentenanata pod pontoane intre orele 17.30-19.30",
     "Latitude":"46.48343071528536",
     "Longitude":"28.230584720334427",
     "Status":"green",
@@ -52,7 +52,7 @@
   {
     "Denumire":"Bumbăta",
     "Timp":15,
-    "Info":"",
+    "Info":"Mentenanata pod pontoane intre orele 17.30-19.30",
     "Latitude":"46.48343071528536",
     "Longitude":"28.230584720334427",
     "Status":"green",
@@ -98,16 +98,6 @@
     "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Galați",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"45.46825360262536",
-    "Longitude":"28.188611261901883",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
   },
   {
     "Denumire":"Galați",
@@ -116,6 +106,16 @@
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
     "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Galați",
+    "Timp":40,
+    "Info":"",
+    "Latitude":"45.46825360262536",
+    "Longitude":"28.188611261901883",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -361,7 +361,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":15,
+    "Timp":25,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -381,151 +381,151 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"45.91761677",
-    "Longitude":"28.11879872999998",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Oancea",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"45.91761677",
-    "Longitude":"28.11879872999998",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier I",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.67547766480826",
-    "Longitude":"22.53279268346705",
-    "Status":"green",
-    "Tip vehicul":"Camioane",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Porțile de Fier II",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"44.309086364909426",
-    "Longitude":"22.569930550429717",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Racovăț",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.099012",
-    "Longitude":"26.281062",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":10,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Rădăuți Prut",
-    "Timp":15,
-    "Info":"",
-    "Latitude":"48.252499210733916",
-    "Longitude":"26.803089363021854",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":13,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Sculeni",
-    "Timp":18,
-    "Info":"",
-    "Latitude":"47.31616400549972",
-    "Longitude":"27.610375267906193",
-    "Status":"green",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Sculeni",
     "Timp":20,
     "Info":"",
+    "Latitude":"45.91761677",
+    "Longitude":"28.11879872999998",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Oancea",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"45.91761677",
+    "Longitude":"28.11879872999998",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":20,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier I",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.67547766480826",
+    "Longitude":"22.53279268346705",
+    "Status":"green",
+    "Tip vehicul":"Camioane",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Porțile de Fier II",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"44.309086364909426",
+    "Longitude":"22.569930550429717",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Racovăț",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.099012",
+    "Longitude":"26.281062",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":10,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Rădăuți Prut",
+    "Timp":15,
+    "Info":"",
+    "Latitude":"48.252499210733916",
+    "Longitude":"26.803089363021854",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":21,
+    "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
     "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":21,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Sculeni",
+    "Timp":50,
+    "Info":"",
+    "Latitude":"47.31616400549972",
+    "Longitude":"27.610375267906193",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -601,11 +601,11 @@
   },
   {
     "Denumire":"Stînca",
-    "Timp":15,
+    "Timp":35,
     "Info":"",
     "Latitude":"47.833497321297024",
     "Longitude":"27.22010850534423",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
