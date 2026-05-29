@@ -688,22 +688,6 @@
 	"date_end": "30-05-2026 16:00"
 },
 {
-	"coords": "[28.55231957, 44.2017798]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 6.0,
-	"name": "Lucrari  A4",
-	"Judet": "CT;",
-	"UAT": "Constanța;",
-	"Km": "7+296",
-	"Tip Lucrari": "Lucrari inlocuire rosturi",
-	"Variante de ocolire": "Pe calea 1+ calea 2 se inchide banda nr 2, se circula pe banda nr 1, cu restrictie de viteza de 60 km/h. Lucrarea este semnalizata corespunzator.",
-	"lat": 28.55231957,
-	"long": 44.2017798,
-	"date_start": "22-05-2026 07:00",
-	"date_end": "31-05-2026 23:59"
-},
-{
 	"coords": "[25.95118222, 47.5484236]",
 	"culoare": 0,
 	"raza": 7,
@@ -730,10 +714,45 @@
 	"UAT": "Belinț;",
 	"Localitati": "SANOVITA (TM) - SANOVITA (TM)",
 	"Km": "467+600",
-	"Cauza": "Pe calea 2 semiremorca unui autotren a luat foc.\nSe circula pe B2.\nB1 si Bu sunt inchise.",
+	"Cauza": "Pe calea 2, semiremorca unui autotren a luat foc.",
+	"Masuri de remediere": "Se circula pe Banda 2.\nBanda 1 si banda de urgenta sunt inchise.",
 	"lat": 21.7427462,
 	"long": 45.77661225,
 	"date_start": "29-05-2026 02:05",
-	"date_end": "29-05-2026 08:00"
+	"date_end": "29-05-2026 18:00"
+},
+{
+	"coords": "[23.95353702, 44.34919923]",
+	"culoare": 1,
+	"raza": 10,
+	"categorie": 1.0,
+	"name": "Eveniment rutier  DEx12",
+	"Judet": "DJ;",
+	"UAT": "Pielești;",
+	"Localitati": "BALS (OT) - CRAIOVA (DJ)",
+	"Km": "10+000",
+	"Cauza": "Se descarca fierul din camionul rasturnat.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 cale pe sensul Bals/OT-Craiova/DJ",
+	"lat": 23.95353702,
+	"long": 44.34919923,
+	"date_start": "29-05-2026 10:00",
+	"date_end": "29-05-2026 15:00"
+},
+{
+	"coords": "[21.28307958, 45.94422264]",
+	"culoare": 2,
+	"raza": 7,
+	"categorie": 1.1,
+	"name": "Lucrari de scurta durata  A1",
+	"Judet": "TM;",
+	"UAT": "Orțișoara;",
+	"Localitati": "SECEANI (TM) -",
+	"Km": "514+900",
+	"Cauza": "Pe Calea 1 se executa lucrari - reparatii gropi.",
+	"Masuri de remediere": "Se circula pe banda 2.\nBanda 1 si banda de urgenta sunt inchise.",
+	"lat": 21.28307958,
+	"long": 45.94422264,
+	"date_start": "29-05-2026 12:30",
+	"date_end": "29-05-2026 16:00"
 }
 ]
