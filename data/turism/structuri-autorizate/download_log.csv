@@ -1,14 +1,14 @@
 slug,name,file,size,elapsed,status,error
-listaAgentii,Lista agențiilor de turism licențiate,Lista-agențiilor-de-turism-licențiate-actualizată-la-09.06.2026.xlsx,399764,16.7,OK,
-listaAgentiiRadiate,Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată,Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-radiată-actualizată-la-09.06.2026.xlsx,58160,13.8,OK,
-listaAgentiiRetrase,Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă,Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-retrasă-actualizată-la-09.06.2026.xlsx,45984,12.2,OK,
-listaCazari,Lista structurilor de primire turistice cu funcțiuni de cazare,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-clasificate-actualizată-la-09.06.2026.xlsx,3749812,24.6,OK,
-listaCazariRadiate,Lista structurilor de primire turistice cu funcțiuni de cazare radiate,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-09.06.2026.xlsx,584487,6.7,OK,
-listaCazariRetrase,Lista structurilor de primire turistice cu funcțiuni de cazare retrase,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-09.06.2026.xlsx,46983,2.4,OK,
-listaAlimentatie,Lista structurilor de primire turistice cu funcțiuni de alimentație publică,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-clasificate-actualizată-la-09.06.2026.xlsx,825391,13.5,OK,
-listaAlimentatieRadiate,Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-09.06.2026.xlsx,275438,3.7,OK,
-listaAlimentatieRetrase,Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-09.06.2026.xlsx,45436,3.8,OK,
-listaPartii,Lista pârtiilor de schi omologate,Lista-pârtiilor-de-schi-omologate-actualizată-la-09.06.2026.xlsx,57080,2.7,OK,
-listaStatiuni,"Lista localităților atestate ca stațiuni turistice de interes național, respectiv local","Lista-localităților-atestate-ca-stațiuni-turistice-de-interes-național,-respectiv-local-actualizată-la-09.06.2026.xlsx",47917,3.4,OK,
-listaGhizi,Lista ghizilor de turism atestați,Lista-ghizilor-de-turism-atestați-actualizată-la-09.06.2026.xlsx,329514,7.0,OK,
-listaCentreInformare,Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate,Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-09.06.2026.xlsx,54907,2.6,OK,
+listaAgentii,Lista agențiilor de turism licențiate,,0,60.9,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaAgentiiRadiate,Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată,,0,60.5,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaAgentiiRetrase,Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă,,0,60.5,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaCazari,Lista structurilor de primire turistice cu funcțiuni de cazare,,0,60.5,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaCazariRadiate,Lista structurilor de primire turistice cu funcțiuni de cazare radiate,,0,60.3,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaCazariRetrase,Lista structurilor de primire turistice cu funcțiuni de cazare retrase,,0,60.5,ERROR,"HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)"
+listaAlimentatie,Lista structurilor de primire turistice cu funcțiuni de alimentație publică,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-clasificate-actualizată-la-09.06.2026.xlsx,825449,59.7,OK,
+listaAlimentatieRadiate,Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-09.06.2026.xlsx,275349,5.5,OK,
+listaAlimentatieRetrase,Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase,Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-09.06.2026.xlsx,45436,5.0,OK,
+listaPartii,Lista pârtiilor de schi omologate,Lista-pârtiilor-de-schi-omologate-actualizată-la-09.06.2026.xlsx,57080,2.3,OK,
+listaStatiuni,"Lista localităților atestate ca stațiuni turistice de interes național, respectiv local","Lista-localităților-atestate-ca-stațiuni-turistice-de-interes-național,-respectiv-local-actualizată-la-09.06.2026.xlsx",47917,2.6,OK,
+listaGhizi,Lista ghizilor de turism atestați,Lista-ghizilor-de-turism-atestați-actualizată-la-09.06.2026.xlsx,329585,5.7,OK,
+listaCentreInformare,Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate,Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-09.06.2026.xlsx,54907,3.2,OK,
