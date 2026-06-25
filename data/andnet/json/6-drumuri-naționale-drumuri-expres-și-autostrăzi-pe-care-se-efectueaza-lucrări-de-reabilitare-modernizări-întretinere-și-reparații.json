@@ -1,5 +1,18 @@
 [{
 	"NR. CRT.": "6.1",
+	"Indicativ drum": "A1",
+	"De la km": "541+400",
+	"Pana la km": "543+296",
+	"De la data": "2026-05-05 09:00:00",
+	"Pana la data": "2026-07-25 16:00:00",
+	"Intre localitatile": "ARAD (AR) - ARAD (AR)",
+	"Tip lucrare": "Pe Calea 2 se executa lucrari de intretinere rosturi de dilatatie la podul peste Mures",
+	"Variante de ocolire": "Se circula pe Banda 2. Banda 1 si Banda de Urgenta sunt restrictionate pana la finalizarea lucrarilor.",
+	"viz_name": "A1",
+	"map_zoom": "['541', '400', '543', '296']"
+},
+{
+	"NR. CRT.": "6.2",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -12,7 +25,7 @@
 	"map_zoom": "['143', '125', '148', '315']"
 },
 {
-	"NR. CRT.": "6.2",
+	"NR. CRT.": "6.3",
 	"Indicativ drum": "A7",
 	"De la km": "54+600",
 	"Pana la km": "54+700",
@@ -23,19 +36,6 @@
 	"Variante de ocolire": "Se circula cu limitarea vitezei la max. 80 km/h.Se vor impune restrictii de circulatie conform schemei de semnalizare:E.1. - Lucrari pe banda de urgenta",
 	"viz_name": "A7",
 	"map_zoom": "['54', '600', '54', '700']"
-},
-{
-	"NR. CRT.": "6.3",
-	"Indicativ drum": "DN1",
-	"De la km": "140+900",
-	"Pana la km": "148+000",
-	"De la data": "2026-06-22 09:01:00",
-	"Pana la data": "2026-06-25 17:00:00",
-	"Intre localitatile": "PREDEAL (BV) - PREDEAL (BV)",
-	"Tip lucrare": "Lucrari de reparatii parte carosabila",
-	"Variante de ocolire": "Dirijare prin piloti de circulatie.",
-	"viz_name": "DN1",
-	"map_zoom": "['140', '900', '148', '0']"
 },
 {
 	"NR. CRT.": "6.4",
@@ -196,19 +196,6 @@
 {
 	"NR. CRT.": "6.16",
 	"Indicativ drum": "DN1A",
-	"De la km": "161+000",
-	"Pana la km": "181+735",
-	"De la data": "2026-06-25 08:00:00",
-	"Pana la data": "2026-06-30 16:00:00",
-	"Intre localitatile": "SACELE (BV) - SACELE (BV)",
-	"Tip lucrare": "Lucrari de reparatii parte carosabila",
-	"Variante de ocolire": "TRAFIC DIRIJAT CU PILOTI DE DIRIJARE",
-	"viz_name": "DN1A",
-	"map_zoom": "['161', '0', '181', '735']"
-},
-{
-	"NR. CRT.": "6.17",
-	"Indicativ drum": "DN1A",
 	"De la km": "12+252",
 	"Pana la km": "64+400",
 	"De la data": "2025-01-08 10:18:00",
@@ -218,6 +205,19 @@
 	"Variante de ocolire": "Rutele alternative, pentru relatia de deplasare Bucuresti - Ploiesti si retur:Traficul rutier va fi deviat pe DN CB (Centura Bucuresti) - Autostrada A3 (Bucuresti - Ploiesti) - DN CPV (Centura Ploiesti Vest).",
 	"viz_name": "DN1A",
 	"map_zoom": "['12', '252', '64', '400']"
+},
+{
+	"NR. CRT.": "6.17",
+	"Indicativ drum": "DN1A",
+	"De la km": "161+000",
+	"Pana la km": "181+735",
+	"De la data": "2026-06-25 08:00:00",
+	"Pana la data": "2026-06-30 16:00:00",
+	"Intre localitatile": "SACELE (BV) - SACELE (BV)",
+	"Tip lucrare": "Lucrari de reparatii parte carosabila",
+	"Variante de ocolire": "TRAFIC DIRIJAT CU PILOTI DE DIRIJARE",
+	"viz_name": "DN1A",
+	"map_zoom": "['161', '0', '181', '735']"
 },
 {
 	"NR. CRT.": "6.18",
