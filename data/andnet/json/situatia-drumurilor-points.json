@@ -239,7 +239,7 @@
 	"lat": 24.30014885,
 	"long": 45.49040741,
 	"date_start": "26-06-2026 06:00",
-	"date_end": "26-06-2026 09:00",
+	"date_end": "26-06-2026 21:00",
 	"km_start": "230+800",
 	"km_end": "230+850"
 },
@@ -258,7 +258,7 @@
 	"lat": 24.29117586,
 	"long": 45.49948816,
 	"date_start": "26-06-2026 06:00",
-	"date_end": "26-06-2026 09:00",
+	"date_end": "26-06-2026 21:00",
 	"km_start": "232+800",
 	"km_end": "232+850"
 },
@@ -693,23 +693,6 @@
 	"date_end": "16-11-2026 12:00"
 },
 {
-	"coords": "[23.2396016, 45.88617325]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 1.1,
-	"name": "Lucrari de scurta durata  A1",
-	"Judet": "HD;",
-	"UAT": "Geoagiu;",
-	"Localitati": "ORASTIE (HD) -",
-	"Km": "336+540",
-	"Cauza": "Pe Calea 1 se desfasoara lucrari - inlocuire rosturi de dilatatie.",
-	"Masuri de remediere": "Se circula pe banda 2.\nBanda 1 si banda de urgenta sunt inchise.",
-	"lat": 23.2396016,
-	"long": 45.88617325,
-	"date_start": "12-06-2026 15:30",
-	"date_end": "29-06-2026 16:00"
-},
-{
 	"coords": "[25.7763089, 44.1906101]",
 	"culoare": 2,
 	"raza": 7,
@@ -759,5 +742,38 @@
 	"long": 45.96546905,
 	"date_start": "24-06-2026 08:00",
 	"date_end": "01-07-2026 16:00"
+},
+{
+	"coords": "[22.7928679, 45.91085434]",
+	"culoare": 2,
+	"raza": 7,
+	"categorie": 1.1,
+	"name": "Lucrari de scurta durata  A1",
+	"Judet": "HD;",
+	"UAT": "Brănișca;",
+	"Localitati": "BRANISCA (HD) - BRANISCA (HD)",
+	"Km": "377+300",
+	"Cauza": "Eveniment rutier pe A1 km 377+300 C1 Branisca - Lucrari- Demontat/Montat parapet marginal, se circula pe B2,iar BU si B1 sunt restrictionate,se estimeaza reluarea normala a circulatiei in jurul orei 16:00",
+	"lat": 22.7928679,
+	"long": 45.91085434,
+	"date_start": "26-06-2026 08:30",
+	"date_end": "26-06-2026 16:00"
+},
+{
+	"coords": "[23.70730909, 45.92223264]",
+	"culoare": 2,
+	"raza": 7,
+	"categorie": 1.1,
+	"name": "Lucrari de scurta durata  A1",
+	"Judet": "AB;",
+	"UAT": "Șpring;",
+	"Localitati": "CUNTA (AB) - CUNTA (AB)",
+	"Km": "293+600",
+	"Cauza": "Eveniment rutier : Lucrari - Reparatii si inlocuire rosturi de dilatatie, se estimeaza reluarea normala a circulatiei in data de 06.07.2026 ora 16:00",
+	"Masuri de remediere": "Se circula pe B2, iar BU si B1 sunt restrictionate",
+	"lat": 23.70730909,
+	"long": 45.92223264,
+	"date_start": "26-06-2026 09:00",
+	"date_end": "06-07-2026 16:00"
 }
 ]
