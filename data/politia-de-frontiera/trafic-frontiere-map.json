@@ -21,17 +21,17 @@
   },
   {
     "Denumire":"Albița",
-    "Timp":30,
+    "Timp":60,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Albița",
-    "Timp":60,
+    "Timp":100,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
@@ -81,21 +81,21 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":31,
+    "Timp":25,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Galați",
-    "Timp":46,
+    "Timp":25,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -161,12 +161,32 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":60,
+    "Timp":120,
     "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontieră.",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
     "Status":"red",
     "Tip vehicul":"Autoturisme",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Isaccea",
+    "Timp":10,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontieră.",
+    "Latitude":"45.2838718",
+    "Longitude":"28.453399",
+    "Status":"green",
+    "Tip vehicul":"Autoturisme",
+    "Sens":"Intrare"
+  },
+  {
+    "Denumire":"Isaccea",
+    "Timp":30,
+    "Info":"Intrare 1 artera, iesire 1 artera - Trafic intens - numar foarte mare de mijloace de transport prezente la controlul de frontieră.",
+    "Latitude":"45.2838718",
+    "Longitude":"28.453399",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
@@ -176,26 +196,6 @@
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
     "Status":"orange",
-    "Tip vehicul":"Autoturisme",
-    "Sens":"Intrare"
-  },
-  {
-    "Denumire":"Isaccea",
-    "Timp":60,
-    "Info":"Intrare 1 artera, iesire 1 artera Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
-    "Latitude":"45.2838718",
-    "Longitude":"28.453399",
-    "Status":"red",
-    "Tip vehicul":"Camioane",
-    "Sens":"Ieșire"
-  },
-  {
-    "Denumire":"Isaccea",
-    "Timp":60,
-    "Info":"Intrare 1 artera, iesire 1 artera Intrare 1 artera, iesire 1 artera - Trafic intens - numar mare de mijloace de transport prezente la controlul de frontiera.",
-    "Latitude":"45.2838718",
-    "Longitude":"28.453399",
-    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
@@ -361,21 +361,21 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":33,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Oancea",
-    "Timp":20,
+    "Timp":33,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -391,7 +391,7 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":10,
+    "Timp":20,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
@@ -501,21 +501,21 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":21,
+    "Timp":37,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Sculeni",
-    "Timp":23,
+    "Timp":39,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Autoturisme",
     "Sens":"Intrare"
   },
@@ -531,11 +531,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":20,
+    "Timp":30,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"green",
+    "Status":"orange",
     "Tip vehicul":"Camioane",
     "Sens":"Intrare"
   },
