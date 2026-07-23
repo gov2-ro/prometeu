@@ -13438,3 +13438,33 @@
 2026-07-23 02:29:05,974 INFO   OK  Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-23.07.2026.xlsx  54,905 bytes  1.7s
 2026-07-23 02:29:05,975 INFO Done: 13 OK, 0 failed
 2026-07-23 02:29:05,976 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
+2026-07-23 08:25:44,383 INFO === situr download start 2026-07-23T08:25:44.383304 ===
+2026-07-23 08:25:44,383 INFO Found 13 types to download
+2026-07-23 08:25:44,383 INFO Downloading: listaAgentii — Lista agențiilor de turism licențiate
+2026-07-23 08:28:59,687 ERROR   FAILED listaAgentii: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:28:59,688 INFO Downloading: listaAgentiiRadiate — Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată
+2026-07-23 08:30:42,894 ERROR   FAILED listaAgentiiRadiate: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:30:42,895 INFO Downloading: listaAgentiiRetrase — Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă
+2026-07-23 08:31:16,500 INFO   OK  Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-retrasă-actualizată-la-23.07.2026.xlsx  45,982 bytes  33.6s
+2026-07-23 08:31:16,500 INFO Downloading: listaCazari — Lista structurilor de primire turistice cu funcțiuni de cazare
+2026-07-23 08:33:03,206 ERROR   FAILED listaCazari: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:33:03,206 INFO Downloading: listaCazariRadiate — Lista structurilor de primire turistice cu funcțiuni de cazare radiate
+2026-07-23 08:35:53,612 ERROR   FAILED listaCazariRadiate: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:35:53,613 INFO Downloading: listaCazariRetrase — Lista structurilor de primire turistice cu funcțiuni de cazare retrase
+2026-07-23 08:37:13,068 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-23.07.2026.xlsx  46,985 bytes  79.5s
+2026-07-23 08:37:13,068 INFO Downloading: listaAlimentatie — Lista structurilor de primire turistice cu funcțiuni de alimentație publică
+2026-07-23 08:38:37,985 ERROR   FAILED listaAlimentatie: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:38:37,985 INFO Downloading: listaAlimentatieRadiate — Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate
+2026-07-23 08:40:16,903 ERROR   FAILED listaAlimentatieRadiate: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:40:16,904 INFO Downloading: listaAlimentatieRetrase — Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase
+2026-07-23 08:42:16,703 ERROR   FAILED listaAlimentatieRetrase: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:42:16,704 INFO Downloading: listaPartii — Lista pârtiilor de schi omologate
+2026-07-23 08:43:46,072 ERROR   FAILED listaPartii: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:43:46,073 INFO Downloading: listaStatiuni — Lista localităților atestate ca stațiuni turistice de interes național, respectiv local
+2026-07-23 08:44:35,076 INFO   OK  Lista-localităților-atestate-ca-stațiuni-turistice-de-interes-național,-respectiv-local-actualizată-la-23.07.2026.xlsx  47,918 bytes  49.0s
+2026-07-23 08:44:35,076 INFO Downloading: listaGhizi — Lista ghizilor de turism atestați
+2026-07-23 08:45:44,300 ERROR   FAILED listaGhizi: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out.
+2026-07-23 08:45:44,300 INFO Downloading: listaCentreInformare — Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate
+2026-07-23 08:45:57,106 INFO   OK  Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-23.07.2026.xlsx  54,905 bytes  12.8s
+2026-07-23 08:45:57,107 INFO Done: 4 OK, 9 failed
+2026-07-23 08:45:57,108 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
