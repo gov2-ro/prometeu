@@ -1,19 +1,6 @@
 [{
 	"NR. CRT.": "1.1",
 	"Indicativ drum": "A1",
-	"De la km": "371+100",
-	"Pana la km": "371+300",
-	"De la data": "2026-08-07 08:00:00",
-	"Pana la data": "2026-08-07 12:00:00",
-	"Intre localitatile": "SOIMUS (HD) - MINTIA (HD)",
-	"Cauza": "Pe Calea 1 se executa lucrari - ranguire versant si incarcare material rezultat.",
-	"Masuri de remediere": "Banda de urgenta este inchisa.Se circula pe banda 1 si pe banda 2.Se estimeaza reluarea circulatiei normale si incheierea lucrarilor, in jurul orei 12:00.",
-	"viz_name": "A1",
-	"map_zoom": "['371', '100', '371', '300']"
-},
-{
-	"NR. CRT.": "1.2",
-	"Indicativ drum": "A1",
 	"De la km": "427+000",
 	"Pana la km": "441+000",
 	"De la data": "2026-08-07 08:00:00",
@@ -23,6 +10,19 @@
 	"Masuri de remediere": "",
 	"viz_name": "A1",
 	"map_zoom": "['427', '0', '441', '0']"
+},
+{
+	"NR. CRT.": "1.2",
+	"Indicativ drum": "A1",
+	"De la km": "247+000",
+	"Pana la km": "248+000",
+	"De la data": "2026-08-08 05:30:00",
+	"Pana la data": "2026-08-08 19:00:00",
+	"Intre localitatile": "SIBIU (SB) - SIBIU (SB)",
+	"Cauza": "Se executa lucrari de asternere covor asfaltic. Calea 2 (Sebes-Sibiu), bretea iesire si bretea intrare A1 nod Medias(km 247) restrictionate.",
+	"Masuri de remediere": "Iesirea de pe A1 se va face in urmatorul nod rutier de la km 244.",
+	"viz_name": "A1",
+	"map_zoom": "['247', '0', '248', '0']"
 },
 {
 	"NR. CRT.": "1.3",
@@ -40,15 +40,15 @@
 {
 	"NR. CRT.": "1.4",
 	"Indicativ drum": "A3Ms",
-	"De la km": "12+100",
-	"Pana la km": "12+200",
-	"De la data": "2026-08-07 08:00:00",
-	"Pana la data": "2026-08-07 13:00:00",
-	"Intre localitatile": "CIOARGA (MS) - SANPAUL (MS)",
-	"Cauza": "Realizare fundatie VMS zona mediana.Banda 2 restrictionata.(sens Iernut-Targu Mures)",
+	"De la km": "7+100",
+	"Pana la km": "7+200",
+	"De la data": "2026-08-07 13:59:00",
+	"Pana la data": "2026-08-07 18:00:00",
+	"Intre localitatile": "UNGHENI (MS) - UNGHENI (MS)",
+	"Cauza": "Realizare fundatie VMS zona mediana. Banda 2 restrictionata calea 2 (sens Iernut-Targu Mures).",
 	"Masuri de remediere": "Se circula ingreunat pe banda 1 a caii 2.",
 	"viz_name": "A3Ms",
-	"map_zoom": "['12', '100', '12', '200']"
+	"map_zoom": "['7', '100', '7', '200']"
 },
 {
 	"NR. CRT.": "1.5",
@@ -65,6 +65,19 @@
 },
 {
 	"NR. CRT.": "1.6",
+	"Indicativ drum": "A7",
+	"De la km": "124+500",
+	"Pana la km": "126+600",
+	"De la data": "2026-08-07 10:29:00",
+	"Pana la data": "2026-08-07 20:00:00",
+	"Intre localitatile": "JILISTE (VN) - JILISTE (VN)",
+	"Cauza": "Se executa lucrari de intretinere periodica pe calea 1 (Buzau - Adjud)",
+	"Masuri de remediere": "Semnalizarea se va face conform schemei:E.3. Lucrari pe banda marginalaE.4. Lucrari pe banda adiacenta benzii mediane.",
+	"viz_name": "A7",
+	"map_zoom": "['124', '500', '126', '600']"
+},
+{
+	"NR. CRT.": "1.7",
 	"Indicativ drum": "DEx12",
 	"De la km": "71+000",
 	"Pana la km": "73+000",
@@ -77,7 +90,20 @@
 	"map_zoom": "['71', '0', '73', '0']"
 },
 {
-	"NR. CRT.": "1.7",
+	"NR. CRT.": "1.8",
+	"Indicativ drum": "DEx12",
+	"De la km": "70+500",
+	"Pana la km": "70+600",
+	"De la data": "2026-08-07 14:30:00",
+	"Pana la data": "2026-08-07 20:00:00",
+	"Intre localitatile": "JITARU (OT) -",
+	"Cauza": "Se executa lucrari de colmatare fisuri pe banda 1, pe sensul de mers Pitesti-Craiova.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe banda 2.",
+	"viz_name": "DEx12",
+	"map_zoom": "['70', '500', '70', '600']"
+},
+{
+	"NR. CRT.": "1.9",
 	"Indicativ drum": "DN1",
 	"De la km": "299+650",
 	"Pana la km": "303+050",
@@ -90,7 +116,7 @@
 	"map_zoom": "['299', '650', '303', '50']"
 },
 {
-	"NR. CRT.": "1.8",
+	"NR. CRT.": "1.10",
 	"Indicativ drum": "DN15",
 	"De la km": "57+320",
 	"Pana la km": "57+420",
@@ -103,7 +129,7 @@
 	"map_zoom": "['57', '320', '57', '420']"
 },
 {
-	"NR. CRT.": "1.9",
+	"NR. CRT.": "1.11",
 	"Indicativ drum": "DN22B",
 	"De la km": "2+200",
 	"Pana la km": "11+645",
@@ -116,7 +142,7 @@
 	"map_zoom": "['2', '200', '11', '645']"
 },
 {
-	"NR. CRT.": "1.10",
+	"NR. CRT.": "1.12",
 	"Indicativ drum": "DN2B",
 	"De la km": "47+000",
 	"Pana la km": "47+000",
@@ -129,7 +155,7 @@
 	"map_zoom": "['47', '0', '47', '0']"
 },
 {
-	"NR. CRT.": "1.11",
+	"NR. CRT.": "1.13",
 	"Indicativ drum": "DN67",
 	"De la km": "150+800",
 	"Pana la km": "151+100",
@@ -142,20 +168,7 @@
 	"map_zoom": "['150', '800', '151', '100']"
 },
 {
-	"NR. CRT.": "1.12",
-	"Indicativ drum": "DN7",
-	"De la km": "216+450",
-	"Pana la km": "217+400",
-	"De la data": "2026-08-07 08:00:00",
-	"Pana la data": "2026-08-07 15:30:00",
-	"Intre localitatile": "CALINESTI (VL) -",
-	"Cauza": "Pe sectorul de drum DN 7 km 216+450- km 217+400 pe raza localitatii Calinesti se executa lucrari la pila 1 de la Ecoductul Calinesti intre orele 08:00 - 15:30.",
-	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie, iar in cazuri exceptionale se inchide/deschide in reprize de 15 minute.",
-	"viz_name": "DN7",
-	"map_zoom": "['216', '450', '217', '400']"
-},
-{
-	"NR. CRT.": "1.13",
+	"NR. CRT.": "1.14",
 	"Indicativ drum": "DN7",
 	"De la km": "198+000",
 	"Pana la km": "218+400",
@@ -168,7 +181,7 @@
 	"map_zoom": "['198', '0', '218', '400']"
 },
 {
-	"NR. CRT.": "1.14",
+	"NR. CRT.": "1.15",
 	"Indicativ drum": "DN7A",
 	"De la km": "7+000",
 	"Pana la km": "22+000",
