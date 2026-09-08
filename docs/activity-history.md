@@ -1,5 +1,45 @@
 # Activity history
 
+## 2026-09-08 — Fix curs-valutar scraper (issue #14): namespace + WAF block, cursbnr.ro fallback
+
+Two separate failures on `curs-valutar.py`:
+
+1. **Issue #14** — since ~2026-07-31 BNR changed the feed namespace from
+   `http://www.bnr.ro/xsd` to `https://www.bnr.ro/xsd`, so the hardcoded `ns` map
+   matched nothing → `AttributeError`.
+2. **WAF block** — since ~2026-09-07 the scheduled GitHub Action fails with
+   `ParseError: syntax error: line 1, column 0`. BNR's F5/BIG-IP WAF now
+   302-redirects *every* bnr.ro request (XML feed and HTML pages) from non-RO /
+   datacenter IPs — GitHub runners included — to the homepage. Reproduced from
+   the dev box: browser UA, full header set, cookie-warmed sessions, and even
+   full Chrome TLS impersonation (`curl_cffi`) all still get redirected, so it's
+   IP/ASN-based, not fingerprint-based. No free RO proxy available.
+
+**Fix** — rewrote the script with two sources and automatic fallback:
+
+- **Primary:** BNR official XML feed. Now parsed namespace-agnostically
+  (`.//{*}Cube`, `{*}Rate`, Python ≥ 3.8); every lookup guarded. Honours
+  `BNR_PROXY` (RO-egress proxy) for the direct feed.
+- **Fallback:** scrape `https://www.cursbnr.ro/`, which republishes the same BNR
+  rates and is *not* geoblocked. Parses `table.table-lg`; maps cursbnr's
+  `100JPY`/`100HUF`/… labels back to the bare code BNR uses (value already
+  per-100, matching the existing CSV). All 37 currencies incl. XAU/XDR/RUB/MDL
+  present — no loss vs. the official feed.
+- Source selection: auto (try BNR, fall back to mirror) by default;
+  `CURS_SOURCE=bnr` or `=mirror` to force one. `scheduled.yml`'s step now sets
+  `CURS_SOURCE=mirror` so CI skips the doomed direct attempt.
+- Output sorted alphabetically by currency (matches BNR's original ordering) so
+  switching sources causes no diff churn and daily diffs stay minimal.
+- Fails with a one-line stderr message + `exit 1` (never a traceback); CSV only
+  rewritten on success.
+- `DEBUG=1` for verbose progress on stderr.
+
+Verified all three modes locally: auto (BNR blocked here → mirror, 37 rates),
+`CURS_SOURCE=bnr` (clean exit 1, CSV untouched), `CURS_SOURCE=mirror`. Diff vs.
+the committed (stale, ~2026-07-30) CSV is value-only, same rows, same order.
+Namespace parsing verified against fixtures for both old and new namespace URIs.
+CSV format (`Currency,Rate`) unchanged.
+
 ## 2026-04-26 — DEER slider on intreruperi-energie
 
 Added `energie_deer_slider(con, days=90)` query and DEER section to `intreruperi_energie.py`. DEER has 440 distinct days of history via `_commit` FK (no `_version` table — each row is tied to the commit that scraped it). Slider navigates last 90 days; hero (total, județe, fără dată finalizare) and top-județe bar chart update on each step. Enel section unchanged (still snapshot-only, 1 commit in DB).

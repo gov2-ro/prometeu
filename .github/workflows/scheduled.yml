@@ -67,7 +67,10 @@ jobs:
     #   run: python aerlive-cj.py
     - name: Curs valutar BNR
       id: curs_valutar
+      # BNR's WAF blocks bnr.ro from GitHub IPs; use the cursbnr.ro mirror here.
       run: python curs-valutar.py
+      env:
+        CURS_SOURCE: mirror
       continue-on-error: true
     - name: Trafic Frontieră map
       id: trafic_map

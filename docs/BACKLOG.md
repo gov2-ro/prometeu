@@ -12,5 +12,19 @@
 - [ ] **Per-page CSV exports** to `docs/data/<slug>.csv` so the "download data" links actually resolve.
 
 
+## Scrapers
+
+- [ ] **`curs-valutar.py` runs off the cursbnr.ro mirror in CI, not the BNR feed.**
+  BNR's F5/BIG-IP WAF 302-redirects every `bnr.ro` request from non-RO /
+  datacenter IPs (GitHub runners included), so `scheduled.yml` sets
+  `CURS_SOURCE=mirror` and scrapes `www.cursbnr.ro` instead. This works and keeps
+  all 37 currencies, but: (a) it's a scrape of a third-party HTML table — will
+  break if cursbnr.ro redesigns (guarded: fails loudly if `table.table-lg` or
+  <30 rows); (b) it's one step removed from the authoritative source. Better
+  long-term fix if it ever matters: a `BNR_PROXY` secret pointing at an HTTP(S)
+  proxy with a RO egress IP (script already honors it, `CURS_SOURCE=bnr` to force
+  the official feed), or a self-hosted runner in RO. Verify with
+  `DEBUG=1 python curs-valutar.py`.
+
 ## Misc
 - [ ] add derogări vânătoare, see derogarivanatoare* in [pax/python-toolbench](https://github.com/pax/python-toolbench/tree/master/scraping)
