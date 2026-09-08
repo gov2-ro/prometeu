@@ -63,3 +63,9 @@ Dashboard-uri disponibile: trafic frontieră, termoficare, calitate aer, curs va
 pip install -r requirements.txt
 bash run-all-scrapers.sh      # rulează toate scraperele, log în data/_reports/
 ```
+
+-----
+
+Copyright (c) 2026 [gov2.ro](https://gov2.ro)
+Date reutilizabile conform [EUPL v1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) (the "Licence")
+
