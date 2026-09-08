@@ -8,6 +8,10 @@ Datele se colectează la fiecare 6 ore prin GitHub Actions și se commitează di
 
 [flatgithub.com/gov2-ro/prometeu](https://flatgithub.com/gov2-ro/prometeu) (Flat Data viewer)
 
+Derivative works: @mariuscomper: [Prometeu](https://mariuscomper.uk/prometeu/) &middot; [Azi, aici](https://mariuscomper.uk/azi-aici/)
+
+(Recunoscător pentru **recomandări**)[https://github.com/gov2-ro/prometeu/discussions/] de alte feed-uri ce-ar merita monitorizate. 😽
+
 ---
 
 ## Surse de date
