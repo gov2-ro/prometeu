@@ -19438,3 +19438,33 @@
 2026-09-12 14:55:45,822 ERROR   FAILED listaCentreInformare: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCentreInformare
 2026-09-12 14:55:45,823 INFO Done: 0 OK, 13 failed
 2026-09-12 14:55:45,823 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
+2026-09-12 20:07:44,228 INFO === situr download start 2026-09-12T20:07:44.228041 ===
+2026-09-12 20:07:44,228 INFO Found 13 types to download
+2026-09-12 20:07:44,228 INFO Downloading: listaAgentii — Lista agențiilor de turism licențiate
+2026-09-12 20:07:45,285 ERROR   FAILED listaAgentii: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentii
+2026-09-12 20:07:45,285 INFO Downloading: listaAgentiiRadiate — Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată
+2026-09-12 20:07:45,422 ERROR   FAILED listaAgentiiRadiate: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentiiRadiate
+2026-09-12 20:07:45,422 INFO Downloading: listaAgentiiRetrase — Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă
+2026-09-12 20:07:45,556 ERROR   FAILED listaAgentiiRetrase: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentiiRetrase
+2026-09-12 20:07:45,557 INFO Downloading: listaCazari — Lista structurilor de primire turistice cu funcțiuni de cazare
+2026-09-12 20:07:45,692 ERROR   FAILED listaCazari: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazari
+2026-09-12 20:07:45,692 INFO Downloading: listaCazariRadiate — Lista structurilor de primire turistice cu funcțiuni de cazare radiate
+2026-09-12 20:07:45,826 ERROR   FAILED listaCazariRadiate: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRadiate
+2026-09-12 20:07:45,826 INFO Downloading: listaCazariRetrase — Lista structurilor de primire turistice cu funcțiuni de cazare retrase
+2026-09-12 20:07:45,962 ERROR   FAILED listaCazariRetrase: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRetrase
+2026-09-12 20:07:45,962 INFO Downloading: listaAlimentatie — Lista structurilor de primire turistice cu funcțiuni de alimentație publică
+2026-09-12 20:07:46,098 ERROR   FAILED listaAlimentatie: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatie
+2026-09-12 20:07:46,098 INFO Downloading: listaAlimentatieRadiate — Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate
+2026-09-12 20:07:46,234 ERROR   FAILED listaAlimentatieRadiate: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatieRadiate
+2026-09-12 20:07:46,235 INFO Downloading: listaAlimentatieRetrase — Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase
+2026-09-12 20:07:46,371 ERROR   FAILED listaAlimentatieRetrase: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatieRetrase
+2026-09-12 20:07:46,371 INFO Downloading: listaPartii — Lista pârtiilor de schi omologate
+2026-09-12 20:07:46,505 ERROR   FAILED listaPartii: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaPartii
+2026-09-12 20:07:46,505 INFO Downloading: listaStatiuni — Lista localităților atestate ca stațiuni turistice de interes național, respectiv local
+2026-09-12 20:07:46,638 ERROR   FAILED listaStatiuni: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaStatiuni
+2026-09-12 20:07:46,639 INFO Downloading: listaGhizi — Lista ghizilor de turism atestați
+2026-09-12 20:07:46,776 ERROR   FAILED listaGhizi: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaGhizi
+2026-09-12 20:07:46,776 INFO Downloading: listaCentreInformare — Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate
+2026-09-12 20:07:46,910 ERROR   FAILED listaCentreInformare: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCentreInformare
+2026-09-12 20:07:46,911 INFO Done: 0 OK, 13 failed
+2026-09-12 20:07:46,912 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
