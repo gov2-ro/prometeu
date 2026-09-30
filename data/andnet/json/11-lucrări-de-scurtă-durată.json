@@ -17,7 +17,7 @@
 	"De la km": "544+000",
 	"Pana la km": "547+000",
 	"De la data": "2026-09-15 09:30:00",
-	"Pana la data": "2026-09-30 20:00:00",
+	"Pana la data": "2026-10-02 20:00:00",
 	"Intre localitatile": "ARAD (AR) - ARAD (AR)",
 	"Cauza": "Pe calea 1 se executa lurari de frezare si asternere covor asfaltic.",
 	"Masuri de remediere": "Calea 1 - inchisa.Deviere pe C2 bidirectional.",
@@ -30,7 +30,7 @@
 	"De la km": "540+500",
 	"Pana la km": "540+500",
 	"De la data": "2026-09-19 10:00:00",
-	"Pana la data": "2026-09-30 20:00:00",
+	"Pana la data": "2026-10-06 20:00:00",
 	"Intre localitatile": "ARAD (AR) - ARAD (AR)",
 	"Cauza": "Pe calea 2 se executa lucrari la rosturi de dilatatie.",
 	"Masuri de remediere": "Banda 2 - se circula.Banda 1 si Banda de urgenta sun restrictionate.",
@@ -39,6 +39,97 @@
 },
 {
 	"NR. CRT.": "1.4",
+	"Indicativ drum": "A1",
+	"De la km": "306+500",
+	"Pana la km": "307+500",
+	"De la data": "2026-09-30 08:30:00",
+	"Pana la data": "2026-09-30 16:00:00",
+	"Intre localitatile": "SEBES (AB) -",
+	"Cauza": "Pe Calea 1 se executa lucrari de curatare rigola mediana si transport material rezultat",
+	"Masuri de remediere": "Pe Calea 1 se circula pe Banda 1 si Banda de Urgenta. Banda 2 este restrictionata pana la finalizarea lucrarilor",
+	"viz_name": "A1",
+	"map_zoom": "['306', '500', '307', '500']"
+},
+{
+	"NR. CRT.": "1.5",
+	"Indicativ drum": "A1",
+	"De la km": "399+700",
+	"Pana la km": "406+000",
+	"De la data": "2026-09-30 08:30:00",
+	"Pana la data": "2026-09-30 16:00:00",
+	"Intre localitatile": "CAMPURI-SURDUC (HD) - LAPUGIU DE JOS (HD)",
+	"Cauza": "Pe Calea 1 se executa lucrari de curate sant zona mediana",
+	"Masuri de remediere": "Pe Calea 1 se circula pe Banda 1 si Banda de Urgenta. Banda 2 este restrictionata pana la finalizarea lucrarilor",
+	"viz_name": "A1",
+	"map_zoom": "['399', '700', '406', '0']"
+},
+{
+	"NR. CRT.": "1.6",
+	"Indicativ drum": "A1",
+	"De la km": "276+000",
+	"Pana la km": "277+300",
+	"De la data": "2026-09-30 09:09:00",
+	"Pana la data": "2026-09-30 19:00:00",
+	"Intre localitatile": "APOLDU DE JOS (SB) - SALISTE (SB)",
+	"Cauza": "Se executa lucrari de reparatii carosabil pe calea 2 (sens Sebes-Sibiu). Banda 1 si banda de urgenta restrictionate.",
+	"Masuri de remediere": "Se circula ingreunat pe banda 2 de pe calea 2(sens Sebes-Sibiu).",
+	"viz_name": "A1",
+	"map_zoom": "['276', '0', '277', '300']"
+},
+{
+	"NR. CRT.": "1.7",
+	"Indicativ drum": "A3Ms",
+	"De la km": "2+500",
+	"Pana la km": "2+600",
+	"De la data": "2026-10-01 09:00:00",
+	"Pana la data": "2026-10-01 11:00:00",
+	"Intre localitatile": "TARGU MURES (MS) - TURDA (CJ)",
+	"Cauza": "Montare bucle inductive.Se vor inchide pe rand  bretelele astfel:pe calea 2 intre orele 09:00-10:00,apoi pe calea 1 intre orele 10:00-11:00",
+	"Masuri de remediere": "Se va opri circulatia pe rand pe caile 2 si 1  un timp cat mai scurt posibil in termenul prevazut.",
+	"viz_name": "A3Ms",
+	"map_zoom": "['2', '500', '2', '600']"
+},
+{
+	"NR. CRT.": "1.8",
+	"Indicativ drum": "A3Ms",
+	"De la km": "4+700",
+	"Pana la km": "4+800",
+	"De la data": "2026-10-01 11:30:00",
+	"Pana la data": "2026-10-01 12:30:00",
+	"Intre localitatile": "TARGU MURES (MS) - TURDA (CJ)",
+	"Cauza": "Montare bucle inductive.Se va inchide breteaua de acces dinspre aeroport Targu Mures spre calea 2.",
+	"Masuri de remediere": "Se inchide circulatia pe breteaua de acces spre calea 2 un timp cat mai scurt din intervalul mentionat.",
+	"viz_name": "A3Ms",
+	"map_zoom": "['4', '700', '4', '800']"
+},
+{
+	"NR. CRT.": "1.9",
+	"Indicativ drum": "DEx12",
+	"De la km": "0+000",
+	"Pana la km": "7+000",
+	"De la data": "2026-09-30 10:00:00",
+	"Pana la data": "2026-09-30 15:00:00",
+	"Intre localitatile": "BALS (OT) - CRAIOVA (DJ)",
+	"Cauza": "Se executa lucrari de curatare rosturi la poduri, pe sensul de mers Pitesti-Craiova.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara dirijat pe 1/2 cale pe sens.",
+	"viz_name": "DEx12",
+	"map_zoom": "['0', '0', '7', '0']"
+},
+{
+	"NR. CRT.": "1.10",
+	"Indicativ drum": "DN1",
+	"De la km": "264+300",
+	"Pana la km": "265+300",
+	"De la data": "2026-10-01 09:00:00",
+	"Pana la data": "2026-10-01 16:59:00",
+	"Intre localitatile": "ARPASU DE JOS (SB) - CARTA (SB)",
+	"Cauza": "Lucrari de amenajare a nodului rutier Arpasu de Jos, dintre viitoarea autostrada A13 si DN 1, ce constau in demontarea si montarea conductoarelor unei LEA ce traverseaza DN 1 la pozitia kilometrica 264+880, realizate de antreprenorul MAKYOL  INSAAT.",
+	"Masuri de remediere": "Oprirea temporara a circulatiei rutiere  pe DN 1, pe ambele sensuri de circulatie,  in 2 reprize cu durata de 5 minute.",
+	"viz_name": "DN1",
+	"map_zoom": "['264', '300', '265', '300']"
+},
+{
+	"NR. CRT.": "1.11",
 	"Indicativ drum": "DN22B",
 	"De la km": "3+000",
 	"Pana la km": "11+000",
@@ -51,7 +142,7 @@
 	"map_zoom": "['3', '0', '11', '0']"
 },
 {
-	"NR. CRT.": "1.5",
+	"NR. CRT.": "1.12",
 	"Indicativ drum": "DN23",
 	"De la km": "69+000",
 	"Pana la km": "70+000",
@@ -64,7 +155,7 @@
 	"map_zoom": "['69', '0', '70', '0']"
 },
 {
-	"NR. CRT.": "1.6",
+	"NR. CRT.": "1.13",
 	"Indicativ drum": "DN2B",
 	"De la km": "99+822",
 	"Pana la km": "99+822",
@@ -77,7 +168,7 @@
 	"map_zoom": "['99', '822', '99', '822']"
 },
 {
-	"NR. CRT.": "1.7",
+	"NR. CRT.": "1.14",
 	"Indicativ drum": "DN67",
 	"De la km": "156+500",
 	"Pana la km": "159+000",
@@ -90,7 +181,7 @@
 	"map_zoom": "['156', '500', '159', '0']"
 },
 {
-	"NR. CRT.": "1.8",
+	"NR. CRT.": "1.15",
 	"Indicativ drum": "DN67B",
 	"De la km": "89+100",
 	"Pana la km": "162+000",
@@ -103,7 +194,7 @@
 	"map_zoom": "['89', '100', '162', '0']"
 },
 {
-	"NR. CRT.": "1.9",
+	"NR. CRT.": "1.16",
 	"Indicativ drum": "DN7",
 	"De la km": "198+000",
 	"Pana la km": "207+000",
@@ -116,7 +207,7 @@
 	"map_zoom": "['198', '0', '207', '0']"
 },
 {
-	"NR. CRT.": "1.10",
+	"NR. CRT.": "1.17",
 	"Indicativ drum": "DN7",
 	"De la km": "216+440",
 	"Pana la km": "217+400",
@@ -129,7 +220,7 @@
 	"map_zoom": "['216', '440', '217', '400']"
 },
 {
-	"NR. CRT.": "1.11",
+	"NR. CRT.": "1.18",
 	"Indicativ drum": "DN7",
 	"De la km": "214+000",
 	"Pana la km": "225+000",
@@ -142,7 +233,7 @@
 	"map_zoom": "['214', '0', '225', '0']"
 },
 {
-	"NR. CRT.": "1.12",
+	"NR. CRT.": "1.19",
 	"Indicativ drum": "DN7",
 	"De la km": "189+400",
 	"Pana la km": "189+900",
