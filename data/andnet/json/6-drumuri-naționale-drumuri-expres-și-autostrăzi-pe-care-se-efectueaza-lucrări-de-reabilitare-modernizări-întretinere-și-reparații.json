@@ -14,19 +14,6 @@
 {
 	"NR. CRT.": "6.2",
 	"Indicativ drum": "A1",
-	"De la km": "225+000",
-	"Pana la km": "238+000",
-	"De la data": "2026-10-05 08:00:00",
-	"Pana la data": "2026-12-19 20:00:00",
-	"Intre localitatile": "CISNADIE (SB) - BOITA (SB)",
-	"Tip lucrare": "Continuarea constructiei lotului 2 al autostrazii Sibiu-Pitesti(A1),respectiv pentru desfasurarea lucrarilor la pasajul peste breteaua rutiera care asigura descarcarea A1 in DN7.",
-	"Variante de ocolire": "Traficul rutier se va desfasura in aceasta perioada, deviat pe DN7 , intre localitatile Boita, Talmaciu si Vestem si DN1 , intre localitatile Vestem si Cisnadie.",
-	"viz_name": "A1",
-	"map_zoom": "['225', '0', '238', '0']"
-},
-{
-	"NR. CRT.": "6.3",
-	"Indicativ drum": "A1",
 	"De la km": "546+740",
 	"Pana la km": "555+730",
 	"De la data": "2026-09-15 08:00:00",
@@ -36,6 +23,19 @@
 	"Variante de ocolire": "",
 	"viz_name": "A1",
 	"map_zoom": "['546', '740', '555', '730']"
+},
+{
+	"NR. CRT.": "6.3",
+	"Indicativ drum": "A1",
+	"De la km": "225+000",
+	"Pana la km": "238+000",
+	"De la data": "2026-10-05 08:00:00",
+	"Pana la data": "2026-12-19 20:00:00",
+	"Intre localitatile": "CISNADIE (SB) - BOITA (SB)",
+	"Tip lucrare": "Continuarea constructiei lotului 2 al autostrazii Sibiu-Pitesti(A1),respectiv pentru desfasurarea lucrarilor la pasajul peste breteaua rutiera care asigura descarcarea A1 in DN7.",
+	"Variante de ocolire": "Traficul rutier se va desfasura in aceasta perioada, deviat pe DN7 , intre localitatile Boita, Talmaciu si Vestem si DN1 , intre localitatile Vestem si Cisnadie.",
+	"viz_name": "A1",
+	"map_zoom": "['225', '0', '238', '0']"
 },
 {
 	"NR. CRT.": "6.4",
@@ -92,15 +92,15 @@
 {
 	"NR. CRT.": "6.8",
 	"Indicativ drum": "A7",
-	"De la km": "54+600",
-	"Pana la km": "54+700",
-	"De la data": "2026-06-23 11:30:00",
+	"De la km": "49+370",
+	"Pana la km": "61+050",
+	"De la data": "2026-08-01 07:12:00",
 	"Pana la data": "2027-01-31 23:59:00",
-	"Intre localitatile": "SPATARU (BZ) - SPATARU (BZ)",
-	"Tip lucrare": "Se instituie restrictii de viteza atat pe calea 1 cat si pe calea 2, ca urmare a tasarii partii carosabile.",
-	"Variante de ocolire": "Se circula cu limitarea vitezei la max. 80 km/h.Se vor impune restrictii de circulatie conform schemei de semnalizare:E.1. - Lucrari pe banda de urgenta",
+	"Intre localitatile": "BUZAU (BZ) - FOCSANI (VN)",
+	"Tip lucrare": "Restrictii de circulatie in vederea verificarii semnalizarii rutiere. Calea 1 si Calea 2 - banda de urgenta si banda 2.",
+	"Variante de ocolire": "Semnalizarea se va face conform schemei:      E.3. Lucrari pe banda marginala      E.4. Lucrari pe banda adiacenta benzii mediane.",
 	"viz_name": "A7",
-	"map_zoom": "['54', '600', '54', '700']"
+	"map_zoom": "['49', '370', '61', '50']"
 },
 {
 	"NR. CRT.": "6.9",
@@ -118,18 +118,31 @@
 {
 	"NR. CRT.": "6.10",
 	"Indicativ drum": "A7",
-	"De la km": "49+370",
-	"Pana la km": "61+050",
-	"De la data": "2026-08-01 07:12:00",
+	"De la km": "54+600",
+	"Pana la km": "54+700",
+	"De la data": "2026-06-23 11:30:00",
 	"Pana la data": "2027-01-31 23:59:00",
-	"Intre localitatile": "BUZAU (BZ) - FOCSANI (VN)",
-	"Tip lucrare": "Restrictii de circulatie in vederea verificarii semnalizarii rutiere. Calea 1 si Calea 2 - banda de urgenta si banda 2.",
-	"Variante de ocolire": "Semnalizarea se va face conform schemei:      E.3. Lucrari pe banda marginala      E.4. Lucrari pe banda adiacenta benzii mediane.",
+	"Intre localitatile": "SPATARU (BZ) - SPATARU (BZ)",
+	"Tip lucrare": "Se instituie restrictii de viteza atat pe calea 1 cat si pe calea 2, ca urmare a tasarii partii carosabile.",
+	"Variante de ocolire": "Se circula cu limitarea vitezei la max. 80 km/h.Se vor impune restrictii de circulatie conform schemei de semnalizare:E.1. - Lucrari pe banda de urgenta",
 	"viz_name": "A7",
-	"map_zoom": "['49', '370', '61', '50']"
+	"map_zoom": "['54', '600', '54', '700']"
 },
 {
 	"NR. CRT.": "6.11",
+	"Indicativ drum": "DN1",
+	"De la km": "14+185",
+	"Pana la km": "14+345",
+	"De la data": "2026-05-11 10:34:00",
+	"Pana la data": "2026-12-30 23:59:00",
+	"Intre localitatile": "-",
+	"Tip lucrare": "Se desfasoara lucrari pentru constructia liniei de metrou care va asigura legatura cu Aeroportul International Henri Coanda Bucuresti.Pe durata executarii lucrarilor, circulatia rutiera pe DN1, intre kilometrii 14+185 si 14+345, se va desfasura pe doua benzi din trei, pe sensul Ploiesti-Bucurest.Conducatorii auto sunt rugati sa circule cu prudenta, sa respecte semnalizarea temporara instituita in zona si indicatiile politistilor rutieri.",
+	"Variante de ocolire": "",
+	"viz_name": "DN1",
+	"map_zoom": "['14', '185', '14', '345']"
+},
+{
+	"NR. CRT.": "6.12",
 	"Indicativ drum": "DN1",
 	"De la km": "7+200",
 	"Pana la km": "7+400",
@@ -142,7 +155,7 @@
 	"map_zoom": "['7', '200', '7', '400']"
 },
 {
-	"NR. CRT.": "6.12",
+	"NR. CRT.": "6.13",
 	"Indicativ drum": "DN1",
 	"De la km": "7+700",
 	"Pana la km": "7+950",
@@ -155,7 +168,7 @@
 	"map_zoom": "['7', '700', '7', '950']"
 },
 {
-	"NR. CRT.": "6.13",
+	"NR. CRT.": "6.14",
 	"Indicativ drum": "DN1",
 	"De la km": "8+300",
 	"Pana la km": "8+450",
@@ -168,7 +181,7 @@
 	"map_zoom": "['8', '300', '8', '450']"
 },
 {
-	"NR. CRT.": "6.14",
+	"NR. CRT.": "6.15",
 	"Indicativ drum": "DN1",
 	"De la km": "8+700",
 	"Pana la km": "9+115",
@@ -181,7 +194,7 @@
 	"map_zoom": "['8', '700', '9', '115']"
 },
 {
-	"NR. CRT.": "6.15",
+	"NR. CRT.": "6.16",
 	"Indicativ drum": "DN1",
 	"De la km": "9+720",
 	"Pana la km": "9+820",
@@ -194,7 +207,7 @@
 	"map_zoom": "['9', '720', '9', '820']"
 },
 {
-	"NR. CRT.": "6.16",
+	"NR. CRT.": "6.17",
 	"Indicativ drum": "DN1",
 	"De la km": "10+200",
 	"Pana la km": "11+450",
@@ -207,7 +220,7 @@
 	"map_zoom": "['10', '200', '11', '450']"
 },
 {
-	"NR. CRT.": "6.17",
+	"NR. CRT.": "6.18",
 	"Indicativ drum": "DN1",
 	"De la km": "12+400",
 	"Pana la km": "13+050",
@@ -218,19 +231,6 @@
 	"Variante de ocolire": "",
 	"viz_name": "DN1",
 	"map_zoom": "['12', '400', '13', '50']"
-},
-{
-	"NR. CRT.": "6.18",
-	"Indicativ drum": "DN1",
-	"De la km": "14+185",
-	"Pana la km": "14+345",
-	"De la data": "2026-05-11 10:34:00",
-	"Pana la data": "2026-12-30 23:59:00",
-	"Intre localitatile": "-",
-	"Tip lucrare": "Se desfasoara lucrari pentru constructia liniei de metrou care va asigura legatura cu Aeroportul International Henri Coanda Bucuresti.Pe durata executarii lucrarilor, circulatia rutiera pe DN1, intre kilometrii 14+185 si 14+345, se va desfasura pe doua benzi din trei, pe sensul Ploiesti-Bucurest.Conducatorii auto sunt rugati sa circule cu prudenta, sa respecte semnalizarea temporara instituita in zona si indicatiile politistilor rutieri.",
-	"Variante de ocolire": "",
-	"viz_name": "DN1",
-	"map_zoom": "['14', '185', '14', '345']"
 },
 {
 	"NR. CRT.": "6.19",
@@ -403,6 +403,19 @@
 },
 {
 	"NR. CRT.": "6.32",
+	"Indicativ drum": "DN22C",
+	"De la km": "23+388",
+	"Pana la km": "35+820",
+	"De la data": "2026-08-06 07:00:00",
+	"Pana la data": "2026-11-06 23:59:00",
+	"Intre localitatile": "MEDGIDIA (CT) - CASTELU (CT)",
+	"Tip lucrare": "Lucrari de reciclare si asternere covor asfaltic.",
+	"Variante de ocolire": "Se circula cu restrictie de viteza 40 Km/h, alternativ pe o banda in ambele directii.",
+	"viz_name": "DN22C",
+	"map_zoom": "['23', '388', '35', '820']"
+},
+{
+	"NR. CRT.": "6.33",
 	"Indicativ drum": "DN25",
 	"De la km": "48+542",
 	"Pana la km": "48+542",
@@ -415,7 +428,7 @@
 	"map_zoom": "['48', '542', '48', '542']"
 },
 {
-	"NR. CRT.": "6.33",
+	"NR. CRT.": "6.34",
 	"Indicativ drum": "DN25",
 	"De la km": "47+834",
 	"Pana la km": "48+893",
@@ -428,7 +441,7 @@
 	"map_zoom": "['47', '834', '48', '893']"
 },
 {
-	"NR. CRT.": "6.34",
+	"NR. CRT.": "6.35",
 	"Indicativ drum": "DN28",
 	"De la km": "112+337",
 	"Pana la km": "112+352",
@@ -439,19 +452,6 @@
 	"Variante de ocolire": "Semnalizare rutiera temporara.",
 	"viz_name": "DN28",
 	"map_zoom": "['112', '337', '112', '352']"
-},
-{
-	"NR. CRT.": "6.35",
-	"Indicativ drum": "DN2B",
-	"De la km": "125+500",
-	"Pana la km": "125+920",
-	"De la data": "2026-07-01 08:00:00",
-	"Pana la data": "2027-01-31 23:59:00",
-	"Intre localitatile": "SENDRENI (GL) -",
-	"Tip lucrare": "Alunecare de teren in zona rampei pasajului CF de la km 125+850.",
-	"Variante de ocolire": "Drum ingustat cu prioritate fata de circulatia din sens invers.Latime parte carosabila stanga 3,00 mLatime parte carosabila dreapta 3,5 mSe circula cu limitarea vitezei la max. 30km/h.",
-	"viz_name": "DN2B",
-	"map_zoom": "['125', '500', '125', '920']"
 },
 {
 	"NR. CRT.": "6.36",
@@ -469,6 +469,19 @@
 {
 	"NR. CRT.": "6.37",
 	"Indicativ drum": "DN2B",
+	"De la km": "125+500",
+	"Pana la km": "125+920",
+	"De la data": "2026-07-01 08:00:00",
+	"Pana la data": "2027-01-31 23:59:00",
+	"Intre localitatile": "SENDRENI (GL) -",
+	"Tip lucrare": "Alunecare de teren in zona rampei pasajului CF de la km 125+850.",
+	"Variante de ocolire": "Drum ingustat cu prioritate fata de circulatia din sens invers.Latime parte carosabila stanga 3,00 mLatime parte carosabila dreapta 3,5 mSe circula cu limitarea vitezei la max. 30km/h.",
+	"viz_name": "DN2B",
+	"map_zoom": "['125', '500', '125', '920']"
+},
+{
+	"NR. CRT.": "6.38",
+	"Indicativ drum": "DN2B",
 	"De la km": "47+938",
 	"Pana la km": "49+088",
 	"De la data": "2026-01-26 12:00:00",
@@ -480,7 +493,7 @@
 	"map_zoom": "['47', '938', '49', '88']"
 },
 {
-	"NR. CRT.": "6.38",
+	"NR. CRT.": "6.39",
 	"Indicativ drum": "DN2E",
 	"De la km": "79+179",
 	"Pana la km": "79+309",
@@ -493,7 +506,7 @@
 	"map_zoom": "['79', '179', '79', '309']"
 },
 {
-	"NR. CRT.": "6.39",
+	"NR. CRT.": "6.40",
 	"Indicativ drum": "DN2L",
 	"De la km": "60+145",
 	"Pana la km": "76+277",
@@ -506,7 +519,7 @@
 	"map_zoom": "['60', '145', '76', '277']"
 },
 {
-	"NR. CRT.": "6.40",
+	"NR. CRT.": "6.41",
 	"Indicativ drum": "DN2S",
 	"De la km": "16+760",
 	"Pana la km": "17+740",
@@ -519,7 +532,7 @@
 	"map_zoom": "['16', '760', '17', '740']"
 },
 {
-	"NR. CRT.": "6.41",
+	"NR. CRT.": "6.42",
 	"Indicativ drum": "DN31",
 	"De la km": "2+500",
 	"Pana la km": "10+000",
@@ -532,7 +545,7 @@
 	"map_zoom": "['2', '500', '10', '0']"
 },
 {
-	"NR. CRT.": "6.42",
+	"NR. CRT.": "6.43",
 	"Indicativ drum": "DN3B",
 	"De la km": "0+200",
 	"Pana la km": "1+250",
@@ -545,7 +558,7 @@
 	"map_zoom": "['0', '200', '1', '250']"
 },
 {
-	"NR. CRT.": "6.43",
+	"NR. CRT.": "6.44",
 	"Indicativ drum": "DN3B",
 	"De la km": "30+800",
 	"Pana la km": "45+800",
@@ -558,7 +571,7 @@
 	"map_zoom": "['30', '800', '45', '800']"
 },
 {
-	"NR. CRT.": "6.44",
+	"NR. CRT.": "6.45",
 	"Indicativ drum": "DN59B",
 	"De la km": "60+000",
 	"Pana la km": "75+488",
@@ -571,7 +584,7 @@
 	"map_zoom": "['60', '0', '75', '488']"
 },
 {
-	"NR. CRT.": "6.45",
+	"NR. CRT.": "6.46",
 	"Indicativ drum": "DN6",
 	"De la km": "29+990",
 	"Pana la km": "41+800",
@@ -584,7 +597,7 @@
 	"map_zoom": "['29', '990', '41', '800']"
 },
 {
-	"NR. CRT.": "6.46",
+	"NR. CRT.": "6.47",
 	"Indicativ drum": "DN67D",
 	"De la km": "0+000",
 	"Pana la km": "30+000",
@@ -597,7 +610,7 @@
 	"map_zoom": "['0', '0', '30', '0']"
 },
 {
-	"NR. CRT.": "6.47",
+	"NR. CRT.": "6.48",
 	"Indicativ drum": "DN7",
 	"De la km": "377+200",
 	"Pana la km": "377+200",
@@ -610,7 +623,7 @@
 	"map_zoom": "['377', '200', '377', '200']"
 },
 {
-	"NR. CRT.": "6.48",
+	"NR. CRT.": "6.49",
 	"Indicativ drum": "DN7",
 	"De la km": "242+400",
 	"Pana la km": "245+400",
@@ -623,7 +636,7 @@
 	"map_zoom": "['242', '400', '245', '400']"
 },
 {
-	"NR. CRT.": "6.49",
+	"NR. CRT.": "6.50",
 	"Indicativ drum": "DN7",
 	"De la km": "198+000",
 	"Pana la km": "219+200",
@@ -636,7 +649,7 @@
 	"map_zoom": "['198', '0', '219', '200']"
 },
 {
-	"NR. CRT.": "6.50",
+	"NR. CRT.": "6.51",
 	"Indicativ drum": "DN7",
 	"De la km": "251+600",
 	"Pana la km": "251+750",
@@ -649,7 +662,20 @@
 	"map_zoom": "['251', '600', '251', '750']"
 },
 {
-	"NR. CRT.": "6.51",
+	"NR. CRT.": "6.52",
+	"Indicativ drum": "DN7",
+	"De la km": "505+600",
+	"Pana la km": "505+600",
+	"De la data": "2026-10-08 10:00:00",
+	"Pana la data": "2026-10-22 12:00:00",
+	"Intre localitatile": "MILOVA (AR) -",
+	"Tip lucrare": "Se executa lucrari de inlocuire a dispozitivelor de acoperire a rosturilor de dilatatie",
+	"Variante de ocolire": "Traficul se desfasoara pe jumatate de cale, cu semafor temporar.",
+	"viz_name": "DN7",
+	"map_zoom": "['505', '600', '505', '600']"
+},
+{
+	"NR. CRT.": "6.53",
 	"Indicativ drum": "DN71",
 	"De la km": "0+500",
 	"Pana la km": "0+700",
@@ -662,7 +688,7 @@
 	"map_zoom": "['0', '500', '0', '700']"
 },
 {
-	"NR. CRT.": "6.52",
+	"NR. CRT.": "6.54",
 	"Indicativ drum": "VO_CARANSEBES",
 	"De la km": "0+310",
 	"Pana la km": "12+073",

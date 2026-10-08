@@ -11,7 +11,7 @@
   },
   {
     "Denumire":"Galați",
-    "Timp":40,
+    "Timp":50,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -31,7 +31,7 @@
   },
   {
     "Denumire":"Isaccea",
-    "Timp":120,
+    "Timp":150,
     "Info":"Intrare 3 artere, ieșire 2 artere",
     "Latitude":"45.2838718",
     "Longitude":"28.453399",
@@ -91,10 +91,20 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":10,
+    "Timp":40,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
+    "Status":"orange",
+    "Tip vehicul":"Camioane",
+    "Sens":"Ieșire"
+  },
+  {
+    "Denumire":"Sighetu Marmației II",
+    "Timp":5,
+    "Info":"TRAFIC INCHIS PENTRU AUTOMARFARE IN AMBELE SENSURI",
+    "Latitude":"47.94779086333092",
+    "Longitude":"23.938044081997763",
     "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
