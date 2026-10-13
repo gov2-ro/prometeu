@@ -22768,3 +22768,33 @@
 2026-10-13 00:09:58,766 INFO   OK  Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-13.10.2026.xlsx  54,909 bytes  2.1s
 2026-10-13 00:09:58,767 INFO Done: 13 OK, 0 failed
 2026-10-13 00:09:58,767 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
+2026-10-13 13:28:19,061 INFO === situr download start 2026-10-13T13:28:19.061925 ===
+2026-10-13 13:28:19,062 INFO Found 13 types to download
+2026-10-13 13:28:19,062 INFO Downloading: listaAgentii — Lista agențiilor de turism licențiate
+2026-10-13 13:28:35,854 INFO   OK  Lista-agențiilor-de-turism-licențiate-actualizată-la-13.10.2026.xlsx  399,937 bytes  16.8s
+2026-10-13 13:28:35,854 INFO Downloading: listaAgentiiRadiate — Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată
+2026-10-13 13:28:54,818 INFO   OK  Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-radiată-actualizată-la-13.10.2026.xlsx  60,031 bytes  19.0s
+2026-10-13 13:28:54,818 INFO Downloading: listaAgentiiRetrase — Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă
+2026-10-13 13:29:05,065 INFO   OK  Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-retrasă-actualizată-la-13.10.2026.xlsx  46,413 bytes  10.2s
+2026-10-13 13:29:05,065 INFO Downloading: listaCazari — Lista structurilor de primire turistice cu funcțiuni de cazare
+2026-10-13 13:30:05,098 ERROR   FAILED listaCazari: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Read timed out. (read timeout=60)
+2026-10-13 13:30:05,099 INFO Downloading: listaCazariRadiate — Lista structurilor de primire turistice cu funcțiuni de cazare radiate
+2026-10-13 13:30:36,574 ERROR   FAILED listaCazariRadiate: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRadiate
+2026-10-13 13:30:36,574 INFO Downloading: listaCazariRetrase — Lista structurilor de primire turistice cu funcțiuni de cazare retrase
+2026-10-13 13:31:07,467 ERROR   FAILED listaCazariRetrase: 500 Server Error: Internal Server Error for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRetrase
+2026-10-13 13:31:07,467 INFO Downloading: listaAlimentatie — Lista structurilor de primire turistice cu funcțiuni de alimentație publică
+2026-10-13 13:31:17,250 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-clasificate-actualizată-la-13.10.2026.xlsx  834,118 bytes  9.8s
+2026-10-13 13:31:17,251 INFO Downloading: listaAlimentatieRadiate — Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate
+2026-10-13 13:31:22,202 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-13.10.2026.xlsx  277,154 bytes  5.0s
+2026-10-13 13:31:22,202 INFO Downloading: listaAlimentatieRetrase — Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase
+2026-10-13 13:31:24,413 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-13.10.2026.xlsx  45,437 bytes  2.2s
+2026-10-13 13:31:24,413 INFO Downloading: listaPartii — Lista pârtiilor de schi omologate
+2026-10-13 13:31:32,678 INFO   OK  Lista-pârtiilor-de-schi-omologate-actualizată-la-13.10.2026.xlsx  57,082 bytes  8.3s
+2026-10-13 13:31:32,678 INFO Downloading: listaStatiuni — Lista localităților atestate ca stațiuni turistice de interes național, respectiv local
+2026-10-13 13:31:35,113 INFO   OK  Lista-localităților-atestate-ca-stațiuni-turistice-de-interes-național,-respectiv-local-actualizată-la-13.10.2026.xlsx  47,917 bytes  2.4s
+2026-10-13 13:31:35,113 INFO Downloading: listaGhizi — Lista ghizilor de turism atestați
+2026-10-13 13:31:41,991 INFO   OK  Lista-ghizilor-de-turism-atestați-actualizată-la-13.10.2026.xlsx  342,468 bytes  6.9s
+2026-10-13 13:31:41,991 INFO Downloading: listaCentreInformare — Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate
+2026-10-13 13:31:45,090 INFO   OK  Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-13.10.2026.xlsx  54,915 bytes  3.1s
+2026-10-13 13:31:45,090 INFO Done: 10 OK, 3 failed
+2026-10-13 13:31:45,091 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
