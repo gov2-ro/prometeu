@@ -1,17 +1,17 @@
 [
   {
     "Denumire":"Albița",
-    "Timp":120,
+    "Timp":20,
     "Info":"",
     "Latitude":"46.78513359",
     "Longitude":"28.138904570000022",
-    "Status":"red",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
   {
     "Denumire":"Galați",
-    "Timp":90,
+    "Timp":250,
     "Info":"",
     "Latitude":"45.46825360262536",
     "Longitude":"28.188611261901883",
@@ -21,11 +21,11 @@
   },
   {
     "Denumire":"Halmeu",
-    "Timp":30,
-    "Info":"Intrare: 1 arteră; Iesire: 1 arteră,",
+    "Timp":60,
+    "Info":"Intrare: 1 arteră; Iesire: 1 arteră,Trafic intens,număr mare de camioane prezentate la control.",
     "Latitude":"47.99218343807866",
     "Longitude":"23.003118041472135",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -71,11 +71,11 @@
   },
   {
     "Denumire":"Oancea",
-    "Timp":30,
+    "Timp":10,
     "Info":"",
     "Latitude":"45.91761677",
     "Longitude":"28.11879872999998",
-    "Status":"orange",
+    "Status":"green",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -91,11 +91,11 @@
   },
   {
     "Denumire":"Sculeni",
-    "Timp":50,
+    "Timp":70,
     "Info":"",
     "Latitude":"47.31616400549972",
     "Longitude":"27.610375267906193",
-    "Status":"orange",
+    "Status":"red",
     "Tip vehicul":"Camioane",
     "Sens":"Ieșire"
   },
@@ -112,7 +112,7 @@
   {
     "Denumire":"Siret",
     "Timp":120,
-    "Info":"Trafic intens,număr foarte mare de camioane prezentate la control.",
+    "Info":"Intrare: 1 artera; Ieșire 2 artere.Trafic intens,număr foarte mare de camioane prezentate la control.",
     "Latitude":"47.98636006999999",
     "Longitude":"26.062595845606666",
     "Status":"red",
