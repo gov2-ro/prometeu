@@ -1,18 +1,5 @@
 [{
 	"NR. CRT.": "1.1",
-	"Indicativ drum": "A0",
-	"De la km": "74+861",
-	"Pana la km": "74+861",
-	"De la data": "2026-10-26 08:30:00",
-	"Pana la data": "2026-10-27 12:00:00",
-	"Intre localitatile": "-",
-	"Cauza": "Se inchide circulatia pe breteaua de coborare de pe Autostrada A0, km 74+861, Calea 1spre DN5. Se efectueaza lucrari de reparatii la carosabil.",
-	"Masuri de remediere": "Rute alternative:1. A0,Constanta/Urziceni-A0,nod rutier DN4(km61+649) iesire de pe A0 pe DN4 km14+500-DN4, Popesti-Leordeni-intersectie DN4 km 12+230 cu DNCB km30+200-DNCB-intersectie DNCB km40+531 cu DN5 km10+356-Bucuresti/Giurgiu.2. A0,Berceni-A0, nod rutier DN6(km84+650) coborare de pe A0 pe DN6 catre Cornetu-intoarcerea in sensul giratoriu DN6(Buda)-urcare pe A0 km84+650, calea 1-coborare de pe A0 km74+841-DN5-Bucuresti/Giurgiu.",
-	"viz_name": "A0",
-	"map_zoom": "['74', '861', '74', '861']"
-},
-{
-	"NR. CRT.": "1.2",
 	"Indicativ drum": "A1",
 	"De la km": "251+000",
 	"Pana la km": "251+300",
@@ -23,6 +10,19 @@
 	"Masuri de remediere": "Se circula ingreunat pe banda 2 a caii 2.",
 	"viz_name": "A1",
 	"map_zoom": "['251', '0', '251', '300']"
+},
+{
+	"NR. CRT.": "1.2",
+	"Indicativ drum": "A1",
+	"De la km": "519+336",
+	"Pana la km": "519+336",
+	"De la data": "2026-10-27 12:00:00",
+	"Pana la data": "2026-11-10 16:00:00",
+	"Intre localitatile": "SECEANI (TM) -",
+	"Cauza": "Pe Calea 2 se executa lucrari la rosturile de dilatatie.",
+	"Masuri de remediere": "Banda 1 si banda de urgenta sunt restrictionate.Se circula pe banda 2.Se estimeaza reluarea circulatiei normale, la data de 10.11.2026, ora 16:00.",
+	"viz_name": "A1",
+	"map_zoom": "['519', '336', '519', '336']"
 },
 {
 	"NR. CRT.": "1.3",
@@ -75,5 +75,70 @@
 	"Masuri de remediere": "Circulatia se desfasoara pe 1/2 cale cu ajutorul pilotilor de circulatie.",
 	"viz_name": "DN6",
 	"map_zoom": "['344', '20', '370', '500']"
+},
+{
+	"NR. CRT.": "1.7",
+	"Indicativ drum": "DN7",
+	"De la km": "228+800",
+	"Pana la km": "228+900",
+	"De la data": "2026-10-27 08:00:00",
+	"Pana la data": "2026-10-27 16:00:00",
+	"Intre localitatile": "CAINENII MICI (VL) -",
+	"Cauza": "Pe sectorul de drum DN 7 km 228+800 - km 228+900 in extravilanul localitatii Caineni se executa lucrari de ranguire versanti intre orele 08:00 - 16:00.",
+	"Masuri de remediere": "Circulatia rutiera se inchide/deschide in reprize de max. 15 minute dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['228', '800', '228', '900']"
+},
+{
+	"NR. CRT.": "1.8",
+	"Indicativ drum": "DN7",
+	"De la km": "197+000",
+	"Pana la km": "203+000",
+	"De la data": "2026-10-27 08:00:00",
+	"Pana la data": "2026-10-27 17:00:00",
+	"Intre localitatile": "CALIMANESTI (VL) - BREZOI (VL)",
+	"Cauza": "Se lucreaza la reparatii asfaltice intre orele 08:00 - 17:00.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['197', '0', '203', '0']"
+},
+{
+	"NR. CRT.": "1.9",
+	"Indicativ drum": "DN7",
+	"De la km": "227+000",
+	"Pana la km": "239+400",
+	"De la data": "2026-10-27 08:00:00",
+	"Pana la data": "2026-10-27 16:00:00",
+	"Intre localitatile": "ROBESTI (VL) - RAU VADULUI (VL)",
+	"Cauza": "Pe sectorul de drum DN 7 km 227+000 - km 239+400 pe raza localitatii Robesti - Rau Vadului se lucreaza la curatire santuri intre orele 08:00 - 16:00.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe 1/2 din cale dirijata in zona utilajului de curatire santuri de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['227', '0', '239', '400']"
+},
+{
+	"NR. CRT.": "1.10",
+	"Indicativ drum": "DN7",
+	"De la km": "159+800",
+	"Pana la km": "160+000",
+	"De la data": "2026-10-27 08:00:00",
+	"Pana la data": "2026-10-27 16:00:00",
+	"Intre localitatile": "MILCOIU (VL) -",
+	"Cauza": "Se lucreaza la montare/demontare parapet metalic intre orele 08:00 - 16:00.",
+	"Masuri de remediere": "Circulatia rutiera se desfasoara pe doua benzi din trei dirijata prin indicatoare rutiere.",
+	"viz_name": "DN7",
+	"map_zoom": "['159', '800', '160', '0']"
+},
+{
+	"NR. CRT.": "1.11",
+	"Indicativ drum": "DN7",
+	"De la km": "204+800",
+	"Pana la km": "204+900",
+	"De la data": "2026-10-27 08:00:00",
+	"Pana la data": "2026-10-27 14:00:00",
+	"Intre localitatile": "BREZOI (VL) -",
+	"Cauza": "In extravilanul localitatii Brezoi se lucreaza la montare parapet de beton intre orele 08:00 - 14:00. .",
+	"Masuri de remediere": ". Circulatia rutiera se desfasoara pe 1/2 din cale dirijata de piloti de circulatie.",
+	"viz_name": "DN7",
+	"map_zoom": "['204', '800', '204', '900']"
 }
 ]
