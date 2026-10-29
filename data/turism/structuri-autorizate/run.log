@@ -24568,3 +24568,33 @@
 2026-10-29 04:18:16,393 ERROR   FAILED listaCentreInformare: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCentreInformare
 2026-10-29 04:18:16,394 INFO Done: 0 OK, 13 failed
 2026-10-29 04:18:16,394 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
+2026-10-29 12:17:05,674 INFO === situr download start 2026-10-29T12:17:05.673982 ===
+2026-10-29 12:17:05,674 INFO Found 13 types to download
+2026-10-29 12:17:05,674 INFO Downloading: listaAgentii — Lista agențiilor de turism licențiate
+2026-10-29 12:17:28,151 ERROR   FAILED listaAgentii: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentii
+2026-10-29 12:17:28,152 INFO Downloading: listaAgentiiRadiate — Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată
+2026-10-29 12:17:49,370 ERROR   FAILED listaAgentiiRadiate: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentiiRadiate
+2026-10-29 12:17:49,370 INFO Downloading: listaAgentiiRetrase — Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă
+2026-10-29 12:18:10,588 ERROR   FAILED listaAgentiiRetrase: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAgentiiRetrase
+2026-10-29 12:18:10,588 INFO Downloading: listaCazari — Lista structurilor de primire turistice cu funcțiuni de cazare
+2026-10-29 12:18:31,822 ERROR   FAILED listaCazari: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazari
+2026-10-29 12:18:31,822 INFO Downloading: listaCazariRadiate — Lista structurilor de primire turistice cu funcțiuni de cazare radiate
+2026-10-29 12:18:53,025 ERROR   FAILED listaCazariRadiate: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRadiate
+2026-10-29 12:18:53,025 INFO Downloading: listaCazariRetrase — Lista structurilor de primire turistice cu funcțiuni de cazare retrase
+2026-10-29 12:19:14,227 ERROR   FAILED listaCazariRetrase: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCazariRetrase
+2026-10-29 12:19:14,227 INFO Downloading: listaAlimentatie — Lista structurilor de primire turistice cu funcțiuni de alimentație publică
+2026-10-29 12:19:35,446 ERROR   FAILED listaAlimentatie: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatie
+2026-10-29 12:19:35,446 INFO Downloading: listaAlimentatieRadiate — Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate
+2026-10-29 12:19:56,649 ERROR   FAILED listaAlimentatieRadiate: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatieRadiate
+2026-10-29 12:19:56,649 INFO Downloading: listaAlimentatieRetrase — Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase
+2026-10-29 12:20:17,820 ERROR   FAILED listaAlimentatieRetrase: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaAlimentatieRetrase
+2026-10-29 12:20:17,820 INFO Downloading: listaPartii — Lista pârtiilor de schi omologate
+2026-10-29 12:20:39,039 ERROR   FAILED listaPartii: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaPartii
+2026-10-29 12:20:39,039 INFO Downloading: listaStatiuni — Lista localităților atestate ca stațiuni turistice de interes național, respectiv local
+2026-10-29 12:21:00,273 ERROR   FAILED listaStatiuni: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaStatiuni
+2026-10-29 12:21:00,273 INFO Downloading: listaGhizi — Lista ghizilor de turism atestați
+2026-10-29 12:21:21,476 ERROR   FAILED listaGhizi: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaGhizi
+2026-10-29 12:21:21,476 INFO Downloading: listaCentreInformare — Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate
+2026-10-29 12:21:42,647 ERROR   FAILED listaCentreInformare: 502 Server Error: Bad Gateway for url: https://se.situr.gov.ro/OpenData/ExportToExcel?type=listaCentreInformare
+2026-10-29 12:21:42,648 INFO Done: 0 OK, 13 failed
+2026-10-29 12:21:42,649 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
