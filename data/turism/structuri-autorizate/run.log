@@ -25648,3 +25648,33 @@
 2026-11-10 14:30:40,969 ERROR   FAILED listaCentreInformare: HTTPSConnectionPool(host='se.situr.gov.ro', port=443): Max retries exceeded with url: /OpenData/ExportToExcel?type=listaCentreInformare (Caused by ConnectTimeoutError(<HTTPSConnection(host='se.situr.gov.ro', port=443) at 0x7f2e2490e610>, 'Connection to se.situr.gov.ro timed out. (connect timeout=60)'))
 2026-11-10 14:30:40,970 INFO Done: 0 OK, 13 failed
 2026-11-10 14:30:40,970 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
+2026-11-10 22:47:56,889 INFO === situr download start 2026-11-10T22:47:56.889378 ===
+2026-11-10 22:47:56,889 INFO Found 13 types to download
+2026-11-10 22:47:56,889 INFO Downloading: listaAgentii — Lista agențiilor de turism licențiate
+2026-11-10 22:48:12,927 INFO   OK  Lista-agențiilor-de-turism-licențiate-actualizată-la-11.11.2026.xlsx  399,713 bytes  16.0s
+2026-11-10 22:48:12,927 INFO Downloading: listaAgentiiRadiate — Lista agențiilor de turism a căror licență sau anexă a licenței a fost radiată
+2026-11-10 22:48:24,892 INFO   OK  Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-radiată-actualizată-la-11.11.2026.xlsx  60,620 bytes  12.0s
+2026-11-10 22:48:24,892 INFO Downloading: listaAgentiiRetrase — Lista agențiilor de turism a căror licență sau anexă a licenței a fost retrasă
+2026-11-10 22:48:37,814 INFO   OK  Lista-agențiilor-de-turism-a-căror-licență-sau-anexă-a-licenței-a-fost-retrasă-actualizată-la-11.11.2026.xlsx  46,413 bytes  12.9s
+2026-11-10 22:48:37,814 INFO Downloading: listaCazari — Lista structurilor de primire turistice cu funcțiuni de cazare
+2026-11-10 22:49:06,326 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-clasificate-actualizată-la-11.11.2026.xlsx  3,915,375 bytes  28.5s
+2026-11-10 22:49:06,326 INFO Downloading: listaCazariRadiate — Lista structurilor de primire turistice cu funcțiuni de cazare radiate
+2026-11-10 22:49:15,496 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-11.11.2026.xlsx  614,330 bytes  9.2s
+2026-11-10 22:49:15,496 INFO Downloading: listaCazariRetrase — Lista structurilor de primire turistice cu funcțiuni de cazare retrase
+2026-11-10 22:49:40,206 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-cazare-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-11.11.2026.xlsx  47,321 bytes  24.7s
+2026-11-10 22:49:40,206 INFO Downloading: listaAlimentatie — Lista structurilor de primire turistice cu funcțiuni de alimentație publică
+2026-11-10 22:49:49,882 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-clasificate-actualizată-la-11.11.2026.xlsx  835,408 bytes  9.7s
+2026-11-10 22:49:49,882 INFO Downloading: listaAlimentatieRadiate — Lista structurilor de primire turistice cu funcțiuni de alimentație publică radiate
+2026-11-10 22:49:53,836 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-radiate-actualizată-la-11.11.2026.xlsx  276,943 bytes  4.0s
+2026-11-10 22:49:53,836 INFO Downloading: listaAlimentatieRetrase — Lista structurilor de primire turistice cu funcțiuni de alimentație publică retrase
+2026-11-10 22:49:56,035 INFO   OK  Lista-structurilor-de-primire-turistice-cu-funcțiuni-de-alimentație-publică-ale-căror-certificate-de-clasificare-au-fost-retrase-actualizată-la-11.11.2026.xlsx  45,435 bytes  2.2s
+2026-11-10 22:49:56,035 INFO Downloading: listaPartii — Lista pârtiilor de schi omologate
+2026-11-10 22:49:58,066 INFO   OK  Lista-pârtiilor-de-schi-omologate-actualizată-la-11.11.2026.xlsx  57,079 bytes  2.0s
+2026-11-10 22:49:58,066 INFO Downloading: listaStatiuni — Lista localităților atestate ca stațiuni turistice de interes național, respectiv local
+2026-11-10 22:49:59,999 INFO   OK  Lista-localităților-atestate-ca-stațiuni-turistice-de-interes-național,-respectiv-local-actualizată-la-11.11.2026.xlsx  47,915 bytes  1.9s
+2026-11-10 22:50:00,000 INFO Downloading: listaGhizi — Lista ghizilor de turism atestați
+2026-11-10 22:50:04,217 INFO   OK  Lista-ghizilor-de-turism-atestați-actualizată-la-11.11.2026.xlsx  342,854 bytes  4.2s
+2026-11-10 22:50:04,217 INFO Downloading: listaCentreInformare — Lista Centrelor Naționale și Locale de Informare și Promovare Turistică acreditate
+2026-11-10 22:50:06,761 INFO   OK  Lista-Centrelor-Naționale-și-Locale-de-Informare-și-Promovare-Turistică-acreditate-actualizată-la-11.11.2026.xlsx  54,910 bytes  2.5s
+2026-11-10 22:50:06,762 INFO Done: 13 OK, 0 failed
+2026-11-10 22:50:06,763 INFO Log saved to data/turism/structuri-autorizate/download_log.csv
