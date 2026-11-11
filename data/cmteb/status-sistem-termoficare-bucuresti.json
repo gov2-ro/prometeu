@@ -698,12 +698,11 @@
         "Long": 26.0277227
     },
     {
-        "stare": "Remediere avarie rețea secundară pe circuitul de încălzire",
-        "culoare": "#e0002b",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Dreptății",
-        "tip": "Oprire INC",
-        "remediere": "11.11.2026 05:00",
-        "status": "avarii",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4371,
         "Long": 26.02776
     },
@@ -990,7 +989,7 @@
         "Long": 26.038117
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum și încălzire",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "1/8",
         "tip": "Deficienta INC",
@@ -1046,11 +1045,12 @@
         "Long": 26.039708
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "4/8",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "11.11.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.419196639475516,
         "Long": 26.040015429136584
     },
@@ -1110,10 +1110,10 @@
         "Long": 26.041287
     },
     {
-        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "stare": "Lipsa parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "J Giulești",
-        "tip": "Deficienta ACC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 10:00",
         "status": "deficiente",
         "Lat": 44.4581415,
@@ -1138,11 +1138,12 @@
         "Long": 26.042154
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "2/2",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "11.11.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.42463031523894,
         "Long": 26.042418514384448
     },
@@ -1210,11 +1211,12 @@
         "Long": 26.043492
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "2/10",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "11.11.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.4182392863088,
         "Long": 26.043530378481176
     },
@@ -1418,11 +1420,12 @@
         "Long": 26.048603
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "4/10",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "11.11.2026 10:00",
+        "status": "deficiente",
         "Lat": 44.41646450780701,
         "Long": 26.048799604653027
     },
@@ -5285,7 +5288,7 @@
         "stare": "Lipsă parametri pentru livrare încălzire",
         "culoare": "#ffe53e",
         "denumire": "Ramuri Tei",
-        "tip": "Deficienta INC",
+        "tip": "Deficienta ACC/INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4635268,
@@ -5381,7 +5384,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "6 Mosilor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.44118928003856,
@@ -5444,11 +5447,12 @@
         "Long": 26.117068176908294
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "7 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.44007417409208,
         "Long": 26.11709766456455
     },
@@ -5465,7 +5469,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "3 Mosilor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.443391417130464,
@@ -5567,11 +5571,12 @@
         "Long": 26.11894
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Lipsa parametri pentru livrare apă caldă de consum",
+        "culoare": "#ffe53e",
         "denumire": "5 Oltenita",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta ACC",
+        "remediere": "11.11.2026 23:00",
+        "status": "deficiente",
         "Lat": 44.39595217037344,
         "Long": 26.119023078070196
     },
@@ -5637,7 +5642,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "Luncsoara",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.45091231198397,
@@ -5700,11 +5705,12 @@
         "Long": 26.12120227984521
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "1 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.44468378857037,
         "Long": 26.121203416570552
     },
@@ -5749,7 +5755,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "4 Mosilor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.44712691949858,
@@ -5805,7 +5811,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "5 Mosilor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4495800241628,
@@ -5869,11 +5875,12 @@
         "Long": 26.124608065814726
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "2 Mosilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.44806322124395,
         "Long": 26.124641248663135
     },
@@ -5964,7 +5971,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "ALMO",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.449764,
@@ -5993,7 +6000,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "P8 Foisor",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.44595,
@@ -6019,11 +6026,12 @@
         "Long": 26.1267818
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "3 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.455070515839104,
         "Long": 26.12692838914805
     },
@@ -6070,19 +6078,18 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "17-18 Petricani",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4644793,
         "Long": 26.127704
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "1 Teiul Doamnei",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.45988659949974,
         "Long": 26.127756636853036
     },
@@ -6246,11 +6253,12 @@
         "Long": 26.129300577458427
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "Nada Florilor",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.461432789917524,
         "Long": 26.12938603884733
     },
@@ -6283,10 +6291,10 @@
         "Long": 26.130161607455772
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "U1 Avrig",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4461498,
@@ -6303,11 +6311,11 @@
         "Long": 26.1305385
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "stare": "Temperatura insuficienta livrata de CTE SUD pentru preparare incalzire si apa calda de consum",
         "culoare": "#ffe53e",
         "denumire": "3 Petricani",
         "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
+        "remediere": "11.11.2026 23:30",
         "status": "deficiente",
         "Lat": 44.4628221,
         "Long": 26.1306196
@@ -6326,7 +6334,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "4 Colentina",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.45928646527834,
@@ -6373,7 +6381,7 @@
         "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
         "culoare": "#ffe53e",
         "denumire": "5 Colentina",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.459811014592255,
@@ -6390,10 +6398,10 @@
         "Long": 26.13114
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "U2 Avrig",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4460697,
@@ -6428,10 +6436,10 @@
         "Long": 26.132061748021197
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "C16 Mihai Bravu",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4421889,
@@ -6549,11 +6557,12 @@
         "Long": 26.1340851
     },
     {
-        "stare": "Functionare normala",
-        "culoare": "#008217",
+        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și  încălzire.",
+        "culoare": "#ffe53e",
         "denumire": "64 Colentina",
-        "tip": "-",
-        "status": "functionale",
+        "tip": "Deficienta INC",
+        "remediere": "11.11.2026 14:00",
+        "status": "deficiente",
         "Lat": 44.4625036,
         "Long": 26.1341763
     },
@@ -6605,12 +6614,11 @@
         "Long": 26.134771
     },
     {
-        "stare": "Temperatura insuficienta livrata de CET Sud pentru preparare apa calda si incalzire",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Propriu 2",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 23:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.3880869,
         "Long": 26.1348708
     },
@@ -6706,12 +6714,11 @@
         "Long": 26.135933408100595
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Iancului",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4419354,
         "Long": 26.1360142
     },
@@ -6726,10 +6733,10 @@
         "Long": 26.136026253564236
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "202 Mihai Bravu",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.43539361488484,
@@ -6791,10 +6798,10 @@
         "Long": 26.137278
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "D5 Mihai Bravu",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4367743,
@@ -7140,12 +7147,11 @@
         "Long": 26.14208088291993
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "Vila 71A",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4374596,
         "Long": 26.1421115
     },
@@ -7548,10 +7554,10 @@
         "Long": 26.148556
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "17 Pantelimon",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.4442947,
@@ -7751,12 +7757,11 @@
         "Long": 26.155001
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "3 Socului",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.439809,
         "Long": 26.156146
     },
@@ -7848,12 +7853,11 @@
         "Long": 26.158728
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "6 Pantelimon",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4433155,
         "Long": 26.1588575
     },
@@ -7923,22 +7927,21 @@
         "Long": 26.160846
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Carei",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.43631633610328,
         "Long": 26.16131914555112
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
-        "culoare": "#ffe53e",
+        "stare": "Functionare normala",
+        "culoare": "#008217",
         "denumire": "13 Pantelimon",
-        "tip": "Deficienta ACC/INC",
-        "remediere": "11.11.2026 14:00",
-        "status": "deficiente",
+        "tip": "-",
+        "status": "functionale",
         "Lat": 44.4423038,
         "Long": 26.1615087
     },
@@ -8258,10 +8261,10 @@
         "Long": 26.169704528373853
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "1 Hatisului",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.44534155412322,
@@ -8639,10 +8642,10 @@
         "Long": 26.178008578144073
     },
     {
-        "stare": "Temperatură insuficientă livrată de către CTE SUD pentru preparare apă caldă și încălzire.",
+        "stare": "Temperatura insuficienta livrata de catre CTE SUD pentru preparare incalzire",
         "culoare": "#ffe53e",
         "denumire": "11 Pantelimon",
-        "tip": "Deficienta ACC/INC",
+        "tip": "Deficienta INC",
         "remediere": "11.11.2026 14:00",
         "status": "deficiente",
         "Lat": 44.43989588642041,
