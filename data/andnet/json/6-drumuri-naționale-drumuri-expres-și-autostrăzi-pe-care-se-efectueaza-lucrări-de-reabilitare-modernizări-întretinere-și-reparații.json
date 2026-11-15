@@ -1,18 +1,5 @@
 [{
 	"NR. CRT.": "6.1",
-	"Indicativ drum": "A1",
-	"De la km": "448+000",
-	"Pana la km": "465+000",
-	"De la data": "2026-10-29 08:00:00",
-	"Pana la data": "2026-11-15 12:00:00",
-	"Intre localitatile": "TRAIAN VUIA (TM) - GRUNI (TM)",
-	"Tip lucrare": "Informare Eveniment rutier - Lucrari - Pe autostrada A1, pe sectorul cuprins intre km 448 - km 465 (Traian Vuia - nod rutier Balint/A6, jud. Timis), se desfasoara lucrari la imbracamintea asfaltica. Circulatia se desfasoara bidirectional, pe o singura cale (de pe C1 pe C2), parapetul median fiind demontat, se estimeaza reluarea normala a circulatiei in data de 15.11.2026, ora 12:00.",
-	"Variante de ocolire": "",
-	"viz_name": "A1",
-	"map_zoom": "['448', '0', '465', '0']"
-},
-{
-	"NR. CRT.": "6.2",
 	"Indicativ drum": "A2",
 	"De la km": "143+125",
 	"Pana la km": "148+315",
@@ -25,7 +12,7 @@
 	"map_zoom": "['143', '125', '148', '315']"
 },
 {
-	"NR. CRT.": "6.3",
+	"NR. CRT.": "6.2",
 	"Indicativ drum": "A2",
 	"De la km": "157+600",
 	"Pana la km": "159+600",
@@ -36,6 +23,19 @@
 	"Variante de ocolire": "Calea 2, Banda 1 restrictionata, se  circula pe Banda 2 cu limita de 60 km/h",
 	"viz_name": "A2",
 	"map_zoom": "['157', '600', '159', '600']"
+},
+{
+	"NR. CRT.": "6.3",
+	"Indicativ drum": "A7",
+	"De la km": "54+600",
+	"Pana la km": "54+700",
+	"De la data": "2026-06-23 11:30:00",
+	"Pana la data": "2027-01-31 23:59:00",
+	"Intre localitatile": "SPATARU (BZ) - SPATARU (BZ)",
+	"Tip lucrare": "Se instituie restrictii de viteza atat pe calea 1 cat si pe calea 2, ca urmare a tasarii partii carosabile.",
+	"Variante de ocolire": "Se circula cu limitarea vitezei la max. 80 km/h.Se vor impune restrictii de circulatie conform schemei de semnalizare:E.1. - Lucrari pe banda de urgenta",
+	"viz_name": "A7",
+	"map_zoom": "['54', '600', '54', '700']"
 },
 {
 	"NR. CRT.": "6.4",
@@ -65,19 +65,6 @@
 },
 {
 	"NR. CRT.": "6.6",
-	"Indicativ drum": "A7",
-	"De la km": "54+600",
-	"Pana la km": "54+700",
-	"De la data": "2026-06-23 11:30:00",
-	"Pana la data": "2027-01-31 23:59:00",
-	"Intre localitatile": "SPATARU (BZ) - SPATARU (BZ)",
-	"Tip lucrare": "Se instituie restrictii de viteza atat pe calea 1 cat si pe calea 2, ca urmare a tasarii partii carosabile.",
-	"Variante de ocolire": "Se circula cu limitarea vitezei la max. 80 km/h.Se vor impune restrictii de circulatie conform schemei de semnalizare:E.1. - Lucrari pe banda de urgenta",
-	"viz_name": "A7",
-	"map_zoom": "['54', '600', '54', '700']"
-},
-{
-	"NR. CRT.": "6.7",
 	"Indicativ drum": "DN1",
 	"De la km": "10+200",
 	"Pana la km": "10+500",
@@ -88,6 +75,19 @@
 	"Variante de ocolire": "",
 	"viz_name": "DN1",
 	"map_zoom": "['10', '200', '10', '500']"
+},
+{
+	"NR. CRT.": "6.7",
+	"Indicativ drum": "DN1",
+	"De la km": "220+650",
+	"Pana la km": "226+880",
+	"De la data": "2026-10-26 08:00:00",
+	"Pana la data": "2026-11-27 17:00:00",
+	"Intre localitatile": "SERCAIA (BV) - MANDRA (BV)",
+	"Tip lucrare": "Lucrari de intretinere periodica - covoare asfaltice.",
+	"Variante de ocolire": "TRAFIC DIRIJAT CU PILOTI DE DIRIJARE/SEMAFOR",
+	"viz_name": "DN1",
+	"map_zoom": "['220', '650', '226', '880']"
 },
 {
 	"NR. CRT.": "6.8",
@@ -208,16 +208,16 @@
 },
 {
 	"NR. CRT.": "6.17",
-	"Indicativ drum": "DN1",
-	"De la km": "220+650",
-	"Pana la km": "226+880",
-	"De la data": "2026-10-26 08:00:00",
-	"Pana la data": "2026-11-27 17:00:00",
-	"Intre localitatile": "SERCAIA (BV) - MANDRA (BV)",
-	"Tip lucrare": "Lucrari de intretinere periodica - covoare asfaltice.",
-	"Variante de ocolire": "TRAFIC DIRIJAT CU PILOTI DE DIRIJARE/SEMAFOR",
-	"viz_name": "DN1",
-	"map_zoom": "['220', '650', '226', '880']"
+	"Indicativ drum": "DN10",
+	"De la km": "78+000",
+	"Pana la km": "94+790",
+	"De la data": "2026-11-15 07:14:00",
+	"Pana la data": "2026-12-31 23:59:00",
+	"Intre localitatile": "LUNCA JARISTEI (BZ) - CRASNA (CV)",
+	"Tip lucrare": "Lucrari de ranguire versanti si reparatii la sistemul de consolidare a versantilor cu plase metalice ancorate si bariere.",
+	"Variante de ocolire": "Circulatie alternativa, semaforizata (circulatie alternanta pe o singura banda de circulatie, prin blocarea benzii de circulatie pe partea dreapta, sens de mers Buzau - Brasov.Latime partea dreapta carosabil 3.5 m.Restrictie viteza: 30 km/h.",
+	"viz_name": "DN10",
+	"map_zoom": "['78', '0', '94', '790']"
 },
 {
 	"NR. CRT.": "6.18",
@@ -235,31 +235,18 @@
 {
 	"NR. CRT.": "6.19",
 	"Indicativ drum": "DN10",
-	"De la km": "76+768",
-	"Pana la km": "76+944",
-	"De la data": "2026-07-17 08:00:00",
-	"Pana la data": "2026-12-31 23:59:00",
-	"Intre localitatile": "LUNCA JARISTEI (BZ) - LUNCA JARISTEI (BZ)",
-	"Tip lucrare": "Consolidarea partii carosabile DN 10, km 76+768 - 76+944 dreapta, U.A.T. Siriu, executant S.C. MEGA EDIL AG S.R.L.",
-	"Variante de ocolire": "Circulatie alternativa, semaforizata  (circulatie alternanta pe o singura banda de circulatie, prin blocarea benzii de circulatie pe partea dreapta, sens de mers Buzau - Brasov).Latime partea dreapta carosabil  3.5 m.Restrictie viteza: 10 km/h.",
+	"De la km": "72+560",
+	"Pana la km": "72+560",
+	"De la data": "2026-08-26 11:38:00",
+	"Pana la data": "2027-03-31 23:59:00",
+	"Intre localitatile": "LUNCA PRIPORULUI (BZ) -",
+	"Tip lucrare": "Se instituie  restrictii de circulatie la km 72+560 din cauza surparii partii carosabile, insotita de alunecarea parapetului si a taluzului drumului national cauzata de o avarie la conducta magistrala de apa apartinand Companiei de Apa S.A. Buzau",
+	"Variante de ocolire": "Circulatia se va desfasura alternativ, pe o singura banda, dirijata cu semafoare. Se vor impune restrictii de circulatie conform schemei de semnalizare:    - B.4. - Circulatie alternanta dirijata cu semafoare la lucrari pe maxim 1/2 din cale    - B.5. - Prioritate pentru circulatie din sens invers (pe sensul de circulatie Buzau - Brasov)Limitare de viteza - 30 km/hLatime parte carosabila - 3.5 m",
 	"viz_name": "DN10",
-	"map_zoom": "['76', '768', '76', '944']"
+	"map_zoom": "['72', '560', '72', '560']"
 },
 {
 	"NR. CRT.": "6.20",
-	"Indicativ drum": "DN10",
-	"De la km": "43+652",
-	"Pana la km": "46+328",
-	"De la data": "2026-08-10 07:00:00",
-	"Pana la data": "2026-11-24 23:59:00",
-	"Intre localitatile": "CISLAU (BZ) - CISLAU (BZ)",
-	"Tip lucrare": "Se executa lucrari si servicii privind intretinerea periodica a drumurilor nationale - Turnare covoare asfaltice",
-	"Variante de ocolire": "Lucrarile vor fi semnalizate conform anexei nr 4:      schema B2: circulatia alternanta dirijata prin indicatoare, la lucrari pe maximum1/2 din cale      schema B3: circulatia alternanta dirijata cu piloti, la lucrari pe maximum1/2 din cale      schema B10:  semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei      schema B12: semnalizarea unui utilaj care se deplaseaza in timp ce lucreazaLucrarile care vor afecta circulatia pietonilor vor respecta prevederile art. 8 alin. 3 din Regulamentul de aplicare O.U.G. 195/2002 - R.M.C. privind circulatia pe drumurile publice, se vor aranja culoare speciale pentru pietoni, in zona lucrarilor, in afara platformei drumului.",
-	"viz_name": "DN10",
-	"map_zoom": "['43', '652', '46', '328']"
-},
-{
-	"NR. CRT.": "6.21",
 	"Indicativ drum": "DN10",
 	"De la km": "77+862",
 	"Pana la km": "79+735",
@@ -272,20 +259,20 @@
 	"map_zoom": "['77', '862', '79', '735']"
 },
 {
-	"NR. CRT.": "6.22",
+	"NR. CRT.": "6.21",
 	"Indicativ drum": "DN10",
-	"De la km": "72+560",
-	"Pana la km": "72+560",
-	"De la data": "2026-08-26 11:38:00",
-	"Pana la data": "2027-03-31 23:59:00",
-	"Intre localitatile": "LUNCA PRIPORULUI (BZ) -",
-	"Tip lucrare": "Se instituie  restrictii de circulatie la km 72+560 din cauza surparii partii carosabile, insotita de alunecarea parapetului si a taluzului drumului national cauzata de o avarie la conducta magistrala de apa apartinand Companiei de Apa S.A. Buzau",
-	"Variante de ocolire": "Circulatia se va desfasura alternativ, pe o singura banda, dirijata cu semafoare. Se vor impune restrictii de circulatie conform schemei de semnalizare:    - B.4. - Circulatie alternanta dirijata cu semafoare la lucrari pe maxim 1/2 din cale    - B.5. - Prioritate pentru circulatie din sens invers (pe sensul de circulatie Buzau - Brasov)Limitare de viteza - 30 km/hLatime parte carosabila - 3.5 m",
+	"De la km": "76+768",
+	"Pana la km": "76+944",
+	"De la data": "2026-07-17 08:00:00",
+	"Pana la data": "2026-12-31 23:59:00",
+	"Intre localitatile": "LUNCA JARISTEI (BZ) - LUNCA JARISTEI (BZ)",
+	"Tip lucrare": "Consolidarea partii carosabile DN 10, km 76+768 - 76+944 dreapta, U.A.T. Siriu, executant S.C. MEGA EDIL AG S.R.L.",
+	"Variante de ocolire": "Circulatie alternativa, semaforizata  (circulatie alternanta pe o singura banda de circulatie, prin blocarea benzii de circulatie pe partea dreapta, sens de mers Buzau - Brasov).Latime partea dreapta carosabil  3.5 m.Restrictie viteza: 10 km/h.",
 	"viz_name": "DN10",
-	"map_zoom": "['72', '560', '72', '560']"
+	"map_zoom": "['76', '768', '76', '944']"
 },
 {
-	"NR. CRT.": "6.23",
+	"NR. CRT.": "6.22",
 	"Indicativ drum": "DN10",
 	"De la km": "2+100",
 	"Pana la km": "13+890",
@@ -296,6 +283,19 @@
 	"Variante de ocolire": "Circulatia se va desfasura prin devierea alternativa, fara inchiderea traficului rutier.Se aplica scheme de semnalizare pentru:- Lucrari la care circulatia se desfasoara simultan in ambele sensuri.- Circulatia alternanta dirijata prin indicatoare la lucrari pe maxim 1/2 din cale.- Circulatia alternanta dirijata cu piloti la lucrari pe maxim 1/2 din cale.- Semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei.- Semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei.La km 5+498 exista un contor de trafic de tip ISAF iar lucrarile se vor executa manual pentru a evita distrugerea buclelor inductive",
 	"viz_name": "DN10",
 	"map_zoom": "['2', '100', '13', '890']"
+},
+{
+	"NR. CRT.": "6.23",
+	"Indicativ drum": "DN10",
+	"De la km": "43+652",
+	"Pana la km": "46+328",
+	"De la data": "2026-08-10 07:00:00",
+	"Pana la data": "2026-11-24 23:59:00",
+	"Intre localitatile": "CISLAU (BZ) - CISLAU (BZ)",
+	"Tip lucrare": "Se executa lucrari si servicii privind intretinerea periodica a drumurilor nationale - Turnare covoare asfaltice",
+	"Variante de ocolire": "Lucrarile vor fi semnalizate conform anexei nr 4:      schema B2: circulatia alternanta dirijata prin indicatoare, la lucrari pe maximum1/2 din cale      schema B3: circulatia alternanta dirijata cu piloti, la lucrari pe maximum1/2 din cale      schema B10:  semnalizarea punctelor de lucru a caror pozitie se modifica in cursul zilei      schema B12: semnalizarea unui utilaj care se deplaseaza in timp ce lucreazaLucrarile care vor afecta circulatia pietonilor vor respecta prevederile art. 8 alin. 3 din Regulamentul de aplicare O.U.G. 195/2002 - R.M.C. privind circulatia pe drumurile publice, se vor aranja culoare speciale pentru pietoni, in zona lucrarilor, in afara platformei drumului.",
+	"viz_name": "DN10",
+	"map_zoom": "['43', '652', '46', '328']"
 },
 {
 	"NR. CRT.": "6.24",
@@ -339,19 +339,6 @@
 {
 	"NR. CRT.": "6.27",
 	"Indicativ drum": "DN25",
-	"De la km": "48+542",
-	"Pana la km": "48+542",
-	"De la data": "2025-12-29 00:00:00",
-	"Pana la data": "2026-12-31 23:59:00",
-	"Intre localitatile": "PISCU (GL) -",
-	"Tip lucrare": "Se instituie restrictii de circulatie pe podul peste paraul Suhurlui, comuna Piscu, judetul Galati.Masura este luata in urma unei expertize tehnice care a constatat degradari ale structurii si prabusirea consolelor de trotuar.",
-	"Variante de ocolire": "Pentru siguranta tuturor participantilor la trafic, au fost dispuse urmatoarele modificari:- Limitare de tonaj: Maximum 15 tone (inlocuieste vechea restrictie de 30 tone).- Limitare de viteza: Maximum 5 km/h pe sectorul podului.Rute ocolitoare:Rugam conducatorii vehiculelor cu masa mai mare de 15 tone sa respecte indicatoarele de orientare si rutele ocolitoare semnalizate in zona. Indicatoarele de informare au fost montate pe toate arterele care se intersecteaza cu sectorul restrictionat.",
-	"viz_name": "DN25",
-	"map_zoom": "['48', '542', '48', '542']"
-},
-{
-	"NR. CRT.": "6.28",
-	"Indicativ drum": "DN25",
 	"De la km": "47+834",
 	"Pana la km": "48+893",
 	"De la data": "2025-12-05 10:07:00",
@@ -361,6 +348,19 @@
 	"Variante de ocolire": "Latime parte carosabila stanga 4,00 mLatime parte carosabila dreapta 4,00 mSe circula cu limitarea vitezei la max. 5km/h.MTMA  15 toneSe circula deviat pe un singur fir, cu semafor",
 	"viz_name": "DN25",
 	"map_zoom": "['47', '834', '48', '893']"
+},
+{
+	"NR. CRT.": "6.28",
+	"Indicativ drum": "DN25",
+	"De la km": "48+542",
+	"Pana la km": "48+542",
+	"De la data": "2025-12-29 00:00:00",
+	"Pana la data": "2026-12-31 23:59:00",
+	"Intre localitatile": "PISCU (GL) -",
+	"Tip lucrare": "Se instituie restrictii de circulatie pe podul peste paraul Suhurlui, comuna Piscu, judetul Galati.Masura este luata in urma unei expertize tehnice care a constatat degradari ale structurii si prabusirea consolelor de trotuar.",
+	"Variante de ocolire": "Pentru siguranta tuturor participantilor la trafic, au fost dispuse urmatoarele modificari:- Limitare de tonaj: Maximum 15 tone (inlocuieste vechea restrictie de 30 tone).- Limitare de viteza: Maximum 5 km/h pe sectorul podului.Rute ocolitoare:Rugam conducatorii vehiculelor cu masa mai mare de 15 tone sa respecte indicatoarele de orientare si rutele ocolitoare semnalizate in zona. Indicatoarele de informare au fost montate pe toate arterele care se intersecteaza cu sectorul restrictionat.",
+	"viz_name": "DN25",
+	"map_zoom": "['48', '542', '48', '542']"
 },
 {
 	"NR. CRT.": "6.29",
@@ -378,19 +378,6 @@
 {
 	"NR. CRT.": "6.30",
 	"Indicativ drum": "DN2B",
-	"De la km": "47+938",
-	"Pana la km": "49+088",
-	"De la data": "2026-01-26 12:00:00",
-	"Pana la data": "2026-12-15 17:00:00",
-	"Intre localitatile": "FAUREI (BR) - FAUREI (BR)",
-	"Tip lucrare": "Se executa lucrari in zona Pasajului peste CF la Faurei, pe ambele sensuri de mers, pana la aducerea pasajului peste C.F. la starea tehnica normala de exploatare.",
-	"Variante de ocolire": "Se instituie restrictia provizorie de interzicere a circulatiei vehiculelor cu M.T.M.A.> 30t.Devierea circulatiei vehiculelor cu M.T.M.A.> 30t se va face pe ruta: DN2B km 47+938 - DJ203 - DJ 203S - DN2B km 49+088 - in ambele sensuri.",
-	"viz_name": "DN2B",
-	"map_zoom": "['47', '938', '49', '88']"
-},
-{
-	"NR. CRT.": "6.31",
-	"Indicativ drum": "DN2B",
 	"De la km": "124+955",
 	"Pana la km": "125+626",
 	"De la data": "2026-02-16 11:51:00",
@@ -400,6 +387,19 @@
 	"Variante de ocolire": "Stabilirea circulatiei alternante pe tablierul podului peste raul Siret.Sensul prioritar a fost stabilit dinspre Braila catre Sendreni. Se circula cu limitarea vitezei la max. 30km/h.",
 	"viz_name": "DN2B",
 	"map_zoom": "['124', '955', '125', '626']"
+},
+{
+	"NR. CRT.": "6.31",
+	"Indicativ drum": "DN2B",
+	"De la km": "47+938",
+	"Pana la km": "49+088",
+	"De la data": "2026-01-26 12:00:00",
+	"Pana la data": "2026-12-15 17:00:00",
+	"Intre localitatile": "FAUREI (BR) - FAUREI (BR)",
+	"Tip lucrare": "Se executa lucrari in zona Pasajului peste CF la Faurei, pe ambele sensuri de mers, pana la aducerea pasajului peste C.F. la starea tehnica normala de exploatare.",
+	"Variante de ocolire": "Se instituie restrictia provizorie de interzicere a circulatiei vehiculelor cu M.T.M.A.> 30t.Devierea circulatiei vehiculelor cu M.T.M.A.> 30t se va face pe ruta: DN2B km 47+938 - DJ203 - DJ 203S - DN2B km 49+088 - in ambele sensuri.",
+	"viz_name": "DN2B",
+	"map_zoom": "['47', '938', '49', '88']"
 },
 {
 	"NR. CRT.": "6.32",
@@ -586,19 +586,6 @@
 {
 	"NR. CRT.": "6.46",
 	"Indicativ drum": "DN7",
-	"De la km": "179+250",
-	"Pana la km": "239+400",
-	"De la data": "2026-03-17 08:00:00",
-	"Pana la data": "2026-11-15 17:30:00",
-	"Intre localitatile": "RAMNICU VALCEA (VL) - CAINENII MARI (VL)",
-	"Tip lucrare": "- Lucrari efectuate:- Ranguire versant si indepartare blocuri de roca.- Montarea sistemelor de protectie (plase si ancore).- Stabilizarea taluzului drumului.",
-	"Variante de ocolire": "Restrictie temporara de circulatie pentru autovehiculele cu MTMA mai mare de 7,5 tone.Interval de valabilitate 17.03.2026 - 15.11.2026, de Luni pana Sambata, intre orele 08:00 - 17:30.Rute ocolitoare pentru autovehiculele peste 7,5 tone:Bucuresti - A3 - Ploiesti - DN1A - Brasov - DN1 - Vestem.Bucuresti - A1 - Pitesti - DN7 - Ramnicu Valcea - DN67 - Targu Jiu - DN66 - Simeria.Pentru autovehiculele cu MTMA mai mica de 7,5 tone in zona lucrarilor, circulatia rutiera se inchide/deschide pe 1/2 cale in reprize de max. 30 minute, dirijata prin semafoare si piloti de circulatie.",
-	"viz_name": "DN7",
-	"map_zoom": "['179', '250', '239', '400']"
-},
-{
-	"NR. CRT.": "6.47",
-	"Indicativ drum": "DN7",
 	"De la km": "377+200",
 	"Pana la km": "377+200",
 	"De la data": "2026-05-29 12:00:00",
@@ -610,7 +597,7 @@
 	"map_zoom": "['377', '200', '377', '200']"
 },
 {
-	"NR. CRT.": "6.48",
+	"NR. CRT.": "6.47",
 	"Indicativ drum": "DN7",
 	"De la km": "251+600",
 	"Pana la km": "251+750",
@@ -623,7 +610,7 @@
 	"map_zoom": "['251', '600', '251', '750']"
 },
 {
-	"NR. CRT.": "6.49",
+	"NR. CRT.": "6.48",
 	"Indicativ drum": "DN71",
 	"De la km": "0+500",
 	"Pana la km": "0+700",
@@ -636,7 +623,7 @@
 	"map_zoom": "['0', '500', '0', '700']"
 },
 {
-	"NR. CRT.": "6.50",
+	"NR. CRT.": "6.49",
 	"Indicativ drum": "VO_CARANSEBES",
 	"De la km": "0+310",
 	"Pana la km": "12+073",
