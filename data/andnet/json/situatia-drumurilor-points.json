@@ -45,11 +45,12 @@
 	"Judet": "B;",
 	"UAT": "București Sectorul 1;",
 	"Km": "9+720 - 9+820",
-	"Tip Lucrari": "Se desfasoara lucrari pentru constructia liniei de metrou care va asigura legatura cu Aeroportul International Henri Coanda Bucuresti.\nPe durata executarii lucrarilor, circulatia rutiera pe DN1, intre kilometrii 9+720 si 9+820, se va desfasura pe doua benzi din trei, pe sensul Bucuresti-Ploiesti....\n<cite>*Pentru descrierea completa consultati sectiunea drumuri.</cite>",
+	"Tip Lucrari": "Lucrari pentru constructia liniei de metrou care va asigura legatura cu Aeroportul International Henri Coanda Bucuresti.",
+	"Variante de ocolire": "Circulatia rutiera se desfasoara prin sensul giratoriu cu restrictionarea bretelei adiacente DN1, relatia de deplasare catre Ploiesti fiind asigurata prin str. Liviu Librescu",
 	"lat": 26.08059643,
 	"long": 44.51307414,
-	"date_start": "11-05-2026 10:12",
-	"date_end": "30-12-2026 23:59",
+	"date_start": "11-05-2026 10:00",
+	"date_end": "31-12-2026 23:59",
 	"km_start": "9+720",
 	"km_end": "9+820"
 },
@@ -356,6 +357,25 @@
 	"date_end": "15-02-2027 16:00",
 	"km_start": "112+337",
 	"km_end": "112+352"
+},
+{
+	"coords": "[25.65074843, 45.65553809]",
+	"culoare": 1,
+	"raza": 10,
+	"categorie": 1.0,
+	"name": "Eveniment rutier  VOB1",
+	"Judet": "BV;",
+	"UAT": "Brașov;",
+	"Localitati": "BRASOV (BV) - BRASOV (BV)",
+	"Km": "5+400 - 5+410",
+	"Cauza": "Accident rutier in care au fost implicate doua autoturisme. Partea carosabila, curata si uscata. Cauza accidentului, eroare umana.",
+	"Masuri de remediere": "Se circula pe banda 2.",
+	"lat": 25.65074843,
+	"long": 45.65553809,
+	"date_start": "20-11-2026 14:16",
+	"date_end": "20-11-2026 16:59",
+	"km_start": "5+400",
+	"km_end": "5+410"
 },
 {
 	"coords": "[23.63229942, 44.87820053]",
@@ -765,22 +785,6 @@
 	"date_end": "04-12-2026 08:00"
 },
 {
-	"coords": "[21.33451172, 46.10110087]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 1.1,
-	"name": "Lucrari de scurta durata  A1",
-	"Judet": "AR;",
-	"UAT": "Arad;",
-	"Localitati": "ARAD (AR) - ARAD (AR)",
-	"Km": "533+000",
-	"Cauza": "Eveniment rutier - Lucrari- pe A1 km 533 C2 Arad - Inlocuire rosturi de dilatatie se circula pe B2 ,iar BU si B1 sunt restrictionate, se stimeaza reluarea normala a circulatiei in data de 20.11.2026 ora 16:00",
-	"lat": 21.33451172,
-	"long": 46.10110087,
-	"date_start": "02-11-2026 12:00",
-	"date_end": "20-11-2026 16:00"
-},
-{
 	"coords": "[21.35668302, 45.83481594]",
 	"culoare": 2,
 	"raza": 7,
@@ -798,23 +802,6 @@
 	"date_end": "27-11-2026 16:00"
 },
 {
-	"coords": "[21.33450075, 46.10137059]",
-	"culoare": 2,
-	"raza": 7,
-	"categorie": 1.1,
-	"name": "Lucrari de scurta durata  A1",
-	"Judet": "AR;",
-	"UAT": "Arad;",
-	"Localitati": "ARAD (AR) - ARAD (AR)",
-	"Km": "533+034",
-	"Cauza": "Eveniment rutier-Lucrari-pe A1 km 533+034 calea 1 Arad - Inlocuire rosturi de dilatatie -",
-	"Masuri de remediere": "BU si B1 sunt restrictionate, se circula pe B2 , se estimeaza reluarea normala a circulatiei in data de 20.11.2026 ora 16:00",
-	"lat": 21.33450075,
-	"long": 46.10137059,
-	"date_start": "08-11-2026 11:00",
-	"date_end": "20-11-2026 16:00"
-},
-{
 	"coords": "[21.8534326, 45.79781341]",
 	"culoare": 2,
 	"raza": 7,
@@ -824,11 +811,11 @@
 	"UAT": "Balinț;",
 	"Localitati": "TIPARI (TM) - TIPARI (TM)",
 	"Km": "0+000",
-	"Cauza": "Pe calea 1 (bretea iesire), pe raza localitatii TIPARI (TM), se executa lucrari de frezare - asfaltare la partea carosabila . Breteaua de iesire este inchisa iar circulatia rutiera se desfasoara deviat prin localitatea TRAIAN VUIA (TM) pana in data de 20.11.2026, ORA 16:00.",
+	"Cauza": "Pe calea 1 (bretea iesire), pe raza localitatii TIPARI (TM), se executa lucrari de frezare - asfaltare la partea carosabila . Breteaua de iesire este inchisa iar circulatia rutiera se desfasoara deviat prin localitatea TRAIAN VUIA (TM) pana in data de 20.11.2026, ORA 18:00.",
 	"lat": 21.8534326,
 	"long": 45.79781341,
 	"date_start": "10-11-2026 08:15",
-	"date_end": "20-11-2026 16:00"
+	"date_end": "20-11-2026 18:00"
 },
 {
 	"coords": "[23.91394852, 44.30301769]",
@@ -846,5 +833,36 @@
 	"long": 44.30301769,
 	"date_start": "16-11-2026 12:00",
 	"date_end": "30-11-2026 11:59"
+},
+{
+	"coords": "[27.8975017, 44.37016011]",
+	"culoare": 1,
+	"raza": 10,
+	"categorie": 1.0,
+	"name": "Eveniment rutier  A2",
+	"Judet": "IL;",
+	"UAT": "Stelnica;",
+	"Localitati": "FETESTI (IL) - FETESTI (IL)",
+	"Km": "149+000",
+	"Cauza": "Eveniment rutier produs pe A2 , Km 149+000 / Calea 1 / Banda 1 este blocata de catre doua camioane. Cauza eroare umana, coliziune. Carosaboil uscat. Nu sunt raniti.Traficul rutier este blocat pe banda 1, se circula dirijat pe banda 2. La fata locului: personal , Politia, echipaj Cic Fetesti",
+	"lat": 27.8975017,
+	"long": 44.37016011,
+	"date_start": "20-11-2026 08:49",
+	"date_end": "20-11-2026 19:00"
+},
+{
+	"coords": "[28.37622205, 44.13786145]",
+	"culoare": 1,
+	"raza": 10,
+	"categorie": 1.0,
+	"name": "Eveniment rutier  A2",
+	"Judet": "CT;",
+	"UAT": "Ciocîrlia;",
+	"Km": "198+800",
+	"Cauza": "Eveniment rutier - Coliziune intre trei autoturisme - A2 , Km 198+800 / Calea 2 , Banda 2 este blocata, se circula dirijat pe banda 1. Cauza eroare umana. Carosaboil uscat. Nu sunt raniti. La fata locului: personal , Politia, echipaj Cic Valea Dacilor",
+	"lat": 28.37622205,
+	"long": 44.13786145,
+	"date_start": "20-11-2026 16:33",
+	"date_end": "20-11-2026 19:00"
 }
 ]
